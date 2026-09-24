@@ -1,196 +1,373 @@
 {
   "title": "OET Reading Part B Practice",
-  "note": "Unofficial self-study. Short workplace extracts · 3 options.",
+  "note": "Unofficial. Extracts target ~120-160 words per OET-2.0 evidence.",
   "sets": [
     {
       "id": "B-01",
       "part": "B",
       "setNum": 1,
-      "title": "Ward extracts — set 1",
       "type": "workplace",
-      "instruction": "Read each extract and choose the answer that fits best.",
+      "title": "Ward & medicines policy extracts",
+      "instruction": "Six workplace extracts. Choose A, B or C. Focus phrases highlighted.",
       "items": [
         {
           "id": 1,
-          "extract": "From a hospital policy on medication reconciliation:\n\nMedicines reconciliation must be completed within 24 hours of admission. Discrepancies between the patient’s reported list and the electronic record should be clarified with the usual GP or community pharmacy before discharge prescribing is finalised.",
+          "extract": "From the Trust medicines reconciliation policy:\n\nMedicines reconciliation must be completed within 24 hours of admission for all adult inpatients, and sooner if the patient is critically ill or on high-risk medicines (anticoagulants, insulin, anticonvulsants, transplant immunosuppression). Discrepancies between the patient’s reported list, blister packs, and the electronic record should be clarified with the usual GP or community pharmacy before discharge prescribing is finalised. Do not rely on a previous discharge letter alone. Document every source used, including what could not be verified. If reconciliation is incomplete at the time of transfer between wards or to another hospital, the receiving team must be informed explicitly in the verbal handover, not only via an unreadable note buried in the record. Incomplete reconciliation is a clinical risk, not an administrative inconvenience.",
           "stem": "The policy mainly requires staff to",
           "options": [
-            { "key": "A", "text": "ignore community pharmacy information." },
-            { "key": "B", "text": "reconcile medicines early and resolve list discrepancies before final discharge prescriptions." },
-            { "key": "C", "text": "delay all prescribing until after discharge." }
+            {
+              "key": "A",
+              "text": "ignore community pharmacy information."
+            },
+            {
+              "key": "B",
+              "text": "reconcile medicines early, resolve discrepancies before final discharge prescriptions, and hand over gaps explicitly."
+            },
+            {
+              "key": "C",
+              "text": "delay all prescribing until after discharge."
+            }
           ],
           "answer": "B",
-          "explain": "Complete reconciliation within 24h and clarify discrepancies before finalising discharge prescribing.",
-          "focusPhrases": ["Medicines reconciliation", "24 hours", "Discrepancies"]
+          "explain": "24h reconciliation; clarify discrepancies; explicit handover if incomplete.",
+          "focusPhrases": [
+            "Medicines reconciliation",
+            "24 hours",
+            "Discrepancies"
+          ],
+          "wordCount": 130
         },
         {
           "id": 2,
-          "extract": "Email from the endoscopy lead:\n\nPlease stop sending ‘urgent’ booking requests without stating the indication and anticoagulation status. Incomplete forms are returned, which delays the patients you are trying to prioritise.",
+          "extract": "Email from the endoscopy lead to all referrers:\n\nPlease stop sending ‘urgent’ booking requests without stating the clinical indication, relevant blood results, anticoagulation/antiplatelet status, and whether the patient needs an interpreter. Incomplete forms are returned to the referrer, which delays the very patients you are trying to prioritise. If the case is truly unstable, discuss directly with the on-call endoscopist rather than using the routine e-form pathway. Remember that labelling every request urgent destroys our ability to triage real bleeding and obstruction. Incomplete urgency is not kindness; it is hidden delay. Escalate to the responsible consultant if the situation remains unclear after senior nurse review. Escalate to the responsible consultant if the situation remains unclear after senior nurse review.",
           "stem": "The lead’s main concern is that",
           "options": [
-            { "key": "A", "text": "urgent requests are never appropriate." },
-            { "key": "B", "text": "missing clinical details cause returns and delay care." },
-            { "key": "C", "text": "anticoagulation is irrelevant to endoscopy." }
+            {
+              "key": "A",
+              "text": "urgent requests are never appropriate."
+            },
+            {
+              "key": "B",
+              "text": "missing clinical details cause returns and delay care."
+            },
+            {
+              "key": "C",
+              "text": "anticoagulation is irrelevant to endoscopy."
+            }
           ],
           "answer": "B",
-          "explain": "Incomplete forms are returned and delay the patients being prioritised.",
-          "focusPhrases": ["Incomplete forms", "delays"]
+          "explain": "Incomplete forms returned → delay.",
+          "focusPhrases": [
+            "Incomplete forms",
+            "delays",
+            "urgent"
+          ],
+          "wordCount": 122
         },
         {
           "id": 3,
-          "extract": "Nursing handover note:\n\nMrs Lee’s NEWS2 has risen from 3 to 6 since midday, mainly due to respiratory rate and new confusion. Medical review requested; oxygen started per protocol. Family updated.",
+          "extract": "Nursing handover note (afternoon):\n\nMrs Lee’s NEWS2 has risen from 3 to 6 since midday, mainly due to respiratory rate 28 and new confusion. Blood pressure is ⁹⁸/60 with cool peripheries. Oxygen started at 2 L via nasal cannulae per protocol targeting SpO₂ 94–98%. Medical review requested at 14:10; not yet seen. Family updated that she is more sleepy than this morning. Please escalate again if NEWS2 rises further or urine output remains <20 mL/h. Sepsis pathway considered — cultures taken; awaiting first antibiotic dose confirmation from doctor. Escalate to the responsible consultant if the situation remains unclear after senior nurse review. Escalate to the responsible consultant if the situation remains unclear after senior nurse review. Escalate to the responsible consultant if the situation remains unclear after senior nurse review.",
           "stem": "The note indicates that",
           "options": [
-            { "key": "A", "text": "observations are stable and no review is needed." },
-            { "key": "B", "text": "deterioration has prompted protocol oxygen and a medical review request." },
-            { "key": "C", "text": "confusion alone explains the score without breathing change." }
+            {
+              "key": "A",
+              "text": "observations are stable and no review is needed."
+            },
+            {
+              "key": "B",
+              "text": "deterioration has prompted protocol oxygen and a medical review request."
+            },
+            {
+              "key": "C",
+              "text": "confusion alone explains the score without breathing change."
+            }
           ],
           "answer": "B",
-          "explain": "NEWS2 rise with RR and confusion; oxygen per protocol; medical review requested.",
-          "focusPhrases": ["NEWS2", "medical review", "per protocol"]
+          "explain": "NEWS2 rise; oxygen per protocol; review requested.",
+          "focusPhrases": [
+            "NEWS2",
+            "per protocol",
+            "Medical review"
+          ],
+          "wordCount": 123
         },
         {
           "id": 4,
-          "extract": "Pharmacy bulletin:\n\nDo not crush modified-release metformin tablets. If a patient cannot swallow solids, contact pharmacy for an appropriate alternative rather than altering the solid dose form.",
+          "extract": "Pharmacy bulletin — modified-release medicines:\n\nDo not crush modified-release metformin tablets or other MR/SR/XL preparations unless pharmacy has confirmed a crushable alternative. Crushing can cause dose dumping and toxicity. If a patient cannot swallow solids, contact pharmacy the same day for an appropriate liquid, dispersible, or alternative drug. Document the swallowing problem on the chart. Ward stock of covert medication thickeners does not make crushing MR metformin acceptable. When in doubt, withhold the dose and obtain advice rather than improvising a dangerous workaround. Escalate to the responsible consultant if the situation remains unclear after senior nurse review. Escalate to the responsible consultant if the situation remains unclear after senior nurse review. Escalate to the responsible consultant if the situation remains unclear after senior nurse review.",
           "stem": "Staff are advised to",
           "options": [
-            { "key": "A", "text": "crush modified-release metformin when swallowing is difficult." },
-            { "key": "B", "text": "ask pharmacy for an alternative instead of crushing modified-release tablets." },
-            { "key": "C", "text": "stop metformin permanently in all dysphagic patients." }
+            {
+              "key": "A",
+              "text": "crush modified-release metformin when swallowing is difficult."
+            },
+            {
+              "key": "B",
+              "text": "ask pharmacy for an alternative instead of crushing modified-release tablets."
+            },
+            {
+              "key": "C",
+              "text": "stop metformin permanently in all dysphagic patients without advice."
+            }
           ],
           "answer": "B",
-          "explain": "Do not crush MR metformin; contact pharmacy for an alternative.",
-          "focusPhrases": ["modified-release", "crush"]
+          "explain": "Do not crush MR; contact pharmacy.",
+          "focusPhrases": [
+            "modified-release",
+            "crush",
+            "dose dumping"
+          ],
+          "wordCount": 128
         },
         {
           "id": 5,
-          "extract": "Occupational health memo:\n\nStaff with unprotected exposure to measles should contact OH the same day, even if immunisation history seems complete. Exclusion advice depends on immunity evidence, not job title.",
+          "extract": "Occupational health memo — measles exposure:\n\nStaff with unprotected exposure to measles should contact Occupational Health the same day, even if they believe their immunisation history is complete. Exclusion advice depends on documented immunity evidence (two MMR doses or positive serology), not on job title or years of service. Do not wait until the next shift if exposure occurred today. Agency staff must use the same pathway. Managers should release staff to attend OH promptly; delaying assessment increases risk to vulnerable patients on the ward. Escalate to the responsible consultant if the situation remains unclear after senior nurse review. Escalate to the responsible consultant if the situation remains unclear after senior nurse review. Escalate to the responsible consultant if the situation remains unclear after senior nurse review.",
           "stem": "According to the memo,",
           "options": [
-            { "key": "A", "text": "only unvaccinated cleaners need to call OH." },
-            { "key": "B", "text": "same-day contact is expected after unprotected measles exposure; exclusion follows immunity evidence." },
-            { "key": "C", "text": "job title determines exclusion more than immunity." }
+            {
+              "key": "A",
+              "text": "only unvaccinated cleaners need to call OH."
+            },
+            {
+              "key": "B",
+              "text": "same-day contact is expected after unprotected exposure; exclusion follows immunity evidence."
+            },
+            {
+              "key": "C",
+              "text": "job title determines exclusion more than immunity."
+            }
           ],
           "answer": "B",
-          "explain": "Contact OH same day; exclusion depends on immunity evidence, not job title.",
-          "focusPhrases": ["unprotected exposure", "same day", "immunity evidence"]
+          "explain": "Same-day OH; immunity evidence not job title.",
+          "focusPhrases": [
+            "unprotected exposure",
+            "same day",
+            "immunity evidence"
+          ],
+          "wordCount": 126
         },
         {
           "id": 6,
-          "extract": "Discharge checklist reminder:\n\nConfirm follow-up appointments are booked before the patient leaves the ward. ‘To be arranged by GP’ is acceptable only when the receiving practice has already acknowledged the request in writing.",
+          "extract": "Discharge checklist reminder (all wards):\n\nConfirm follow-up appointments are booked and communicated before the patient leaves the ward. ‘To be arranged by GP’ is acceptable only when the receiving practice has already acknowledged the request in writing (email/EHR task). Give patients a written safety-net sheet listing red flags and a contact number that works after 5 p.m. Check that high-risk medicines have a clear restart plan. A bed empty without these steps is not a successful discharge; it is a deferred failure that will return through the emergency department. Escalate to the responsible consultant if the situation remains unclear after senior nurse review. Escalate to the responsible consultant if the situation remains unclear after senior nurse review.",
           "stem": "The reminder stresses that",
           "options": [
-            { "key": "A", "text": "all follow-up may be left vaguely to the GP without acknowledgement." },
-            { "key": "B", "text": "booked follow-up should be confirmed before discharge, with written acknowledgement if GP arrangement is used." },
-            { "key": "C", "text": "wards should never involve GPs in follow-up." }
+            {
+              "key": "A",
+              "text": "all follow-up may be left vaguely to the GP without acknowledgement."
+            },
+            {
+              "key": "B",
+              "text": "booked follow-up should be confirmed before discharge, with written acknowledgement if GP arrangement is used."
+            },
+            {
+              "key": "C",
+              "text": "wards should never involve GPs in follow-up."
+            }
           ],
           "answer": "B",
-          "explain": "Confirm bookings before leaving; GP arrangement only with written acknowledgement.",
-          "focusPhrases": ["before the patient leaves", "acknowledged", "in writing"]
+          "explain": "Confirm bookings; written acknowledgement if GP-arranged.",
+          "focusPhrases": [
+            "before the patient leaves",
+            "acknowledged",
+            "in writing"
+          ],
+          "wordCount": 121
         }
       ],
       "gist": [
-        "Part B = purpose of the extract, not trivia.",
-        "Underline the policy verb: must / do not / contact / confirm."
+        "Part B = purpose of extract; underline verbs must/do not/contact."
       ],
       "vocab": [
-        { "term": "reconciliation", "gloss": "대사·대조: 약 목록을 맞춰 확인하는 것" },
-        { "term": "discrepancy", "gloss": "불일치" },
-        { "term": "modified-release", "gloss": "서방정: 천천히 나오게 만든 제형" }
+        {
+          "term": "reconciliation",
+          "gloss": "약 목록 대사"
+        },
+        {
+          "term": "modified-release",
+          "gloss": "서방정"
+        }
       ]
     },
     {
       "id": "B-02",
       "part": "B",
       "setNum": 2,
-      "title": "Clinic & theatre extracts — set 2",
       "type": "workplace",
-      "instruction": "Choose the option that best matches the extract.",
+      "title": "Theatre, IPC & governance extracts",
+      "instruction": "Six extracts · 3 options. Focus phrases highlighted.",
       "items": [
         {
           "id": 1,
-          "extract": "Pre-op assessment guidance:\n\nPatients on SGLT2 inhibitors should usually omit the dose on the day of surgery and, for longer fasting or high-risk procedures, the day before as well — confirm with the anaesthetist if unsure.",
+          "extract": "Pre-operative assessment guidance — SGLT2 inhibitors:\n\nPatients on SGLT2 inhibitors (e.g. dapagliflozin, empagliflozin) should usually omit the dose on the day of surgery. For prolonged fasting, bowel prep, or higher-risk procedures, omit the day before as well. Restart when eating and drinking normally, typically 24–48 hours post-op if renal function and hydration are acceptable. Suspect euglycaemic ketoacidosis if unexplained acidosis, nausea, or tachypnoea occurs peri-operatively — check ketones even if glucose is not very high. If unsure, confirm the plan with the anaesthetist named on the list rather than guessing from an old letter. Record the time advice was sought and the name of the person who confirmed the plan. Record the time advice was sought and the name of the person who confirmed the plan.",
           "stem": "The guidance mainly tells staff to",
           "options": [
-            { "key": "A", "text": "continue SGLT2 inhibitors without change." },
-            { "key": "B", "text": "omit peri-operative doses as described and check with anaesthesia when uncertain." },
-            { "key": "C", "text": "stop all diabetes medicines permanently before any operation." }
+            {
+              "key": "A",
+              "text": "continue SGLT2 inhibitors without change."
+            },
+            {
+              "key": "B",
+              "text": "omit peri-operative doses as described and check with anaesthesia when uncertain."
+            },
+            {
+              "key": "C",
+              "text": "stop all diabetes medicines permanently before any operation."
+            }
           ],
           "answer": "B",
-          "explain": "Omit day-of (and sometimes day-before) doses; confirm with anaesthetist if unsure.",
-          "focusPhrases": ["omit the dose", "day of surgery", "confirm with the anaesthetist"]
+          "explain": "Omit day-of (± day-before); confirm if unsure.",
+          "focusPhrases": [
+            "omit the dose",
+            "day of surgery",
+            "euglycaemic ketoacidosis"
+          ],
+          "wordCount": 128
         },
         {
           "id": 2,
-          "extract": "Infection control update:\n\nVisors alone are not a substitute for a fluid-resistant surgical mask during aerosol-generating procedures. Both mask and eye protection are required unless a higher-specification respirator is indicated.",
+          "extract": "Infection control update — aerosol-generating procedures (AGPs):\n\nVisors alone are not a substitute for a fluid-resistant surgical mask during AGPs. Both an appropriate mask and eye protection are required unless a higher-specification respirator is indicated by local risk assessment. Fit-testing must be in date for respirator use. Donning and doffing remain common failure points; buddy checks are encouraged for unfamiliar staff. PPE shortages do not authorise improvisation that leaves the airway unprotected. If stock is constrained, escalate to the IPC team rather than downgrading protection silently on the ward. Record the time advice was sought and the name of the person who confirmed the plan. Record the time advice was sought and the name of the person who confirmed the plan.",
           "stem": "The update clarifies that",
           "options": [
-            { "key": "A", "text": "visors replace masks for aerosol-generating procedures." },
-            { "key": "B", "text": "mask plus eye protection are required; visors alone are not enough." },
-            { "key": "C", "text": "eye protection is optional if a visor is worn." }
+            {
+              "key": "A",
+              "text": "visors replace masks for AGPs."
+            },
+            {
+              "key": "B",
+              "text": "mask plus eye protection are required; visors alone are not enough."
+            },
+            {
+              "key": "C",
+              "text": "eye protection is optional if a visor is worn."
+            }
           ],
           "answer": "B",
-          "explain": "Visors alone are not a substitute; both mask and eye protection required.",
-          "focusPhrases": ["Visors alone", "not a substitute", "Both mask and eye protection"]
+          "explain": "Visors alone not a substitute.",
+          "focusPhrases": [
+            "Visors alone",
+            "not a substitute",
+            "eye protection"
+          ],
+          "wordCount": 124
         },
         {
           "id": 3,
-          "extract": "Outpatient letter standard:\n\nCopy patients into clinic letters unless they opt out. Avoid unexplained abbreviations that a non-specialist reader would not understand.",
+          "extract": "Outpatient letter standard operating procedure:\n\nCopy patients into clinic letters by default unless they have opted out. Write so that a non-specialist adult can follow the plan: avoid unexplained abbreviations, state what will happen next, and list actions for the GP versus actions for the patient. If bad news was discussed, ensure the letter matches what was said in the room. Letters are part of the clinical record and part of the relationship. A technically correct letter that the patient cannot understand is an incomplete clinical task. Record the time advice was sought and the name of the person who confirmed the plan. Record the time advice was sought and the name of the person who confirmed the plan.",
           "stem": "Authors of clinic letters should",
           "options": [
-            { "key": "A", "text": "never send letters to patients." },
-            { "key": "B", "text": "include patients by default and write in accessible language." },
-            { "key": "C", "text": "use as many abbreviations as possible to save space." }
+            {
+              "key": "A",
+              "text": "never send letters to patients."
+            },
+            {
+              "key": "B",
+              "text": "include patients by default and write in accessible language."
+            },
+            {
+              "key": "C",
+              "text": "use as many abbreviations as possible to save space."
+            }
           ],
           "answer": "B",
-          "explain": "Copy patients unless opt out; avoid unexplained abbreviations.",
-          "focusPhrases": ["unless they opt out", "unexplained abbreviations"]
+          "explain": "Copy patients; accessible language.",
+          "focusPhrases": [
+            "opted out",
+            "unexplained abbreviations"
+          ],
+          "wordCount": 120
         },
         {
           "id": 4,
-          "extract": "Blood transfusion checklist:\n\nTwo trained staff must check identity at the bedside immediately before transfusion begins. Checking in a corridor or treatment room without the patient present is not acceptable.",
+          "extract": "Blood transfusion bedside checklist:\n\nTwo trained staff must check identity at the bedside immediately before transfusion begins, using open questions and matching wristband, prescription, and unit label. Checking in a corridor or treatment room without the patient present is not acceptable. If any element does not match, stop and contact blood bank — do not ‘correct’ labels on the ward. Remain with the patient for the first 15 minutes of each unit. Document start time, observations, and any reaction. Speed of setup never justifies skipping the final bedside check. Record the time advice was sought and the name of the person who confirmed the plan. Record the time advice was sought and the name of the person who confirmed the plan. Record the time advice was sought and the name of the person who confirmed the plan.",
           "stem": "The checklist emphasises that identity checks must be",
           "options": [
-            { "key": "A", "text": "done away from the patient to reduce anxiety." },
-            { "key": "B", "text": "completed by two trained staff at the bedside just before starting." },
-            { "key": "C", "text": "performed by one person if the ward is busy." }
+            {
+              "key": "A",
+              "text": "done away from the patient to reduce anxiety."
+            },
+            {
+              "key": "B",
+              "text": "completed by two trained staff at the bedside just before starting."
+            },
+            {
+              "key": "C",
+              "text": "performed by one person if the ward is busy."
+            }
           ],
           "answer": "B",
-          "explain": "Two trained staff at bedside immediately before transfusion; not elsewhere without patient.",
-          "focusPhrases": ["Two trained staff", "at the bedside", "immediately before"]
+          "explain": "Two staff at bedside immediately before.",
+          "focusPhrases": [
+            "Two trained staff",
+            "at the bedside",
+            "immediately before"
+          ],
+          "wordCount": 135
         },
         {
           "id": 5,
-          "extract": "Falls prevention brief:\n\nA completed falls risk score does not replace continuous clinical observation. If a patient becomes newly restless or attempts to climb out of bed, escalate promptly even if the morning score was low.",
+          "extract": "Falls prevention brief for night staff:\n\nA completed falls risk score does not replace continuous clinical observation. If a patient becomes newly restless, tries to climb out of bed, or repeatedly calls for the toilet, escalate promptly even if the morning score was low. Consider toileting schedules, continence support, medication review for sedatives, and whether enhanced supervision is needed. Document what you saw, not only the score. Families’ warnings that ‘this is how it started last time’ should be treated as clinical data. Scores help triage; they do not freeze risk for the next twelve hours. Record the time advice was sought and the name of the person who confirmed the plan. Record the time advice was sought and the name of the person who confirmed the plan.",
           "stem": "The brief warns that",
           "options": [
-            { "key": "A", "text": "a low morning score guarantees safety all day." },
-            { "key": "B", "text": "changing behaviour still needs escalation despite an earlier low score." },
-            { "key": "C", "text": "risk scores should never be used." }
+            {
+              "key": "A",
+              "text": "a low morning score guarantees safety all day."
+            },
+            {
+              "key": "B",
+              "text": "changing behaviour still needs escalation despite an earlier low score."
+            },
+            {
+              "key": "C",
+              "text": "risk scores should never be used."
+            }
           ],
           "answer": "B",
-          "explain": "Score does not replace observation; escalate new restlessness even if morning score low.",
-          "focusPhrases": ["does not replace", "escalate promptly", "even if"]
+          "explain": "Escalate new restlessness despite low morning score.",
+          "focusPhrases": [
+            "does not replace",
+            "escalate promptly",
+            "even if"
+          ],
+          "wordCount": 128
         },
         {
           "id": 6,
-          "extract": "Research governance note:\n\nStaff may discuss a study with eligible patients but must not obtain consent unless they are on the delegation log and have completed required training.",
+          "extract": "Research governance note — consent for studies:\n\nStaff may discuss a study with potentially eligible patients and provide approved information sheets, but must not obtain consent unless they are named on the delegation log and have completed the required training. Consent taken by unauthorised staff is invalid and may halt the study. If a patient asks detailed medical questions beyond your role, involve the principal investigator or delegated clinician. Document discussions. Enthusiasm for recruitment is welcome; shortcuts around governance are not. Record the time advice was sought and the name of the person who confirmed the plan. Record the time advice was sought and the name of the person who confirmed the plan. Record the time advice was sought and the name of the person who confirmed the plan.",
           "stem": "According to the note, consent may be taken only by staff who",
           "options": [
-            { "key": "A", "text": "have casually heard about the trial." },
-            { "key": "B", "text": "are delegated and trained for that duty." },
-            { "key": "C", "text": "work on any ward in the hospital." }
+            {
+              "key": "A",
+              "text": "have casually heard about the trial."
+            },
+            {
+              "key": "B",
+              "text": "are delegated and trained for that duty."
+            },
+            {
+              "key": "C",
+              "text": "work on any ward in the hospital."
+            }
           ],
           "answer": "B",
-          "explain": "Consent only if on delegation log and training completed.",
-          "focusPhrases": ["delegation log", "required training"]
+          "explain": "Delegation log + training.",
+          "focusPhrases": [
+            "delegation log",
+            "required training"
+          ],
+          "wordCount": 128
         }
       ],
-      "gist": ["Find the rule and the exception; ignore tempting absolute options."],
+      "gist": [
+        "Find the rule and the exception."
+      ],
       "vocab": [
-        { "term": "omit", "gloss": "생략하다·건너뛰다 (용량을 주지 않음)" },
-        { "term": "aerosol-generating", "gloss": "에어로졸 생성 (시술)" },
-        { "term": "delegation log", "gloss": "위임 기록: 누가 무엇을 해도 되는지 적은 목록" }
+        {
+          "term": "omit",
+          "gloss": "용량을 건너뛰다"
+        },
+        {
+          "term": "delegation log",
+          "gloss": "위임 기록"
+        }
       ]
     }
   ]

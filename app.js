@@ -89,21 +89,41 @@ function escapeRegExp(s) {
 }
 
 function getFocusPhrases(set, extra = []) {
-  const fromSet = set.focusPhrases || [];
+  const fromSet = [
+    ...(set.focusPhrases || []),
+    ...((set.texts || []).flatMap((t) => t.focusPhrases || [])),
+  ];
   const fromQ = [];
-  const stems = (set.questions || []).map((q) => q.stem);
+  const stems = [];
+  for (const q of set.questions || []) stems.push(q.stem);
+  for (const t of set.texts || []) {
+    for (const q of t.questions || []) stems.push(q.stem);
+  }
   if (set.items) {
     for (const it of set.items) {
       stems.push(it.stem);
       if (it.focusPhrases) fromQ.push(...it.focusPhrases);
     }
   }
-  const quoteRe = /[‘’'"]([^‘’'"]+)[‘’'"]/g;
+  // straight + curly quotes in stems
   for (const stem of stems) {
-    let m;
-    while ((m = quoteRe.exec(stem || ""))) {
+    const s = stem || "";
+    // paired quotes
+    for (const m of s.matchAll(/[''`‘’‛′]([^'`‘’‛′]+)[''`‘’‛′]/g)) {
       fromQ.push(m[1].trim());
     }
+    for (const m of s.matchAll(/["“”„]([^"“”„]+)["“”„]/g)) {
+      fromQ.push(m[1].trim());
+    }
+    // What does X mean/refer
+    let m = s.match(
+      /what does\s+['"`‘’“”]?([^'"`‘’””?]+?)['"`‘’“”]?\s+(?:mean|refer)/i
+    );
+    if (m) fromQ.push(m[1].trim());
+    m = s.match(
+      /['"`‘’“”]([^'"`‘’””]+)['"`‘’“”]\s+(?:in the text|refers|mean)/i
+    );
+    if (m) fromQ.push(m[1].trim());
   }
   const all = [...fromSet, ...fromQ, ...extra].filter(
     (t) => t && t.length >= 2 && t.length <= 80
@@ -121,12 +141,29 @@ function getFocusPhrases(set, extra = []) {
 
 function highlightFocus(text, phrases) {
   let html = escapeHtml(text);
+  const slots = [];
   for (const ph of phrases) {
+    if (!ph) continue;
     const esc = escapeHtml(ph);
-    const re = new RegExp(escapeRegExp(esc), "i");
-    html = html.replace(re, (m) => `<strong class="focus"><u>${m}</u></strong>`);
+    if (!esc) continue;
+    const re = new RegExp(escapeRegExp(esc), "gi");
+    html = html.replace(re, (m) => {
+      // skip if already inside a mark placeholder region — simple: always slot
+      const i = slots.length;
+      slots.push(
+        `<mark class="focus"><strong><u>${m}</u></strong></mark>`
+      );
+      return `\uE000${i}\uE001`;
+    });
   }
-  return html;
+  return html.replace(/\uE000(\d+)\uE001/g, (_, i) => slots[Number(i)]);
+}
+
+function focusChipBar(phrases) {
+  if (!phrases?.length) return "";
+  return `<div class="focus-bar"><span class="focus-bar-label">Focus</span>${phrases
+    .map((p) => `<span class="focus-chip">${escapeHtml(p)}</span>`)
+    .join("")}</div>`;
 }
 
 function normalizeNewlines(text) {
@@ -169,7 +206,7 @@ function renderHome() {
   const parts = [
     { id: "A", label: "Part A", blurb: "짧은 텍스트 스캔 · 매칭" },
     { id: "B", label: "Part B", blurb: "직장 문서 발췌 · 3지선다" },
-    { id: "C", label: "Part C", blurb: "긴 지문 · 태도/지시/의미" },
+    { id: "C", label: "Part C", blurb: "긴 지문 2개 · 16문항 (실전형)" },
   ];
   let html = `
     <div class="card">
@@ -203,8 +240,15 @@ function renderHome() {
     const nQ =
       s.questions?.length ||
       s.items?.length ||
+      (s.texts || []).reduce((n, t) => n + (t.questions?.length || 0), 0) ||
       0;
     const pack = s.pack ? `${s.pack} · ` : "";
+    const wcHint =
+      s.type === "dual-text"
+        ? ` · ~${(s.texts || [])
+            .map((t) => t.wordCount || "?")
+            .join("+")} words`
+        : "";
     const prog = progress[s.id];
     const status = prog?.done
       ? `<span class="status done">완료 ${prog.score}/${prog.total}</span>`
@@ -219,7 +263,7 @@ function renderHome() {
           ${status}
         </div>
         <strong>${escapeHtml(s.title)}</strong>
-        <span>${nQ} questions</span>
+        <span>${nQ} questions${wcHint}</span>
       </button>`;
   }
   return html;
@@ -260,20 +304,22 @@ function renderSet() {
 }
 
 function renderPassageView(s) {
-  const phrases = getFocusPhrases(s);
   let body = "";
   if (s.part === "A") {
-    body = (s.texts || [])
-      .map(
-        (t) => `
+    const phrases = getFocusPhrases(s);
+    body =
+      focusChipBar(phrases) +
+      (s.texts || [])
+        .map(
+          (t) => `
       <div class="text-block">
         <div class="text-label">Text ${escapeHtml(t.label)} — ${escapeHtml(
-          t.heading
-        )}</div>
+            t.heading
+          )}</div>
         <div class="text-body">${highlightExtract(t.body, phrases)}</div>
       </div>`
-      )
-      .join("");
+        )
+        .join("");
   } else if (s.part === "B") {
     body = (s.items || [])
       .map((it) => {
@@ -281,12 +327,36 @@ function renderPassageView(s) {
         return `
         <div class="text-block">
           <div class="text-label">Extract ${it.id}</div>
+          ${focusChipBar(ph)}
           <p>${highlightExtract(it.extract, ph)}</p>
         </div>`;
       })
       .join("");
+  } else if (s.texts?.length) {
+    // dual-text Part C
+    body = s.texts
+      .map((t) => {
+        const ph = getFocusPhrases(
+          { questions: t.questions, focusPhrases: t.focusPhrases },
+          t.focusPhrases || []
+        );
+        return `
+        <div class="text-block partc-text">
+          <div class="text-label">${escapeHtml(t.label)} — ${escapeHtml(
+            t.title
+          )} <span class="wc">${t.wordCount || ""} words</span></div>
+          ${focusChipBar(ph)}
+          <div class="passage">${(t.paragraphs || [])
+            .map((p) => `<p>${highlightFocus(p, ph)}</p>`)
+            .join("")}</div>
+        </div>`;
+      })
+      .join("");
   } else {
-    body = `<div class="passage" id="passageBox">${(s.paragraphs || [])
+    const phrases = getFocusPhrases(s);
+    body = `${focusChipBar(phrases)}<div class="passage" id="passageInner">${(
+      s.paragraphs || []
+    )
       .map((p) => `<p>${highlightFocus(p, phrases)}</p>`)
       .join("")}</div>`;
   }
@@ -294,7 +364,7 @@ function renderPassageView(s) {
   return `
     <p class="hint">${escapeHtml(
       s.instruction ||
-        "문제에서 묻는 표현은 굵게+밑줄. 모르는 단어는 선택 후 ‘하이라이트 저장’."
+        "노란 강조 = 문제에서 묻는 focus 표현. 모르는 단어는 선택 후 ‘하이라이트 저장’."
     )}</p>
     <div class="card" id="passageBox">${body}</div>
     <div class="actions">
@@ -310,6 +380,11 @@ function renderQuestionsView(s, showResult) {
       <div class="section-hint"><strong>Q8–15</strong> Word / short phrase from the texts</div>
       <div class="section-hint"><strong>Q16–20</strong> Gap fill — word / short phrase</div>`;
   }
+  if (s.part === "C" && s.texts?.length && !showResult) {
+    sectionHints = `
+      <div class="section-hint"><strong>Text 1</strong> Questions 1–8</div>
+      <div class="section-hint"><strong>Text 2</strong> Questions 9–16</div>`;
+  }
   let qsHtml = "";
   if (s.part === "B") {
     qsHtml = (s.items || [])
@@ -324,9 +399,31 @@ function renderQuestionsView(s, showResult) {
         };
         return `
           <div class="b-item">
-            <div class="extract-mini">${highlightExtract(it.extract, ph)}</div>
+            <div class="extract-mini">${focusChipBar(ph)}${highlightExtract(
+              it.extract,
+              ph
+            )}</div>
             ${renderQuestion(q, showResult)}
           </div>`;
+      })
+      .join("");
+  } else if (s.texts?.length) {
+    qsHtml = s.texts
+      .map((t, idx) => {
+        const offset = (s.texts || [])
+          .slice(0, idx)
+          .reduce((n, x) => n + (x.questions?.length || 0), 0);
+        const block = (t.questions || [])
+          .map((q) =>
+            renderQuestion(
+              { ...q, id: q.id + offset, _label: t.label },
+              showResult
+            )
+          )
+          .join("");
+        return `<h2 style="margin-top:14px">${escapeHtml(t.label)} — ${escapeHtml(
+          t.title
+        )}</h2>${block}`;
       })
       .join("");
   } else {
@@ -528,7 +625,20 @@ function questionList(s) {
     return (s.items || []).map((it) => ({
       id: it.id,
       answer: it.answer,
+      type: "mcq",
+      options: it.options,
     }));
+  }
+  if (s.texts?.length) {
+    const out = [];
+    let offset = 0;
+    for (const t of s.texts) {
+      for (const q of t.questions || []) {
+        out.push({ ...q, id: q.id + offset });
+      }
+      offset += (t.questions || []).length;
+    }
+    return out;
   }
   return s.questions || [];
 }
@@ -764,7 +874,7 @@ async function init() {
   };
 
   const [cRes, aRes, bRes] = await Promise.all([
-    fetch("data/sets.json"),
+    fetch("data/partC.json"),
     fetch("data/partA.json"),
     fetch("data/partB.json"),
   ]);
@@ -775,12 +885,10 @@ async function init() {
   const sets = [];
   for (const s of partA.sets || []) sets.push({ ...s, part: "A" });
   for (const s of partB.sets || []) sets.push({ ...s, part: "B" });
-  for (const s of partC.sets || []) {
-    sets.push({ ...s, part: "C" });
-  }
+  for (const s of partC.sets || []) sets.push({ ...s, part: "C" });
 
   STATE.data = {
-    note: "Unofficial self-study material. Not affiliated with OET.",
+    note: "Unofficial self-study. Part C dual texts ~700+ words; Part B extracts ~120+ words (OET-2.0 length targets). Not affiliated with OET.",
     sets,
   };
   render();

@@ -204,12 +204,57 @@ h3 { font-size: 1rem; color: var(--muted); font-weight: 600; }
   padding: 0 2px;
 }
 
-strong.focus, .focus {
+strong.focus, .focus, mark.focus {
   font-weight: 800;
   color: #0b4f44;
-  background: #fff3bf;
-  padding: 0 2px;
+  background: #ffe566;
+  padding: 0 3px;
   border-radius: 3px;
+  text-decoration: underline;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+mark.focus {
+  font-style: normal;
+}
+
+.focus-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+  margin: 0 0 12px;
+  padding: 8px 10px;
+  background: #fff8d6;
+  border: 1px solid #f0d56a;
+  border-radius: 12px;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+.focus-bar-label {
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #7a5b00;
+  margin-right: 4px;
+}
+.focus-chip {
+  font-size: 0.78rem;
+  font-weight: 700;
+  background: #ffe566;
+  border: 1px solid #e0b000;
+  border-radius: 999px;
+  padding: 3px 8px;
+  text-decoration: underline;
+}
+.wc {
+  font-weight: 600;
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.partc-text {
+  margin-bottom: 22px;
 }
 
 .part-tabs {
