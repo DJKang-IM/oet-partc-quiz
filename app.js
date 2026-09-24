@@ -1,6 +1,7 @@
 const STATE = {
   data: null,
-  view: "home", // home | set | result | vocab
+  view: "home", // home | set | vocab
+  part: "C", // A | B | C
   setId: null,
   tab: "passage", // passage | questions | review
   answers: {},
@@ -47,115 +48,284 @@ function setTitle(t) {
   $("topTitle").textContent = t;
 }
 
+function escapeHtml(s) {
+  return String(s || "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;");
+}
+
+function escapeRegExp(s) {
+  return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function getFocusPhrases(set, extra = []) {
+  const fromSet = set.focusPhrases || [];
+  const fromQ = [];
+  const stems = (set.questions || []).map((q) => q.stem);
+  if (set.items) {
+    for (const it of set.items) {
+      stems.push(it.stem);
+      if (it.focusPhrases) fromQ.push(...it.focusPhrases);
+    }
+  }
+  const quoteRe = /[‘’'"]([^‘’'"]+)[‘’'"]/g;
+  for (const stem of stems) {
+    let m;
+    while ((m = quoteRe.exec(stem || ""))) {
+      fromQ.push(m[1].trim());
+    }
+  }
+  const all = [...fromSet, ...fromQ, ...extra].filter(
+    (t) => t && t.length >= 2 && t.length <= 80
+  );
+  const seen = new Set();
+  const out = [];
+  for (const t of all) {
+    const k = t.toLowerCase();
+    if (seen.has(k)) continue;
+    seen.add(k);
+    out.push(t);
+  }
+  return out.sort((a, b) => b.length - a.length);
+}
+
+function highlightFocus(text, phrases) {
+  let html = escapeHtml(text);
+  for (const ph of phrases) {
+    const esc = escapeHtml(ph);
+    const re = new RegExp(escapeRegExp(esc), "i");
+    html = html.replace(re, (m) => `<strong class="focus"><u>${m}</u></strong>`);
+  }
+  return html;
+}
+
+function normalizeNewlines(text) {
+  return escapeHtml(text).replaceAll("\n", "<br/>");
+}
+
+function highlightExtract(text, phrases) {
+  // highlight on plain text then convert newlines
+  const parts = String(text || "").split("\n");
+  return parts.map((line) => highlightFocus(line, phrases)).join("<br/>");
+}
+
 function render() {
   const back = $("btnBack");
   back.hidden = STATE.view === "home";
   const main = $("main");
   if (STATE.view === "home") {
-    setTitle("OET Part C");
+    setTitle("OET Reading");
     main.innerHTML = renderHome();
+    bindHome();
   } else if (STATE.view === "vocab") {
     setTitle("단어장");
     main.innerHTML = renderVocab();
     bindVocab();
   } else if (STATE.view === "set") {
     const s = currentSet();
-    setTitle(s ? `Set ${String(s.setNum).padStart(2, "0")}` : "Set");
+    setTitle(
+      s ? `Part ${s.part} · ${String(s.setNum).padStart(2, "0")}` : "Set"
+    );
     main.innerHTML = renderSet();
     bindSet();
-  } else if (STATE.view === "result") {
-    setTitle("결과");
-    main.innerHTML = renderResult();
-    bindResult();
   }
 }
 
+function setsForPart(part) {
+  return STATE.data.sets.filter((s) => s.part === part);
+}
+
 function renderHome() {
-  const packs = {};
-  for (const s of STATE.data.sets) {
-    (packs[s.pack] ||= []).push(s);
-  }
+  const parts = [
+    { id: "A", label: "Part A", blurb: "짧은 텍스트 스캔 · 매칭" },
+    { id: "B", label: "Part B", blurb: "직장 문서 발췌 · 3지선다" },
+    { id: "C", label: "Part C", blurb: "긴 지문 · 태도/지시/의미" },
+  ];
   let html = `
     <div class="card">
-      <h1>Part C Practice</h1>
-      <p class="lead">${STATE.data.note}<br/>지문에서 모르는 단어를 드래그/길게 눌러 하이라이트 → 단어장에서 뜻 확인.</p>
+      <h1>OET Reading Practice</h1>
+      <p class="lead">${STATE.data.note}<br/>문제에서 묻는 표현은 지문에 <strong class="focus"><u>굵게+밑줄</u></strong>로 표시됩니다. 모르는 단어는 선택 후 하이라이트 저장 → 단어장.</p>
+    </div>
+    <div class="part-tabs">
+      ${parts
+        .map(
+          (p) => `
+        <button type="button" class="part-tab ${
+          STATE.part === p.id ? "active" : ""
+        }" data-part="${p.id}">
+          <strong>${p.label}</strong>
+          <span>${p.blurb}</span>
+        </button>`
+        )
+        .join("")}
     </div>`;
-  for (const [pack, sets] of Object.entries(packs)) {
-    html += `<h3 style="margin:18px 4px 8px">${pack} pack</h3>`;
-    for (const s of sets) {
-      html += `
-        <button class="set-btn" data-set="${s.id}">
-          <span class="pack-label">${pack} · Set ${String(s.setNum).padStart(2, "0")}</span>
-          <strong>${escapeHtml(s.title)}</strong>
-          <span>${s.questions.length} questions</span>
-        </button>`;
-    }
+
+  const list = setsForPart(STATE.part);
+  if (!list.length) {
+    html += `<div class="card"><p class="empty">이 Part 세트가 아직 없습니다.</p></div>`;
+    return html;
+  }
+
+  html += `<h3 style="margin:8px 4px 10px">Part ${STATE.part} · ${list.length} sets</h3>`;
+  for (const s of list) {
+    const nQ =
+      s.questions?.length ||
+      s.items?.length ||
+      0;
+    const pack = s.pack ? `${s.pack} · ` : "";
+    html += `
+      <button class="set-btn" data-set="${s.id}">
+        <span class="pack-label">${pack}Set ${String(s.setNum).padStart(
+      2,
+      "0"
+    )} · ${s.type || "practice"}</span>
+        <strong>${escapeHtml(s.title)}</strong>
+        <span>${nQ} questions</span>
+      </button>`;
   }
   return html;
+}
+
+function passageLabel(s) {
+  if (s.part === "A") return "텍스트";
+  if (s.part === "B") return "발췌";
+  return "지문";
 }
 
 function renderSet() {
   const s = currentSet();
   if (!s) return `<p class="empty">세트를 찾을 수 없습니다.</p>`;
+
   const tabs = `
     <div class="tabs">
-      <button class="tab ${STATE.tab === "passage" ? "active" : ""}" data-tab="passage">지문</button>
+      <button class="tab ${STATE.tab === "passage" ? "active" : ""}" data-tab="passage">${passageLabel(
+        s
+      )}</button>
       <button class="tab ${STATE.tab === "questions" ? "active" : ""}" data-tab="questions">문제</button>
-      ${STATE.graded ? `<button class="tab ${STATE.tab === "review" ? "active" : ""}" data-tab="review">해설</button>` : ""}
+      ${
+        STATE.graded
+          ? `<button class="tab ${
+              STATE.tab === "review" ? "active" : ""
+            }" data-tab="review">해설</button>`
+          : ""
+      }
     </div>`;
 
   if (STATE.tab === "passage") {
-    return (
-      tabs +
-      `<p class="hint">모르는 단어/구를 선택한 뒤 뜨는 ‘하이라이트’를 누르세요. (Safari에서 선택 후 팝업)</p>
-       <div class="card passage" id="passageBox">${s.paragraphs
-         .map((p) => `<p>${linkifyPassage(p, s.id)}</p>`)
-         .join("")}</div>
-       <div class="actions">
-         <button class="btn primary" id="goQuestions">문제로 이동</button>
-       </div>`
-    );
+    return tabs + renderPassageView(s);
   }
-
   if (STATE.tab === "questions") {
-    return (
-      tabs +
-      `<div class="card">${s.questions.map((q) => renderQuestion(q, false)).join("")}</div>
-       <div class="actions">
-         <button class="btn primary" id="submitBtn">제출 · 채점</button>
-       </div>`
-    );
+    return tabs + renderQuestionsView(s, false);
+  }
+  return tabs + renderQuestionsView(s, true);
+}
+
+function renderPassageView(s) {
+  const phrases = getFocusPhrases(s);
+  let body = "";
+  if (s.part === "A") {
+    body = (s.texts || [])
+      .map(
+        (t) => `
+      <div class="text-block">
+        <div class="text-label">Text ${escapeHtml(t.label)} — ${escapeHtml(
+          t.heading
+        )}</div>
+        <p>${highlightFocus(t.body, phrases)}</p>
+      </div>`
+      )
+      .join("");
+  } else if (s.part === "B") {
+    body = (s.items || [])
+      .map((it) => {
+        const ph = getFocusPhrases(s, it.focusPhrases || []);
+        return `
+        <div class="text-block">
+          <div class="text-label">Extract ${it.id}</div>
+          <p>${highlightExtract(it.extract, ph)}</p>
+        </div>`;
+      })
+      .join("");
+  } else {
+    body = `<div class="passage" id="passageBox">${(s.paragraphs || [])
+      .map((p) => `<p>${highlightFocus(p, phrases)}</p>`)
+      .join("")}</div>`;
   }
 
-  // review
-  return (
-    tabs +
-    `<div class="card">
+  return `
+    <p class="hint">${escapeHtml(
+      s.instruction ||
+        "문제에서 묻는 표현은 굵게+밑줄. 모르는 단어는 선택 후 ‘하이라이트 저장’."
+    )}</p>
+    <div class="card" id="passageBox">${body}</div>
+    <div class="actions">
+      <button class="btn primary" id="goQuestions">문제로 이동</button>
+    </div>`;
+}
+
+function renderQuestionsView(s, showResult) {
+  let qsHtml = "";
+  if (s.part === "B") {
+    qsHtml = (s.items || [])
+      .map((it) => {
+        const ph = getFocusPhrases(s, it.focusPhrases || []);
+        const q = {
+          id: it.id,
+          stem: it.stem,
+          options: it.options,
+          answer: it.answer,
+          explain: it.explain,
+        };
+        return `
+          <div class="b-item">
+            <div class="extract-mini">${highlightExtract(it.extract, ph)}</div>
+            ${renderQuestion(q, showResult)}
+          </div>`;
+      })
+      .join("");
+  } else {
+    qsHtml = (s.questions || []).map((q) => renderQuestion(q, showResult)).join("");
+  }
+
+  let extras = "";
+  if (showResult) {
+    extras = `
       <div class="score">${STATE.result.score} / ${STATE.result.total}</div>
-      <p class="lead">틀린 문항은 아래에서 해설을 확인하세요.</p>
-      ${s.questions.map((q) => renderQuestion(q, true)).join("")}
-      ${s.gist?.length ? `<h2 style="margin-top:18px">Gist</h2><ul>${s.gist
+      <p class="lead">해설을 확인하세요.</p>`;
+    if (s.gist?.length) {
+      extras += `<h2 style="margin-top:18px">Gist</h2><ul>${s.gist
         .map((g) => `<li>${escapeHtml(g)}</li>`)
-        .join("")}</ul>` : ""}
-      ${s.vocab?.length ? `<h2 style="margin-top:18px">세트 용어</h2>${s.vocab
+        .join("")}</ul>`;
+    }
+    if (s.vocab?.length) {
+      extras += `<h2 style="margin-top:18px">세트 용어</h2>${s.vocab
         .map(
           (v) =>
             `<div class="vocab-item"><div class="vocab-term">${escapeHtml(
               v.term
             )}</div><div class="vocab-def">${escapeHtml(v.gloss)}</div></div>`
         )
-        .join("")}` : ""}
-    </div>
-    <div class="actions">
-      <button class="btn secondary" id="retryBtn">다시 풀기</button>
-      <button class="btn primary" id="homeBtn">목록으로</button>
-    </div>`
-  );
+        .join("")}`;
+    }
+  }
+
+  const actions = showResult
+    ? `<div class="actions">
+        <button class="btn secondary" id="retryBtn">다시 풀기</button>
+        <button class="btn primary" id="homeBtn">목록으로</button>
+      </div>`
+    : `<div class="actions">
+        <button class="btn primary" id="submitBtn">제출 · 채점</button>
+      </div>`;
+
+  return `<div class="card">${extras}${qsHtml}</div>${actions}`;
 }
 
 function renderQuestion(q, showResult) {
   const chosen = STATE.answers[q.id];
-  let opts = q.options
+  const opts = q.options
     .map((o) => {
       let cls = "opt";
       if (!showResult && chosen === o.key) cls += " selected";
@@ -163,9 +333,11 @@ function renderQuestion(q, showResult) {
         if (o.key === q.answer) cls += " correct";
         else if (chosen === o.key && chosen !== q.answer) cls += " wrong";
       }
-      return `<button type="button" class="${cls}" data-q="${q.id}" data-key="${o.key}" ${
-        showResult ? "disabled" : ""
-      }><strong>${o.key}.</strong> ${escapeHtml(o.text)}</button>`;
+      return `<button type="button" class="${cls}" data-q="${q.id}" data-key="${
+        o.key
+      }" ${showResult ? "disabled" : ""}><strong>${o.key}.</strong> ${escapeHtml(
+        o.text
+      )}</button>`;
     })
     .join("");
 
@@ -188,10 +360,6 @@ function renderQuestion(q, showResult) {
   )}</div>${opts}${explain}</div>`;
 }
 
-function renderResult() {
-  return renderSet();
-}
-
 function renderVocab() {
   const list = loadVocab().slice().reverse();
   if (!list.length) {
@@ -209,7 +377,9 @@ function renderVocab() {
             v.addedAt || ""
           )}</div>
           <div class="vocab-def" data-def>${
-            v.def ? escapeHtml(v.def) : "<span style='color:#5c6b7a'>아직 뜻을 찾지 않음</span>"
+            v.def
+              ? escapeHtml(v.def)
+              : "<span style='color:#5c6b7a'>아직 뜻을 찾지 않음</span>"
           }</div>
           <div class="vocab-actions">
             <button type="button" class="mini" data-lookup>뜻 찾기</button>
@@ -224,21 +394,14 @@ function renderVocab() {
     </div>`;
 }
 
-function escapeHtml(s) {
-  return String(s || "")
-    .replaceAll("&", "&amp;")
-    .replaceAll("<", "&lt;")
-    .replaceAll(">", "&gt;")
-    .replaceAll('"', "&quot;");
-}
-
-function linkifyPassage(text, setId) {
-  // Keep plain text; selection API handles highlight. Escape only.
-  return escapeHtml(text);
-}
-
 function bindHome() {
   $("main").onclick = (e) => {
+    const part = e.target.closest("[data-part]");
+    if (part) {
+      STATE.part = part.dataset.part;
+      render();
+      return;
+    }
     const btn = e.target.closest("[data-set]");
     if (!btn) return;
     openSet(btn.dataset.set);
@@ -253,6 +416,16 @@ function openSet(id) {
   STATE.graded = false;
   STATE.result = null;
   render();
+}
+
+function questionList(s) {
+  if (s.part === "B") {
+    return (s.items || []).map((it) => ({
+      id: it.id,
+      answer: it.answer,
+    }));
+  }
+  return s.questions || [];
 }
 
 function bindSet() {
@@ -281,7 +454,6 @@ function bindSet() {
     if (e.target.id === "homeBtn") {
       STATE.view = "home";
       render();
-      bindHome();
       return;
     }
     const opt = e.target.closest(".opt");
@@ -295,29 +467,25 @@ function bindSet() {
   setupPassageHighlight();
 }
 
-function bindResult() {
-  bindSet();
-}
-
 function grade() {
   const s = currentSet();
+  const qs = questionList(s);
   let score = 0;
-  for (const q of s.questions) {
+  for (const q of qs) {
     if (STATE.answers[q.id] === q.answer) score += 1;
   }
   STATE.graded = true;
-  STATE.result = { score, total: s.questions.length };
+  STATE.result = { score, total: qs.length };
   STATE.tab = "review";
   STATE.view = "set";
   render();
-  toast(`채점 완료: ${score}/${s.questions.length}`);
+  toast(`채점 완료: ${score}/${qs.length}`);
 }
 
 function setupPassageHighlight() {
   const box = $("passageBox");
   if (!box) return;
 
-  // Floating action after selection
   let fab = document.getElementById("hlFab");
   if (!fab) {
     fab = document.createElement("button");
@@ -373,7 +541,6 @@ function addHighlight(term) {
     toast("이미 단어장에 있습니다");
     return;
   }
-  // Prefer pack gloss if term matches
   let def = "";
   if (s.vocab?.length) {
     const hit = s.vocab.find(
@@ -415,9 +582,8 @@ function bindVocab() {
       return;
     }
     if (e.target.matches("[data-lookup]")) {
-      const term = list[idx].term;
       e.target.textContent = "찾는 중…";
-      const def = await lookupWord(term, list[idx].setId);
+      const def = await lookupWord(list[idx].term, list[idx].setId);
       list[idx].def = def || "뜻을 찾지 못했습니다.";
       saveVocab(list);
       render();
@@ -437,7 +603,6 @@ async function lookupWord(term, setId) {
     );
     if (hit) return hit.gloss;
   }
-  // Free Dictionary API (English)
   const word = term.replace(/[^\w\s'-]/g, "").trim().split(/\s+/)[0];
   if (!word) return "";
   try {
@@ -463,7 +628,6 @@ async function init() {
     if (STATE.view === "set" || STATE.view === "vocab") {
       STATE.view = "home";
       render();
-      bindHome();
     }
   };
   $("btnVocab").onclick = () => {
@@ -471,10 +635,27 @@ async function init() {
     render();
   };
 
-  const res = await fetch("data/sets.json");
-  STATE.data = await res.json();
+  const [cRes, aRes, bRes] = await Promise.all([
+    fetch("data/sets.json"),
+    fetch("data/partA.json"),
+    fetch("data/partB.json"),
+  ]);
+  const partC = await cRes.json();
+  const partA = await aRes.json();
+  const partB = await bRes.json();
+
+  const sets = [];
+  for (const s of partA.sets || []) sets.push({ ...s, part: "A" });
+  for (const s of partB.sets || []) sets.push({ ...s, part: "B" });
+  for (const s of partC.sets || []) {
+    sets.push({ ...s, part: "C" });
+  }
+
+  STATE.data = {
+    note: "Unofficial self-study material. Not affiliated with OET.",
+    sets,
+  };
   render();
-  bindHome();
 }
 
 init().catch((err) => {

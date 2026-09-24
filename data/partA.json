@@ -1,0 +1,232 @@
+{
+  "title": "OET Reading Part A Practice",
+  "note": "Unofficial self-study. Matching / scanning style drills.",
+  "sets": [
+    {
+      "id": "A-01",
+      "part": "A",
+      "setNum": 1,
+      "title": "Acute pancreatitis — quick scan",
+      "type": "matching",
+      "instruction": "Four short texts (A–D). Match each question to the text that contains the information. One text may be used more than once.",
+      "texts": [
+        {
+          "label": "A",
+          "heading": "Presentation",
+          "body": "Patients typically report sudden severe epigastric pain radiating to the back, often with nausea and vomiting. Pain may improve when leaning forward. Ileus and low-grade fever can appear within hours."
+        },
+        {
+          "label": "B",
+          "heading": "Initial investigations",
+          "body": "Diagnosis is supported by lipase (or amylase) at least three times the upper limit of normal plus compatible imaging when needed. Ultrasound looks for gallstones; CT is reserved for uncertain cases or suspected necrosis after 72 hours."
+        },
+        {
+          "label": "C",
+          "heading": "Early management",
+          "body": "Aggressive but guided fluid resuscitation, early oral intake when tolerated, and analgesia are priorities. Routine antibiotics are not indicated for sterile inflammation. Gallstone pancreatitis needs timely biliary evaluation."
+        },
+        {
+          "label": "D",
+          "heading": "Complications to watch",
+          "body": "Hypovolaemia, acute kidney injury, pleural effusion, and infected necrosis are key risks. Persistent organ failure beyond 48 hours marks severe disease. Nutrition support should not be delayed if oral intake fails."
+        }
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "stem": "Which text discusses when CT imaging is usually considered?",
+          "options": [
+            { "key": "A", "text": "Text A" },
+            { "key": "B", "text": "Text B" },
+            { "key": "C", "text": "Text C" },
+            { "key": "D", "text": "Text D" }
+          ],
+          "answer": "B",
+          "explain": "Text B: CT reserved for uncertain cases or suspected necrosis after 72 hours."
+        },
+        {
+          "id": 2,
+          "stem": "Which text mentions pain that may ease when leaning forward?",
+          "options": [
+            { "key": "A", "text": "Text A" },
+            { "key": "B", "text": "Text B" },
+            { "key": "C", "text": "Text C" },
+            { "key": "D", "text": "Text D" }
+          ],
+          "answer": "A",
+          "explain": "Text A presentation: pain may improve when leaning forward."
+        },
+        {
+          "id": 3,
+          "stem": "Which text advises against routine antibiotics for sterile inflammation?",
+          "options": [
+            { "key": "A", "text": "Text A" },
+            { "key": "B", "text": "Text B" },
+            { "key": "C", "text": "Text C" },
+            { "key": "D", "text": "Text D" }
+          ],
+          "answer": "C",
+          "explain": "Text C early management: routine antibiotics not indicated for sterile inflammation."
+        },
+        {
+          "id": 4,
+          "stem": "Which text links persistent organ failure beyond 48 hours with severe disease?",
+          "options": [
+            { "key": "A", "text": "Text A" },
+            { "key": "B", "text": "Text B" },
+            { "key": "C", "text": "Text C" },
+            { "key": "D", "text": "Text D" }
+          ],
+          "answer": "D",
+          "explain": "Text D complications: persistent organ failure >48h marks severe disease."
+        },
+        {
+          "id": 5,
+          "stem": "Which text refers to ultrasound for gallstones?",
+          "options": [
+            { "key": "A", "text": "Text A" },
+            { "key": "B", "text": "Text B" },
+            { "key": "C", "text": "Text C" },
+            { "key": "D", "text": "Text D" }
+          ],
+          "answer": "B",
+          "explain": "Text B: ultrasound looks for gallstones."
+        },
+        {
+          "id": 6,
+          "stem": "Which text prioritises early oral intake when tolerated?",
+          "options": [
+            { "key": "A", "text": "Text A" },
+            { "key": "B", "text": "Text B" },
+            { "key": "C", "text": "Text C" },
+            { "key": "D", "text": "Text D" }
+          ],
+          "answer": "C",
+          "explain": "Text C: early oral intake when tolerated."
+        }
+      ],
+      "focusPhrases": ["72 hours", "leaning forward", "sterile inflammation", "48 hours"],
+      "gist": [
+        "Scan headings first, then hunt for unique markers (timeframes, exclusions).",
+        "Part A rewards precise location, not outside knowledge."
+      ],
+      "vocab": [
+        { "term": "epigastric", "gloss": "상복부(의): 명치 부위" },
+        { "term": "ileus", "gloss": "장폐색·장마비: 장 운동 저하" },
+        { "term": "necrosis", "gloss": "괴사: 조직이 죽는 것" },
+        { "term": "resuscitation", "gloss": "소생·수액 소생: 순환 회복을 위한 초기 처치" }
+      ]
+    },
+    {
+      "id": "A-02",
+      "part": "A",
+      "setNum": 2,
+      "title": "Community-acquired pneumonia — scan drill",
+      "type": "matching",
+      "instruction": "Match each item to Text A–D.",
+      "texts": [
+        {
+          "label": "A",
+          "heading": "Who needs admission?",
+          "body": "Use clinical judgment plus severity tools (e.g. CURB-65). Hypoxia, inability to take oral therapy, social isolation, and significant comorbidity often tip decisions toward inpatient care even when scores are borderline."
+        },
+        {
+          "label": "B",
+          "heading": "Microbiology clues",
+          "body": "Most cases remain culture-negative. Legionella and pneumococcal urinary antigens help in severe disease. Viral PCR panels are increasingly used in winter peaks; a positive viral result does not always exclude bacterial co-infection."
+        },
+        {
+          "label": "C",
+          "heading": "Antibiotic choices",
+          "body": "Start promptly after cultures if these will not delay therapy. Local resistance patterns guide first-line agents. Switch from IV to oral when vital signs stabilise and gut absorption is reliable."
+        },
+        {
+          "label": "D",
+          "heading": "Safety-net advice",
+          "body": "Advise return if breathing worsens, confusion appears, or fever persists beyond expected course. Smoking cessation support and vaccine review belong in recovery planning, not only acute treatment."
+        }
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "stem": "Which text mentions CURB-65?",
+          "options": [
+            { "key": "A", "text": "Text A" },
+            { "key": "B", "text": "Text B" },
+            { "key": "C", "text": "Text C" },
+            { "key": "D", "text": "Text D" }
+          ],
+          "answer": "A",
+          "explain": "Text A: severity tools (e.g. CURB-65)."
+        },
+        {
+          "id": 2,
+          "stem": "Which text warns that a viral PCR positive result may not exclude bacterial co-infection?",
+          "options": [
+            { "key": "A", "text": "Text A" },
+            { "key": "B", "text": "Text B" },
+            { "key": "C", "text": "Text C" },
+            { "key": "D", "text": "Text D" }
+          ],
+          "answer": "B",
+          "explain": "Text B microbiology clues."
+        },
+        {
+          "id": 3,
+          "stem": "Which text discusses IV-to-oral switch criteria?",
+          "options": [
+            { "key": "A", "text": "Text A" },
+            { "key": "B", "text": "Text B" },
+            { "key": "C", "text": "Text C" },
+            { "key": "D", "text": "Text D" }
+          ],
+          "answer": "C",
+          "explain": "Text C: switch IV to oral when vitals stabilise and absorption reliable."
+        },
+        {
+          "id": 4,
+          "stem": "Which text includes smoking cessation and vaccines in recovery planning?",
+          "options": [
+            { "key": "A", "text": "Text A" },
+            { "key": "B", "text": "Text B" },
+            { "key": "C", "text": "Text C" },
+            { "key": "D", "text": "Text D" }
+          ],
+          "answer": "D",
+          "explain": "Text D safety-net advice."
+        },
+        {
+          "id": 5,
+          "stem": "Which text says most cases remain culture-negative?",
+          "options": [
+            { "key": "A", "text": "Text A" },
+            { "key": "B", "text": "Text B" },
+            { "key": "C", "text": "Text C" },
+            { "key": "D", "text": "Text D" }
+          ],
+          "answer": "B",
+          "explain": "Text B: most cases remain culture-negative."
+        },
+        {
+          "id": 6,
+          "stem": "Which text notes hypoxia as a reason for admission even with borderline scores?",
+          "options": [
+            { "key": "A", "text": "Text A" },
+            { "key": "B", "text": "Text B" },
+            { "key": "C", "text": "Text C" },
+            { "key": "D", "text": "Text D" }
+          ],
+          "answer": "A",
+          "explain": "Text A: hypoxia and other factors tip toward inpatient care."
+        }
+      ],
+      "focusPhrases": ["CURB-65", "culture-negative", "co-infection", "IV to oral"],
+      "gist": ["Look for tool names, exclusions, and decision thresholds."],
+      "vocab": [
+        { "term": "hypoxia", "gloss": "저산소증" },
+        { "term": "comorbidity", "gloss": "동반질환" },
+        { "term": "safety-net", "gloss": "안전망 조언: 언제 다시 올지 안내" }
+      ]
+    }
+  ]
+}

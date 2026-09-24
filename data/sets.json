@@ -5,8 +5,10 @@
     {
       "id": "260924-S01",
       "pack": "260924",
+      "part": "C",
       "setNum": 1,
       "title": "Moral distress in intensive care",
+      "type": "long-text",
       "paragraphs": [
         "Intensive care saves lives, but it also confronts staff with treatments that prolong dying without restoring a life the patient would recognise as their own. When clinicians believe they are compelled to provide care that conflicts with their professional values, the result is often described as moral distress. Unlike ordinary stress, it is not only about workload; it is about feeling unable to do what one judges to be right.",
         "The promise of critical-care technology is that almost any physiology can be supported for a time. That promise becomes painful when support continues after the goals of care have quietly shifted from recovery to delay. Families may request ‘everything’, while teams see suffering without proportionate benefit. Nurses, who spend the most hours at the bedside, frequently report the sharpest sense of participating in harm.",
@@ -209,6 +211,12 @@
           "explain": "Distress signals judgment is still alive."
         }
       ],
+      "focusPhrases": [
+        "moral distress",
+        "the promise",
+        "That framing",
+        "not soft management"
+      ],
       "gist": [
         "Moral distress = forced against professional values (not just busyness).",
         "Tech ‘promise’ hurts when care only delays dying.",
@@ -261,8 +269,10 @@
     {
       "id": "260924-S02",
       "pack": "260924",
+      "part": "C",
       "setNum": 2,
       "title": "Why ‘nil by mouth’ orders outlive their purpose",
+      "type": "long-text",
       "paragraphs": [
         "Few hospital instructions are as casually written—and as casually left unchanged—as ‘nil by mouth’ (NBM). Intended as a short-term safety measure before anaesthesia or procedures, NBM can persist for hours or days after the indication has passed. Patients then face unnecessary thirst, hunger, missed medicines and delayed recovery.",
         "The convenience of a standing order partly explains the problem. Once NBM is on the board, busy teams may assume someone else will lift it. Night staff inherit the restriction without the original context. What began as protection becomes inertia.",
@@ -465,6 +475,11 @@
           "explain": "Tool with purpose + automatic review; prevent unnecessary starvation."
         }
       ],
+      "focusPhrases": [
+        "Inertia",
+        "These fixes",
+        "A tool, not an identity"
+      ],
       "gist": [
         "NBM often left on after need has passed.",
         "Inertia + fear of aspiration sustain it.",
@@ -517,8 +532,10 @@
     {
       "id": "260924-S03",
       "pack": "260924",
+      "part": "C",
       "setNum": 3,
       "title": "Shared decision-making when time is short",
+      "type": "long-text",
       "paragraphs": [
         "Shared decision-making (SDM) is widely endorsed as ethical best practice, yet clinic schedules rarely leave room for leisurely deliberation. The gap between aspiration and minutes available produces a familiar compromise: clinicians summarise options quickly and patients nod, later unsure what was truly chosen.",
         "Some interpret time pressure as proof that SDM is unrealistic. That conclusion is too blunt. Research suggests that brief, structured decision aids can improve understanding without lengthening visits—and that unfocused talk without tools often overruns precisely because it lacks a map.",
@@ -721,6 +738,13 @@
           "explain": "Fewer decisions to the patient rather than with them, even when clock is loud."
         }
       ],
+      "focusPhrases": [
+        "That conclusion",
+        "too blunt",
+        "absolute risks with consistent denominators",
+        "Rhetorical",
+        "Paternalism"
+      ],
       "gist": [
         "SDM valued but time is scarce → fake agreement.",
         "Time pressure ≠ SDM impossible; structure helps.",
@@ -773,8 +797,10 @@
     {
       "id": "260924-S04",
       "pack": "260924",
+      "part": "C",
       "setNum": 4,
       "title": "Sepsis pathways and the cost of delay",
+      "type": "long-text",
       "paragraphs": [
         "Sepsis pathways were built for a simple reason: hours matter. When recognition is late, organs fail and mortality rises. Protocols that bundle cultures, antibiotics and fluids into the first hour aim to convert urgency into a repeatable sequence rather than relies on heroic individual memory.",
         "Critics argue that rigid hour-one rules can drive overtreatment—antibiotics for non-infectious mimics, fluid overload in vulnerable hearts. That critique has force. A pathway is a scaffold, not a substitute for examination. The opposite error, however, is quieter and deadlier: treating sepsis as something to be confirmed at leisure.",
@@ -977,6 +1003,11 @@
           "explain": "Disciplined speed with room for judgment; hold both."
         }
       ],
+      "focusPhrases": [
+        "That critique",
+        "game the clock",
+        "Ritual"
+      ],
       "gist": [
         "Pathways exist because delay kills.",
         "Overtreatment risk real; slow confirmation worse.",
@@ -1029,8 +1060,10 @@
     {
       "id": "260924-S05",
       "pack": "260924",
+      "part": "C",
       "setNum": 5,
       "title": "Wearable devices and the anxious well",
+      "type": "long-text",
       "paragraphs": [
         "Consumer wearables promise continuous insight: heart-rate variability, sleep stages, oxygen guesses. For some patients with known disease, remote data genuinely help titration and early contact. For others—the ‘anxious well’—the same stream becomes a source of nocturnal checking and daytime dread.",
         "Clinicians are increasingly asked to interpret screenshots of spikes and dips stripped of context. A raised overnight heart rate may reflect alcohol, fever, or a loose strap. Without a framework for which alerts matter, both patient and doctor drown in noise.",
@@ -1233,6 +1266,14 @@
           "explain": "Not reject all; triage/plan; otherwise worry generator."
         }
       ],
+      "focusPhrases": [
+        "anxious well",
+        "Drown in noise",
+        "Empowerment",
+        "Actionable",
+        "cuts both ways",
+        "reclaim the narrative"
+      ],
       "gist": [
         "Wearables help some patients; fuel anxiety in others.",
         "Raw alerts without context = noise.",
@@ -1285,8 +1326,10 @@
     {
       "id": "260924-S06",
       "pack": "260924",
+      "part": "C",
       "setNum": 6,
       "title": "Discharge summaries that nobody reads",
+      "type": "long-text",
       "paragraphs": [
         "The discharge summary is meant to be a bridge: hospital to community, specialist to GP, one episode to the next. In reality it is often a late, dense document that arrives after medicines have already been changed and questions have already been asked. A bridge built after travellers have crossed is mainly decorative.",
         "Part of the failure is timing. If completion is treated as administrative leftovers for exhausted juniors at the end of a shift, quality collapses and delay becomes normal. The organisation gets a filed note; the receiving clinician gets yesterday’s news.",
@@ -1489,6 +1532,14 @@
           "explain": "Critiques timing/design; proposes formats and senior expectations."
         }
       ],
+      "focusPhrases": [
+        "bridge",
+        "Administrative leftovers",
+        "vicious cycle",
+        "thoroughness",
+        "messengers",
+        "Continuity wearing a bureaucratic costume"
+      ],
       "gist": [
         "Summaries should connect care but often arrive late and unread.",
         "Treated as leftover admin → poor quality.",
@@ -1541,8 +1592,10 @@
     {
       "id": "260924-S07",
       "pack": "260924",
+      "part": "C",
       "setNum": 7,
       "title": "Vaccine hesitancy is not one problem",
+      "type": "long-text",
       "paragraphs": [
         "Public debate often treats vaccine hesitancy as a single cliff: people either trust science or refuse it. Clinicians who listen carefully know otherwise. Hesitancy is a spectrum—from momentary questions to entrenched refusal—and the reasons under each point differ.",
         "For some, the barrier is access disguised as doubt: clinics far away, unpaid time off work, confusing booking systems. Calling this ‘anti-science’ misreads logistics as ideology. Fixing transport and hours can move behaviour more than another fact sheet.",
@@ -1745,6 +1798,14 @@
           "explain": "Spectrum of reasons; precise responses; mandates can backfire."
         }
       ],
+      "focusPhrases": [
+        "single cliff",
+        "Disguised as doubt",
+        "earned",
+        "Pre-bunking",
+        "backfire",
+        "Limited trust gets spent wisely"
+      ],
       "gist": [
         "Hesitancy ≠ one binary.",
         "Access, historical mistrust, online emotion — different fixes.",
@@ -1797,8 +1858,10 @@
     {
       "id": "260924-S08",
       "pack": "260924",
+      "part": "C",
       "setNum": 8,
       "title": "Simulation training beyond the theatre",
+      "type": "long-text",
       "paragraphs": [
         "Simulation used to mean practising airway drills in a windowless room. Its ambition has widened: ward deteriorations, difficult conversations, handover failures, even triage under digital overload. The claim is that rehearsal under pressure builds habits safer than classroom slides alone.",
         "Evidence is encouraging but uneven. Technical skills often improve measurably; translating those gains into fewer real adverse events is harder to prove and depends on how often practice occurs and whether theatre culture allows the new behaviour. One inspiring course does not rewire a dismissive hierarchy.",
@@ -2001,6 +2064,12 @@
           "explain": "Psychological fidelity, faculty, in-situ frequency, continuous practice."
         }
       ],
+      "focusPhrases": [
+        "Widened",
+        "uneven",
+        "quiet bottleneck",
+        "In-situ"
+      ],
       "gist": [
         "Sim expanded beyond airways.",
         "Skills↑; real-world harm↓ harder; culture matters.",
@@ -2053,8 +2122,10 @@
     {
       "id": "260924-S09",
       "pack": "260924",
+      "part": "C",
       "setNum": 9,
       "title": "Polypharmacy in older adults: counting costs beyond price",
+      "type": "long-text",
       "paragraphs": [
         "Older adults often leave clinic with one more tablet for one more number—pressure, sugar, cholesterol—until the bag requires its own listing. Polypharmacy is usually counted as a quantity problem. It is equally a coordination problem: many prescribers, little shared ownership of the whole.",
         "Adverse drug events in later life are easy to mislabel as ageing: falls, confusion, constipation, low appetite. The illusion of inevitability delays the question ‘which medicine is contributing?’ Deprescribing then arrives late, after harm has already rewritten daily life.",
@@ -2257,6 +2328,13 @@
           "explain": "Coordination, goals, reconciled lists; not mere extravagance."
         }
       ],
+      "focusPhrases": [
+        "coordination problem",
+        "illusion of inevitability",
+        "Strategic non-adherence",
+        "deeper ledger",
+        "Attention is the scarce drug we underdose"
+      ],
       "gist": [
         "Polypharmacy = count + fragmented ownership.",
         "Side effects mistaken for ageing.",
@@ -2309,8 +2387,10 @@
     {
       "id": "260924-S10",
       "pack": "260924",
+      "part": "C",
       "setNum": 10,
       "title": "Listening to soft alarms before the crash",
+      "type": "long-text",
       "paragraphs": [
         "Hospitals are loud with alarms, yet the most important warnings are often quiet: a nurse’s unease, a subtle rise in respiratory rate, a family remark that ‘something is off’. Escalation systems exist to amplify those soft signals before irreversible decline. Their failure mode is not usually absence of data; it is delay between noticing and acting.",
         "Alarm fatigue is the familiar villain—too many beeps, too little meaning. Staff learn to silence noise to survive the shift. When every signal cries urgency, none does. Designing fewer, smarter alerts is technical work with cultural consequences: it tells teams which uncertainties deserve interruption.",
@@ -2513,6 +2593,12 @@
           "explain": "Quiet concern speakable; signals interpretable; escalation ordinary."
         }
       ],
+      "focusPhrases": [
+        "Soft signals",
+        "muzzle",
+        "Weather",
+        "Hard of hearing"
+      ],
       "gist": [
         "Quiet cues matter; delay kills.",
         "Too many alarms → fatigue.",
@@ -2565,8 +2651,10 @@
     {
       "id": "260916-S01",
       "pack": "260916",
+      "part": "C",
       "setNum": 1,
       "title": "Why hospital handovers still fail",
+      "type": "long-text",
       "paragraphs": [
         "Few clinical routines are as frequent—or as hazardous—as the handover. Every day, responsibility for patients is transferred between teams, shifts and settings. When the transfer is incomplete, the consequences can be delayed antibiotics, missed allergies or duplicated investigations. Yet despite years of campaigning for structured tools, many clinicians still experience handover as a rushed conversation squeezed into an overcrowded corridor.",
         "Proponents of standardised templates argue that a shared framework reduces the chance that critical details will be omitted. Checklists such as SBAR force the speaker to state the situation, background, assessment and recommendation in a predictable order. In theory, this should free working memory and help the receiving clinician anticipate what comes next. In practice, however, templates are only as good as the culture surrounding them. Where senior staff treat the form as bureaucracy, juniors learn to complete it mechanically while the real discussion happens elsewhere.",
@@ -2769,6 +2857,9 @@
           "explain": "Supports tools + simulation/feedback/time + speaking uncertainty."
         }
       ],
+      "focusPhrases": [
+        "shared understanding"
+      ],
       "gist": [
         "Handover is frequent and still dangerous.",
         "Templates help only if culture supports real discussion.",
@@ -2780,8 +2871,10 @@
     {
       "id": "260916-S02",
       "pack": "260916",
+      "part": "C",
       "setNum": 2,
       "title": "Incidental findings on imaging: gift or burden?",
+      "type": "long-text",
       "paragraphs": [
         "Advances in imaging have made it possible to detect abnormalities that would once have remained invisible. CT and MRI scans ordered for one complaint frequently reveal unexpected nodules, cysts or vascular irregularities. These incidental findings can feel like a fortunate early warning. They can also launch patients into months of anxiety, further tests and procedures whose benefit is uncertain.",
         "Radiologists face a difficult obligation: to report what they see without overstating its significance. Silence about a visible lesion may later be judged negligent if disease progresses. Conversely, emphatic language about a tiny, likely harmless nodule can transform a healthy person into a ‘patient-in-waiting’. The report’s wording therefore carries ethical weight equal to its diagnostic content.",
@@ -2984,6 +3077,11 @@
           "explain": "Acknowledges benefit and harm; calls for judgment and restraint."
         }
       ],
+      "focusPhrases": [
+        "cascade",
+        "Stewardship of attention",
+        "sees too much"
+      ],
       "gist": [
         "Incidental findings: early warning AND anxiety/cascade.",
         "Report wording has ethical force.",
@@ -2995,8 +3093,10 @@
     {
       "id": "260916-S03",
       "pack": "260916",
+      "part": "C",
       "setNum": 3,
       "title": "Antibiotic stewardship at the bedside",
+      "type": "long-text",
       "paragraphs": [
         "Few interventions have changed medicine as profoundly as antibiotics, and few are being eroded as quickly by resistance. Stewardship programmes try to preserve effectiveness by ensuring the right drug, dose and duration. At policy level the logic is clear. At the bedside, the decision feels different: a clinician facing an unstable patient may prefer to ‘cover broadly’ first and refine later.",
         "This tension is not simply ignorance. Broad-spectrum therapy can be lifesaving in sepsis when the pathogen is unknown. The problem arises when broad cover continues after cultures and clinical course would allow narrowing—or when antibiotics are started for syndromes unlikely to be bacterial. Habit, fear of deterioration and pressure from families all sustain overuse.",
@@ -3199,6 +3299,10 @@
           "explain": "Humility + resolve; appropriate not merely lowest use."
         }
       ],
+      "focusPhrases": [
+        "structural problem",
+        "Always reconsidered"
+      ],
       "gist": [
         "Stewardship clear in theory, hard at bedside.",
         "Broad cover OK early; continuation/overstart is the problem.",
@@ -3210,8 +3314,10 @@
     {
       "id": "260916-S04",
       "pack": "260916",
+      "part": "C",
       "setNum": 4,
       "title": "Night-time nutrition in hospital",
+      "type": "long-text",
       "paragraphs": [
         "Hospitals are organised around daylight routines: ward rounds, therapy sessions and main meals. Yet illness does not sleep, and neither does hunger. Patients admitted in the evening frequently wait until breakfast for a proper meal, surviving on tea and biscuits if they are lucky. For older adults or those with high metabolic demand, that gap is not a minor inconvenience; it is a missed opportunity to support recovery.",
         "Staffing patterns partly explain the gap. Catering services wind down, kitchens close, and nurses inherit the awkward task of finding something edible without a clear system. Well-intentioned improvisation—toast from a staff kitchen, a leftover sandwich—varies wildly between wards and nights. Variation means that access to food depends on who is on duty rather than on clinical need.",
@@ -3414,6 +3520,9 @@
           "explain": "Argues for system/culture change; concrete measures; dignity."
         }
       ],
+      "focusPhrases": [
+        "Soft"
+      ],
       "gist": [
         "Hospitals feed on daylight schedules; illness doesn’t.",
         "Night food = improvisation → unfair variation.",
@@ -3425,8 +3534,10 @@
     {
       "id": "260916-S05",
       "pack": "260916",
+      "part": "C",
       "setNum": 5,
       "title": "Artificial intelligence in triage: promise under conditions",
+      "type": "long-text",
       "paragraphs": [
         "Emergency departments face relentless demand, and artificial intelligence has been offered as a way to sort patients more consistently than tired humans. Algorithms trained on historical data can flag patterns associated with deterioration and suggest acuity scores within seconds. The promise is seductive: fewer missed sepsis cases, less bias in who is seen first, more time for clinicians to think.",
         "Seduction, however, is not validation. Models inherit the biases of the data used to train them. If past triage systematically under-prioritised certain groups, an algorithm may learn to reproduce that neglect with impressive confidence. Speed without equity is not progress; it is automation of old errors.",
@@ -3629,6 +3740,12 @@
           "explain": "May help if audited, monitored, accountable, humble."
         }
       ],
+      "focusPhrases": [
+        "promise",
+        "External performance quietly decays",
+        "the doctor remains in charge",
+        "Screens outrank bedside sense"
+      ],
       "gist": [
         "AI triage promises consistency/speed.",
         "Risks: inherited bias, poor transfer, accountability gaps.",
@@ -3640,8 +3757,10 @@
     {
       "id": "260916-S06",
       "pack": "260916",
+      "part": "C",
       "setNum": 6,
       "title": "Returning to work after critical illness",
+      "type": "long-text",
       "paragraphs": [
         "Survival after intensive care is increasingly common, yet survival is not the same as recovery. Many patients leave hospital with weakness, cognitive fog, anxiety or low mood—features sometimes grouped as post-intensive care syndrome. When employers expect a rapid return to previous productivity, the mismatch between medical discharge and occupational readiness becomes stark.",
         "Occupational health services can bridge that gap, but only if referral happens. Too often, follow-up focuses on specialty clinics while work is treated as a private matter. Patients may fear that disclosing limitations will threaten their job, so they push themselves too early and relapse. Silence then looks like success until it collapses.",
@@ -3844,6 +3963,9 @@
           "explain": "Mismatch stark; push too early → relapse."
         }
       ],
+      "focusPhrases": [
+        "Silence then looks like success until it collapses"
+      ],
       "gist": [
         "ICU survival ≠ work-ready recovery.",
         "Fear keeps limitations hidden.",
@@ -3855,8 +3977,10 @@
     {
       "id": "260916-S07",
       "pack": "260916",
+      "part": "C",
       "setNum": 7,
       "title": "The placebo problem in everyday prescribing",
+      "type": "long-text",
       "paragraphs": [
         "Placebos are often imagined as sugar pills in clinical trials. In ordinary practice the issue is subtler: clinicians prescribe active drugs partly because patients expect a medicine, and the ritual of prescribing itself can relieve distress. Separating pharmacology from meaning is harder than textbooks imply.",
         "This does not license deception. Giving an inert tablet while claiming it is an antibiotic would violate trust. The ethical grey zone involves treatments with modest average benefit where expectation and attention amplify response—physiotherapy encouragement, clear explanations, follow-up calls. These are not fakes; they are part of how care works.",
@@ -4059,6 +4183,11 @@
           "explain": "Throughout: meaning real; deception wrong; unnecessary drugs wrong."
         }
       ],
+      "focusPhrases": [
+        "placebo problem",
+        "Ethical grey zone",
+        "middle path"
+      ],
       "gist": [
         "Placebo issue in practice = expectation + prescribing ritual.",
         "Deception ≠ legitimate meaning effects.",
@@ -4070,8 +4199,10 @@
     {
       "id": "260916-S08",
       "pack": "260916",
+      "part": "C",
       "setNum": 8,
       "title": "Climate change as a clinical issue",
+      "type": "long-text",
       "paragraphs": [
         "For many clinicians, climate change still feels remote from the prescription pad. Heatwaves, altered pollen seasons and expanding ranges of vector-borne disease suggest otherwise. Patients with heart failure, asthma or frailty are already arriving in greater numbers on extreme-heat days, and smoke from distant fires is reshaping respiratory caseloads.",
         "Recognising climate as clinical does not require every doctor to become an environmental scientist. It does require connecting weather alerts to medication advice—for example, counselling on fluid intake and diuretic adjustment during heat—and ensuring inhaler technique is reviewed when air quality plummets. Small adaptations in routine care are forms of climate medicine.",
@@ -4274,6 +4405,10 @@
           "explain": "Practical adaptations, real habit change, case-based CPD, equity outreach."
         }
       ],
+      "focusPhrases": [
+        "Climate medicine",
+        "Entering the differential diagnosis"
+      ],
       "gist": [
         "Climate already shows in ED/clinic demand.",
         "Practical bedside adaptations = climate medicine.",
@@ -4285,8 +4420,10 @@
     {
       "id": "260916-S09",
       "pack": "260916",
+      "part": "C",
       "setNum": 9,
       "title": "Second victims: when clinicians are wounded by error",
+      "type": "long-text",
       "paragraphs": [
         "Patient harm after error rightly focuses attention on the injured person and family. Less visible is the clinician who made or witnessed the mistake—the so-called second victim. Shame, intrusive memories and loss of confidence can follow, sometimes ending careers or driving defensive practice that does not improve safety.",
         "Traditional responses have oscillated between silence and blame. Silence isolates the clinician and teaches colleagues that struggle must be hidden. Blame may satisfy a public appetite for accountability while doing little to fix system conditions that made the error likely. Neither approach reliably helps the next patient.",
@@ -4489,6 +4626,11 @@
           "explain": "Peer support + separate accountability; compassion with standards."
         }
       ],
+      "focusPhrases": [
+        "Second victim",
+        "Mature programmes",
+        "infrastructure"
+      ],
       "gist": [
         "Clinicians can be psychologically injured by error.",
         "Silence/blame both fail patients and staff.",
@@ -4500,8 +4642,10 @@
     {
       "id": "260916-S10",
       "pack": "260916",
+      "part": "C",
       "setNum": 10,
       "title": "Deprescribing as skilled care",
+      "type": "long-text",
       "paragraphs": [
         "Modern medicine is better at starting treatments than at stopping them. Guidelines proliferate, each adding a drug for a risk factor, until older patients accumulate pills that interact, sedate and send them to hospital. Deprescribing—the planned reduction or cessation of medicines that no longer help—is increasingly recognised as skilled clinical work, not mere neglect.",
         "Fear sustains polypharmacy. Clinicians worry that stopping a medicine will trigger events for which they will be blamed, even when evidence of ongoing benefit is thin. Patients may interpret deprescribing as being ‘written off’. Without a careful explanation of goals—comfort, clarity, fewer falls—the consultation feels like withdrawal of care rather than refinement of it.",
@@ -4703,6 +4847,9 @@
           "answer": "B",
           "explain": "Not less medical; may be the more difficult expertise."
         }
+      ],
+      "focusPhrases": [
+        "Act of attention"
       ],
       "gist": [
         "Starting drugs easy; stopping is skilled care.",
