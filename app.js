@@ -10,6 +10,7 @@ const STATE = {
 };
 
 const VOCAB_KEY = "oet-partc-vocab-v1";
+const PROGRESS_KEY = "oet-reading-progress-v1";
 
 function $(id) {
   return document.getElementById(id);
@@ -25,6 +26,33 @@ function loadVocab() {
 
 function saveVocab(list) {
   localStorage.setItem(VOCAB_KEY, JSON.stringify(list));
+}
+
+function loadProgress() {
+  try {
+    return JSON.parse(localStorage.getItem(PROGRESS_KEY) || "{}");
+  } catch {
+    return {};
+  }
+}
+
+function saveProgress(map) {
+  localStorage.setItem(PROGRESS_KEY, JSON.stringify(map));
+}
+
+function markSetComplete(setId, score, total) {
+  const map = loadProgress();
+  map[setId] = {
+    done: true,
+    score,
+    total,
+    at: new Date().toISOString(),
+  };
+  saveProgress(map);
+}
+
+function setProgress(setId) {
+  return loadProgress()[setId] || null;
 }
 
 function toast(msg) {
@@ -168,19 +196,28 @@ function renderHome() {
     return html;
   }
 
-  html += `<h3 style="margin:8px 4px 10px">Part ${STATE.part} · ${list.length} sets</h3>`;
+  const progress = loadProgress();
+  const doneCount = list.filter((s) => progress[s.id]?.done).length;
+  html += `<h3 style="margin:8px 4px 10px">Part ${STATE.part} · ${doneCount}/${list.length} 완료</h3>`;
   for (const s of list) {
     const nQ =
       s.questions?.length ||
       s.items?.length ||
       0;
     const pack = s.pack ? `${s.pack} · ` : "";
+    const prog = progress[s.id];
+    const status = prog?.done
+      ? `<span class="status done">완료 ${prog.score}/${prog.total}</span>`
+      : `<span class="status todo">미완료</span>`;
     html += `
-      <button class="set-btn" data-set="${s.id}">
-        <span class="pack-label">${pack}Set ${String(s.setNum).padStart(
+      <button class="set-btn ${prog?.done ? "is-done" : ""}" data-set="${s.id}">
+        <div class="set-btn-top">
+          <span class="pack-label">${pack}Set ${String(s.setNum).padStart(
       2,
       "0"
     )} · ${s.type || "practice"}</span>
+          ${status}
+        </div>
         <strong>${escapeHtml(s.title)}</strong>
         <span>${nQ} questions</span>
       </button>`;
@@ -476,6 +513,7 @@ function grade() {
   }
   STATE.graded = true;
   STATE.result = { score, total: qs.length };
+  markSetComplete(s.id, score, qs.length);
   STATE.tab = "review";
   STATE.view = "set";
   render();

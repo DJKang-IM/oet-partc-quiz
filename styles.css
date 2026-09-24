@@ -124,16 +124,43 @@ h3 { font-size: 1rem; color: var(--muted); font-weight: 600; }
   font: inherit;
   color: inherit;
 }
+.set-btn.is-done {
+  border-color: #86efac;
+  background: #f7fff9;
+}
+.set-btn-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 6px;
+}
 .set-btn strong {
   display: block;
   font-family: system-ui, -apple-system, sans-serif;
   font-size: 1rem;
   margin-bottom: 4px;
 }
-.set-btn span {
+.set-btn > span {
   color: var(--muted);
   font-family: system-ui, -apple-system, sans-serif;
   font-size: 0.85rem;
+}
+.status {
+  flex-shrink: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 0.72rem;
+  font-weight: 750;
+  padding: 4px 8px;
+  border-radius: 999px;
+}
+.status.done {
+  color: #166534;
+  background: #dcfce7;
+}
+.status.todo {
+  color: #9a3412;
+  background: #ffedd5;
 }
 
 .tabs {
