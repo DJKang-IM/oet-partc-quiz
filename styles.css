@@ -273,6 +273,44 @@ strong.focus, .focus {
   margin-bottom: 10px;
 }
 
+.text-body {
+  font-size: 0.98rem;
+  white-space: normal;
+  line-height: 1.5;
+}
+
+.sa-input {
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 12px;
+  font: inherit;
+  font-size: 1rem;
+  background: #fff;
+  margin-bottom: 4px;
+}
+.sa-input:focus {
+  outline: 2px solid var(--accent);
+  border-color: var(--accent);
+}
+.sa-input.sa-ok {
+  border-color: var(--ok);
+  background: #dcfce7;
+}
+.sa-input.sa-bad {
+  border-color: var(--bad);
+  background: #fee2e2;
+}
+
+.section-hint {
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 0.82rem;
+  color: var(--muted);
+  padding: 6px 0;
+  border-bottom: 1px dashed var(--line);
+  margin-bottom: 8px;
+}
+
 .hint {
   font-family: system-ui, -apple-system, sans-serif;
   font-size: 0.82rem;

@@ -1,231 +1,201 @@
 {
   "title": "OET Reading Part A Practice",
-  "note": "Unofficial self-study. Matching / scanning style drills.",
+  "note": "Unofficial self-study modelled on real Part A density (4 texts · Q1–20 · matching + short answers). Not affiliated with OET.",
   "sets": [
     {
       "id": "A-01",
       "part": "A",
       "setNum": 1,
-      "title": "Acute pancreatitis — quick scan",
-      "type": "matching",
-      "instruction": "Four short texts (A–D). Match each question to the text that contains the information. One text may be used more than once.",
+      "title": "Acute upper gastrointestinal bleeding",
+      "type": "partA-full",
+      "instruction": "Look at Texts A–D. For questions 1–20, find the relevant information. Spelling matters for short answers. Time target: 15 minutes.",
       "texts": [
         {
           "label": "A",
-          "heading": "Presentation",
-          "body": "Patients typically report sudden severe epigastric pain radiating to the back, often with nausea and vomiting. Pain may improve when leaning forward. Ileus and low-grade fever can appear within hours."
+          "heading": "Initial assessment & risk",
+          "body": "Acute upper GI bleeding (AUGIB) presents with haematemesis, melaena, or both. Syncope, resting tachycardia, or postural hypotension suggest significant volume loss.\n\nImmediate priorities\n• Protect airway if ongoing massive haematemesis or reduced consciousness\n• Two large-bore IV cannulae; send FBC, urea/electrolytes, coagulation, group and save (cross-match if unstable)\n• Restrictive transfusion threshold usually haemoglobin <70 g/L in otherwise stable patients without cardiovascular ischaemia; higher targets may apply in ischaemic heart disease\n\nGlasgow-Blatchford Score (GBS) — outpatient pathway\nA GBS of 0 identifies very-low-risk patients who may be considered for early discharge with urgent outpatient endoscopy rather than admission, provided social support and follow-up are reliable.\n\nRockall score (post-endoscopy)\nCombines age, shock, comorbidity and endoscopic stigmata to estimate rebleeding and mortality risk. Do not use Rockall alone to decide pre-endoscopy triage."
         },
         {
           "label": "B",
-          "heading": "Initial investigations",
-          "body": "Diagnosis is supported by lipase (or amylase) at least three times the upper limit of normal plus compatible imaging when needed. Ultrasound looks for gallstones; CT is reserved for uncertain cases or suspected necrosis after 72 hours."
+          "heading": "Resuscitation & medical therapy algorithm",
+          "body": "Step 1 — ABC and volume\nCrystalloid bolus if hypotensive. Avoid over-transfusion in variceal disease (target Hb often ~70–80 g/L) because excess volume may increase portal pressure.\n\nStep 2 — Reverse coagulopathy when indicated\n• Stop antiplatelets/anticoagulants after senior discussion; do not reverse aspirin routinely before endoscopy if cardiac stents are recent — involve cardiology\n• For warfarin with active major bleed: vitamin K IV + PCC as per local protocol\n• DOAC major bleed: specific reversal agents where available; otherwise PCC per haematology advice\n\nStep 3 — Acid suppression & vasoactive drugs\n• Non-variceal: high-dose PPI infusion after endoscopic haemostasis (e.g. continuous omeprazole/pantoprazole infusion for 72 hours in high-risk stigmata). Pre-endoscopy PPI may be given but does not replace timely endoscopy.\n• Suspected variceal bleed: start terlipressin (or octreotide if terlipressin unavailable) AND prophylactic antibiotics (e.g. IV ceftriaxone) before endoscopy.\n\nStep 4 — Escalate early\nMassive transfusion protocol if ongoing instability. Contact gastroenterology and ICU early for unstable patients."
         },
         {
           "label": "C",
-          "heading": "Early management",
-          "body": "Aggressive but guided fluid resuscitation, early oral intake when tolerated, and analgesia are priorities. Routine antibiotics are not indicated for sterile inflammation. Gallstone pancreatitis needs timely biliary evaluation."
+          "heading": "Endoscopy timing & findings checklist",
+          "body": "Timing (door-to-endoscopy guidance)\n• Immediate (as soon as resuscitated): ongoing haemodynamic instability despite resuscitation, suspected variceal bleed with instability\n• Within 24 hours: most admitted AUGIB patients once adequately resuscitated\n• Very low risk (GBS 0): may defer to urgent outpatient slot within days if local pathway allows\n\nPre-endoscopy checklist\n• Informed consent / capacity assessment\n• NBM status documented; airway risk discussed with anaesthesia if GCS reduced\n• Erythromycin IV 30–60 minutes pre-procedure may improve mucosal views in selected cases (local protocol)\n\nHigh-risk endoscopic stigmata (non-variceal)\nActive spurting/oozing, non-bleeding visible vessel, adherent clot — these usually need endoscopic therapy and post-procedure high-dose PPI.\n\nFailure of endoscopic control\nArrange interventional radiology (embolisation) or surgery after joint discussion; do not delay transfer while repeating ineffective endoscopy cycles."
         },
         {
           "label": "D",
-          "heading": "Complications to watch",
-          "body": "Hypovolaemia, acute kidney injury, pleural effusion, and infected necrosis are key risks. Persistent organ failure beyond 48 hours marks severe disease. Nutrition support should not be delayed if oral intake fails."
+          "heading": "Post-endoscopy care & discharge criteria",
+          "body": "Monitoring\n• Hourly observations initially if high-risk stigmata treated; step down when stable\n• Clear fluid then diet as directed by endoscopist; record any recurrent melaena/haematemesis on fluid chart\n\nMedication plan\n• Continue PPI orally after IV course completes, typically 4–8 weeks depending on ulcer pathology and H. pylori status\n• Test for H. pylori (biopsy or urea breath/stool antigen when appropriate); treat if positive\n• Restart necessary antithrombotics at the earliest safe interval agreed by gastroenterology/cardiology — often within 1–3 days for aspirin after haemostasis, longer for anticoagulants\n\nDischarge only if ALL met\n• Haemodynamically stable ≥24 hours after therapy\n• Haemoglobin stable on two consecutive checks\n• Tolerating oral intake\n• Clear safety-net advice given (return if black stool, vomiting blood, dizziness, syncope)\n• Follow-up endoscopy booked when indicated (e.g. gastric ulcer to exclude malignancy)"
         }
       ],
       "questions": [
-        {
-          "id": 1,
-          "stem": "Which text discusses when CT imaging is usually considered?",
-          "options": [
-            { "key": "A", "text": "Text A" },
-            { "key": "B", "text": "Text B" },
-            { "key": "C", "text": "Text C" },
-            { "key": "D", "text": "Text D" }
-          ],
-          "answer": "B",
-          "explain": "Text B: CT reserved for uncertain cases or suspected necrosis after 72 hours."
-        },
-        {
-          "id": 2,
-          "stem": "Which text mentions pain that may ease when leaning forward?",
-          "options": [
-            { "key": "A", "text": "Text A" },
-            { "key": "B", "text": "Text B" },
-            { "key": "C", "text": "Text C" },
-            { "key": "D", "text": "Text D" }
-          ],
-          "answer": "A",
-          "explain": "Text A presentation: pain may improve when leaning forward."
-        },
-        {
-          "id": 3,
-          "stem": "Which text advises against routine antibiotics for sterile inflammation?",
-          "options": [
-            { "key": "A", "text": "Text A" },
-            { "key": "B", "text": "Text B" },
-            { "key": "C", "text": "Text C" },
-            { "key": "D", "text": "Text D" }
-          ],
-          "answer": "C",
-          "explain": "Text C early management: routine antibiotics not indicated for sterile inflammation."
-        },
-        {
-          "id": 4,
-          "stem": "Which text links persistent organ failure beyond 48 hours with severe disease?",
-          "options": [
-            { "key": "A", "text": "Text A" },
-            { "key": "B", "text": "Text B" },
-            { "key": "C", "text": "Text C" },
-            { "key": "D", "text": "Text D" }
-          ],
-          "answer": "D",
-          "explain": "Text D complications: persistent organ failure >48h marks severe disease."
-        },
-        {
-          "id": 5,
-          "stem": "Which text refers to ultrasound for gallstones?",
-          "options": [
-            { "key": "A", "text": "Text A" },
-            { "key": "B", "text": "Text B" },
-            { "key": "C", "text": "Text C" },
-            { "key": "D", "text": "Text D" }
-          ],
-          "answer": "B",
-          "explain": "Text B: ultrasound looks for gallstones."
-        },
-        {
-          "id": 6,
-          "stem": "Which text prioritises early oral intake when tolerated?",
-          "options": [
-            { "key": "A", "text": "Text A" },
-            { "key": "B", "text": "Text B" },
-            { "key": "C", "text": "Text C" },
-            { "key": "D", "text": "Text D" }
-          ],
-          "answer": "C",
-          "explain": "Text C: early oral intake when tolerated."
-        }
+        { "id": 1, "type": "whichText", "stem": "In which text can you find information about the Glasgow-Blatchford Score and early discharge?", "answer": "A", "accept": ["A"], "explain": "Text A: GBS of 0 and outpatient pathway." },
+        { "id": 2, "type": "whichText", "stem": "In which text can you find the step-wise resuscitation and vasoactive drug algorithm?", "answer": "B", "accept": ["B"], "explain": "Text B: Steps 1–4 resuscitation & medical therapy." },
+        { "id": 3, "type": "whichText", "stem": "In which text can you find door-to-endoscopy timing categories?", "answer": "C", "accept": ["C"], "explain": "Text C: immediate / within 24 hours / outpatient." },
+        { "id": 4, "type": "whichText", "stem": "In which text can you find discharge criteria after endoscopic therapy?", "answer": "D", "accept": ["D"], "explain": "Text D: Discharge only if ALL met." },
+        { "id": 5, "type": "whichText", "stem": "In which text can you find advice on prophylactic antibiotics in suspected variceal bleeding?", "answer": "B", "accept": ["B"], "explain": "Text B Step 3: antibiotics before endoscopy in suspected variceal bleed." },
+        { "id": 6, "type": "whichText", "stem": "In which text can you find high-risk endoscopic stigmata such as a visible vessel?", "answer": "C", "accept": ["C"], "explain": "Text C checklist of high-risk stigmata." },
+        { "id": 7, "type": "whichText", "stem": "In which text can you find guidance on restarting antithrombotic medicines after haemostasis?", "answer": "D", "accept": ["D"], "explain": "Text D medication plan." },
+
+        { "id": 8, "type": "shortAnswer", "stem": "What haemoglobin threshold is usually quoted for restrictive transfusion in otherwise stable patients without cardiovascular ischaemia?", "answer": "70 g/L", "accept": ["70 g/L", "70g/L", "<70 g/L", "less than 70 g/L", "Hb <70 g/L", "70"], "explain": "Text A: haemoglobin <70 g/L." },
+        { "id": 9, "type": "shortAnswer", "stem": "Which score should NOT be used alone to decide pre-endoscopy triage?", "answer": "Rockall", "accept": ["Rockall", "Rockall score", "the Rockall score"], "explain": "Text A: Do not use Rockall alone for pre-endoscopy triage." },
+        { "id": 10, "type": "shortAnswer", "stem": "In suspected variceal bleed, which vasoactive drug is named first-line in the algorithm (before naming the alternative)?", "answer": "terlipressin", "accept": ["terlipressin"], "explain": "Text B: start terlipressin (or octreotide if unavailable)." },
+        { "id": 11, "type": "shortAnswer", "stem": "For how long is high-dose PPI infusion typically continued after haemostasis for high-risk non-variceal stigmata?", "answer": "72 hours", "accept": ["72 hours", "72 hrs", "72 h", "three days", "3 days"], "explain": "Text B: continuous infusion for 72 hours." },
+        { "id": 12, "type": "shortAnswer", "stem": "Within what time should most admitted AUGIB patients undergo endoscopy once resuscitated?", "answer": "24 hours", "accept": ["24 hours", "24 hrs", "within 24 hours", "1 day"], "explain": "Text C: Within 24 hours." },
+        { "id": 13, "type": "shortAnswer", "stem": "Which IV antibiotic is given as an example for prophylaxis in suspected variceal bleeding?", "answer": "ceftriaxone", "accept": ["ceftriaxone", "IV ceftriaxone"], "explain": "Text B: e.g. IV ceftriaxone." },
+        { "id": 14, "type": "shortAnswer", "stem": "If endoscopic control fails, which specialty is listed for embolisation?", "answer": "interventional radiology", "accept": ["interventional radiology", "IR", "radiology"], "explain": "Text C: interventional radiology (embolisation)." },
+        { "id": 15, "type": "shortAnswer", "stem": "How long should haemodynamic stability generally be documented before discharge after therapy?", "answer": "24 hours", "accept": ["24 hours", "≥24 hours", "at least 24 hours", "24 hrs"], "explain": "Text D: stable ≥24 hours after therapy." },
+
+        { "id": 16, "type": "gapFill", "stem": "A GBS of ……………………………………. identifies very-low-risk patients who may be considered for early discharge.", "answer": "0", "accept": ["0", "zero"], "explain": "Text A: GBS of 0." },
+        { "id": 17, "type": "gapFill", "stem": "Erythromycin may be given IV ……………………………………. minutes before endoscopy to improve mucosal views.", "answer": "30–60", "accept": ["30-60", "30–60", "30 to 60", "30–60 minutes", "30-60 minutes"], "explain": "Text C: 30–60 minutes pre-procedure." },
+        { "id": 18, "type": "gapFill", "stem": "In variceal disease, avoid over-transfusion because excess volume may increase ……………………………………. pressure.", "answer": "portal", "accept": ["portal", "portal pressure"], "explain": "Text B: increase portal pressure." },
+        { "id": 19, "type": "gapFill", "stem": "After the IV PPI course, oral PPI typically continues for ……………………………………. weeks depending on pathology and H. pylori status.", "answer": "4–8", "accept": ["4-8", "4–8", "4 to 8", "4–8 weeks", "4-8 weeks"], "explain": "Text D: typically 4–8 weeks." },
+        { "id": 20, "type": "gapFill", "stem": "Gastric ulcer usually needs follow-up endoscopy to exclude ……………………………………..", "answer": "malignancy", "accept": ["malignancy", "cancer", "malignancy/cancer"], "explain": "Text D: exclude malignancy." }
       ],
-      "focusPhrases": ["72 hours", "leaning forward", "sterile inflammation", "48 hours"],
+      "focusPhrases": ["Glasgow-Blatchford Score", "Rockall score", "terlipressin", "72 hours", "visible vessel", "portal pressure"],
       "gist": [
-        "Scan headings first, then hunt for unique markers (timeframes, exclusions).",
-        "Part A rewards precise location, not outside knowledge."
+        "Q1–7 = which text (scan headings + unique markers).",
+        "Q8–15 = lift exact words/numbers from the texts.",
+        "Q16–20 = gap-fill with short phrases from the texts."
       ],
       "vocab": [
-        { "term": "epigastric", "gloss": "상복부(의): 명치 부위" },
-        { "term": "ileus", "gloss": "장폐색·장마비: 장 운동 저하" },
-        { "term": "necrosis", "gloss": "괴사: 조직이 죽는 것" },
-        { "term": "resuscitation", "gloss": "소생·수액 소생: 순환 회복을 위한 초기 처치" }
+        { "term": "haematemesis", "gloss": "토혈: 피를 토함" },
+        { "term": "melaena", "gloss": "흑색변: 검은 타르 변" },
+        { "term": "stigmata", "gloss": "내시경적 위험 징후" },
+        { "term": "embolisation", "gloss": "색전술: 혈관을 막아 출혈 조절" }
       ]
     },
     {
       "id": "A-02",
       "part": "A",
       "setNum": 2,
-      "title": "Community-acquired pneumonia — scan drill",
-      "type": "matching",
-      "instruction": "Match each item to Text A–D.",
+      "title": "Neutropenic sepsis pathway",
+      "type": "partA-full",
+      "instruction": "Four texts on neutropenic sepsis. Answer questions 1–20 using only the texts.",
       "texts": [
         {
           "label": "A",
-          "heading": "Who needs admission?",
-          "body": "Use clinical judgment plus severity tools (e.g. CURB-65). Hypoxia, inability to take oral therapy, social isolation, and significant comorbidity often tip decisions toward inpatient care even when scores are borderline."
+          "heading": "Definitions & immediate red flags",
+          "body": "Neutropenic sepsis is a time-critical emergency. Treat suspected cases before neutrophil count returns if clinical suspicion is high.\n\nWorking definitions (adult)\n• Neutropenia: absolute neutrophil count (ANC) <1.0 × 10⁹/L (some protocols use <0.5 × 10⁹/L for ‘profound’)\n• Fever: single oral temperature ≥38.3°C OR ≥38.0°C sustained for 1 hour\n• Suspected neutropenic sepsis: fever OR other signs of infection in a patient at risk (recent chemotherapy, known haematological malignancy, stem-cell transplant) even if ANC not yet available\n\nRed flags requiring immediate escalation\n• Hypotension (systolic BP <90 mmHg or drop ≥40 mmHg from baseline)\n• Respiratory rate ≥25/min or new oxygen requirement\n• Altered mental state\n• Rigors with unstable observations\n• Suspected source requiring source control (e.g. line infection with septic shock)\n\nDo not wait for laboratory confirmation of neutropenia before giving the first antibiotic dose if the patient is at risk and septic."
         },
         {
           "label": "B",
-          "heading": "Microbiology clues",
-          "body": "Most cases remain culture-negative. Legionella and pneumococcal urinary antigens help in severe disease. Viral PCR panels are increasingly used in winter peaks; a positive viral result does not always exclude bacterial co-infection."
+          "heading": "Door-to-needle pathway (first hour)",
+          "body": "Time targets from arrival / recognition\n0–15 minutes\n• Alert: ‘neutropenic sepsis pathway’\n• ABC assessment; high-flow oxygen if SpO₂ <94% (or target per COPD protocol)\n• IV access ×2; blood cultures BEFORE antibiotics whenever this does not delay therapy >15 minutes total\n\nBy 60 minutes (door-to-needle)\n• First broad-spectrum IV antibiotic administered — commonly piperacillin-tazobactam (Tazocin) as monotherapy if no penicillin allergy; alternatives per local antibiogram (e.g. meropenem if indicated)\n• Lactate, FBC, U&E, CRP, clotting, group and save\n• Fluid challenge if hypotensive (crystalloid 500 mL rapid bolus, reassess; repeat as needed while arranging critical care review)\n\nCultures & samples\n• Peripheral blood cultures ± paired from central line hubs if line present\n• Mid-stream urine if possible; swab any wounds; CXR if respiratory signs\n• Do not delay antibiotics for imaging\n\nIf penicillin anaphylaxis history\nUse locally approved non-penicillin regimen (e.g. ciprofloxacin + vancomycin — only if listed in your trust guideline)."
         },
         {
           "label": "C",
-          "heading": "Antibiotic choices",
-          "body": "Start promptly after cultures if these will not delay therapy. Local resistance patterns guide first-line agents. Switch from IV to oral when vital signs stabilise and gut absorption is reliable."
+          "heading": "Risk stratification & ongoing antibiotics",
+          "body": "MASCC risk index (selected low-risk outpatient pathways)\nHigher MASCC scores indicate lower risk of complications. Only use outpatient oral therapy if ALL of the following apply per local policy: haemodynamically stable, no organ failure, reliable social support, able to tolerate oral medication, and MASCC high (commonly ≥21). Most inpatient oncology pathways still admit for IV therapy initially.\n\nIV catheter / line suspected\n• Examine exit site; if tunnel infection or septic shock with likely line source, discuss line removal with oncology/microbiology early\n• Add vancomycin (or teicoplanin) when MRSA risk, severe mucositis, or suspected catheter-related infection — follow local dosing/levels\n\nReassessment at 48 hours\n• If cultures negative, afebrile, and recovering neutrophils, consider de-escalation\n• Persistently febrile after 72–96 hours: review for fungal infection, occult source, and discuss antifungal strategy with haematology/ID\n\nG-CSF\nNot routinely required for every febrile neutropenic episode; consider when profound neutropenia with high-risk features per oncology advice."
         },
         {
           "label": "D",
-          "heading": "Safety-net advice",
-          "body": "Advise return if breathing worsens, confusion appears, or fever persists beyond expected course. Smoking cessation support and vaccine review belong in recovery planning, not only acute treatment."
+          "heading": "Patient information & discharge safety-netting",
+          "body": "Education before chemotherapy discharge\nGive written advice to present IMMEDIATELY if:\n• Temperature ≥38.0°C\n• Uncontrolled shivering/rigors\n• Flu-like illness, new cough, shortness of breath\n• Burning urine, diarrhoea with fever, severe mucositis preventing intake\n• Dizziness, confusion, or feeling ‘the worst ever’\n\nHome pack (where commissioned)\nSome services provide emergency oral antibiotics to start after phone triage — patients must still attend for assessment the same day unless a formal telemedicine pathway confirms low risk.\n\nAfter inpatient treatment — discharge criteria\n• Afebrile ≥24 hours on appropriate therapy\n• Clinically stable; ANC recovering or infection controlled\n• Oral route reliable; follow-up bloods/clinic booked\n• Clear advice on central-line care if discharged with a line\n\nDocumentation must record time of first antibiotic dose (door-to-needle) for audit."
         }
       ],
       "questions": [
+        { "id": 1, "type": "whichText", "stem": "In which text can you find the working definitions of neutropenia and fever?", "answer": "A", "accept": ["A"], "explain": "Text A definitions." },
+        { "id": 2, "type": "whichText", "stem": "In which text can you find the 60-minute door-to-needle antibiotic target?", "answer": "B", "accept": ["B"], "explain": "Text B pathway." },
+        { "id": 3, "type": "whichText", "stem": "In which text can you find MASCC-based low-risk outpatient considerations?", "answer": "C", "accept": ["C"], "explain": "Text C risk stratification." },
+        { "id": 4, "type": "whichText", "stem": "In which text can you find written patient advice on when to present immediately after chemotherapy?", "answer": "D", "accept": ["D"], "explain": "Text D patient information." },
+        { "id": 5, "type": "whichText", "stem": "In which text can you find when to consider adding vancomycin?", "answer": "C", "accept": ["C"], "explain": "Text C IV catheter / line section." },
+        { "id": 6, "type": "whichText", "stem": "In which text can you find instructions about blood cultures before antibiotics?", "answer": "B", "accept": ["B"], "explain": "Text B 0–15 minutes." },
+        { "id": 7, "type": "whichText", "stem": "In which text can you find that door-to-needle time must be documented for audit?", "answer": "D", "accept": ["D"], "explain": "Text D documentation." },
+
+        { "id": 8, "type": "shortAnswer", "stem": "What absolute neutrophil count threshold is quoted for neutropenia in this pathway?", "answer": "<1.0 × 10⁹/L", "accept": ["<1.0", "less than 1.0", "ANC <1.0", "<1.0 x 10^9/L", "<1.0 × 10⁹/L", "1.0", "<1.0 × 10^9/L"], "explain": "Text A: ANC <1.0 × 10⁹/L." },
+        { "id": 9, "type": "shortAnswer", "stem": "What single oral temperature is listed as meeting the fever definition (the higher single-reading cut-off)?", "answer": "≥38.3°C", "accept": ["38.3", "≥38.3", ">=38.3", "38.3°C", "≥38.3°C"], "explain": "Text A: single oral temperature ≥38.3°C." },
+        { "id": 10, "type": "shortAnswer", "stem": "Which antibiotic is named as common first-line monotherapy if there is no penicillin allergy?", "answer": "piperacillin-tazobactam", "accept": ["piperacillin-tazobactam", "piperacillin/tazobactam", "Tazocin", "tazocin"], "explain": "Text B: piperacillin-tazobactam (Tazocin)." },
+        { "id": 11, "type": "shortAnswer", "stem": "What fluid volume is suggested as a rapid crystalloid bolus if hypotensive?", "answer": "500 mL", "accept": ["500 mL", "500ml", "500 ml"], "explain": "Text B: crystalloid 500 mL rapid bolus." },
+        { "id": 12, "type": "shortAnswer", "stem": "What MASCC score threshold is commonly cited for considering low-risk pathways?", "answer": "≥21", "accept": [">=21", "≥21", "21", "21 or more"], "explain": "Text C: commonly ≥21." },
+        { "id": 13, "type": "shortAnswer", "stem": "After how many hours of persistent fever should fungal infection be reviewed (range start)?", "answer": "72", "accept": ["72", "72 hours", "72–96 hours", "72-96 hours"], "explain": "Text C: Persistently febrile after 72–96 hours." },
+        { "id": 14, "type": "shortAnswer", "stem": "What SpO₂ threshold triggers high-flow oxygen in the first 15 minutes (unless a COPD target applies)?", "answer": "<94%", "accept": ["<94%", "94%", "less than 94%", "<94"], "explain": "Text B: SpO₂ <94%." },
+        { "id": 15, "type": "shortAnswer", "stem": "For discharge after inpatient treatment, how long should the patient generally be afebrile on appropriate therapy?", "answer": "≥24 hours", "accept": ["24 hours", "≥24 hours", "at least 24 hours", "24 hrs"], "explain": "Text D: Afebrile ≥24 hours." },
+
+        { "id": 16, "type": "gapFill", "stem": "Do not wait for laboratory confirmation of ……………………………………. before giving the first antibiotic dose if the patient is at risk and septic.", "answer": "neutropenia", "accept": ["neutropenia"], "explain": "Text A final paragraph." },
+        { "id": 17, "type": "gapFill", "stem": "Blood cultures should be taken before antibiotics whenever this does not delay therapy more than ……………………………………. minutes total.", "answer": "15", "accept": ["15", "15 minutes", "fifteen"], "explain": "Text B: >15 minutes total." },
+        { "id": 18, "type": "gapFill", "stem": "Patients are advised to present immediately if temperature is ……………………………………. °C or higher.", "answer": "38.0", "accept": ["38.0", "38", "≥38.0", "38.0°C"], "explain": "Text D: Temperature ≥38.0°C." },
+        { "id": 19, "type": "gapFill", "stem": "G-CSF is ……………………………………. required for every febrile neutropenic episode.", "answer": "not routinely", "accept": ["not routinely", "not"], "explain": "Text C: Not routinely required." },
+        { "id": 20, "type": "gapFill", "stem": "Documentation must record time of first antibiotic dose (…………………………………….) for audit.", "answer": "door-to-needle", "accept": ["door-to-needle", "door to needle"], "explain": "Text D: door-to-needle." }
+      ],
+      "focusPhrases": ["door-to-needle", "MASCC", "piperacillin-tazobactam", "ANC", "vancomycin"],
+      "gist": [
+        "Part A loves numbers, thresholds, and ‘who/when/what first’.",
+        "Match unique phrases to Text A–D before writing short answers."
+      ],
+      "vocab": [
+        { "term": "neutropenia", "gloss": "호중구감소증" },
+        { "term": "door-to-needle", "gloss": "도착(인지)부터 첫 항생제까지 시간" },
+        { "term": "MASCC", "gloss": "발열성 호중구감소 합병증 위험 점수" },
+        { "term": "mucositis", "gloss": "점막염" }
+      ]
+    },
+    {
+      "id": "A-03",
+      "part": "A",
+      "setNum": 3,
+      "title": "Peri-operative anticoagulation bridging",
+      "type": "partA-full",
+      "instruction": "Use Texts A–D only. Questions 1–20.",
+      "texts": [
         {
-          "id": 1,
-          "stem": "Which text mentions CURB-65?",
-          "options": [
-            { "key": "A", "text": "Text A" },
-            { "key": "B", "text": "Text B" },
-            { "key": "C", "text": "Text C" },
-            { "key": "D", "text": "Text D" }
-          ],
-          "answer": "A",
-          "explain": "Text A: severity tools (e.g. CURB-65)."
+          "label": "A",
+          "heading": "Who needs bridging? Risk categories",
+          "body": "Bridging = temporary use of short-acting anticoagulant (usually LMWH) when a vitamin-K antagonist (VKA) such as warfarin is interrupted for a procedure.\n\nHigher thromboembolic risk (bridging more often considered)\n• Mechanical mitral valve OR older-generation mechanical aortic valve\n• AF with prior stroke/TIA and CHA₂DS₂-VASc ≥5 (local cut-offs vary)\n• VTE within the preceding 3 months\n• Previous VTE during interruption of anticoagulation\n\nLower risk (bridging often unnecessary)\n• Uncomplicated AF with lower CHA₂DS₂-VASc\n• Remote VTE >12 months ago and no thrombophilia\n• Bileaflet mechanical aortic valve without other risk factors (many guidelines advise against routine bridging)\n\nDOACs (apixaban, rivaroxaban, dabigatran, edoxaban)\nUsually stopped for a procedure-specific interval based on renal function and bleeding risk; routine LMWH bridging is NOT recommended for DOACs."
         },
         {
-          "id": 2,
-          "stem": "Which text warns that a viral PCR positive result may not exclude bacterial co-infection?",
-          "options": [
-            { "key": "A", "text": "Text A" },
-            { "key": "B", "text": "Text B" },
-            { "key": "C", "text": "Text C" },
-            { "key": "D", "text": "Text D" }
-          ],
-          "answer": "B",
-          "explain": "Text B microbiology clues."
+          "label": "B",
+          "heading": "Warfarin interruption timetable",
+          "body": "Standard elective procedure (therapeutic INR 2.0–3.0)\n• Last warfarin dose: 5 days before procedure (i.e. hold for 5 doses) in most adults\n• Check INR the day before surgery; if INR >1.5, consider low-dose oral vitamin K per protocol and recheck\n• Target pre-op INR usually ≤1.5 for surgery with bleeding risk (specialty-specific exceptions exist)\n\nHigh bleeding-risk procedures (examples)\nNeuraxial anaesthesia, major cancer surgery, prostate/bladder resection, intracranial/spinal surgery — require longer clean anticoagulant windows and stricter INR targets.\n\nRestart warfarin\n• Evening of surgery or day 1 if haemostasis secure, at usual maintenance dose (± bridging overlap until INR therapeutic)\n• Do not ‘load’ with large unexpected doses without senior/haematology input"
         },
         {
-          "id": 3,
-          "stem": "Which text discusses IV-to-oral switch criteria?",
-          "options": [
-            { "key": "A", "text": "Text A" },
-            { "key": "B", "text": "Text B" },
-            { "key": "C", "text": "Text C" },
-            { "key": "D", "text": "Text D" }
-          ],
-          "answer": "C",
-          "explain": "Text C: switch IV to oral when vitals stabilise and absorption reliable."
+          "label": "C",
+          "heading": "LMWH bridging doses & holding rules",
+          "body": "When bridging is indicated (VKA patients)\n• Start therapeutic LMWH when INR falls below therapeutic range (often ~36–48 hours after last warfarin), e.g. enoxaparin 1 mg/kg SC twice daily OR 1.5 mg/kg once daily (prefer BD in higher-risk; adjust for CrCl <30 mL/min)\n\nHold LMWH before procedure\n• Last therapeutic dose: 24 hours before surgery for twice-daily regimens\n• For once-daily therapeutic regimens: give half the dose the morning before surgery, then hold\n• Prophylactic-dose LMWH (if used instead of therapeutic bridging): last dose ≥12 hours pre-op\n\nPost-procedure restart\n• Prophylactic LMWH ≥12 hours after surgery if haemostasis OK\n• Therapeutic LMWH usually delayed 48–72 hours after high bleeding-risk surgery\n• Overlap LMWH with warfarin until INR ≥2.0 for two consecutive days (or per valve clinic target)"
         },
         {
-          "id": 4,
-          "stem": "Which text includes smoking cessation and vaccines in recovery planning?",
-          "options": [
-            { "key": "A", "text": "Text A" },
-            { "key": "B", "text": "Text B" },
-            { "key": "C", "text": "Text C" },
-            { "key": "D", "text": "Text D" }
-          ],
-          "answer": "D",
-          "explain": "Text D safety-net advice."
-        },
-        {
-          "id": 5,
-          "stem": "Which text says most cases remain culture-negative?",
-          "options": [
-            { "key": "A", "text": "Text A" },
-            { "key": "B", "text": "Text B" },
-            { "key": "C", "text": "Text C" },
-            { "key": "D", "text": "Text D" }
-          ],
-          "answer": "B",
-          "explain": "Text B: most cases remain culture-negative."
-        },
-        {
-          "id": 6,
-          "stem": "Which text notes hypoxia as a reason for admission even with borderline scores?",
-          "options": [
-            { "key": "A", "text": "Text A" },
-            { "key": "B", "text": "Text B" },
-            { "key": "C", "text": "Text C" },
-            { "key": "D", "text": "Text D" }
-          ],
-          "answer": "A",
-          "explain": "Text A: hypoxia and other factors tip toward inpatient care."
+          "label": "D",
+          "heading": "Neuraxial anaesthesia & emergency surgery notes",
+          "body": "Neuraxial block (spinal/epidural) — minimum intervals after LMWH\n• Prophylactic enoxaparin: wait ≥12 hours after last dose before needle placement\n• Therapeutic enoxaparin: wait ≥24 hours\n• After catheter removal: wait ≥4 hours before next LMWH dose (local anaesthetic protocols may be stricter)\n\nEmergency surgery on warfarin\n• Discuss bleeding vs thrombosis risk with surgeon/anaesthetist/haematology\n• For immediate reversal: IV vitamin K + 4-factor PCC (dose by INR/weight per protocol); FFP is second-line if PCC unavailable\n• Document indication, products given, and post-reversal INR\n\nEmergency surgery on DOAC\n• Record last dose time and renal function\n• Delay surgery if safe; if not, consider specific reversal (e.g. idarucizumab for dabigatran; andexanet where available for factor-Xa inhibitors) or PCC per haematology"
         }
       ],
-      "focusPhrases": ["CURB-65", "culture-negative", "co-infection", "IV to oral"],
-      "gist": ["Look for tool names, exclusions, and decision thresholds."],
+      "questions": [
+        { "id": 1, "type": "whichText", "stem": "In which text can you find who is considered higher thromboembolic risk for bridging?", "answer": "A", "accept": ["A"], "explain": "Text A risk categories." },
+        { "id": 2, "type": "whichText", "stem": "In which text can you find how many days before surgery to take the last warfarin dose?", "answer": "B", "accept": ["B"], "explain": "Text B timetable." },
+        { "id": 3, "type": "whichText", "stem": "In which text can you find LMWH hold times before surgery?", "answer": "C", "accept": ["C"], "explain": "Text C holding rules." },
+        { "id": 4, "type": "whichText", "stem": "In which text can you find neuraxial anaesthesia timing after LMWH?", "answer": "D", "accept": ["D"], "explain": "Text D neuraxial section." },
+        { "id": 5, "type": "whichText", "stem": "In which text can you find that routine LMWH bridging is not recommended for DOACs?", "answer": "A", "accept": ["A"], "explain": "Text A DOACs paragraph." },
+        { "id": 6, "type": "whichText", "stem": "In which text can you find emergency reversal with vitamin K and PCC?", "answer": "D", "accept": ["D"], "explain": "Text D emergency surgery on warfarin." },
+        { "id": 7, "type": "whichText", "stem": "In which text can you find when to restart therapeutic LMWH after high bleeding-risk surgery?", "answer": "C", "accept": ["C"], "explain": "Text C post-procedure restart." },
+
+        { "id": 8, "type": "shortAnswer", "stem": "How many days before a standard elective procedure is the last warfarin dose usually taken?", "answer": "5 days", "accept": ["5 days", "5", "five days"], "explain": "Text B: 5 days before procedure." },
+        { "id": 9, "type": "shortAnswer", "stem": "What pre-operative INR is usually targeted for surgery with bleeding risk?", "answer": "≤1.5", "accept": ["≤1.5", "<=1.5", "1.5", "less than or equal to 1.5"], "explain": "Text B: Target pre-op INR usually ≤1.5." },
+        { "id": 10, "type": "shortAnswer", "stem": "Give the twice-daily therapeutic enoxaparin dose example (mg/kg).", "answer": "1 mg/kg", "accept": ["1 mg/kg", "1mg/kg", "1 mg/kg twice daily", "1 mg/kg BD"], "explain": "Text C: enoxaparin 1 mg/kg SC twice daily." },
+        { "id": 11, "type": "shortAnswer", "stem": "How long before surgery should the last therapeutic twice-daily LMWH dose be given?", "answer": "24 hours", "accept": ["24 hours", "24 hrs", "24 h"], "explain": "Text C: Last therapeutic dose 24 hours before surgery for BD regimens." },
+        { "id": 12, "type": "shortAnswer", "stem": "What CHA₂DS₂-VASc threshold is listed as an example for higher-risk AF bridging consideration?", "answer": "≥5", "accept": [">=5", "≥5", "5"], "explain": "Text A: CHA₂DS₂-VASc ≥5." },
+        { "id": 13, "type": "shortAnswer", "stem": "Which specific reversal agent is named for dabigatran?", "answer": "idarucizumab", "accept": ["idarucizumab"], "explain": "Text D: idarucizumab for dabigatran." },
+        { "id": 14, "type": "shortAnswer", "stem": "After epidural catheter removal, how long should you wait before the next LMWH dose (minimum stated)?", "answer": "4 hours", "accept": ["4 hours", "≥4 hours", "at least 4 hours", "4 hrs"], "explain": "Text D: wait ≥4 hours before next LMWH dose." },
+        { "id": 15, "type": "shortAnswer", "stem": "VTE within what preceding period is listed as higher thromboembolic risk?", "answer": "3 months", "accept": ["3 months", "three months", "the preceding 3 months"], "explain": "Text A: VTE within the preceding 3 months." },
+
+        { "id": 16, "type": "gapFill", "stem": "Routine LMWH bridging is ……………………………………. recommended for DOACs.", "answer": "not", "accept": ["not", "NOT", "not recommended"], "explain": "Text A: NOT recommended." },
+        { "id": 17, "type": "gapFill", "stem": "If INR is >……………………………………. the day before surgery, consider low-dose oral vitamin K per protocol.", "answer": "1.5", "accept": ["1.5"], "explain": "Text B: if INR >1.5." },
+        { "id": 18, "type": "gapFill", "stem": "Overlap LMWH with warfarin until INR ≥2.0 for ……………………………………. consecutive days.", "answer": "two", "accept": ["two", "2", "two consecutive"], "explain": "Text C: two consecutive days." },
+        { "id": 19, "type": "gapFill", "stem": "Therapeutic enoxaparin: wait ≥……………………………………. hours before neuraxial needle placement.", "answer": "24", "accept": ["24", "24 hours"], "explain": "Text D: Therapeutic enoxaparin wait ≥24 hours." },
+        { "id": 20, "type": "gapFill", "stem": "For immediate warfarin reversal in emergency surgery, use IV vitamin K + 4-factor ……………………………………..", "answer": "PCC", "accept": ["PCC", "prothrombin complex concentrate"], "explain": "Text D: 4-factor PCC." }
+      ],
+      "focusPhrases": ["bridging", "LMWH", "CHA₂DS₂-VASc", "idarucizumab", "neuraxial"],
+      "gist": [
+        "Tables/timetables in Part A = mine for exact numbers.",
+        "Watch DOAC vs warfarin rules — common trap."
+      ],
       "vocab": [
-        { "term": "hypoxia", "gloss": "저산소증" },
-        { "term": "comorbidity", "gloss": "동반질환" },
-        { "term": "safety-net", "gloss": "안전망 조언: 언제 다시 올지 안내" }
+        { "term": "bridging", "gloss": "가교 항응고: 워파린 중단 기간을 LMWH 등으로 임시 대체" },
+        { "term": "LMWH", "gloss": "저분자량헤파린" },
+        { "term": "neuraxial", "gloss": "척추·경막외 마취 관련" },
+        { "term": "PCC", "gloss": "프로트롬빈복합체농축제" }
       ]
     }
   ]

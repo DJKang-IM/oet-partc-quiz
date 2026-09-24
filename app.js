@@ -270,7 +270,7 @@ function renderPassageView(s) {
         <div class="text-label">Text ${escapeHtml(t.label)} — ${escapeHtml(
           t.heading
         )}</div>
-        <p>${highlightFocus(t.body, phrases)}</p>
+        <div class="text-body">${highlightExtract(t.body, phrases)}</div>
       </div>`
       )
       .join("");
@@ -303,6 +303,13 @@ function renderPassageView(s) {
 }
 
 function renderQuestionsView(s, showResult) {
+  let sectionHints = "";
+  if (s.part === "A" && !showResult) {
+    sectionHints = `
+      <div class="section-hint"><strong>Q1–7</strong> Which text (A–D)?</div>
+      <div class="section-hint"><strong>Q8–15</strong> Word / short phrase from the texts</div>
+      <div class="section-hint"><strong>Q16–20</strong> Gap fill — word / short phrase</div>`;
+  }
   let qsHtml = "";
   if (s.part === "B") {
     qsHtml = (s.items || [])
@@ -357,12 +364,73 @@ function renderQuestionsView(s, showResult) {
         <button class="btn primary" id="submitBtn">제출 · 채점</button>
       </div>`;
 
-  return `<div class="card">${extras}${qsHtml}</div>${actions}`;
+  return `<div class="card">${extras}${sectionHints}${qsHtml}</div>${actions}`;
+}
+
+function normalizeAnswer(s) {
+  return String(s || "")
+    .toLowerCase()
+    .replace(/×/g, "x")
+    .replace(/²/g, "2")
+    .replace(/³/g, "3")
+    .replace(/⁹/g, "9")
+    .replace(/≥/g, ">=")
+    .replace(/≤/g, "<=")
+    .replace(/–|—/g, "-")
+    .replace(/[^a-z0-9./%<> =+-]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function isAnswerCorrect(q, userRaw) {
+  const user = normalizeAnswer(userRaw);
+  if (!user) return false;
+  const accept = (q.accept && q.accept.length ? q.accept : [q.answer]).map(
+    normalizeAnswer
+  );
+  return accept.some((a) => {
+    if (!a) return false;
+    if (user === a) return true;
+    // allow user typing a bit more (e.g. units)
+    if (user.includes(a) || a.includes(user)) return true;
+    return false;
+  });
+}
+
+function ensureWhichOptions(q) {
+  if (q.options?.length) return q.options;
+  return ["A", "B", "C", "D"].map((k) => ({ key: k, text: `Text ${k}` }));
 }
 
 function renderQuestion(q, showResult) {
-  const chosen = STATE.answers[q.id];
-  const opts = q.options
+  const type = q.type || (q.options ? "mcq" : "shortAnswer");
+  const chosen = STATE.answers[q.id] ?? "";
+
+  if (type === "shortAnswer" || type === "gapFill") {
+    let resultCls = "";
+    let explain = "";
+    if (showResult) {
+      const ok = isAnswerCorrect(q, chosen);
+      resultCls = ok ? "sa-ok" : "sa-bad";
+      explain = `<div class="explain"><strong>${ok ? "정답" : "오답"} · ${escapeHtml(
+        q.answer
+      )}</strong><br/>${escapeHtml(q.explain || "")}${
+        chosen
+          ? `<br/><span>내 답: ${escapeHtml(chosen)}</span>`
+          : `<br/><span>미응답</span>`
+      }</div>`;
+    }
+    return `<div class="q">
+      <div class="q-stem">${q.id}. ${escapeHtml(q.stem)}</div>
+      <input class="sa-input ${resultCls}" data-sa="${q.id}" type="text" autocomplete="off"
+        placeholder="단어 / 짧은 구 / 숫자"
+        value="${escapeHtml(chosen)}" ${showResult ? "disabled" : ""} />
+      ${explain}
+    </div>`;
+  }
+
+  // whichText / mcq
+  const opts = ensureWhichOptions(q)
     .map((o) => {
       let cls = "opt";
       if (!showResult && chosen === o.key) cls += " selected";
@@ -469,6 +537,7 @@ function bindSet() {
   $("main").onclick = async (e) => {
     const tab = e.target.closest("[data-tab]");
     if (tab) {
+      collectShortAnswers();
       STATE.tab = tab.dataset.tab;
       render();
       return;
@@ -495,21 +564,42 @@ function bindSet() {
     }
     const opt = e.target.closest(".opt");
     if (opt && !STATE.graded) {
+      collectShortAnswers();
       STATE.answers[Number(opt.dataset.q)] = opt.dataset.key;
       render();
       return;
     }
   };
 
+  $("main").oninput = (e) => {
+    const sa = e.target.closest("[data-sa]");
+    if (sa && !STATE.graded) {
+      STATE.answers[Number(sa.dataset.sa)] = sa.value;
+    }
+  };
+
   setupPassageHighlight();
 }
 
+function collectShortAnswers() {
+  document.querySelectorAll("[data-sa]").forEach((el) => {
+    STATE.answers[Number(el.dataset.sa)] = el.value.trim();
+  });
+}
+
 function grade() {
+  collectShortAnswers();
   const s = currentSet();
   const qs = questionList(s);
   let score = 0;
   for (const q of qs) {
-    if (STATE.answers[q.id] === q.answer) score += 1;
+    const user = STATE.answers[q.id];
+    const type = q.type || (q.options ? "mcq" : "shortAnswer");
+    if (type === "shortAnswer" || type === "gapFill") {
+      if (isAnswerCorrect(q, user)) score += 1;
+    } else if (user === q.answer) {
+      score += 1;
+    }
   }
   STATE.graded = true;
   STATE.result = { score, total: qs.length };
