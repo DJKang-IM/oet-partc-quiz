@@ -4,3 +4,6 @@ __pycache__/
 *.pyc
 _qdump.txt
 _extract.py
+
+_add_focus.py
+_extract.py
