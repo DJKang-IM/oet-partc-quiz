@@ -1,0 +1,6 @@
+# OET Part C mobile quiz (static)
+.DS_Store
+__pycache__/
+*.pyc
+_qdump.txt
+_extract.py
