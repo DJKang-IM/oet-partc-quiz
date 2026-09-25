@@ -376,9 +376,12 @@ function renderQuestionsView(s, showResult) {
   let sectionHints = "";
   if (s.part === "A" && !showResult) {
     sectionHints = `
-      <div class="section-hint"><strong>Q1–7</strong> Which text (A–D)?</div>
-      <div class="section-hint"><strong>Q8–15</strong> Word / short phrase from the texts</div>
-      <div class="section-hint"><strong>Q16–20</strong> Gap fill — word / short phrase</div>`;
+      <div class="section-hint"><strong>Questions 1–7</strong><br/>${escapeHtml(
+        s.sharedWhichPrompt ||
+          "In which text can you find information about"
+      )} … (A, B, C or D — letters may be used more than once)</div>
+      <div class="section-hint"><strong>Questions 8–15</strong> Answer with a word or short phrase from the texts (words, numbers, or both).</div>
+      <div class="section-hint"><strong>Questions 16–20</strong> Complete each sentence with a word or short phrase from the texts.</div>`;
   }
   if (s.part === "C" && s.texts?.length && !showResult) {
     sectionHints = `
@@ -426,8 +429,27 @@ function renderQuestionsView(s, showResult) {
         )}</h2>${block}`;
       })
       .join("");
+  } else if (s.part === "A") {
+    // Group 1-7 / 8-15 / 16-20 like the paper
+    const qs = s.questions || [];
+    const g1 = qs.filter((q) => q.id >= 1 && q.id <= 7);
+    const g2 = qs.filter((q) => q.id >= 8 && q.id <= 15);
+    const g3 = qs.filter((q) => q.id >= 16 && q.id <= 20);
+    qsHtml = `
+      <h2 class="q-group">Questions 1–7</h2>
+      <p class="which-prompt">${escapeHtml(
+        s.sharedWhichPrompt ||
+          "In which text can you find information about"
+      )}</p>
+      ${g1.map((q) => renderQuestion(q, showResult, { shortWhich: true })).join("")}
+      <h2 class="q-group">Questions 8–15</h2>
+      ${g2.map((q) => renderQuestion(q, showResult)).join("")}
+      <h2 class="q-group">Questions 16–20</h2>
+      ${g3.map((q) => renderQuestion(q, showResult)).join("")}`;
   } else {
-    qsHtml = (s.questions || []).map((q) => renderQuestion(q, showResult)).join("");
+    qsHtml = (s.questions || [])
+      .map((q) => renderQuestion(q, showResult))
+      .join("");
   }
 
   let extras = "";
@@ -499,7 +521,7 @@ function ensureWhichOptions(q) {
   return ["A", "B", "C", "D"].map((k) => ({ key: k, text: `Text ${k}` }));
 }
 
-function renderQuestion(q, showResult) {
+function renderQuestion(q, showResult, opts = {}) {
   const type = q.type || (q.options ? "mcq" : "shortAnswer");
   const chosen = STATE.answers[q.id] ?? "";
 
@@ -520,14 +542,17 @@ function renderQuestion(q, showResult) {
     return `<div class="q">
       <div class="q-stem">${q.id}. ${escapeHtml(q.stem)}</div>
       <input class="sa-input ${resultCls}" data-sa="${q.id}" type="text" autocomplete="off"
-        placeholder="단어 / 짧은 구 / 숫자"
+        placeholder="word / short phrase / number"
         value="${escapeHtml(chosen)}" ${showResult ? "disabled" : ""} />
       ${explain}
     </div>`;
   }
 
   // whichText / mcq
-  const opts = ensureWhichOptions(q)
+  const stemText = opts.shortWhich
+    ? `${q.id}. ${escapeHtml(q.stem)}`
+    : `${q.id}. ${escapeHtml(q.stem)}`;
+  const optsHtml = ensureWhichOptions(q)
     .map((o) => {
       let cls = "opt";
       if (!showResult && chosen === o.key) cls += " selected";
@@ -535,11 +560,12 @@ function renderQuestion(q, showResult) {
         if (o.key === q.answer) cls += " correct";
         else if (chosen === o.key && chosen !== q.answer) cls += " wrong";
       }
-      return `<button type="button" class="${cls}" data-q="${q.id}" data-key="${
-        o.key
-      }" ${showResult ? "disabled" : ""}><strong>${o.key}.</strong> ${escapeHtml(
-        o.text
-      )}</button>`;
+      const label = opts.shortWhich ? o.key : `<strong>${o.key}.</strong> ${escapeHtml(o.text)}`;
+      return `<button type="button" class="${cls}${
+        opts.shortWhich ? " opt-letter" : ""
+      }" data-q="${q.id}" data-key="${o.key}" ${
+        showResult ? "disabled" : ""
+      }>${label}</button>`;
     })
     .join("");
 
@@ -557,9 +583,9 @@ function renderQuestion(q, showResult) {
     }</div>`;
   }
 
-  return `<div class="q"><div class="q-stem">${q.id}. ${escapeHtml(
-    q.stem
-  )}</div>${opts}${explain}</div>`;
+  return `<div class="q"><div class="q-stem">${stemText}</div><div class="${
+    opts.shortWhich ? "letter-row" : ""
+  }">${optsHtml}</div>${explain}</div>`;
 }
 
 function renderVocab() {

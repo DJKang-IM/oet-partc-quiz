@@ -8,7 +8,7 @@
       "setNum": 1,
       "title": "Acute upper gastrointestinal bleeding",
       "type": "partA-full",
-      "instruction": "Look at Texts A–D. For questions 1–20, find the relevant information. Spelling matters for short answers. Time target: 15 minutes.",
+      "instruction": "Look at Texts A–D. Questions 1–7: which text? Questions 8–15: word/short phrase from the texts. Questions 16–20: complete the sentence. Spelling matters. Target: 15 minutes.",
       "texts": [
         {
           "label": "A",
@@ -32,41 +32,406 @@
         }
       ],
       "questions": [
-        { "id": 1, "type": "whichText", "stem": "In which text can you find information about the Glasgow-Blatchford Score and early discharge?", "answer": "A", "accept": ["A"], "explain": "Text A: GBS of 0 and outpatient pathway." },
-        { "id": 2, "type": "whichText", "stem": "In which text can you find the step-wise resuscitation and vasoactive drug algorithm?", "answer": "B", "accept": ["B"], "explain": "Text B: Steps 1–4 resuscitation & medical therapy." },
-        { "id": 3, "type": "whichText", "stem": "In which text can you find door-to-endoscopy timing categories?", "answer": "C", "accept": ["C"], "explain": "Text C: immediate / within 24 hours / outpatient." },
-        { "id": 4, "type": "whichText", "stem": "In which text can you find discharge criteria after endoscopic therapy?", "answer": "D", "accept": ["D"], "explain": "Text D: Discharge only if ALL met." },
-        { "id": 5, "type": "whichText", "stem": "In which text can you find advice on prophylactic antibiotics in suspected variceal bleeding?", "answer": "B", "accept": ["B"], "explain": "Text B Step 3: antibiotics before endoscopy in suspected variceal bleed." },
-        { "id": 6, "type": "whichText", "stem": "In which text can you find high-risk endoscopic stigmata such as a visible vessel?", "answer": "C", "accept": ["C"], "explain": "Text C checklist of high-risk stigmata." },
-        { "id": 7, "type": "whichText", "stem": "In which text can you find guidance on restarting antithrombotic medicines after haemostasis?", "answer": "D", "accept": ["D"], "explain": "Text D medication plan." },
-
-        { "id": 8, "type": "shortAnswer", "stem": "What haemoglobin threshold is usually quoted for restrictive transfusion in otherwise stable patients without cardiovascular ischaemia?", "answer": "70 g/L", "accept": ["70 g/L", "70g/L", "<70 g/L", "less than 70 g/L", "Hb <70 g/L", "70"], "explain": "Text A: haemoglobin <70 g/L." },
-        { "id": 9, "type": "shortAnswer", "stem": "Which score should NOT be used alone to decide pre-endoscopy triage?", "answer": "Rockall", "accept": ["Rockall", "Rockall score", "the Rockall score"], "explain": "Text A: Do not use Rockall alone for pre-endoscopy triage." },
-        { "id": 10, "type": "shortAnswer", "stem": "In suspected variceal bleed, which vasoactive drug is named first-line in the algorithm (before naming the alternative)?", "answer": "terlipressin", "accept": ["terlipressin"], "explain": "Text B: start terlipressin (or octreotide if unavailable)." },
-        { "id": 11, "type": "shortAnswer", "stem": "For how long is high-dose PPI infusion typically continued after haemostasis for high-risk non-variceal stigmata?", "answer": "72 hours", "accept": ["72 hours", "72 hrs", "72 h", "three days", "3 days"], "explain": "Text B: continuous infusion for 72 hours." },
-        { "id": 12, "type": "shortAnswer", "stem": "Within what time should most admitted AUGIB patients undergo endoscopy once resuscitated?", "answer": "24 hours", "accept": ["24 hours", "24 hrs", "within 24 hours", "1 day"], "explain": "Text C: Within 24 hours." },
-        { "id": 13, "type": "shortAnswer", "stem": "Which IV antibiotic is given as an example for prophylaxis in suspected variceal bleeding?", "answer": "ceftriaxone", "accept": ["ceftriaxone", "IV ceftriaxone"], "explain": "Text B: e.g. IV ceftriaxone." },
-        { "id": 14, "type": "shortAnswer", "stem": "If endoscopic control fails, which specialty is listed for embolisation?", "answer": "interventional radiology", "accept": ["interventional radiology", "IR", "radiology"], "explain": "Text C: interventional radiology (embolisation)." },
-        { "id": 15, "type": "shortAnswer", "stem": "How long should haemodynamic stability generally be documented before discharge after therapy?", "answer": "24 hours", "accept": ["24 hours", "≥24 hours", "at least 24 hours", "24 hrs"], "explain": "Text D: stable ≥24 hours after therapy." },
-
-        { "id": 16, "type": "gapFill", "stem": "A GBS of ……………………………………. identifies very-low-risk patients who may be considered for early discharge.", "answer": "0", "accept": ["0", "zero"], "explain": "Text A: GBS of 0." },
-        { "id": 17, "type": "gapFill", "stem": "Erythromycin may be given IV ……………………………………. minutes before endoscopy to improve mucosal views.", "answer": "30–60", "accept": ["30-60", "30–60", "30 to 60", "30–60 minutes", "30-60 minutes"], "explain": "Text C: 30–60 minutes pre-procedure." },
-        { "id": 18, "type": "gapFill", "stem": "In variceal disease, avoid over-transfusion because excess volume may increase ……………………………………. pressure.", "answer": "portal", "accept": ["portal", "portal pressure"], "explain": "Text B: increase portal pressure." },
-        { "id": 19, "type": "gapFill", "stem": "After the IV PPI course, oral PPI typically continues for ……………………………………. weeks depending on pathology and H. pylori status.", "answer": "4–8", "accept": ["4-8", "4–8", "4 to 8", "4–8 weeks", "4-8 weeks"], "explain": "Text D: typically 4–8 weeks." },
-        { "id": 20, "type": "gapFill", "stem": "Gastric ulcer usually needs follow-up endoscopy to exclude ……………………………………..", "answer": "malignancy", "accept": ["malignancy", "cancer", "malignancy/cancer"], "explain": "Text D: exclude malignancy." }
+        {
+          "id": 1,
+          "type": "whichText",
+          "stem": "the Glasgow-Blatchford Score and possible early discharge?",
+          "answer": "A",
+          "accept": [
+            "A"
+          ],
+          "explain": "Text A: GBS of 0.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "type": "whichText",
+          "stem": "reversing anticoagulants and starting vasoactive drugs?",
+          "answer": "B",
+          "accept": [
+            "B"
+          ],
+          "explain": "Text B Steps 2–3.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "type": "whichText",
+          "stem": "how soon endoscopy should be performed after resuscitation?",
+          "answer": "C",
+          "accept": [
+            "C"
+          ],
+          "explain": "Text C timing.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "type": "whichText",
+          "stem": "what must be true before a patient can go home?",
+          "answer": "D",
+          "accept": [
+            "D"
+          ],
+          "explain": "Text D discharge criteria.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "type": "whichText",
+          "stem": "prophylactic antibiotics in suspected variceal bleeding?",
+          "answer": "B",
+          "accept": [
+            "B"
+          ],
+          "explain": "Text B: antibiotics before endoscopy.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "type": "whichText",
+          "stem": "high-risk endoscopic stigmata such as a visible vessel?",
+          "answer": "C",
+          "accept": [
+            "C"
+          ],
+          "explain": "Text C stigmata list.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "type": "whichText",
+          "stem": "when to restart aspirin or other antithrombotic medicines?",
+          "answer": "D",
+          "accept": [
+            "D"
+          ],
+          "explain": "Text D medication plan.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "type": "shortAnswer",
+          "stem": "What haemoglobin threshold is usually quoted for restrictive transfusion in otherwise stable patients without cardiovascular ischaemia?",
+          "answer": "<70 g/L",
+          "accept": [
+            "70 g/L",
+            "70g/L",
+            "<70 g/L",
+            "less than 70 g/L",
+            "Hb <70 g/L",
+            "70"
+          ],
+          "explain": "Text A."
+        },
+        {
+          "id": 9,
+          "type": "shortAnswer",
+          "stem": "Which post-endoscopy score should not be used alone to decide pre-endoscopy triage?",
+          "answer": "Rockall (score)",
+          "accept": [
+            "Rockall",
+            "Rockall score",
+            "the Rockall score"
+          ],
+          "explain": "Text A."
+        },
+        {
+          "id": 10,
+          "type": "shortAnswer",
+          "stem": "Which vasoactive drug is named first for suspected variceal bleeding?",
+          "answer": "terlipressin",
+          "accept": [
+            "terlipressin"
+          ],
+          "explain": "Text B."
+        },
+        {
+          "id": 11,
+          "type": "shortAnswer",
+          "stem": "For how long is high-dose PPI infusion typically continued after haemostasis for high-risk non-variceal stigmata?",
+          "answer": "72 hours",
+          "accept": [
+            "72 hours",
+            "72 hrs",
+            "72 h",
+            "3 days",
+            "three days"
+          ],
+          "explain": "Text B."
+        },
+        {
+          "id": 12,
+          "type": "shortAnswer",
+          "stem": "Within what time should most admitted patients undergo endoscopy once adequately resuscitated?",
+          "answer": "24 hours",
+          "accept": [
+            "24 hours",
+            "24 hrs",
+            "within 24 hours",
+            "1 day"
+          ],
+          "explain": "Text C."
+        },
+        {
+          "id": 13,
+          "type": "shortAnswer",
+          "stem": "Which IV antibiotic is given as an example in suspected variceal bleeding?",
+          "answer": "ceftriaxone",
+          "accept": [
+            "ceftriaxone",
+            "IV ceftriaxone"
+          ],
+          "explain": "Text B."
+        },
+        {
+          "id": 14,
+          "type": "shortAnswer",
+          "stem": "If endoscopic control fails, which specialty is listed for embolisation?",
+          "answer": "interventional radiology",
+          "accept": [
+            "interventional radiology",
+            "IR",
+            "radiology"
+          ],
+          "explain": "Text C."
+        },
+        {
+          "id": 15,
+          "type": "shortAnswer",
+          "stem": "How long should haemodynamic stability generally be documented before discharge after therapy?",
+          "answer": "≥24 hours",
+          "accept": [
+            "24 hours",
+            "≥24 hours",
+            "at least 24 hours",
+            "24 hrs"
+          ],
+          "explain": "Text D."
+        },
+        {
+          "id": 16,
+          "type": "gapFill",
+          "stem": "A GBS of ……………………………………. identifies very-low-risk patients who may be considered for early discharge.",
+          "answer": "0",
+          "accept": [
+            "0",
+            "zero"
+          ],
+          "explain": "Text A."
+        },
+        {
+          "id": 17,
+          "type": "gapFill",
+          "stem": "Erythromycin may be given IV ……………………………………. minutes before endoscopy to improve mucosal views.",
+          "answer": "30–60",
+          "accept": [
+            "30-60",
+            "30–60",
+            "30 to 60",
+            "30–60 minutes",
+            "30-60 minutes"
+          ],
+          "explain": "Text C."
+        },
+        {
+          "id": 18,
+          "type": "gapFill",
+          "stem": "In variceal disease, avoid over-transfusion because excess volume may increase ……………………………………. pressure.",
+          "answer": "portal",
+          "accept": [
+            "portal",
+            "portal pressure"
+          ],
+          "explain": "Text B."
+        },
+        {
+          "id": 19,
+          "type": "gapFill",
+          "stem": "After the IV PPI course, oral PPI typically continues for ……………………………………. weeks depending on pathology and H. pylori status.",
+          "answer": "4–8",
+          "accept": [
+            "4-8",
+            "4–8",
+            "4 to 8",
+            "4–8 weeks",
+            "4-8 weeks"
+          ],
+          "explain": "Text D."
+        },
+        {
+          "id": 20,
+          "type": "gapFill",
+          "stem": "Follow-up endoscopy after gastric ulcer is used to exclude ……………………………………..",
+          "answer": "malignancy",
+          "accept": [
+            "malignancy",
+            "cancer"
+          ],
+          "explain": "Text D."
+        }
       ],
-      "focusPhrases": ["Glasgow-Blatchford Score", "Rockall score", "terlipressin", "72 hours", "visible vessel", "portal pressure"],
+      "focusPhrases": [
+        "Glasgow-Blatchford Score",
+        "Rockall score",
+        "terlipressin",
+        "72 hours",
+        "visible vessel",
+        "portal pressure",
+        "<70 g/L",
+        "Rockall (score)",
+        "24 hours",
+        "ceftriaxone",
+        "interventional radiology",
+        "≥24 hours",
+        "0",
+        "30–60",
+        "portal",
+        "4–8"
+      ],
       "gist": [
         "Q1–7 = which text (scan headings + unique markers).",
         "Q8–15 = lift exact words/numbers from the texts.",
         "Q16–20 = gap-fill with short phrases from the texts."
       ],
       "vocab": [
-        { "term": "haematemesis", "gloss": "토혈: 피를 토함" },
-        { "term": "melaena", "gloss": "흑색변: 검은 타르 변" },
-        { "term": "stigmata", "gloss": "내시경적 위험 징후" },
-        { "term": "embolisation", "gloss": "색전술: 혈관을 막아 출혈 조절" }
-      ]
+        {
+          "term": "haematemesis",
+          "gloss": "토혈: 피를 토함"
+        },
+        {
+          "term": "melaena",
+          "gloss": "흑색변: 검은 타르 변"
+        },
+        {
+          "term": "stigmata",
+          "gloss": "내시경적 위험 징후"
+        },
+        {
+          "term": "embolisation",
+          "gloss": "색전술: 혈관을 막아 출혈 조절"
+        }
+      ],
+      "sharedWhichPrompt": "In which text can you find information about"
     },
     {
       "id": "A-02",
@@ -74,7 +439,7 @@
       "setNum": 2,
       "title": "Neutropenic sepsis pathway",
       "type": "partA-full",
-      "instruction": "Four texts on neutropenic sepsis. Answer questions 1–20 using only the texts.",
+      "instruction": "Look at Texts A–D. Questions 1–7: which text? Questions 8–15: word/short phrase from the texts. Questions 16–20: complete the sentence. Spelling matters. Target: 15 minutes.",
       "texts": [
         {
           "label": "A",
@@ -98,40 +463,408 @@
         }
       ],
       "questions": [
-        { "id": 1, "type": "whichText", "stem": "In which text can you find the working definitions of neutropenia and fever?", "answer": "A", "accept": ["A"], "explain": "Text A definitions." },
-        { "id": 2, "type": "whichText", "stem": "In which text can you find the 60-minute door-to-needle antibiotic target?", "answer": "B", "accept": ["B"], "explain": "Text B pathway." },
-        { "id": 3, "type": "whichText", "stem": "In which text can you find MASCC-based low-risk outpatient considerations?", "answer": "C", "accept": ["C"], "explain": "Text C risk stratification." },
-        { "id": 4, "type": "whichText", "stem": "In which text can you find written patient advice on when to present immediately after chemotherapy?", "answer": "D", "accept": ["D"], "explain": "Text D patient information." },
-        { "id": 5, "type": "whichText", "stem": "In which text can you find when to consider adding vancomycin?", "answer": "C", "accept": ["C"], "explain": "Text C IV catheter / line section." },
-        { "id": 6, "type": "whichText", "stem": "In which text can you find instructions about blood cultures before antibiotics?", "answer": "B", "accept": ["B"], "explain": "Text B 0–15 minutes." },
-        { "id": 7, "type": "whichText", "stem": "In which text can you find that door-to-needle time must be documented for audit?", "answer": "D", "accept": ["D"], "explain": "Text D documentation." },
-
-        { "id": 8, "type": "shortAnswer", "stem": "What absolute neutrophil count threshold is quoted for neutropenia in this pathway?", "answer": "<1.0 × 10⁹/L", "accept": ["<1.0", "less than 1.0", "ANC <1.0", "<1.0 x 10^9/L", "<1.0 × 10⁹/L", "1.0", "<1.0 × 10^9/L"], "explain": "Text A: ANC <1.0 × 10⁹/L." },
-        { "id": 9, "type": "shortAnswer", "stem": "What single oral temperature is listed as meeting the fever definition (the higher single-reading cut-off)?", "answer": "≥38.3°C", "accept": ["38.3", "≥38.3", ">=38.3", "38.3°C", "≥38.3°C"], "explain": "Text A: single oral temperature ≥38.3°C." },
-        { "id": 10, "type": "shortAnswer", "stem": "Which antibiotic is named as common first-line monotherapy if there is no penicillin allergy?", "answer": "piperacillin-tazobactam", "accept": ["piperacillin-tazobactam", "piperacillin/tazobactam", "Tazocin", "tazocin"], "explain": "Text B: piperacillin-tazobactam (Tazocin)." },
-        { "id": 11, "type": "shortAnswer", "stem": "What fluid volume is suggested as a rapid crystalloid bolus if hypotensive?", "answer": "500 mL", "accept": ["500 mL", "500ml", "500 ml"], "explain": "Text B: crystalloid 500 mL rapid bolus." },
-        { "id": 12, "type": "shortAnswer", "stem": "What MASCC score threshold is commonly cited for considering low-risk pathways?", "answer": "≥21", "accept": [">=21", "≥21", "21", "21 or more"], "explain": "Text C: commonly ≥21." },
-        { "id": 13, "type": "shortAnswer", "stem": "After how many hours of persistent fever should fungal infection be reviewed (range start)?", "answer": "72", "accept": ["72", "72 hours", "72–96 hours", "72-96 hours"], "explain": "Text C: Persistently febrile after 72–96 hours." },
-        { "id": 14, "type": "shortAnswer", "stem": "What SpO₂ threshold triggers high-flow oxygen in the first 15 minutes (unless a COPD target applies)?", "answer": "<94%", "accept": ["<94%", "94%", "less than 94%", "<94"], "explain": "Text B: SpO₂ <94%." },
-        { "id": 15, "type": "shortAnswer", "stem": "For discharge after inpatient treatment, how long should the patient generally be afebrile on appropriate therapy?", "answer": "≥24 hours", "accept": ["24 hours", "≥24 hours", "at least 24 hours", "24 hrs"], "explain": "Text D: Afebrile ≥24 hours." },
-
-        { "id": 16, "type": "gapFill", "stem": "Do not wait for laboratory confirmation of ……………………………………. before giving the first antibiotic dose if the patient is at risk and septic.", "answer": "neutropenia", "accept": ["neutropenia"], "explain": "Text A final paragraph." },
-        { "id": 17, "type": "gapFill", "stem": "Blood cultures should be taken before antibiotics whenever this does not delay therapy more than ……………………………………. minutes total.", "answer": "15", "accept": ["15", "15 minutes", "fifteen"], "explain": "Text B: >15 minutes total." },
-        { "id": 18, "type": "gapFill", "stem": "Patients are advised to present immediately if temperature is ……………………………………. °C or higher.", "answer": "38.0", "accept": ["38.0", "38", "≥38.0", "38.0°C"], "explain": "Text D: Temperature ≥38.0°C." },
-        { "id": 19, "type": "gapFill", "stem": "G-CSF is ……………………………………. required for every febrile neutropenic episode.", "answer": "not routinely", "accept": ["not routinely", "not"], "explain": "Text C: Not routinely required." },
-        { "id": 20, "type": "gapFill", "stem": "Documentation must record time of first antibiotic dose (…………………………………….) for audit.", "answer": "door-to-needle", "accept": ["door-to-needle", "door to needle"], "explain": "Text D: door-to-needle." }
+        {
+          "id": 1,
+          "type": "whichText",
+          "stem": "definitions of neutropenia and fever used on the pathway?",
+          "answer": "A",
+          "accept": [
+            "A"
+          ],
+          "explain": "Text A.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "type": "whichText",
+          "stem": "the sixty-minute door-to-needle antibiotic target?",
+          "answer": "B",
+          "accept": [
+            "B"
+          ],
+          "explain": "Text B.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "type": "whichText",
+          "stem": "MASCC scoring and possible low-risk outpatient care?",
+          "answer": "C",
+          "accept": [
+            "C"
+          ],
+          "explain": "Text C.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "type": "whichText",
+          "stem": "written advice on when chemotherapy patients should present immediately?",
+          "answer": "D",
+          "accept": [
+            "D"
+          ],
+          "explain": "Text D.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "type": "whichText",
+          "stem": "when vancomycin may be added for line-related or MRSA risk?",
+          "answer": "C",
+          "accept": [
+            "C"
+          ],
+          "explain": "Text C.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "type": "whichText",
+          "stem": "taking blood cultures before the first antibiotic dose?",
+          "answer": "B",
+          "accept": [
+            "B"
+          ],
+          "explain": "Text B.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "type": "whichText",
+          "stem": "recording door-to-needle time for audit?",
+          "answer": "D",
+          "accept": [
+            "D"
+          ],
+          "explain": "Text D.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "type": "shortAnswer",
+          "stem": "What absolute neutrophil count threshold is quoted for neutropenia?",
+          "answer": "<1.0 × 10⁹/L",
+          "accept": [
+            "<1.0",
+            "less than 1.0",
+            "ANC <1.0",
+            "<1.0 x 10^9/L",
+            "<1.0 × 10⁹/L",
+            "<1.0 × 10^9/L",
+            "1.0"
+          ],
+          "explain": "Text A."
+        },
+        {
+          "id": 9,
+          "type": "shortAnswer",
+          "stem": "What single oral temperature meets the higher fever cut-off?",
+          "answer": "≥38.3°C",
+          "accept": [
+            "38.3",
+            "≥38.3",
+            ">=38.3",
+            "38.3°C",
+            "≥38.3°C"
+          ],
+          "explain": "Text A."
+        },
+        {
+          "id": 10,
+          "type": "shortAnswer",
+          "stem": "Which antibiotic is named as common first-line monotherapy if there is no penicillin allergy?",
+          "answer": "piperacillin-tazobactam",
+          "accept": [
+            "piperacillin-tazobactam",
+            "piperacillin/tazobactam",
+            "Tazocin",
+            "tazocin"
+          ],
+          "explain": "Text B."
+        },
+        {
+          "id": 11,
+          "type": "shortAnswer",
+          "stem": "What crystalloid bolus volume is suggested if the patient is hypotensive?",
+          "answer": "500 mL",
+          "accept": [
+            "500 mL",
+            "500ml",
+            "500 ml"
+          ],
+          "explain": "Text B."
+        },
+        {
+          "id": 12,
+          "type": "shortAnswer",
+          "stem": "What MASCC score is commonly cited when considering low-risk pathways?",
+          "answer": "≥21",
+          "accept": [
+            ">=21",
+            "≥21",
+            "21",
+            "21 or more"
+          ],
+          "explain": "Text C."
+        },
+        {
+          "id": 13,
+          "type": "shortAnswer",
+          "stem": "After how many hours of persistent fever should fungal infection be reviewed (start of the range given)?",
+          "answer": "72 hours",
+          "accept": [
+            "72",
+            "72 hours",
+            "72–96 hours",
+            "72-96 hours"
+          ],
+          "explain": "Text C."
+        },
+        {
+          "id": 14,
+          "type": "shortAnswer",
+          "stem": "Below what SpO₂ is high-flow oxygen started in the first 15 minutes (unless a COPD target applies)?",
+          "answer": "<94%",
+          "accept": [
+            "<94%",
+            "94%",
+            "less than 94%",
+            "<94"
+          ],
+          "explain": "Text B."
+        },
+        {
+          "id": 15,
+          "type": "shortAnswer",
+          "stem": "For how long should a patient generally be afebrile on appropriate therapy before discharge?",
+          "answer": "≥24 hours",
+          "accept": [
+            "24 hours",
+            "≥24 hours",
+            "at least 24 hours",
+            "24 hrs"
+          ],
+          "explain": "Text D."
+        },
+        {
+          "id": 16,
+          "type": "gapFill",
+          "stem": "Do not wait for laboratory confirmation of ……………………………………. before giving the first antibiotic dose if the patient is at risk and septic.",
+          "answer": "neutropenia",
+          "accept": [
+            "neutropenia"
+          ],
+          "explain": "Text A."
+        },
+        {
+          "id": 17,
+          "type": "gapFill",
+          "stem": "Blood cultures should be taken before antibiotics whenever this does not delay therapy more than ……………………………………. minutes in total.",
+          "answer": "15",
+          "accept": [
+            "15",
+            "15 minutes",
+            "fifteen"
+          ],
+          "explain": "Text B."
+        },
+        {
+          "id": 18,
+          "type": "gapFill",
+          "stem": "Patients are advised to present immediately if their temperature is ……………………………………. °C or higher.",
+          "answer": "38.0",
+          "accept": [
+            "38.0",
+            "38",
+            "≥38.0",
+            "38.0°C"
+          ],
+          "explain": "Text D."
+        },
+        {
+          "id": 19,
+          "type": "gapFill",
+          "stem": "G-CSF is ……………………………………. required for every febrile neutropenic episode.",
+          "answer": "not routinely",
+          "accept": [
+            "not routinely",
+            "not"
+          ],
+          "explain": "Text C."
+        },
+        {
+          "id": 20,
+          "type": "gapFill",
+          "stem": "Documentation must record the time of the first antibiotic dose (…………………………………….) for audit.",
+          "answer": "door-to-needle",
+          "accept": [
+            "door-to-needle",
+            "door to needle"
+          ],
+          "explain": "Text D."
+        }
       ],
-      "focusPhrases": ["door-to-needle", "MASCC", "piperacillin-tazobactam", "ANC", "vancomycin"],
+      "focusPhrases": [
+        "door-to-needle",
+        "MASCC",
+        "piperacillin-tazobactam",
+        "ANC",
+        "vancomycin",
+        "<1.0 × 10⁹/L",
+        "≥38.3°C",
+        "500 mL",
+        "≥21",
+        "72 hours",
+        "<94%",
+        "≥24 hours",
+        "neutropenia",
+        "15",
+        "38.0",
+        "not routinely"
+      ],
       "gist": [
         "Part A loves numbers, thresholds, and ‘who/when/what first’.",
         "Match unique phrases to Text A–D before writing short answers."
       ],
       "vocab": [
-        { "term": "neutropenia", "gloss": "호중구감소증" },
-        { "term": "door-to-needle", "gloss": "도착(인지)부터 첫 항생제까지 시간" },
-        { "term": "MASCC", "gloss": "발열성 호중구감소 합병증 위험 점수" },
-        { "term": "mucositis", "gloss": "점막염" }
-      ]
+        {
+          "term": "neutropenia",
+          "gloss": "호중구감소증"
+        },
+        {
+          "term": "door-to-needle",
+          "gloss": "도착(인지)부터 첫 항생제까지 시간"
+        },
+        {
+          "term": "MASCC",
+          "gloss": "발열성 호중구감소 합병증 위험 점수"
+        },
+        {
+          "term": "mucositis",
+          "gloss": "점막염"
+        }
+      ],
+      "sharedWhichPrompt": "In which text can you find information about"
     },
     {
       "id": "A-03",
@@ -139,7 +872,7 @@
       "setNum": 3,
       "title": "Peri-operative anticoagulation bridging",
       "type": "partA-full",
-      "instruction": "Use Texts A–D only. Questions 1–20.",
+      "instruction": "Look at Texts A–D. Questions 1–7: which text? Questions 8–15: word/short phrase from the texts. Questions 16–20: complete the sentence. Spelling matters. Target: 15 minutes.",
       "texts": [
         {
           "label": "A",
@@ -163,40 +896,396 @@
         }
       ],
       "questions": [
-        { "id": 1, "type": "whichText", "stem": "In which text can you find who is considered higher thromboembolic risk for bridging?", "answer": "A", "accept": ["A"], "explain": "Text A risk categories." },
-        { "id": 2, "type": "whichText", "stem": "In which text can you find how many days before surgery to take the last warfarin dose?", "answer": "B", "accept": ["B"], "explain": "Text B timetable." },
-        { "id": 3, "type": "whichText", "stem": "In which text can you find LMWH hold times before surgery?", "answer": "C", "accept": ["C"], "explain": "Text C holding rules." },
-        { "id": 4, "type": "whichText", "stem": "In which text can you find neuraxial anaesthesia timing after LMWH?", "answer": "D", "accept": ["D"], "explain": "Text D neuraxial section." },
-        { "id": 5, "type": "whichText", "stem": "In which text can you find that routine LMWH bridging is not recommended for DOACs?", "answer": "A", "accept": ["A"], "explain": "Text A DOACs paragraph." },
-        { "id": 6, "type": "whichText", "stem": "In which text can you find emergency reversal with vitamin K and PCC?", "answer": "D", "accept": ["D"], "explain": "Text D emergency surgery on warfarin." },
-        { "id": 7, "type": "whichText", "stem": "In which text can you find when to restart therapeutic LMWH after high bleeding-risk surgery?", "answer": "C", "accept": ["C"], "explain": "Text C post-procedure restart." },
-
-        { "id": 8, "type": "shortAnswer", "stem": "How many days before a standard elective procedure is the last warfarin dose usually taken?", "answer": "5 days", "accept": ["5 days", "5", "five days"], "explain": "Text B: 5 days before procedure." },
-        { "id": 9, "type": "shortAnswer", "stem": "What pre-operative INR is usually targeted for surgery with bleeding risk?", "answer": "≤1.5", "accept": ["≤1.5", "<=1.5", "1.5", "less than or equal to 1.5"], "explain": "Text B: Target pre-op INR usually ≤1.5." },
-        { "id": 10, "type": "shortAnswer", "stem": "Give the twice-daily therapeutic enoxaparin dose example (mg/kg).", "answer": "1 mg/kg", "accept": ["1 mg/kg", "1mg/kg", "1 mg/kg twice daily", "1 mg/kg BD"], "explain": "Text C: enoxaparin 1 mg/kg SC twice daily." },
-        { "id": 11, "type": "shortAnswer", "stem": "How long before surgery should the last therapeutic twice-daily LMWH dose be given?", "answer": "24 hours", "accept": ["24 hours", "24 hrs", "24 h"], "explain": "Text C: Last therapeutic dose 24 hours before surgery for BD regimens." },
-        { "id": 12, "type": "shortAnswer", "stem": "What CHA₂DS₂-VASc threshold is listed as an example for higher-risk AF bridging consideration?", "answer": "≥5", "accept": [">=5", "≥5", "5"], "explain": "Text A: CHA₂DS₂-VASc ≥5." },
-        { "id": 13, "type": "shortAnswer", "stem": "Which specific reversal agent is named for dabigatran?", "answer": "idarucizumab", "accept": ["idarucizumab"], "explain": "Text D: idarucizumab for dabigatran." },
-        { "id": 14, "type": "shortAnswer", "stem": "After epidural catheter removal, how long should you wait before the next LMWH dose (minimum stated)?", "answer": "4 hours", "accept": ["4 hours", "≥4 hours", "at least 4 hours", "4 hrs"], "explain": "Text D: wait ≥4 hours before next LMWH dose." },
-        { "id": 15, "type": "shortAnswer", "stem": "VTE within what preceding period is listed as higher thromboembolic risk?", "answer": "3 months", "accept": ["3 months", "three months", "the preceding 3 months"], "explain": "Text A: VTE within the preceding 3 months." },
-
-        { "id": 16, "type": "gapFill", "stem": "Routine LMWH bridging is ……………………………………. recommended for DOACs.", "answer": "not", "accept": ["not", "NOT", "not recommended"], "explain": "Text A: NOT recommended." },
-        { "id": 17, "type": "gapFill", "stem": "If INR is >……………………………………. the day before surgery, consider low-dose oral vitamin K per protocol.", "answer": "1.5", "accept": ["1.5"], "explain": "Text B: if INR >1.5." },
-        { "id": 18, "type": "gapFill", "stem": "Overlap LMWH with warfarin until INR ≥2.0 for ……………………………………. consecutive days.", "answer": "two", "accept": ["two", "2", "two consecutive"], "explain": "Text C: two consecutive days." },
-        { "id": 19, "type": "gapFill", "stem": "Therapeutic enoxaparin: wait ≥……………………………………. hours before neuraxial needle placement.", "answer": "24", "accept": ["24", "24 hours"], "explain": "Text D: Therapeutic enoxaparin wait ≥24 hours." },
-        { "id": 20, "type": "gapFill", "stem": "For immediate warfarin reversal in emergency surgery, use IV vitamin K + 4-factor ……………………………………..", "answer": "PCC", "accept": ["PCC", "prothrombin complex concentrate"], "explain": "Text D: 4-factor PCC." }
+        {
+          "id": 1,
+          "type": "whichText",
+          "stem": "which patients are at higher thromboembolic risk when bridging is considered?",
+          "answer": "A",
+          "accept": [
+            "A"
+          ],
+          "explain": "Text A.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "type": "whichText",
+          "stem": "how many days before surgery the last warfarin dose is usually taken?",
+          "answer": "B",
+          "accept": [
+            "B"
+          ],
+          "explain": "Text B.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "type": "whichText",
+          "stem": "when to hold therapeutic LMWH before an operation?",
+          "answer": "C",
+          "accept": [
+            "C"
+          ],
+          "explain": "Text C.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "type": "whichText",
+          "stem": "timing rules for neuraxial anaesthesia after LMWH?",
+          "answer": "D",
+          "accept": [
+            "D"
+          ],
+          "explain": "Text D.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "type": "whichText",
+          "stem": "whether routine LMWH bridging is recommended for DOACs?",
+          "answer": "A",
+          "accept": [
+            "A"
+          ],
+          "explain": "Text A.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "type": "whichText",
+          "stem": "emergency reversal of warfarin with vitamin K and PCC?",
+          "answer": "D",
+          "accept": [
+            "D"
+          ],
+          "explain": "Text D.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "type": "whichText",
+          "stem": "when therapeutic LMWH is restarted after high bleeding-risk surgery?",
+          "answer": "C",
+          "accept": [
+            "C"
+          ],
+          "explain": "Text C.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "type": "shortAnswer",
+          "stem": "How many days before a standard elective procedure is the last warfarin dose usually taken?",
+          "answer": "5 days",
+          "accept": [
+            "5 days",
+            "5",
+            "five days"
+          ],
+          "explain": "Text B."
+        },
+        {
+          "id": 9,
+          "type": "shortAnswer",
+          "stem": "What pre-operative INR is usually targeted for surgery with bleeding risk?",
+          "answer": "≤1.5",
+          "accept": [
+            "≤1.5",
+            "<=1.5",
+            "1.5",
+            "less than or equal to 1.5"
+          ],
+          "explain": "Text B."
+        },
+        {
+          "id": 10,
+          "type": "shortAnswer",
+          "stem": "What twice-daily therapeutic enoxaparin dose is given as an example?",
+          "answer": "1 mg/kg",
+          "accept": [
+            "1 mg/kg",
+            "1mg/kg",
+            "1 mg/kg twice daily",
+            "1 mg/kg BD"
+          ],
+          "explain": "Text C."
+        },
+        {
+          "id": 11,
+          "type": "shortAnswer",
+          "stem": "How long before surgery should the last therapeutic twice-daily LMWH dose be given?",
+          "answer": "24 hours",
+          "accept": [
+            "24 hours",
+            "24 hrs",
+            "24 h"
+          ],
+          "explain": "Text C."
+        },
+        {
+          "id": 12,
+          "type": "shortAnswer",
+          "stem": "What CHA₂DS₂-VASc threshold is listed as an example for higher-risk AF?",
+          "answer": "≥5",
+          "accept": [
+            ">=5",
+            "≥5",
+            "5"
+          ],
+          "explain": "Text A."
+        },
+        {
+          "id": 13,
+          "type": "shortAnswer",
+          "stem": "Which specific reversal agent is named for dabigatran?",
+          "answer": "idarucizumab",
+          "accept": [
+            "idarucizumab"
+          ],
+          "explain": "Text D."
+        },
+        {
+          "id": 14,
+          "type": "shortAnswer",
+          "stem": "After epidural catheter removal, how long should you wait before the next LMWH dose?",
+          "answer": "≥4 hours",
+          "accept": [
+            "4 hours",
+            "≥4 hours",
+            "at least 4 hours",
+            "4 hrs"
+          ],
+          "explain": "Text D."
+        },
+        {
+          "id": 15,
+          "type": "shortAnswer",
+          "stem": "VTE within what preceding period is listed as higher thromboembolic risk?",
+          "answer": "3 months",
+          "accept": [
+            "3 months",
+            "three months",
+            "the preceding 3 months"
+          ],
+          "explain": "Text A."
+        },
+        {
+          "id": 16,
+          "type": "gapFill",
+          "stem": "Routine LMWH bridging is ……………………………………. recommended for DOACs.",
+          "answer": "not",
+          "accept": [
+            "not",
+            "NOT",
+            "not recommended"
+          ],
+          "explain": "Text A."
+        },
+        {
+          "id": 17,
+          "type": "gapFill",
+          "stem": "If the INR is greater than ……………………………………. the day before surgery, consider low-dose oral vitamin K per protocol.",
+          "answer": "1.5",
+          "accept": [
+            "1.5"
+          ],
+          "explain": "Text B."
+        },
+        {
+          "id": 18,
+          "type": "gapFill",
+          "stem": "Overlap LMWH with warfarin until the INR is at least 2.0 for ……………………………………. consecutive days.",
+          "answer": "two",
+          "accept": [
+            "two",
+            "2"
+          ],
+          "explain": "Text C."
+        },
+        {
+          "id": 19,
+          "type": "gapFill",
+          "stem": "After therapeutic enoxaparin, wait at least ……………………………………. hours before neuraxial needle placement.",
+          "answer": "24",
+          "accept": [
+            "24",
+            "24 hours"
+          ],
+          "explain": "Text D."
+        },
+        {
+          "id": 20,
+          "type": "gapFill",
+          "stem": "For immediate warfarin reversal in emergency surgery, use IV vitamin K plus 4-factor ……………………………………..",
+          "answer": "PCC",
+          "accept": [
+            "PCC",
+            "prothrombin complex concentrate"
+          ],
+          "explain": "Text D."
+        }
       ],
-      "focusPhrases": ["bridging", "LMWH", "CHA₂DS₂-VASc", "idarucizumab", "neuraxial"],
+      "focusPhrases": [
+        "bridging",
+        "LMWH",
+        "CHA₂DS₂-VASc",
+        "idarucizumab",
+        "neuraxial",
+        "5 days",
+        "≤1.5",
+        "1 mg/kg",
+        "24 hours",
+        "≥5",
+        "≥4 hours",
+        "3 months",
+        "not",
+        "1.5",
+        "two",
+        "24"
+      ],
       "gist": [
         "Tables/timetables in Part A = mine for exact numbers.",
         "Watch DOAC vs warfarin rules — common trap."
       ],
       "vocab": [
-        { "term": "bridging", "gloss": "가교 항응고: 워파린 중단 기간을 LMWH 등으로 임시 대체" },
-        { "term": "LMWH", "gloss": "저분자량헤파린" },
-        { "term": "neuraxial", "gloss": "척추·경막외 마취 관련" },
-        { "term": "PCC", "gloss": "프로트롬빈복합체농축제" }
-      ]
+        {
+          "term": "bridging",
+          "gloss": "가교 항응고: 워파린 중단 기간을 LMWH 등으로 임시 대체"
+        },
+        {
+          "term": "LMWH",
+          "gloss": "저분자량헤파린"
+        },
+        {
+          "term": "neuraxial",
+          "gloss": "척추·경막외 마취 관련"
+        },
+        {
+          "term": "PCC",
+          "gloss": "프로트롬빈복합체농축제"
+        }
+      ],
+      "sharedWhichPrompt": "In which text can you find information about"
     }
   ]
 }
