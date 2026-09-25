@@ -1,0 +1,193 @@
+{
+  "id": "B-01",
+  "part": "B",
+  "setNum": 1,
+  "type": "workplace",
+  "title": "Ward & medicines policy extracts",
+  "instruction": "Six workplace extracts. Choose A, B or C. Focus phrases highlighted.",
+  "items": [
+    {
+      "id": 1,
+      "extract": "From the Trust medicines reconciliation policy:\n\nMedicines reconciliation must be completed within 24 hours of admission for all adult inpatients, and sooner if the patient is critically ill or on high-risk medicines (anticoagulants, insulin, anticonvulsants, transplant immunosuppression). Discrepancies between the patient’s reported list, blister packs, and the electronic record should be clarified with the usual GP or community pharmacy before discharge prescribing is finalised. Do not rely on a previous discharge letter alone. Document every source used, including what could not be verified. If reconciliation is incomplete at the time of transfer between wards or to another hospital, the receiving team must be informed explicitly in the verbal handover, not only via an unreadable note buried in the record. Incomplete reconciliation is a clinical risk, not an administrative inconvenience. Pharmacy technicians may gather the history, but the final reconciled list must be checked and signed by a prescriber or pharmacist. Where the patient manages their own medicines, ask to see the containers rather than accepting a verbal list.",
+      "stem": "The policy mainly requires staff to",
+      "options": [
+        {
+          "key": "A",
+          "text": "accept the most recent discharge letter as the definitive list of medicines."
+        },
+        {
+          "key": "B",
+          "text": "obtain a full medicines history from the GP before any drug is prescribed."
+        },
+        {
+          "key": "C",
+          "text": "complete reconciliation early and communicate any unresolved gaps at handover."
+        }
+      ],
+      "answer": "C",
+      "explain": "핵심: complete reconciliation early and communicate any unresolved gaps at handover.",
+      "focusPhrases": [
+        "Medicines reconciliation",
+        "24 hours",
+        "Discrepancies"
+      ],
+      "wordCount": 168
+    },
+    {
+      "id": 2,
+      "extract": "Email from the endoscopy lead to all referrers:\n\nPlease stop sending ‘urgent’ booking requests without stating the clinical indication, relevant blood results, anticoagulation/antiplatelet status, and whether the patient needs an interpreter. Incomplete forms are returned to the referrer, which delays the very patients you are trying to prioritise. If the case is truly unstable, discuss directly with the on-call endoscopist rather than using the routine e-form pathway. Remember that labelling every request urgent destroys our ability to triage real bleeding and obstruction. Incomplete urgency is not kindness; it is hidden delay. A request that arrives complete at 4 p.m. will usually be booked faster than an incomplete one sent at 9 a.m., because the second must wait to be returned, corrected and resubmitted.",
+      "stem": "The lead’s main concern is that",
+      "options": [
+        {
+          "key": "A",
+          "text": "incomplete referral forms are themselves a source of delay."
+        },
+        {
+          "key": "B",
+          "text": "referrers are booking stable patients through the on-call endoscopist."
+        },
+        {
+          "key": "C",
+          "text": "interpreters are not being arranged for urgent procedures."
+        }
+      ],
+      "answer": "A",
+      "explain": "핵심: incomplete referral forms are themselves a source of delay.",
+      "focusPhrases": [
+        "Incomplete forms",
+        "delays",
+        "urgent"
+      ],
+      "wordCount": 123
+    },
+    {
+      "id": 3,
+      "extract": "Nursing handover note (afternoon):\n\nMrs Lee’s NEWS2 has risen from 3 to 6 since midday, mainly due to respiratory rate 28 and new confusion. Blood pressure is ⁹⁸/60 with cool peripheries. Oxygen started at 2 L via nasal cannulae per protocol targeting SpO₂ 94–98%. Medical review requested at 14:10; not yet seen. Family updated that she is more sleepy than this morning. Please escalate again if NEWS2 rises further or urine output remains <20 mL/h. Sepsis pathway considered — cultures taken; awaiting first antibiotic dose confirmation from doctor. Her son has asked to be telephoned if she is moved to a higher level of care; his number is on the front sheet.",
+      "stem": "The note indicates that",
+      "options": [
+        {
+          "key": "A",
+          "text": "oxygen was started because the family reported increased sleepiness."
+        },
+        {
+          "key": "B",
+          "text": "a medical review has been requested but has not yet taken place."
+        },
+        {
+          "key": "C",
+          "text": "the sepsis pathway has been completed and the first antibiotic dose has already been given."
+        }
+      ],
+      "answer": "B",
+      "explain": "핵심: a medical review has been requested but has not yet taken place.",
+      "focusPhrases": [
+        "NEWS2",
+        "per protocol",
+        "Medical review"
+      ],
+      "wordCount": 112
+    },
+    {
+      "id": 4,
+      "extract": "Pharmacy bulletin — modified-release medicines:\n\nDo not crush modified-release metformin tablets or other MR/SR/XL preparations unless pharmacy has confirmed a crushable alternative. Crushing can cause dose dumping and toxicity. If a patient cannot swallow solids, contact pharmacy the same day for an appropriate liquid, dispersible, or alternative drug. Document the swallowing problem on the chart. Ward stock of covert medication thickeners does not make crushing MR metformin acceptable. When in doubt, withhold the dose and obtain advice rather than improvising a dangerous workaround. Where a modified-release product has been prescribed only for the convenience of once-daily dosing, an immediate-release equivalent given more frequently is often the simplest solution.",
+      "stem": "Staff are advised to",
+      "options": [
+        {
+          "key": "A",
+          "text": "withhold metformin until the patient is able to swallow solids again."
+        },
+        {
+          "key": "B",
+          "text": "seek an alternative formulation from pharmacy rather than crush the tablet."
+        },
+        {
+          "key": "C",
+          "text": "use thickener so that modified-release tablets can be crushed safely."
+        }
+      ],
+      "answer": "B",
+      "explain": "핵심: seek an alternative formulation from pharmacy rather than crush the tablet.",
+      "focusPhrases": [
+        "modified-release",
+        "crush",
+        "dose dumping"
+      ],
+      "wordCount": 108
+    },
+    {
+      "id": 5,
+      "extract": "Occupational health memo — measles exposure:\n\nStaff with unprotected exposure to measles should contact Occupational Health the same day, even if they believe their immunisation history is complete. Exclusion advice depends on documented immunity evidence (two MMR doses or positive serology), not on job title or years of service. Do not wait until the next shift if exposure occurred today. Agency staff must use the same pathway. Managers should release staff to attend OH promptly; delaying assessment increases risk to vulnerable patients on the ward. Those found to be non-immune may be offered post-exposure MMR or immunoglobulin depending on timing, so the sooner the call is made the more options remain.",
+      "stem": "According to the memo,",
+      "options": [
+        {
+          "key": "A",
+          "text": "agency staff should follow their own agency’s exposure pathway."
+        },
+        {
+          "key": "B",
+          "text": "staff who can show two documented MMR doses do not need to contact Occupational Health at all."
+        },
+        {
+          "key": "C",
+          "text": "staff must contact Occupational Health on the day of exposure regardless of their vaccination history."
+        }
+      ],
+      "answer": "C",
+      "explain": "핵심: staff must contact Occupational Health on the day of exposure regardless of their vaccination history.",
+      "focusPhrases": [
+        "unprotected exposure",
+        "same day",
+        "immunity evidence"
+      ],
+      "wordCount": 111
+    },
+    {
+      "id": 6,
+      "extract": "Discharge checklist reminder (all wards):\n\nConfirm follow-up appointments are booked and communicated before the patient leaves the ward. ‘To be arranged by GP’ is acceptable only when the receiving practice has already acknowledged the request in writing (email/EHR task). Give patients a written safety-net sheet listing red flags and a contact number that works after 5 p.m. Check that high-risk medicines have a clear restart plan. A bed empty without these steps is not a successful discharge; it is a deferred failure that will return through the emergency department. Where transport is delayed, use the waiting time to complete these items rather than treating the discharge lounge as the end of ward responsibility.",
+      "stem": "The reminder stresses that",
+      "options": [
+        {
+          "key": "A",
+          "text": "follow-up must be confirmed, and GP arrangements acknowledged in writing, before discharge."
+        },
+        {
+          "key": "B",
+          "text": "patients should be given a contact number for the ward that is staffed overnight."
+        },
+        {
+          "key": "C",
+          "text": "discharges should be delayed until a GP appointment date is known."
+        }
+      ],
+      "answer": "A",
+      "explain": "핵심: follow-up must be confirmed, and GP arrangements acknowledged in writing, before discharge.",
+      "focusPhrases": [
+        "before the patient leaves",
+        "acknowledged",
+        "in writing"
+      ],
+      "wordCount": 113
+    }
+  ],
+  "gist": [
+    "Part B = purpose of extract; underline verbs must/do not/contact."
+  ],
+  "vocab": [
+    {
+      "term": "reconciliation",
+      "gloss": "약 목록 대사"
+    },
+    {
+      "term": "modified-release",
+      "gloss": "서방정"
+    },
+    {
+      "term": "dose dumping",
+      "gloss": "서방정 파손 시 약물 급속 방출"
+    },
+    {
+      "term": "safety-net",
+      "gloss": "귀가 후 주의 증상·연락처 안내"
+    }
+  ]
+}

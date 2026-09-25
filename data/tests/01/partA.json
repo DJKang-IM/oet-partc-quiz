@@ -1,0 +1,432 @@
+{
+  "id": "A-01",
+  "part": "A",
+  "setNum": 1,
+  "title": "Acute upper gastrointestinal bleeding",
+  "type": "partA-full",
+  "instruction": "Look at Texts A–D. Questions 1–7: which text? Questions 8–15: word/short phrase from the texts. Questions 16–20: complete the sentence. Spelling matters. Target: 15 minutes.",
+  "texts": [
+    {
+      "label": "A",
+      "heading": "Initial assessment & risk",
+      "body": "Acute upper GI bleeding (AUGIB) presents with haematemesis, melaena, or both. Syncope, resting tachycardia, or postural hypotension suggest significant volume loss.\n\nImmediate priorities\n• Protect airway if ongoing massive haematemesis or reduced consciousness\n• Two large-bore IV cannulae; send FBC, urea/electrolytes, coagulation, group and save (cross-match if unstable)\n• Restrictive transfusion threshold usually haemoglobin <70 g/L in otherwise stable patients without cardiovascular ischaemia; higher targets may apply in ischaemic heart disease\n\nGlasgow-Blatchford Score (GBS) — outpatient pathway\nA GBS of 0 identifies very-low-risk patients who may be considered for early discharge with urgent outpatient endoscopy rather than admission, provided social support and follow-up are reliable.\n\nRockall score (post-endoscopy)\nCombines age, shock, comorbidity and endoscopic stigmata to estimate rebleeding and mortality risk. Do not use Rockall alone to decide pre-endoscopy triage."
+    },
+    {
+      "label": "B",
+      "heading": "Resuscitation & medical therapy algorithm",
+      "body": "Step 1 — ABC and volume\nCrystalloid bolus if hypotensive. Avoid over-transfusion in variceal disease (target Hb often ~70–80 g/L) because excess volume may increase portal pressure.\n\nStep 2 — Reverse coagulopathy when indicated\n• Stop antiplatelets/anticoagulants after senior discussion; do not reverse aspirin routinely before endoscopy if cardiac stents are recent — involve cardiology\n• For warfarin with active major bleed: vitamin K IV + PCC as per local protocol\n• DOAC major bleed: specific reversal agents where available; otherwise PCC per haematology advice\n\nStep 3 — Acid suppression & vasoactive drugs\n• Non-variceal: high-dose PPI infusion after endoscopic haemostasis (e.g. continuous omeprazole/pantoprazole infusion for 72 hours in high-risk stigmata). Pre-endoscopy PPI may be given but does not replace timely endoscopy.\n• Suspected variceal bleed: start terlipressin (or octreotide if terlipressin unavailable) AND prophylactic antibiotics (e.g. IV ceftriaxone) before endoscopy.\n\nStep 4 — Escalate early\nMassive transfusion protocol if ongoing instability. Contact gastroenterology and ICU early for unstable patients."
+    },
+    {
+      "label": "C",
+      "heading": "Endoscopy timing & findings checklist",
+      "body": "Timing (door-to-endoscopy guidance)\n• Immediate (as soon as resuscitated): ongoing haemodynamic instability despite resuscitation, suspected variceal bleed with instability\n• Within 24 hours: most admitted AUGIB patients once adequately resuscitated\n• Very low risk (GBS 0): may defer to urgent outpatient slot within days if local pathway allows\n\nPre-endoscopy checklist\n• Informed consent / capacity assessment\n• NBM status documented; airway risk discussed with anaesthesia if GCS reduced\n• Erythromycin IV 30–60 minutes pre-procedure may improve mucosal views in selected cases (local protocol)\n\nHigh-risk endoscopic stigmata (non-variceal)\nActive spurting/oozing, non-bleeding visible vessel, adherent clot — these usually need endoscopic therapy and post-procedure high-dose PPI.\n\nFailure of endoscopic control\nArrange interventional radiology (embolisation) or surgery after joint discussion; do not delay transfer while repeating ineffective endoscopy cycles."
+    },
+    {
+      "label": "D",
+      "heading": "Post-endoscopy care & discharge criteria",
+      "body": "Monitoring\n• Hourly observations initially if high-risk stigmata treated; step down when stable\n• Clear fluid then diet as directed by endoscopist; record any recurrent melaena/haematemesis on fluid chart\n\nMedication plan\n• Continue PPI orally after IV course completes, typically 4–8 weeks depending on ulcer pathology and H. pylori status\n• Test for H. pylori (biopsy or urea breath/stool antigen when appropriate); treat if positive\n• Restart necessary antithrombotics at the earliest safe interval agreed by gastroenterology/cardiology — often within 1–3 days for aspirin after haemostasis, longer for anticoagulants\n\nDischarge only if ALL met\n• Haemodynamically stable ≥24 hours after therapy\n• Haemoglobin stable on two consecutive checks\n• Tolerating oral intake\n• Clear safety-net advice given (return if black stool, vomiting blood, dizziness, syncope)\n• Follow-up endoscopy booked when indicated (e.g. gastric ulcer to exclude malignancy)"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "type": "whichText",
+      "stem": "high-risk endoscopic stigmata such as a visible vessel?",
+      "answer": "C",
+      "accept": [
+        "C"
+      ],
+      "explain": "Text C stigmata list.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Text A"
+        },
+        {
+          "key": "B",
+          "text": "Text B"
+        },
+        {
+          "key": "C",
+          "text": "Text C"
+        },
+        {
+          "key": "D",
+          "text": "Text D"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "whichText",
+      "stem": "reversing anticoagulants and starting vasoactive drugs?",
+      "answer": "B",
+      "accept": [
+        "B"
+      ],
+      "explain": "Text B Steps 2–3.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Text A"
+        },
+        {
+          "key": "B",
+          "text": "Text B"
+        },
+        {
+          "key": "C",
+          "text": "Text C"
+        },
+        {
+          "key": "D",
+          "text": "Text D"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "whichText",
+      "stem": "when to restart aspirin or other antithrombotic medicines?",
+      "answer": "D",
+      "accept": [
+        "D"
+      ],
+      "explain": "Text D medication plan.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Text A"
+        },
+        {
+          "key": "B",
+          "text": "Text B"
+        },
+        {
+          "key": "C",
+          "text": "Text C"
+        },
+        {
+          "key": "D",
+          "text": "Text D"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "whichText",
+      "stem": "prophylactic antibiotics in suspected variceal bleeding?",
+      "answer": "B",
+      "accept": [
+        "B"
+      ],
+      "explain": "Text B: antibiotics before endoscopy.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Text A"
+        },
+        {
+          "key": "B",
+          "text": "Text B"
+        },
+        {
+          "key": "C",
+          "text": "Text C"
+        },
+        {
+          "key": "D",
+          "text": "Text D"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "whichText",
+      "stem": "what must be true before a patient can go home?",
+      "answer": "D",
+      "accept": [
+        "D"
+      ],
+      "explain": "Text D discharge criteria.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Text A"
+        },
+        {
+          "key": "B",
+          "text": "Text B"
+        },
+        {
+          "key": "C",
+          "text": "Text C"
+        },
+        {
+          "key": "D",
+          "text": "Text D"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "whichText",
+      "stem": "the Glasgow-Blatchford Score and possible early discharge?",
+      "answer": "A",
+      "accept": [
+        "A"
+      ],
+      "explain": "Text A: GBS of 0.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Text A"
+        },
+        {
+          "key": "B",
+          "text": "Text B"
+        },
+        {
+          "key": "C",
+          "text": "Text C"
+        },
+        {
+          "key": "D",
+          "text": "Text D"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "whichText",
+      "stem": "how soon endoscopy should be performed after resuscitation?",
+      "answer": "C",
+      "accept": [
+        "C"
+      ],
+      "explain": "Text C timing.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Text A"
+        },
+        {
+          "key": "B",
+          "text": "Text B"
+        },
+        {
+          "key": "C",
+          "text": "Text C"
+        },
+        {
+          "key": "D",
+          "text": "Text D"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "shortAnswer",
+      "stem": "What haemoglobin threshold is usually quoted for restrictive transfusion in otherwise stable patients without cardiovascular ischaemia?",
+      "answer": "<70 g/L",
+      "accept": [
+        "70 g/L",
+        "70g/L",
+        "<70 g/L",
+        "less than 70 g/L",
+        "Hb <70 g/L",
+        "70"
+      ],
+      "explain": "Text A."
+    },
+    {
+      "id": 9,
+      "type": "shortAnswer",
+      "stem": "Which post-endoscopy score should not be used alone to decide pre-endoscopy triage?",
+      "answer": "Rockall score",
+      "accept": [
+        "Rockall score",
+        "Rockall",
+        "the Rockall score",
+        "Rockall (score)"
+      ],
+      "explain": "Text A."
+    },
+    {
+      "id": 10,
+      "type": "shortAnswer",
+      "stem": "Which vasoactive drug is named first for suspected variceal bleeding?",
+      "answer": "terlipressin",
+      "accept": [
+        "terlipressin"
+      ],
+      "explain": "Text B."
+    },
+    {
+      "id": 11,
+      "type": "shortAnswer",
+      "stem": "For how long is high-dose PPI infusion typically continued after haemostasis for high-risk non-variceal stigmata?",
+      "answer": "72 hours",
+      "accept": [
+        "72 hours",
+        "72 hrs",
+        "72 h",
+        "3 days",
+        "three days"
+      ],
+      "explain": "Text B."
+    },
+    {
+      "id": 12,
+      "type": "shortAnswer",
+      "stem": "Within what time should most admitted patients undergo endoscopy once adequately resuscitated?",
+      "answer": "24 hours",
+      "accept": [
+        "24 hours",
+        "24 hrs",
+        "within 24 hours",
+        "1 day"
+      ],
+      "explain": "Text C."
+    },
+    {
+      "id": 13,
+      "type": "shortAnswer",
+      "stem": "Which IV antibiotic is given as an example in suspected variceal bleeding?",
+      "answer": "ceftriaxone",
+      "accept": [
+        "ceftriaxone",
+        "IV ceftriaxone"
+      ],
+      "explain": "Text B."
+    },
+    {
+      "id": 14,
+      "type": "shortAnswer",
+      "stem": "If endoscopic control fails, which specialty is listed for embolisation?",
+      "answer": "interventional radiology",
+      "accept": [
+        "interventional radiology",
+        "IR",
+        "radiology"
+      ],
+      "explain": "Text C."
+    },
+    {
+      "id": 15,
+      "type": "shortAnswer",
+      "stem": "How long should haemodynamic stability generally be documented before discharge after therapy?",
+      "answer": "≥24 hours",
+      "accept": [
+        "24 hours",
+        "≥24 hours",
+        "at least 24 hours",
+        "24 hrs"
+      ],
+      "explain": "Text D."
+    },
+    {
+      "id": 16,
+      "type": "gapFill",
+      "stem": "A GBS of ……………………………………. identifies very-low-risk patients who may be considered for early discharge.",
+      "answer": "0",
+      "accept": [
+        "0",
+        "zero"
+      ],
+      "explain": "Text A."
+    },
+    {
+      "id": 17,
+      "type": "gapFill",
+      "stem": "Erythromycin may be given IV ……………………………………. minutes before endoscopy to improve mucosal views.",
+      "answer": "30–60",
+      "accept": [
+        "30-60",
+        "30–60",
+        "30 to 60",
+        "30–60 minutes",
+        "30-60 minutes"
+      ],
+      "explain": "Text C."
+    },
+    {
+      "id": 18,
+      "type": "gapFill",
+      "stem": "In variceal disease, avoid over-transfusion because excess volume may increase ……………………………………. pressure.",
+      "answer": "portal",
+      "accept": [
+        "portal",
+        "portal pressure"
+      ],
+      "explain": "Text B."
+    },
+    {
+      "id": 19,
+      "type": "gapFill",
+      "stem": "After the IV PPI course, oral PPI typically continues for ……………………………………. weeks depending on pathology and H. pylori status.",
+      "answer": "4–8",
+      "accept": [
+        "4-8",
+        "4–8",
+        "4 to 8",
+        "4–8 weeks",
+        "4-8 weeks"
+      ],
+      "explain": "Text D."
+    },
+    {
+      "id": 20,
+      "type": "gapFill",
+      "stem": "Follow-up endoscopy after gastric ulcer is used to exclude ……………………………………..",
+      "answer": "malignancy",
+      "accept": [
+        "malignancy",
+        "cancer"
+      ],
+      "explain": "Text D."
+    }
+  ],
+  "focusPhrases": [
+    "Glasgow-Blatchford Score",
+    "Rockall score",
+    "terlipressin",
+    "72 hours",
+    "visible vessel",
+    "portal pressure",
+    "<70 g/L",
+    "Rockall (score)",
+    "24 hours",
+    "ceftriaxone",
+    "interventional radiology",
+    "≥24 hours",
+    "0",
+    "30–60",
+    "portal",
+    "4–8"
+  ],
+  "gist": [
+    "Q1–7 = which text (scan headings + unique markers).",
+    "Q8–15 = lift exact words/numbers from the texts.",
+    "Q16–20 = gap-fill with short phrases from the texts."
+  ],
+  "vocab": [
+    {
+      "term": "haematemesis",
+      "gloss": "토혈: 피를 토함"
+    },
+    {
+      "term": "melaena",
+      "gloss": "흑색변: 검은 타르 변"
+    },
+    {
+      "term": "stigmata",
+      "gloss": "내시경적 위험 징후"
+    },
+    {
+      "term": "embolisation",
+      "gloss": "색전술: 혈관을 막아 출혈 조절"
+    }
+  ],
+  "sharedWhichPrompt": "In which text can you find information about"
+}

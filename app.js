@@ -30,7 +30,19 @@ function saveVocab(list) {
 
 function loadProgress() {
   try {
-    return JSON.parse(localStorage.getItem(PROGRESS_KEY) || "{}");
+    const map = JSON.parse(localStorage.getItem(PROGRESS_KEY) || "{}");
+    // migrate legacy Part C ids (C-P01 → C-01)
+    let changed = false;
+    for (const k of Object.keys(map)) {
+      const m = /^C-P(\d+)$/.exec(k);
+      if (m) {
+        map[`C-${m[1]}`] = map[k];
+        delete map[k];
+        changed = true;
+      }
+    }
+    if (changed) localStorage.setItem(PROGRESS_KEY, JSON.stringify(map));
+    return map;
   } catch {
     return {};
   }
@@ -213,8 +225,8 @@ function setsForPart(part) {
 function renderHome() {
   const parts = [
     { id: "A", label: "Part A", blurb: "짧은 텍스트 스캔 · 매칭" },
-    { id: "B", label: "Part B", blurb: "직장 문서 발췌 · 3지선다" },
-    { id: "C", label: "Part C", blurb: "긴 지문 2개 · 16문항 (실전형)" },
+    { id: "B", label: "Part B", blurb: "발췌 6개 · 각 3지선다 (발췌+문제 한 화면)" },
+    { id: "C", label: "Part C", blurb: "긴 지문 2개 · 8문항씩 (Q7–14 / Q15–22)" },
   ];
   let html = `
     <div class="card">
@@ -250,7 +262,7 @@ function renderHome() {
       s.items?.length ||
       (s.texts || []).reduce((n, t) => n + (t.questions?.length || 0), 0) ||
       0;
-    const pack = s.pack ? `${s.pack} · ` : "";
+    const pack = "";
     const wcHint = isDual(s)
       ? ` · ${(s.texts || [])
           .map((t, i) => {
@@ -266,10 +278,10 @@ function renderHome() {
     html += `
       <button class="set-btn ${prog?.done ? "is-done" : ""}" data-set="${s.id}">
         <div class="set-btn-top">
-          <span class="pack-label">${pack}Set ${String(s.setNum).padStart(
+          <span class="pack-label">${pack}Test ${String(s.setNum).padStart(
       2,
       "0"
-    )} · ${s.type || "practice"}</span>
+    )} · Part ${s.part}</span>
           ${status}
         </div>
         <strong>${escapeHtml(s.title)}</strong>
@@ -291,12 +303,22 @@ function renderSet() {
 
   if (isDual(s)) return renderDualSet(s);
 
+  // Part B: each extract is short, so extract + question live in one section
+  // (no separate passage tab).
+  const passageTab =
+    s.part === "B"
+      ? ""
+      : `<button class="tab ${STATE.tab === "passage" ? "active" : ""}" data-tab="passage">${passageLabel(
+          s
+        )}</button>`;
+  if (s.part === "B" && STATE.tab === "passage") STATE.tab = "questions";
+
   const tabs = `
     <div class="tabs">
-      <button class="tab ${STATE.tab === "passage" ? "active" : ""}" data-tab="passage">${passageLabel(
-        s
-      )}</button>
-      <button class="tab ${STATE.tab === "questions" ? "active" : ""}" data-tab="questions">문제</button>
+      ${passageTab}
+      <button class="tab ${STATE.tab === "questions" ? "active" : ""}" data-tab="questions">${
+        s.part === "B" ? "발췌 + 문제" : "문제"
+      }</button>
       ${
         STATE.graded
           ? `<button class="tab ${
@@ -777,7 +799,7 @@ function openSet(id) {
   STATE.setId = id;
   STATE.view = "set";
   const s = currentSet();
-  STATE.tab = s && isDual(s) ? "text0" : "passage";
+  STATE.tab = s && isDual(s) ? "text0" : s?.part === "B" ? "questions" : "passage";
   STATE.answers = {};
   STATE.graded = false;
   STATE.result = null;
@@ -1061,7 +1083,7 @@ async function init() {
     render();
   };
 
-  const DATA_V = "20260925c"; // bump when data/*.json changes (Safari caches aggressively)
+  const DATA_V = "202609252012"; // bump when data/*.json changes (Safari caches aggressively)
   const [cRes, aRes, bRes] = await Promise.all([
     fetch(`data/partC.json?v=${DATA_V}`, { cache: "no-cache" }),
     fetch(`data/partA.json?v=${DATA_V}`, { cache: "no-cache" }),

@@ -1,0 +1,483 @@
+{
+  "id": "C-01",
+  "part": "C",
+  "setNum": 1,
+  "type": "dual-text",
+  "title": "Moral distress & nil-by-mouth orders",
+  "instruction": "Official-style Part C: two texts, 8 questions each (16 total). Focus phrases are highlighted in the passages.",
+  "texts": [
+    {
+      "label": "Text 1",
+      "title": "Moral distress in intensive care",
+      "paragraphs": [
+        "Moral distress in intensive care is not simply tiredness after a long shift. It appears when clinicians believe they are being compelled to provide treatments that conflict with their professional judgment about what is right for a patient. Unlike ordinary stress, which can sometimes be relieved by rest or better staffing alone, moral distress is rooted in a sense of constrained agency: the person knows what they think ought to be done, yet organisational rules, family demands, or hierarchical pressure make that action feel unavailable. Surveys across critical-care units repeatedly find that nurses, who spend the most continuous hours at the bedside, report this experience most intensely, though doctors, physiotherapists and respiratory therapists describe parallel conflicts.",
+        "The promise of critical-care technology is that almost any physiology can be supported for a time. Ventilators, dialysis circuits, vasopressors and mechanical circulatory devices can maintain numbers on a monitor long after the trajectory of recovery has become improbable. That promise becomes painful when support continues after the goals of care have quietly shifted from restoration to delay. Families may request ‘everything’, interpreting any reduction as abandonment, while teams see burdens without proportionate benefit. The conflict is rarely about cruelty; it is about mismatched timelines and incomplete conversations. When those conversations are postponed, staff are left enacting a plan nobody has fully owned.",
+        "Organisations sometimes treat moral distress as a personal resilience problem—something to be fixed with mindfulness apps, tougher individuals, or informal advice to ‘not take it home’. That framing is incomplete. Distress accumulates where policies for limitations of treatment are unclear, where senior clinicians avoid goals-of-care discussions, and where staffing leaves no protected time for ethical deliberation. Individual coping cannot substitute for collective responsibility. Units that reduce moral distress tend to normalise early family meetings, make ethics consultation easy to trigger without stigma, and document ceilings of care with the same seriousness they document antibiotic choices.",
+        "Useful responses therefore combine system redesign with culture change. Routine ethics input for prolonged intensive therapies, structured debriefs after difficult deaths, and simulation that rehearses disagreeing respectfully with a family or a consultant all help. Importantly, these measures only work if speaking up does not invite retaliation. Psychological safety is the precondition for ethical clarity: without it, staff learn to stay silent, and silence is misread as agreement. Where juniors fear being labelled difficult, moral distress does not disappear; it goes underground and later resurfaces as sickness absence, cynicism, or departure from the specialty.",
+        "Measuring the problem is harder than naming it. Validated questionnaires exist, but scores fluctuate with case mix, and a unit that has just lost a young patient will report differently from one in a quiet month. More telling than any score is the pattern of who leaves. Exit interviews in critical care rarely cite salary first; they cite a specific patient, a specific week, and the sense that nobody senior wanted to hear about it. Some units now hold brief ‘ethics huddles’ at the end of the day, five minutes in which anyone can name a case that troubled them without being asked to justify the feeling. The intervention costs nothing and is easy to ridicule. Yet where it is routine, staff describe conflict as something the team carries rather than something each individual smuggles home.",
+        "Ignoring moral distress has clinical costs that extend beyond staff wellbeing. Burned-out clinicians leave, remaining teams become cynical, and patients inherit a culture in which hard conversations are postponed until crisis. Families then face sudden reversals they experience as betrayal rather than honesty delayed. Addressing distress is therefore not soft management; it is part of maintaining a workforce able to provide careful end-of-life care and consistent daytime decision-making. Metrics that count only bed days and mortality miss this intermediate failure mode.",
+        "Leadership sets the ceiling on all of this. Where a unit’s senior clinicians visibly change their own plans after a junior’s challenge, the challenge becomes ordinary. Where they concede in private and hold firm in public, staff learn that the invitation to speak was ceremonial. Nothing in a wellbeing programme can offset that lesson, and no amount of process can substitute for a consultant who says, in front of the team, ‘you were right, and I have changed the plan.’",
+        "The honest task is to keep technology’s power without surrendering judgment. Moral distress signals that judgment is still alive. A unit that never feels it may be efficient—or it may have stopped noticing what patients are enduring. Training programmes that teach only procedures without teaching how to name conflict leave graduates technically capable and ethically under-rehearsed. In that sense, moral distress is not an occupational nuisance to eliminate at all costs; it is information. The question is whether institutions are willing to hear it before the monitor alarms become the only language left."
+      ],
+      "wordCount": 798,
+      "questions": [
+        {
+          "id": 1,
+          "stem": "In paragraph one, ‘moral distress’ mainly refers to",
+          "options": [
+            {
+              "key": "A",
+              "text": "exhaustion that accumulates over a run of long night shifts in a busy unit."
+            },
+            {
+              "key": "B",
+              "text": "disagreement between nurses and doctors about treatment plans."
+            },
+            {
+              "key": "C",
+              "text": "anxiety caused by unrealistic family expectations."
+            },
+            {
+              "key": "D",
+              "text": "a sense of being compelled to act against one’s professional judgment."
+            }
+          ],
+          "answer": "D",
+          "focus": "constrained agency",
+          "explain": "지문의 ‘constrained agency’ 부분 참조 → a sense of being compelled to act against one’s professional judgment."
+        },
+        {
+          "id": 2,
+          "stem": "What does ‘the promise’ refer to in paragraph two?",
+          "options": [
+            {
+              "key": "A",
+              "text": "the expectation that conversations will be held at the right time"
+            },
+            {
+              "key": "B",
+              "text": "the reassurance families are given that recovery is likely"
+            },
+            {
+              "key": "C",
+              "text": "the commitment teams make to continue treatment when asked"
+            },
+            {
+              "key": "D",
+              "text": "the capacity of technology to support physiology for a period"
+            }
+          ],
+          "answer": "D",
+          "focus": "The promise of critical-care technology",
+          "explain": "지문의 ‘The promise of critical-care technology’ 부분 참조 → the capacity of technology to support physiology for a period"
+        },
+        {
+          "id": 3,
+          "stem": "‘That framing’ in paragraph three refers to viewing moral distress as",
+          "options": [
+            {
+              "key": "A",
+              "text": "a consequence of poor staffing levels."
+            },
+            {
+              "key": "B",
+              "text": "a matter of individual resilience."
+            },
+            {
+              "key": "C",
+              "text": "a failure of ethics consultation services."
+            },
+            {
+              "key": "D",
+              "text": "a normal reaction that needs no response."
+            }
+          ],
+          "answer": "B",
+          "focus": "personal resilience problem",
+          "explain": "지문의 ‘personal resilience problem’ 부분 참조 → a matter of individual resilience."
+        },
+        {
+          "id": 4,
+          "stem": "In paragraph four, the writer suggests that where juniors fear speaking up, moral distress",
+          "options": [
+            {
+              "key": "A",
+              "text": "becomes concentrated among senior clinicians."
+            },
+            {
+              "key": "B",
+              "text": "reappears later in less recognisable forms."
+            },
+            {
+              "key": "C",
+              "text": "is resolved through informal peer support."
+            },
+            {
+              "key": "D",
+              "text": "is gradually replaced by cynicism about protocols."
+            }
+          ],
+          "answer": "B",
+          "focus": "goes underground",
+          "explain": "지문의 ‘goes underground’ 부분 참조 → reappears later in less recognisable forms."
+        },
+        {
+          "id": 5,
+          "stem": "According to paragraph five, exit interviews in critical care most often mention",
+          "options": [
+            {
+              "key": "A",
+              "text": "a particular case that senior staff seemed unwilling to discuss."
+            },
+            {
+              "key": "B",
+              "text": "a lack of any structured way of measuring how much distress staff feel."
+            },
+            {
+              "key": "C",
+              "text": "the emotional cost of frequent patient deaths."
+            },
+            {
+              "key": "D",
+              "text": "dissatisfaction with pay relative to workload."
+            }
+          ],
+          "answer": "A",
+          "focus": "Exit interviews",
+          "explain": "지문의 ‘Exit interviews’ 부분 참조 → a particular case that senior staff seemed unwilling to discuss."
+        },
+        {
+          "id": 6,
+          "stem": "By describing staff care as ‘not soft management’, the writer implies it is",
+          "options": [
+            {
+              "key": "A",
+              "text": "undervalued by managers who focus on bed days."
+            },
+            {
+              "key": "B",
+              "text": "a matter for occupational health rather than clinicians."
+            },
+            {
+              "key": "C",
+              "text": "integral to delivering safe and consistent patient care."
+            },
+            {
+              "key": "D",
+              "text": "more demanding than conventional clinical work."
+            }
+          ],
+          "answer": "C",
+          "focus": "not soft management",
+          "explain": "지문의 ‘not soft management’ 부분 참조 → integral to delivering safe and consistent patient care."
+        },
+        {
+          "id": 7,
+          "stem": "In the final paragraph, the writer regards moral distress as",
+          "options": [
+            {
+              "key": "A",
+              "text": "evidence that clinical judgment has not been lost."
+            },
+            {
+              "key": "B",
+              "text": "a problem that mainly affects recent graduates."
+            },
+            {
+              "key": "C",
+              "text": "a nuisance that efficient units have learned to eliminate."
+            },
+            {
+              "key": "D",
+              "text": "a sign that technology has outpaced training."
+            }
+          ],
+          "answer": "A",
+          "focus": "it is information",
+          "explain": "지문의 ‘it is information’ 부분 참조 → evidence that clinical judgment has not been lost."
+        },
+        {
+          "id": 8,
+          "stem": "Overall, the writer’s main argument is that organisations should",
+          "options": [
+            {
+              "key": "A",
+              "text": "restrict the use of prolonged life-sustaining technology to patients likely to recover."
+            },
+            {
+              "key": "B",
+              "text": "give families greater authority over treatment decisions."
+            },
+            {
+              "key": "C",
+              "text": "redesign systems and culture so that conflict can be voiced early."
+            },
+            {
+              "key": "D",
+              "text": "select staff with greater personal resilience for intensive care."
+            }
+          ],
+          "answer": "C",
+          "focus": "Psychological safety",
+          "explain": "지문의 ‘Psychological safety’ 부분 참조 → redesign systems and culture so that conflict can be voiced early."
+        }
+      ],
+      "focusPhrases": [
+        "constrained agency",
+        "The promise of critical-care technology",
+        "personal resilience problem",
+        "goes underground",
+        "Exit interviews",
+        "not soft management",
+        "it is information",
+        "Psychological safety"
+      ]
+    },
+    {
+      "label": "Text 2",
+      "title": "Why nil-by-mouth orders outlive their purpose",
+      "paragraphs": [
+        "Nil-by-mouth (NBM) orders are among the most casually written instructions in hospital medicine—and among the most casually left unchanged. Intended as a short-term safety measure before anaesthesia, procedures, or airway-risk assessment, NBM can persist for hours or days after the original indication has passed. Patients then face unnecessary thirst, hunger, missed medicines, delayed recovery, and, in older adults, a rising risk of delirium. What began as protection becomes a default identity: the patient is ‘NBM’ on the board long after anyone can remember why.",
+        "The convenience of a standing order partly explains the problem. Once NBM is written, busy teams may assume someone else will lift it. Night staff inherit the restriction without the original context; morning ward rounds skip it because it looks like a theatre issue; theatre lists cancel and nobody revisits the ward instruction. Inertia, not malice, keeps people fasting. Electronic records can worsen this if the order lacks an automatic expiry and requires an active click to discontinue—clicks that compete with dozens of other tasks.",
+        "There is also a culture of risk aversion. Clinicians fear aspiration above almost all else, and the visible harm of a rare anaesthetic event outweighs the quieter harm of prolonged fasting in daily thinking. Yet prolonged fasting itself increases insulin resistance, discomfort, and physiological stress. For patients on critical Parkinson’s medicines, epilepsy drugs, or immunosuppression, ‘just in case’ NBM can be directly harmful. Risk management that only counts aspiration will systematically undervalue these quieter injuries.",
+        "The arithmetic of fasting is rarely done at the bedside. Guidance for elective anaesthesia permits clear fluids until two hours before induction and a light meal until six, yet ward practice often defaults to ‘nil from midnight’ regardless of list order. A patient scheduled for the afternoon may fast for sixteen hours or more, and if the case is bumped, the next day repeats the pattern. Surveys of surgical wards consistently find median fasting times two to three times longer than any guideline requires. The gap is not ignorance of the numbers; most staff can quote them. It is that nobody’s job is to apply them to this patient, on this list, today.",
+        "Frailty sharpens every one of these harms. An eighty-year-old with borderline renal function who misses two rounds of oral fluid and a diuretic review arrives in theatre already depleted, and the anaesthetist inherits a hypotensive induction that will later be recorded as an anaesthetic complication. Delirium that begins on the second fasting day is attributed to ‘the surgery’. Because the consequences appear downstream and are labelled elsewhere, the fasting decision is never charged with them. This is how a harmless-looking instruction escapes the scrutiny applied to drugs of comparable potency.",
+        "Some hospitals have introduced default review times: NBM orders expire unless actively renewed, or pharmacists flag missed critical medicines within a defined window. Surgical pathways that distinguish clear fluids from solids, and that use carbohydrate drinks where appropriate, reduce fasting times without ignoring airway safety. These fixes help, but they still require someone to own the patient’s oral intake as a clinical priority rather than a clerical detail. Ownership is the missing role in many handovers.",
+        "Patient experience reports repeatedly describe dry mouths, anxiety, and a sense of being forgotten while waiting ‘just in case’. When communication is poor, people do not know whether the restriction is still necessary. A thirty-second update can restore both understanding and dignity. Where patients lack capacity, relatives notice the empty cup and draw their own frightened conclusions. Transparent communication about why fasting continues—and when it will be reconsidered—is therefore not courtesy alone; it is part of safe care.",
+        "Children and people with diabetes expose the same design flaw from a different angle. Paediatric units long ago adopted rigorous fasting schedules because a small child cannot tolerate a long gap, and diabetic pathways specify how insulin should be adjusted around a missed meal. The lesson is not that those groups are special; it is that structured attention works where it is applied. Adults without a named risk are simply the group for whom nobody has written the schedule, and their thirst is treated as tolerable because it is not recorded anywhere.",
+        "NBM is a tool, not an identity. The discipline is not avoiding fasting, but matching fasting to a clear purpose and ending it when that purpose ends. Until review is as automatic as the initial order, unnecessary starvation will remain one of hospital medicine’s most preventable habits. Departments that audit fasting duration alongside list efficiency often discover that their ‘safety culture’ has been quietly trading one risk for another—and that the trade was never explicitly chosen."
+      ],
+      "wordCount": 769,
+      "questions": [
+        {
+          "id": 1,
+          "stem": "The writer’s opening criticism of NBM orders is that they",
+          "options": [
+            {
+              "key": "A",
+              "text": "tend to remain in place after their purpose has passed."
+            },
+            {
+              "key": "B",
+              "text": "are poorly understood by patients and relatives."
+            },
+            {
+              "key": "C",
+              "text": "are applied too rarely to the frail patients who would benefit most from them."
+            },
+            {
+              "key": "D",
+              "text": "are written without consulting anaesthetic staff."
+            }
+          ],
+          "answer": "A",
+          "focus": "casually left unchanged",
+          "explain": "지문의 ‘casually left unchanged’ 부분 참조 → tend to remain in place after their purpose has passed."
+        },
+        {
+          "id": 2,
+          "stem": "‘Inertia’ in paragraph two most nearly means",
+          "options": [
+            {
+              "key": "A",
+              "text": "the reluctance of junior staff to challenge decisions made by senior colleagues."
+            },
+            {
+              "key": "B",
+              "text": "the difficulty of navigating electronic records."
+            },
+            {
+              "key": "C",
+              "text": "the tendency for things to continue unchanged through inaction."
+            },
+            {
+              "key": "D",
+              "text": "the delay caused by cancelled operating lists."
+            }
+          ],
+          "answer": "C",
+          "focus": "Inertia, not malice",
+          "explain": "지문의 ‘Inertia, not malice’ 부분 참조 → the tendency for things to continue unchanged through inaction."
+        },
+        {
+          "id": 3,
+          "stem": "In paragraph three, the writer argues that risk management focused on aspiration",
+          "options": [
+            {
+              "key": "A",
+              "text": "systematically underestimates the harms of prolonged fasting."
+            },
+            {
+              "key": "B",
+              "text": "is appropriate for patients on critical medicines."
+            },
+            {
+              "key": "C",
+              "text": "reflects the priorities of patients rather than clinicians."
+            },
+            {
+              "key": "D",
+              "text": "has largely eliminated anaesthetic complications."
+            }
+          ],
+          "answer": "A",
+          "focus": "quieter injuries",
+          "explain": "지문의 ‘quieter injuries’ 부분 참조 → systematically underestimates the harms of prolonged fasting."
+        },
+        {
+          "id": 4,
+          "stem": "According to paragraph four, the main reason fasting times exceed guidelines is that",
+          "options": [
+            {
+              "key": "A",
+              "text": "afternoon lists are rarely scheduled in advance."
+            },
+            {
+              "key": "B",
+              "text": "nobody is responsible for applying the rules to individual patients."
+            },
+            {
+              "key": "C",
+              "text": "patients prefer to fast from midnight for simplicity."
+            },
+            {
+              "key": "D",
+              "text": "staff are unfamiliar with the current fasting guidance for elective anaesthesia."
+            }
+          ],
+          "answer": "B",
+          "focus": "nil from midnight",
+          "explain": "지문의 ‘nil from midnight’ 부분 참조 → nobody is responsible for applying the rules to individual patients."
+        },
+        {
+          "id": 5,
+          "stem": "The writer uses the example of the eighty-year-old patient to show that",
+          "options": [
+            {
+              "key": "A",
+              "text": "delirium is an inevitable complication of surgery in the elderly."
+            },
+            {
+              "key": "B",
+              "text": "the consequences of fasting are attributed to other causes."
+            },
+            {
+              "key": "C",
+              "text": "frail patients should not be listed for afternoon surgery."
+            },
+            {
+              "key": "D",
+              "text": "anaesthetists are blamed for decisions made on the ward."
+            }
+          ],
+          "answer": "B",
+          "focus": "escapes the scrutiny",
+          "explain": "지문의 ‘escapes the scrutiny’ 부분 참조 → the consequences of fasting are attributed to other causes."
+        },
+        {
+          "id": 6,
+          "stem": "Default review times are presented as",
+          "options": [
+            {
+              "key": "A",
+              "text": "a way of transferring responsibility to pharmacists."
+            },
+            {
+              "key": "B",
+              "text": "a complete solution to unnecessary fasting."
+            },
+            {
+              "key": "C",
+              "text": "an administrative burden that adds little to safety on busy surgical wards."
+            },
+            {
+              "key": "D",
+              "text": "helpful measures that still depend on someone taking ownership."
+            }
+          ],
+          "answer": "D",
+          "focus": "default review times",
+          "explain": "지문의 ‘default review times’ 부분 참조 → helpful measures that still depend on someone taking ownership."
+        },
+        {
+          "id": 7,
+          "stem": "The phrase ‘NBM is a tool, not an identity’ warns against",
+          "options": [
+            {
+              "key": "A",
+              "text": "using fasting orders for patients who can make their own decisions."
+            },
+            {
+              "key": "B",
+              "text": "recording fasting status on ward boards visible to others."
+            },
+            {
+              "key": "C",
+              "text": "relying on written orders rather than verbal handover."
+            },
+            {
+              "key": "D",
+              "text": "allowing a temporary instruction to define how a patient is seen."
+            }
+          ],
+          "answer": "D",
+          "focus": "NBM is a tool, not an identity",
+          "explain": "지문의 ‘NBM is a tool, not an identity’ 부분 참조 → allowing a temporary instruction to define how a patient is seen."
+        },
+        {
+          "id": 8,
+          "stem": "The writer’s overall position is that fasting should",
+          "options": [
+            {
+              "key": "A",
+              "text": "be avoided in older patients wherever possible."
+            },
+            {
+              "key": "B",
+              "text": "be replaced by carbohydrate drinks before all procedures."
+            },
+            {
+              "key": "C",
+              "text": "be matched to a clear purpose and stopped when that purpose ends."
+            },
+            {
+              "key": "D",
+              "text": "be decided by anaesthetists on the day rather than by the ward team in advance."
+            }
+          ],
+          "answer": "C",
+          "focus": "matching fasting to a clear purpose",
+          "explain": "지문의 ‘matching fasting to a clear purpose’ 부분 참조 → be matched to a clear purpose and stopped when that purpose ends."
+        }
+      ],
+      "focusPhrases": [
+        "casually left unchanged",
+        "Inertia, not malice",
+        "quieter injuries",
+        "nil from midnight",
+        "escapes the scrutiny",
+        "default review times",
+        "NBM is a tool, not an identity",
+        "matching fasting to a clear purpose"
+      ]
+    }
+  ],
+  "gist": [
+    "Dual text = real Part C sitting.",
+    "Highlight = reference/meaning targets."
+  ],
+  "vocab": [
+    {
+      "term": "moral distress",
+      "gloss": "도덕적 고통"
+    },
+    {
+      "term": "inertia",
+      "gloss": "관성·방치로 유지됨"
+    },
+    {
+      "term": "proportionate",
+      "gloss": "부담 대비 이득이 맞는"
+    }
+  ]
+}

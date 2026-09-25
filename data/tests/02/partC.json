@@ -1,0 +1,489 @@
+{
+  "id": "C-02",
+  "part": "C",
+  "setNum": 2,
+  "type": "dual-text",
+  "title": "Shared decision-making & sepsis pathways",
+  "instruction": "Two texts · 16 questions. Highlighted phrases are focus targets.",
+  "texts": [
+    {
+      "label": "Text 1",
+      "title": "Shared decision-making when time is short",
+      "paragraphs": [
+        "Shared decision-making (SDM) is widely endorsed as ethical best practice, yet clinic schedules and emergency workloads often make it look optional. In theory, SDM means patients and clinicians deliberate together using the best available evidence and the patient’s values. In practice, it is frequently reduced to a hurried choice between two options already preferred by the team, or to a signature on a consent form after a monologue. The gap between aspiration and delivery is where cynicism about SDM grows.",
+        "Some interpret time pressure as proof that SDM is unrealistic. That conclusion is too blunt. Time pressure changes the method; it does not erase the ethical requirement to avoid paternalism dressed as efficiency. Even in constrained settings, clinicians can ask what matters most, name uncertainty honestly, and check understanding. A two-minute exchange that surfaces fear of dependence may change a treatment recommendation more than a ten-minute lecture on relative risk reductions that the patient cannot use.",
+        "The real obstacle is often skill under constraint rather than minutes alone. Asking what matters, presenting trade-offs without drowning people in data, and stopping when a patient wants a clear recommendation are learnable techniques. They require rehearsal. Juniors who only watch consultants ‘decide for’ patients learn that speed equals paternalism. Juniors who watch colleagues think aloud with patients learn that SDM can be brisk without being dismissive. Training that treats communication as soft add-on content leaves the denominator of everyday decisions untouched.",
+        "Decision aids illustrate both the promise and the limits of tools. Well-designed pictographs showing how many people out of a hundred benefit, are harmed, or notice no difference help patients grasp trade-offs that verbal percentages obscure. But an aid handed over in the corridor is a leaflet, not a conversation. Evaluations repeatedly find that aids improve knowledge scores while barely shifting how decisions are actually made unless a clinician uses them as a shared object to talk around. The tool works when it changes what the two people say to each other; it fails when it is treated as documentation that talking has occurred.",
+        "There is also a quieter obstacle: clinicians’ discomfort with uncertainty in front of patients. Saying ‘we do not know whether this will help you’ feels like confessing incompetence, so the sentence is softened into false confidence in one direction or the other. Patients, however, tend to trust clinicians more, not less, when uncertainty is named plainly and paired with a clear plan for what would be reviewed and when. Training that rehearses these sentences aloud—rather than merely endorsing the principle—produces the durable change; principles rarely survive a full waiting room.",
+        "Still, system design matters. When every slot is overbooked and complex decisions are squeezed into the last three minutes, even skilled clinicians default to shortcuts. Services that protect decision time for high-stakes choices—cancer pathways, dialysis modality discussions, operative consent for frail patients—show that organisations can choose differently. Without those structural signals, SDM remains a rhetorical commitment: praised in guidelines, starved in timetables.",
+        "Patients also differ. Some want a clear recommendation more than a menu. SDM done well begins by asking how much guidance a person wants today, not by forcing a consumer model onto someone who is frightened and exhausted. Others want details and time to speak with family. Flexibility is not a betrayal of autonomy; rigidity is. The clinician’s job is to match process to person while remaining honest about evidence limits.",
+        "Documentation deserves a word of its own. Notes that record ‘risks and benefits discussed, patient agrees’ satisfy a template while telling the next clinician nothing about what the person feared, what they declined, or what would make them change their mind. A single sentence capturing the patient’s own reasoning—‘prefers to avoid another admission even at the cost of some breathlessness’—travels better across handovers than any checklist, and it protects clinicians more effectively when decisions are later questioned. Recording the reasoning also disciplines the conversation: it is hard to write down a preference that was never actually elicited.",
+        "The target is not perfect conversations in imperfect clinics. It is fewer decisions made to the patient rather than with them, and fewer later regrets rooted in misunderstanding. Measuring SDM only by form completion will miss the point. Listening for whether patients can explain why a plan fits their life is a better test—and a more demanding one—than counting signatures."
+      ],
+      "wordCount": 722,
+      "questions": [
+        {
+          "id": 1,
+          "stem": "In paragraph one, the writer suggests that cynicism about shared decision-making arises from",
+          "options": [
+            {
+              "key": "A",
+              "text": "the amount of extra time it adds to clinics that are already overbooked."
+            },
+            {
+              "key": "B",
+              "text": "the pressure on patients to sign consent forms."
+            },
+            {
+              "key": "C",
+              "text": "the difference between what is claimed for it and what actually happens."
+            },
+            {
+              "key": "D",
+              "text": "clinicians’ belief that patients cannot understand evidence."
+            }
+          ],
+          "answer": "C",
+          "focus": "The gap between aspiration and delivery",
+          "explain": "지문의 ‘The gap between aspiration and delivery’ 부분 참조 → the difference between what is claimed for it and what actually happens."
+        },
+        {
+          "id": 2,
+          "stem": "‘That conclusion’ in paragraph two refers to the view that",
+          "options": [
+            {
+              "key": "A",
+              "text": "time pressure makes shared decision-making impractical."
+            },
+            {
+              "key": "B",
+              "text": "patients prefer brief consultations."
+            },
+            {
+              "key": "C",
+              "text": "efficiency is a form of paternalism."
+            },
+            {
+              "key": "D",
+              "text": "relative risk reductions are hard to explain."
+            }
+          ],
+          "answer": "A",
+          "focus": "That conclusion is too blunt",
+          "explain": "지문의 ‘That conclusion is too blunt’ 부분 참조 → time pressure makes shared decision-making impractical."
+        },
+        {
+          "id": 3,
+          "stem": "According to paragraph three, juniors who observe consultants deciding for patients learn that",
+          "options": [
+            {
+              "key": "A",
+              "text": "being quick means being paternalistic."
+            },
+            {
+              "key": "B",
+              "text": "patients rarely want to be involved."
+            },
+            {
+              "key": "C",
+              "text": "consultants lack training in shared decision-making."
+            },
+            {
+              "key": "D",
+              "text": "communication skills cannot be taught."
+            }
+          ],
+          "answer": "A",
+          "focus": "skill under constraint",
+          "explain": "지문의 ‘skill under constraint’ 부분 참조 → being quick means being paternalistic."
+        },
+        {
+          "id": 4,
+          "stem": "The writer says decision aids are most effective when they",
+          "options": [
+            {
+              "key": "A",
+              "text": "are given to patients to read before the appointment."
+            },
+            {
+              "key": "B",
+              "text": "present risks as percentages rather than pictures."
+            },
+            {
+              "key": "C",
+              "text": "are used to record that a discussion took place."
+            },
+            {
+              "key": "D",
+              "text": "become something the clinician and patient discuss together."
+            }
+          ],
+          "answer": "D",
+          "focus": "a shared object to talk around",
+          "explain": "지문의 ‘a shared object to talk around’ 부분 참조 → become something the clinician and patient discuss together."
+        },
+        {
+          "id": 5,
+          "stem": "In paragraph five, the writer claims that naming uncertainty openly",
+          "options": [
+            {
+              "key": "A",
+              "text": "makes patients more likely to request a recommendation."
+            },
+            {
+              "key": "B",
+              "text": "is appropriate only when a review plan is impossible."
+            },
+            {
+              "key": "C",
+              "text": "tends to increase rather than reduce patients’ trust."
+            },
+            {
+              "key": "D",
+              "text": "is a skill most clinicians already possess."
+            }
+          ],
+          "answer": "C",
+          "focus": "trust clinicians more, not less",
+          "explain": "지문의 ‘trust clinicians more, not less’ 부분 참조 → tends to increase rather than reduce patients’ trust."
+        },
+        {
+          "id": 6,
+          "stem": "‘Rhetorical commitment’ suggests that shared decision-making is",
+          "options": [
+            {
+              "key": "A",
+              "text": "promoted enthusiastically by managers rather than by frontline clinicians."
+            },
+            {
+              "key": "B",
+              "text": "endorsed in principle but not supported in practice."
+            },
+            {
+              "key": "C",
+              "text": "discussed in training but forgotten afterwards."
+            },
+            {
+              "key": "D",
+              "text": "valued more by patients than by guidelines."
+            }
+          ],
+          "answer": "B",
+          "focus": "rhetorical commitment",
+          "explain": "지문의 ‘rhetorical commitment’ 부분 참조 → endorsed in principle but not supported in practice."
+        },
+        {
+          "id": 7,
+          "stem": "The writer describes a patient’s wish for a clear recommendation as",
+          "options": [
+            {
+              "key": "A",
+              "text": "a sign that the consumer model of health care has failed in practice."
+            },
+            {
+              "key": "B",
+              "text": "evidence that autonomy has been undermined."
+            },
+            {
+              "key": "C",
+              "text": "a reason to spend longer presenting the evidence."
+            },
+            {
+              "key": "D",
+              "text": "compatible with shared decision-making when the approach is adapted."
+            }
+          ],
+          "answer": "D",
+          "focus": "Flexibility is not a betrayal of autonomy",
+          "explain": "지문의 ‘Flexibility is not a betrayal of autonomy’ 부분 참조 → compatible with shared decision-making when the approach is adapted."
+        },
+        {
+          "id": 8,
+          "stem": "In the final paragraph, the writer proposes judging shared decision-making by whether",
+          "options": [
+            {
+              "key": "A",
+              "text": "clinicians report fewer complaints about the decisions that were made."
+            },
+            {
+              "key": "B",
+              "text": "patients can explain how a plan suits their circumstances."
+            },
+            {
+              "key": "C",
+              "text": "consent forms are completed in every case."
+            },
+            {
+              "key": "D",
+              "text": "consultations are shorter than before."
+            }
+          ],
+          "answer": "B",
+          "focus": "counting signatures",
+          "explain": "지문의 ‘counting signatures’ 부분 참조 → patients can explain how a plan suits their circumstances."
+        }
+      ],
+      "focusPhrases": [
+        "The gap between aspiration and delivery",
+        "That conclusion is too blunt",
+        "skill under constraint",
+        "a shared object to talk around",
+        "trust clinicians more, not less",
+        "rhetorical commitment",
+        "Flexibility is not a betrayal of autonomy",
+        "counting signatures"
+      ]
+    },
+    {
+      "label": "Text 2",
+      "title": "Sepsis pathways and the cost of delay",
+      "paragraphs": [
+        "Sepsis pathways were built for a simple reason: hours matter. When recognition is late, or when antibiotics and fluids are delayed after recognition, mortality rises. Care bundles translate that urgency into timed actions—cultures, lactate, antibiotics, fluid challenges, escalation—so that ‘suspected sepsis’ triggers a shared sequence rather than individual improvisation. Used well, pathways reduce unwarranted variation.",
+        "The word itself has shifted meaning. Older definitions rested on inflammatory markers that many patients without infection also display; the current consensus defines sepsis as life-threatening organ dysfunction caused by a dysregulated response to infection. That is a diagnosis of consequence, not of temperature, and it explains why a febrile but well patient and an afebrile patient with a rising lactate belong on different sides of the pathway.",
+        "Critics argue that rigid hour-one rules can drive overtreatment—antibiotics for non-infectious mimics, fluid overload in patients who needed vasopressors and careful phenotyping instead of repeated boluses. The criticism is not trivial. Pathways that cannot tolerate clinical judgment become rituals: clocks are satisfied while patients are not. The friction usually sits in recognition and differential thinking, not in the pharmacy’s ability to deliver a first dose.",
+        "Attribution is another trap. If hospitals only audit whether antibiotics were given within sixty minutes, teams learn to game the clock. A dose given rapidly for the wrong syndrome still ‘passes’. Conversely, a thoughtful delay for a patient with clear pulmonary oedema and no infection ‘fails’, even if it was safer. Measurement culture shapes behaviour; poor metrics teach the wrong lesson.",
+        "Recognition remains the weakest link. Sepsis has no single test; it is a clinical inference built from history, examination and trend. Early warning scores help, but they are blunt in the very groups where sepsis is most dangerous—the elderly with blunted fever responses, the immunosuppressed whose counts do not rise, the young and fit who compensate until they abruptly do not. A score that reassures because the blood pressure is normal may be measuring a physiological reserve that is about to run out.",
+        "Antimicrobial stewardship adds a genuine tension rather than a false one. Every early broad-spectrum dose given for a suspected infection that proves not to exist adds to resistance pressure and to the individual’s risk of Clostridioides difficile and organ toxicity. The answer is not to withhold the first dose when sepsis is plausible; it is to make the second decision—review at forty-eight to seventy-two hours, de-escalate or stop—as protected and visible as the first. Bundles that time only the start and never the stop have measured half a pathway.",
+        "Nurses are often the first to suspect deterioration and the last to be asked what they think. Escalation policies that require a threshold score before a doctor must attend can silence a competent observer whose concern precedes the numbers. Some hospitals have added a ‘worried’ criterion that carries the same weight as a physiological trigger. It is a small change of rules and a large change of message: judgment is admissible evidence.",
+        "Teams that treat pathways as conversation starters rather than scripts do better. They ask what source is plausible, whether source control is needed, and when to stop antibiotics. They document why a bundle step was modified. That documentation is not bureaucracy for its own sake; it is how judgment remains visible under time pressure. Without it, later reviewers see only compliance scores and miss clinical reasoning.",
+        "Families often sense change before charts do. Listening to ‘he is not himself’ is not soft data; it is sometimes the earliest signal that perfusion or cognition is shifting. Pathways that ignore concerned observers in favour of isolated numbers recreate the problem they were meant to solve: delayed recognition. Combining track-and-trigger scores with human concern is more faithful to how deterioration actually appears.",
+        "Data from national audits illustrate the trade-off in numbers. Programmes that tightened hour-one antibiotic compliance have reported falling sepsis mortality alongside rising broad-spectrum consumption and, in some units, more Clostridioides difficile. Whether the net effect is favourable depends on which patients were treated and which were merely labelled, a distinction that compliance dashboards do not display. Honest evaluation therefore needs paired measures—time to antibiotics for confirmed sepsis and rate of antibiotics for patients with no infection found—reported together, so that improvement in one cannot quietly purchase deterioration in the other.",
+        "The point of a sepsis pathway is disciplined speed with room for judgment. Speed without judgment harms; judgment without speed also harms. Training should therefore rehearse both the stopwatch and the differential, so that juniors learn that stopping to think for thirty seconds is not the enemy of the bundle—uncritically ticking boxes is."
+      ],
+      "wordCount": 765,
+      "questions": [
+        {
+          "id": 1,
+          "stem": "According to paragraph one, sepsis pathways were introduced because",
+          "options": [
+            {
+              "key": "A",
+              "text": "individual clinicians were reluctant to prescribe antibiotics."
+            },
+            {
+              "key": "B",
+              "text": "delays in recognition and treatment increase mortality."
+            },
+            {
+              "key": "C",
+              "text": "variation in practice was confusing for families."
+            },
+            {
+              "key": "D",
+              "text": "hospitals needed a way of auditing emergency care."
+            }
+          ],
+          "answer": "B",
+          "focus": "hours matter",
+          "explain": "지문의 ‘hours matter’ 부분 참조 → delays in recognition and treatment increase mortality."
+        },
+        {
+          "id": 2,
+          "stem": "In paragraph three, the writer describes pathways that ‘become rituals’ as those in which",
+          "options": [
+            {
+              "key": "A",
+              "text": "pharmacy delivery is prioritised over diagnosis."
+            },
+            {
+              "key": "B",
+              "text": "antibiotics are given before blood cultures have been taken from the patient."
+            },
+            {
+              "key": "C",
+              "text": "senior review is required before every step."
+            },
+            {
+              "key": "D",
+              "text": "timings are achieved but patients do not benefit."
+            }
+          ],
+          "answer": "D",
+          "focus": "become rituals",
+          "explain": "지문의 ‘become rituals’ 부분 참조 → timings are achieved but patients do not benefit."
+        },
+        {
+          "id": 3,
+          "stem": "‘Game the clock’ in paragraph four refers to",
+          "options": [
+            {
+              "key": "A",
+              "text": "recording the time of antibiotics inaccurately."
+            },
+            {
+              "key": "B",
+              "text": "deliberately delaying antibiotics in order to avoid treating patients who do not need them."
+            },
+            {
+              "key": "C",
+              "text": "ignoring the sixty-minute target altogether."
+            },
+            {
+              "key": "D",
+              "text": "satisfying a time target in ways that neglect clinical quality."
+            }
+          ],
+          "answer": "D",
+          "focus": "game the clock",
+          "explain": "지문의 ‘game the clock’ 부분 참조 → satisfying a time target in ways that neglect clinical quality."
+        },
+        {
+          "id": 4,
+          "stem": "The writer suggests that early warning scores may be misleading because",
+          "options": [
+            {
+              "key": "A",
+              "text": "they are rarely completed for elderly patients."
+            },
+            {
+              "key": "B",
+              "text": "they are designed for use in intensive care rather than on general wards."
+            },
+            {
+              "key": "C",
+              "text": "normal readings can reflect reserves that are about to fail."
+            },
+            {
+              "key": "D",
+              "text": "they place too much weight on fever."
+            }
+          ],
+          "answer": "C",
+          "focus": "physiological reserve",
+          "explain": "지문의 ‘physiological reserve’ 부분 참조 → normal readings can reflect reserves that are about to fail."
+        },
+        {
+          "id": 5,
+          "stem": "In paragraph six, the writer argues that antibiotic review at 48–72 hours should be",
+          "options": [
+            {
+              "key": "A",
+              "text": "given the same priority and visibility as the first dose."
+            },
+            {
+              "key": "B",
+              "text": "left entirely to the judgment of the individual prescriber on the ward."
+            },
+            {
+              "key": "C",
+              "text": "used to justify withholding the initial dose."
+            },
+            {
+              "key": "D",
+              "text": "postponed until culture results are complete."
+            }
+          ],
+          "answer": "A",
+          "focus": "half a pathway",
+          "explain": "지문의 ‘half a pathway’ 부분 참조 → given the same priority and visibility as the first dose."
+        },
+        {
+          "id": 6,
+          "stem": "The ‘worried’ criterion described in paragraph seven is significant because it",
+          "options": [
+            {
+              "key": "A",
+              "text": "removes the need for physiological scoring."
+            },
+            {
+              "key": "B",
+              "text": "treats a nurse’s concern as valid evidence for escalation."
+            },
+            {
+              "key": "C",
+              "text": "shifts responsibility for recognition to relatives."
+            },
+            {
+              "key": "D",
+              "text": "requires a doctor to attend in person every patient whose score is rising."
+            }
+          ],
+          "answer": "B",
+          "focus": "judgment is admissible evidence",
+          "explain": "지문의 ‘judgment is admissible evidence’ 부분 참조 → treats a nurse’s concern as valid evidence for escalation."
+        },
+        {
+          "id": 7,
+          "stem": "Listening to ‘he is not himself’ is valued because it",
+          "options": [
+            {
+              "key": "A",
+              "text": "may reveal deterioration before measurements do."
+            },
+            {
+              "key": "B",
+              "text": "reduces reliance on track-and-trigger scores."
+            },
+            {
+              "key": "C",
+              "text": "provides a record for later review."
+            },
+            {
+              "key": "D",
+              "text": "reassures relatives that they are being heard."
+            }
+          ],
+          "answer": "A",
+          "focus": "he is not himself",
+          "explain": "지문의 ‘he is not himself’ 부분 참조 → may reveal deterioration before measurements do."
+        },
+        {
+          "id": 8,
+          "stem": "The writer’s overall attitude to sepsis pathways is that they",
+          "options": [
+            {
+              "key": "A",
+              "text": "have achieved their purpose and can now be relaxed."
+            },
+            {
+              "key": "B",
+              "text": "are most useful for junior staff and should be simplified."
+            },
+            {
+              "key": "C",
+              "text": "are valuable provided clinical judgment remains visible within them."
+            },
+            {
+              "key": "D",
+              "text": "should be replaced by individualised clinical assessment."
+            }
+          ],
+          "answer": "C",
+          "focus": "disciplined speed with room for judgment",
+          "explain": "지문의 ‘disciplined speed with room for judgment’ 부분 참조 → are valuable provided clinical judgment remains visible within them."
+        }
+      ],
+      "focusPhrases": [
+        "hours matter",
+        "become rituals",
+        "game the clock",
+        "physiological reserve",
+        "half a pathway",
+        "judgment is admissible evidence",
+        "he is not himself",
+        "disciplined speed with room for judgment"
+      ]
+    }
+  ],
+  "gist": [
+    "SDM under constraint; sepsis speed+judgment."
+  ],
+  "vocab": [
+    {
+      "term": "paternalism",
+      "gloss": "온정주의적 대리 결정"
+    },
+    {
+      "term": "overtreatment",
+      "gloss": "과잉 치료"
+    },
+    {
+      "term": "rhetorical",
+      "gloss": "말뿐인, 수사적인"
+    },
+    {
+      "term": "de-escalate",
+      "gloss": "(항생제) 범위를 좁히다"
+    }
+  ]
+}

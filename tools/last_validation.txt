@@ -1,0 +1,15 @@
+== data\tests\99\partA.json
+  ERROR   Text A: 12 words (each text 80–220)
+  ERROR   Text B: 12 words (each text 80–220)
+  ERROR   Text C: 12 words (each text 80–220)
+  ERROR   Text D: 12 words (each text 80–220)
+  ERROR   Texts A–D total 48 words (target 450–650, hard limit 420–700)
+  ERROR   texts: sentence repeated 4x (filler/padding is not allowed): "use line breaks (\n) and bullets (•) for lists/tables.…"
+  ERROR   Q1–7: answer letter B never used (AAAAAAA)
+  ERROR   Q1–7: answer letter C never used (AAAAAAA)
+  ERROR   Q1–7: answer letter D never used (AAAAAAA)
+  ERROR   Q1–7: three identical answers in a row at Q1 (AAAAAAA)
+  ERROR   Q1–7: letter A used 7/7 times — spread answers
+  -> FAIL (11 errors, 0 warnings)
+
+0/1 files PASS

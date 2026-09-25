@@ -1,0 +1,191 @@
+{
+  "id": "B-02",
+  "part": "B",
+  "setNum": 2,
+  "type": "workplace",
+  "title": "Theatre, IPC & governance extracts",
+  "instruction": "Six extracts · 3 options. Focus phrases highlighted.",
+  "items": [
+    {
+      "id": 1,
+      "extract": "Pre-operative assessment guidance — SGLT2 inhibitors:\n\nPatients on SGLT2 inhibitors (e.g. dapagliflozin, empagliflozin) should usually omit the dose on the day of surgery. For prolonged fasting, bowel prep, or higher-risk procedures, omit the day before as well. Restart when eating and drinking normally, typically 24–48 hours post-op if renal function and hydration are acceptable. Suspect euglycaemic ketoacidosis if unexplained acidosis, nausea, or tachypnoea occurs peri-operatively — check ketones even if glucose is not very high. If unsure, confirm the plan with the anaesthetist named on the list rather than guessing from an old letter. Patients should be told the reason for the omission and given a written restart date, as many will otherwise resume the drug on the evening of surgery.",
+      "stem": "The guidance mainly tells staff to",
+      "options": [
+        {
+          "key": "A",
+          "text": "check ketones only when glucose is markedly elevated."
+        },
+        {
+          "key": "B",
+          "text": "omit peri-operative doses as described and confirm the plan with the anaesthetist if unsure."
+        },
+        {
+          "key": "C",
+          "text": "stop SGLT2 inhibitors at least 48 hours before every surgical procedure regardless of its duration."
+        }
+      ],
+      "answer": "B",
+      "explain": "핵심: omit peri-operative doses as described and confirm the plan with the anaesthetist if unsure.",
+      "focusPhrases": [
+        "omit the dose",
+        "day of surgery",
+        "euglycaemic ketoacidosis"
+      ],
+      "wordCount": 121
+    },
+    {
+      "id": 2,
+      "extract": "Infection control update — aerosol-generating procedures (AGPs):\n\nVisors alone are not a substitute for a fluid-resistant surgical mask during AGPs. Both an appropriate mask and eye protection are required unless a higher-specification respirator is indicated by local risk assessment. Fit-testing must be in date for respirator use. Donning and doffing remain common failure points; buddy checks are encouraged for unfamiliar staff. PPE shortages do not authorise improvisation that leaves the airway unprotected. If stock is constrained, escalate to the IPC team rather than downgrading protection silently on the ward. Staff who have not been fit-tested within the required interval should be redeployed from AGP duties until this is completed.",
+      "stem": "The update clarifies that",
+      "options": [
+        {
+          "key": "A",
+          "text": "a visor cannot be used instead of a mask during aerosol-generating procedures."
+        },
+        {
+          "key": "B",
+          "text": "eye protection may be omitted whenever a fit-tested respirator is worn for the procedure."
+        },
+        {
+          "key": "C",
+          "text": "a respirator is required for all aerosol-generating procedures."
+        }
+      ],
+      "answer": "A",
+      "explain": "핵심: a visor cannot be used instead of a mask during aerosol-generating procedures.",
+      "focusPhrases": [
+        "Visors alone",
+        "not a substitute",
+        "eye protection"
+      ],
+      "wordCount": 109
+    },
+    {
+      "id": 3,
+      "extract": "Outpatient letter standard operating procedure:\n\nCopy patients into clinic letters by default unless they have opted out. Write so that a non-specialist adult can follow the plan: avoid unexplained abbreviations, state what will happen next, and list actions for the GP versus actions for the patient. If bad news was discussed, ensure the letter matches what was said in the room. Letters are part of the clinical record and part of the relationship. A technically correct letter that the patient cannot understand is an incomplete clinical task. Where an interpreter was used in clinic, state this in the letter and consider whether a translated summary is needed.",
+      "stem": "Authors of clinic letters should",
+      "options": [
+        {
+          "key": "A",
+          "text": "copy in patients only when bad news has been discussed."
+        },
+        {
+          "key": "B",
+          "text": "send patients a separate simplified version of the letter written for the GP."
+        },
+        {
+          "key": "C",
+          "text": "copy patients in by default and write in language a non-specialist can follow."
+        }
+      ],
+      "answer": "C",
+      "explain": "핵심: copy patients in by default and write in language a non-specialist can follow.",
+      "focusPhrases": [
+        "opted out",
+        "unexplained abbreviations"
+      ],
+      "wordCount": 107
+    },
+    {
+      "id": 4,
+      "extract": "Blood transfusion bedside checklist:\n\nTwo trained staff must check identity at the bedside immediately before transfusion begins, using open questions and matching wristband, prescription, and unit label. Checking in a corridor or treatment room without the patient present is not acceptable. If any element does not match, stop and contact blood bank — do not ‘correct’ labels on the ward. Remain with the patient for the first 15 minutes of each unit. Document start time, observations, and any reaction. Speed of setup never justifies skipping the final bedside check. Emergency O-negative units are checked in the same way; the urgency of the situation changes the speed of the check, not its content.",
+      "stem": "The checklist emphasises that identity checks must be",
+      "options": [
+        {
+          "key": "A",
+          "text": "repeated every 15 minutes during the transfusion."
+        },
+        {
+          "key": "B",
+          "text": "completed in the treatment room by two staff before the unit is brought to the patient."
+        },
+        {
+          "key": "C",
+          "text": "done by two trained staff at the bedside immediately before the unit is started."
+        }
+      ],
+      "answer": "C",
+      "explain": "핵심: done by two trained staff at the bedside immediately before the unit is started.",
+      "focusPhrases": [
+        "Two trained staff",
+        "at the bedside",
+        "immediately before"
+      ],
+      "wordCount": 112
+    },
+    {
+      "id": 5,
+      "extract": "Falls prevention brief for night staff:\n\nA completed falls risk score does not replace continuous clinical observation. If a patient becomes newly restless, tries to climb out of bed, or repeatedly calls for the toilet, escalate promptly even if the morning score was low. Consider toileting schedules, continence support, medication review for sedatives, and whether enhanced supervision is needed. Document what you saw, not only the score. Families’ warnings that ‘this is how it started last time’ should be treated as clinical data. Scores help triage; they do not freeze risk for the next twelve hours. Night sedation given for the first time in hospital is a particular trigger; review whether it is needed before administering it.",
+      "stem": "The brief warns that",
+      "options": [
+        {
+          "key": "A",
+          "text": "falls risk scores should be repeated every twelve hours overnight."
+        },
+        {
+          "key": "B",
+          "text": "a change in behaviour requires escalation even when the recorded risk score is low."
+        },
+        {
+          "key": "C",
+          "text": "family concerns should be documented but not acted upon until a doctor has reviewed the patient."
+        }
+      ],
+      "answer": "B",
+      "explain": "핵심: a change in behaviour requires escalation even when the recorded risk score is low.",
+      "focusPhrases": [
+        "does not replace",
+        "escalate promptly",
+        "even if"
+      ],
+      "wordCount": 117
+    },
+    {
+      "id": 6,
+      "extract": "Research governance note — consent for studies:\n\nStaff may discuss a study with potentially eligible patients and provide approved information sheets, but must not obtain consent unless they are named on the delegation log and have completed the required training. Consent taken by unauthorised staff is invalid and may halt the study. If a patient asks detailed medical questions beyond your role, involve the principal investigator or delegated clinician. Document discussions. Enthusiasm for recruitment is welcome; shortcuts around governance are not. If a patient expresses interest outside working hours, record their contact details and pass them to the research team rather than attempting the process yourself.",
+      "stem": "According to the note, consent may be taken only by staff who",
+      "options": [
+        {
+          "key": "A",
+          "text": "are named on the delegation log and have completed the required training."
+        },
+        {
+          "key": "B",
+          "text": "have discussed the study with the patient and provided the information sheet."
+        },
+        {
+          "key": "C",
+          "text": "are supervised by the principal investigator during the consent discussion."
+        }
+      ],
+      "answer": "A",
+      "explain": "핵심: are named on the delegation log and have completed the required training.",
+      "focusPhrases": [
+        "delegation log",
+        "required training"
+      ],
+      "wordCount": 106
+    }
+  ],
+  "gist": [
+    "Find the rule and the exception."
+  ],
+  "vocab": [
+    {
+      "term": "omit",
+      "gloss": "용량을 건너뛰다"
+    },
+    {
+      "term": "delegation log",
+      "gloss": "위임 기록"
+    },
+    {
+      "term": "euglycaemic ketoacidosis",
+      "gloss": "혈당이 높지 않은 케톤산증"
+    },
+    {
+      "term": "fit-testing",
+      "gloss": "호흡기 마스크 밀착 검사"
+    }
+  ]
+}

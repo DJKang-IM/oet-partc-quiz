@@ -1,0 +1,433 @@
+{
+  "id": "A-02",
+  "part": "A",
+  "setNum": 2,
+  "title": "Neutropenic sepsis pathway",
+  "type": "partA-full",
+  "instruction": "Look at Texts A–D. Questions 1–7: which text? Questions 8–15: word/short phrase from the texts. Questions 16–20: complete the sentence. Spelling matters. Target: 15 minutes.",
+  "texts": [
+    {
+      "label": "A",
+      "heading": "Definitions & immediate red flags",
+      "body": "Neutropenic sepsis is a time-critical emergency. Treat suspected cases before neutrophil count returns if clinical suspicion is high.\n\nWorking definitions (adult)\n• Neutropenia: absolute neutrophil count (ANC) <1.0 × 10⁹/L (some protocols use <0.5 × 10⁹/L for ‘profound’)\n• Fever: single oral temperature ≥38.3°C OR ≥38.0°C sustained for 1 hour\n• Suspected neutropenic sepsis: fever OR other signs of infection in a patient at risk (recent chemotherapy, known haematological malignancy, stem-cell transplant) even if ANC not yet available\n\nRed flags requiring immediate escalation\n• Hypotension (systolic BP <90 mmHg or drop ≥40 mmHg from baseline)\n• Respiratory rate ≥25/min or new oxygen requirement\n• Altered mental state\n• Rigors with unstable observations\n• Suspected source requiring source control (e.g. line infection with septic shock)\n\nDo not wait for laboratory confirmation of neutropenia before giving the first antibiotic dose if the patient is at risk and septic."
+    },
+    {
+      "label": "B",
+      "heading": "Door-to-needle pathway (first hour)",
+      "body": "Time targets from arrival / recognition\n0–15 minutes\n• Alert: ‘neutropenic sepsis pathway’\n• ABC assessment; high-flow oxygen if SpO₂ <94% (or target per COPD protocol)\n• IV access ×2; blood cultures BEFORE antibiotics whenever this does not delay therapy >15 minutes total\n\nBy 60 minutes (door-to-needle)\n• First broad-spectrum IV antibiotic administered — commonly piperacillin-tazobactam (Tazocin) as monotherapy if no penicillin allergy; alternatives per local antibiogram (e.g. meropenem if indicated)\n• Lactate, FBC, U&E, CRP, clotting, group and save\n• Fluid challenge if hypotensive (crystalloid 500 mL rapid bolus, reassess; repeat as needed while arranging critical care review)\n\nCultures & samples\n• Peripheral blood cultures ± paired from central line hubs if line present\n• Mid-stream urine if possible; swab any wounds; CXR if respiratory signs\n• Do not delay antibiotics for imaging\n\nIf penicillin anaphylaxis history\nUse locally approved non-penicillin regimen (e.g. ciprofloxacin + vancomycin — only if listed in your trust guideline)."
+    },
+    {
+      "label": "C",
+      "heading": "Risk stratification & ongoing antibiotics",
+      "body": "MASCC risk index (selected low-risk outpatient pathways)\nHigher MASCC scores indicate lower risk of complications. Only use outpatient oral therapy if ALL of the following apply per local policy: haemodynamically stable, no organ failure, reliable social support, able to tolerate oral medication, and MASCC high (commonly ≥21). Most inpatient oncology pathways still admit for IV therapy initially.\n\nIV catheter / line suspected\n• Examine exit site; if tunnel infection or septic shock with likely line source, discuss line removal with oncology/microbiology early\n• Add vancomycin (or teicoplanin) when MRSA risk, severe mucositis, or suspected catheter-related infection — follow local dosing/levels\n\nReassessment at 48 hours\n• If cultures negative, afebrile, and recovering neutrophils, consider de-escalation\n• Persistently febrile after 72–96 hours: review for fungal infection, occult source, and discuss antifungal strategy with haematology/ID\n\nG-CSF\nNot routinely required for every febrile neutropenic episode; consider when profound neutropenia with high-risk features per oncology advice."
+    },
+    {
+      "label": "D",
+      "heading": "Patient information & discharge safety-netting",
+      "body": "Education before chemotherapy discharge\nGive written advice to present IMMEDIATELY if:\n• Temperature ≥38.0°C\n• Uncontrolled shivering/rigors\n• Flu-like illness, new cough, shortness of breath\n• Burning urine, diarrhoea with fever, severe mucositis preventing intake\n• Dizziness, confusion, or feeling ‘the worst ever’\n\nHome pack (where commissioned)\nSome services provide emergency oral antibiotics to start after phone triage — patients must still attend for assessment the same day unless a formal telemedicine pathway confirms low risk.\n\nAfter inpatient treatment — discharge criteria\n• Afebrile ≥24 hours on appropriate therapy\n• Clinically stable; ANC recovering or infection controlled\n• Oral route reliable; follow-up bloods/clinic booked\n• Clear advice on central-line care if discharged with a line\n\nDocumentation must record time of first antibiotic dose (door-to-needle) for audit."
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "type": "whichText",
+      "stem": "the sixty-minute door-to-needle antibiotic target?",
+      "answer": "B",
+      "accept": [
+        "B"
+      ],
+      "explain": "Text B.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Text A"
+        },
+        {
+          "key": "B",
+          "text": "Text B"
+        },
+        {
+          "key": "C",
+          "text": "Text C"
+        },
+        {
+          "key": "D",
+          "text": "Text D"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "whichText",
+      "stem": "recording door-to-needle time for audit?",
+      "answer": "D",
+      "accept": [
+        "D"
+      ],
+      "explain": "Text D.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Text A"
+        },
+        {
+          "key": "B",
+          "text": "Text B"
+        },
+        {
+          "key": "C",
+          "text": "Text C"
+        },
+        {
+          "key": "D",
+          "text": "Text D"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "whichText",
+      "stem": "when vancomycin may be added for line-related or MRSA risk?",
+      "answer": "C",
+      "accept": [
+        "C"
+      ],
+      "explain": "Text C.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Text A"
+        },
+        {
+          "key": "B",
+          "text": "Text B"
+        },
+        {
+          "key": "C",
+          "text": "Text C"
+        },
+        {
+          "key": "D",
+          "text": "Text D"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "whichText",
+      "stem": "definitions of neutropenia and fever used on the pathway?",
+      "answer": "A",
+      "accept": [
+        "A"
+      ],
+      "explain": "Text A.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Text A"
+        },
+        {
+          "key": "B",
+          "text": "Text B"
+        },
+        {
+          "key": "C",
+          "text": "Text C"
+        },
+        {
+          "key": "D",
+          "text": "Text D"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "whichText",
+      "stem": "written advice on when chemotherapy patients should present immediately?",
+      "answer": "D",
+      "accept": [
+        "D"
+      ],
+      "explain": "Text D.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Text A"
+        },
+        {
+          "key": "B",
+          "text": "Text B"
+        },
+        {
+          "key": "C",
+          "text": "Text C"
+        },
+        {
+          "key": "D",
+          "text": "Text D"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "whichText",
+      "stem": "MASCC scoring and possible low-risk outpatient care?",
+      "answer": "C",
+      "accept": [
+        "C"
+      ],
+      "explain": "Text C.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Text A"
+        },
+        {
+          "key": "B",
+          "text": "Text B"
+        },
+        {
+          "key": "C",
+          "text": "Text C"
+        },
+        {
+          "key": "D",
+          "text": "Text D"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "whichText",
+      "stem": "taking blood cultures before the first antibiotic dose?",
+      "answer": "B",
+      "accept": [
+        "B"
+      ],
+      "explain": "Text B.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Text A"
+        },
+        {
+          "key": "B",
+          "text": "Text B"
+        },
+        {
+          "key": "C",
+          "text": "Text C"
+        },
+        {
+          "key": "D",
+          "text": "Text D"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "shortAnswer",
+      "stem": "What absolute neutrophil count threshold is quoted for neutropenia?",
+      "answer": "<1.0 × 10⁹/L",
+      "accept": [
+        "<1.0",
+        "less than 1.0",
+        "ANC <1.0",
+        "<1.0 x 10^9/L",
+        "<1.0 × 10⁹/L",
+        "<1.0 × 10^9/L",
+        "1.0"
+      ],
+      "explain": "Text A."
+    },
+    {
+      "id": 9,
+      "type": "shortAnswer",
+      "stem": "What single oral temperature meets the higher fever cut-off?",
+      "answer": "≥38.3°C",
+      "accept": [
+        "38.3",
+        "≥38.3",
+        ">=38.3",
+        "38.3°C",
+        "≥38.3°C"
+      ],
+      "explain": "Text A."
+    },
+    {
+      "id": 10,
+      "type": "shortAnswer",
+      "stem": "Which antibiotic is named as common first-line monotherapy if there is no penicillin allergy?",
+      "answer": "piperacillin-tazobactam",
+      "accept": [
+        "piperacillin-tazobactam",
+        "piperacillin/tazobactam",
+        "Tazocin",
+        "tazocin"
+      ],
+      "explain": "Text B."
+    },
+    {
+      "id": 11,
+      "type": "shortAnswer",
+      "stem": "What crystalloid bolus volume is suggested if the patient is hypotensive?",
+      "answer": "500 mL",
+      "accept": [
+        "500 mL",
+        "500ml",
+        "500 ml"
+      ],
+      "explain": "Text B."
+    },
+    {
+      "id": 12,
+      "type": "shortAnswer",
+      "stem": "What MASCC score is commonly cited when considering low-risk pathways?",
+      "answer": "≥21",
+      "accept": [
+        ">=21",
+        "≥21",
+        "21",
+        "21 or more"
+      ],
+      "explain": "Text C."
+    },
+    {
+      "id": 13,
+      "type": "shortAnswer",
+      "stem": "After how many hours of persistent fever should fungal infection be reviewed (start of the range given)?",
+      "answer": "72 hours",
+      "accept": [
+        "72",
+        "72 hours",
+        "72–96 hours",
+        "72-96 hours"
+      ],
+      "explain": "Text C."
+    },
+    {
+      "id": 14,
+      "type": "shortAnswer",
+      "stem": "Below what SpO₂ is high-flow oxygen started in the first 15 minutes (unless a COPD target applies)?",
+      "answer": "<94%",
+      "accept": [
+        "<94%",
+        "94%",
+        "less than 94%",
+        "<94"
+      ],
+      "explain": "Text B."
+    },
+    {
+      "id": 15,
+      "type": "shortAnswer",
+      "stem": "For how long should a patient generally be afebrile on appropriate therapy before discharge?",
+      "answer": "≥24 hours",
+      "accept": [
+        "24 hours",
+        "≥24 hours",
+        "at least 24 hours",
+        "24 hrs"
+      ],
+      "explain": "Text D."
+    },
+    {
+      "id": 16,
+      "type": "gapFill",
+      "stem": "Do not wait for laboratory confirmation of ……………………………………. before giving the first antibiotic dose if the patient is at risk and septic.",
+      "answer": "neutropenia",
+      "accept": [
+        "neutropenia"
+      ],
+      "explain": "Text A."
+    },
+    {
+      "id": 17,
+      "type": "gapFill",
+      "stem": "Blood cultures should be taken before antibiotics whenever this does not delay therapy more than ……………………………………. minutes in total.",
+      "answer": "15",
+      "accept": [
+        "15",
+        "15 minutes",
+        "fifteen"
+      ],
+      "explain": "Text B."
+    },
+    {
+      "id": 18,
+      "type": "gapFill",
+      "stem": "Patients are advised to present immediately if their temperature is ……………………………………. °C or higher.",
+      "answer": "38.0",
+      "accept": [
+        "38.0",
+        "38",
+        "≥38.0",
+        "38.0°C"
+      ],
+      "explain": "Text D."
+    },
+    {
+      "id": 19,
+      "type": "gapFill",
+      "stem": "G-CSF is ……………………………………. required for every febrile neutropenic episode.",
+      "answer": "not routinely",
+      "accept": [
+        "not routinely",
+        "not"
+      ],
+      "explain": "Text C."
+    },
+    {
+      "id": 20,
+      "type": "gapFill",
+      "stem": "Documentation must record the time of the first antibiotic dose (…………………………………….) for audit.",
+      "answer": "door-to-needle",
+      "accept": [
+        "door-to-needle",
+        "door to needle"
+      ],
+      "explain": "Text D."
+    }
+  ],
+  "focusPhrases": [
+    "door-to-needle",
+    "MASCC",
+    "piperacillin-tazobactam",
+    "ANC",
+    "vancomycin",
+    "<1.0 × 10⁹/L",
+    "≥38.3°C",
+    "500 mL",
+    "≥21",
+    "72 hours",
+    "<94%",
+    "≥24 hours",
+    "neutropenia",
+    "15",
+    "38.0",
+    "not routinely"
+  ],
+  "gist": [
+    "Part A loves numbers, thresholds, and ‘who/when/what first’.",
+    "Match unique phrases to Text A–D before writing short answers."
+  ],
+  "vocab": [
+    {
+      "term": "neutropenia",
+      "gloss": "호중구감소증"
+    },
+    {
+      "term": "door-to-needle",
+      "gloss": "도착(인지)부터 첫 항생제까지 시간"
+    },
+    {
+      "term": "MASCC",
+      "gloss": "발열성 호중구감소 합병증 위험 점수"
+    },
+    {
+      "term": "mucositis",
+      "gloss": "점막염"
+    }
+  ],
+  "sharedWhichPrompt": "In which text can you find information about"
+}

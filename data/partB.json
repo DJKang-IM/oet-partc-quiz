@@ -1,6 +1,6 @@
 {
   "title": "OET Reading Part B Practice",
-  "note": "Unofficial. Extracts target ~120-160 words per OET-2.0 evidence.",
+  "note": "Unofficial. Six workplace extracts (100–170 words), three options each.",
   "sets": [
     {
       "id": "B-01",
@@ -79,7 +79,7 @@
             },
             {
               "key": "C",
-              "text": "the sepsis pathway has been completed and antibiotics have been given."
+              "text": "the sepsis pathway has been completed and the first antibiotic dose has already been given."
             }
           ],
           "answer": "B",
@@ -129,7 +129,7 @@
             },
             {
               "key": "B",
-              "text": "staff who have had two MMR doses do not need to contact Occupational Health."
+              "text": "staff who can show two documented MMR doses do not need to contact Occupational Health at all."
             },
             {
               "key": "C",
@@ -184,6 +184,14 @@
         {
           "term": "modified-release",
           "gloss": "서방정"
+        },
+        {
+          "term": "dose dumping",
+          "gloss": "서방정 파손 시 약물 급속 방출"
+        },
+        {
+          "term": "safety-net",
+          "gloss": "귀가 후 주의 증상·연락처 안내"
         }
       ]
     },
@@ -210,7 +218,7 @@
             },
             {
               "key": "C",
-              "text": "stop SGLT2 inhibitors 48 hours before all surgical procedures."
+              "text": "stop SGLT2 inhibitors at least 48 hours before every surgical procedure regardless of its duration."
             }
           ],
           "answer": "B",
@@ -233,7 +241,7 @@
             },
             {
               "key": "B",
-              "text": "eye protection may be omitted when a fit-tested respirator is worn."
+              "text": "eye protection may be omitted whenever a fit-tested respirator is worn for the procedure."
             },
             {
               "key": "C",
@@ -260,7 +268,7 @@
             },
             {
               "key": "B",
-              "text": "send patients a separate simplified version of the GP letter."
+              "text": "send patients a separate simplified version of the letter written for the GP."
             },
             {
               "key": "C",
@@ -286,7 +294,7 @@
             },
             {
               "key": "B",
-              "text": "completed in the treatment room before the unit is brought to the patient."
+              "text": "completed in the treatment room by two staff before the unit is brought to the patient."
             },
             {
               "key": "C",
@@ -317,7 +325,7 @@
             },
             {
               "key": "C",
-              "text": "family concerns should be recorded but not acted on without a doctor’s review."
+              "text": "family concerns should be documented but not acted upon until a doctor has reviewed the patient."
             }
           ],
           "answer": "B",
@@ -367,6 +375,14 @@
         {
           "term": "delegation log",
           "gloss": "위임 기록"
+        },
+        {
+          "term": "euglycaemic ketoacidosis",
+          "gloss": "혈당이 높지 않은 케톤산증"
+        },
+        {
+          "term": "fit-testing",
+          "gloss": "호흡기 마스크 밀착 검사"
         }
       ]
     }

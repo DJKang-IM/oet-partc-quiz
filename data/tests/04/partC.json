@@ -1,0 +1,490 @@
+{
+  "id": "C-04",
+  "part": "C",
+  "setNum": 4,
+  "type": "dual-text",
+  "title": "Vaccine hesitancy & climate medicine",
+  "instruction": "Two texts · 16 questions. ‘Climate medicine’ and other focus phrases are highlighted.",
+  "texts": [
+    {
+      "label": "Text 1",
+      "title": "Vaccine hesitancy is not one problem",
+      "paragraphs": [
+        "Vaccine hesitancy is often treated as a single cliff: people either trust science or reject it. That framing is politically convenient and clinically false. Hesitancy is a spectrum. At one end are people deferred by logistics—clinics far away, unpaid time off work, opaque booking systems—whose ‘doubt’ is mostly access disguised as attitude. In the middle sit those with questions shaped by prior side effects, conflicting advice, or community stories. At the far end are entrenched ideological refusals that will not move with a leaflet.",
+        "The word ‘hesitancy’ itself is doing a lot of work. It covers the parent who wants a week to think, the shift worker who cannot reach a clinic before it closes, the survivor of a serious adverse reaction, and the online activist who will never attend. Only the last of these is a refusal in any meaningful sense, yet all four are counted in the same figure and addressed by the same leaflet.",
+        "Communication that assumes one cause buys one solution. Debunking after a false claim has spread can help some audiences and entrench others. Pre-bunking—preparing people for likely misleading arguments before they appear—shows promise in experimental settings, but health systems still under-invest in it relative to late reactive correction. Humility matters: communities with historical reasons for mistrust are not healed by scolding.",
+        "Online ecosystems amplify emotionally vivid stories that outcompete dry risk statistics. A single dramatic anecdote can outweigh a thousand uneventful vaccinations in memory. Clinicians cannot out-shout the internet, but they can become a trusted local interpreter—if appointments allow listening before lecturing. Listening is not agreement; it is how specific fears become answerable.",
+        "The middle of the spectrum is where most movement occurs and where least attention is paid. A parent who accepted every infant vaccine but hesitates over a newer product is not ‘anti-vaccine’; they are weighing an unfamiliar risk against a familiar routine, exactly as clinicians do with a new drug. Treating that hesitation as ideological converts a persuadable person into a defensive one. The most effective single intervention in trials remains a brief, presumptive recommendation from a trusted clinician—‘she is due her vaccine today’—followed by a genuine willingness to hear the questions.",
+        "Historical mistrust is not irrational. Communities that experienced coercive research, dismissive care, or neglect during earlier epidemics read present-day assurances through that history. When a health system asks for trust it has not earned locally, the request itself can feel like the problem. Programmes that recruit messengers from within communities, that return to the same neighbourhoods after the campaign ends, and that admit past failures directly have shifted uptake where glossy national messaging has not.",
+        "Clinicians are themselves a hesitant population in some settings, and staff who decline vaccines rarely do so from ignorance of the evidence. Their reasons—fatigue with mandates, doubt about employer motives, a sense of being lectured—mirror those of the public. Systems that cannot persuade their own workforce without compulsion should be cautious about what that reveals regarding their persuasive capacity outside the hospital.",
+        "Pressure tactics can backfire. Mandates may raise coverage in some settings while deepening polarisation in others. The policy question is not whether coercion ever works; it is what trust remains after it is used, and who bears the cost when it fails. Mixed strategies—removing access barriers, training conversational skills, targeted outreach—usually outperform a single dramatic lever.",
+        "Health systems also shape hesitancy when they communicate inconsistently, change guidance without explaining why, or appear to hide uncertainty. Adults can tolerate uncertainty if they are treated as moral agents rather than obstacles. What they struggle to tolerate is the sense of being managed. Transparency about evolving evidence is therefore not a public-relations risk only; it is part of the intervention.",
+        "Measurement, too, shapes what is seen. Coverage figures report who received a vaccine, not why others did not, so a programme can hit its target while the unreached groups remain invisible in the summary statistic. Disaggregating uptake by neighbourhood, language, and clinic type routinely reveals that low overall figures are driven by a few identifiable pockets with specific, and often practical, barriers. Once those pockets are named, the intervention that fits them is usually obvious and inexpensive—an evening clinic, an interpreter, a text reminder in the right language—and bears little resemblance to the national messaging campaign that would otherwise have been commissioned.",
+        "If policy assumes a single cause, it will keep buying a single solution. Precision about which hesitancy one is facing is the beginning of effectiveness—and the end of comforting myths that everyone who delays is simply ‘anti-science’."
+      ],
+      "wordCount": 754,
+      "questions": [
+        {
+          "id": 1,
+          "stem": "Treating hesitancy as a ‘single cliff’ is criticised because hesitancy is",
+          "options": [
+            {
+              "key": "A",
+              "text": "a temporary state that resolves without intervention."
+            },
+            {
+              "key": "B",
+              "text": "a range of positions with different causes."
+            },
+            {
+              "key": "C",
+              "text": "a matter of access rather than attitude."
+            },
+            {
+              "key": "D",
+              "text": "concentrated among people with fixed ideological views."
+            }
+          ],
+          "answer": "B",
+          "focus": "single cliff",
+          "explain": "지문의 ‘single cliff’ 부분 참조 → a range of positions with different causes."
+        },
+        {
+          "id": 2,
+          "stem": "‘Pre-bunking’ in paragraph three refers to",
+          "options": [
+            {
+              "key": "A",
+              "text": "removing misleading content from social media."
+            },
+            {
+              "key": "B",
+              "text": "preparing people for misleading claims before they meet them."
+            },
+            {
+              "key": "C",
+              "text": "correcting false claims as soon as they appear online."
+            },
+            {
+              "key": "D",
+              "text": "training clinicians to recognise misinformation."
+            }
+          ],
+          "answer": "B",
+          "focus": "Pre-bunking",
+          "explain": "지문의 ‘Pre-bunking’ 부분 참조 → preparing people for misleading claims before they meet them."
+        },
+        {
+          "id": 3,
+          "stem": "In paragraph four, the writer says clinicians can respond to online misinformation by",
+          "options": [
+            {
+              "key": "A",
+              "text": "becoming a trusted local source who listens first."
+            },
+            {
+              "key": "B",
+              "text": "producing more vivid personal stories of their own to compete online."
+            },
+            {
+              "key": "C",
+              "text": "publishing risk statistics more widely."
+            },
+            {
+              "key": "D",
+              "text": "discouraging patients from using the internet."
+            }
+          ],
+          "answer": "A",
+          "focus": "trusted local interpreter",
+          "explain": "지문의 ‘trusted local interpreter’ 부분 참조 → becoming a trusted local source who listens first."
+        },
+        {
+          "id": 4,
+          "stem": "The example of the hesitant parent in paragraph five is used to show that",
+          "options": [
+            {
+              "key": "A",
+              "text": "presumptive recommendations are rarely effective."
+            },
+            {
+              "key": "B",
+              "text": "infant vaccines are more readily accepted than newer ones."
+            },
+            {
+              "key": "C",
+              "text": "labelling hesitation as ideological makes people defensive."
+            },
+            {
+              "key": "D",
+              "text": "parents weigh risks differently from clinicians."
+            }
+          ],
+          "answer": "C",
+          "focus": "persuadable person into a defensive one",
+          "explain": "지문의 ‘persuadable person into a defensive one’ 부분 참조 → labelling hesitation as ideological makes people defensive."
+        },
+        {
+          "id": 5,
+          "stem": "According to paragraph six, communities with historical reasons for mistrust respond best to",
+          "options": [
+            {
+              "key": "A",
+              "text": "national campaigns with consistent messaging."
+            },
+            {
+              "key": "B",
+              "text": "increased access to clinics in their own neighbourhoods at convenient times."
+            },
+            {
+              "key": "C",
+              "text": "messengers from within the community who acknowledge past failures."
+            },
+            {
+              "key": "D",
+              "text": "assurances that research practices have changed."
+            }
+          ],
+          "answer": "C",
+          "focus": "Historical mistrust is not irrational",
+          "explain": "지문의 ‘Historical mistrust is not irrational’ 부분 참조 → messengers from within the community who acknowledge past failures."
+        },
+        {
+          "id": 6,
+          "stem": "The writer mentions vaccine-hesitant clinicians in order to",
+          "options": [
+            {
+              "key": "A",
+              "text": "question how persuasive health systems can be outside their walls."
+            },
+            {
+              "key": "B",
+              "text": "argue that mandates for staff are justified."
+            },
+            {
+              "key": "C",
+              "text": "suggest that staff mistrust employers more than the public does."
+            },
+            {
+              "key": "D",
+              "text": "show that evidence alone does not change behaviour."
+            }
+          ],
+          "answer": "A",
+          "focus": "themselves a hesitant population",
+          "explain": "지문의 ‘themselves a hesitant population’ 부분 참조 → question how persuasive health systems can be outside their walls."
+        },
+        {
+          "id": 7,
+          "stem": "Mandates are described as potentially",
+          "options": [
+            {
+              "key": "A",
+              "text": "the most effective single lever available to public health authorities."
+            },
+            {
+              "key": "B",
+              "text": "ineffective in every setting studied."
+            },
+            {
+              "key": "C",
+              "text": "a way of resolving access barriers."
+            },
+            {
+              "key": "D",
+              "text": "increasing uptake while damaging trust in some settings."
+            }
+          ],
+          "answer": "D",
+          "focus": "deepening polarisation",
+          "explain": "지문의 ‘deepening polarisation’ 부분 참조 → increasing uptake while damaging trust in some settings."
+        },
+        {
+          "id": 8,
+          "stem": "The writer’s overall stance is that effective communication about vaccines must",
+          "options": [
+            {
+              "key": "A",
+              "text": "avoid any use of coercion."
+            },
+            {
+              "key": "B",
+              "text": "prioritise correcting misinformation online."
+            },
+            {
+              "key": "C",
+              "text": "rely on consistent national messaging delivered through trusted channels."
+            },
+            {
+              "key": "D",
+              "text": "be tailored to the specific reason for each person’s hesitancy."
+            }
+          ],
+          "answer": "D",
+          "focus": "Precision about which hesitancy",
+          "explain": "지문의 ‘Precision about which hesitancy’ 부분 참조 → be tailored to the specific reason for each person’s hesitancy."
+        }
+      ],
+      "focusPhrases": [
+        "single cliff",
+        "Pre-bunking",
+        "trusted local interpreter",
+        "persuadable person into a defensive one",
+        "Historical mistrust is not irrational",
+        "themselves a hesitant population",
+        "deepening polarisation",
+        "Precision about which hesitancy"
+      ]
+    },
+    {
+      "label": "Text 2",
+      "title": "Climate change as a clinical issue",
+      "paragraphs": [
+        "Climate change is already a clinical issue, not only a future environmental one. Heat extremes worsen heart failure and kidney injury; air pollution exacerbates asthma and ischaemic events; changing vector ranges alter infection patterns; disasters disrupt dialysis, cold chains, and medicine supply. Clinicians who treat these presentations without naming upstream drivers can still give excellent episodic care—and still miss prevention opportunities that belong inside medicine’s house.",
+        "‘Climate medicine’ in this sense is not a new specialty brand so much as a habit of connecting clinical findings to environmental exposures and system vulnerabilities. It includes asking about heat exposure in unexplained syncope during a heatwave, adjusting medication counselling when extreme heat raises dehydration risk, and advocating for resilient hospital infrastructure so that care does not collapse when the grid does. Entering the differential diagnosis means climate-related causes are considered alongside familiar ones—not that every illness is blamed on the weather.",
+        "Heat illustrates how a climate exposure becomes a bedside decision. During a heatwave, the patient on a diuretic, an angiotensin-converting enzyme inhibitor, and an anticholinergic antidepressant is at compounded risk of dehydration, hypotension, and confusion. Sensible prescribing does not stop these drugs indefinitely; it anticipates the forecast, agrees a plan for fluid intake and dose adjustment, and tells the patient which symptoms warrant a call. None of this requires new science. It requires that the weather be treated as a clinical variable rather than small talk.",
+        "Air quality offers a second example. Advice to ‘avoid pollution’ is useless to someone who lives beside a major road and works outdoors. Specific counselling—checking a local index before exercise, adjusting inhaler technique and preventer adherence during high-pollution days, timing outdoor activity—can be given in the same breath as smoking-cessation advice and has comparable evidence for being heard. The clinician who cannot change the road can still change how the patient meets it.",
+        "Health systems are also emitters. Estimates place healthcare at four to five per cent of national emissions in many high-income countries, comparable to aviation. Anaesthetic gases such as desflurane, metered-dose inhalers with hydrofluorocarbon propellants, and the sheer volume of single-use plastics are decisions made by clinicians, not by boards. Where lower-carbon alternatives are clinically equivalent, continuing the old default is a choice with a cost—one currently invisible on the ward but visible in the emergency department a decade later.",
+        "Hospital carbon reduction needs clinical leadership as well as estates teams. Anaesthetic gas choices, inhaler propellants, unnecessary travel for follow-up that could be remote, and wasteful single-use defaults are clinical culture as much as procurement. Staff who fear that ‘greening’ means lower quality need evidence that stewardship can align with safety. Where it cannot, patient safety wins; where it can, inertia should not hide behind safety rhetoric.",
+        "Fears about politicising medicine are answered by noting that ignoring climate health effects is also a political choice—one that leaves the most exposed patients least protected. Equity is central: those least responsible for emissions often face the greatest clinical risk and the least adaptive capacity. A profession committed to justice cannot treat environmental injury as someone else’s portfolio.",
+        "Practical steps are mundane and powerful: heatwave plans for vulnerable lists, medication reviews before predicted extremes, clean-air advice that is specific rather than generic, and hospital continuity plans that assume disruption rather than hope for none. Teaching trainees to notice environmental context is as legitimate as teaching them to notice occupational exposures.",
+        "Training is where the change will either take root or evaporate. Medical curricula already teach occupational and social history because those exposures alter diagnosis and management; environmental exposure belongs in the same section, not in an optional elective. Asking where a patient lives in relation to a road, whether their home has cooling, and what they do when the air-quality index is high takes under a minute and changes advice in a measurable proportion of consultations. Examinations that never test these questions signal that they are decorative; examinations that do will make them routine within a generation of graduates.",
+        "The final contrast is between medicine as a repair shop for damage already done and medicine as a participant in preventing some of that damage. Both roles are needed. Pretending climate is outside the clinic door will not keep it from arriving by ambulance."
+      ],
+      "wordCount": 707,
+      "questions": [
+        {
+          "id": 1,
+          "stem": "Paragraph one argues that climate change is",
+          "options": [
+            {
+              "key": "A",
+              "text": "responsible for most infections in hospital."
+            },
+            {
+              "key": "B",
+              "text": "primarily a concern for public health rather than clinicians."
+            },
+            {
+              "key": "C",
+              "text": "already affecting the presentations clinicians see."
+            },
+            {
+              "key": "D",
+              "text": "a problem for future generations of doctors."
+            }
+          ],
+          "answer": "C",
+          "focus": "already a clinical issue",
+          "explain": "지문의 ‘already a clinical issue’ 부분 참조 → already affecting the presentations clinicians see."
+        },
+        {
+          "id": 2,
+          "stem": "‘Climate medicine’ in the text is described as",
+          "options": [
+            {
+              "key": "A",
+              "text": "a habit of linking findings to environmental causes rather than a new specialty."
+            },
+            {
+              "key": "B",
+              "text": "a public health activity separate from clinical work."
+            },
+            {
+              "key": "C",
+              "text": "an approach that attributes most illness to the weather."
+            },
+            {
+              "key": "D",
+              "text": "a new specialty that requires additional training and formal certification before practice."
+            }
+          ],
+          "answer": "A",
+          "focus": "Climate medicine",
+          "explain": "지문의 ‘Climate medicine’ 부분 참조 → a habit of linking findings to environmental causes rather than a new specialty."
+        },
+        {
+          "id": 3,
+          "stem": "‘Entering the differential diagnosis’ means that climate-related causes are",
+          "options": [
+            {
+              "key": "A",
+              "text": "considered alongside the usual explanations."
+            },
+            {
+              "key": "B",
+              "text": "listed first when a patient presents during a heatwave."
+            },
+            {
+              "key": "C",
+              "text": "excluded unless other causes are ruled out."
+            },
+            {
+              "key": "D",
+              "text": "documented for public health surveillance."
+            }
+          ],
+          "answer": "A",
+          "focus": "Entering the differential diagnosis",
+          "explain": "지문의 ‘Entering the differential diagnosis’ 부분 참조 → considered alongside the usual explanations."
+        },
+        {
+          "id": 4,
+          "stem": "The example of the patient on three medicines during a heatwave illustrates that",
+          "options": [
+            {
+              "key": "A",
+              "text": "dehydration is difficult to predict in older patients."
+            },
+            {
+              "key": "B",
+              "text": "forecasts can inform prescribing decisions in advance."
+            },
+            {
+              "key": "C",
+              "text": "new evidence is needed before advice can be given."
+            },
+            {
+              "key": "D",
+              "text": "these drugs should be stopped during hot weather."
+            }
+          ],
+          "answer": "B",
+          "focus": "clinical variable rather than small talk",
+          "explain": "지문의 ‘clinical variable rather than small talk’ 부분 참조 → forecasts can inform prescribing decisions in advance."
+        },
+        {
+          "id": 5,
+          "stem": "The writer argues that advice on air pollution should be",
+          "options": [
+            {
+              "key": "A",
+              "text": "given only to patients who already have a diagnosed respiratory disease."
+            },
+            {
+              "key": "B",
+              "text": "delivered separately from other lifestyle advice."
+            },
+            {
+              "key": "C",
+              "text": "directed at planners rather than patients."
+            },
+            {
+              "key": "D",
+              "text": "specific to what the patient can actually change."
+            }
+          ],
+          "answer": "D",
+          "focus": "change how the patient meets it",
+          "explain": "지문의 ‘change how the patient meets it’ 부분 참조 → specific to what the patient can actually change."
+        },
+        {
+          "id": 6,
+          "stem": "In paragraph five, healthcare emissions are compared to aviation in order to",
+          "options": [
+            {
+              "key": "A",
+              "text": "suggest that emissions are unavoidable."
+            },
+            {
+              "key": "B",
+              "text": "argue that hospitals should reduce staff travel."
+            },
+            {
+              "key": "C",
+              "text": "criticise the use of anaesthetic gases specifically."
+            },
+            {
+              "key": "D",
+              "text": "show the scale of the sector’s contribution."
+            }
+          ],
+          "answer": "D",
+          "focus": "comparable to aviation",
+          "explain": "지문의 ‘comparable to aviation’ 부분 참조 → show the scale of the sector’s contribution."
+        },
+        {
+          "id": 7,
+          "stem": "The writer answers fears about ‘politicising medicine’ by pointing out that",
+          "options": [
+            {
+              "key": "A",
+              "text": "most clinicians already support climate action."
+            },
+            {
+              "key": "B",
+              "text": "doing nothing is itself a political decision."
+            },
+            {
+              "key": "C",
+              "text": "medicine has always been political."
+            },
+            {
+              "key": "D",
+              "text": "patients expect clinicians to take a position."
+            }
+          ],
+          "answer": "B",
+          "focus": "politicising medicine",
+          "explain": "지문의 ‘politicising medicine’ 부분 참조 → doing nothing is itself a political decision."
+        },
+        {
+          "id": 8,
+          "stem": "The final contrast is between medicine as a ‘repair shop’ and medicine as",
+          "options": [
+            {
+              "key": "A",
+              "text": "a political movement."
+            },
+            {
+              "key": "B",
+              "text": "an environmental regulator."
+            },
+            {
+              "key": "C",
+              "text": "a participant in preventing harm."
+            },
+            {
+              "key": "D",
+              "text": "a provider of emergency care."
+            }
+          ],
+          "answer": "C",
+          "focus": "repair shop",
+          "explain": "지문의 ‘repair shop’ 부분 참조 → a participant in preventing harm."
+        }
+      ],
+      "focusPhrases": [
+        "already a clinical issue",
+        "Climate medicine",
+        "Entering the differential diagnosis",
+        "clinical variable rather than small talk",
+        "change how the patient meets it",
+        "comparable to aviation",
+        "politicising medicine",
+        "repair shop"
+      ]
+    }
+  ],
+  "gist": [
+    "Spectrum not cliff; climate already clinical."
+  ],
+  "vocab": [
+    {
+      "term": "pre-bunking",
+      "gloss": "오정보 사전 대비"
+    },
+    {
+      "term": "climate medicine",
+      "gloss": "임상과 환경노출·체계취약을 연결하는 습관/실천"
+    },
+    {
+      "term": "mandate",
+      "gloss": "의무화"
+    },
+    {
+      "term": "propellant",
+      "gloss": "흡입기 추진제"
+    }
+  ]
+}

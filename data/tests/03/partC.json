@@ -1,0 +1,490 @@
+{
+  "id": "C-03",
+  "part": "C",
+  "setNum": 3,
+  "type": "dual-text",
+  "title": "Wearables & discharge summaries",
+  "instruction": "Two texts · 16 questions. Focus terms highlighted.",
+  "texts": [
+    {
+      "label": "Text 1",
+      "title": "Wearable devices and the anxious well",
+      "paragraphs": [
+        "Consumer wearables promise continuous insight: heart-rate variability, sleep stages, oxygen estimates, irregular rhythm alerts. For people already anxious about health, that stream can feel like empowerment. It can also become a form of self-surveillance that amplifies normal fluctuation into dread. The clinical system then inherits screenshots stripped of context and is asked to pronounce on data it did not order and cannot fully verify.",
+        "Clinicians are increasingly asked to interpret spikes and dips without knowing device accuracy, skin tone performance limits, movement artefact, or whether the wearer slept at all. A nocturnal alert may reflect alcohol, illness, or a loose strap. Treating every notification as an actionable arrhythmia pathway will overwhelm services and medicalise ordinary life. Ignoring every notification will miss the occasional true signal. The profession needs a third posture: selective curiosity.",
+        "Accuracy is not one property. A device may detect atrial fibrillation reliably in a still, seated adult with light skin and fail in the same person while walking, or in a person with darker skin whose optical sensor readings are noisier. Manufacturers publish validation studies in ideal conditions and shield the details behind marketing language. A clinician who receives an alert cannot readily tell whether it emerged from the validated scenario or from the edge of the device’s competence. Uncertainty that cannot be inspected is not information; it is a rumour with a timestamp.",
+        "The pattern of who consults is also skewed. The person most likely to bring in a month of sleep scores is frequently the person least likely to have the disease the scores appear to suggest, while people with heavy symptom burdens and little time often own no device at all. Clinics thus receive a stream of low-probability queries from the well and silence from the unwell. Triage systems built for symptomatic presentations struggle to price this new demand, and the cost is paid in appointments that never reach those who needed them.",
+        "None of this means the signal is always noise. Irregular-rhythm notifications have prompted diagnoses of atrial fibrillation in people who would otherwise have presented with a stroke. The clinical task is to construct a pathway in which such alerts are confirmed by a proper recording and interpreted by a person, so that a true positive becomes treatment and a false one becomes reassurance—rather than both becoming anxiety.",
+        "There is a commercial engine behind the anxiety. Devices sell engagement; engagement thrives on attention. ‘Empowerment’ marketing rarely advertises the downstream effect on primary care demand. When empowerment is indistinguishable from perpetual monitoring, patients may lose the very sense of bodily trust that health depends on. Clinicians should name that paradox without sneering at technology.",
+        "This is not an argument for rejecting all consumer health technology. It is an argument for demanding actionable thresholds, clearer uncertainty labels, and continuity with a clinician who knows the person. Data should answer a question the patient and clinician share—not create questions nobody had time to ask. Where devices are useful, they should plug into agreed pathways, not arrive as unstructured panic.",
+        "Equity cuts both ways. Some people gain access to useful monitoring they could not otherwise afford; others are excluded by cost, connectivity, or digital literacy. A care model that assumes everyone arrives with a week of charts will widen gaps. Public health claims for wearables must therefore be tested against who is left out, not only against who posts impressive dashboards.",
+        "Regulation lags behind both marketing and clinical practice. Many consumer devices are sold as ‘wellness’ products precisely so that their outputs escape the scrutiny applied to medical instruments, even when the same output is later handed to a clinician as if it were a diagnostic result. A blood pressure cuff must prove its accuracy; a wrist-worn estimate of blood oxygen need not. Clinicians can reasonably ask that any reading brought into a consultation carry a statement of what it was validated to do, and decline to build treatment on a number that carries no such statement.",
+        "The clinical task is to reclaim the narrative: tools serve goals. Wearables are tools. Without goals, they are merely louder noise. Teaching patients when not to check can be as therapeutic as teaching them when to seek help—and far harder to bill for, which may explain why it is taught less often than it should be."
+      ],
+      "wordCount": 717,
+      "questions": [
+        {
+          "id": 1,
+          "stem": "In paragraph one, the writer suggests that for anxious people wearables can",
+          "options": [
+            {
+              "key": "A",
+              "text": "reveal serious conditions that would otherwise have gone unnoticed for years."
+            },
+            {
+              "key": "B",
+              "text": "replace the need for clinical consultation."
+            },
+            {
+              "key": "C",
+              "text": "turn ordinary variation into a source of fear."
+            },
+            {
+              "key": "D",
+              "text": "provide reassurance that clinicians cannot."
+            }
+          ],
+          "answer": "C",
+          "focus": "self-surveillance",
+          "explain": "지문의 ‘self-surveillance’ 부분 참조 → turn ordinary variation into a source of fear."
+        },
+        {
+          "id": 2,
+          "stem": "The ‘third posture’ in paragraph two refers to",
+          "options": [
+            {
+              "key": "A",
+              "text": "investigating some alerts and not others according to judgment."
+            },
+            {
+              "key": "B",
+              "text": "asking manufacturers to validate their devices before alerts are acted on."
+            },
+            {
+              "key": "C",
+              "text": "advising patients to switch off notifications."
+            },
+            {
+              "key": "D",
+              "text": "referring every alert for specialist review."
+            }
+          ],
+          "answer": "A",
+          "focus": "selective curiosity",
+          "explain": "지문의 ‘selective curiosity’ 부분 참조 → investigating some alerts and not others according to judgment."
+        },
+        {
+          "id": 3,
+          "stem": "The writer calls unverifiable device uncertainty ‘a rumour with a timestamp’ to suggest that",
+          "options": [
+            {
+              "key": "A",
+              "text": "patients exaggerate what their devices show."
+            },
+            {
+              "key": "B",
+              "text": "an alert without context cannot be treated as reliable evidence."
+            },
+            {
+              "key": "C",
+              "text": "device readings are usually recorded at the wrong time of day to be useful."
+            },
+            {
+              "key": "D",
+              "text": "manufacturers deliberately conceal false results."
+            }
+          ],
+          "answer": "B",
+          "focus": "a rumour with a timestamp",
+          "explain": "지문의 ‘a rumour with a timestamp’ 부분 참조 → an alert without context cannot be treated as reliable evidence."
+        },
+        {
+          "id": 4,
+          "stem": "According to paragraph four, the people most likely to bring device data to a clinician are",
+          "options": [
+            {
+              "key": "A",
+              "text": "mainly those who cannot afford devices."
+            },
+            {
+              "key": "B",
+              "text": "typically referred by triage systems."
+            },
+            {
+              "key": "C",
+              "text": "usually those with the heaviest symptom burden and the least time to attend."
+            },
+            {
+              "key": "D",
+              "text": "often those least likely to have the condition suggested."
+            }
+          ],
+          "answer": "D",
+          "focus": "low-probability queries from the well",
+          "explain": "지문의 ‘low-probability queries from the well’ 부분 참조 → often those least likely to have the condition suggested."
+        },
+        {
+          "id": 5,
+          "stem": "The example of irregular-rhythm notifications is used to show that",
+          "options": [
+            {
+              "key": "A",
+              "text": "clinicians should act on notifications without confirmation."
+            },
+            {
+              "key": "B",
+              "text": "strokes can be prevented by devices alone."
+            },
+            {
+              "key": "C",
+              "text": "most notifications eventually prove to be true positives once properly investigated."
+            },
+            {
+              "key": "D",
+              "text": "alerts can be genuinely valuable when handled through a proper pathway."
+            }
+          ],
+          "answer": "D",
+          "focus": "None of this means the signal is always noise",
+          "explain": "지문의 ‘None of this means the signal is always noise’ 부분 참조 → alerts can be genuinely valuable when handled through a proper pathway."
+        },
+        {
+          "id": 6,
+          "stem": "‘Empowerment’ marketing is criticised because it",
+          "options": [
+            {
+              "key": "A",
+              "text": "targets people who are already unwell."
+            },
+            {
+              "key": "B",
+              "text": "discourages patients from trusting clinicians."
+            },
+            {
+              "key": "C",
+              "text": "conceals the extra demand it creates for primary care."
+            },
+            {
+              "key": "D",
+              "text": "promises a level of accuracy that consumer devices cannot actually deliver."
+            }
+          ],
+          "answer": "C",
+          "focus": "‘Empowerment’ marketing",
+          "explain": "지문의 ‘‘Empowerment’ marketing’ 부분 참조 → conceals the extra demand it creates for primary care."
+        },
+        {
+          "id": 7,
+          "stem": "In discussing equity, the writer warns that care models assuming everyone has data will",
+          "options": [
+            {
+              "key": "A",
+              "text": "increase disparities between groups."
+            },
+            {
+              "key": "B",
+              "text": "benefit mainly older patients."
+            },
+            {
+              "key": "C",
+              "text": "make dashboards less impressive."
+            },
+            {
+              "key": "D",
+              "text": "reduce costs for health systems."
+            }
+          ],
+          "answer": "A",
+          "focus": "widen gaps",
+          "explain": "지문의 ‘widen gaps’ 부분 참조 → increase disparities between groups."
+        },
+        {
+          "id": 8,
+          "stem": "The writer’s overall view of wearables is that they",
+          "options": [
+            {
+              "key": "A",
+              "text": "should be prescribed rather than bought."
+            },
+            {
+              "key": "B",
+              "text": "are useful only when directed towards agreed goals."
+            },
+            {
+              "key": "C",
+              "text": "do more harm than good in most cases."
+            },
+            {
+              "key": "D",
+              "text": "will eventually replace routine monitoring."
+            }
+          ],
+          "answer": "B",
+          "focus": "tools serve goals",
+          "explain": "지문의 ‘tools serve goals’ 부분 참조 → are useful only when directed towards agreed goals."
+        }
+      ],
+      "focusPhrases": [
+        "self-surveillance",
+        "selective curiosity",
+        "a rumour with a timestamp",
+        "low-probability queries from the well",
+        "None of this means the signal is always noise",
+        "‘Empowerment’ marketing",
+        "widen gaps",
+        "tools serve goals"
+      ]
+    },
+    {
+      "label": "Text 2",
+      "title": "Discharge summaries that nobody reads",
+      "paragraphs": [
+        "The discharge summary is meant to be a bridge: hospital to community, specialist to GP, one shift’s knowledge to the next team’s responsibility. Too often it is a dense administrative leftover completed under time pressure, stuffed with copied electronic text, and unread by the people who need it most. When summaries fail, medication errors, missed follow-up, and duplicated tests follow. The bridge becomes a bottleneck.",
+        "The stakes are not abstract. Roughly one in five older patients is readmitted within a month of discharge, and reviews consistently find that a substantial share of those returns involve a medicine that was changed in hospital and not understood afterwards, or a follow-up that was intended but never arranged. The document meant to prevent exactly this is frequently the last task of the admission and the first to be rushed.",
+        "Part of the failure is timing. If completion is treated as administrative leftovers for exhausted juniors at the end of a shift, quality collapses. Part of the failure is design: problem lists buried under auto-populated results, no clear ‘what to do if’, and no plain-language version for patients. Unreadability is not a minor style issue; it is a safety defect.",
+        "The medicines section shows the failure most clearly. A typical older inpatient leaves with three drugs stopped, two started, and two doses changed, yet the summary often lists the final regimen without stating what changed or why. The community pharmacist then sees a list that contradicts the repeat prescription and must guess whether the hospital intended the difference or overlooked it. Reconciliation errors at this transition are among the most common preventable harms after discharge, and most are traceable to a document that recorded a state rather than a decision.",
+        "Length is often mistaken for thoroughness. Electronic systems make it effortless to import every result, every observation, and every nursing note, producing letters of twelve pages in which the single sentence that matters—‘restart anticoagulation on day five if no bleeding’—is buried on page nine. Recipients do what any reader does with an unreadable text: they skim, they miss, and they stop opening similar letters. The problem is not that hospitals write too little; it is that they write without deciding what the reader needs to do.",
+        "Some organisations have begun to test summaries with their intended readers before rollout. A GP is given a draft and asked, under a stopwatch, to state the diagnosis, the changes to medication, and the actions expected of them. Where they cannot do so in two minutes, the template is redesigned, not the GP. The approach is borrowed from usability testing in software and is unglamorous. It also works.",
+        "Incentives matter. Systems that reward bed flow without rewarding communication teach staff to prioritise the exit over the handoff. Some services have tested brief problem-oriented formats and same-day electronic transmission to GPs, with pharmacists reconciling medicines before the letter leaves. These changes help only if someone is accountable for accuracy—not merely for clicking ‘send’.",
+        "Patients themselves are frequently excluded from the loop, receiving no plain-language explanation of what changed and what red flags require return. A summary written only for professionals assumes a world in which every GP has time to translate. That world does not exist. Including patients is not a fashionable extra; it is continuity by another name.",
+        "Timing matters as much as content. A letter that arrives ten days after discharge, however well written, has missed the window in which the community pharmacist dispenses the next prescription and the GP fields the first anxious phone call. Same-day electronic transmission is now technically simple, yet many summaries still wait for a consultant signature that adds little except delay. Some departments have separated the two steps: a brief, verified summary of diagnosis, medication changes and actions goes on the day of discharge, and a fuller clinical narrative follows later for the record. Recipients report that the short version is the one they read.",
+        "When summaries fail, a vicious cycle begins: community clinicians stop trusting hospital letters, hospital clinicians assume community will ‘work it out’, and patients bounce between settings with fragments of plan. Repairing trust requires consistently useful documents, not occasional excellence. Audit should sample whether a recipient can act on the letter in two minutes—not whether every laboratory synonym was imported.",
+        "A readable summary is a clinical act. It determines whether hospital gains survive the trip home. Departments that treat it as paperwork will keep rediscovering the same readmissions and calling them unexplained. They are not unexplained; they are untransmitted."
+      ],
+      "wordCount": 752,
+      "questions": [
+        {
+          "id": 1,
+          "stem": "In paragraph one, the discharge summary is described as a ‘bridge’ because it",
+          "options": [
+            {
+              "key": "A",
+              "text": "connects clinicians with administrators."
+            },
+            {
+              "key": "B",
+              "text": "carries information between settings and teams."
+            },
+            {
+              "key": "C",
+              "text": "allows patients to leave hospital sooner."
+            },
+            {
+              "key": "D",
+              "text": "links hospital records with GP systems."
+            }
+          ],
+          "answer": "B",
+          "focus": "meant to be a bridge",
+          "explain": "지문의 ‘meant to be a bridge’ 부분 참조 → carries information between settings and teams."
+        },
+        {
+          "id": 2,
+          "stem": "‘Unreadability’ in paragraph three is described as",
+          "options": [
+            {
+              "key": "A",
+              "text": "an unavoidable feature of electronic records."
+            },
+            {
+              "key": "B",
+              "text": "a threat to patient safety."
+            },
+            {
+              "key": "C",
+              "text": "a problem of style rather than substance."
+            },
+            {
+              "key": "D",
+              "text": "a consequence of poor training."
+            }
+          ],
+          "answer": "B",
+          "focus": "Unreadability",
+          "explain": "지문의 ‘Unreadability’ 부분 참조 → a threat to patient safety."
+        },
+        {
+          "id": 3,
+          "stem": "According to paragraph four, most medication reconciliation errors after discharge arise because summaries",
+          "options": [
+            {
+              "key": "A",
+              "text": "are completed by pharmacists rather than doctors."
+            },
+            {
+              "key": "B",
+              "text": "omit the medicines the patient was taking before admission."
+            },
+            {
+              "key": "C",
+              "text": "record the final regimen without explaining the changes."
+            },
+            {
+              "key": "D",
+              "text": "are sent to the wrong community pharmacy."
+            }
+          ],
+          "answer": "C",
+          "focus": "recorded a state rather than a decision",
+          "explain": "지문의 ‘recorded a state rather than a decision’ 부분 참조 → record the final regimen without explaining the changes."
+        },
+        {
+          "id": 4,
+          "stem": "The writer’s view of long discharge summaries is that they",
+          "options": [
+            {
+              "key": "A",
+              "text": "demonstrate the thoroughness of the hospital team."
+            },
+            {
+              "key": "B",
+              "text": "are necessary for complex patients."
+            },
+            {
+              "key": "C",
+              "text": "are more likely to be read than short ones."
+            },
+            {
+              "key": "D",
+              "text": "hide the important information among irrelevant detail."
+            }
+          ],
+          "answer": "D",
+          "focus": "Length is often mistaken for thoroughness",
+          "explain": "지문의 ‘Length is often mistaken for thoroughness’ 부분 참조 → hide the important information among irrelevant detail."
+        },
+        {
+          "id": 5,
+          "stem": "The stopwatch test described in paragraph six leads to",
+          "options": [
+            {
+              "key": "A",
+              "text": "changes to the template rather than to the reader."
+            },
+            {
+              "key": "B",
+              "text": "fewer letters being sent electronically to GPs on the day of discharge."
+            },
+            {
+              "key": "C",
+              "text": "additional training for GPs."
+            },
+            {
+              "key": "D",
+              "text": "shorter hospital admissions."
+            }
+          ],
+          "answer": "A",
+          "focus": "the template is redesigned, not the GP",
+          "explain": "지문의 ‘the template is redesigned, not the GP’ 부분 참조 → changes to the template rather than to the reader."
+        },
+        {
+          "id": 6,
+          "stem": "Incentives that reward bed flow without rewarding communication teach staff to",
+          "options": [
+            {
+              "key": "A",
+              "text": "value the discharge itself over the handover."
+            },
+            {
+              "key": "B",
+              "text": "write longer summaries in order to protect themselves from later criticism."
+            },
+            {
+              "key": "C",
+              "text": "rely on pharmacists for accuracy."
+            },
+            {
+              "key": "D",
+              "text": "delay discharge until letters are complete."
+            }
+          ],
+          "answer": "A",
+          "focus": "prioritise the exit over the handoff",
+          "explain": "지문의 ‘prioritise the exit over the handoff’ 부분 참조 → value the discharge itself over the handover."
+        },
+        {
+          "id": 7,
+          "stem": "A ‘vicious cycle’ begins when",
+          "options": [
+            {
+              "key": "A",
+              "text": "patients refuse to attend follow-up."
+            },
+            {
+              "key": "B",
+              "text": "pharmacists stop reconciling medicines."
+            },
+            {
+              "key": "C",
+              "text": "distrust between settings leaves patients with fragmented plans."
+            },
+            {
+              "key": "D",
+              "text": "hospitals stop sending discharge letters to GPs within the expected time."
+            }
+          ],
+          "answer": "C",
+          "focus": "vicious cycle",
+          "explain": "지문의 ‘vicious cycle’ 부분 참조 → distrust between settings leaves patients with fragmented plans."
+        },
+        {
+          "id": 8,
+          "stem": "Calling a readable summary ‘a clinical act’ means the writer sees it as",
+          "options": [
+            {
+              "key": "A",
+              "text": "a legal requirement rather than an administrative one."
+            },
+            {
+              "key": "B",
+              "text": "equivalent in importance to a discharge examination."
+            },
+            {
+              "key": "C",
+              "text": "a task that only senior clinicians should perform."
+            },
+            {
+              "key": "D",
+              "text": "determining whether the benefits of admission persist."
+            }
+          ],
+          "answer": "D",
+          "focus": "clinical act",
+          "explain": "지문의 ‘clinical act’ 부분 참조 → determining whether the benefits of admission persist."
+        }
+      ],
+      "focusPhrases": [
+        "meant to be a bridge",
+        "Unreadability",
+        "recorded a state rather than a decision",
+        "Length is often mistaken for thoroughness",
+        "the template is redesigned, not the GP",
+        "prioritise the exit over the handoff",
+        "vicious cycle",
+        "clinical act"
+      ]
+    }
+  ],
+  "gist": [
+    "Tools need goals; summaries are safety."
+  ],
+  "vocab": [
+    {
+      "term": "surveillance",
+      "gloss": "감시·상시 추적"
+    },
+    {
+      "term": "continuity",
+      "gloss": "진료 연속성"
+    },
+    {
+      "term": "artefact",
+      "gloss": "측정 오류 신호(움직임 등)"
+    },
+    {
+      "term": "reconciliation",
+      "gloss": "약 목록 대사·대조"
+    }
+  ]
+}

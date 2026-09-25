@@ -1,12 +1,11 @@
 {
-  "title": "OET Reading Part C Practice (full-length dual texts)",
-  "note": "Unofficial. Texts target ~700-850 words; dual-text 16Q format per OET-2.0 evidence.",
+  "title": "OET Reading Part C Practice",
+  "note": "Unofficial. Two texts (~700–850 words) with 8 questions each, numbered Q7–14 and Q15–22 as in the real paper.",
   "sets": [
     {
-      "id": "C-P01",
+      "id": "C-01",
       "part": "C",
       "setNum": 1,
-      "pack": "full-length",
       "type": "dual-text",
       "title": "Moral distress & nil-by-mouth orders",
       "instruction": "Official-style Part C: two texts, 8 questions each (16 total). Focus phrases are highlighted in the passages.",
@@ -32,7 +31,7 @@
               "options": [
                 {
                   "key": "A",
-                  "text": "exhaustion that accumulates over a run of long shifts."
+                  "text": "exhaustion that accumulates over a run of long night shifts in a busy unit."
                 },
                 {
                   "key": "B",
@@ -136,7 +135,7 @@
                 },
                 {
                   "key": "B",
-                  "text": "a lack of structured measurement of distress."
+                  "text": "a lack of any structured way of measuring how much distress staff feel."
                 },
                 {
                   "key": "C",
@@ -207,7 +206,7 @@
               "options": [
                 {
                   "key": "A",
-                  "text": "restrict the use of prolonged life-sustaining technology."
+                  "text": "restrict the use of prolonged life-sustaining technology to patients likely to recover."
                 },
                 {
                   "key": "B",
@@ -268,7 +267,7 @@
                 },
                 {
                   "key": "C",
-                  "text": "are applied too rarely to patients who need them."
+                  "text": "are applied too rarely to the frail patients who would benefit most from them."
                 },
                 {
                   "key": "D",
@@ -285,7 +284,7 @@
               "options": [
                 {
                   "key": "A",
-                  "text": "the reluctance of staff to challenge senior colleagues."
+                  "text": "the reluctance of junior staff to challenge decisions made by senior colleagues."
                 },
                 {
                   "key": "B",
@@ -347,7 +346,7 @@
                 },
                 {
                   "key": "D",
-                  "text": "staff are unfamiliar with current anaesthetic guidance."
+                  "text": "staff are unfamiliar with the current fasting guidance for elective anaesthesia."
                 }
               ],
               "answer": "B",
@@ -393,7 +392,7 @@
                 },
                 {
                   "key": "C",
-                  "text": "an administrative burden of doubtful value."
+                  "text": "an administrative burden that adds little to safety on busy surgical wards."
                 },
                 {
                   "key": "D",
@@ -447,7 +446,7 @@
                 },
                 {
                   "key": "D",
-                  "text": "be decided by anaesthetists rather than ward teams."
+                  "text": "be decided by anaesthetists on the day rather than by the ward team in advance."
                 }
               ],
               "answer": "C",
@@ -487,10 +486,9 @@
       ]
     },
     {
-      "id": "C-P02",
+      "id": "C-02",
       "part": "C",
       "setNum": 2,
-      "pack": "full-length",
       "type": "dual-text",
       "title": "Shared decision-making & sepsis pathways",
       "instruction": "Two texts · 16 questions. Highlighted phrases are focus targets.",
@@ -517,7 +515,7 @@
               "options": [
                 {
                   "key": "A",
-                  "text": "the time it adds to already crowded clinics."
+                  "text": "the amount of extra time it adds to clinics that are already overbooked."
                 },
                 {
                   "key": "B",
@@ -642,7 +640,7 @@
               "options": [
                 {
                   "key": "A",
-                  "text": "promoted by managers rather than clinicians."
+                  "text": "promoted enthusiastically by managers rather than by frontline clinicians."
                 },
                 {
                   "key": "B",
@@ -667,7 +665,7 @@
               "options": [
                 {
                   "key": "A",
-                  "text": "a sign that the consumer model has failed."
+                  "text": "a sign that the consumer model of health care has failed in practice."
                 },
                 {
                   "key": "B",
@@ -692,7 +690,7 @@
               "options": [
                 {
                   "key": "A",
-                  "text": "clinicians report fewer complaints about decisions."
+                  "text": "clinicians report fewer complaints about the decisions that were made."
                 },
                 {
                   "key": "B",
@@ -776,7 +774,7 @@
                 },
                 {
                   "key": "B",
-                  "text": "antibiotics are given before cultures are taken."
+                  "text": "antibiotics are given before blood cultures have been taken from the patient."
                 },
                 {
                   "key": "C",
@@ -801,7 +799,7 @@
                 },
                 {
                   "key": "B",
-                  "text": "deliberately delaying antibiotics to avoid overtreatment."
+                  "text": "deliberately delaying antibiotics in order to avoid treating patients who do not need them."
                 },
                 {
                   "key": "C",
@@ -826,7 +824,7 @@
                 },
                 {
                   "key": "B",
-                  "text": "they are designed for use in intensive care only."
+                  "text": "they are designed for use in intensive care rather than on general wards."
                 },
                 {
                   "key": "C",
@@ -851,7 +849,7 @@
                 },
                 {
                   "key": "B",
-                  "text": "left to the judgment of individual prescribers."
+                  "text": "left entirely to the judgment of the individual prescriber on the ward."
                 },
                 {
                   "key": "C",
@@ -884,7 +882,7 @@
                 },
                 {
                   "key": "D",
-                  "text": "requires doctors to attend every deteriorating patient."
+                  "text": "requires a doctor to attend in person every patient whose score is rising."
                 }
               ],
               "answer": "B",
@@ -965,14 +963,21 @@
         {
           "term": "overtreatment",
           "gloss": "과잉 치료"
+        },
+        {
+          "term": "rhetorical",
+          "gloss": "말뿐인, 수사적인"
+        },
+        {
+          "term": "de-escalate",
+          "gloss": "(항생제) 범위를 좁히다"
         }
       ]
     },
     {
-      "id": "C-P03",
+      "id": "C-03",
       "part": "C",
       "setNum": 3,
-      "pack": "full-length",
       "type": "dual-text",
       "title": "Wearables & discharge summaries",
       "instruction": "Two texts · 16 questions. Focus terms highlighted.",
@@ -1000,7 +1005,7 @@
               "options": [
                 {
                   "key": "A",
-                  "text": "reveal conditions that would otherwise go unnoticed."
+                  "text": "reveal serious conditions that would otherwise have gone unnoticed for years."
                 },
                 {
                   "key": "B",
@@ -1029,7 +1034,7 @@
                 },
                 {
                   "key": "B",
-                  "text": "asking manufacturers to validate their devices."
+                  "text": "asking manufacturers to validate their devices before alerts are acted on."
                 },
                 {
                   "key": "C",
@@ -1058,7 +1063,7 @@
                 },
                 {
                   "key": "C",
-                  "text": "device readings are usually recorded at the wrong time."
+                  "text": "device readings are usually recorded at the wrong time of day to be useful."
                 },
                 {
                   "key": "D",
@@ -1083,7 +1088,7 @@
                 },
                 {
                   "key": "C",
-                  "text": "usually those with the heaviest symptom burden."
+                  "text": "usually those with the heaviest symptom burden and the least time to attend."
                 },
                 {
                   "key": "D",
@@ -1108,7 +1113,7 @@
                 },
                 {
                   "key": "C",
-                  "text": "most notifications eventually prove to be true positives."
+                  "text": "most notifications eventually prove to be true positives once properly investigated."
                 },
                 {
                   "key": "D",
@@ -1137,7 +1142,7 @@
                 },
                 {
                   "key": "D",
-                  "text": "promises accuracy that devices cannot deliver."
+                  "text": "promises a level of accuracy that consumer devices cannot actually deliver."
                 }
               ],
               "answer": "C",
@@ -1334,7 +1339,7 @@
                 },
                 {
                   "key": "B",
-                  "text": "fewer letters being sent electronically."
+                  "text": "fewer letters being sent electronically to GPs on the day of discharge."
                 },
                 {
                   "key": "C",
@@ -1359,7 +1364,7 @@
                 },
                 {
                   "key": "B",
-                  "text": "write longer summaries to protect themselves."
+                  "text": "write longer summaries in order to protect themselves from later criticism."
                 },
                 {
                   "key": "C",
@@ -1392,7 +1397,7 @@
                 },
                 {
                   "key": "D",
-                  "text": "hospitals stop sending letters to GPs."
+                  "text": "hospitals stop sending discharge letters to GPs within the expected time."
                 }
               ],
               "answer": "C",
@@ -1448,14 +1453,21 @@
         {
           "term": "continuity",
           "gloss": "진료 연속성"
+        },
+        {
+          "term": "artefact",
+          "gloss": "측정 오류 신호(움직임 등)"
+        },
+        {
+          "term": "reconciliation",
+          "gloss": "약 목록 대사·대조"
         }
       ]
     },
     {
-      "id": "C-P04",
+      "id": "C-04",
       "part": "C",
       "setNum": 4,
-      "pack": "full-length",
       "type": "dual-text",
       "title": "Vaccine hesitancy & climate medicine",
       "instruction": "Two texts · 16 questions. ‘Climate medicine’ and other focus phrases are highlighted.",
@@ -1538,7 +1550,7 @@
                 },
                 {
                   "key": "B",
-                  "text": "producing more vivid stories of their own."
+                  "text": "producing more vivid personal stories of their own to compete online."
                 },
                 {
                   "key": "C",
@@ -1588,7 +1600,7 @@
                 },
                 {
                   "key": "B",
-                  "text": "increased access to clinics in their neighbourhoods."
+                  "text": "increased access to clinics in their own neighbourhoods at convenient times."
                 },
                 {
                   "key": "C",
@@ -1634,7 +1646,7 @@
               "options": [
                 {
                   "key": "A",
-                  "text": "the most effective single lever available."
+                  "text": "the most effective single lever available to public health authorities."
                 },
                 {
                   "key": "B",
@@ -1667,7 +1679,7 @@
                 },
                 {
                   "key": "C",
-                  "text": "rely on consistent national messaging."
+                  "text": "rely on consistent national messaging delivered through trusted channels."
                 },
                 {
                   "key": "D",
@@ -1750,7 +1762,7 @@
                 },
                 {
                   "key": "D",
-                  "text": "a specialty that requires additional training and certification."
+                  "text": "a new specialty that requires additional training and formal certification before practice."
                 }
               ],
               "answer": "A",
@@ -1813,7 +1825,7 @@
               "options": [
                 {
                   "key": "A",
-                  "text": "given only to patients with respiratory disease."
+                  "text": "given only to patients who already have a diagnosed respiratory disease."
                 },
                 {
                   "key": "B",
@@ -1931,6 +1943,14 @@
         {
           "term": "climate medicine",
           "gloss": "임상과 환경노출·체계취약을 연결하는 습관/실천"
+        },
+        {
+          "term": "mandate",
+          "gloss": "의무화"
+        },
+        {
+          "term": "propellant",
+          "gloss": "흡입기 추진제"
         }
       ]
     }

@@ -1,0 +1,421 @@
+{
+  "id": "A-03",
+  "part": "A",
+  "setNum": 3,
+  "title": "Peri-operative anticoagulation bridging",
+  "type": "partA-full",
+  "instruction": "Look at Texts A–D. Questions 1–7: which text? Questions 8–15: word/short phrase from the texts. Questions 16–20: complete the sentence. Spelling matters. Target: 15 minutes.",
+  "texts": [
+    {
+      "label": "A",
+      "heading": "Who needs bridging? Risk categories",
+      "body": "Bridging = temporary use of short-acting anticoagulant (usually LMWH) when a vitamin-K antagonist (VKA) such as warfarin is interrupted for a procedure.\n\nHigher thromboembolic risk (bridging more often considered)\n• Mechanical mitral valve OR older-generation mechanical aortic valve\n• AF with prior stroke/TIA and CHA₂DS₂-VASc ≥5 (local cut-offs vary)\n• VTE within the preceding 3 months\n• Previous VTE during interruption of anticoagulation\n\nLower risk (bridging often unnecessary)\n• Uncomplicated AF with lower CHA₂DS₂-VASc\n• Remote VTE >12 months ago and no thrombophilia\n• Bileaflet mechanical aortic valve without other risk factors (many guidelines advise against routine bridging)\n\nDOACs (apixaban, rivaroxaban, dabigatran, edoxaban)\nUsually stopped for a procedure-specific interval based on renal function and bleeding risk; routine LMWH bridging is NOT recommended for DOACs."
+    },
+    {
+      "label": "B",
+      "heading": "Warfarin interruption timetable",
+      "body": "Standard elective procedure (therapeutic INR 2.0–3.0)\n• Last warfarin dose: 5 days before procedure (i.e. hold for 5 doses) in most adults\n• Check INR the day before surgery; if INR >1.5, consider low-dose oral vitamin K per protocol and recheck\n• Target pre-op INR usually ≤1.5 for surgery with bleeding risk (specialty-specific exceptions exist)\n\nHigh bleeding-risk procedures (examples)\nNeuraxial anaesthesia, major cancer surgery, prostate/bladder resection, intracranial/spinal surgery — require longer clean anticoagulant windows and stricter INR targets.\n\nRestart warfarin\n• Evening of surgery or day 1 if haemostasis secure, at usual maintenance dose (± bridging overlap until INR therapeutic)\n• Do not ‘load’ with large unexpected doses without senior/haematology input"
+    },
+    {
+      "label": "C",
+      "heading": "LMWH bridging doses & holding rules",
+      "body": "When bridging is indicated (VKA patients)\n• Start therapeutic LMWH when INR falls below therapeutic range (often ~36–48 hours after last warfarin), e.g. enoxaparin 1 mg/kg SC twice daily OR 1.5 mg/kg once daily (prefer BD in higher-risk; adjust for CrCl <30 mL/min)\n\nHold LMWH before procedure\n• Last therapeutic dose: 24 hours before surgery for twice-daily regimens\n• For once-daily therapeutic regimens: give half the dose the morning before surgery, then hold\n• Prophylactic-dose LMWH (if used instead of therapeutic bridging): last dose ≥12 hours pre-op\n\nPost-procedure restart\n• Prophylactic LMWH ≥12 hours after surgery if haemostasis OK\n• Therapeutic LMWH usually delayed 48–72 hours after high bleeding-risk surgery\n• Overlap LMWH with warfarin until INR ≥2.0 for two consecutive days (or per valve clinic target)"
+    },
+    {
+      "label": "D",
+      "heading": "Neuraxial anaesthesia & emergency surgery notes",
+      "body": "Neuraxial block (spinal/epidural) — minimum intervals after LMWH\n• Prophylactic enoxaparin: wait ≥12 hours after last dose before needle placement\n• Therapeutic enoxaparin: wait ≥24 hours\n• After catheter removal: wait ≥4 hours before next LMWH dose (local anaesthetic protocols may be stricter)\n\nEmergency surgery on warfarin\n• Discuss bleeding vs thrombosis risk with surgeon/anaesthetist/haematology\n• For immediate reversal: IV vitamin K + 4-factor PCC (dose by INR/weight per protocol); FFP is second-line if PCC unavailable\n• Document indication, products given, and post-reversal INR\n\nEmergency surgery on DOAC\n• Record last dose time and renal function\n• Delay surgery if safe; if not, consider specific reversal (e.g. idarucizumab for dabigatran; andexanet where available for factor-Xa inhibitors) or PCC per haematology"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "type": "whichText",
+      "stem": "emergency reversal of warfarin with vitamin K and PCC?",
+      "answer": "D",
+      "accept": [
+        "D"
+      ],
+      "explain": "Text D.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Text A"
+        },
+        {
+          "key": "B",
+          "text": "Text B"
+        },
+        {
+          "key": "C",
+          "text": "Text C"
+        },
+        {
+          "key": "D",
+          "text": "Text D"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "whichText",
+      "stem": "when to hold therapeutic LMWH before an operation?",
+      "answer": "C",
+      "accept": [
+        "C"
+      ],
+      "explain": "Text C.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Text A"
+        },
+        {
+          "key": "B",
+          "text": "Text B"
+        },
+        {
+          "key": "C",
+          "text": "Text C"
+        },
+        {
+          "key": "D",
+          "text": "Text D"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "whichText",
+      "stem": "which patients are at higher thromboembolic risk when bridging is considered?",
+      "answer": "A",
+      "accept": [
+        "A"
+      ],
+      "explain": "Text A.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Text A"
+        },
+        {
+          "key": "B",
+          "text": "Text B"
+        },
+        {
+          "key": "C",
+          "text": "Text C"
+        },
+        {
+          "key": "D",
+          "text": "Text D"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "whichText",
+      "stem": "when therapeutic LMWH is restarted after high bleeding-risk surgery?",
+      "answer": "C",
+      "accept": [
+        "C"
+      ],
+      "explain": "Text C.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Text A"
+        },
+        {
+          "key": "B",
+          "text": "Text B"
+        },
+        {
+          "key": "C",
+          "text": "Text C"
+        },
+        {
+          "key": "D",
+          "text": "Text D"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "whichText",
+      "stem": "how many days before surgery the last warfarin dose is usually taken?",
+      "answer": "B",
+      "accept": [
+        "B"
+      ],
+      "explain": "Text B.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Text A"
+        },
+        {
+          "key": "B",
+          "text": "Text B"
+        },
+        {
+          "key": "C",
+          "text": "Text C"
+        },
+        {
+          "key": "D",
+          "text": "Text D"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "whichText",
+      "stem": "timing rules for neuraxial anaesthesia after LMWH?",
+      "answer": "D",
+      "accept": [
+        "D"
+      ],
+      "explain": "Text D.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Text A"
+        },
+        {
+          "key": "B",
+          "text": "Text B"
+        },
+        {
+          "key": "C",
+          "text": "Text C"
+        },
+        {
+          "key": "D",
+          "text": "Text D"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "whichText",
+      "stem": "whether routine LMWH bridging is recommended for DOACs?",
+      "answer": "A",
+      "accept": [
+        "A"
+      ],
+      "explain": "Text A.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Text A"
+        },
+        {
+          "key": "B",
+          "text": "Text B"
+        },
+        {
+          "key": "C",
+          "text": "Text C"
+        },
+        {
+          "key": "D",
+          "text": "Text D"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "shortAnswer",
+      "stem": "How many days before a standard elective procedure is the last warfarin dose usually taken?",
+      "answer": "5 days",
+      "accept": [
+        "5 days",
+        "5",
+        "five days"
+      ],
+      "explain": "Text B."
+    },
+    {
+      "id": 9,
+      "type": "shortAnswer",
+      "stem": "What pre-operative INR is usually targeted for surgery with bleeding risk?",
+      "answer": "≤1.5",
+      "accept": [
+        "≤1.5",
+        "<=1.5",
+        "1.5",
+        "less than or equal to 1.5"
+      ],
+      "explain": "Text B."
+    },
+    {
+      "id": 10,
+      "type": "shortAnswer",
+      "stem": "What twice-daily therapeutic enoxaparin dose is given as an example?",
+      "answer": "1 mg/kg",
+      "accept": [
+        "1 mg/kg",
+        "1mg/kg",
+        "1 mg/kg twice daily",
+        "1 mg/kg BD"
+      ],
+      "explain": "Text C."
+    },
+    {
+      "id": 11,
+      "type": "shortAnswer",
+      "stem": "How long before surgery should the last therapeutic twice-daily LMWH dose be given?",
+      "answer": "24 hours",
+      "accept": [
+        "24 hours",
+        "24 hrs",
+        "24 h"
+      ],
+      "explain": "Text C."
+    },
+    {
+      "id": 12,
+      "type": "shortAnswer",
+      "stem": "What CHA₂DS₂-VASc threshold is listed as an example for higher-risk AF?",
+      "answer": "≥5",
+      "accept": [
+        ">=5",
+        "≥5",
+        "5"
+      ],
+      "explain": "Text A."
+    },
+    {
+      "id": 13,
+      "type": "shortAnswer",
+      "stem": "Which specific reversal agent is named for dabigatran?",
+      "answer": "idarucizumab",
+      "accept": [
+        "idarucizumab"
+      ],
+      "explain": "Text D."
+    },
+    {
+      "id": 14,
+      "type": "shortAnswer",
+      "stem": "After epidural catheter removal, how long should you wait before the next LMWH dose?",
+      "answer": "≥4 hours",
+      "accept": [
+        "4 hours",
+        "≥4 hours",
+        "at least 4 hours",
+        "4 hrs"
+      ],
+      "explain": "Text D."
+    },
+    {
+      "id": 15,
+      "type": "shortAnswer",
+      "stem": "VTE within what preceding period is listed as higher thromboembolic risk?",
+      "answer": "3 months",
+      "accept": [
+        "3 months",
+        "three months",
+        "the preceding 3 months"
+      ],
+      "explain": "Text A."
+    },
+    {
+      "id": 16,
+      "type": "gapFill",
+      "stem": "Routine LMWH bridging is ……………………………………. recommended for DOACs.",
+      "answer": "not",
+      "accept": [
+        "not",
+        "NOT",
+        "not recommended"
+      ],
+      "explain": "Text A."
+    },
+    {
+      "id": 17,
+      "type": "gapFill",
+      "stem": "If the INR is greater than ……………………………………. the day before surgery, consider low-dose oral vitamin K per protocol.",
+      "answer": "1.5",
+      "accept": [
+        "1.5"
+      ],
+      "explain": "Text B."
+    },
+    {
+      "id": 18,
+      "type": "gapFill",
+      "stem": "Overlap LMWH with warfarin until the INR is at least 2.0 for ……………………………………. consecutive days.",
+      "answer": "two",
+      "accept": [
+        "two",
+        "2"
+      ],
+      "explain": "Text C."
+    },
+    {
+      "id": 19,
+      "type": "gapFill",
+      "stem": "After therapeutic enoxaparin, wait at least ……………………………………. hours before neuraxial needle placement.",
+      "answer": "24",
+      "accept": [
+        "24",
+        "24 hours"
+      ],
+      "explain": "Text D."
+    },
+    {
+      "id": 20,
+      "type": "gapFill",
+      "stem": "For immediate warfarin reversal in emergency surgery, use IV vitamin K plus 4-factor ……………………………………..",
+      "answer": "PCC",
+      "accept": [
+        "PCC",
+        "prothrombin complex concentrate"
+      ],
+      "explain": "Text D."
+    }
+  ],
+  "focusPhrases": [
+    "bridging",
+    "LMWH",
+    "CHA₂DS₂-VASc",
+    "idarucizumab",
+    "neuraxial",
+    "5 days",
+    "≤1.5",
+    "1 mg/kg",
+    "24 hours",
+    "≥5",
+    "≥4 hours",
+    "3 months",
+    "not",
+    "1.5",
+    "two",
+    "24"
+  ],
+  "gist": [
+    "Tables/timetables in Part A = mine for exact numbers.",
+    "Watch DOAC vs warfarin rules — common trap."
+  ],
+  "vocab": [
+    {
+      "term": "bridging",
+      "gloss": "가교 항응고: 워파린 중단 기간을 LMWH 등으로 임시 대체"
+    },
+    {
+      "term": "LMWH",
+      "gloss": "저분자량헤파린"
+    },
+    {
+      "term": "neuraxial",
+      "gloss": "척추·경막외 마취 관련"
+    },
+    {
+      "term": "PCC",
+      "gloss": "프로트롬빈복합체농축제"
+    }
+  ],
+  "sharedWhichPrompt": "In which text can you find information about"
+}

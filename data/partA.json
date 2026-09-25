@@ -247,11 +247,12 @@
           "id": 9,
           "type": "shortAnswer",
           "stem": "Which post-endoscopy score should not be used alone to decide pre-endoscopy triage?",
-          "answer": "Rockall (score)",
+          "answer": "Rockall score",
           "accept": [
-            "Rockall",
             "Rockall score",
-            "the Rockall score"
+            "Rockall",
+            "the Rockall score",
+            "Rockall (score)"
           ],
           "explain": "Text A."
         },
