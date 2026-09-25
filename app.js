@@ -410,7 +410,25 @@ function renderQuestionsView(s, showResult) {
           </div>`;
       })
       .join("");
-  } else if (s.texts?.length) {
+  } else if (s.part === "A") {
+    // Group 1-7 / 8-15 / 16-20 like the paper (must run before texts?.length —
+    // Part A also has texts A–D, but questions live on the set, not inside each text)
+    const qs = s.questions || [];
+    const g1 = qs.filter((q) => q.id >= 1 && q.id <= 7);
+    const g2 = qs.filter((q) => q.id >= 8 && q.id <= 15);
+    const g3 = qs.filter((q) => q.id >= 16 && q.id <= 20);
+    qsHtml = `
+      <h2 class="q-group">Questions 1–7</h2>
+      <p class="which-prompt">${escapeHtml(
+        s.sharedWhichPrompt ||
+          "In which text can you find information about"
+      )}</p>
+      ${g1.map((q) => renderQuestion(q, showResult, { shortWhich: true })).join("")}
+      <h2 class="q-group">Questions 8–15</h2>
+      ${g2.map((q) => renderQuestion(q, showResult)).join("")}
+      <h2 class="q-group">Questions 16–20</h2>
+      ${g3.map((q) => renderQuestion(q, showResult)).join("")}`;
+  } else if (s.part === "C" && s.texts?.length) {
     qsHtml = s.texts
       .map((t, idx) => {
         const offset = (s.texts || [])
@@ -429,23 +447,6 @@ function renderQuestionsView(s, showResult) {
         )}</h2>${block}`;
       })
       .join("");
-  } else if (s.part === "A") {
-    // Group 1-7 / 8-15 / 16-20 like the paper
-    const qs = s.questions || [];
-    const g1 = qs.filter((q) => q.id >= 1 && q.id <= 7);
-    const g2 = qs.filter((q) => q.id >= 8 && q.id <= 15);
-    const g3 = qs.filter((q) => q.id >= 16 && q.id <= 20);
-    qsHtml = `
-      <h2 class="q-group">Questions 1–7</h2>
-      <p class="which-prompt">${escapeHtml(
-        s.sharedWhichPrompt ||
-          "In which text can you find information about"
-      )}</p>
-      ${g1.map((q) => renderQuestion(q, showResult, { shortWhich: true })).join("")}
-      <h2 class="q-group">Questions 8–15</h2>
-      ${g2.map((q) => renderQuestion(q, showResult)).join("")}
-      <h2 class="q-group">Questions 16–20</h2>
-      ${g3.map((q) => renderQuestion(q, showResult)).join("")}`;
   } else {
     qsHtml = (s.questions || [])
       .map((q) => renderQuestion(q, showResult))
