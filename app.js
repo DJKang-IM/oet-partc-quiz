@@ -252,7 +252,103 @@ function render() {
     );
     main.innerHTML = renderSet();
     bindSet();
+    applyVocabMarks();
   }
+}
+
+// ---------- saved-vocab marks in the passage + "jump to where I found it" ----------
+function defaultTabFor(s) {
+  return isDual(s) ? "text0" : s.part === "B" ? "questions" : "passage";
+}
+
+function applyVocabMarks() {
+  const box = $("passageBox");
+  const s = currentSet();
+  if (!box || !s) return;
+  const jump = STATE.jumpTerm || null;
+  const terms = loadVocab()
+    .filter((v) => v.setId === s.id && v.term)
+    .map((v) => v.term);
+  if (jump) terms.push(jump);
+  const uniq = [...new Set(terms.map((t) => t.trim()).filter(Boolean))].sort(
+    (a, b) => b.length - a.length
+  );
+  if (!uniq.length) return;
+  const re = new RegExp(uniq.map(escapeRegExp).join("|"), "gi");
+
+  const walker = document.createTreeWalker(box, NodeFilter.SHOW_TEXT);
+  const nodes = [];
+  let n;
+  while ((n = walker.nextNode())) nodes.push(n);
+  let firstHit = null;
+  for (const node of nodes) {
+    // only passage prose: skip buttons, inputs, explanations, focus chips, headings
+    if (node.parentElement.closest("button, input, .explain, .focus-bar, .q-stem, .text-label, .score, .lead, .hint, h1, h2, h3")) continue;
+    const text = node.nodeValue;
+    re.lastIndex = 0;
+    if (!re.test(text)) continue;
+    re.lastIndex = 0;
+    const frag = document.createDocumentFragment();
+    let last = 0;
+    let m;
+    while ((m = re.exec(text))) {
+      frag.appendChild(document.createTextNode(text.slice(last, m.index)));
+      const mark = document.createElement("mark");
+      mark.className = "vocab";
+      mark.title = "단어장에 저장된 표현";
+      if (jump && m[0].toLowerCase() === jump.toLowerCase()) {
+        mark.classList.add("vocab-hit");
+        if (!firstHit) firstHit = mark;
+      }
+      mark.textContent = m[0];
+      frag.appendChild(mark);
+      last = m.index + m[0].length;
+    }
+    frag.appendChild(document.createTextNode(text.slice(last)));
+    node.parentNode.replaceChild(frag, node);
+  }
+
+  if (!jump) return;
+  if (firstHit) {
+    STATE.jumpTerm = null;
+    STATE.jumpTried = false;
+    requestAnimationFrame(() =>
+      firstHit.scrollIntoView({ block: "center", behavior: "smooth" })
+    );
+    return;
+  }
+  // not in this text — for dual Part C try the other text once
+  if (isDual(s) && !STATE.jumpTried) {
+    STATE.jumpTried = true;
+    STATE.tab = STATE.tab === "text0" ? "text1" : "text0";
+    render();
+    return;
+  }
+  STATE.jumpTerm = null;
+  STATE.jumpTried = false;
+  toast("지문에서 해당 표현을 찾지 못했습니다");
+}
+
+function jumpToVocab(v) {
+  const s = STATE.data.sets.find((x) => x.id === v.setId);
+  if (!s) {
+    toast("해당 세트를 찾을 수 없습니다");
+    return;
+  }
+  STATE.part = s.part;
+  openSet(s.id); // keeps a saved attempt (review state) if there is one
+  // set AFTER openSet: its render() would otherwise consume the jump term on the wrong tab
+  STATE.jumpTerm = v.term;
+  STATE.jumpTried = false;
+  if (s.part === "B") {
+    // extracts are shown in both the questions and the review view
+    STATE.tab = STATE.graded ? "review" : "questions";
+  } else if (isDual(s)) {
+    STATE.tab = ["text0", "text1"].includes(v.tab) ? v.tab : "text0";
+  } else {
+    STATE.tab = "passage";
+  }
+  render();
 }
 
 function setsForPart(part) {
@@ -764,7 +860,9 @@ function renderQuestionsView(s, showResult) {
         <button class="btn primary" id="submitBtn">제출 · 채점</button>
       </div>`;
 
-  return `<div class="card">${extras}${sectionHints}${qsHtml}</div>${actions}`;
+  // Part B: extracts are inside this card, so it doubles as the highlight target
+  const boxId = s.part === "B" ? ' id="passageBox"' : "";
+  return `<div class="card"${boxId}>${extras}${sectionHints}${qsHtml}</div>${actions}`;
 }
 
 // Review-mode helpers -------------------------------------------------------
@@ -891,6 +989,18 @@ function renderQuestion(q, showResult, opts = {}) {
   }">${optsHtml}</div>${explain}</div>`;
 }
 
+// "Test 03 · Part C · Text 2 — title" for a vocab entry (legacy entries only have setId/title)
+function vocabWhere(v) {
+  const s = STATE.data?.sets.find((x) => x.id === v.setId);
+  const part = v.part || s?.part || String(v.setId || "").split("-")[0];
+  const num = v.setNum || s?.setNum || Number(String(v.setId || "").split("-")[1]);
+  let where = num ? `Test ${String(num).padStart(2, "0")} · Part ${part}` : v.setId || "";
+  const m = /^text(\d+)$/.exec(v.tab || "");
+  if (m && s?.texts?.[Number(m[1])]) where += ` · ${s.texts[Number(m[1])].label}`;
+  const title = v.setTitle || s?.title;
+  return title ? `${where} — ${title}` : where;
+}
+
 function renderVocab() {
   const list = loadVocab().slice().reverse();
   if (!list.length) {
@@ -904,7 +1014,7 @@ function renderVocab() {
           (v, idx) => `
         <div class="vocab-item" data-idx="${list.length - 1 - idx}">
           <div class="vocab-term">${escapeHtml(v.term)}</div>
-          <div class="vocab-meta">${escapeHtml(v.setTitle || v.setId || "")} · ${escapeHtml(
+          <div class="vocab-meta">${escapeHtml(vocabWhere(v))} · ${escapeHtml(
             v.addedAt || ""
           )}</div>
           <div class="vocab-def" data-def>${
@@ -914,6 +1024,7 @@ function renderVocab() {
           }</div>
           <div class="vocab-actions">
             <button type="button" class="mini" data-lookup>뜻 찾기</button>
+            <button type="button" class="mini goto" data-goto>문제로 이동 ↗</button>
             <button type="button" class="mini" data-remove>삭제</button>
           </div>
         </div>`
@@ -1156,7 +1267,9 @@ function setupPassageHighlight() {
 
   document.addEventListener("selectionchange", () => {
     const onPassage =
-      STATE.tab === "passage" || /^text\d+$/.test(STATE.tab || "");
+      STATE.tab === "passage" ||
+      /^text\d+$/.test(STATE.tab || "") ||
+      (currentSet()?.part === "B" && ["questions", "review"].includes(STATE.tab)); // B extracts live with the questions
     if (STATE.view !== "set" || !onPassage) {
       hideFab();
       return;
@@ -1187,6 +1300,9 @@ function addHighlight(term) {
     term,
     setId: s.id,
     setTitle: s.title,
+    part: s.part,
+    setNum: s.setNum,
+    tab: STATE.tab, // where it was found: passage | text0 | text1 | questions(B)
     def,
     addedAt: new Date().toLocaleString(),
   });
@@ -1211,6 +1327,10 @@ function bindVocab() {
       list.splice(idx, 1);
       saveVocab(list);
       render();
+      return;
+    }
+    if (e.target.matches("[data-goto]")) {
+      jumpToVocab(list[idx]);
       return;
     }
     if (e.target.matches("[data-lookup]")) {
@@ -1267,7 +1387,7 @@ async function init() {
     render();
   };
 
-  const DATA_V = "202609252036"; // bump when data/*.json changes (Safari caches aggressively)
+  const DATA_V = "202609252050"; // bump when data/*.json changes (Safari caches aggressively)
   const [cRes, aRes, bRes] = await Promise.all([
     fetch(`data/partC.json?v=${DATA_V}`, { cache: "no-cache" }),
     fetch(`data/partA.json?v=${DATA_V}`, { cache: "no-cache" }),
