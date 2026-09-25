@@ -95,9 +95,15 @@ function getFocusPhrases(set, extra = []) {
   ];
   const fromQ = [];
   const stems = [];
-  for (const q of set.questions || []) stems.push(q.stem);
+  for (const q of set.questions || []) {
+    stems.push(q.stem);
+    if (q.focus) fromQ.push(q.focus);
+  }
   for (const t of set.texts || []) {
-    for (const q of t.questions || []) stems.push(q.stem);
+    for (const q of t.questions || []) {
+      stems.push(q.stem);
+      if (q.focus) fromQ.push(q.focus);
+    }
   }
   if (set.items) {
     for (const it of set.items) {
@@ -142,7 +148,9 @@ function getFocusPhrases(set, extra = []) {
 function highlightFocus(text, phrases) {
   let html = escapeHtml(text);
   const slots = [];
-  for (const ph of phrases) {
+  // longest first so a short phrase never splits a longer one
+  const ordered = [...phrases].sort((a, b) => (b || "").length - (a || "").length);
+  for (const ph of ordered) {
     if (!ph) continue;
     const esc = escapeHtml(ph);
     if (!esc) continue;
@@ -243,12 +251,14 @@ function renderHome() {
       (s.texts || []).reduce((n, t) => n + (t.questions?.length || 0), 0) ||
       0;
     const pack = s.pack ? `${s.pack} · ` : "";
-    const wcHint =
-      s.type === "dual-text"
-        ? ` · ~${(s.texts || [])
-            .map((t) => t.wordCount || "?")
-            .join("+")} words`
-        : "";
+    const wcHint = isDual(s)
+      ? ` · ${(s.texts || [])
+          .map((t, i) => {
+            const qs = dualQuestions(s, i);
+            return `${t.label} Q${qs[0]?.id}–${qs[qs.length - 1]?.id}`;
+          })
+          .join(" + ")}`
+      : "";
     const prog = progress[s.id];
     const status = prog?.done
       ? `<span class="status done">완료 ${prog.score}/${prog.total}</span>`
@@ -279,6 +289,8 @@ function renderSet() {
   const s = currentSet();
   if (!s) return `<p class="empty">세트를 찾을 수 없습니다.</p>`;
 
+  if (isDual(s)) return renderDualSet(s);
+
   const tabs = `
     <div class="tabs">
       <button class="tab ${STATE.tab === "passage" ? "active" : ""}" data-tab="passage">${passageLabel(
@@ -301,6 +313,130 @@ function renderSet() {
     return tabs + renderQuestionsView(s, false);
   }
   return tabs + renderQuestionsView(s, true);
+}
+
+// ---------- Part C dual-text paper (Text 1 + Q7–14, Text 2 + Q15–22) ----------
+function dualTabs(s) {
+  const texts = s.texts || [];
+  const tabBtn = (key, label) =>
+    `<button class="tab ${STATE.tab === key ? "active" : ""}" data-tab="${key}">${label}</button>`;
+  let html = `<div class="tabs">`;
+  texts.forEach((t, idx) => {
+    const qs = dualQuestions(s, idx);
+    const range = qs.length
+      ? `Q${qs[0].id}–${qs[qs.length - 1].id}`
+      : "";
+    html += tabBtn(`text${idx}`, `${escapeHtml(t.label)} · ${range}`);
+  });
+  if (STATE.graded) html += tabBtn("review", "해설");
+  html += `</div>`;
+  return html;
+}
+
+function renderDualPassage(t, ph) {
+  return `
+    <div class="text-block partc-text">
+      <div class="text-label">${escapeHtml(t.label)} — ${escapeHtml(
+        t.title
+      )} <span class="wc">${t.wordCount || ""} words</span></div>
+      ${focusChipBar(ph)}
+      <div class="passage">${(t.paragraphs || [])
+        .map((p) => `<p>${highlightFocus(p, ph)}</p>`)
+        .join("")}</div>
+    </div>`;
+}
+
+function renderDualTextView(s, idx) {
+  const t = s.texts[idx];
+  const qs = dualQuestions(s, idx);
+  const ph = getFocusPhrases(
+    { questions: t.questions, focusPhrases: t.focusPhrases },
+    t.focusPhrases || []
+  );
+  const isLast = idx === s.texts.length - 1;
+  const first = qs[0]?.id;
+  const last = qs[qs.length - 1]?.id;
+  const nextBtn = isLast
+    ? `<button class="btn primary" id="submitBtn">제출 · 채점 (16문항)</button>`
+    : `<button class="btn primary" data-tab="text${idx + 1}">${escapeHtml(
+        s.texts[idx + 1].label
+      )}로 이동</button>`;
+  return `
+    <p class="hint">${escapeHtml(t.label)}: read the text, then answer Questions ${first}–${last}. 노란 강조 = 문제에서 묻는 focus 표현.</p>
+    <div class="card" id="passageBox">${renderDualPassage(t, ph)}</div>
+    <div class="card">
+      <h2 class="q-group">${escapeHtml(t.label)}: Questions ${first}–${last}</h2>
+      ${qs.map((q) => renderQuestion(q, false)).join("")}
+    </div>
+    <div class="actions">${nextBtn}</div>`;
+}
+
+function renderDualReview(s) {
+  const texts = s.texts || [];
+  const perText = texts.map((t, idx) => {
+    const qs = dualQuestions(s, idx);
+    const ok = qs.filter((q) => STATE.answers[q.id] === q.answer).length;
+    return { t, idx, qs, ok, total: qs.length };
+  });
+  let html = `
+    <div class="card">
+      <div class="score">${STATE.result.score} / ${STATE.result.total}</div>
+      <p class="lead">${perText
+        .map((p) => `${escapeHtml(p.t.label)} ${p.ok}/${p.total}`)
+        .join(" · ")}</p>
+    </div>`;
+  for (const p of perText) {
+    const ph = getFocusPhrases(
+      { questions: p.t.questions, focusPhrases: p.t.focusPhrases },
+      p.t.focusPhrases || []
+    );
+    html += `
+      <div class="card">
+        <details>
+          <summary class="q-group">${escapeHtml(p.t.label)} — ${escapeHtml(
+            p.t.title
+          )} (지문 다시 보기)</summary>
+          ${renderDualPassage(p.t, ph)}
+        </details>
+        <h2 class="q-group">${escapeHtml(p.t.label)}: Questions ${p.qs[0]?.id}–${
+          p.qs[p.qs.length - 1]?.id
+        } · ${p.ok}/${p.total}</h2>
+        ${p.qs.map((q) => renderQuestion(q, true)).join("")}
+      </div>`;
+  }
+  if (s.gist?.length || s.vocab?.length) {
+    html += `<div class="card">`;
+    if (s.gist?.length) {
+      html += `<h2>Gist</h2><ul>${s.gist
+        .map((g) => `<li>${escapeHtml(g)}</li>`)
+        .join("")}</ul>`;
+    }
+    if (s.vocab?.length) {
+      html += `<h2 style="margin-top:12px">세트 용어</h2>${s.vocab
+        .map(
+          (v) =>
+            `<div class="vocab-item"><div class="vocab-term">${escapeHtml(
+              v.term
+            )}</div><div class="vocab-def">${escapeHtml(v.gloss)}</div></div>`
+        )
+        .join("")}`;
+    }
+    html += `</div>`;
+  }
+  html += `
+    <div class="actions">
+      <button class="btn secondary" id="retryBtn">다시 풀기</button>
+      <button class="btn primary" id="homeBtn">목록으로</button>
+    </div>`;
+  return html;
+}
+
+function renderDualSet(s) {
+  const tabs = dualTabs(s);
+  if (STATE.tab === "review" && STATE.graded) return tabs + renderDualReview(s);
+  const m = /^text(\d+)$/.exec(STATE.tab || "");
+  const idx = m ? Math.min(Number(m[1]), s.texts.length - 1) : 0;
+  return tabs + renderDualTextView(s, idx);
 }
 
 function renderPassageView(s) {
@@ -640,11 +776,38 @@ function bindHome() {
 function openSet(id) {
   STATE.setId = id;
   STATE.view = "set";
-  STATE.tab = "passage";
+  const s = currentSet();
+  STATE.tab = s && isDual(s) ? "text0" : "passage";
   STATE.answers = {};
   STATE.graded = false;
   STATE.result = null;
   render();
+}
+
+// Part C dual-text paper: Text 1 → Q7–14, Text 2 → Q15–22 (official numbering;
+// Part B occupies Q1–6 in the real paper).
+const PART_C_FIRST_Q = 7;
+
+function isDual(s) {
+  return (
+    s.part === "C" &&
+    Array.isArray(s.texts) &&
+    s.texts.some((t) => (t.questions || []).length > 0)
+  );
+}
+
+function dualQuestions(s, textIdx) {
+  // returns [{...q, id: officialId, textIdx}] for one text (or all if textIdx undefined)
+  const out = [];
+  let base = PART_C_FIRST_Q;
+  (s.texts || []).forEach((t, idx) => {
+    const qs = t.questions || [];
+    if (textIdx === undefined || textIdx === idx) {
+      qs.forEach((q, i) => out.push({ ...q, id: base + i, textIdx: idx }));
+    }
+    base += qs.length;
+  });
+  return out;
 }
 
 function questionList(s) {
@@ -656,17 +819,8 @@ function questionList(s) {
       options: it.options,
     }));
   }
-  if (s.texts?.length) {
-    const out = [];
-    let offset = 0;
-    for (const t of s.texts) {
-      for (const q of t.questions || []) {
-        out.push({ ...q, id: q.id + offset });
-      }
-      offset += (t.questions || []).length;
-    }
-    return out;
-  }
+  if (isDual(s)) return dualQuestions(s);
+  // Part A (texts A–D but questions live on the set) and legacy single-text C
   return s.questions || [];
 }
 
@@ -690,7 +844,8 @@ function bindSet() {
     }
     if (e.target.id === "retryBtn") {
       openSet(STATE.setId);
-      STATE.tab = "questions";
+      const s = currentSet();
+      STATE.tab = s && isDual(s) ? "text0" : "questions";
       render();
       return;
     }
@@ -728,6 +883,10 @@ function grade() {
   collectShortAnswers();
   const s = currentSet();
   const qs = questionList(s);
+  if (!qs.length) {
+    toast("채점할 문항이 없습니다 (데이터 오류)");
+    return;
+  }
   let score = 0;
   for (const q of qs) {
     const user = STATE.answers[q.id];
@@ -790,7 +949,9 @@ function setupPassageHighlight() {
   };
 
   document.addEventListener("selectionchange", () => {
-    if (STATE.view !== "set" || STATE.tab !== "passage") {
+    const onPassage =
+      STATE.tab === "passage" || /^text\d+$/.test(STATE.tab || "");
+    if (STATE.view !== "set" || !onPassage) {
       hideFab();
       return;
     }
@@ -900,10 +1061,11 @@ async function init() {
     render();
   };
 
+  const DATA_V = "20260925c"; // bump when data/*.json changes (Safari caches aggressively)
   const [cRes, aRes, bRes] = await Promise.all([
-    fetch("data/partC.json"),
-    fetch("data/partA.json"),
-    fetch("data/partB.json"),
+    fetch(`data/partC.json?v=${DATA_V}`, { cache: "no-cache" }),
+    fetch(`data/partA.json?v=${DATA_V}`, { cache: "no-cache" }),
+    fetch(`data/partB.json?v=${DATA_V}`, { cache: "no-cache" }),
   ]);
   const partC = await cRes.json();
   const partA = await aRes.json();
@@ -915,7 +1077,7 @@ async function init() {
   for (const s of partC.sets || []) sets.push({ ...s, part: "C" });
 
   STATE.data = {
-    note: "Unofficial self-study. Part C dual texts ~700+ words; Part B extracts ~120+ words (OET-2.0 length targets). Not affiliated with OET.",
+    note: "Unofficial self-study. Part A: 4 texts · Q1–20 (which text / short answer / sentence completion). Part B: 6 extracts (100–170 words) · 3 options. Part C: 2 texts (~700–800 words) · Q7–14 & Q15–22, 4 options. Not affiliated with OET.",
     sets,
   };
   render();

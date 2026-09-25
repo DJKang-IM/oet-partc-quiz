@@ -35,12 +35,12 @@
         {
           "id": 1,
           "type": "whichText",
-          "stem": "the Glasgow-Blatchford Score and possible early discharge?",
-          "answer": "A",
+          "stem": "high-risk endoscopic stigmata such as a visible vessel?",
+          "answer": "C",
           "accept": [
-            "A"
+            "C"
           ],
-          "explain": "Text A: GBS of 0.",
+          "explain": "Text C stigmata list.",
           "options": [
             {
               "key": "A",
@@ -91,12 +91,12 @@
         {
           "id": 3,
           "type": "whichText",
-          "stem": "how soon endoscopy should be performed after resuscitation?",
-          "answer": "C",
+          "stem": "when to restart aspirin or other antithrombotic medicines?",
+          "answer": "D",
           "accept": [
-            "C"
+            "D"
           ],
-          "explain": "Text C timing.",
+          "explain": "Text D medication plan.",
           "options": [
             {
               "key": "A",
@@ -118,34 +118,6 @@
         },
         {
           "id": 4,
-          "type": "whichText",
-          "stem": "what must be true before a patient can go home?",
-          "answer": "D",
-          "accept": [
-            "D"
-          ],
-          "explain": "Text D discharge criteria.",
-          "options": [
-            {
-              "key": "A",
-              "text": "Text A"
-            },
-            {
-              "key": "B",
-              "text": "Text B"
-            },
-            {
-              "key": "C",
-              "text": "Text C"
-            },
-            {
-              "key": "D",
-              "text": "Text D"
-            }
-          ]
-        },
-        {
-          "id": 5,
           "type": "whichText",
           "stem": "prophylactic antibiotics in suspected variceal bleeding?",
           "answer": "B",
@@ -173,14 +145,42 @@
           ]
         },
         {
+          "id": 5,
+          "type": "whichText",
+          "stem": "what must be true before a patient can go home?",
+          "answer": "D",
+          "accept": [
+            "D"
+          ],
+          "explain": "Text D discharge criteria.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
           "id": 6,
           "type": "whichText",
-          "stem": "high-risk endoscopic stigmata such as a visible vessel?",
-          "answer": "C",
+          "stem": "the Glasgow-Blatchford Score and possible early discharge?",
+          "answer": "A",
           "accept": [
-            "C"
+            "A"
           ],
-          "explain": "Text C stigmata list.",
+          "explain": "Text A: GBS of 0.",
           "options": [
             {
               "key": "A",
@@ -203,12 +203,12 @@
         {
           "id": 7,
           "type": "whichText",
-          "stem": "when to restart aspirin or other antithrombotic medicines?",
-          "answer": "D",
+          "stem": "how soon endoscopy should be performed after resuscitation?",
+          "answer": "C",
           "accept": [
-            "D"
+            "C"
           ],
-          "explain": "Text D medication plan.",
+          "explain": "Text C timing.",
           "options": [
             {
               "key": "A",
@@ -466,34 +466,6 @@
         {
           "id": 1,
           "type": "whichText",
-          "stem": "definitions of neutropenia and fever used on the pathway?",
-          "answer": "A",
-          "accept": [
-            "A"
-          ],
-          "explain": "Text A.",
-          "options": [
-            {
-              "key": "A",
-              "text": "Text A"
-            },
-            {
-              "key": "B",
-              "text": "Text B"
-            },
-            {
-              "key": "C",
-              "text": "Text C"
-            },
-            {
-              "key": "D",
-              "text": "Text D"
-            }
-          ]
-        },
-        {
-          "id": 2,
-          "type": "whichText",
           "stem": "the sixty-minute door-to-needle antibiotic target?",
           "answer": "B",
           "accept": [
@@ -520,37 +492,9 @@
           ]
         },
         {
-          "id": 3,
+          "id": 2,
           "type": "whichText",
-          "stem": "MASCC scoring and possible low-risk outpatient care?",
-          "answer": "C",
-          "accept": [
-            "C"
-          ],
-          "explain": "Text C.",
-          "options": [
-            {
-              "key": "A",
-              "text": "Text A"
-            },
-            {
-              "key": "B",
-              "text": "Text B"
-            },
-            {
-              "key": "C",
-              "text": "Text C"
-            },
-            {
-              "key": "D",
-              "text": "Text D"
-            }
-          ]
-        },
-        {
-          "id": 4,
-          "type": "whichText",
-          "stem": "written advice on when chemotherapy patients should present immediately?",
+          "stem": "recording door-to-needle time for audit?",
           "answer": "D",
           "accept": [
             "D"
@@ -576,7 +520,7 @@
           ]
         },
         {
-          "id": 5,
+          "id": 3,
           "type": "whichText",
           "stem": "when vancomycin may be added for line-related or MRSA risk?",
           "answer": "C",
@@ -604,14 +548,70 @@
           ]
         },
         {
+          "id": 4,
+          "type": "whichText",
+          "stem": "definitions of neutropenia and fever used on the pathway?",
+          "answer": "A",
+          "accept": [
+            "A"
+          ],
+          "explain": "Text A.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "type": "whichText",
+          "stem": "written advice on when chemotherapy patients should present immediately?",
+          "answer": "D",
+          "accept": [
+            "D"
+          ],
+          "explain": "Text D.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
           "id": 6,
           "type": "whichText",
-          "stem": "taking blood cultures before the first antibiotic dose?",
-          "answer": "B",
+          "stem": "MASCC scoring and possible low-risk outpatient care?",
+          "answer": "C",
           "accept": [
-            "B"
+            "C"
           ],
-          "explain": "Text B.",
+          "explain": "Text C.",
           "options": [
             {
               "key": "A",
@@ -634,12 +634,12 @@
         {
           "id": 7,
           "type": "whichText",
-          "stem": "recording door-to-needle time for audit?",
-          "answer": "D",
+          "stem": "taking blood cultures before the first antibiotic dose?",
+          "answer": "B",
           "accept": [
-            "D"
+            "B"
           ],
-          "explain": "Text D.",
+          "explain": "Text B.",
           "options": [
             {
               "key": "A",
@@ -899,12 +899,12 @@
         {
           "id": 1,
           "type": "whichText",
-          "stem": "which patients are at higher thromboembolic risk when bridging is considered?",
-          "answer": "A",
+          "stem": "emergency reversal of warfarin with vitamin K and PCC?",
+          "answer": "D",
           "accept": [
-            "A"
+            "D"
           ],
-          "explain": "Text A.",
+          "explain": "Text D.",
           "options": [
             {
               "key": "A",
@@ -926,34 +926,6 @@
         },
         {
           "id": 2,
-          "type": "whichText",
-          "stem": "how many days before surgery the last warfarin dose is usually taken?",
-          "answer": "B",
-          "accept": [
-            "B"
-          ],
-          "explain": "Text B.",
-          "options": [
-            {
-              "key": "A",
-              "text": "Text A"
-            },
-            {
-              "key": "B",
-              "text": "Text B"
-            },
-            {
-              "key": "C",
-              "text": "Text C"
-            },
-            {
-              "key": "D",
-              "text": "Text D"
-            }
-          ]
-        },
-        {
-          "id": 3,
           "type": "whichText",
           "stem": "when to hold therapeutic LMWH before an operation?",
           "answer": "C",
@@ -981,7 +953,91 @@
           ]
         },
         {
+          "id": 3,
+          "type": "whichText",
+          "stem": "which patients are at higher thromboembolic risk when bridging is considered?",
+          "answer": "A",
+          "accept": [
+            "A"
+          ],
+          "explain": "Text A.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
           "id": 4,
+          "type": "whichText",
+          "stem": "when therapeutic LMWH is restarted after high bleeding-risk surgery?",
+          "answer": "C",
+          "accept": [
+            "C"
+          ],
+          "explain": "Text C.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "type": "whichText",
+          "stem": "how many days before surgery the last warfarin dose is usually taken?",
+          "answer": "B",
+          "accept": [
+            "B"
+          ],
+          "explain": "Text B.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 6,
           "type": "whichText",
           "stem": "timing rules for neuraxial anaesthesia after LMWH?",
           "answer": "D",
@@ -1009,7 +1065,7 @@
           ]
         },
         {
-          "id": 5,
+          "id": 7,
           "type": "whichText",
           "stem": "whether routine LMWH bridging is recommended for DOACs?",
           "answer": "A",
@@ -1017,62 +1073,6 @@
             "A"
           ],
           "explain": "Text A.",
-          "options": [
-            {
-              "key": "A",
-              "text": "Text A"
-            },
-            {
-              "key": "B",
-              "text": "Text B"
-            },
-            {
-              "key": "C",
-              "text": "Text C"
-            },
-            {
-              "key": "D",
-              "text": "Text D"
-            }
-          ]
-        },
-        {
-          "id": 6,
-          "type": "whichText",
-          "stem": "emergency reversal of warfarin with vitamin K and PCC?",
-          "answer": "D",
-          "accept": [
-            "D"
-          ],
-          "explain": "Text D.",
-          "options": [
-            {
-              "key": "A",
-              "text": "Text A"
-            },
-            {
-              "key": "B",
-              "text": "Text B"
-            },
-            {
-              "key": "C",
-              "text": "Text C"
-            },
-            {
-              "key": "D",
-              "text": "Text D"
-            }
-          ]
-        },
-        {
-          "id": 7,
-          "type": "whichText",
-          "stem": "when therapeutic LMWH is restarted after high bleeding-risk surgery?",
-          "answer": "C",
-          "accept": [
-            "C"
-          ],
-          "explain": "Text C.",
           "options": [
             {
               "key": "A",

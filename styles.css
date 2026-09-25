@@ -373,11 +373,26 @@ mark.focus {
   flex-wrap: wrap;
   margin-bottom: 4px;
 }
-.opt-letter {
-  width: 48px;
+.letter-row .opt.opt-letter {
+  display: inline-block;
+  width: 56px;
+  min-width: 56px;
+  margin-bottom: 0;
   text-align: center;
   font-weight: 800;
-  padding: 10px 0;
+  padding: 12px 0;
+}
+
+details > summary.q-group {
+  cursor: pointer;
+  list-style: none;
+  color: var(--accent);
+}
+details > summary.q-group::before {
+  content: "▸ ";
+}
+details[open] > summary.q-group::before {
+  content: "▾ ";
 }
 
 .hint {

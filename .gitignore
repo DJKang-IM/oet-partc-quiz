@@ -1,9 +1,9 @@
-# OET Part C mobile quiz (static)
+# OET Reading mobile quiz (static)
 .DS_Store
 __pycache__/
 *.pyc
-_qdump.txt
-_extract.py
 
-_add_focus.py
-_extract.py
+# local helper scripts / dumps / backups (not deployed)
+_*.py
+_*.txt
+_*.json

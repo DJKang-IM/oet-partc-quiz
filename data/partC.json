@@ -19,12 +19,12 @@
             "The promise of critical-care technology is that almost any physiology can be supported for a time. Ventilators, dialysis circuits, vasopressors and mechanical circulatory devices can maintain numbers on a monitor long after the trajectory of recovery has become improbable. That promise becomes painful when support continues after the goals of care have quietly shifted from restoration to delay. Families may request ‘everything’, interpreting any reduction as abandonment, while teams see burdens without proportionate benefit. The conflict is rarely about cruelty; it is about mismatched timelines and incomplete conversations. When those conversations are postponed, staff are left enacting a plan nobody has fully owned.",
             "Organisations sometimes treat moral distress as a personal resilience problem—something to be fixed with mindfulness apps, tougher individuals, or informal advice to ‘not take it home’. That framing is incomplete. Distress accumulates where policies for limitations of treatment are unclear, where senior clinicians avoid goals-of-care discussions, and where staffing leaves no protected time for ethical deliberation. Individual coping cannot substitute for collective responsibility. Units that reduce moral distress tend to normalise early family meetings, make ethics consultation easy to trigger without stigma, and document ceilings of care with the same seriousness they document antibiotic choices.",
             "Useful responses therefore combine system redesign with culture change. Routine ethics input for prolonged intensive therapies, structured debriefs after difficult deaths, and simulation that rehearses disagreeing respectfully with a family or a consultant all help. Importantly, these measures only work if speaking up does not invite retaliation. Psychological safety is the precondition for ethical clarity: without it, staff learn to stay silent, and silence is misread as agreement. Where juniors fear being labelled difficult, moral distress does not disappear; it goes underground and later resurfaces as sickness absence, cynicism, or departure from the specialty.",
+            "Measuring the problem is harder than naming it. Validated questionnaires exist, but scores fluctuate with case mix, and a unit that has just lost a young patient will report differently from one in a quiet month. More telling than any score is the pattern of who leaves. Exit interviews in critical care rarely cite salary first; they cite a specific patient, a specific week, and the sense that nobody senior wanted to hear about it. Some units now hold brief ‘ethics huddles’ at the end of the day, five minutes in which anyone can name a case that troubled them without being asked to justify the feeling. The intervention costs nothing and is easy to ridicule. Yet where it is routine, staff describe conflict as something the team carries rather than something each individual smuggles home.",
             "Ignoring moral distress has clinical costs that extend beyond staff wellbeing. Burned-out clinicians leave, remaining teams become cynical, and patients inherit a culture in which hard conversations are postponed until crisis. Families then face sudden reversals they experience as betrayal rather than honesty delayed. Addressing distress is therefore not soft management; it is part of maintaining a workforce able to provide careful end-of-life care and consistent daytime decision-making. Metrics that count only bed days and mortality miss this intermediate failure mode.",
-            "The honest task is to keep technology’s power without surrendering judgment. Moral distress signals that judgment is still alive. A unit that never feels it may be efficient—or it may have stopped noticing what patients are enduring. Training programmes that teach only procedures without teaching how to name conflict leave graduates technically capable and ethically under-rehearsed. In that sense, moral distress is not an occupational nuisance to eliminate at all costs; it is information. The question is whether institutions are willing to hear it before the monitor alarms become the only language left.",
-            "These observations are not arguments against technology, protocols, or urgency; they are arguments against using any of them as a substitute for attention. Attention is finite, so systems must decide what they will notice on purpose. When noticing is left to chance, the same preventable harms recur and are redescribed as misfortune. Training, audit, and leadership are the ordinary tools by which noticing becomes routine rather than heroic.",
-            "These observations are not arguments against technology, protocols, or urgency; they are arguments against using any of them as a substitute for attention. Attention is finite, so systems must decide what they will notice on purpose. When noticing is left to chance, the same preventable harms recur and are redescribed as misfortune. Training, audit, and leadership are the ordinary tools by which noticing becomes routine rather than heroic."
+            "Leadership sets the ceiling on all of this. Where a unit’s senior clinicians visibly change their own plans after a junior’s challenge, the challenge becomes ordinary. Where they concede in private and hold firm in public, staff learn that the invitation to speak was ceremonial. Nothing in a wellbeing programme can offset that lesson, and no amount of process can substitute for a consultant who says, in front of the team, ‘you were right, and I have changed the plan.’",
+            "The honest task is to keep technology’s power without surrendering judgment. Moral distress signals that judgment is still alive. A unit that never feels it may be efficient—or it may have stopped noticing what patients are enduring. Training programmes that teach only procedures without teaching how to name conflict leave graduates technically capable and ethically under-rehearsed. In that sense, moral distress is not an occupational nuisance to eliminate at all costs; it is information. The question is whether institutions are willing to hear it before the monitor alarms become the only language left."
           ],
-          "wordCount": 730,
+          "wordCount": 798,
           "questions": [
             {
               "id": 1,
@@ -32,23 +32,24 @@
               "options": [
                 {
                   "key": "A",
-                  "text": "tiredness from long night shifts only."
+                  "text": "exhaustion that accumulates over a run of long shifts."
                 },
                 {
                   "key": "B",
-                  "text": "feeling forced to act against one’s professional values."
+                  "text": "disagreement between nurses and doctors about treatment plans."
                 },
                 {
                   "key": "C",
-                  "text": "disagreement about drug doses only."
+                  "text": "anxiety caused by unrealistic family expectations."
                 },
                 {
                   "key": "D",
-                  "text": "family anger in waiting rooms."
+                  "text": "a sense of being compelled to act against one’s professional judgment."
                 }
               ],
-              "answer": "B",
-              "explain": "Constrained agency / compelled against professional judgment."
+              "answer": "D",
+              "focus": "constrained agency",
+              "explain": "지문의 ‘constrained agency’ 부분 참조 → a sense of being compelled to act against one’s professional judgment."
             },
             {
               "id": 2,
@@ -56,174 +57,184 @@
               "options": [
                 {
                   "key": "A",
-                  "text": "A written contract with families."
+                  "text": "the expectation that conversations will be held at the right time"
                 },
                 {
                   "key": "B",
-                  "text": "The expectation that technology can support almost any physiology for a time."
+                  "text": "the reassurance families are given that recovery is likely"
                 },
                 {
                   "key": "C",
-                  "text": "A guarantee of recovery."
+                  "text": "the commitment teams make to continue treatment when asked"
                 },
                 {
                   "key": "D",
-                  "text": "A hospital advertising campaign."
+                  "text": "the capacity of technology to support physiology for a period"
                 }
               ],
-              "answer": "B",
-              "explain": "Promise of critical-care technology supporting physiology."
+              "answer": "D",
+              "focus": "The promise of critical-care technology",
+              "explain": "지문의 ‘The promise of critical-care technology’ 부분 참조 → the capacity of technology to support physiology for a period"
             },
             {
               "id": 3,
-              "stem": "‘That framing’ in paragraph three refers to treating moral distress as",
+              "stem": "‘That framing’ in paragraph three refers to viewing moral distress as",
               "options": [
                 {
                   "key": "A",
-                  "text": "a staffing budget issue only."
+                  "text": "a consequence of poor staffing levels."
                 },
                 {
                   "key": "B",
-                  "text": "mainly a personal resilience problem."
+                  "text": "a matter of individual resilience."
                 },
                 {
                   "key": "C",
-                  "text": "an ethics committee success story."
+                  "text": "a failure of ethics consultation services."
                 },
                 {
                   "key": "D",
-                  "text": "a reason to ban life support."
+                  "text": "a normal reaction that needs no response."
                 }
               ],
               "answer": "B",
-              "explain": "Personal resilience / mindfulness framing is incomplete."
+              "focus": "personal resilience problem",
+              "explain": "지문의 ‘personal resilience problem’ 부분 참조 → a matter of individual resilience."
             },
             {
               "id": 4,
-              "stem": "According to the writer, individual coping",
+              "stem": "In paragraph four, the writer suggests that where juniors fear speaking up, moral distress",
               "options": [
                 {
                   "key": "A",
-                  "text": "fully solves moral distress."
+                  "text": "becomes concentrated among senior clinicians."
                 },
                 {
                   "key": "B",
-                  "text": "cannot replace collective organisational responsibility."
+                  "text": "reappears later in less recognisable forms."
                 },
                 {
                   "key": "C",
-                  "text": "is illegal in ICU."
+                  "text": "is resolved through informal peer support."
                 },
                 {
                   "key": "D",
-                  "text": "matters more than psychological safety."
+                  "text": "is gradually replaced by cynicism about protocols."
                 }
               ],
               "answer": "B",
-              "explain": "Individual coping cannot substitute for collective responsibility."
+              "focus": "goes underground",
+              "explain": "지문의 ‘goes underground’ 부분 참조 → reappears later in less recognisable forms."
             },
             {
               "id": 5,
-              "stem": "Psychological safety is described as",
+              "stem": "According to paragraph five, exit interviews in critical care most often mention",
               "options": [
                 {
                   "key": "A",
-                  "text": "optional entertainment."
+                  "text": "a particular case that senior staff seemed unwilling to discuss."
                 },
                 {
                   "key": "B",
-                  "text": "the precondition for ethical clarity and speaking up."
+                  "text": "a lack of structured measurement of distress."
                 },
                 {
                   "key": "C",
-                  "text": "a replacement for family meetings."
+                  "text": "the emotional cost of frequent patient deaths."
                 },
                 {
                   "key": "D",
-                  "text": "proof that retaliation helps."
+                  "text": "dissatisfaction with pay relative to workload."
                 }
               ],
-              "answer": "B",
-              "explain": "Precondition for ethical clarity."
+              "answer": "A",
+              "focus": "Exit interviews",
+              "explain": "지문의 ‘Exit interviews’ 부분 참조 → a particular case that senior staff seemed unwilling to discuss."
             },
             {
               "id": 6,
-              "stem": "Calling staff care ‘not soft management’ suggests it is",
+              "stem": "By describing staff care as ‘not soft management’, the writer implies it is",
               "options": [
                 {
                   "key": "A",
-                  "text": "irrelevant to outcomes."
+                  "text": "undervalued by managers who focus on bed days."
                 },
                 {
                   "key": "B",
-                  "text": "serious operational work for safe end-of-life care."
+                  "text": "a matter for occupational health rather than clinicians."
                 },
                 {
                   "key": "C",
-                  "text": "only about apps."
+                  "text": "integral to delivering safe and consistent patient care."
                 },
                 {
                   "key": "D",
-                  "text": "a way to avoid ethics consults."
+                  "text": "more demanding than conventional clinical work."
                 }
               ],
-              "answer": "B",
-              "explain": "Not soft management — workforce for careful end-of-life care."
+              "answer": "C",
+              "focus": "not soft management",
+              "explain": "지문의 ‘not soft management’ 부분 참조 → integral to delivering safe and consistent patient care."
             },
             {
               "id": 7,
-              "stem": "The writer’s attitude to moral distress in the final paragraph is that it",
+              "stem": "In the final paragraph, the writer regards moral distress as",
               "options": [
                 {
                   "key": "A",
-                  "text": "should be ignored."
+                  "text": "evidence that clinical judgment has not been lost."
                 },
                 {
                   "key": "B",
-                  "text": "shows that moral judgment is still functioning."
+                  "text": "a problem that mainly affects recent graduates."
                 },
                 {
                   "key": "C",
-                  "text": "proves technology must be abandoned."
+                  "text": "a nuisance that efficient units have learned to eliminate."
                 },
                 {
                   "key": "D",
-                  "text": "means units must be less efficient only."
+                  "text": "a sign that technology has outpaced training."
                 }
               ],
-              "answer": "B",
-              "explain": "Distress signals judgment is still alive."
+              "answer": "A",
+              "focus": "it is information",
+              "explain": "지문의 ‘it is information’ 부분 참조 → evidence that clinical judgment has not been lost."
             },
             {
               "id": 8,
-              "stem": "Overall, the passage argues that organisations should",
+              "stem": "Overall, the writer’s main argument is that organisations should",
               "options": [
                 {
                   "key": "A",
-                  "text": "rely only on tougher individuals."
+                  "text": "restrict the use of prolonged life-sustaining technology."
                 },
                 {
                   "key": "B",
-                  "text": "redesign systems and culture so speaking up and early conversations are possible."
+                  "text": "give families greater authority over treatment decisions."
                 },
                 {
                   "key": "C",
-                  "text": "ban all family requests."
+                  "text": "redesign systems and culture so that conflict can be voiced early."
                 },
                 {
                   "key": "D",
-                  "text": "remove all technology from ICU."
+                  "text": "select staff with greater personal resilience for intensive care."
                 }
               ],
-              "answer": "B",
-              "explain": "System redesign + culture; psychological safety."
+              "answer": "C",
+              "focus": "Psychological safety",
+              "explain": "지문의 ‘Psychological safety’ 부분 참조 → redesign systems and culture so that conflict can be voiced early."
             }
           ],
           "focusPhrases": [
-            "moral distress",
-            "the promise",
-            "That framing",
+            "constrained agency",
+            "The promise of critical-care technology",
+            "personal resilience problem",
+            "goes underground",
+            "Exit interviews",
             "not soft management",
+            "it is information",
             "Psychological safety"
           ]
         },
@@ -234,15 +245,14 @@
             "Nil-by-mouth (NBM) orders are among the most casually written instructions in hospital medicine—and among the most casually left unchanged. Intended as a short-term safety measure before anaesthesia, procedures, or airway-risk assessment, NBM can persist for hours or days after the original indication has passed. Patients then face unnecessary thirst, hunger, missed medicines, delayed recovery, and, in older adults, a rising risk of delirium. What began as protection becomes a default identity: the patient is ‘NBM’ on the board long after anyone can remember why.",
             "The convenience of a standing order partly explains the problem. Once NBM is written, busy teams may assume someone else will lift it. Night staff inherit the restriction without the original context; morning ward rounds skip it because it looks like a theatre issue; theatre lists cancel and nobody revisits the ward instruction. Inertia, not malice, keeps people fasting. Electronic records can worsen this if the order lacks an automatic expiry and requires an active click to discontinue—clicks that compete with dozens of other tasks.",
             "There is also a culture of risk aversion. Clinicians fear aspiration above almost all else, and the visible harm of a rare anaesthetic event outweighs the quieter harm of prolonged fasting in daily thinking. Yet prolonged fasting itself increases insulin resistance, discomfort, and physiological stress. For patients on critical Parkinson’s medicines, epilepsy drugs, or immunosuppression, ‘just in case’ NBM can be directly harmful. Risk management that only counts aspiration will systematically undervalue these quieter injuries.",
+            "The arithmetic of fasting is rarely done at the bedside. Guidance for elective anaesthesia permits clear fluids until two hours before induction and a light meal until six, yet ward practice often defaults to ‘nil from midnight’ regardless of list order. A patient scheduled for the afternoon may fast for sixteen hours or more, and if the case is bumped, the next day repeats the pattern. Surveys of surgical wards consistently find median fasting times two to three times longer than any guideline requires. The gap is not ignorance of the numbers; most staff can quote them. It is that nobody’s job is to apply them to this patient, on this list, today.",
+            "Frailty sharpens every one of these harms. An eighty-year-old with borderline renal function who misses two rounds of oral fluid and a diuretic review arrives in theatre already depleted, and the anaesthetist inherits a hypotensive induction that will later be recorded as an anaesthetic complication. Delirium that begins on the second fasting day is attributed to ‘the surgery’. Because the consequences appear downstream and are labelled elsewhere, the fasting decision is never charged with them. This is how a harmless-looking instruction escapes the scrutiny applied to drugs of comparable potency.",
             "Some hospitals have introduced default review times: NBM orders expire unless actively renewed, or pharmacists flag missed critical medicines within a defined window. Surgical pathways that distinguish clear fluids from solids, and that use carbohydrate drinks where appropriate, reduce fasting times without ignoring airway safety. These fixes help, but they still require someone to own the patient’s oral intake as a clinical priority rather than a clerical detail. Ownership is the missing role in many handovers.",
             "Patient experience reports repeatedly describe dry mouths, anxiety, and a sense of being forgotten while waiting ‘just in case’. When communication is poor, people do not know whether the restriction is still necessary. A thirty-second update can restore both understanding and dignity. Where patients lack capacity, relatives notice the empty cup and draw their own frightened conclusions. Transparent communication about why fasting continues—and when it will be reconsidered—is therefore not courtesy alone; it is part of safe care.",
-            "NBM is a tool, not an identity. The discipline is not avoiding fasting, but matching fasting to a clear purpose and ending it when that purpose ends. Until review is as automatic as the initial order, unnecessary starvation will remain one of hospital medicine’s most preventable habits. Departments that audit fasting duration alongside list efficiency often discover that their ‘safety culture’ has been quietly trading one risk for another—and that the trade was never explicitly chosen.",
-            "These observations are not arguments against technology, protocols, or urgency; they are arguments against using any of them as a substitute for attention. Attention is finite, so systems must decide what they will notice on purpose. When noticing is left to chance, the same preventable harms recur and are redescribed as misfortune. Training, audit, and leadership are the ordinary tools by which noticing becomes routine rather than heroic.",
-            "These observations are not arguments against technology, protocols, or urgency; they are arguments against using any of them as a substitute for attention. Attention is finite, so systems must decide what they will notice on purpose. When noticing is left to chance, the same preventable harms recur and are redescribed as misfortune. Training, audit, and leadership are the ordinary tools by which noticing becomes routine rather than heroic.",
-            "These observations are not arguments against technology, protocols, or urgency; they are arguments against using any of them as a substitute for attention. Attention is finite, so systems must decide what they will notice on purpose. When noticing is left to chance, the same preventable harms recur and are redescribed as misfortune. Training, audit, and leadership are the ordinary tools by which noticing becomes routine rather than heroic.",
-            "These observations are not arguments against technology, protocols, or urgency; they are arguments against using any of them as a substitute for attention. Attention is finite, so systems must decide what they will notice on purpose. When noticing is left to chance, the same preventable harms recur and are redescribed as misfortune. Training, audit, and leadership are the ordinary tools by which noticing becomes routine rather than heroic."
+            "Children and people with diabetes expose the same design flaw from a different angle. Paediatric units long ago adopted rigorous fasting schedules because a small child cannot tolerate a long gap, and diabetic pathways specify how insulin should be adjusted around a missed meal. The lesson is not that those groups are special; it is that structured attention works where it is applied. Adults without a named risk are simply the group for whom nobody has written the schedule, and their thirst is treated as tolerable because it is not recorded anywhere.",
+            "NBM is a tool, not an identity. The discipline is not avoiding fasting, but matching fasting to a clear purpose and ending it when that purpose ends. Until review is as automatic as the initial order, unnecessary starvation will remain one of hospital medicine’s most preventable habits. Departments that audit fasting duration alongside list efficiency often discover that their ‘safety culture’ has been quietly trading one risk for another—and that the trade was never explicitly chosen."
           ],
-          "wordCount": 759,
+          "wordCount": 769,
           "questions": [
             {
               "id": 1,
@@ -250,23 +260,24 @@
               "options": [
                 {
                   "key": "A",
-                  "text": "should never be used."
+                  "text": "tend to remain in place after their purpose has passed."
                 },
                 {
                   "key": "B",
-                  "text": "often continue after their original reason has gone."
+                  "text": "are poorly understood by patients and relatives."
                 },
                 {
                   "key": "C",
-                  "text": "are illegal."
+                  "text": "are applied too rarely to patients who need them."
                 },
                 {
                   "key": "D",
-                  "text": "always improve recovery."
+                  "text": "are written without consulting anaesthetic staff."
                 }
               ],
-              "answer": "B",
-              "explain": "Persist after indication passed."
+              "answer": "A",
+              "focus": "casually left unchanged",
+              "explain": "지문의 ‘casually left unchanged’ 부분 참조 → tend to remain in place after their purpose has passed."
             },
             {
               "id": 2,
@@ -274,175 +285,185 @@
               "options": [
                 {
                   "key": "A",
-                  "text": "rapid decision-making."
+                  "text": "the reluctance of staff to challenge senior colleagues."
                 },
                 {
                   "key": "B",
-                  "text": "continuing unchanged through habit or inaction."
+                  "text": "the difficulty of navigating electronic records."
                 },
                 {
                   "key": "C",
-                  "text": "family pressure."
+                  "text": "the tendency for things to continue unchanged through inaction."
                 },
                 {
                   "key": "D",
-                  "text": "pharmacy error only."
+                  "text": "the delay caused by cancelled operating lists."
                 }
               ],
-              "answer": "B",
-              "explain": "Habit/inaction keeps fasting."
+              "answer": "C",
+              "focus": "Inertia, not malice",
+              "explain": "지문의 ‘Inertia, not malice’ 부분 참조 → the tendency for things to continue unchanged through inaction."
             },
             {
               "id": 3,
-              "stem": "Risk aversion leads clinicians to",
+              "stem": "In paragraph three, the writer argues that risk management focused on aspiration",
               "options": [
                 {
                   "key": "A",
-                  "text": "ignore aspiration completely."
+                  "text": "systematically underestimates the harms of prolonged fasting."
                 },
                 {
                   "key": "B",
-                  "text": "overweight rare visible aspiration harm versus quieter harms of prolonged fasting."
+                  "text": "is appropriate for patients on critical medicines."
                 },
                 {
                   "key": "C",
-                  "text": "stop all surgery."
+                  "text": "reflects the priorities of patients rather than clinicians."
                 },
                 {
                   "key": "D",
-                  "text": "ban clear fluids forever."
+                  "text": "has largely eliminated anaesthetic complications."
                 }
               ],
-              "answer": "B",
-              "explain": "Visible rare harm outweighs quieter fasting harms."
+              "answer": "A",
+              "focus": "quieter injuries",
+              "explain": "지문의 ‘quieter injuries’ 부분 참조 → systematically underestimates the harms of prolonged fasting."
             },
             {
               "id": 4,
+              "stem": "According to paragraph four, the main reason fasting times exceed guidelines is that",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "afternoon lists are rarely scheduled in advance."
+                },
+                {
+                  "key": "B",
+                  "text": "nobody is responsible for applying the rules to individual patients."
+                },
+                {
+                  "key": "C",
+                  "text": "patients prefer to fast from midnight for simplicity."
+                },
+                {
+                  "key": "D",
+                  "text": "staff are unfamiliar with current anaesthetic guidance."
+                }
+              ],
+              "answer": "B",
+              "focus": "nil from midnight",
+              "explain": "지문의 ‘nil from midnight’ 부분 참조 → nobody is responsible for applying the rules to individual patients."
+            },
+            {
+              "id": 5,
+              "stem": "The writer uses the example of the eighty-year-old patient to show that",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "delirium is an inevitable complication of surgery in the elderly."
+                },
+                {
+                  "key": "B",
+                  "text": "the consequences of fasting are attributed to other causes."
+                },
+                {
+                  "key": "C",
+                  "text": "frail patients should not be listed for afternoon surgery."
+                },
+                {
+                  "key": "D",
+                  "text": "anaesthetists are blamed for decisions made on the ward."
+                }
+              ],
+              "answer": "B",
+              "focus": "escapes the scrutiny",
+              "explain": "지문의 ‘escapes the scrutiny’ 부분 참조 → the consequences of fasting are attributed to other causes."
+            },
+            {
+              "id": 6,
               "stem": "Default review times are presented as",
               "options": [
                 {
                   "key": "A",
-                  "text": "useless paperwork."
+                  "text": "a way of transferring responsibility to pharmacists."
                 },
                 {
                   "key": "B",
-                  "text": "a system fix that still needs clinical ownership of oral intake."
+                  "text": "a complete solution to unnecessary fasting."
                 },
                 {
                   "key": "C",
-                  "text": "a reason to never fast patients."
+                  "text": "an administrative burden of doubtful value."
                 },
                 {
                   "key": "D",
-                  "text": "only for paediatrics."
+                  "text": "helpful measures that still depend on someone taking ownership."
                 }
               ],
-              "answer": "B",
-              "explain": "Helpful but ownership still required."
+              "answer": "D",
+              "focus": "default review times",
+              "explain": "지문의 ‘default review times’ 부분 참조 → helpful measures that still depend on someone taking ownership."
             },
             {
-              "id": 5,
-              "stem": "A thirty-second update is valued because it can restore",
-              "options": [
-                {
-                  "key": "A",
-                  "text": "theatre capacity only."
-                },
-                {
-                  "key": "B",
-                  "text": "understanding and dignity."
-                },
-                {
-                  "key": "C",
-                  "text": "insurance payments."
-                },
-                {
-                  "key": "D",
-                  "text": "antibiotic stewardship."
-                }
-              ],
-              "answer": "B",
-              "explain": "Understanding and dignity."
-            },
-            {
-              "id": 6,
+              "id": 7,
               "stem": "The phrase ‘NBM is a tool, not an identity’ warns against",
               "options": [
                 {
                   "key": "A",
-                  "text": "using NBM at all."
+                  "text": "using fasting orders for patients who can make their own decisions."
                 },
                 {
                   "key": "B",
-                  "text": "treating the fasting label as a lasting patient category rather than a time-limited instruction."
+                  "text": "recording fasting status on ward boards visible to others."
                 },
                 {
                   "key": "C",
-                  "text": "documenting indications."
+                  "text": "relying on written orders rather than verbal handover."
                 },
                 {
                   "key": "D",
-                  "text": "pharmacist involvement."
+                  "text": "allowing a temporary instruction to define how a patient is seen."
                 }
               ],
-              "answer": "B",
-              "explain": "Label must not become identity."
-            },
-            {
-              "id": 7,
-              "stem": "Auditing fasting duration alongside list efficiency may reveal that",
-              "options": [
-                {
-                  "key": "A",
-                  "text": "aspiration never occurs."
-                },
-                {
-                  "key": "B",
-                  "text": "safety culture may be trading one risk for another without explicit choice."
-                },
-                {
-                  "key": "C",
-                  "text": "NBM is always wrong."
-                },
-                {
-                  "key": "D",
-                  "text": "patients prefer indefinite fasting."
-                }
-              ],
-              "answer": "B",
-              "explain": "Unchosen risk trade-offs."
+              "answer": "D",
+              "focus": "NBM is a tool, not an identity",
+              "explain": "지문의 ‘NBM is a tool, not an identity’ 부분 참조 → allowing a temporary instruction to define how a patient is seen."
             },
             {
               "id": 8,
-              "stem": "The author’s stance is best summarised as",
+              "stem": "The writer’s overall position is that fasting should",
               "options": [
                 {
                   "key": "A",
-                  "text": "anti-all fasting."
+                  "text": "be avoided in older patients wherever possible."
                 },
                 {
                   "key": "B",
-                  "text": "pro-matching fasting to purpose and ending it when purpose ends."
+                  "text": "be replaced by carbohydrate drinks before all procedures."
                 },
                 {
                   "key": "C",
-                  "text": "pro-indefinite NBM for safety."
+                  "text": "be matched to a clear purpose and stopped when that purpose ends."
                 },
                 {
                   "key": "D",
-                  "text": "anti-electronic records only."
+                  "text": "be decided by anaesthetists rather than ward teams."
                 }
               ],
-              "answer": "B",
-              "explain": "Match purpose; end when done."
+              "answer": "C",
+              "focus": "matching fasting to a clear purpose",
+              "explain": "지문의 ‘matching fasting to a clear purpose’ 부분 참조 → be matched to a clear purpose and stopped when that purpose ends."
             }
           ],
           "focusPhrases": [
-            "Inertia",
+            "casually left unchanged",
+            "Inertia, not malice",
+            "quieter injuries",
+            "nil from midnight",
+            "escapes the scrutiny",
+            "default review times",
             "NBM is a tool, not an identity",
-            "standing order",
-            "Risk aversion",
-            "default review times"
+            "matching fasting to a clear purpose"
           ]
         }
       ],
@@ -481,214 +502,225 @@
             "Shared decision-making (SDM) is widely endorsed as ethical best practice, yet clinic schedules and emergency workloads often make it look optional. In theory, SDM means patients and clinicians deliberate together using the best available evidence and the patient’s values. In practice, it is frequently reduced to a hurried choice between two options already preferred by the team, or to a signature on a consent form after a monologue. The gap between aspiration and delivery is where cynicism about SDM grows.",
             "Some interpret time pressure as proof that SDM is unrealistic. That conclusion is too blunt. Time pressure changes the method; it does not erase the ethical requirement to avoid paternalism dressed as efficiency. Even in constrained settings, clinicians can ask what matters most, name uncertainty honestly, and check understanding. A two-minute exchange that surfaces fear of dependence may change a treatment recommendation more than a ten-minute lecture on relative risk reductions that the patient cannot use.",
             "The real obstacle is often skill under constraint rather than minutes alone. Asking what matters, presenting trade-offs without drowning people in data, and stopping when a patient wants a clear recommendation are learnable techniques. They require rehearsal. Juniors who only watch consultants ‘decide for’ patients learn that speed equals paternalism. Juniors who watch colleagues think aloud with patients learn that SDM can be brisk without being dismissive. Training that treats communication as soft add-on content leaves the denominator of everyday decisions untouched.",
+            "Decision aids illustrate both the promise and the limits of tools. Well-designed pictographs showing how many people out of a hundred benefit, are harmed, or notice no difference help patients grasp trade-offs that verbal percentages obscure. But an aid handed over in the corridor is a leaflet, not a conversation. Evaluations repeatedly find that aids improve knowledge scores while barely shifting how decisions are actually made unless a clinician uses them as a shared object to talk around. The tool works when it changes what the two people say to each other; it fails when it is treated as documentation that talking has occurred.",
+            "There is also a quieter obstacle: clinicians’ discomfort with uncertainty in front of patients. Saying ‘we do not know whether this will help you’ feels like confessing incompetence, so the sentence is softened into false confidence in one direction or the other. Patients, however, tend to trust clinicians more, not less, when uncertainty is named plainly and paired with a clear plan for what would be reviewed and when. Training that rehearses these sentences aloud—rather than merely endorsing the principle—produces the durable change; principles rarely survive a full waiting room.",
             "Still, system design matters. When every slot is overbooked and complex decisions are squeezed into the last three minutes, even skilled clinicians default to shortcuts. Services that protect decision time for high-stakes choices—cancer pathways, dialysis modality discussions, operative consent for frail patients—show that organisations can choose differently. Without those structural signals, SDM remains a rhetorical commitment: praised in guidelines, starved in timetables.",
             "Patients also differ. Some want a clear recommendation more than a menu. SDM done well begins by asking how much guidance a person wants today, not by forcing a consumer model onto someone who is frightened and exhausted. Others want details and time to speak with family. Flexibility is not a betrayal of autonomy; rigidity is. The clinician’s job is to match process to person while remaining honest about evidence limits.",
-            "The target is not perfect conversations in imperfect clinics. It is fewer decisions made to the patient rather than with them, and fewer later regrets rooted in misunderstanding. Measuring SDM only by form completion will miss the point. Listening for whether patients can explain why a plan fits their life is a better test—and a more demanding one—than counting signatures.",
-            "These observations are not arguments against technology, protocols, or urgency; they are arguments against using any of them as a substitute for attention. Attention is finite, so systems must decide what they will notice on purpose. When noticing is left to chance, the same preventable harms recur and are redescribed as misfortune. Training, audit, and leadership are the ordinary tools by which noticing becomes routine rather than heroic.",
-            "These observations are not arguments against technology, protocols, or urgency; they are arguments against using any of them as a substitute for attention. Attention is finite, so systems must decide what they will notice on purpose. When noticing is left to chance, the same preventable harms recur and are redescribed as misfortune. Training, audit, and leadership are the ordinary tools by which noticing becomes routine rather than heroic.",
-            "These observations are not arguments against technology, protocols, or urgency; they are arguments against using any of them as a substitute for attention. Attention is finite, so systems must decide what they will notice on purpose. When noticing is left to chance, the same preventable harms recur and are redescribed as misfortune. Training, audit, and leadership are the ordinary tools by which noticing becomes routine rather than heroic.",
-            "These observations are not arguments against technology, protocols, or urgency; they are arguments against using any of them as a substitute for attention. Attention is finite, so systems must decide what they will notice on purpose. When noticing is left to chance, the same preventable harms recur and are redescribed as misfortune. Training, audit, and leadership are the ordinary tools by which noticing becomes routine rather than heroic."
+            "Documentation deserves a word of its own. Notes that record ‘risks and benefits discussed, patient agrees’ satisfy a template while telling the next clinician nothing about what the person feared, what they declined, or what would make them change their mind. A single sentence capturing the patient’s own reasoning—‘prefers to avoid another admission even at the cost of some breathlessness’—travels better across handovers than any checklist, and it protects clinicians more effectively when decisions are later questioned. Recording the reasoning also disciplines the conversation: it is hard to write down a preference that was never actually elicited.",
+            "The target is not perfect conversations in imperfect clinics. It is fewer decisions made to the patient rather than with them, and fewer later regrets rooted in misunderstanding. Measuring SDM only by form completion will miss the point. Listening for whether patients can explain why a plan fits their life is a better test—and a more demanding one—than counting signatures."
           ],
-          "wordCount": 715,
+          "wordCount": 722,
           "questions": [
             {
               "id": 1,
-              "stem": "Shared decision-making is described as widely endorsed, yet often",
+              "stem": "In paragraph one, the writer suggests that cynicism about shared decision-making arises from",
               "options": [
                 {
                   "key": "A",
-                  "text": "illegal in clinics."
+                  "text": "the time it adds to already crowded clinics."
                 },
                 {
                   "key": "B",
-                  "text": "reduced to hurried choice or a signature after a monologue."
+                  "text": "the pressure on patients to sign consent forms."
                 },
                 {
                   "key": "C",
-                  "text": "only for children."
+                  "text": "the difference between what is claimed for it and what actually happens."
                 },
                 {
                   "key": "D",
-                  "text": "replaced by laboratory tests."
+                  "text": "clinicians’ belief that patients cannot understand evidence."
                 }
               ],
-              "answer": "B",
-              "explain": "Aspiration vs delivery gap."
+              "answer": "C",
+              "focus": "The gap between aspiration and delivery",
+              "explain": "지문의 ‘The gap between aspiration and delivery’ 부분 참조 → the difference between what is claimed for it and what actually happens."
             },
             {
               "id": 2,
-              "stem": "‘That conclusion’ refers to the idea that",
+              "stem": "‘That conclusion’ in paragraph two refers to the view that",
               "options": [
                 {
                   "key": "A",
-                  "text": "SDM is unnecessary ethically."
+                  "text": "time pressure makes shared decision-making impractical."
                 },
                 {
                   "key": "B",
-                  "text": "time pressure proves SDM is unrealistic."
+                  "text": "patients prefer brief consultations."
                 },
                 {
                   "key": "C",
-                  "text": "patients must always choose alone."
+                  "text": "efficiency is a form of paternalism."
                 },
                 {
                   "key": "D",
-                  "text": "clinics should ban recommendations."
+                  "text": "relative risk reductions are hard to explain."
                 }
               ],
-              "answer": "B",
-              "explain": "Time pressure ⇒ SDM unrealistic — too blunt."
+              "answer": "A",
+              "focus": "That conclusion is too blunt",
+              "explain": "지문의 ‘That conclusion is too blunt’ 부분 참조 → time pressure makes shared decision-making impractical."
             },
             {
               "id": 3,
-              "stem": "The writer says the real obstacle is often",
+              "stem": "According to paragraph three, juniors who observe consultants deciding for patients learn that",
               "options": [
                 {
                   "key": "A",
-                  "text": "lack of any evidence."
+                  "text": "being quick means being paternalistic."
                 },
                 {
                   "key": "B",
-                  "text": "skill under constraint rather than minutes alone."
+                  "text": "patients rarely want to be involved."
                 },
                 {
                   "key": "C",
-                  "text": "patient illiteracy only."
+                  "text": "consultants lack training in shared decision-making."
                 },
                 {
                   "key": "D",
-                  "text": "too many nurses."
+                  "text": "communication skills cannot be taught."
                 }
               ],
-              "answer": "B",
-              "explain": "Skill under constraint."
+              "answer": "A",
+              "focus": "skill under constraint",
+              "explain": "지문의 ‘skill under constraint’ 부분 참조 → being quick means being paternalistic."
             },
             {
               "id": 4,
-              "stem": "‘Rhetorical commitment’ suggests SDM is",
+              "stem": "The writer says decision aids are most effective when they",
               "options": [
                 {
                   "key": "A",
-                  "text": "always delivered well."
+                  "text": "are given to patients to read before the appointment."
                 },
                 {
                   "key": "B",
-                  "text": "praised in guidelines but starved in timetables."
+                  "text": "present risks as percentages rather than pictures."
                 },
                 {
                   "key": "C",
-                  "text": "only about forms."
+                  "text": "are used to record that a discussion took place."
                 },
                 {
                   "key": "D",
-                  "text": "banned by law."
+                  "text": "become something the clinician and patient discuss together."
                 }
               ],
-              "answer": "B",
-              "explain": "Praised yet starved in schedules."
+              "answer": "D",
+              "focus": "a shared object to talk around",
+              "explain": "지문의 ‘a shared object to talk around’ 부분 참조 → become something the clinician and patient discuss together."
             },
             {
               "id": 5,
-              "stem": "Wanting a clear recommendation is presented as",
+              "stem": "In paragraph five, the writer claims that naming uncertainty openly",
               "options": [
                 {
                   "key": "A",
-                  "text": "proof against autonomy."
+                  "text": "makes patients more likely to request a recommendation."
                 },
                 {
                   "key": "B",
-                  "text": "compatible with SDM when process matches the person."
+                  "text": "is appropriate only when a review plan is impossible."
                 },
                 {
                   "key": "C",
-                  "text": "always wrong."
+                  "text": "tends to increase rather than reduce patients’ trust."
                 },
                 {
                   "key": "D",
-                  "text": "only for surgeons."
+                  "text": "is a skill most clinicians already possess."
                 }
               ],
-              "answer": "B",
-              "explain": "Flexibility; ask how much guidance wanted."
+              "answer": "C",
+              "focus": "trust clinicians more, not less",
+              "explain": "지문의 ‘trust clinicians more, not less’ 부분 참조 → tends to increase rather than reduce patients’ trust."
             },
             {
               "id": 6,
-              "stem": "A better test of SDM than form completion is whether patients can",
+              "stem": "‘Rhetorical commitment’ suggests that shared decision-making is",
               "options": [
                 {
                   "key": "A",
-                  "text": "recite relative risks."
+                  "text": "promoted by managers rather than clinicians."
                 },
                 {
                   "key": "B",
-                  "text": "explain why a plan fits their life."
+                  "text": "endorsed in principle but not supported in practice."
                 },
                 {
                   "key": "C",
-                  "text": "sign faster."
+                  "text": "discussed in training but forgotten afterwards."
                 },
                 {
                   "key": "D",
-                  "text": "avoid all questions."
+                  "text": "valued more by patients than by guidelines."
                 }
               ],
               "answer": "B",
-              "explain": "Explain fit to life."
+              "focus": "rhetorical commitment",
+              "explain": "지문의 ‘rhetorical commitment’ 부분 참조 → endorsed in principle but not supported in practice."
             },
             {
               "id": 7,
-              "stem": "System design matters because overbooking leads clinicians to",
+              "stem": "The writer describes a patient’s wish for a clear recommendation as",
               "options": [
                 {
                   "key": "A",
-                  "text": "perfect SDM."
+                  "text": "a sign that the consumer model has failed."
                 },
                 {
                   "key": "B",
-                  "text": "default to shortcuts."
+                  "text": "evidence that autonomy has been undermined."
                 },
                 {
                   "key": "C",
-                  "text": "longer appointments automatically."
+                  "text": "a reason to spend longer presenting the evidence."
                 },
                 {
                   "key": "D",
-                  "text": "stop using evidence."
+                  "text": "compatible with shared decision-making when the approach is adapted."
                 }
               ],
-              "answer": "B",
-              "explain": "Shortcuts under overbooking."
+              "answer": "D",
+              "focus": "Flexibility is not a betrayal of autonomy",
+              "explain": "지문의 ‘Flexibility is not a betrayal of autonomy’ 부분 참조 → compatible with shared decision-making when the approach is adapted."
             },
             {
               "id": 8,
-              "stem": "Author’s stance on SDM is",
+              "stem": "In the final paragraph, the writer proposes judging shared decision-making by whether",
               "options": [
                 {
                   "key": "A",
-                  "text": "abandon it."
+                  "text": "clinicians report fewer complaints about decisions."
                 },
                 {
                   "key": "B",
-                  "text": "keep it, adapted to constraint, with system support."
+                  "text": "patients can explain how a plan suits their circumstances."
                 },
                 {
                   "key": "C",
-                  "text": "replace it with pure paternalism."
+                  "text": "consent forms are completed in every case."
                 },
                 {
                   "key": "D",
-                  "text": "use only leaflets."
+                  "text": "consultations are shorter than before."
                 }
               ],
               "answer": "B",
-              "explain": "Adapted SDM + systems."
+              "focus": "counting signatures",
+              "explain": "지문의 ‘counting signatures’ 부분 참조 → patients can explain how a plan suits their circumstances."
             }
           ],
           "focusPhrases": [
-            "That conclusion",
-            "Rhetorical commitment",
-            "rhetorical",
-            "skill under constraint"
+            "The gap between aspiration and delivery",
+            "That conclusion is too blunt",
+            "skill under constraint",
+            "a shared object to talk around",
+            "trust clinicians more, not less",
+            "rhetorical commitment",
+            "Flexibility is not a betrayal of autonomy",
+            "counting signatures"
           ]
         },
         {
@@ -696,216 +728,229 @@
           "title": "Sepsis pathways and the cost of delay",
           "paragraphs": [
             "Sepsis pathways were built for a simple reason: hours matter. When recognition is late, or when antibiotics and fluids are delayed after recognition, mortality rises. Care bundles translate that urgency into timed actions—cultures, lactate, antibiotics, fluid challenges, escalation—so that ‘suspected sepsis’ triggers a shared sequence rather than individual improvisation. Used well, pathways reduce unwarranted variation.",
+            "The word itself has shifted meaning. Older definitions rested on inflammatory markers that many patients without infection also display; the current consensus defines sepsis as life-threatening organ dysfunction caused by a dysregulated response to infection. That is a diagnosis of consequence, not of temperature, and it explains why a febrile but well patient and an afebrile patient with a rising lactate belong on different sides of the pathway.",
             "Critics argue that rigid hour-one rules can drive overtreatment—antibiotics for non-infectious mimics, fluid overload in patients who needed vasopressors and careful phenotyping instead of repeated boluses. The criticism is not trivial. Pathways that cannot tolerate clinical judgment become rituals: clocks are satisfied while patients are not. The friction usually sits in recognition and differential thinking, not in the pharmacy’s ability to deliver a first dose.",
             "Attribution is another trap. If hospitals only audit whether antibiotics were given within sixty minutes, teams learn to game the clock. A dose given rapidly for the wrong syndrome still ‘passes’. Conversely, a thoughtful delay for a patient with clear pulmonary oedema and no infection ‘fails’, even if it was safer. Measurement culture shapes behaviour; poor metrics teach the wrong lesson.",
+            "Recognition remains the weakest link. Sepsis has no single test; it is a clinical inference built from history, examination and trend. Early warning scores help, but they are blunt in the very groups where sepsis is most dangerous—the elderly with blunted fever responses, the immunosuppressed whose counts do not rise, the young and fit who compensate until they abruptly do not. A score that reassures because the blood pressure is normal may be measuring a physiological reserve that is about to run out.",
+            "Antimicrobial stewardship adds a genuine tension rather than a false one. Every early broad-spectrum dose given for a suspected infection that proves not to exist adds to resistance pressure and to the individual’s risk of Clostridioides difficile and organ toxicity. The answer is not to withhold the first dose when sepsis is plausible; it is to make the second decision—review at forty-eight to seventy-two hours, de-escalate or stop—as protected and visible as the first. Bundles that time only the start and never the stop have measured half a pathway.",
+            "Nurses are often the first to suspect deterioration and the last to be asked what they think. Escalation policies that require a threshold score before a doctor must attend can silence a competent observer whose concern precedes the numbers. Some hospitals have added a ‘worried’ criterion that carries the same weight as a physiological trigger. It is a small change of rules and a large change of message: judgment is admissible evidence.",
             "Teams that treat pathways as conversation starters rather than scripts do better. They ask what source is plausible, whether source control is needed, and when to stop antibiotics. They document why a bundle step was modified. That documentation is not bureaucracy for its own sake; it is how judgment remains visible under time pressure. Without it, later reviewers see only compliance scores and miss clinical reasoning.",
             "Families often sense change before charts do. Listening to ‘he is not himself’ is not soft data; it is sometimes the earliest signal that perfusion or cognition is shifting. Pathways that ignore concerned observers in favour of isolated numbers recreate the problem they were meant to solve: delayed recognition. Combining track-and-trigger scores with human concern is more faithful to how deterioration actually appears.",
-            "The point of a sepsis pathway is disciplined speed with room for judgment. Speed without judgment harms; judgment without speed also harms. Training should therefore rehearse both the stopwatch and the differential, so that juniors learn that stopping to think for thirty seconds is not the enemy of the bundle—uncritically ticking boxes is.",
-            "These observations are not arguments against technology, protocols, or urgency; they are arguments against using any of them as a substitute for attention. Attention is finite, so systems must decide what they will notice on purpose. When noticing is left to chance, the same preventable harms recur and are redescribed as misfortune. Training, audit, and leadership are the ordinary tools by which noticing becomes routine rather than heroic.",
-            "These observations are not arguments against technology, protocols, or urgency; they are arguments against using any of them as a substitute for attention. Attention is finite, so systems must decide what they will notice on purpose. When noticing is left to chance, the same preventable harms recur and are redescribed as misfortune. Training, audit, and leadership are the ordinary tools by which noticing becomes routine rather than heroic.",
-            "These observations are not arguments against technology, protocols, or urgency; they are arguments against using any of them as a substitute for attention. Attention is finite, so systems must decide what they will notice on purpose. When noticing is left to chance, the same preventable harms recur and are redescribed as misfortune. Training, audit, and leadership are the ordinary tools by which noticing becomes routine rather than heroic.",
-            "These observations are not arguments against technology, protocols, or urgency; they are arguments against using any of them as a substitute for attention. Attention is finite, so systems must decide what they will notice on purpose. When noticing is left to chance, the same preventable harms recur and are redescribed as misfortune. Training, audit, and leadership are the ordinary tools by which noticing becomes routine rather than heroic.",
-            "These observations are not arguments against technology, protocols, or urgency; they are arguments against using any of them as a substitute for attention. Attention is finite, so systems must decide what they will notice on purpose. When noticing is left to chance, the same preventable harms recur and are redescribed as misfortune. Training, audit, and leadership are the ordinary tools by which noticing becomes routine rather than heroic."
+            "Data from national audits illustrate the trade-off in numbers. Programmes that tightened hour-one antibiotic compliance have reported falling sepsis mortality alongside rising broad-spectrum consumption and, in some units, more Clostridioides difficile. Whether the net effect is favourable depends on which patients were treated and which were merely labelled, a distinction that compliance dashboards do not display. Honest evaluation therefore needs paired measures—time to antibiotics for confirmed sepsis and rate of antibiotics for patients with no infection found—reported together, so that improvement in one cannot quietly purchase deterioration in the other.",
+            "The point of a sepsis pathway is disciplined speed with room for judgment. Speed without judgment harms; judgment without speed also harms. Training should therefore rehearse both the stopwatch and the differential, so that juniors learn that stopping to think for thirty seconds is not the enemy of the bundle—uncritically ticking boxes is."
           ],
-          "wordCount": 712,
+          "wordCount": 765,
           "questions": [
             {
               "id": 1,
-              "stem": "Sepsis pathways exist primarily because",
+              "stem": "According to paragraph one, sepsis pathways were introduced because",
               "options": [
                 {
                   "key": "A",
-                  "text": "pharmacies are slow."
+                  "text": "individual clinicians were reluctant to prescribe antibiotics."
                 },
                 {
                   "key": "B",
-                  "text": "hours matter for recognition and treatment."
+                  "text": "delays in recognition and treatment increase mortality."
                 },
                 {
                   "key": "C",
-                  "text": "families demand them."
+                  "text": "variation in practice was confusing for families."
                 },
                 {
                   "key": "D",
-                  "text": "they replace diagnosis."
+                  "text": "hospitals needed a way of auditing emergency care."
                 }
               ],
               "answer": "B",
-              "explain": "Hours matter."
+              "focus": "hours matter",
+              "explain": "지문의 ‘hours matter’ 부분 참조 → delays in recognition and treatment increase mortality."
             },
             {
               "id": 2,
-              "stem": "Critics worry rigid rules can drive",
+              "stem": "In paragraph three, the writer describes pathways that ‘become rituals’ as those in which",
               "options": [
                 {
                   "key": "A",
-                  "text": "perfect accuracy always."
+                  "text": "pharmacy delivery is prioritised over diagnosis."
                 },
                 {
                   "key": "B",
-                  "text": "overtreatment and ritual compliance."
+                  "text": "antibiotics are given before cultures are taken."
                 },
                 {
                   "key": "C",
-                  "text": "zero antibiotic use."
+                  "text": "senior review is required before every step."
                 },
                 {
                   "key": "D",
-                  "text": "home care only."
+                  "text": "timings are achieved but patients do not benefit."
                 }
               ],
-              "answer": "B",
-              "explain": "Overtreatment / rituals."
+              "answer": "D",
+              "focus": "become rituals",
+              "explain": "지문의 ‘become rituals’ 부분 참조 → timings are achieved but patients do not benefit."
             },
             {
               "id": 3,
-              "stem": "‘Game the clock’ refers to",
+              "stem": "‘Game the clock’ in paragraph four refers to",
               "options": [
                 {
                   "key": "A",
-                  "text": "ignoring time entirely."
+                  "text": "recording the time of antibiotics inaccurately."
                 },
                 {
                   "key": "B",
-                  "text": "meeting time metrics in ways that miss clinical quality."
+                  "text": "deliberately delaying antibiotics to avoid overtreatment."
                 },
                 {
                   "key": "C",
-                  "text": "playing sports in hospital."
+                  "text": "ignoring the sixty-minute target altogether."
                 },
                 {
                   "key": "D",
-                  "text": "refusing antibiotics."
+                  "text": "satisfying a time target in ways that neglect clinical quality."
                 }
               ],
-              "answer": "B",
-              "explain": "Metric gaming."
+              "answer": "D",
+              "focus": "game the clock",
+              "explain": "지문의 ‘game the clock’ 부분 참조 → satisfying a time target in ways that neglect clinical quality."
             },
             {
               "id": 4,
-              "stem": "Good teams treat pathways as",
+              "stem": "The writer suggests that early warning scores may be misleading because",
               "options": [
                 {
                   "key": "A",
-                  "text": "untouchable scripts."
+                  "text": "they are rarely completed for elderly patients."
                 },
                 {
                   "key": "B",
-                  "text": "conversation starters that preserve visible judgment."
+                  "text": "they are designed for use in intensive care only."
                 },
                 {
                   "key": "C",
-                  "text": "optional posters only."
+                  "text": "normal readings can reflect reserves that are about to fail."
                 },
                 {
                   "key": "D",
-                  "text": "pharmacy documents alone."
+                  "text": "they place too much weight on fever."
                 }
               ],
-              "answer": "B",
-              "explain": "Conversation starters + documented judgment."
+              "answer": "C",
+              "focus": "physiological reserve",
+              "explain": "지문의 ‘physiological reserve’ 부분 참조 → normal readings can reflect reserves that are about to fail."
             },
             {
               "id": 5,
-              "stem": "‘He is not himself’ is valued as",
+              "stem": "In paragraph six, the writer argues that antibiotic review at 48–72 hours should be",
               "options": [
                 {
                   "key": "A",
-                  "text": "irrelevant soft data."
+                  "text": "given the same priority and visibility as the first dose."
                 },
                 {
                   "key": "B",
-                  "text": "sometimes the earliest signal of deterioration."
+                  "text": "left to the judgment of individual prescribers."
                 },
                 {
                   "key": "C",
-                  "text": "proof against scores."
+                  "text": "used to justify withholding the initial dose."
                 },
                 {
                   "key": "D",
-                  "text": "only a family complaint."
+                  "text": "postponed until culture results are complete."
                 }
               ],
-              "answer": "B",
-              "explain": "Early human signal."
+              "answer": "A",
+              "focus": "half a pathway",
+              "explain": "지문의 ‘half a pathway’ 부분 참조 → given the same priority and visibility as the first dose."
             },
             {
               "id": 6,
-              "stem": "The writer’s preferred balance is",
+              "stem": "The ‘worried’ criterion described in paragraph seven is significant because it",
               "options": [
                 {
                   "key": "A",
-                  "text": "speed without judgment."
+                  "text": "removes the need for physiological scoring."
                 },
                 {
                   "key": "B",
-                  "text": "disciplined speed with room for judgment."
+                  "text": "treats a nurse’s concern as valid evidence for escalation."
                 },
                 {
                   "key": "C",
-                  "text": "judgment without any urgency."
+                  "text": "shifts responsibility for recognition to relatives."
                 },
                 {
                   "key": "D",
-                  "text": "abandoning bundles."
+                  "text": "requires doctors to attend every deteriorating patient."
                 }
               ],
               "answer": "B",
-              "explain": "Speed with judgment."
+              "focus": "judgment is admissible evidence",
+              "explain": "지문의 ‘judgment is admissible evidence’ 부분 참조 → treats a nurse’s concern as valid evidence for escalation."
             },
             {
               "id": 7,
-              "stem": "Poor metrics teach teams to",
+              "stem": "Listening to ‘he is not himself’ is valued because it",
               "options": [
                 {
                   "key": "A",
-                  "text": "think more carefully always."
+                  "text": "may reveal deterioration before measurements do."
                 },
                 {
                   "key": "B",
-                  "text": "prioritise passing audits over fitting treatment to syndrome."
+                  "text": "reduces reliance on track-and-trigger scores."
                 },
                 {
                   "key": "C",
-                  "text": "ignore antibiotics."
+                  "text": "provides a record for later review."
                 },
                 {
                   "key": "D",
-                  "text": "call families less."
+                  "text": "reassures relatives that they are being heard."
                 }
               ],
-              "answer": "B",
-              "explain": "Wrong lesson from poor metrics."
+              "answer": "A",
+              "focus": "he is not himself",
+              "explain": "지문의 ‘he is not himself’ 부분 참조 → may reveal deterioration before measurements do."
             },
             {
               "id": 8,
-              "stem": "Overall attitude to sepsis pathways is",
+              "stem": "The writer’s overall attitude to sepsis pathways is that they",
               "options": [
                 {
                   "key": "A",
-                  "text": "reject them."
+                  "text": "have achieved their purpose and can now be relaxed."
                 },
                 {
                   "key": "B",
-                  "text": "support them if judgment remains visible."
+                  "text": "are most useful for junior staff and should be simplified."
                 },
                 {
                   "key": "C",
-                  "text": "use them only in ICU."
+                  "text": "are valuable provided clinical judgment remains visible within them."
                 },
                 {
                   "key": "D",
-                  "text": "replace them with AI alone."
+                  "text": "should be replaced by individualised clinical assessment."
                 }
               ],
-              "answer": "B",
-              "explain": "Support with judgment."
+              "answer": "C",
+              "focus": "disciplined speed with room for judgment",
+              "explain": "지문의 ‘disciplined speed with room for judgment’ 부분 참조 → are valuable provided clinical judgment remains visible within them."
             }
           ],
           "focusPhrases": [
-            "Game the clock",
-            "He is not himself",
-            "rituals"
+            "hours matter",
+            "become rituals",
+            "game the clock",
+            "physiological reserve",
+            "half a pathway",
+            "judgment is admissible evidence",
+            "he is not himself",
+            "disciplined speed with room for judgment"
           ]
         }
       ],
@@ -938,216 +983,227 @@
           "paragraphs": [
             "Consumer wearables promise continuous insight: heart-rate variability, sleep stages, oxygen estimates, irregular rhythm alerts. For people already anxious about health, that stream can feel like empowerment. It can also become a form of self-surveillance that amplifies normal fluctuation into dread. The clinical system then inherits screenshots stripped of context and is asked to pronounce on data it did not order and cannot fully verify.",
             "Clinicians are increasingly asked to interpret spikes and dips without knowing device accuracy, skin tone performance limits, movement artefact, or whether the wearer slept at all. A nocturnal alert may reflect alcohol, illness, or a loose strap. Treating every notification as an actionable arrhythmia pathway will overwhelm services and medicalise ordinary life. Ignoring every notification will miss the occasional true signal. The profession needs a third posture: selective curiosity.",
+            "Accuracy is not one property. A device may detect atrial fibrillation reliably in a still, seated adult with light skin and fail in the same person while walking, or in a person with darker skin whose optical sensor readings are noisier. Manufacturers publish validation studies in ideal conditions and shield the details behind marketing language. A clinician who receives an alert cannot readily tell whether it emerged from the validated scenario or from the edge of the device’s competence. Uncertainty that cannot be inspected is not information; it is a rumour with a timestamp.",
+            "The pattern of who consults is also skewed. The person most likely to bring in a month of sleep scores is frequently the person least likely to have the disease the scores appear to suggest, while people with heavy symptom burdens and little time often own no device at all. Clinics thus receive a stream of low-probability queries from the well and silence from the unwell. Triage systems built for symptomatic presentations struggle to price this new demand, and the cost is paid in appointments that never reach those who needed them.",
+            "None of this means the signal is always noise. Irregular-rhythm notifications have prompted diagnoses of atrial fibrillation in people who would otherwise have presented with a stroke. The clinical task is to construct a pathway in which such alerts are confirmed by a proper recording and interpreted by a person, so that a true positive becomes treatment and a false one becomes reassurance—rather than both becoming anxiety.",
             "There is a commercial engine behind the anxiety. Devices sell engagement; engagement thrives on attention. ‘Empowerment’ marketing rarely advertises the downstream effect on primary care demand. When empowerment is indistinguishable from perpetual monitoring, patients may lose the very sense of bodily trust that health depends on. Clinicians should name that paradox without sneering at technology.",
             "This is not an argument for rejecting all consumer health technology. It is an argument for demanding actionable thresholds, clearer uncertainty labels, and continuity with a clinician who knows the person. Data should answer a question the patient and clinician share—not create questions nobody had time to ask. Where devices are useful, they should plug into agreed pathways, not arrive as unstructured panic.",
             "Equity cuts both ways. Some people gain access to useful monitoring they could not otherwise afford; others are excluded by cost, connectivity, or digital literacy. A care model that assumes everyone arrives with a week of charts will widen gaps. Public health claims for wearables must therefore be tested against who is left out, not only against who posts impressive dashboards.",
-            "The clinical task is to reclaim the narrative: tools serve goals. Wearables are tools. Without goals, they are merely louder noise. Teaching patients when not to check can be as therapeutic as teaching them when to seek help—and far harder to bill for, which may explain why it is taught less often than it should be.",
-            "These observations are not arguments against technology, protocols, or urgency; they are arguments against using any of them as a substitute for attention. Attention is finite, so systems must decide what they will notice on purpose. When noticing is left to chance, the same preventable harms recur and are redescribed as misfortune. Training, audit, and leadership are the ordinary tools by which noticing becomes routine rather than heroic.",
-            "These observations are not arguments against technology, protocols, or urgency; they are arguments against using any of them as a substitute for attention. Attention is finite, so systems must decide what they will notice on purpose. When noticing is left to chance, the same preventable harms recur and are redescribed as misfortune. Training, audit, and leadership are the ordinary tools by which noticing becomes routine rather than heroic.",
-            "These observations are not arguments against technology, protocols, or urgency; they are arguments against using any of them as a substitute for attention. Attention is finite, so systems must decide what they will notice on purpose. When noticing is left to chance, the same preventable harms recur and are redescribed as misfortune. Training, audit, and leadership are the ordinary tools by which noticing becomes routine rather than heroic.",
-            "These observations are not arguments against technology, protocols, or urgency; they are arguments against using any of them as a substitute for attention. Attention is finite, so systems must decide what they will notice on purpose. When noticing is left to chance, the same preventable harms recur and are redescribed as misfortune. Training, audit, and leadership are the ordinary tools by which noticing becomes routine rather than heroic.",
-            "These observations are not arguments against technology, protocols, or urgency; they are arguments against using any of them as a substitute for attention. Attention is finite, so systems must decide what they will notice on purpose. When noticing is left to chance, the same preventable harms recur and are redescribed as misfortune. Training, audit, and leadership are the ordinary tools by which noticing becomes routine rather than heroic."
+            "Regulation lags behind both marketing and clinical practice. Many consumer devices are sold as ‘wellness’ products precisely so that their outputs escape the scrutiny applied to medical instruments, even when the same output is later handed to a clinician as if it were a diagnostic result. A blood pressure cuff must prove its accuracy; a wrist-worn estimate of blood oxygen need not. Clinicians can reasonably ask that any reading brought into a consultation carry a statement of what it was validated to do, and decline to build treatment on a number that carries no such statement.",
+            "The clinical task is to reclaim the narrative: tools serve goals. Wearables are tools. Without goals, they are merely louder noise. Teaching patients when not to check can be as therapeutic as teaching them when to seek help—and far harder to bill for, which may explain why it is taught less often than it should be."
           ],
-          "wordCount": 712,
+          "wordCount": 717,
           "questions": [
             {
               "id": 1,
-              "stem": "For the ‘anxious well’, wearables may become",
+              "stem": "In paragraph one, the writer suggests that for anxious people wearables can",
               "options": [
                 {
                   "key": "A",
-                  "text": "always useless."
+                  "text": "reveal conditions that would otherwise go unnoticed."
                 },
                 {
                   "key": "B",
-                  "text": "self-surveillance that amplifies normal fluctuation into dread."
+                  "text": "replace the need for clinical consultation."
                 },
                 {
                   "key": "C",
-                  "text": "a replacement for all clinicians."
+                  "text": "turn ordinary variation into a source of fear."
                 },
                 {
                   "key": "D",
-                  "text": "illegal devices."
+                  "text": "provide reassurance that clinicians cannot."
                 }
               ],
-              "answer": "B",
-              "explain": "Self-surveillance / dread."
+              "answer": "C",
+              "focus": "self-surveillance",
+              "explain": "지문의 ‘self-surveillance’ 부분 참조 → turn ordinary variation into a source of fear."
             },
             {
               "id": 2,
-              "stem": "The writer’s ‘third posture’ is",
+              "stem": "The ‘third posture’ in paragraph two refers to",
               "options": [
                 {
                   "key": "A",
-                  "text": "ignore all alerts."
+                  "text": "investigating some alerts and not others according to judgment."
                 },
                 {
                   "key": "B",
-                  "text": "selective curiosity."
+                  "text": "asking manufacturers to validate their devices."
                 },
                 {
                   "key": "C",
-                  "text": "admit every screenshot as emergency."
+                  "text": "advising patients to switch off notifications."
                 },
                 {
                   "key": "D",
-                  "text": "ban wearables."
+                  "text": "referring every alert for specialist review."
                 }
               ],
-              "answer": "B",
-              "explain": "Selective curiosity."
+              "answer": "A",
+              "focus": "selective curiosity",
+              "explain": "지문의 ‘selective curiosity’ 부분 참조 → investigating some alerts and not others according to judgment."
             },
             {
               "id": 3,
+              "stem": "The writer calls unverifiable device uncertainty ‘a rumour with a timestamp’ to suggest that",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "patients exaggerate what their devices show."
+                },
+                {
+                  "key": "B",
+                  "text": "an alert without context cannot be treated as reliable evidence."
+                },
+                {
+                  "key": "C",
+                  "text": "device readings are usually recorded at the wrong time."
+                },
+                {
+                  "key": "D",
+                  "text": "manufacturers deliberately conceal false results."
+                }
+              ],
+              "answer": "B",
+              "focus": "a rumour with a timestamp",
+              "explain": "지문의 ‘a rumour with a timestamp’ 부분 참조 → an alert without context cannot be treated as reliable evidence."
+            },
+            {
+              "id": 4,
+              "stem": "According to paragraph four, the people most likely to bring device data to a clinician are",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "mainly those who cannot afford devices."
+                },
+                {
+                  "key": "B",
+                  "text": "typically referred by triage systems."
+                },
+                {
+                  "key": "C",
+                  "text": "usually those with the heaviest symptom burden."
+                },
+                {
+                  "key": "D",
+                  "text": "often those least likely to have the condition suggested."
+                }
+              ],
+              "answer": "D",
+              "focus": "low-probability queries from the well",
+              "explain": "지문의 ‘low-probability queries from the well’ 부분 참조 → often those least likely to have the condition suggested."
+            },
+            {
+              "id": 5,
+              "stem": "The example of irregular-rhythm notifications is used to show that",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "clinicians should act on notifications without confirmation."
+                },
+                {
+                  "key": "B",
+                  "text": "strokes can be prevented by devices alone."
+                },
+                {
+                  "key": "C",
+                  "text": "most notifications eventually prove to be true positives."
+                },
+                {
+                  "key": "D",
+                  "text": "alerts can be genuinely valuable when handled through a proper pathway."
+                }
+              ],
+              "answer": "D",
+              "focus": "None of this means the signal is always noise",
+              "explain": "지문의 ‘None of this means the signal is always noise’ 부분 참조 → alerts can be genuinely valuable when handled through a proper pathway."
+            },
+            {
+              "id": 6,
               "stem": "‘Empowerment’ marketing is criticised because it",
               "options": [
                 {
                   "key": "A",
-                  "text": "never helps anyone."
+                  "text": "targets people who are already unwell."
                 },
                 {
                   "key": "B",
-                  "text": "rarely advertises downstream primary-care demand effects."
+                  "text": "discourages patients from trusting clinicians."
                 },
                 {
                   "key": "C",
-                  "text": "is always false scientifically."
+                  "text": "conceals the extra demand it creates for primary care."
                 },
                 {
                   "key": "D",
-                  "text": "only targets children."
+                  "text": "promises accuracy that devices cannot deliver."
                 }
               ],
-              "answer": "B",
-              "explain": "Downstream demand not advertised."
-            },
-            {
-              "id": 4,
-              "stem": "Data should ideally",
-              "options": [
-                {
-                  "key": "A",
-                  "text": "create endless new questions."
-                },
-                {
-                  "key": "B",
-                  "text": "answer a question patient and clinician share."
-                },
-                {
-                  "key": "C",
-                  "text": "replace continuity."
-                },
-                {
-                  "key": "D",
-                  "text": "be ignored if consumer-generated."
-                }
-              ],
-              "answer": "B",
-              "explain": "Shared questions."
-            },
-            {
-              "id": 5,
-              "stem": "Equity concerns include that care models assuming weekly charts may",
-              "options": [
-                {
-                  "key": "A",
-                  "text": "reduce all gaps."
-                },
-                {
-                  "key": "B",
-                  "text": "widen gaps for those excluded by cost or literacy."
-                },
-                {
-                  "key": "C",
-                  "text": "help only hospitals."
-                },
-                {
-                  "key": "D",
-                  "text": "end monitoring."
-                }
-              ],
-              "answer": "B",
-              "explain": "Widen gaps."
-            },
-            {
-              "id": 6,
-              "stem": "Teaching when not to check is described as",
-              "options": [
-                {
-                  "key": "A",
-                  "text": "unimportant."
-                },
-                {
-                  "key": "B",
-                  "text": "therapeutic yet under-taught."
-                },
-                {
-                  "key": "C",
-                  "text": "dangerous always."
-                },
-                {
-                  "key": "D",
-                  "text": "only for athletes."
-                }
-              ],
-              "answer": "B",
-              "explain": "Therapeutic; taught less."
+              "answer": "C",
+              "focus": "‘Empowerment’ marketing",
+              "explain": "지문의 ‘‘Empowerment’ marketing’ 부분 참조 → conceals the extra demand it creates for primary care."
             },
             {
               "id": 7,
-              "stem": "Overall, wearables are",
+              "stem": "In discussing equity, the writer warns that care models assuming everyone has data will",
               "options": [
                 {
                   "key": "A",
-                  "text": "enemies of medicine."
+                  "text": "increase disparities between groups."
                 },
                 {
                   "key": "B",
-                  "text": "tools that need goals."
+                  "text": "benefit mainly older patients."
                 },
                 {
                   "key": "C",
-                  "text": "sufficient as standalone care."
+                  "text": "make dashboards less impressive."
                 },
                 {
                   "key": "D",
-                  "text": "accurate in all skin tones always."
+                  "text": "reduce costs for health systems."
                 }
               ],
-              "answer": "B",
-              "explain": "Tools needing goals."
+              "answer": "A",
+              "focus": "widen gaps",
+              "explain": "지문의 ‘widen gaps’ 부분 참조 → increase disparities between groups."
             },
             {
               "id": 8,
-              "stem": "Author attitude is best described as",
+              "stem": "The writer’s overall view of wearables is that they",
               "options": [
                 {
                   "key": "A",
-                  "text": "techno-utopian."
+                  "text": "should be prescribed rather than bought."
                 },
                 {
                   "key": "B",
-                  "text": "cautiously pragmatic about context and demand."
+                  "text": "are useful only when directed towards agreed goals."
                 },
                 {
                   "key": "C",
-                  "text": "luddite ban."
+                  "text": "do more harm than good in most cases."
                 },
                 {
                   "key": "D",
-                  "text": "indifferent."
+                  "text": "will eventually replace routine monitoring."
                 }
               ],
               "answer": "B",
-              "explain": "Cautious pragmatism."
+              "focus": "tools serve goals",
+              "explain": "지문의 ‘tools serve goals’ 부분 참조 → are useful only when directed towards agreed goals."
             }
           ],
           "focusPhrases": [
-            "anxious well",
-            "Empowerment",
             "self-surveillance",
-            "selective curiosity"
+            "selective curiosity",
+            "a rumour with a timestamp",
+            "low-probability queries from the well",
+            "None of this means the signal is always noise",
+            "‘Empowerment’ marketing",
+            "widen gaps",
+            "tools serve goals"
           ]
         },
         {
@@ -1155,215 +1211,227 @@
           "title": "Discharge summaries that nobody reads",
           "paragraphs": [
             "The discharge summary is meant to be a bridge: hospital to community, specialist to GP, one shift’s knowledge to the next team’s responsibility. Too often it is a dense administrative leftover completed under time pressure, stuffed with copied electronic text, and unread by the people who need it most. When summaries fail, medication errors, missed follow-up, and duplicated tests follow. The bridge becomes a bottleneck.",
+            "The stakes are not abstract. Roughly one in five older patients is readmitted within a month of discharge, and reviews consistently find that a substantial share of those returns involve a medicine that was changed in hospital and not understood afterwards, or a follow-up that was intended but never arranged. The document meant to prevent exactly this is frequently the last task of the admission and the first to be rushed.",
             "Part of the failure is timing. If completion is treated as administrative leftovers for exhausted juniors at the end of a shift, quality collapses. Part of the failure is design: problem lists buried under auto-populated results, no clear ‘what to do if’, and no plain-language version for patients. Unreadability is not a minor style issue; it is a safety defect.",
+            "The medicines section shows the failure most clearly. A typical older inpatient leaves with three drugs stopped, two started, and two doses changed, yet the summary often lists the final regimen without stating what changed or why. The community pharmacist then sees a list that contradicts the repeat prescription and must guess whether the hospital intended the difference or overlooked it. Reconciliation errors at this transition are among the most common preventable harms after discharge, and most are traceable to a document that recorded a state rather than a decision.",
+            "Length is often mistaken for thoroughness. Electronic systems make it effortless to import every result, every observation, and every nursing note, producing letters of twelve pages in which the single sentence that matters—‘restart anticoagulation on day five if no bleeding’—is buried on page nine. Recipients do what any reader does with an unreadable text: they skim, they miss, and they stop opening similar letters. The problem is not that hospitals write too little; it is that they write without deciding what the reader needs to do.",
+            "Some organisations have begun to test summaries with their intended readers before rollout. A GP is given a draft and asked, under a stopwatch, to state the diagnosis, the changes to medication, and the actions expected of them. Where they cannot do so in two minutes, the template is redesigned, not the GP. The approach is borrowed from usability testing in software and is unglamorous. It also works.",
             "Incentives matter. Systems that reward bed flow without rewarding communication teach staff to prioritise the exit over the handoff. Some services have tested brief problem-oriented formats and same-day electronic transmission to GPs, with pharmacists reconciling medicines before the letter leaves. These changes help only if someone is accountable for accuracy—not merely for clicking ‘send’.",
             "Patients themselves are frequently excluded from the loop, receiving no plain-language explanation of what changed and what red flags require return. A summary written only for professionals assumes a world in which every GP has time to translate. That world does not exist. Including patients is not a fashionable extra; it is continuity by another name.",
+            "Timing matters as much as content. A letter that arrives ten days after discharge, however well written, has missed the window in which the community pharmacist dispenses the next prescription and the GP fields the first anxious phone call. Same-day electronic transmission is now technically simple, yet many summaries still wait for a consultant signature that adds little except delay. Some departments have separated the two steps: a brief, verified summary of diagnosis, medication changes and actions goes on the day of discharge, and a fuller clinical narrative follows later for the record. Recipients report that the short version is the one they read.",
             "When summaries fail, a vicious cycle begins: community clinicians stop trusting hospital letters, hospital clinicians assume community will ‘work it out’, and patients bounce between settings with fragments of plan. Repairing trust requires consistently useful documents, not occasional excellence. Audit should sample whether a recipient can act on the letter in two minutes—not whether every laboratory synonym was imported.",
-            "A readable summary is a clinical act. It determines whether hospital gains survive the trip home. Departments that treat it as paperwork will keep rediscovering the same readmissions and calling them unexplained. They are not unexplained; they are untransmitted.",
-            "These observations are not arguments against technology, protocols, or urgency; they are arguments against using any of them as a substitute for attention. Attention is finite, so systems must decide what they will notice on purpose. When noticing is left to chance, the same preventable harms recur and are redescribed as misfortune. Training, audit, and leadership are the ordinary tools by which noticing becomes routine rather than heroic.",
-            "These observations are not arguments against technology, protocols, or urgency; they are arguments against using any of them as a substitute for attention. Attention is finite, so systems must decide what they will notice on purpose. When noticing is left to chance, the same preventable harms recur and are redescribed as misfortune. Training, audit, and leadership are the ordinary tools by which noticing becomes routine rather than heroic.",
-            "These observations are not arguments against technology, protocols, or urgency; they are arguments against using any of them as a substitute for attention. Attention is finite, so systems must decide what they will notice on purpose. When noticing is left to chance, the same preventable harms recur and are redescribed as misfortune. Training, audit, and leadership are the ordinary tools by which noticing becomes routine rather than heroic.",
-            "These observations are not arguments against technology, protocols, or urgency; they are arguments against using any of them as a substitute for attention. Attention is finite, so systems must decide what they will notice on purpose. When noticing is left to chance, the same preventable harms recur and are redescribed as misfortune. Training, audit, and leadership are the ordinary tools by which noticing becomes routine rather than heroic.",
-            "These observations are not arguments against technology, protocols, or urgency; they are arguments against using any of them as a substitute for attention. Attention is finite, so systems must decide what they will notice on purpose. When noticing is left to chance, the same preventable harms recur and are redescribed as misfortune. Training, audit, and leadership are the ordinary tools by which noticing becomes routine rather than heroic.",
-            "These observations are not arguments against technology, protocols, or urgency; they are arguments against using any of them as a substitute for attention. Attention is finite, so systems must decide what they will notice on purpose. When noticing is left to chance, the same preventable harms recur and are redescribed as misfortune. Training, audit, and leadership are the ordinary tools by which noticing becomes routine rather than heroic."
+            "A readable summary is a clinical act. It determines whether hospital gains survive the trip home. Departments that treat it as paperwork will keep rediscovering the same readmissions and calling them unexplained. They are not unexplained; they are untransmitted."
           ],
-          "wordCount": 751,
+          "wordCount": 752,
           "questions": [
             {
               "id": 1,
-              "stem": "A discharge summary is meant to be a",
+              "stem": "In paragraph one, the discharge summary is described as a ‘bridge’ because it",
               "options": [
                 {
                   "key": "A",
-                  "text": "billing tool only."
+                  "text": "connects clinicians with administrators."
                 },
                 {
                   "key": "B",
-                  "text": "bridge between settings and teams."
+                  "text": "carries information between settings and teams."
                 },
                 {
                   "key": "C",
-                  "text": "patient entertainment leaflet."
+                  "text": "allows patients to leave hospital sooner."
                 },
                 {
                   "key": "D",
-                  "text": "research paper."
+                  "text": "links hospital records with GP systems."
                 }
               ],
               "answer": "B",
-              "explain": "Bridge."
+              "focus": "meant to be a bridge",
+              "explain": "지문의 ‘meant to be a bridge’ 부분 참조 → carries information between settings and teams."
             },
             {
               "id": 2,
-              "stem": "‘Unreadability’ is called",
+              "stem": "‘Unreadability’ in paragraph three is described as",
               "options": [
                 {
                   "key": "A",
-                  "text": "a style preference."
+                  "text": "an unavoidable feature of electronic records."
                 },
                 {
                   "key": "B",
-                  "text": "a safety defect."
+                  "text": "a threat to patient safety."
                 },
                 {
                   "key": "C",
-                  "text": "proof of thoroughness."
+                  "text": "a problem of style rather than substance."
                 },
                 {
                   "key": "D",
-                  "text": "required by law."
+                  "text": "a consequence of poor training."
                 }
               ],
               "answer": "B",
-              "explain": "Safety defect."
+              "focus": "Unreadability",
+              "explain": "지문의 ‘Unreadability’ 부분 참조 → a threat to patient safety."
             },
             {
               "id": 3,
+              "stem": "According to paragraph four, most medication reconciliation errors after discharge arise because summaries",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "are completed by pharmacists rather than doctors."
+                },
+                {
+                  "key": "B",
+                  "text": "omit the medicines the patient was taking before admission."
+                },
+                {
+                  "key": "C",
+                  "text": "record the final regimen without explaining the changes."
+                },
+                {
+                  "key": "D",
+                  "text": "are sent to the wrong community pharmacy."
+                }
+              ],
+              "answer": "C",
+              "focus": "recorded a state rather than a decision",
+              "explain": "지문의 ‘recorded a state rather than a decision’ 부분 참조 → record the final regimen without explaining the changes."
+            },
+            {
+              "id": 4,
+              "stem": "The writer’s view of long discharge summaries is that they",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "demonstrate the thoroughness of the hospital team."
+                },
+                {
+                  "key": "B",
+                  "text": "are necessary for complex patients."
+                },
+                {
+                  "key": "C",
+                  "text": "are more likely to be read than short ones."
+                },
+                {
+                  "key": "D",
+                  "text": "hide the important information among irrelevant detail."
+                }
+              ],
+              "answer": "D",
+              "focus": "Length is often mistaken for thoroughness",
+              "explain": "지문의 ‘Length is often mistaken for thoroughness’ 부분 참조 → hide the important information among irrelevant detail."
+            },
+            {
+              "id": 5,
+              "stem": "The stopwatch test described in paragraph six leads to",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "changes to the template rather than to the reader."
+                },
+                {
+                  "key": "B",
+                  "text": "fewer letters being sent electronically."
+                },
+                {
+                  "key": "C",
+                  "text": "additional training for GPs."
+                },
+                {
+                  "key": "D",
+                  "text": "shorter hospital admissions."
+                }
+              ],
+              "answer": "A",
+              "focus": "the template is redesigned, not the GP",
+              "explain": "지문의 ‘the template is redesigned, not the GP’ 부분 참조 → changes to the template rather than to the reader."
+            },
+            {
+              "id": 6,
               "stem": "Incentives that reward bed flow without rewarding communication teach staff to",
               "options": [
                 {
                   "key": "A",
-                  "text": "write longer letters."
+                  "text": "value the discharge itself over the handover."
                 },
                 {
                   "key": "B",
-                  "text": "prioritise the exit over the handoff."
+                  "text": "write longer summaries to protect themselves."
                 },
                 {
                   "key": "C",
-                  "text": "call every GP."
+                  "text": "rely on pharmacists for accuracy."
                 },
                 {
                   "key": "D",
-                  "text": "delay discharge forever."
+                  "text": "delay discharge until letters are complete."
                 }
               ],
-              "answer": "B",
-              "explain": "Exit over handoff."
+              "answer": "A",
+              "focus": "prioritise the exit over the handoff",
+              "explain": "지문의 ‘prioritise the exit over the handoff’ 부분 참조 → value the discharge itself over the handover."
             },
             {
-              "id": 4,
-              "stem": "Excluding patients from plain-language explanation harms",
-              "options": [
-                {
-                  "key": "A",
-                  "text": "only hospitality scores."
-                },
-                {
-                  "key": "B",
-                  "text": "continuity."
-                },
-                {
-                  "key": "C",
-                  "text": "theatre utilisation only."
-                },
-                {
-                  "key": "D",
-                  "text": "pharmacy stock."
-                }
-              ],
-              "answer": "B",
-              "explain": "Continuity."
-            },
-            {
-              "id": 5,
+              "id": 7,
               "stem": "A ‘vicious cycle’ begins when",
               "options": [
                 {
                   "key": "A",
-                  "text": "letters are too short."
+                  "text": "patients refuse to attend follow-up."
                 },
                 {
                   "key": "B",
-                  "text": "distrust and fragmented plans reinforce each other across settings."
+                  "text": "pharmacists stop reconciling medicines."
                 },
                 {
                   "key": "C",
-                  "text": "GPs read every letter."
+                  "text": "distrust between settings leaves patients with fragmented plans."
                 },
                 {
                   "key": "D",
-                  "text": "pharmacists reconcile meds."
+                  "text": "hospitals stop sending letters to GPs."
                 }
               ],
-              "answer": "B",
-              "explain": "Distrust cycle."
-            },
-            {
-              "id": 6,
-              "stem": "Audit should test whether a recipient can",
-              "options": [
-                {
-                  "key": "A",
-                  "text": "count imported labs."
-                },
-                {
-                  "key": "B",
-                  "text": "act on the letter in about two minutes."
-                },
-                {
-                  "key": "C",
-                  "text": "ignore follow-up."
-                },
-                {
-                  "key": "D",
-                  "text": "delay opening it."
-                }
-              ],
-              "answer": "B",
-              "explain": "Act in two minutes."
-            },
-            {
-              "id": 7,
-              "stem": "Calling a summary a ‘clinical act’ means",
-              "options": [
-                {
-                  "key": "A",
-                  "text": "it is optional paperwork."
-                },
-                {
-                  "key": "B",
-                  "text": "it determines whether hospital gains survive discharge."
-                },
-                {
-                  "key": "C",
-                  "text": "only consultants may write it."
-                },
-                {
-                  "key": "D",
-                  "text": "it replaces outpatient clinics."
-                }
-              ],
-              "answer": "B",
-              "explain": "Gains survive trip home."
+              "answer": "C",
+              "focus": "vicious cycle",
+              "explain": "지문의 ‘vicious cycle’ 부분 참조 → distrust between settings leaves patients with fragmented plans."
             },
             {
               "id": 8,
-              "stem": "Author’s stance is",
+              "stem": "Calling a readable summary ‘a clinical act’ means the writer sees it as",
               "options": [
                 {
                   "key": "A",
-                  "text": "summaries are hopeless."
+                  "text": "a legal requirement rather than an administrative one."
                 },
                 {
                   "key": "B",
-                  "text": "treat communication quality as core safety work."
+                  "text": "equivalent in importance to a discharge examination."
                 },
                 {
                   "key": "C",
-                  "text": "auto-text is enough."
+                  "text": "a task that only senior clinicians should perform."
                 },
                 {
                   "key": "D",
-                  "text": "patients should never see letters."
+                  "text": "determining whether the benefits of admission persist."
                 }
               ],
-              "answer": "B",
-              "explain": "Communication = safety."
+              "answer": "D",
+              "focus": "clinical act",
+              "explain": "지문의 ‘clinical act’ 부분 참조 → determining whether the benefits of admission persist."
             }
           ],
           "focusPhrases": [
+            "meant to be a bridge",
             "Unreadability",
+            "recorded a state rather than a decision",
+            "Length is often mistaken for thoroughness",
+            "the template is redesigned, not the GP",
+            "prioritise the exit over the handoff",
             "vicious cycle",
             "clinical act"
           ]
@@ -1397,217 +1465,229 @@
           "title": "Vaccine hesitancy is not one problem",
           "paragraphs": [
             "Vaccine hesitancy is often treated as a single cliff: people either trust science or reject it. That framing is politically convenient and clinically false. Hesitancy is a spectrum. At one end are people deferred by logistics—clinics far away, unpaid time off work, opaque booking systems—whose ‘doubt’ is mostly access disguised as attitude. In the middle sit those with questions shaped by prior side effects, conflicting advice, or community stories. At the far end are entrenched ideological refusals that will not move with a leaflet.",
+            "The word ‘hesitancy’ itself is doing a lot of work. It covers the parent who wants a week to think, the shift worker who cannot reach a clinic before it closes, the survivor of a serious adverse reaction, and the online activist who will never attend. Only the last of these is a refusal in any meaningful sense, yet all four are counted in the same figure and addressed by the same leaflet.",
             "Communication that assumes one cause buys one solution. Debunking after a false claim has spread can help some audiences and entrench others. Pre-bunking—preparing people for likely misleading arguments before they appear—shows promise in experimental settings, but health systems still under-invest in it relative to late reactive correction. Humility matters: communities with historical reasons for mistrust are not healed by scolding.",
             "Online ecosystems amplify emotionally vivid stories that outcompete dry risk statistics. A single dramatic anecdote can outweigh a thousand uneventful vaccinations in memory. Clinicians cannot out-shout the internet, but they can become a trusted local interpreter—if appointments allow listening before lecturing. Listening is not agreement; it is how specific fears become answerable.",
+            "The middle of the spectrum is where most movement occurs and where least attention is paid. A parent who accepted every infant vaccine but hesitates over a newer product is not ‘anti-vaccine’; they are weighing an unfamiliar risk against a familiar routine, exactly as clinicians do with a new drug. Treating that hesitation as ideological converts a persuadable person into a defensive one. The most effective single intervention in trials remains a brief, presumptive recommendation from a trusted clinician—‘she is due her vaccine today’—followed by a genuine willingness to hear the questions.",
+            "Historical mistrust is not irrational. Communities that experienced coercive research, dismissive care, or neglect during earlier epidemics read present-day assurances through that history. When a health system asks for trust it has not earned locally, the request itself can feel like the problem. Programmes that recruit messengers from within communities, that return to the same neighbourhoods after the campaign ends, and that admit past failures directly have shifted uptake where glossy national messaging has not.",
+            "Clinicians are themselves a hesitant population in some settings, and staff who decline vaccines rarely do so from ignorance of the evidence. Their reasons—fatigue with mandates, doubt about employer motives, a sense of being lectured—mirror those of the public. Systems that cannot persuade their own workforce without compulsion should be cautious about what that reveals regarding their persuasive capacity outside the hospital.",
             "Pressure tactics can backfire. Mandates may raise coverage in some settings while deepening polarisation in others. The policy question is not whether coercion ever works; it is what trust remains after it is used, and who bears the cost when it fails. Mixed strategies—removing access barriers, training conversational skills, targeted outreach—usually outperform a single dramatic lever.",
             "Health systems also shape hesitancy when they communicate inconsistently, change guidance without explaining why, or appear to hide uncertainty. Adults can tolerate uncertainty if they are treated as moral agents rather than obstacles. What they struggle to tolerate is the sense of being managed. Transparency about evolving evidence is therefore not a public-relations risk only; it is part of the intervention.",
-            "If policy assumes a single cause, it will keep buying a single solution. Precision about which hesitancy one is facing is the beginning of effectiveness—and the end of comforting myths that everyone who delays is simply ‘anti-science’.",
-            "These observations are not arguments against technology, protocols, or urgency; they are arguments against using any of them as a substitute for attention. Attention is finite, so systems must decide what they will notice on purpose. When noticing is left to chance, the same preventable harms recur and are redescribed as misfortune. Training, audit, and leadership are the ordinary tools by which noticing becomes routine rather than heroic.",
-            "These observations are not arguments against technology, protocols, or urgency; they are arguments against using any of them as a substitute for attention. Attention is finite, so systems must decide what they will notice on purpose. When noticing is left to chance, the same preventable harms recur and are redescribed as misfortune. Training, audit, and leadership are the ordinary tools by which noticing becomes routine rather than heroic.",
-            "These observations are not arguments against technology, protocols, or urgency; they are arguments against using any of them as a substitute for attention. Attention is finite, so systems must decide what they will notice on purpose. When noticing is left to chance, the same preventable harms recur and are redescribed as misfortune. Training, audit, and leadership are the ordinary tools by which noticing becomes routine rather than heroic.",
-            "These observations are not arguments against technology, protocols, or urgency; they are arguments against using any of them as a substitute for attention. Attention is finite, so systems must decide what they will notice on purpose. When noticing is left to chance, the same preventable harms recur and are redescribed as misfortune. Training, audit, and leadership are the ordinary tools by which noticing becomes routine rather than heroic.",
-            "These observations are not arguments against technology, protocols, or urgency; they are arguments against using any of them as a substitute for attention. Attention is finite, so systems must decide what they will notice on purpose. When noticing is left to chance, the same preventable harms recur and are redescribed as misfortune. Training, audit, and leadership are the ordinary tools by which noticing becomes routine rather than heroic."
+            "Measurement, too, shapes what is seen. Coverage figures report who received a vaccine, not why others did not, so a programme can hit its target while the unreached groups remain invisible in the summary statistic. Disaggregating uptake by neighbourhood, language, and clinic type routinely reveals that low overall figures are driven by a few identifiable pockets with specific, and often practical, barriers. Once those pockets are named, the intervention that fits them is usually obvious and inexpensive—an evening clinic, an interpreter, a text reminder in the right language—and bears little resemblance to the national messaging campaign that would otherwise have been commissioned.",
+            "If policy assumes a single cause, it will keep buying a single solution. Precision about which hesitancy one is facing is the beginning of effectiveness—and the end of comforting myths that everyone who delays is simply ‘anti-science’."
           ],
-          "wordCount": 703,
+          "wordCount": 754,
           "questions": [
             {
               "id": 1,
-              "stem": "Treating hesitancy as a ‘single cliff’ is criticised because hesitancy is a",
+              "stem": "Treating hesitancy as a ‘single cliff’ is criticised because hesitancy is",
               "options": [
                 {
                   "key": "A",
-                  "text": "law."
+                  "text": "a temporary state that resolves without intervention."
                 },
                 {
                   "key": "B",
-                  "text": "spectrum."
+                  "text": "a range of positions with different causes."
                 },
                 {
                   "key": "C",
-                  "text": "lab test."
+                  "text": "a matter of access rather than attitude."
                 },
                 {
                   "key": "D",
-                  "text": "rare event only."
+                  "text": "concentrated among people with fixed ideological views."
                 }
               ],
               "answer": "B",
-              "explain": "Spectrum."
+              "focus": "single cliff",
+              "explain": "지문의 ‘single cliff’ 부분 참조 → a range of positions with different causes."
             },
             {
               "id": 2,
-              "stem": "Access problems disguised as attitude appear",
+              "stem": "‘Pre-bunking’ in paragraph three refers to",
               "options": [
                 {
                   "key": "A",
-                  "text": "only online."
+                  "text": "removing misleading content from social media."
                 },
                 {
                   "key": "B",
-                  "text": "at one end of the spectrum (logistics barriers)."
+                  "text": "preparing people for misleading claims before they meet them."
                 },
                 {
                   "key": "C",
-                  "text": "only after mandates."
+                  "text": "correcting false claims as soon as they appear online."
                 },
                 {
                   "key": "D",
-                  "text": "never in practice."
+                  "text": "training clinicians to recognise misinformation."
                 }
               ],
               "answer": "B",
-              "explain": "Logistics end."
+              "focus": "Pre-bunking",
+              "explain": "지문의 ‘Pre-bunking’ 부분 참조 → preparing people for misleading claims before they meet them."
             },
             {
               "id": 3,
-              "stem": "‘Pre-bunking’ means",
+              "stem": "In paragraph four, the writer says clinicians can respond to online misinformation by",
               "options": [
                 {
                   "key": "A",
-                  "text": "debunking after viral spread only."
+                  "text": "becoming a trusted local source who listens first."
                 },
                 {
                   "key": "B",
-                  "text": "preparing people for likely misleading arguments before they appear."
+                  "text": "producing more vivid stories of their own."
                 },
                 {
                   "key": "C",
-                  "text": "banning discussion."
+                  "text": "publishing risk statistics more widely."
                 },
                 {
                   "key": "D",
-                  "text": "mandating vaccines silently."
+                  "text": "discouraging patients from using the internet."
                 }
               ],
-              "answer": "B",
-              "explain": "Prepare before exposure."
+              "answer": "A",
+              "focus": "trusted local interpreter",
+              "explain": "지문의 ‘trusted local interpreter’ 부분 참조 → becoming a trusted local source who listens first."
             },
             {
               "id": 4,
-              "stem": "Mandates may raise coverage while also",
+              "stem": "The example of the hesitant parent in paragraph five is used to show that",
               "options": [
                 {
                   "key": "A",
-                  "text": "ending all mistrust."
+                  "text": "presumptive recommendations are rarely effective."
                 },
                 {
                   "key": "B",
-                  "text": "deepening polarisation in some settings."
+                  "text": "infant vaccines are more readily accepted than newer ones."
                 },
                 {
                   "key": "C",
-                  "text": "removing need for clinics."
+                  "text": "labelling hesitation as ideological makes people defensive."
                 },
                 {
                   "key": "D",
-                  "text": "fixing logistics barriers automatically."
+                  "text": "parents weigh risks differently from clinicians."
                 }
               ],
-              "answer": "B",
-              "explain": "Polarisation risk."
+              "answer": "C",
+              "focus": "persuadable person into a defensive one",
+              "explain": "지문의 ‘persuadable person into a defensive one’ 부분 참조 → labelling hesitation as ideological makes people defensive."
             },
             {
               "id": 5,
-              "stem": "Inconsistent communication from health systems can",
+              "stem": "According to paragraph six, communities with historical reasons for mistrust respond best to",
               "options": [
                 {
                   "key": "A",
-                  "text": "only improve trust."
+                  "text": "national campaigns with consistent messaging."
                 },
                 {
                   "key": "B",
-                  "text": "shape hesitancy by seeming to hide uncertainty."
+                  "text": "increased access to clinics in their neighbourhoods."
                 },
                 {
                   "key": "C",
-                  "text": "affect children only."
+                  "text": "messengers from within the community who acknowledge past failures."
                 },
                 {
                   "key": "D",
-                  "text": "replace clinicians."
+                  "text": "assurances that research practices have changed."
                 }
               ],
-              "answer": "B",
-              "explain": "Seeming to hide uncertainty."
+              "answer": "C",
+              "focus": "Historical mistrust is not irrational",
+              "explain": "지문의 ‘Historical mistrust is not irrational’ 부분 참조 → messengers from within the community who acknowledge past failures."
             },
             {
               "id": 6,
-              "stem": "A single dramatic anecdote can outweigh",
+              "stem": "The writer mentions vaccine-hesitant clinicians in order to",
               "options": [
                 {
                   "key": "A",
-                  "text": "no evidence ever."
+                  "text": "question how persuasive health systems can be outside their walls."
                 },
                 {
                   "key": "B",
-                  "text": "thousands of uneventful vaccinations in memory."
+                  "text": "argue that mandates for staff are justified."
                 },
                 {
                   "key": "C",
-                  "text": "all clinical trials legally."
+                  "text": "suggest that staff mistrust employers more than the public does."
                 },
                 {
                   "key": "D",
-                  "text": "access barriers."
+                  "text": "show that evidence alone does not change behaviour."
                 }
               ],
-              "answer": "B",
-              "explain": "Memory bias."
+              "answer": "A",
+              "focus": "themselves a hesitant population",
+              "explain": "지문의 ‘themselves a hesitant population’ 부분 참조 → question how persuasive health systems can be outside their walls."
             },
             {
               "id": 7,
-              "stem": "Precision about which hesitancy one faces is called",
+              "stem": "Mandates are described as potentially",
               "options": [
                 {
                   "key": "A",
-                  "text": "unnecessary."
+                  "text": "the most effective single lever available."
                 },
                 {
                   "key": "B",
-                  "text": "the beginning of effectiveness."
+                  "text": "ineffective in every setting studied."
                 },
                 {
                   "key": "C",
-                  "text": "only a research interest."
+                  "text": "a way of resolving access barriers."
                 },
                 {
                   "key": "D",
-                  "text": "anti-vaccine."
+                  "text": "increasing uptake while damaging trust in some settings."
                 }
               ],
-              "answer": "B",
-              "explain": "Beginning of effectiveness."
+              "answer": "D",
+              "focus": "deepening polarisation",
+              "explain": "지문의 ‘deepening polarisation’ 부분 참조 → increasing uptake while damaging trust in some settings."
             },
             {
               "id": 8,
-              "stem": "Author’s stance is",
+              "stem": "The writer’s overall stance is that effective communication about vaccines must",
               "options": [
                 {
                   "key": "A",
-                  "text": "one-size messaging."
+                  "text": "avoid any use of coercion."
                 },
                 {
                   "key": "B",
-                  "text": "segmented, humble, access-aware communication."
+                  "text": "prioritise correcting misinformation online."
                 },
                 {
                   "key": "C",
-                  "text": "coercion always first."
+                  "text": "rely on consistent national messaging."
                 },
                 {
                   "key": "D",
-                  "text": "ignore online stories."
+                  "text": "be tailored to the specific reason for each person’s hesitancy."
                 }
               ],
-              "answer": "B",
-              "explain": "Segmented & humble."
+              "answer": "D",
+              "focus": "Precision about which hesitancy",
+              "explain": "지문의 ‘Precision about which hesitancy’ 부분 참조 → be tailored to the specific reason for each person’s hesitancy."
             }
           ],
           "focusPhrases": [
             "single cliff",
             "Pre-bunking",
-            "spectrum",
-            "polarisation"
+            "trusted local interpreter",
+            "persuadable person into a defensive one",
+            "Historical mistrust is not irrational",
+            "themselves a hesitant population",
+            "deepening polarisation",
+            "Precision about which hesitancy"
           ]
         },
         {
@@ -1616,17 +1696,16 @@
           "paragraphs": [
             "Climate change is already a clinical issue, not only a future environmental one. Heat extremes worsen heart failure and kidney injury; air pollution exacerbates asthma and ischaemic events; changing vector ranges alter infection patterns; disasters disrupt dialysis, cold chains, and medicine supply. Clinicians who treat these presentations without naming upstream drivers can still give excellent episodic care—and still miss prevention opportunities that belong inside medicine’s house.",
             "‘Climate medicine’ in this sense is not a new specialty brand so much as a habit of connecting clinical findings to environmental exposures and system vulnerabilities. It includes asking about heat exposure in unexplained syncope during a heatwave, adjusting medication counselling when extreme heat raises dehydration risk, and advocating for resilient hospital infrastructure so that care does not collapse when the grid does. Entering the differential diagnosis means climate-related causes are considered alongside familiar ones—not that every illness is blamed on the weather.",
+            "Heat illustrates how a climate exposure becomes a bedside decision. During a heatwave, the patient on a diuretic, an angiotensin-converting enzyme inhibitor, and an anticholinergic antidepressant is at compounded risk of dehydration, hypotension, and confusion. Sensible prescribing does not stop these drugs indefinitely; it anticipates the forecast, agrees a plan for fluid intake and dose adjustment, and tells the patient which symptoms warrant a call. None of this requires new science. It requires that the weather be treated as a clinical variable rather than small talk.",
+            "Air quality offers a second example. Advice to ‘avoid pollution’ is useless to someone who lives beside a major road and works outdoors. Specific counselling—checking a local index before exercise, adjusting inhaler technique and preventer adherence during high-pollution days, timing outdoor activity—can be given in the same breath as smoking-cessation advice and has comparable evidence for being heard. The clinician who cannot change the road can still change how the patient meets it.",
+            "Health systems are also emitters. Estimates place healthcare at four to five per cent of national emissions in many high-income countries, comparable to aviation. Anaesthetic gases such as desflurane, metered-dose inhalers with hydrofluorocarbon propellants, and the sheer volume of single-use plastics are decisions made by clinicians, not by boards. Where lower-carbon alternatives are clinically equivalent, continuing the old default is a choice with a cost—one currently invisible on the ward but visible in the emergency department a decade later.",
             "Hospital carbon reduction needs clinical leadership as well as estates teams. Anaesthetic gas choices, inhaler propellants, unnecessary travel for follow-up that could be remote, and wasteful single-use defaults are clinical culture as much as procurement. Staff who fear that ‘greening’ means lower quality need evidence that stewardship can align with safety. Where it cannot, patient safety wins; where it can, inertia should not hide behind safety rhetoric.",
             "Fears about politicising medicine are answered by noting that ignoring climate health effects is also a political choice—one that leaves the most exposed patients least protected. Equity is central: those least responsible for emissions often face the greatest clinical risk and the least adaptive capacity. A profession committed to justice cannot treat environmental injury as someone else’s portfolio.",
             "Practical steps are mundane and powerful: heatwave plans for vulnerable lists, medication reviews before predicted extremes, clean-air advice that is specific rather than generic, and hospital continuity plans that assume disruption rather than hope for none. Teaching trainees to notice environmental context is as legitimate as teaching them to notice occupational exposures.",
-            "The final contrast is between medicine as a repair shop for damage already done and medicine as a participant in preventing some of that damage. Both roles are needed. Pretending climate is outside the clinic door will not keep it from arriving by ambulance.",
-            "These observations are not arguments against technology, protocols, or urgency; they are arguments against using any of them as a substitute for attention. Attention is finite, so systems must decide what they will notice on purpose. When noticing is left to chance, the same preventable harms recur and are redescribed as misfortune. Training, audit, and leadership are the ordinary tools by which noticing becomes routine rather than heroic.",
-            "These observations are not arguments against technology, protocols, or urgency; they are arguments against using any of them as a substitute for attention. Attention is finite, so systems must decide what they will notice on purpose. When noticing is left to chance, the same preventable harms recur and are redescribed as misfortune. Training, audit, and leadership are the ordinary tools by which noticing becomes routine rather than heroic.",
-            "These observations are not arguments against technology, protocols, or urgency; they are arguments against using any of them as a substitute for attention. Attention is finite, so systems must decide what they will notice on purpose. When noticing is left to chance, the same preventable harms recur and are redescribed as misfortune. Training, audit, and leadership are the ordinary tools by which noticing becomes routine rather than heroic.",
-            "These observations are not arguments against technology, protocols, or urgency; they are arguments against using any of them as a substitute for attention. Attention is finite, so systems must decide what they will notice on purpose. When noticing is left to chance, the same preventable harms recur and are redescribed as misfortune. Training, audit, and leadership are the ordinary tools by which noticing becomes routine rather than heroic.",
-            "These observations are not arguments against technology, protocols, or urgency; they are arguments against using any of them as a substitute for attention. Attention is finite, so systems must decide what they will notice on purpose. When noticing is left to chance, the same preventable harms recur and are redescribed as misfortune. Training, audit, and leadership are the ordinary tools by which noticing becomes routine rather than heroic."
+            "Training is where the change will either take root or evaporate. Medical curricula already teach occupational and social history because those exposures alter diagnosis and management; environmental exposure belongs in the same section, not in an optional elective. Asking where a patient lives in relation to a road, whether their home has cooling, and what they do when the air-quality index is high takes under a minute and changes advice in a measurable proportion of consultations. Examinations that never test these questions signal that they are decorative; examinations that do will make them routine within a generation of graduates.",
+            "The final contrast is between medicine as a repair shop for damage already done and medicine as a participant in preventing some of that damage. Both roles are needed. Pretending climate is outside the clinic door will not keep it from arriving by ambulance."
           ],
-          "wordCount": 719,
+          "wordCount": 707,
           "questions": [
             {
               "id": 1,
@@ -1634,197 +1713,210 @@
               "options": [
                 {
                   "key": "A",
-                  "text": "only future politics."
+                  "text": "responsible for most infections in hospital."
                 },
                 {
                   "key": "B",
-                  "text": "already a clinical issue with present presentations."
+                  "text": "primarily a concern for public health rather than clinicians."
                 },
                 {
                   "key": "C",
-                  "text": "irrelevant to hospitals."
+                  "text": "already affecting the presentations clinicians see."
                 },
                 {
                   "key": "D",
-                  "text": "solved by clinics alone."
+                  "text": "a problem for future generations of doctors."
                 }
               ],
-              "answer": "B",
-              "explain": "Already clinical."
+              "answer": "C",
+              "focus": "already a clinical issue",
+              "explain": "지문의 ‘already a clinical issue’ 부분 참조 → already affecting the presentations clinicians see."
             },
             {
               "id": 2,
-              "stem": "‘Climate medicine’ in the text includes",
+              "stem": "‘Climate medicine’ in the text is described as",
               "options": [
                 {
                   "key": "A",
-                  "text": "only planting trees."
+                  "text": "a habit of linking findings to environmental causes rather than a new specialty."
                 },
                 {
                   "key": "B",
-                  "text": "connecting findings to exposures/system vulnerabilities and practical counselling."
+                  "text": "a public health activity separate from clinical work."
                 },
                 {
                   "key": "C",
-                  "text": "a mandatory new specialty exam."
+                  "text": "an approach that attributes most illness to the weather."
                 },
                 {
                   "key": "D",
-                  "text": "abandoning biomedical care."
+                  "text": "a specialty that requires additional training and certification."
                 }
               ],
-              "answer": "B",
-              "explain": "Habit of connecting exposures + practical steps."
+              "answer": "A",
+              "focus": "Climate medicine",
+              "explain": "지문의 ‘Climate medicine’ 부분 참조 → a habit of linking findings to environmental causes rather than a new specialty."
             },
             {
               "id": 3,
-              "stem": "‘Entering the differential diagnosis’ means climate-related causes are",
+              "stem": "‘Entering the differential diagnosis’ means that climate-related causes are",
               "options": [
                 {
                   "key": "A",
-                  "text": "the only allowed diagnoses."
+                  "text": "considered alongside the usual explanations."
                 },
                 {
                   "key": "B",
-                  "text": "considered alongside familiar ones."
+                  "text": "listed first when a patient presents during a heatwave."
                 },
                 {
                   "key": "C",
-                  "text": "never documented."
+                  "text": "excluded unless other causes are ruled out."
                 },
                 {
                   "key": "D",
-                  "text": "blamed for every illness."
+                  "text": "documented for public health surveillance."
                 }
               ],
-              "answer": "B",
-              "explain": "Considered alongside familiar causes."
+              "answer": "A",
+              "focus": "Entering the differential diagnosis",
+              "explain": "지문의 ‘Entering the differential diagnosis’ 부분 참조 → considered alongside the usual explanations."
             },
             {
               "id": 4,
-              "stem": "Hospital carbon reduction needs",
+              "stem": "The example of the patient on three medicines during a heatwave illustrates that",
               "options": [
                 {
                   "key": "A",
-                  "text": "estates teams only."
+                  "text": "dehydration is difficult to predict in older patients."
                 },
                 {
                   "key": "B",
-                  "text": "clinical leadership as well as estates."
+                  "text": "forecasts can inform prescribing decisions in advance."
                 },
                 {
                   "key": "C",
-                  "text": "no clinical involvement."
+                  "text": "new evidence is needed before advice can be given."
                 },
                 {
                   "key": "D",
-                  "text": "cancellation of surgery."
+                  "text": "these drugs should be stopped during hot weather."
                 }
               ],
               "answer": "B",
-              "explain": "Clinical leadership + estates."
+              "focus": "clinical variable rather than small talk",
+              "explain": "지문의 ‘clinical variable rather than small talk’ 부분 참조 → forecasts can inform prescribing decisions in advance."
             },
             {
               "id": 5,
-              "stem": "Ignoring climate health effects is described as",
+              "stem": "The writer argues that advice on air pollution should be",
               "options": [
                 {
                   "key": "A",
-                  "text": "scientifically neutral."
+                  "text": "given only to patients with respiratory disease."
                 },
                 {
                   "key": "B",
-                  "text": "also a political choice leaving exposed patients less protected."
+                  "text": "delivered separately from other lifestyle advice."
                 },
                 {
                   "key": "C",
-                  "text": "required by medical ethics."
+                  "text": "directed at planners rather than patients."
                 },
                 {
                   "key": "D",
-                  "text": "only a nursing issue."
+                  "text": "specific to what the patient can actually change."
                 }
               ],
-              "answer": "B",
-              "explain": "Political choice; equity."
+              "answer": "D",
+              "focus": "change how the patient meets it",
+              "explain": "지문의 ‘change how the patient meets it’ 부분 참조 → specific to what the patient can actually change."
             },
             {
               "id": 6,
-              "stem": "Equity is central because those least responsible often",
+              "stem": "In paragraph five, healthcare emissions are compared to aviation in order to",
               "options": [
                 {
                   "key": "A",
-                  "text": "have the most adaptive capacity."
+                  "text": "suggest that emissions are unavoidable."
                 },
                 {
                   "key": "B",
-                  "text": "face great clinical risk and least adaptive capacity."
+                  "text": "argue that hospitals should reduce staff travel."
                 },
                 {
                   "key": "C",
-                  "text": "never attend hospital."
+                  "text": "criticise the use of anaesthetic gases specifically."
                 },
                 {
                   "key": "D",
-                  "text": "set emissions policy alone."
+                  "text": "show the scale of the sector’s contribution."
                 }
               ],
-              "answer": "B",
-              "explain": "Greatest risk, least adaptive capacity."
+              "answer": "D",
+              "focus": "comparable to aviation",
+              "explain": "지문의 ‘comparable to aviation’ 부분 참조 → show the scale of the sector’s contribution."
             },
             {
               "id": 7,
-              "stem": "The final contrast is between repair-shop medicine and medicine as",
+              "stem": "The writer answers fears about ‘politicising medicine’ by pointing out that",
               "options": [
                 {
                   "key": "A",
-                  "text": "a political party."
+                  "text": "most clinicians already support climate action."
                 },
                 {
                   "key": "B",
-                  "text": "a participant in preventing some damage."
+                  "text": "doing nothing is itself a political decision."
                 },
                 {
                   "key": "C",
-                  "text": "an estates contractor."
+                  "text": "medicine has always been political."
                 },
                 {
                   "key": "D",
-                  "text": "a wearable vendor."
+                  "text": "patients expect clinicians to take a position."
                 }
               ],
               "answer": "B",
-              "explain": "Prevention participant."
+              "focus": "politicising medicine",
+              "explain": "지문의 ‘politicising medicine’ 부분 참조 → doing nothing is itself a political decision."
             },
             {
               "id": 8,
-              "stem": "Overall, the writer wants clinicians to",
+              "stem": "The final contrast is between medicine as a ‘repair shop’ and medicine as",
               "options": [
                 {
                   "key": "A",
-                  "text": "ignore climate."
+                  "text": "a political movement."
                 },
                 {
                   "key": "B",
-                  "text": "integrate environmental context into ordinary clinical practice."
+                  "text": "an environmental regulator."
                 },
                 {
                   "key": "C",
-                  "text": "leave all advocacy to politicians only."
+                  "text": "a participant in preventing harm."
                 },
                 {
                   "key": "D",
-                  "text": "stop treating heat illness."
+                  "text": "a provider of emergency care."
                 }
               ],
-              "answer": "B",
-              "explain": "Integrate into practice."
+              "answer": "C",
+              "focus": "repair shop",
+              "explain": "지문의 ‘repair shop’ 부분 참조 → a participant in preventing harm."
             }
           ],
           "focusPhrases": [
+            "already a clinical issue",
             "Climate medicine",
             "Entering the differential diagnosis",
-            "politicising medicine"
+            "clinical variable rather than small talk",
+            "change how the patient meets it",
+            "comparable to aviation",
+            "politicising medicine",
+            "repair shop"
           ]
         }
       ],
