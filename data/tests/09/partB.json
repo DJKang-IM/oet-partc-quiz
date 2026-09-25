@@ -1,0 +1,194 @@
+{
+  "id": "B-09",
+  "part": "B",
+  "setNum": 9,
+  "type": "workplace",
+  "title": "Theatre, consent & surgical safety extracts",
+  "instruction": "Six workplace extracts. Choose A, B or C. Focus phrases highlighted.",
+  "items": [
+    {
+      "id": 1,
+      "extract": "Memo from the Theatre Safety Lead to all perioperative staff:\n\nThe WHO Surgical Safety Checklist is a mandatory patient safety requirement for every surgical procedure performed in this department, regardless of urgency or procedure length. The checklist has three stages: Sign In (before anaesthetic induction), Time Out (before surgical incision), and Sign Out (before the patient leaves the operating room). All three stages must be completed and recorded on the theatre documentation for every case. A completed checklist form must be filed in the patient's notes. No stage may be omitted or deferred because of time pressure or a surgeon's preference. If any stage is skipped, the senior scrub practitioner must document the omission and notify the theatre coordinator immediately. Completion of all three stages is the shared responsibility of the entire operating team, not solely the nursing staff.",
+      "stem": "The memo mainly requires all perioperative staff to",
+      "options": [
+        {
+          "key": "A",
+          "text": "complete only the stages that the operating surgeon considers necessary, omitting Sign Out when theatre time is limited."
+        },
+        {
+          "key": "B",
+          "text": "delegate responsibility for completing all checklist stages to the senior scrub practitioner as the nominated team leader."
+        },
+        {
+          "key": "C",
+          "text": "ensure all three checklist stages are completed and documented in the patient's notes for every surgical case."
+        }
+      ],
+      "answer": "C",
+      "explain": "핵심: 'All three stages must be completed and recorded … for every case' — 전체 세 단계를 빠짐없이 완료하고 기록해야 한다.",
+      "focusPhrases": [
+        "Sign In",
+        "Time Out",
+        "Sign Out"
+      ]
+    },
+    {
+      "id": 2,
+      "extract": "Extract from the Trust consent policy — patients who lack capacity:\n\nWhen a patient aged 16 or over lacks capacity to consent to a procedure, clinical staff must follow the Mental Capacity Act 2005. Capacity should be assessed in relation to the specific decision and at the time the decision needs to be made; it is decision-specific and time-specific. If capacity is lacking, the team must identify who holds a valid Lasting Power of Attorney for health and welfare. Where no valid LPA exists, the clinical team must act in the patient's best interests, consulting family members or carers to understand previously expressed wishes. All decisions must be documented in full, including the views of those consulted and the reasons for the course of action chosen. Emergency procedures may proceed without delay under the principle of necessity, provided the intervention is the least restrictive option available.",
+      "stem": "According to the policy, when a patient lacks capacity,",
+      "options": [
+        {
+          "key": "A",
+          "text": "the clinical team must act in the patient's best interests, consulting relatives and fully documenting the decision."
+        },
+        {
+          "key": "B",
+          "text": "the nearest family member holds legal authority to give or withhold consent on the patient's behalf."
+        },
+        {
+          "key": "C",
+          "text": "the procedure must be postponed until an independent mental capacity advocate has provided a formal recommendation."
+        }
+      ],
+      "answer": "A",
+      "explain": "핵심: 'act in the patient's best interests, consulting family members' and 'all decisions must be documented in full' — 모든 결정은 최선의 이익 원칙에 따라 내리고 완전히 기록해야 한다.",
+      "focusPhrases": [
+        "best interests",
+        "Mental Capacity Act 2005",
+        "Lasting Power of Attorney"
+      ]
+    },
+    {
+      "id": 3,
+      "extract": "Standard Operating Procedure — swab and instrument counts (operating theatres):\n\nSwab and instrument counts must be conducted jointly by the scrub practitioner and the circulating nurse, using a read-aloud verbal confirmation technique. A baseline count must be performed before the procedure begins. A further count is mandatory before wound closure and again after wound closure is complete. If any discrepancy is found, the surgeon must be informed immediately and the wound must not be closed until the discrepancy is resolved, regardless of time pressure. Intraoperative imaging may assist in locating missing items but does not substitute for a full physical recount. The final count must be confirmed as correct by both practitioners, documented on the theatre record, and signed. Unresolved discrepancies must be escalated to the theatre coordinator and recorded as a clinical incident.",
+      "stem": "The SOP requires that",
+      "options": [
+        {
+          "key": "A",
+          "text": "the scrub practitioner conducts all counts independently and reports any discrepancy to the theatre coordinator after wound closure."
+        },
+        {
+          "key": "B",
+          "text": "both the scrub practitioner and the circulating nurse must confirm counts jointly before and after wound closure."
+        },
+        {
+          "key": "C",
+          "text": "a discrepancy in the swab count may be resolved by intraoperative imaging alone if the surgeon confirms the finding."
+        }
+      ],
+      "answer": "B",
+      "explain": "핵심: 'conducted jointly by the scrub practitioner and the circulating nurse' and 'before wound closure and again after wound closure' — 두 팀원이 공동으로 봉합 전후 계수를 확인해야 한다.",
+      "focusPhrases": [
+        "scrub practitioner",
+        "circulating nurse",
+        "before wound closure",
+        "after wound closure"
+      ]
+    },
+    {
+      "id": 4,
+      "extract": "Notice to all surgical teams — site marking requirements:\n\nSurgical site marking is mandatory for all procedures involving laterality, multiple levels, or multiple structures, and for any procedure where there is a realistic risk of wrong-site or wrong-patient surgery. Marking must be performed by the operating surgeon using a permanent skin marker before the patient is transferred to the theatre table. The mark must be placed directly over or adjacent to the intended incision site and must remain visible after skin preparation. Site marking must be completed in the anaesthetic room, before any sedation or general anaesthetic is administered, so that the patient can actively confirm the correct site. Marking by a trainee is acceptable only under the direct supervision of the responsible consultant. Do not use adhesive labels or any ink that may wash off during skin preparation.",
+      "stem": "The notice states that surgical site marking",
+      "options": [
+        {
+          "key": "A",
+          "text": "is required only for procedures with a laterality distinction and may be delegated to the surgical registrar in advance."
+        },
+        {
+          "key": "B",
+          "text": "should be completed on the ward during the pre-operative nursing assessment and confirmed by the anaesthetist on arrival."
+        },
+        {
+          "key": "C",
+          "text": "must be carried out by the operating surgeon in the anaesthetic room, before sedation or general anaesthesia is administered."
+        }
+      ],
+      "answer": "C",
+      "explain": "핵심: 'Marking must be performed by the operating surgeon' and 'completed in the anaesthetic room, before any sedation or general anaesthetic is administered' — 마킹은 집도의가 마취 전처치실에서 직접 시행해야 한다.",
+      "focusPhrases": [
+        "operating surgeon",
+        "anaesthetic room",
+        "before any sedation or general anaesthetic"
+      ]
+    },
+    {
+      "id": 5,
+      "extract": "Day Surgery Unit discharge criteria — guideline for nursing staff:\n\nA patient may be discharged from the Day Surgery Unit only when all of the following clinical criteria are met: the patient is alert and orientated; vital signs have been stable for at least one hour; pain is controlled to a score of 3 or less on a 0–10 numerical scale using oral analgesia; nausea and vomiting are absent or mild; the wound site is clean and dry with no active bleeding; and the patient has passed urine. In addition, a responsible adult must be present to accompany the patient home and remain with them overnight. Discharge may not occur if the patient intends to travel alone or by public transport. The discharging nurse must complete and sign the discharge checklist and provide the patient with written post-operative instructions and emergency contact details.",
+      "stem": "The guideline states that patients may be discharged from the Day Surgery Unit only when",
+      "options": [
+        {
+          "key": "A",
+          "text": "all clinical criteria are met and a responsible adult is present to accompany them home and remain overnight."
+        },
+        {
+          "key": "B",
+          "text": "the consultant surgeon has personally reviewed them and countersigned the discharge checklist before the patient leaves the unit."
+        },
+        {
+          "key": "C",
+          "text": "pain has fully resolved and the patient has tolerated oral fluids without nausea for at least two hours."
+        }
+      ],
+      "answer": "A",
+      "explain": "핵심: 'all of the following clinical criteria are met' and 'a responsible adult must be present to accompany the patient home' — 임상 기준 모두 충족 및 보호자 동반이 함께 요구된다.",
+      "focusPhrases": [
+        "clinical criteria",
+        "responsible adult",
+        "accompany the patient home"
+      ]
+    },
+    {
+      "id": 6,
+      "extract": "Post-anaesthetic recovery handover note — Theatre 3, 14:35:\n\nMr Choi, 58 years, ASA II, underwent laparoscopic cholecystectomy under general anaesthesia (propofol/remifentanil/rocuronium, reversed with sugammadex). Procedure time 55 minutes; estimated blood loss <50 mL; no intraoperative complications. Currently in recovery bay 2 since 14:20. SpO₂ 97% on 2 L/min nasal oxygen; HR 78 bpm; BP 126/74 mmHg; temperature 36.6 °C. Pain score 6/10 despite 10 mg morphine IV intraoperatively and 1 g paracetamol IV. Ondansetron 4 mg given for postoperative nausea; no further episodes since 14:28. Anaesthetist Dr Patel contacted at 14:32 regarding ongoing pain management; awaiting review. Physiotherapy referral not indicated. His wife is present in the waiting area. Please do not transfer to the ward until Dr Patel has reviewed and analgesia is satisfactory.",
+      "stem": "The handover note indicates that",
+      "options": [
+        {
+          "key": "A",
+          "text": "the patient's vital signs are unstable and the anaesthetist has already been called to attend as an emergency."
+        },
+        {
+          "key": "B",
+          "text": "the patient's pain is not yet adequately controlled and the anaesthetist has been asked to review him."
+        },
+        {
+          "key": "C",
+          "text": "the anaesthetist has reviewed the patient and updated the analgesia plan, and he is ready for ward transfer."
+        }
+      ],
+      "answer": "B",
+      "explain": "핵심: 'Pain score 6/10 despite … morphine' and 'Anaesthetist Dr Patel contacted … awaiting review' — 통증 조절이 아직 불충분하며 마취과 의사의 검토를 기다리고 있다.",
+      "focusPhrases": [
+        "Pain score 6/10",
+        "Anaesthetist Dr Patel contacted",
+        "awaiting review"
+      ]
+    }
+  ],
+  "gist": [
+    "Part B = what the extract mainly tells staff to do; focus on verbs must / do not / only when.",
+    "Theatre extracts often hinge on who is responsible and under what conditions an exception is permitted.",
+    "In consent questions, note that relatives do not hold automatic authority — the team must act in the patient's best interests."
+  ],
+  "vocab": [
+    {
+      "term": "anaesthetic induction",
+      "gloss": "마취 유도: 전신마취를 시작하는 단계"
+    },
+    {
+      "term": "Lasting Power of Attorney",
+      "gloss": "지속적 위임장: 의사결정 능력 상실에 대비해 대리인을 법적으로 지정하는 문서"
+    },
+    {
+      "term": "scrub practitioner",
+      "gloss": "스크럽 간호사(실무자): 수술 중 무균 상태로 기구를 직접 다루는 수술팀원"
+    },
+    {
+      "term": "laterality",
+      "gloss": "측성: 수술 부위의 좌우 구분"
+    },
+    {
+      "term": "sugammadex",
+      "gloss": "스가마덱스: 로쿠로늄 등 신경근 차단제를 신속히 역전하는 약물"
+    }
+  ]
+}

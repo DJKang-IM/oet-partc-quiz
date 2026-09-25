@@ -1,0 +1,191 @@
+{
+  "id": "B-04",
+  "part": "B",
+  "setNum": 4,
+  "type": "workplace",
+  "title": "Paediatric ward & safeguarding extracts",
+  "instruction": "Six workplace extracts. Choose A, B or C. Focus phrases highlighted.",
+  "items": [
+    {
+      "id": 1,
+      "extract": "Memo from the paediatric pharmacy team to all prescribers:\n\nAll paediatric prescriptions must use an actual body weight recorded on the day of prescribing, not an estimated, age-based, or previously documented weight. Estimated weights derived from formulae (e.g. (age + 4) × 2) are acceptable only during emergency resuscitation when weighing is not possible, and this must be documented clearly with the reason. Once the child is stable, the prescription must be reviewed against the measured weight and adjusted if necessary. For children weighing more than 50 kg, adult doses apply for most drugs; consult the BNFc or ward pharmacist if uncertain. Always calculate the dose in mg/kg, write the total dose in milligrams, and verify it against the maximum adult dose. High-risk medicines — including morphine, gentamicin, and anticonvulsants — require an independent double-check by a second prescriber before administration. Record the weight in kilograms on the drug chart at the time of prescribing.",
+      "stem": "The memo mainly tells staff to",
+      "options": [
+        {
+          "key": "A",
+          "text": "use an age-based formula to estimate weight whenever the child is too unwell to be weighed accurately."
+        },
+        {
+          "key": "B",
+          "text": "ask pharmacy to prescribe all high-alert drugs independently rather than calculating doses on the ward."
+        },
+        {
+          "key": "C",
+          "text": "base all prescriptions on the actual measured weight and check each dose against the maximum adult dose."
+        }
+      ],
+      "answer": "C",
+      "explain": "핵심: base all prescriptions on the actual measured weight and check each dose against the maximum adult dose.",
+      "focusPhrases": [
+        "actual body weight",
+        "recorded on the day",
+        "maximum adult dose"
+      ]
+    },
+    {
+      "id": 2,
+      "extract": "Extract from the Trust safeguarding children policy:\n\nAny member of staff who is concerned that a child may be at risk of significant harm must make a referral to Children's Social Care, or discuss the concern with the named nurse for safeguarding, on the same working day. Do not delay a referral because a parent or carer has withheld consent; parental consent is not required when the referral is made on child protection grounds. Record all concerns in the clinical notes contemporaneously, including the name of the professional consulted and the outcome of that discussion. If a referral is made by telephone, follow it up in writing to Children's Social Care within 48 hours. Concerns about fabricated or induced illness, unexplained bruising in pre-mobile children, or repeated presentations with injuries inconsistent with the history must always be escalated directly to the named consultant for safeguarding, not managed in professional isolation. All conversations with families about referral intentions must be documented.",
+      "stem": "According to the policy, staff who have concerns about a child's safety must",
+      "options": [
+        {
+          "key": "A",
+          "text": "refer to Children's Social Care or consult the named nurse on the same day, even without parental consent."
+        },
+        {
+          "key": "B",
+          "text": "obtain a senior clinician's written agreement before contacting Children's Social Care about any safeguarding concern."
+        },
+        {
+          "key": "C",
+          "text": "delay the referral until a parent or carer has had the opportunity to provide a full explanation."
+        }
+      ],
+      "answer": "A",
+      "explain": "핵심: refer to Children's Social Care or consult the named nurse on the same day, even without parental consent.",
+      "focusPhrases": [
+        "same working day",
+        "parental consent is not required",
+        "child protection grounds"
+      ]
+    },
+    {
+      "id": 3,
+      "extract": "Notice to all nursing and medical staff — paediatric unit:\n\nParents and carers are welcome to remain with their child during all clinical procedures, including venepuncture, cannulation, and lumbar puncture, unless their presence is judged by the clinical team to pose a direct risk to the safe conduct of the procedure. Offering parental presence is now a Trust standard, not an optional courtesy. Staff must offer the option before any procedure begins and document whether the parent or carer chose to stay or leave. Where a parent becomes distressed or physically interferes with the procedure, they may be asked to step outside briefly; this must be explained calmly and the parent invited to return as soon as possible. Children who have attained Fraser competence may make their own decision about whether a parent is present. Compelling a child to accept parental presence against their clearly expressed wishes is a violation of their autonomy and must never occur.",
+      "stem": "The purpose of this notice is to",
+      "options": [
+        {
+          "key": "A",
+          "text": "remind staff that parents must withdraw from the room during all invasive procedures to prevent procedural distress."
+        },
+        {
+          "key": "B",
+          "text": "inform staff that offering parental presence during procedures is a Trust standard rather than a discretionary favour."
+        },
+        {
+          "key": "C",
+          "text": "explain that parents who become upset during a procedure may be permanently excluded from the clinical area."
+        }
+      ],
+      "answer": "B",
+      "explain": "핵심: offering parental presence during procedures is a Trust standard rather than a discretionary favour.",
+      "focusPhrases": [
+        "parental presence",
+        "Trust standard",
+        "not an optional courtesy"
+      ]
+    },
+    {
+      "id": 4,
+      "extract": "Extract from the paediatric intravenous fluid prescribing guideline:\n\nFor maintenance fluid prescribing in children over 28 days and under 18 years, use a 0.9% sodium chloride with 5% glucose preparation unless a specific electrolyte abnormality requires an alternative. Calculate the daily maintenance volume using the Holliday-Segar formula: 100 mL/kg for the first 10 kg, 50 mL/kg for the next 10 kg, and 20 mL/kg for each kilogram thereafter. Do not prescribe hypotonic fluids (sodium concentration below 131 mmol/L) as routine maintenance in hospital, as these carry a recognised risk of iatrogenic hyponatraemia. Reassess fluid balance at least every 12 hours and adjust the rate for clinical changes such as pyrexia, vomiting, or ongoing surgical losses. Any child receiving intravenous fluids for more than 48 hours requires serum electrolytes checked at least twice daily. Fluid boluses for resuscitation are prescribed separately and must not be included in maintenance volume calculations.",
+      "stem": "The guideline states that",
+      "options": [
+        {
+          "key": "A",
+          "text": "hypotonic fluids should be prescribed whenever a child has a documented sodium abnormality on admission."
+        },
+        {
+          "key": "B",
+          "text": "serum electrolytes must be checked daily for all children who are receiving any form of intravenous fluid."
+        },
+        {
+          "key": "C",
+          "text": "maintenance fluids must be isotonic and fluid balance must be formally reassessed at least every 12 hours."
+        }
+      ],
+      "answer": "C",
+      "explain": "핵심: maintenance fluids must be isotonic and fluid balance must be formally reassessed at least every 12 hours.",
+      "focusPhrases": [
+        "hypotonic fluids",
+        "iatrogenic hyponatraemia",
+        "every 12 hours"
+      ]
+    },
+    {
+      "id": 5,
+      "extract": "Standard operating procedure — referral to the hospital play specialist service:\n\nAll children admitted for a planned procedure or with an anticipated inpatient stay of more than 48 hours should be referred to the play specialist service within 24 hours of admission. Referrals must be submitted via the electronic patient record using the 'Therapies Referral' form; verbal-only referrals will not be actioned. Indicate the primary concern on the form — procedural anxiety, needle phobia, developmental regression, or preparation for surgery — as this determines the triage priority of the response. Play specialists provide preparation for anaesthesia, distraction during clinical procedures, and environmental normalisation for long-stay children. Do not wait until the day before a procedure to submit a referral; adequate preparation requires at least two dedicated sessions for most children. The service does not cover unplanned emergency admissions as routine, but out-of-hours support may be requested by the nurse in charge where the child's distress is compromising safe care.",
+      "stem": "The SOP mainly requires staff to",
+      "options": [
+        {
+          "key": "A",
+          "text": "arrange play specialist input verbally through the nurse in charge for all children undergoing planned procedures."
+        },
+        {
+          "key": "B",
+          "text": "refer eligible children via the electronic form within 24 hours of admission, stating the reason for referral."
+        },
+        {
+          "key": "C",
+          "text": "restrict referrals to children with needle phobia who are scheduled for procedures requiring general anaesthesia."
+        }
+      ],
+      "answer": "B",
+      "explain": "핵심: refer eligible children via the electronic form within 24 hours of admission, stating the reason for referral.",
+      "focusPhrases": [
+        "within 24 hours",
+        "electronic patient record",
+        "triage priority"
+      ]
+    },
+    {
+      "id": 6,
+      "extract": "Nursing handover note — paediatric ward, morning shift:\n\nJoshua, 4 years, was admitted overnight with suspected non-accidental injury. The safeguarding team was notified at 22:00; the named nurse and consultant review is scheduled for 09:30 this morning. Joshua is currently comfortable, tolerating oral fluids and breakfast. His mother is present and has been informed that a social worker will attend today; his father has not visited. Do not permit any visitors other than Joshua's named mother unless the nurse in charge has approved the visit in writing following discussion with the safeguarding nurse. The police have been informed of the admission. A multidisciplinary X-ray review meeting is scheduled at 11:00 — both the ward registrar and named safeguarding consultant must attend. Clinical photographs of the injuries have been taken in accordance with the Trust safeguarding photography protocol and uploaded to the medical records system.",
+      "stem": "The note indicates that",
+      "options": [
+        {
+          "key": "A",
+          "text": "visiting access to this child has been restricted and only his named mother is currently permitted."
+        },
+        {
+          "key": "B",
+          "text": "the social worker has already spoken to Joshua's father and agreed a safeguarding plan overnight."
+        },
+        {
+          "key": "C",
+          "text": "the safeguarding team was first contacted this morning following a ward round assessment of the injuries."
+        }
+      ],
+      "answer": "A",
+      "explain": "핵심: visiting access to this child has been restricted and only his named mother is currently permitted.",
+      "focusPhrases": [
+        "Do not permit any visitors",
+        "named mother",
+        "approved the visit in writing"
+      ]
+    }
+  ],
+  "gist": [
+    "Part B = main point or required action of a short workplace text; watch for must / do not / unless / only."
+  ],
+  "vocab": [
+    {
+      "term": "Holliday-Segar formula",
+      "gloss": "소아 유지 수액량 계산법 (체중 기반)"
+    },
+    {
+      "term": "iatrogenic hyponatraemia",
+      "gloss": "의인성 저나트륨혈증: 의료 행위로 인해 발생한 저나트륨혈증"
+    },
+    {
+      "term": "Fraser competence",
+      "gloss": "프레이저 능력: 미성년자가 스스로 의료 동의를 내릴 수 있는 능력"
+    },
+    {
+      "term": "non-accidental injury",
+      "gloss": "비우발적 손상: 아동 학대에 의한 손상"
+    },
+    {
+      "term": "fabricated or induced illness",
+      "gloss": "꾸며내거나 유발된 질병 (대리인에 의한 뮌하우젠 증후군)"
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "id": "A-05",
+  "part": "A",
+  "setNum": 5,
+  "title": "Acute ischaemic stroke: hyperacute pathway",
+  "type": "partA-full",
+  "instruction": "Look at Texts A–D. Questions 1–7: which text? Questions 8–15: word/short phrase from the texts. Questions 16–20: complete the sentence. Spelling matters. Target: 15 minutes.",
+  "texts": [
+    {
+      "label": "A",
+      "heading": "Stroke recognition & time windows",
+      "body": "Community stroke recognition — FAST and ROSIER\n\nFAST alert\n• Face drooping (asymmetric smile or ptosis)\n• Arm weakness (unable to raise one or both arms)\n• Speech difficulties (slurred or absent)\n• Time: call 999 immediately\n\nROSIER score (Recognition of Stroke in the Emergency Room)\nAssign one point each for: asymmetric facial weakness; asymmetric arm weakness; asymmetric leg weakness; speech disturbance; visual field defect. Deduct one point for seizure at onset or loss of consciousness. A score of ≥1 predicts probable stroke.\n\nTime windows\n• Thrombolysis is eligible if onset is ≤4.5 hours ago (or last-known-well time is used if exact onset is unknown)\n• Door-to-needle target: 60 minutes from hospital arrival\n• Non-contrast CT head within 15 minutes of arrival for all hyperacute presentations\n• Approximately 1.9 million neurones are lost per minute during proximal large vessel occlusion — time is brain."
+    },
+    {
+      "label": "B",
+      "heading": "Thrombolysis eligibility & contraindications",
+      "body": "Thrombolysis eligibility — inclusion and exclusion\n\nInclusion criteria\n• Confirmed ischaemic stroke with measurable neurological deficit\n• Symptom onset ≤4.5 hours (or wake-up stroke with DWI–FLAIR mismatch on MRI)\n• Age ≥18; no upper age limit in the absence of severe comorbidity\n\nAbsolute contraindications\n• Prior intracranial haemorrhage at any time\n• Stroke or significant head trauma within the preceding 3 months\n• Major surgery or serious trauma within 14 days\n• Platelet count <100×10⁹/L or INR >1.7\n• DOAC taken within 48 hours unless levels confirmed as sub-therapeutic\n• Uncontrolled hypertension: systolic BP >185 mmHg or diastolic >110 mmHg despite IV antihypertensive\n\nBlood pressure eligibility\nSystolic BP must be ≤185 mmHg and diastolic ≤110 mmHg before treatment commences. If targets cannot be achieved within 30 minutes, thrombolysis should be deferred.\n\nRelative contraindications include pregnancy, recent lumbar puncture, and minor or rapidly improving neurological deficit."
+    },
+    {
+      "label": "C",
+      "heading": "Alteplase & tenecteplase dosing",
+      "body": "Intravenous thrombolysis — drug dosing and monitoring\n\nAlteplase\n• Dose: 0.9 mg/kg IV, maximum total dose 90 mg\n• Administration: give 10% of total dose as IV bolus over 1 minute, then infuse remainder over 60 minutes\n• Do not exceed 90 mg regardless of body weight\n\nTenecteplase\n• Dose: 0.25 mg/kg IV (maximum 25 mg) as a single intravenous bolus\n• Preferred in centres with direct thrombectomy access; avoids prolonged infusion\n\nBlood pressure targets\n• Target BP <180/105 mmHg for 24 hours after alteplase; treat excursions promptly with IV labetalol 10 mg or GTN infusion\n• Check BP every 15 minutes for the first hour, then every 30 minutes for 23 hours\n\nAntiplatelet and anticoagulant hold\nAvoid antiplatelet and anticoagulant therapy for 24 hours post-thrombolysis unless clinically indicated; restart only after review of 24-hour imaging.\n\nContinuous cardiac monitoring and close neurological observation are required for 24 hours after treatment."
+    },
+    {
+      "label": "D",
+      "heading": "Mechanical thrombectomy & post-procedure care",
+      "body": "Mechanical thrombectomy — eligibility and post-procedure care\n\nEligibility criteria\n• Proximal large vessel occlusion (internal carotid artery, M1 segment of MCA, or basilar artery) confirmed on CT angiography\n• NIHSS score ≥6\n• ASPECTS score ≥6 on non-contrast CT, indicating adequate salvageable brain tissue\n• Treatment feasible within 6 hours of onset; extended to 24 hours for patients with favourable perfusion mismatch on CT or MR perfusion imaging\n\nPost-procedure monitoring\n• NIHSS assessment every 30 minutes for the first 2 hours, then hourly until the patient is stable\n• Blood pressure target: <160/90 mmHg after successful reperfusion\n• 24-hour CT or MRI to assess reperfusion and exclude haemorrhagic transformation\n\nRehabilitation and nursing\n• Dysphagia screening and early physiotherapy within 4 hours of admission\n• Aspirin 300 mg once daily from day two unless thrombolysis was administered\n• Nursing staff must document any new neurological deterioration immediately and escalate to the stroke team."
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "type": "whichText",
+      "stem": "the blood pressure threshold required before thrombolysis can be started?",
+      "answer": "B",
+      "accept": ["B"],
+      "explain": "Text B, blood pressure eligibility section.",
+      "options": [
+        {"key": "A", "text": "Text A"},
+        {"key": "B", "text": "Text B"},
+        {"key": "C", "text": "Text C"},
+        {"key": "D", "text": "Text D"}
+      ]
+    },
+    {
+      "id": 2,
+      "type": "whichText",
+      "stem": "an acronym used in the community to recognise acute stroke?",
+      "answer": "A",
+      "accept": ["A"],
+      "explain": "Text A, FAST alert.",
+      "options": [
+        {"key": "A", "text": "Text A"},
+        {"key": "B", "text": "Text B"},
+        {"key": "C", "text": "Text C"},
+        {"key": "D", "text": "Text D"}
+      ]
+    },
+    {
+      "id": 3,
+      "type": "whichText",
+      "stem": "the maximum permitted alteplase dose in milligrams?",
+      "answer": "C",
+      "accept": ["C"],
+      "explain": "Text C, alteplase dosing box.",
+      "options": [
+        {"key": "A", "text": "Text A"},
+        {"key": "B", "text": "Text B"},
+        {"key": "C", "text": "Text C"},
+        {"key": "D", "text": "Text D"}
+      ]
+    },
+    {
+      "id": 4,
+      "type": "whichText",
+      "stem": "the ASPECTS score threshold needed for thrombectomy eligibility?",
+      "answer": "D",
+      "accept": ["D"],
+      "explain": "Text D, eligibility criteria.",
+      "options": [
+        {"key": "A", "text": "Text A"},
+        {"key": "B", "text": "Text B"},
+        {"key": "C", "text": "Text C"},
+        {"key": "D", "text": "Text D"}
+      ]
+    },
+    {
+      "id": 5,
+      "type": "whichText",
+      "stem": "the ROSIER score and when it predicts probable stroke?",
+      "answer": "A",
+      "accept": ["A"],
+      "explain": "Text A, ROSIER score section.",
+      "options": [
+        {"key": "A", "text": "Text A"},
+        {"key": "B", "text": "Text B"},
+        {"key": "C", "text": "Text C"},
+        {"key": "D", "text": "Text D"}
+      ]
+    },
+    {
+      "id": 6,
+      "type": "whichText",
+      "stem": "a DOAC criterion that excludes a patient from receiving thrombolysis?",
+      "answer": "B",
+      "accept": ["B"],
+      "explain": "Text B, absolute contraindications.",
+      "options": [
+        {"key": "A", "text": "Text A"},
+        {"key": "B", "text": "Text B"},
+        {"key": "C", "text": "Text C"},
+        {"key": "D", "text": "Text D"}
+      ]
+    },
+    {
+      "id": 7,
+      "type": "whichText",
+      "stem": "how frequently to assess NIHSS in the hours after thrombectomy?",
+      "answer": "D",
+      "accept": ["D"],
+      "explain": "Text D, post-procedure monitoring.",
+      "options": [
+        {"key": "A", "text": "Text A"},
+        {"key": "B", "text": "Text B"},
+        {"key": "C", "text": "Text C"},
+        {"key": "D", "text": "Text D"}
+      ]
+    },
+    {
+      "id": 8,
+      "type": "shortAnswer",
+      "stem": "What is the ROSIER score threshold above which probable stroke is predicted?",
+      "answer": "≥1",
+      "accept": ["≥1", "1", "≥ 1", "one", "one or above"],
+      "explain": "Text A, ROSIER score section."
+    },
+    {
+      "id": 9,
+      "type": "shortAnswer",
+      "stem": "Within how many minutes of arrival should a non-contrast CT head be performed in hyperacute stroke presentations?",
+      "answer": "15 minutes",
+      "accept": ["15 minutes", "15 mins", "15", "within 15 minutes"],
+      "explain": "Text A, time windows."
+    },
+    {
+      "id": 10,
+      "type": "shortAnswer",
+      "stem": "What is the maximum interval after major surgery within which thrombolysis is absolutely contraindicated?",
+      "answer": "14 days",
+      "accept": ["14 days", "14", "14 d", "within 14 days"],
+      "explain": "Text B, absolute contraindications."
+    },
+    {
+      "id": 11,
+      "type": "shortAnswer",
+      "stem": "What is the maximum systolic blood pressure permitted before thrombolysis treatment commences?",
+      "answer": "185 mmHg",
+      "accept": ["185 mmHg", "185", "≤185 mmHg", "185 mmHg or less"],
+      "explain": "Text B, blood pressure eligibility."
+    },
+    {
+      "id": 12,
+      "type": "shortAnswer",
+      "stem": "What weight-based intravenous dose of alteplase is used in acute ischaemic stroke?",
+      "answer": "0.9 mg/kg",
+      "accept": ["0.9 mg/kg", "0.9mg/kg"],
+      "explain": "Text C, alteplase dosing."
+    },
+    {
+      "id": 13,
+      "type": "shortAnswer",
+      "stem": "What proportion of the total alteplase dose is given as an initial intravenous bolus?",
+      "answer": "10%",
+      "accept": ["10%", "10 percent", "ten percent"],
+      "explain": "Text C, alteplase administration."
+    },
+    {
+      "id": 14,
+      "type": "shortAnswer",
+      "stem": "What is the minimum NIHSS score required for a patient to be considered for mechanical thrombectomy?",
+      "answer": "6",
+      "accept": ["6", "≥6", "NIHSS ≥6", "six"],
+      "explain": "Text D, eligibility criteria."
+    },
+    {
+      "id": 15,
+      "type": "shortAnswer",
+      "stem": "Within how many hours of admission should dysphagia screening and early physiotherapy be initiated?",
+      "answer": "4 hours",
+      "accept": ["4 hours", "4 hrs", "4", "within 4 hours"],
+      "explain": "Text D, rehabilitation and nursing."
+    },
+    {
+      "id": 16,
+      "type": "gapFill",
+      "stem": "The door-to-needle target for thrombolysis is …………………………………… from hospital arrival.",
+      "answer": "60 minutes",
+      "accept": ["60 minutes", "60 mins", "sixty minutes"],
+      "explain": "Text A, time windows."
+    },
+    {
+      "id": 17,
+      "type": "gapFill",
+      "stem": "Antiplatelet and anticoagulant therapy must be avoided for …………………………………… post-thrombolysis unless clinically indicated.",
+      "answer": "24 hours",
+      "accept": ["24 hours", "24 hrs", "twenty-four hours"],
+      "explain": "Text C, antiplatelet and anticoagulant hold."
+    },
+    {
+      "id": 18,
+      "type": "gapFill",
+      "stem": "Tenecteplase is given as a single intravenous bolus at a dose of ……………………………………, with a maximum of 25 mg.",
+      "answer": "0.25 mg/kg",
+      "accept": ["0.25 mg/kg", "0.25mg/kg"],
+      "explain": "Text C, tenecteplase dosing."
+    },
+    {
+      "id": 19,
+      "type": "gapFill",
+      "stem": "The ASPECTS score must be …………………………………… or above on non-contrast CT for a patient to be considered for mechanical thrombectomy.",
+      "answer": "6",
+      "accept": ["6", "≥6", "six"],
+      "explain": "Text D, eligibility criteria."
+    },
+    {
+      "id": 20,
+      "type": "gapFill",
+      "stem": "After thrombectomy, a CT or MRI at 24 hours is used to assess reperfusion and exclude …………………………………….",
+      "answer": "haemorrhagic transformation",
+      "accept": ["haemorrhagic transformation", "hemorrhagic transformation"],
+      "explain": "Text D, post-procedure monitoring."
+    }
+  ],
+  "gist": [
+    "Q1–7 = scan headings and unique clinical markers to identify which text.",
+    "Q8–15 = copy exact words, numbers, and units directly from the texts.",
+    "Q16–20 = complete sentences using short phrases lifted verbatim from the texts."
+  ],
+  "vocab": [
+    {
+      "term": "ROSIER",
+      "gloss": "응급실 뇌졸중 인식 도구 (Recognition of Stroke in the Emergency Room)"
+    },
+    {
+      "term": "haemorrhagic transformation",
+      "gloss": "출혈성 변환: 뇌경색 후 이차 출혈 합병증"
+    },
+    {
+      "term": "ASPECTS",
+      "gloss": "Alberta Stroke Programme Early CT Score: CT상 뇌경색 범위 평가 점수"
+    },
+    {
+      "term": "penumbra",
+      "gloss": "허혈 반음영: 치료 시 회복 가능한 위험 뇌조직"
+    },
+    {
+      "term": "dysphagia",
+      "gloss": "연하장애: 삼킴 곤란"
+    }
+  ],
+  "sharedWhichPrompt": "In which text can you find information about"
+}

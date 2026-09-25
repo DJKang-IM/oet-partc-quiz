@@ -30,9 +30,11 @@ python tools/build.py                # bundles all tests into data/part{A,B,C}.j
 * **Voice:** professional, neutral. Part C texts are *magazine/opinion* pieces by a thoughtful clinician-writer; Part A/B are *workplace documents* (guidelines, memos, policies, handover notes).
 * **Clinical accuracy matters.** Use real drug names, realistic thresholds and units (mmol/L, g/L, mL/kg). Do not invent implausible numbers. If unsure of a number, choose a different detail rather than guessing.
 * **No padding.** Every sentence must be unique across the file. The validator rejects any sentence (≥ 8 words) that appears twice. Do not repeat a "closing" paragraph to reach a word count — write real content.
+* **`gist`:** 1–3 one-line takeaways or exam tips for the set (the scaffold shows one placeholder).
 * **Korean glosses:** `vocab[].gloss` is a short Korean meaning (e.g. `"melaena": "흑색변: 검은 타르 변"`). 3–6 entries per file, chosen from the words a Korean clinician is least likely to know.
-* **Answer distribution is checked:** every letter must be used; no letter three times in a row; no letter more than half the time.
-* **Length bias is checked:** the correct option must **not** be the single longest option in more than half the questions. Write distractors that are as long and as specific as the key. The easiest way: write the key first, then write each distractor to the *same word count ± 2*.
+* **Answer distribution is checked:** every letter must be used; no letter three times in a row; no letter more than half the time (Part B: ≤ 3 of 6; Part C: ≤ 4 of 8 per text and ≤ 6 of 16 overall; Part A Q1–7: ≤ 3 of 7). Easiest: decide the letter sequence first (e.g. `C A B A C B`) and write the key into that slot.
+* **"Verbatim" means a contiguous substring.** A `focus` / `focusPhrases` entry or a Part A answer must appear in the text as an unbroken character sequence (case-insensitive). `"approved in writing"` does **not** match `"approved the visit in writing"`. Copy-paste from the passage; do not paraphrase or drop words.
+* **Length bias is checked:** the correct option must **not** be the single longest option in more than half the questions (Part B: ≤ 3 of 6 is accepted; Part C: ≤ 4 of 8 per text). Aim for 0–2. Write distractors that are as long and as specific as the key. The easiest way: write the key first, then write each distractor to the *same word count ± 2*.
 * **Distractor quality:** each distractor must be *plausible to someone who skimmed the text* — a distortion, an overstatement, a detail from the wrong paragraph, or a common misreading. Never write absurd or joke options ("illegal in ICU", "playing sports"). Never make the key the only sensible-sounding option.
 
 ## 2. Part A — `partA.json`
@@ -48,12 +50,12 @@ python tools/build.py                # bundles all tests into data/part{A,B,C}.j
 | ids | `type` | what it is | rules |
 |---|---|---|---|
 | 1–7 | `whichText` | *"In which text can you find information about …"* + a phrase | `stem` is the phrase ending in `?` (e.g. `"the threshold for restrictive transfusion?"`). `answer` is `"A"`–`"D"`. Every letter used at least once. Do **not** start the sequence with A,B,C,D in order. Each phrase must be findable in exactly one text. |
-| 8–15 | `shortAnswer` | direct question answered with a word/number/short phrase **copied from the texts** | `stem` ends with `?`. `answer` ≤ 3 words and/or a number, exactly as it appears in the text (including units). `accept` lists the answer plus reasonable variants (`"70 g/L"`, `"<70 g/L"`, `"70"`). The answer or a variant **must occur verbatim** in one of the texts. |
+| 8–15 | `shortAnswer` | direct question answered with a word/number/short phrase **copied from the texts** | `stem` ends with `?`. `answer` ≤ 3 words and/or a number, exactly as it appears in the text (including units). Every space-separated token counts, numbers included: `"≥24 hours"` is 2 tokens (OK); `"≥24 hours after the reaction"` is 5 (fails). Keep a leading `<`/`≥` attached to the number as in the text and add the bare variant to `accept`. `accept` lists the answer plus reasonable variants (`"70 g/L"`, `"<70 g/L"`, `"70"`). The answer or a variant **must occur verbatim** in one of the texts. |
 | 16–20 | `gapFill` | sentence with a gap to complete with words from the texts | `stem` contains a visible gap `……………………………………` (or `_____`). Same `answer`/`accept` rules as above. |
 
 Each question object: `{"id", "type", "stem", "answer", "accept", "explain"}`. `explain` says which text and where (e.g. `"Text B, dosing box"`). For `whichText`, `options` and `accept` are optional (build fills them).
 
-Set-level fields: `id` `"A-07"`, `part` `"A"`, `setNum` `7`, `title` (the topic), `type` `"partA-full"`, `instruction`, `sharedWhichPrompt` (`"In which text can you find information about"`), `texts` (4), `questions` (20), `gist` (3 short tips), `vocab` (3–6).
+Set-level fields: `id` `"A-07"`, `part` `"A"`, `setNum` `7`, `title` (the topic), `type` `"partA-full"`, `instruction`, `sharedWhichPrompt` (`"In which text can you find information about"`), `texts` (4), `questions` (20), `gist` (3 short tips), `vocab` (3–6). Set-level `focusPhrases` is optional — the app highlights the Q8–20 answers and quoted stems automatically.
 
 Topics already used: 01 acute upper GI bleeding · 02 neutropenic sepsis · 03 peri-operative anticoagulation bridging.
 
@@ -69,7 +71,7 @@ Topics already used: 01 acute upper GI bleeding · 02 neutropenic sepsis · 03 p
 
 **`focusPhrases`:** 1–4 short phrases copied verbatim from the extract that carry the answer (e.g. `["Visors alone", "not a substitute"]`). They are highlighted for the learner.
 
-Item object: `{"id", "extract", "stem", "options", "answer", "explain", "focusPhrases"}`. Set-level: `id` `"B-07"`, `part` `"B"`, `setNum`, `type` `"workplace"`, `title`, `instruction`, `items` (6), `gist`, `vocab`.
+Item object: `{"id", "extract", "stem", "options", "answer", "explain", "focusPhrases"}` (`wordCount` is filled by build — do not hand-write it). Set-level: `id` `"B-07"`, `part` `"B"`, `setNum`, `type` `"workplace"`, `title`, `instruction`, `items` (6), `gist`, `vocab`.
 
 Topics already used: 01 ward & medicines policy · 02 theatre, IPC & governance.
 
@@ -93,9 +95,10 @@ Every question object **must** include `"focus"`: a phrase copied **verbatim** f
 * `focus` must occur in the text (case-insensitive, exact spelling/punctuation).
 * If the stem says *"paragraph N"* (in words: one…twelve), the `focus` must be in paragraph N.
 * If the stem says *"final paragraph"*, the `focus` must be in the last paragraph; *"paragraph one / opening paragraph"* → first paragraph.
+* For global questions with no paragraph reference (attitude, main argument), `focus` may be anywhere — pick the phrase that best carries the writer's stance (often in the conclusion).
 * 4 options, keys `A`–`D`, answers spread (each letter ≥ 1 per text, none > 6 of 16), key not the single longest option in more than 4 of 8.
 
-Question object: `{"id", "stem", "options", "answer", "focus", "explain"}`. Text object: `{"label": "Text 1", "title", "paragraphs": [...], "questions": [...]}` (`wordCount` and `focusPhrases` are filled by build). Set-level: `id` `"C-07"`, `part` `"C"`, `setNum`, `type` `"dual-text"`, `title` `"Topic 1 & Topic 2"`, `instruction`, `texts` (2), `gist`, `vocab`.
+Question object: `{"id", "stem", "options", "answer", "focus", "explain"}`. Text object: `{"label": "Text 1", "title", "paragraphs": [...], "questions": [...]}`. Do **not** write `wordCount` or `focusPhrases` — `build.py` inserts them (they appear in older example files only because those were rebuilt). Set-level: `id` `"C-07"`, `part` `"C"`, `setNum`, `type` `"dual-text"`, `title` `"Topic 1 & Topic 2"`, `instruction`, `texts` (2), `gist`, `vocab`.
 
 Topics already used: 01 moral distress / nil-by-mouth · 02 shared decision-making / sepsis pathways · 03 wearables / discharge summaries · 04 vaccine hesitancy / climate medicine.
 
@@ -132,7 +135,8 @@ Topics already used: 01 moral distress / nil-by-mouth · 02 shared decision-maki
 - [ ] Part A: 4 texts, 20 questions, ids in order, types by range, every answer for 8–20 copied from a text.
 - [ ] Part B: 6 extracts of 100–170 words, source line + blank line, 3 options each, focus phrases verbatim.
 - [ ] Part C: 2 texts of 700–850 words, 8 questions each with `focus` verbatim, paragraph numbers in stems match where the focus sits.
-- [ ] Answers spread (no all-B), key not always longest, distractors plausible and similar length.
+- [ ] Answers spread (no all-B); letter sequence decided in advance.
+- [ ] For every question, count words per option: the key is the single longest in at most 2–3 questions per set/text. Lengthen a distractor or trim the key where it is not.
 - [ ] No sentence repeated anywhere. No placeholder `TODO` left.
 - [ ] `vocab` 3–6 entries with Korean glosses; `gist` filled.
 - [ ] Ran `python tools/validate.py data/tests/NN/*.json` → every file `PASS`.

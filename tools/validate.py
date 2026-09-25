@@ -179,7 +179,9 @@ def validate_A(s, r):
                 r.err(f"Q{i}: answer missing")
                 continue
             if words(ans) > 4:
-                r.err(f"Q{i}: answer '{ans}' is {words(ans)} words — max 3 words and/or a number")
+                r.err(f"Q{i}: answer '{ans}' is {words(ans)} tokens — max 3 words and/or a number")
+            elif words(ans) == 4:
+                r.warn(f"Q{i}: answer '{ans}' is 4 tokens — OET allows up to 3 words and/or a number; shorten if possible")
             acc = q.get("accept") or []
             if not isinstance(acc, list) or ans not in acc:
                 r.err(f"Q{i}: accept must be a list that includes the exact answer")

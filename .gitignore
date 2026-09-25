@@ -7,3 +7,4 @@ __pycache__/
 _*.py
 _*.txt
 _*.json
+tools/last_validation.txt

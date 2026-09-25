@@ -1,0 +1,192 @@
+{
+  "id": "B-05",
+  "part": "B",
+  "setNum": 5,
+  "type": "workplace",
+  "title": "Maternity & neonatal unit extracts",
+  "instruction": "Six workplace extracts. Choose A, B or C. Focus phrases highlighted.",
+  "items": [
+    {
+      "id": 1,
+      "extract": "Extract from the maternity CTG escalation policy:\n\nAll midwives must document a fresh CTG assessment at the start of every shift and whenever there is a clinical concern. A CTG classified as pathological under the current NICE criteria requires immediate medical review by the registrar or above; do not wait until the end of the current hour block. If the registrar is not immediately available, the bleep must be escalated to the consultant within five minutes. Failure to escalate a pathological CTG is a never event under local policy. Maternal repositioning, IV fluid bolus, and cessation of oxytocin should be initiated simultaneously whilst awaiting the doctor. Document the time of every escalation attempt in the maternity records and on the CTG paper. A suspicious CTG warrants an earlier review than the routine one-hour interval; use clinical judgement to determine the safe monitoring interval, which must be recorded.",
+      "stem": "The policy mainly requires midwives to",
+      "options": [
+        {
+          "key": "A",
+          "text": "escalate a pathological CTG to a registrar without delay and document every step taken."
+        },
+        {
+          "key": "B",
+          "text": "reclassify a suspicious CTG as pathological before requesting any medical review."
+        },
+        {
+          "key": "C",
+          "text": "withhold oxytocin infusions whenever a CTG is classified as suspicious or pathological."
+        }
+      ],
+      "answer": "A",
+      "explain": "핵심: pathological CTG requires immediate medical review; document every escalation attempt.",
+      "focusPhrases": [
+        "pathological",
+        "immediate medical review",
+        "never event"
+      ]
+    },
+    {
+      "id": 2,
+      "extract": "Memo from the labour ward coordinator to all midwifery staff:\n\nFollowing last month's postpartum haemorrhage (PPH) drill, several gaps were identified in the team's preparation. From this week, the PPH emergency box will be checked and signed off at the beginning of every early and late shift. The box must contain: two large-bore IV cannulae, one litre bags of 0.9% saline, cross-match bottles, the PPH drug tray including oxytocin 10 IU IM and ergometrine, and a laminated PPH algorithm. Any items found missing must be replaced before the shift handover is complete. The maternity support worker may restock consumables but a registered midwife must countersign the checklist. Drills will be repeated quarterly; attendance is mandatory for all band 5–7 staff. Please direct questions to the lead midwife, not to the labour ward coordinator.",
+      "stem": "The memo tells staff that",
+      "options": [
+        {
+          "key": "A",
+          "text": "PPH drills replace the need for a signed equipment check at the start of each shift."
+        },
+        {
+          "key": "B",
+          "text": "the emergency box must be checked and signed by a registered midwife at every shift start."
+        },
+        {
+          "key": "C",
+          "text": "a maternity support worker may countersign the checklist if the registered midwife is unavailable."
+        }
+      ],
+      "answer": "B",
+      "explain": "핵심: PPH box must be checked and countersigned by a registered midwife at every shift start.",
+      "focusPhrases": [
+        "checked and signed off",
+        "beginning of every",
+        "registered midwife must countersign"
+      ]
+    },
+    {
+      "id": 3,
+      "extract": "Extract from the neonatal unit hypoglycaemia guideline:\n\nNeonates at risk of hypoglycaemia (infants of diabetic mothers, those born before 37 weeks, birth weight below 2.5 kg or above 4.5 kg, and those with clinical signs) should have a blood glucose checked within 2–4 hours of birth and before feeds thereafter. A blood glucose below 2.0 mmol/L in any neonate requires immediate intervention: feed the infant if able and recheck within 30 minutes. If the repeat value remains below 2.0 mmol/L, or if the infant cannot feed, commence IV dextrose 10% at 60 mL/kg/day and notify the neonatal registrar immediately. Do not delay IV access to attempt a further feed. A value of 2.0–2.5 mmol/L is borderline; increase feeding frequency and recheck within one hour. Values consistently above 2.6 mmol/L in a well term neonate without risk factors do not require further screening.",
+      "stem": "According to the guideline, when a neonate's blood glucose is below 2.0 mmol/L,",
+      "options": [
+        {
+          "key": "A",
+          "text": "staff should attempt two further feeds before starting IV dextrose and contacting the registrar."
+        },
+        {
+          "key": "B",
+          "text": "IV dextrose 10% must be commenced without delay, and oral feeding is contraindicated at that threshold."
+        },
+        {
+          "key": "C",
+          "text": "a feed should be offered and a recheck performed; IV dextrose is started only if the level remains low or feeding is not possible."
+        }
+      ],
+      "answer": "C",
+      "explain": "핵심: feed if able and recheck within 30 minutes; IV dextrose only if repeat remains low or infant cannot feed.",
+      "focusPhrases": [
+        "below 2.0 mmol/L",
+        "feed the infant if able",
+        "recheck within 30 minutes"
+      ]
+    },
+    {
+      "id": 4,
+      "extract": "Notice on the postnatal ward breastfeeding support board:\n\nThe infant feeding team is available Monday to Friday 08:00–18:00 and can be contacted via the ward bleep. Outside these hours, the duty midwife is the first point of contact for breastfeeding concerns. Do not refer mothers directly to the community lactation consultant during the inpatient stay; referrals must go through the infant feeding lead. Mothers who are experiencing nipple pain, poor latch, or concerns about milk supply should be seen before their next scheduled feed, not at the following day's ward round. Skin-to-skin contact and rooming-in are encouraged for all mother-infant pairs unless there is a clinical reason documented in the notes. Supplementary formula in the first 72 hours should only be given after a documented informed-consent discussion and must be recorded in the feeding chart. Partners and support persons are welcome to attend feeding assessments.",
+      "stem": "The notice indicates that",
+      "options": [
+        {
+          "key": "A",
+          "text": "mothers with breastfeeding difficulties should be reviewed before their next feed, not at the ward round."
+        },
+        {
+          "key": "B",
+          "text": "supplementary formula may be given at the mother's request within the first 72 hours without further discussion."
+        },
+        {
+          "key": "C",
+          "text": "mothers may contact the community lactation consultant directly during their inpatient stay."
+        }
+      ],
+      "answer": "A",
+      "explain": "핵심: mothers with concerns should be seen before their next scheduled feed, not at the following day's ward round.",
+      "focusPhrases": [
+        "before their next scheduled feed",
+        "not at the following day's ward round"
+      ]
+    },
+    {
+      "id": 5,
+      "extract": "Extract from the maternity VTE prophylaxis standard operating procedure:\n\nAll women admitted to the maternity unit must have a VTE risk assessment completed within four hours of admission using the approved Trust tool. The assessment must be reviewed and updated following delivery, at 24 hours post-delivery, and at any change in clinical condition. Women with a score of 2 or above are eligible for pharmacological prophylaxis; prescribe low-molecular-weight heparin (LMWH) unless contraindicated. LMWH must not be prescribed within 12 hours of regional anaesthesia insertion or removal. Women who decline prophylaxis must have the risks explained and a declined consent form completed and filed in the maternity records. Antiembolic stockings should be offered to all women where pharmacological prophylaxis is contraindicated or declined. The prescribing midwife must alert the obstetrician if a score of 4 or above is calculated, as individual risk-benefit review is required.",
+      "stem": "The SOP states that",
+      "options": [
+        {
+          "key": "A",
+          "text": "LMWH may be given at any time after a regional anaesthetic block, provided the risk score is 2 or above."
+        },
+        {
+          "key": "B",
+          "text": "a VTE risk score of 4 or above requires the prescribing midwife to alert an obstetrician for further review."
+        },
+        {
+          "key": "C",
+          "text": "antiembolic stockings should be offered as a first-line alternative before pharmacological prophylaxis is considered."
+        }
+      ],
+      "answer": "B",
+      "explain": "핵심: a score of 4 or above requires individual obstetrician risk-benefit review.",
+      "focusPhrases": [
+        "score of 4 or above",
+        "alert the obstetrician",
+        "individual risk-benefit review"
+      ]
+    },
+    {
+      "id": 6,
+      "extract": "Midwifery shift handover note (night to early):\n\nBay 3, Bed 2 — Ms Okonkwo, G2P1, day 1 post lower segment caesarean section. Estimated blood loss at operation 650 mL; two units packed red cells transfused intraoperatively. Haemoglobin at 06:00 this morning is 87 g/L; consultant notified, no further transfusion ordered at present — repeat FBC at 12:00. Wound dressing intact, no ooze, no erythema noted on morning check. Urinary catheter draining clear urine, output 45 mL/h overnight. Patient reports pain score 5/10 on movement; paracetamol and ibuprofen prescribed regularly but she has not received her 06:00 ibuprofen — please ensure this is given. LMWH due at 18:00 tonight; ensure stock is prescribed and available. Baby is with the mother in the room; latching observed at 04:00 feed and appeared adequate. Family visiting this afternoon; partner has been updated by night staff.",
+      "stem": "The handover note requires the early shift to",
+      "options": [
+        {
+          "key": "A",
+          "text": "request an urgent review of the haemoglobin result and arrange further transfusion before the ward round."
+        },
+        {
+          "key": "B",
+          "text": "remove the urinary catheter and arrange a lactation referral for the mother's next feed."
+        },
+        {
+          "key": "C",
+          "text": "administer the overdue ibuprofen dose and ensure the evening LMWH is prescribed and available."
+        }
+      ],
+      "answer": "C",
+      "explain": "핵심: administer overdue ibuprofen; ensure LMWH is prescribed and ready for 18:00.",
+      "focusPhrases": [
+        "has not received her 06:00 ibuprofen",
+        "ensure this is given",
+        "LMWH due at 18:00"
+      ]
+    }
+  ],
+  "gist": [
+    "Part B = purpose of each extract; focus on verbs must/do not/ensure.",
+    "For CTG items, know that 'pathological' requires immediate escalation.",
+    "Check whether options reverse a must/must not or misquote a threshold."
+  ],
+  "vocab": [
+    {
+      "term": "CTG (cardiotocograph)",
+      "gloss": "태아심박수 감시기록"
+    },
+    {
+      "term": "postpartum haemorrhage",
+      "gloss": "산후 출혈"
+    },
+    {
+      "term": "hypoglycaemia",
+      "gloss": "저혈당"
+    },
+    {
+      "term": "LMWH (low-molecular-weight heparin)",
+      "gloss": "저분자량 헤파린: 혈전 예방 주사"
+    },
+    {
+      "term": "VTE (venous thromboembolism)",
+      "gloss": "정맥혈전색전증"
+    }
+  ]
+}

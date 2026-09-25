@@ -1,0 +1,296 @@
+{
+  "id": "C-08",
+  "part": "C",
+  "setNum": 8,
+  "type": "dual-text",
+  "title": "AI in imaging & end-of-life conversations",
+  "instruction": "Official-style Part C: two texts, 8 questions each (16 total). Focus phrases are highlighted in the passages.",
+  "texts": [
+    {
+      "label": "Text 1",
+      "title": "Artificial intelligence in diagnostic imaging: the second reader that never tires",
+      "paragraphs": [
+        "Radiology departments around the world are facing a quiet paradox. Medical imaging volumes have grown by roughly five per cent each year for the past decade, while the number of consultant radiologists has expanded far more slowly. The gap between demand and supply is filled by longer lists, faster reads, and an ever-shrinking margin for the kind of deliberate attention that catches the subtle finding—the 4 mm pulmonary nodule, the hairline vertebral fracture, the shadow that did not quite fit the clinical story. Artificial intelligence has arrived at precisely this moment, promising a tireless second pair of eyes.",
+        "Most current clinical AI tools in imaging rely on convolutional neural networks trained on hundreds of thousands of annotated scans. They learn to associate pixel patterns with diagnostic labels, achieving sensitivity for specific findings—chest radiograph abnormalities, diabetic retinopathy, mammographic microcalcifications—that in controlled trials approaches or occasionally exceeds average radiologist performance. That phrase matters: it names a distribution, not a ceiling. Some expert subspecialists outperform the algorithm on the most difficult cases; others, working at the edge of a neighbouring subspecialty, may not. The algorithm is indifferent to that professional hierarchy.",
+        "The most persuasive case for AI in clinical imaging is not replacement but augmentation. When a chest radiograph algorithm flags a finding for priority review, the radiologist receives an alert, not a verdict. Studies of dual reading—where human and algorithm independently review a scan before results are reconciled—consistently demonstrate higher sensitivity for interval cancers in breast screening programmes. The benefit is not that machines are better; it is that they are consistent. A radiologist who has reviewed four hundred chest films by mid-afternoon will miss something the same clinician would have caught at film fifty, and no algorithm inherits that fatigue.",
+        "Critics argue, with justification, that deployment has outpaced evaluation. Many AI products enter clinical workflows via a regulatory category designed for low-risk devices, a route that requires no randomised controlled trial. The evidence base supporting integration is therefore considerably thinner than the marketing materials suggest. Algorithms trained predominantly on data from North American or European centres may perform less well in populations where disease prevalence, imaging protocols, and scanner generations differ substantially. A product that achieved ninety-two per cent sensitivity on its training set may struggle when it encounters an unfamiliar acquisition protocol. Generalisability remains the uncomfortable question that vendors prefer not to answer in public.",
+        "There is also a subtler hazard: automation bias. When an algorithm returns a negative result, clinicians may scrutinise the film less carefully than they would without algorithmic input. Several simulation studies have demonstrated that radiologists who receive algorithmic reassurance before reading a scan show measurably lower detection rates for findings the algorithm itself missed. The AI's silence becomes louder than the radiologist's gaze. These findings are not grounds for discarding the technology; they are grounds for teaching users about its failure modes as carefully as they are taught about the known limitations of the imaging device itself. Literacy, not merely adoption, is the appropriate goal.",
+        "Workflow integration presents its own practical challenges. Radiologists working with AI-assisted platforms regularly describe alert fatigue when false-positive rates are high, and a creeping paralysis when a sizeable proportion of every worklist is flagged as requiring urgent review. Calibrating threshold values matters: a tool optimised for maximum sensitivity in a cancer-screening programme should not apply the same trigger in a general emergency department, where the prevalence of critical findings differs markedly and the cost of unnecessary escalation is measured in bed pressures and patient anxiety. Threshold tuning belongs to local clinical teams rather than to the algorithm's original developers.",
+        "Governance structures have struggled to keep pace. When an AI algorithm misses a diagnosis, the question of liability is unresolved in most jurisdictions. Does responsibility rest with the clinician who trusted the output, the hospital that procured the platform, or the manufacturer who set its sensitivity threshold? In practice, the clinician bears the residual risk—even when the algorithm was a mandatory component of the reporting workflow. Technology that distributes benefit without distributing accountability is not yet a mature clinical partner, and that structural asymmetry deserves a sharper regulatory response than it has so far received.",
+        "None of this argues for delay. The burden of unread imaging studies, the shortage of radiologists in lower-income settings, and the demonstrated capacity of AI to detect conditions at an earlier and more treatable stage represent a genuine clinical opportunity. The obligation is to pursue that opportunity with the same evidential rigour applied to any other diagnostic test. An algorithm that has never been formally audited is a rumour with a timestamp. Departments that treat AI as they would any new investigation—with governance, prospective audit, and transparent communication about uncertainty—will lead this transition rather than simply be carried by it."
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "stem": "In paragraph one, the writer uses 'a tireless second pair of eyes' in order to",
+          "options": [
+            {"key": "A", "text": "illustrate how AI and radiologists collaborate on the same scan simultaneously."},
+            {"key": "B", "text": "suggest that AI will eventually replace the human radiologist in routine reporting."},
+            {"key": "C", "text": "convey the appeal of AI to departments overwhelmed by rising imaging volumes."},
+            {"key": "D", "text": "explain why AI performs better when trained on data from multiple imaging centres."}
+          ],
+          "answer": "C",
+          "focus": "a tireless second pair of eyes",
+          "explain": "지문의 'a tireless second pair of eyes' 부분 참조 → convey the appeal of AI to departments overwhelmed by rising imaging volumes."
+        },
+        {
+          "id": 2,
+          "stem": "In paragraph two, the writer describes 'average radiologist performance' as a distribution in order to suggest that AI",
+          "options": [
+            {"key": "A", "text": "consistently outperforms even experienced subspecialists on the most challenging diagnostic cases."},
+            {"key": "B", "text": "must be trained using data gathered from radiologists across a wide range of skill levels."},
+            {"key": "C", "text": "achieves a benchmark that is not a fixed standard but varies across individual clinicians."},
+            {"key": "D", "text": "will raise overall departmental performance above the current population mean over time."}
+          ],
+          "answer": "C",
+          "focus": "average radiologist performance",
+          "explain": "지문의 'average radiologist performance' 부분 참조 → achieves a benchmark that is not a fixed standard but varies across individual clinicians."
+        },
+        {
+          "id": 3,
+          "stem": "According to paragraph three, the main advantage of dual reading is that",
+          "options": [
+            {"key": "A", "text": "consistent algorithmic attention compensates for the decline in human performance caused by fatigue."},
+            {"key": "B", "text": "the algorithm reviews scans faster than a second human reader could in a clinical setting."},
+            {"key": "C", "text": "legal responsibility for missed findings is distributed more evenly between clinician and machine."},
+            {"key": "D", "text": "radiologists perform better on difficult cases when they have already seen an algorithmic result."}
+          ],
+          "answer": "A",
+          "focus": "they are consistent",
+          "explain": "지문의 'they are consistent' 부분 참조 → consistent algorithmic attention compensates for the decline in human performance caused by fatigue."
+        },
+        {
+          "id": 4,
+          "stem": "In paragraph four, the critics' primary concern is that",
+          "options": [
+            {"key": "A", "text": "AI manufacturers have not developed separate products for use in lower-income healthcare systems."},
+            {"key": "B", "text": "clinical AI has been introduced without adequate evidence of real-world generalisability and performance."},
+            {"key": "C", "text": "the existing regulatory pathway for imaging AI sets unnecessarily high barriers to product approval."},
+            {"key": "D", "text": "radiologists have been largely excluded from influencing the commercial development of algorithms."}
+          ],
+          "answer": "B",
+          "focus": "deployment has outpaced evaluation",
+          "explain": "지문의 'deployment has outpaced evaluation' 부분 참조 → clinical AI has been introduced without adequate evidence of real-world generalisability and performance."
+        },
+        {
+          "id": 5,
+          "stem": "'Automation bias' in paragraph five refers to",
+          "options": [
+            {"key": "A", "text": "the tendency to accept a negative algorithmic result without independent visual scrutiny."},
+            {"key": "B", "text": "a preference among radiologists for one AI platform over others available on the market."},
+            {"key": "C", "text": "the inclination to report more confidently when no algorithmic input has been provided."},
+            {"key": "D", "text": "the way algorithms improve detection rates when errors are fed back to their developers."}
+          ],
+          "answer": "A",
+          "focus": "automation bias",
+          "explain": "지문의 'automation bias' 부분 참조 → the tendency to accept a negative algorithmic result without independent visual scrutiny."
+        },
+        {
+          "id": 6,
+          "stem": "According to paragraph six, 'alert fatigue' occurs when",
+          "options": [
+            {"key": "A", "text": "radiologists have not received sufficient training on AI-assisted reporting platforms."},
+            {"key": "B", "text": "the AI system produces a high volume of false-positive findings requiring review."},
+            {"key": "C", "text": "the escalation threshold is set too conservatively for emergency department contexts."},
+            {"key": "D", "text": "the AI system flags every scan from a particular high-risk patient demographic."}
+          ],
+          "answer": "B",
+          "focus": "alert fatigue",
+          "explain": "지문의 'alert fatigue' 부분 참조 → the AI system produces a high volume of false-positive findings requiring review."
+        },
+        {
+          "id": 7,
+          "stem": "In paragraph seven, the writer argues that technology that 'distributes benefit without distributing accountability'",
+          "options": [
+            {"key": "A", "text": "reflects a well-calibrated system that fairly shares responsibility across all parties involved."},
+            {"key": "B", "text": "requires hospitals to carry greater liability than manufacturers when AI errors cause patient harm."},
+            {"key": "C", "text": "can be trusted in clinical practice once manufacturers have agreed to set appropriate thresholds."},
+            {"key": "D", "text": "has not yet reached the standard required of a mature tool used in clinical care."}
+          ],
+          "answer": "D",
+          "focus": "distributes benefit without distributing accountability",
+          "explain": "지문의 'distributes benefit without distributing accountability' 부분 참조 → has not yet reached the standard required of a mature tool used in clinical care."
+        },
+        {
+          "id": 8,
+          "stem": "In the final paragraph, the writer compares an unaudited algorithm to 'a rumour with a timestamp' in order to",
+          "options": [
+            {"key": "A", "text": "suggest that AI development should pause until a randomised trial has been completed."},
+            {"key": "B", "text": "warn that outdated algorithms may produce results that are no longer reliable over time."},
+            {"key": "C", "text": "emphasise that an unevaluated algorithm lacks the rigour expected of any diagnostic test."},
+            {"key": "D", "text": "argue that vendors should be required to disclose the dates on which their models were trained."}
+          ],
+          "answer": "C",
+          "focus": "a rumour with a timestamp",
+          "explain": "지문의 'a rumour with a timestamp' 부분 참조 → emphasise that an unevaluated algorithm lacks the rigour expected of any diagnostic test."
+        }
+      ],
+      "focusPhrases": [
+        "a tireless second pair of eyes",
+        "average radiologist performance",
+        "they are consistent",
+        "deployment has outpaced evaluation",
+        "automation bias",
+        "alert fatigue",
+        "distributes benefit without distributing accountability",
+        "a rumour with a timestamp"
+      ]
+    },
+    {
+      "label": "Text 2",
+      "title": "Conversations at the end of life: why we start them too late",
+      "paragraphs": [
+        "Every year, thousands of people in the United Kingdom die following interventions they would not have chosen had anyone asked them in time. The evidence is consistent: population surveys show that most adults prefer to die at home rather than in hospital, yet fewer than one in four achieve that. The gap between stated preference and actual outcome is not primarily a failure of individual clinicians. It is a failure of timing. By the moment a conversation about values and priorities might genuinely alter the care plan, many patients no longer have the capacity to take part.",
+        "Advance care planning exists to bridge that gap. When patients discuss and document their wishes while still able to do so—what constitutes an acceptable quality of life, which interventions they would welcome, which they would refuse—those expressed preferences can guide decisions long after the patient can no longer speak for themselves. Yet these conversations are persistently deferred. Clinicians cite time pressure, diagnostic uncertainty, and concern that raising end-of-life topics will damage a patient's hope. Patients, for their part, often wait for the clinician to open the door, and the door stays closed.",
+        "The belief that discussing dying undermines hope is widespread but poorly evidenced. A landmark randomised trial in patients with metastatic non-small-cell lung cancer found that those who received early integrated palliative care reported better quality of life and improved mood compared with standard-care controls—and survived a median of two months longer. The paradox is striking: patients who spoke more openly about dying lived longer. The most plausible explanation is that earlier conversations enabled earlier alignment of treatment with what patients actually valued, reducing burdensome interventions without reducing attentive care. Hope and honest speech are not opposites.",
+        "Part of the difficulty is structural. End-of-life conversations attract no procedure code, no imaging report, and no prescription. In fee-for-service health systems, the absence of a billable output makes the conversation a cost rather than a product. Even in salaried NHS settings, the problem takes a different form: no dedicated appointment slot means the conversation is displaced by the investigation that happens to fill the scheduled time. A system optimises for what it can measure, and the quality of dying is stubbornly resistant to measurement. The invisible work of listening and planning leaves nothing in the procedural record.",
+        "Training represents an equally large gap. Junior doctors in most programmes spend years learning to interpret imaging and prescribe safely; they spend far fewer hours learning to sit still, listen without offering reassurance, and tolerate the discomfort of a patient who asks plainly how long they have. The required skill is not empathy alone—unstructured empathy can produce distressed clinicians who still cannot run a productive goals-of-care meeting. What is needed is structured communication competency: the ability to ask the right question, to hear what is actually said, and to build a care plan around that answer.",
+        "Cultural resistance is real and should not be dismissed. In many communities, naming death is considered to invite it, and even the most thoughtfully framed enquiry can cause offence to a patient or their family. Professional interpreters may struggle to render the vocabulary of palliative care into languages for which there is no established tradition of such conversation. That barrier is not insurmountable, but crossing it requires time, cultural brokering, and genuine curiosity about the patient's frame of reference rather than adherence to a prepared script. Cultural competence in end-of-life care is not an add-on; it is the consultation itself.",
+        "Practical tools can help clinicians identify where to begin. The Surprise Question—'Would I be surprised if this patient died within the next twelve months?'—has been widely used as a prompt for recognising patients whose needs have gone unmet. A 'no' answer does not prescribe the content of the discussion; it signals that one is overdue. Electronic record alerts linked to diagnostic codes for advanced malignancy, end-stage renal disease, and severe heart failure can prevent these conversations from being silently omitted from routine reviews. The limitation is that a prompt without a skilled and unhurried clinician to act on it becomes simply another unread notification.",
+        "The conversations we postpone do not disappear; they happen later, in worse conditions, with a patient who cannot participate and a family that had no warning. A death that was well prepared for is no easier to endure, but it is far less likely to be a death that multiplies damage—that leaves a family haunted by decisions they were never given the chance to influence, a clinical team unsatisfied by the care it provided, and a health system that deployed its resources along a trajectory nobody had thought to review. Every meaningful conversation started early is a modest act of clinical courage. Making that courage ordinary is the system's most important task."
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "stem": "In paragraph one, 'a failure of timing' refers to",
+          "options": [
+            {"key": "A", "text": "leaving end-of-life discussions until patients are no longer able to take part in them."},
+            {"key": "B", "text": "the inability of hospitals to refer patients to palliative care services promptly enough."},
+            {"key": "C", "text": "a delay in identifying when a patient has lost the capacity to make their own decisions."},
+            {"key": "D", "text": "the failure to document patient preferences before discharge from an acute hospital admission."}
+          ],
+          "answer": "A",
+          "focus": "a failure of timing",
+          "explain": "지문의 'a failure of timing' 부분 참조 → leaving end-of-life discussions until patients are no longer able to take part in them."
+        },
+        {
+          "id": 2,
+          "stem": "According to paragraph two, advance care planning conversations are most often deferred because",
+          "options": [
+            {"key": "A", "text": "patients tend to refuse to discuss preferences until they are approaching the end of their life."},
+            {"key": "B", "text": "clinicians are concerned about time pressure, prognosis uncertainty, and the risk of damaging hope."},
+            {"key": "C", "text": "legal uncertainty exists about the enforceability of advance decisions in most clinical settings."},
+            {"key": "D", "text": "specialist palliative care staff are unavailable to support clinicians during outpatient consultations."}
+          ],
+          "answer": "B",
+          "focus": "Clinicians cite time pressure",
+          "explain": "지문의 'Clinicians cite time pressure' 부분 참조 → clinicians are concerned about time pressure, prognosis uncertainty, and the risk of damaging hope."
+        },
+        {
+          "id": 3,
+          "stem": "'The paradox is striking' in paragraph three because patients who discussed dying openly",
+          "options": [
+            {"key": "A", "text": "reported higher levels of anxiety during treatment than those who received standard care."},
+            {"key": "B", "text": "were more likely to withdraw consent for further active treatment at an early stage."},
+            {"key": "C", "text": "survived longer and reported better quality of life than standard-care controls."},
+            {"key": "D", "text": "placed greater demands on palliative care teams than those who avoided the conversation."}
+          ],
+          "answer": "C",
+          "focus": "The paradox is striking",
+          "explain": "지문의 'The paradox is striking' 부분 참조 → survived longer and reported better quality of life than standard-care controls."
+        },
+        {
+          "id": 4,
+          "stem": "In paragraph four, the writer argues that end-of-life conversations are consistently displaced because",
+          "options": [
+            {"key": "A", "text": "junior doctors lack the training needed to hold productive goals-of-care discussions."},
+            {"key": "B", "text": "health systems prioritise measurable outputs and create no dedicated space for conversations."},
+            {"key": "C", "text": "outpatient clinics are designed for patients too unwell to engage in advance planning discussions."},
+            {"key": "D", "text": "clinicians are reluctant to document a poor prognosis in the patient's formal medical record."}
+          ],
+          "answer": "B",
+          "focus": "no procedure code",
+          "explain": "지문의 'no procedure code' 부분 참조 → health systems prioritise measurable outputs and create no dedicated space for conversations."
+        },
+        {
+          "id": 5,
+          "stem": "In paragraph five, the writer implies that effective end-of-life communication requires",
+          "options": [
+            {"key": "A", "text": "an innate personal empathy that no formal medical training programme is able to adequately teach."},
+            {"key": "B", "text": "years of unsupported bedside exposure to dying patients across a variety of clinical settings."},
+            {"key": "C", "text": "structured competency in asking, hearing, and building a care plan around the patient's answer."},
+            {"key": "D", "text": "close specialist palliative care team involvement in every complex end-of-life discussion held."}
+          ],
+          "answer": "C",
+          "focus": "sit still, listen without offering reassurance",
+          "explain": "지문의 'sit still, listen without offering reassurance' 부분 참조 → structured competency in asking, hearing, and building a care plan around the patient's answer."
+        },
+        {
+          "id": 6,
+          "stem": "The phrase 'Cultural competence in end-of-life care is not an add-on' implies that",
+          "options": [
+            {"key": "A", "text": "cultural factors are less significant than communication skills for most clinical encounters."},
+            {"key": "B", "text": "cultural training should form a discrete module within standard medical school curricula."},
+            {"key": "C", "text": "cultural considerations are secondary to reaching a shared palliative care plan with the patient."},
+            {"key": "D", "text": "understanding the patient's cultural frame of reference is inseparable from the consultation itself."}
+          ],
+          "answer": "D",
+          "focus": "Cultural competence in end-of-life care is not an add-on",
+          "explain": "지문의 'Cultural competence in end-of-life care is not an add-on' 부분 참조 → understanding the patient's cultural frame of reference is inseparable from the consultation itself."
+        },
+        {
+          "id": 7,
+          "stem": "In paragraph seven, the Surprise Question is presented as",
+          "options": [
+            {"key": "A", "text": "a validated prognostic instrument for predicting twelve-month mortality in patients with chronic disease."},
+            {"key": "B", "text": "a simple prompt that identifies patients for whom a planning conversation is overdue."},
+            {"key": "C", "text": "a validated tool that replaces the need for specialist palliative care referral in routine practice."},
+            {"key": "D", "text": "a structured interview framework for guiding the precise content of any end-of-life discussion."}
+          ],
+          "answer": "B",
+          "focus": "Would I be surprised",
+          "explain": "지문의 'Would I be surprised' 부분 참조 → a simple prompt that identifies patients for whom a planning conversation is overdue."
+        },
+        {
+          "id": 8,
+          "stem": "In the final paragraph, the writer argues that early conversations prevent a death that",
+          "options": [
+            {"key": "A", "text": "occurs before the patient has had the chance to reconcile relationships with their family."},
+            {"key": "B", "text": "imposes unreasonable financial and emotional demands on the healthcare system and its staff."},
+            {"key": "C", "text": "leaves the clinical team with no way to explain the decisions made during the final admission."},
+            {"key": "D", "text": "compounds harm across the patient, their family, the clinical team, and the health system."}
+          ],
+          "answer": "D",
+          "focus": "multiplies damage",
+          "explain": "지문의 'multiplies damage' 부분 참조 → compounds harm across the patient, their family, the clinical team, and the health system."
+        }
+      ],
+      "focusPhrases": [
+        "a failure of timing",
+        "Clinicians cite time pressure",
+        "The paradox is striking",
+        "no procedure code",
+        "sit still, listen without offering reassurance",
+        "Cultural competence in end-of-life care is not an add-on",
+        "Would I be surprised",
+        "multiplies damage"
+      ]
+    }
+  ],
+  "gist": [
+    "AI's promise is real but demands the same evidential scrutiny as any diagnostic test.",
+    "End-of-life conversations are most effective—and most often absent—when started early."
+  ],
+  "vocab": [
+    {
+      "term": "convolutional neural network",
+      "gloss": "합성곱 신경망: 이미지 인식에 사용되는 딥러닝 구조"
+    },
+    {
+      "term": "automation bias",
+      "gloss": "자동화 편향: 알고리즘 결과를 과신해 독립적 판단을 소홀히 하는 경향"
+    },
+    {
+      "term": "advance care planning",
+      "gloss": "사전 돌봄 계획: 판단 능력이 있을 때 향후 의료 처치를 미리 결정하는 과정"
+    },
+    {
+      "term": "palliative",
+      "gloss": "완화적: 완치가 아닌 증상 완화 및 삶의 질 향상을 목적으로 하는"
+    },
+    {
+      "term": "generalisability",
+      "gloss": "일반화 가능성: 연구 결과가 다른 집단이나 환경에도 적용될 수 있는 정도"
+    }
+  ]
+}

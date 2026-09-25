@@ -1,0 +1,191 @@
+{
+  "id": "B-08",
+  "part": "B",
+  "setNum": 8,
+  "type": "workplace",
+  "title": "Infection prevention & outbreak management extracts",
+  "instruction": "Six workplace extracts. Choose A, B or C. Focus phrases highlighted.",
+  "items": [
+    {
+      "id": 1,
+      "extract": "Memo from the Infection Prevention and Control team to all ward managers:\n\nTwo or more linked cases of acute vomiting and diarrhoea on the same bay constitute a suspected norovirus outbreak. Close affected bays to new admissions immediately; do not move patients between bays to fill gaps, as this will extend the outbreak. Cohort symptomatic patients and their contacts at bay level. All staff entering a closed area must wear a disposable apron and gloves; hand washing with soap and water is mandatory — alcohol gel alone is insufficient against norovirus. Enhanced cleaning with a chlorine-based solution (1,000 ppm available chlorine) is required at least twice daily and after every episode of vomiting or diarrhoea. Do not close the whole ward unless all bays are affected; partial closures allow unaffected areas to continue receiving patients. Notify IPC within one hour of declaring an outbreak. Only the IPC team can authorise reopening of a closed bay.",
+      "stem": "The memo mainly tells staff to",
+      "options": [
+        {
+          "key": "A",
+          "text": "close the entire ward immediately whenever two or more patients develop acute gastrointestinal symptoms."
+        },
+        {
+          "key": "B",
+          "text": "transfer symptomatic patients to single rooms on another ward until stool specimens confirm norovirus."
+        },
+        {
+          "key": "C",
+          "text": "close affected bays to new admissions and follow enhanced cleaning and contact precaution protocols."
+        }
+      ],
+      "answer": "C",
+      "explain": "핵심: Close affected bays to new admissions; enhanced cleaning and PPE (contact precautions) are required. Closing the whole ward is only if all bays are affected (rules out A); transfer to another ward is not mentioned (rules out B).",
+      "focusPhrases": [
+        "Close affected bays",
+        "new admissions",
+        "Enhanced cleaning"
+      ]
+    },
+    {
+      "id": 2,
+      "extract": "Notice from the IPC nurse to all clinical staff, posted at ward entrances:\n\nMonthly unannounced hand hygiene compliance audits are now under way. Observers will assess all clinical staff against the WHO five moments for hand hygiene: before touching a patient, before a clean or aseptic procedure, after body-fluid exposure risk, after touching a patient, and after touching a patient's surroundings. Compliance below 80% will trigger an immediate debrief and mandatory re-training within five working days. Personal audit results are shared with line managers. Foam hand rub is available at every bed space and the ward entrance; however, when hands are visibly soiled or after contact with a patient with Clostridioides difficile or norovirus, soap and water must be used instead. Do not assume that wearing gloves removes the need for hand hygiene — gloves are not a substitute for the five moments protocol. All bank and agency staff are subject to the same requirements.",
+      "stem": "The notice mainly tells staff to",
+      "options": [
+        {
+          "key": "A",
+          "text": "follow the WHO five moments for hand hygiene or face mandatory re-training if compliance falls below 80%."
+        },
+        {
+          "key": "B",
+          "text": "complete an online hand hygiene refresher module and pass an assessment before the next scheduled audit."
+        },
+        {
+          "key": "C",
+          "text": "use soap and water exclusively for all patient contacts rather than the foam hand rub at the ward entrance."
+        }
+      ],
+      "answer": "A",
+      "explain": "핵심: five moments for hand hygiene; below 80% triggers mandatory re-training. No online module is mentioned (rules out B); soap and water is required only in specific situations, not for all contacts (rules out C).",
+      "focusPhrases": [
+        "five moments for hand hygiene",
+        "below 80%",
+        "mandatory re-training"
+      ]
+    },
+    {
+      "id": 3,
+      "extract": "Extract from the Trust MRSA admission screening policy (version 4):\n\nAll elective surgical patients must be screened for MRSA at the pre-assessment appointment, ideally 10–14 days before admission. A positive swab result requires decolonisation with mupirocin nasal ointment and chlorhexidine body wash for five days; elective surgery should be deferred until a clearance swab is negative. Emergency admissions are screened on arrival at the admitting ward; results are generally available within 24 hours. Patients with a previous MRSA-positive result are not automatically re-screened on every subsequent attendance; refer to IPC for an individual risk assessment if the interval since the last negative screen exceeds 12 months. Ward transfer documentation must record current MRSA status. Known MRSA-positive patients should be placed in a side room wherever possible; if no side room is available, notify IPC to agree a cohort arrangement before the patient is moved.",
+      "stem": "According to the policy,",
+      "options": [
+        {
+          "key": "A",
+          "text": "all patients, including emergency admissions, must be screened for MRSA at least ten days before any procedure."
+        },
+        {
+          "key": "B",
+          "text": "elective surgery must be deferred until decolonisation is complete and a negative clearance swab has been obtained."
+        },
+        {
+          "key": "C",
+          "text": "previously MRSA-positive patients must be placed in a side room and re-screened on every hospital attendance."
+        }
+      ],
+      "answer": "B",
+      "explain": "핵심: elective surgery should be deferred until a clearance swab is negative after decolonisation. The 10–14 days applies only to elective pre-assessment, not emergency admissions (rules out A); automatic re-screening on every attendance is explicitly not required (rules out C).",
+      "focusPhrases": [
+        "elective surgery should be deferred",
+        "clearance swab",
+        "mupirocin"
+      ]
+    },
+    {
+      "id": 4,
+      "extract": "Extract from the Trust needlestick and sharps injury standard operating procedure:\n\nIn the event of a needlestick or sharps injury: immediately encourage the wound to bleed freely by squeezing gently; do not suck the wound. Wash thoroughly under running water with soap for at least 60 seconds; do not scrub with a brush or apply neat bleach to the skin. Cover with a waterproof dressing. Report to Occupational Health (during working hours) or the Emergency Department (outside working hours) without delay; HIV post-exposure prophylaxis must be started within one hour of a high-risk exposure to be most effective and cannot be given beyond 72 hours from exposure. Complete a Datix incident report the same working day. Preserve the source device in a secure sharps container if it is safe to do so; do not resheathe the needle under any circumstances. Inform your line manager. Most sharps injuries do not result in transmission of a bloodborne virus.",
+      "stem": "The procedure requires staff to",
+      "options": [
+        {
+          "key": "A",
+          "text": "complete a Datix incident report within 48 hours and arrange an Occupational Health appointment at the next available slot."
+        },
+        {
+          "key": "B",
+          "text": "apply firm pressure and suck the wound to remove contaminated blood before washing it thoroughly under running water."
+        },
+        {
+          "key": "C",
+          "text": "make the wound bleed, wash it under running water, and seek Occupational Health or Emergency Department review without delay."
+        }
+      ],
+      "answer": "C",
+      "explain": "핵심: encourage the wound to bleed, wash under running water, report without delay. Datix must be filed the same day (not within 48 hours) and OH should be attended immediately (rules out A); sucking the wound is explicitly prohibited (rules out B).",
+      "focusPhrases": [
+        "encourage the wound to bleed",
+        "without delay",
+        "HIV post-exposure prophylaxis"
+      ]
+    },
+    {
+      "id": 5,
+      "extract": "Extract from the Trust isolation priority guideline (Appendix 2):\n\nWhen single-room availability is limited, the decision about which patient to isolate must be based on a risk assessment comparing transmission risk to others (the 'source' risk) against the patient's own vulnerability to infection (the 'sink' risk). A patient with suspected norovirus gastroenteritis and access to shared toilet facilities generally takes priority over an immunocompromised patient unless that patient is neutropenic and there is an active environmental mould risk. Patients with confirmed or suspected Clostridioides difficile, open pulmonary tuberculosis, or carbapenem-resistant organisms must always be escalated to IPC for same-day advice. Where no single room is available, cohorting patients with the same confirmed organism is the preferred alternative; mixing patients with different suspected pathogens in a single cohort bay is not acceptable. Staff must document the risk assessment outcome whenever appropriate isolation cannot be achieved. IPC helpline contact details are inside the back cover of every ward folder.",
+      "stem": "The guideline states that",
+      "options": [
+        {
+          "key": "A",
+          "text": "neutropenic patients must always be given priority over patients with diarrhoea whenever only one room is available."
+        },
+        {
+          "key": "B",
+          "text": "single-room allocation must be guided by a risk assessment of which patient poses the greater transmission risk."
+        },
+        {
+          "key": "C",
+          "text": "IPC must be contacted before any isolation decision is made, regardless of how urgent the clinical situation."
+        }
+      ],
+      "answer": "B",
+      "explain": "핵심: risk assessment comparing transmission risk to others determines priority. Neutropenic patients do not automatically take priority (rules out A); only specific high-risk organisms require same-day IPC escalation, not every decision (rules out C).",
+      "focusPhrases": [
+        "transmission risk to others",
+        "risk assessment",
+        "cohorting"
+      ]
+    },
+    {
+      "id": 6,
+      "extract": "IPC handover note — C. difficile case, Bay 3, Bed 6:\n\nMr Okonkwo (62M) was confirmed CDI-positive this morning following three consecutive type 6–7 Bristol Stool Chart samples and a positive GDH/toxin assay. He has been moved to the single side room at the end of the bay. Oral vancomycin has been started; do not switch to metronidazole unless this has been discussed with microbiology. Side-room isolation must continue until the patient has been diarrhoea-free for at least 48 hours — do not discontinue isolation based on a negative repeat stool specimen alone. Soap and water only for hand hygiene in this room: alcohol gel does not eliminate C. difficile spores. Any ward transfers must be pre-notified to the receiving ward's IPC link nurse. A clinical review is due at 18:00 to reassess stool frequency and fluid balance. The Datix report has been opened; please add any updated clinical information before the night handover.",
+      "stem": "The note indicates that",
+      "options": [
+        {
+          "key": "A",
+          "text": "the patient must stay isolated with soap-and-water hand hygiene until he is diarrhoea-free for at least 48 hours."
+        },
+        {
+          "key": "B",
+          "text": "the antibiotic should be switched from vancomycin to metronidazole once the first 24 hours of treatment have passed."
+        },
+        {
+          "key": "C",
+          "text": "isolation can be discontinued as soon as a repeat stool specimen returns negative for C. difficile toxin."
+        }
+      ],
+      "answer": "A",
+      "explain": "핵심: diarrhoea-free for at least 48 hours before ending isolation; soap and water only. Switching to metronidazole is explicitly prohibited without microbiology discussion (rules out B); ending isolation on a negative specimen alone is explicitly prohibited (rules out C).",
+      "focusPhrases": [
+        "diarrhoea-free for at least 48 hours",
+        "Soap and water only",
+        "alcohol gel does not eliminate"
+      ]
+    }
+  ],
+  "gist": [
+    "Part B = purpose or main requirement of a workplace extract; watch must / do not / unless / until."
+  ],
+  "vocab": [
+    {
+      "term": "decolonisation",
+      "gloss": "탈집락화: 피부·비강의 MRSA 등을 항균제로 제거하는 처치"
+    },
+    {
+      "term": "cohorting",
+      "gloss": "코호팅: 같은 병원체 감염 환자를 한 구역에 모아 격리"
+    },
+    {
+      "term": "post-exposure prophylaxis",
+      "gloss": "노출 후 예방 요법 (PEP): 혈액 노출 후 HIV 등 감염 예방을 위한 약물 투여"
+    },
+    {
+      "term": "carbapenem-resistant organisms",
+      "gloss": "카바페넴 내성 균주 (CRO): 최후 항생제에 내성을 보이는 세균"
+    },
+    {
+      "term": "GDH/toxin assay",
+      "gloss": "C. difficile 글루타메이트 탈수소효소·독소 검사: CDI 확진에 사용"
+    }
+  ]
+}

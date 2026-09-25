@@ -1,0 +1,280 @@
+{
+  "id": "C-05",
+  "part": "C",
+  "setNum": 5,
+  "type": "dual-text",
+  "title": "Antimicrobial resistance & telemedicine",
+  "instruction": "Official-style Part C: two texts, 8 questions each (16 total). Focus phrases are highlighted in the passages.",
+  "texts": [
+    {
+      "label": "Text 1",
+      "title": "Antimicrobial resistance as a shared-commons problem",
+      "paragraphs": [
+        "When Garrett Hardin described the tragedy of the commons in 1968, he was writing about grazing land, not penicillin. Yet the logic transfers with uncomfortable precision. Antibiotic efficacy is a finite shared resource: every course of treatment, whether necessary or not, exerts selective pressure on the microbial world and accelerates the emergence of resistance. Unlike a grazed meadow, which can be fenced and divided, antimicrobial efficacy cannot be privatised or stockpiled. Once it is consumed, the loss belongs to everyone. Framing resistance as a commons problem is not merely academic—it shapes every serious policy response, because no individual clinician, country, or industry sector can preserve it alone.",
+        "The microbiological mechanics are well understood, even if their collective implications are not. When a patient receives an antibiotic, the drug kills susceptible organisms and leaves resistant ones to propagate—not only in that patient but in their household contacts, healthcare workers, and local environment. Resistant strains then circulate, rendering future treatments less reliable. The individual prescription may be entirely justified; the individual prescriber may be exemplary. Yet the aggregate of individually justified decisions can still produce a collective failure. Epidemiologists describe this as a negative externality: the prescriber bears none of the downstream cost borne by the next patient who needs that drug and finds it wanting.",
+        "That gap between individual incentive and collective harm explains why stewardship alone cannot solve the problem. Antimicrobial stewardship programmes have achieved genuine reductions in prescribing within individual hospitals; some have extended their reach into primary care with measurable effect. But stewardship operates within institutions and within national borders. Resistant organisms do not. A well-governed hospital in one country cannot insulate its patients from a gene cassette that has already spread through agricultural supply chains across three continents. Local virtue is necessary but not sufficient. Saying otherwise flatters the steward and reassures no one outside the ward.",
+        "The agricultural dimension is both the largest and the least discussed. Approximately two thirds of global antibiotic consumption occurs outside human medicine, primarily in industrial livestock farming, where drugs are applied in sub-therapeutic doses to promote growth and prevent infection in overcrowded conditions. The organisms and resistance genes that emerge in those settings move rapidly through the food chain, through waterways, and through the hands of agricultural workers into clinical ecosystems. Regulatory progress has been made in some high-income countries, where growth promotion uses have been restricted or banned. Globally, however, the trend lines for agricultural antibiotic consumption remain upward.",
+        "Global inequality complicates the picture in two directions simultaneously. In low- and middle-income countries, under-treatment remains as dangerous as over-treatment: children die from infections that could be cured if the right drug were available and affordable. In those same settings, weak regulation, informal drug markets, and counterfeit antibiotics drive selection pressure far beyond what any stewardship programme can offset. The countries that contribute least to resistance research and carry the least industrial farming are often those bearing the greatest clinical burden of resistant infections. An equity lens is therefore not optional in AMR policy; it is required.",
+        "The pharmaceutical pipeline compounds the problem. Drug development is economically unattractive when the product, once approved, must be used as little as possible and priced to reflect scarcity of use rather than volume of sales. Standard return-on-investment logic does not apply to antibiotics, and the result is a thinning pipeline at the precise moment when clinical need is intensifying. A handful of novel agents have reached the market in recent years, almost all supported by public funding or academic partnerships—'pull' incentives, grants, and market-entry rewards substituting for the profit motive that drives innovation elsewhere. The lesson is that antibiotics cannot be treated as ordinary commodities.",
+        "Meaningful progress requires what national stewardship and hospital committees cannot provide: binding international agreements with enforceable commitments on agricultural use, surveillance, and access. The World Health Organization's Global Action Plan on AMR has existed since 2015; its national action plans vary enormously in ambition and implementation. A shared commons problem demands shared governance—not a rumour with a timestamp but a legal framework with teeth. Countries that have ratified climate agreements know how difficult that is. They also know it is the only mechanism that has ever worked at scale.",
+        "For clinicians, the immediate task is to hold two ideas at once: that the patient in front of them deserves the best available treatment, and that 'the best' is a diminishing asset if it is spent carelessly. Prescribing an antibiotic because the request feels easier than the conversation is a small betrayal of patients not yet born. Teaching that framing is harder than teaching a spectrum chart, but it belongs in every prescribing course, every grand round, and every stewardship presentation. What we call prudent prescribing is, at root, a form of intergenerational justice—and the word 'steward' itself should remind us that we hold these drugs in trust, not in ownership."
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "stem": "In paragraph two, 'negative externality' most nearly means",
+          "options": [
+            {"key": "A", "text": "the worsening side-effects that broad-spectrum drugs inflict on already compromised patients"},
+            {"key": "B", "text": "resistant mutations that accumulate in a patient after repeated courses of the same antibiotic"},
+            {"key": "C", "text": "damage to clinical environments caused by the improper disposal of unused antibiotic supplies"},
+            {"key": "D", "text": "a cost of one person's prescribing borne by future patients who later find that drug ineffective"}
+          ],
+          "answer": "D",
+          "focus": "negative externality",
+          "explain": "지문의 'negative externality' 부분 참조 → 처방 비용이 미래 환자에게 전가됨 → D"
+        },
+        {
+          "id": 2,
+          "stem": "'That gap' in paragraph three most nearly refers to the distance between",
+          "options": [
+            {"key": "A", "text": "what helps the individual patient and what preserves antimicrobial efficacy for future patients"},
+            {"key": "B", "text": "prescribing rates inside hospitals and the volume of antibiotics dispensed in the community"},
+            {"key": "C", "text": "national AMR action plans as stated to international bodies and their actual implementation"},
+            {"key": "D", "text": "countries of origin for resistant organisms and the countries where they cause the most harm"}
+          ],
+          "answer": "A",
+          "focus": "That gap between individual incentive and collective harm",
+          "explain": "지문의 'That gap between individual incentive and collective harm' 부분 참조 → 개인 이익과 집단적 피해 사이의 간극 → A"
+        },
+        {
+          "id": 3,
+          "stem": "The writer cites 'approximately two thirds' in paragraph four to demonstrate that",
+          "options": [
+            {"key": "A", "text": "human medicine has significantly reduced its antibiotic use while farming has expanded"},
+            {"key": "B", "text": "the majority of antibiotic use worldwide takes place outside clinical medicine"},
+            {"key": "C", "text": "high-income countries have already banned the use of antibiotics for growth promotion"},
+            {"key": "D", "text": "resistant organisms reach clinical settings primarily via agricultural workers and the food chain"}
+          ],
+          "answer": "B",
+          "focus": "approximately two thirds of global antibiotic consumption",
+          "explain": "지문의 'approximately two thirds of global antibiotic consumption' 부분 참조 → 전 세계 항생제 사용의 대부분이 비임상 분야에서 발생 → B"
+        },
+        {
+          "id": 4,
+          "stem": "According to paragraph five, the countries bearing the greatest burden of resistant infections tend to be those that",
+          "options": [
+            {"key": "A", "text": "have the highest rates of antibiotic prescribing in both community and hospital settings"},
+            {"key": "B", "text": "have invested least in developing new pharmaceutical agents and vaccination programmes"},
+            {"key": "C", "text": "contribute least to resistance research and have the smallest industrial farming sectors"},
+            {"key": "D", "text": "have the weakest hospital infection-control systems and the fewest trained stewardship pharmacists"}
+          ],
+          "answer": "C",
+          "focus": "greatest clinical burden of resistant infections",
+          "explain": "지문의 'greatest clinical burden of resistant infections' 부분 참조 → 내성 연구에 가장 적게 기여하는 나라들 → C"
+        },
+        {
+          "id": 5,
+          "stem": "In paragraph six, 'antibiotics cannot be treated as ordinary commodities' means that they",
+          "options": [
+            {"key": "A", "text": "are more expensive to manufacture than other prescription medicines due to complex synthesis requirements"},
+            {"key": "B", "text": "should be dispensed only in hospitals rather than through community pharmacies or online services"},
+            {"key": "C", "text": "require more rigorous clinical testing than other drug classes before regulatory approval is granted"},
+            {"key": "D", "text": "need economic models that reward restricted use rather than high sales volumes"}
+          ],
+          "answer": "D",
+          "focus": "antibiotics cannot be treated as ordinary commodities",
+          "explain": "지문의 'antibiotics cannot be treated as ordinary commodities' 부분 참조 → 제한적 사용에 보상하는 경제 모델 필요 → D"
+        },
+        {
+          "id": 6,
+          "stem": "'A rumour with a timestamp' in paragraph seven refers to",
+          "options": [
+            {"key": "A", "text": "a published plan that is acknowledged but carries no mechanism for enforcement"},
+            {"key": "B", "text": "resistance data circulated between governments before independent laboratory verification is complete"},
+            {"key": "C", "text": "political pledges made at international health summits that are routinely abandoned within months"},
+            {"key": "D", "text": "misinformation about antibiotic safety that persists on social media despite updated clinical guidance"}
+          ],
+          "answer": "A",
+          "focus": "a rumour with a timestamp",
+          "explain": "지문의 'a rumour with a timestamp' 부분 참조 → 시행 메커니즘 없이 인정만 되는 계획 → A"
+        },
+        {
+          "id": 7,
+          "stem": "In the final paragraph, 'a small betrayal of patients not yet born' implies that prescribing an antibiotic for convenience",
+          "options": [
+            {"key": "A", "text": "breaches the duty of care that a prescriber owes to the patient requesting treatment"},
+            {"key": "B", "text": "depletes a shared resource upon which patients in the future will depend"},
+            {"key": "C", "text": "exposes the prescriber to legal liability if resistance develops and the patient is later harmed"},
+            {"key": "D", "text": "reflects inadequate consultation skills that training programmes should address more explicitly"}
+          ],
+          "answer": "B",
+          "focus": "a small betrayal of patients not yet born",
+          "explain": "지문의 'a small betrayal of patients not yet born' 부분 참조 → 미래 환자들이 의존할 공유 자원 고갈 → B"
+        },
+        {
+          "id": 8,
+          "stem": "The writer's overall position is that tackling AMR effectively requires",
+          "options": [
+            {"key": "A", "text": "expanding hospital and community stewardship globally to reach prescribers in agricultural and clinical settings"},
+            {"key": "B", "text": "compelling pharmaceutical companies by law to invest in antibiotic research as a public duty"},
+            {"key": "C", "text": "binding international agreements, because individual prescribers and nations acting alone are insufficient"},
+            {"key": "D", "text": "restricting agricultural antibiotic use urgently as the single measure with the greatest impact on resistance"}
+          ],
+          "answer": "C",
+          "focus": "shared governance",
+          "explain": "지문의 'shared governance' 부분 참조 → 구속력 있는 국제 협약만이 AMR에 효과적으로 대응 가능 → C"
+        }
+      ]
+    },
+    {
+      "label": "Text 2",
+      "title": "Telemedicine after the pandemic: what stayed and what should not have",
+      "paragraphs": [
+        "When health systems across the world suspended face-to-face consultations in early 2020, telemedicine moved from the margin to the mainstream in a matter of weeks. The shift was not entirely voluntary; it was, rather, a forced experiment conducted on the world's patients without their full informed consent. Some results of that experiment have been genuinely encouraging. Others have persisted beyond their emergency justification and now need to be examined with the same rigour that any clinical intervention would demand. The fact that telemedicine expanded rapidly does not, by itself, make that expansion wise—and the fact that patients and clinicians found it convenient does not settle the question of whether it is safe.",
+        "The scale of the change was striking. In the United Kingdom, the proportion of general practice consultations conducted by telephone or video rose from roughly eleven per cent before March 2020 to over seventy per cent at the height of restrictions. Outpatient departments that had barely trialled video clinics found themselves running hundreds each week. Mental health services, palliative care, and some surgical follow-up adapted with relative ease. What the numbers did not capture was the clinical quality of those consultations or whether the patients who needed a physical examination were correctly identified and redirected.",
+        "Some of what expanded deserves to stay. Patients with well-controlled chronic conditions—diabetes, asthma, hypertension—who have an established relationship with their team can be reviewed meaningfully by video or telephone. The convenience is substantial: no travel, no time off work, no waiting-room anxiety. Rural and geographically remote populations who previously faced multi-hour journeys to specialist outpatients have gained access to consultations they would otherwise have declined. Psychiatric and psychological therapies that rely on verbal interaction have adapted successfully, with some evidence of comparable outcomes to face-to-face care when patients are appropriately selected. These are genuine gains and should be protected.",
+        "The problem begins when convenience becomes the default rather than a deliberate choice. A video screen cannot auscultate a murmur, palpate an abdomen, or detect the pallor of anaemia. A telephone line cannot observe a gait, a tremor, or the subtle thinning of temporal wasting. Physical signs that experienced clinicians read almost automatically in a room can vanish from a pixelated image. The missed finding does not appear in the consultation record as an absence—it simply is not there. Diagnostic errors that arise from remote consultations are correspondingly difficult to attribute, because the decision that no examination was needed was itself never explicitly documented.",
+        "Digital exclusion is the equity problem that enthusiasm for telemedicine tends to obscure. Older patients, those in poverty, those whose first language is not the language of the consultation, and those with sensory or cognitive impairment are systematically disadvantaged by a remote-first model. Broadband provision in deprived urban and rural areas is still uneven. Smartphones are not universal. Video literacy—the ability to navigate a consultation platform, position oneself in frame, and troubleshoot a dropped connection—is unevenly distributed. A health system that defaults to telemedicine without actively supporting patients who cannot access it is not expanding care; it is redirecting it towards those who were already advantaged.",
+        "Regulatory standards were loosened in the emergency in ways that were reasonable at the time and have proved harder to tighten afterwards. Prescribing via telemedicine without a prior physical examination was permitted for categories of drug where such a step would previously have been unthinkable. Some private providers exploited those relaxations to establish models that prioritise throughput over safety—a consultation measurable in minutes, a prescription measurable in seconds, and a clinical relationship that never existed. The pandemic created the opening; commercial logic filled it. Reinstating the relevant standards requires regulators to acknowledge that the initial emergency permission was time-limited, not a policy endorsement.",
+        "What should stay is a set of evidence-based decisions rather than a blanket technology preference. Remote consultations are appropriate for initial triage where the outcome is referral or self-management, for routine review of stable chronic conditions with clear parameters, for results conversations where the finding is unambiguous and the patient has no new symptoms, and for psychological therapies adapted for remote delivery. A framework like that places the clinical question before the medium. What should not have stayed is the assumption that any consultation that can be delivered remotely should be—that remote-first is inherently more efficient, more patient-centred, or safer than examined care.",
+        "The pandemic showed that medicine's logistics are more flexible than its culture imagined. That is a valuable discovery. What it did not show is that the physical consultation is an anachronism—a ritual that persists only because no one had thought to question it. The patients who were harmed by delayed diagnoses during remote-first years are less visible than those who were grateful for a video call, but they are real. Building telemedicine into practice as a deliberate tool, rather than a permanent shortcut, means being willing to name what it cannot do. A camera can follow a face. It cannot follow a hand."
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "stem": "In paragraph one, 'a forced experiment' suggests that telemedicine expanded because",
+          "options": [
+            {"key": "A", "text": "health systems faced an emergency and had little choice despite limited supporting evidence"},
+            {"key": "B", "text": "clinicians were recruited into government-approved telemedicine trials with patients' informed consent obtained remotely"},
+            {"key": "C", "text": "staff who preferred face-to-face practice were mandated by hospital leadership to adopt video appointments"},
+            {"key": "D", "text": "regulators classified remote prescribing as a permanent policy shift rather than a crisis response"}
+          ],
+          "answer": "A",
+          "focus": "forced experiment",
+          "explain": "지문의 'forced experiment' 부분 참조 → 근거보다 긴급 상황이 원격 의료 확대를 이끔 → A"
+        },
+        {
+          "id": 2,
+          "stem": "The figures cited in paragraph two are intended to illustrate",
+          "options": [
+            {"key": "A", "text": "that general practice consultation quality improved substantially once video platforms were routinely available"},
+            {"key": "B", "text": "that mental health services and palliative care adopted video clinics ahead of all other departments"},
+            {"key": "C", "text": "that only a small minority of patients still required face-to-face appointments during restrictions"},
+            {"key": "D", "text": "how rapidly and extensively remote consultations displaced face-to-face care across the health system"}
+          ],
+          "answer": "D",
+          "focus": "over seventy per cent",
+          "explain": "지문의 'over seventy per cent' 부분 참조 → 원격 진료가 얼마나 빠르고 광범위하게 확산되었는지 → D"
+        },
+        {
+          "id": 3,
+          "stem": "The writer mentions 'multi-hour journeys to specialist outpatients' in paragraph three in order to",
+          "options": [
+            {"key": "A", "text": "argue that telemedicine benefits specialist services more than general practice in most contexts"},
+            {"key": "B", "text": "illustrate that telemedicine can bring genuine access improvements for patients in remote locations"},
+            {"key": "C", "text": "contrast the advantages of telemedicine for people outside cities with its particular risks for urban patients"},
+            {"key": "D", "text": "show that video appointments are most effective when an established clinical relationship already exists"}
+          ],
+          "answer": "B",
+          "focus": "multi-hour journeys to specialist outpatients",
+          "explain": "지문의 'multi-hour journeys to specialist outpatients' 부분 참조 → 원격 진료가 접근성을 실질적으로 향상시킬 수 있음 → B"
+        },
+        {
+          "id": 4,
+          "stem": "In paragraph four, the writer uses 'the pallor of anaemia' to show that",
+          "options": [
+            {"key": "A", "text": "some physical findings that clinicians routinely detect in person are invisible through remote media"},
+            {"key": "B", "text": "haematological conditions are the category of diagnosis most commonly missed in video consultations"},
+            {"key": "C", "text": "patient history contributes more to diagnosis than physical examination in the majority of clinical cases"},
+            {"key": "D", "text": "remote consultations are adequate for chronic disease follow-up but not for undifferentiated new presentations"}
+          ],
+          "answer": "A",
+          "focus": "pallor of anaemia",
+          "explain": "지문의 'pallor of anaemia' 부분 참조 → 직접 대면 시 감지되는 신체 소견이 원격에서는 보이지 않을 수 있음 → A"
+        },
+        {
+          "id": 5,
+          "stem": "According to paragraph five, patients most disadvantaged by a remote-first model are those who are",
+          "options": [
+            {"key": "A", "text": "living in rural areas that still lack reliable broadband and cannot attend the surgery in person"},
+            {"key": "B", "text": "managing multiple long-term conditions who rely on continuity of care with a regular clinical team"},
+            {"key": "C", "text": "older, less affluent, or less capable of navigating remote consultation platforms unaided"},
+            {"key": "D", "text": "reluctant to share sensitive personal health information through video appointments for reasons of privacy"}
+          ],
+          "answer": "C",
+          "focus": "Digital exclusion",
+          "explain": "지문의 'Digital exclusion' 부분 참조 → 노인, 빈곤층, 플랫폼 이용이 어려운 환자들이 가장 불리 → C"
+        },
+        {
+          "id": 6,
+          "stem": "'Those relaxations' in paragraph six refers to",
+          "options": [
+            {"key": "A", "text": "rules limiting which professional groups were permitted to conduct remote consultations"},
+            {"key": "B", "text": "requirements for patients to complete and submit a health questionnaire before their remote appointment"},
+            {"key": "C", "text": "caps placed on the total number of telemedicine appointments each practice could offer each week"},
+            {"key": "D", "text": "permissions to prescribe remotely without conducting a prior face-to-face clinical examination"}
+          ],
+          "answer": "D",
+          "focus": "prescribing via telemedicine without a prior physical examination",
+          "explain": "지문의 'prescribing via telemedicine without a prior physical examination' 부분 참조 → 대면 진찰 없이 원격 처방을 허용한 규정 완화 → D"
+        },
+        {
+          "id": 7,
+          "stem": "In paragraph seven, the writer treats 'remote-first' as a flawed assumption because it",
+          "options": [
+            {"key": "A", "text": "has been adopted by commercial providers to justify reducing individual consultation times"},
+            {"key": "B", "text": "places convenience above clinical need in deciding which medium a consultation uses"},
+            {"key": "C", "text": "is appropriate for routine chronic disease review but inappropriate for surgical or complex cases"},
+            {"key": "D", "text": "remains unsupported by randomised evidence across the majority of clinical specialties and contexts"}
+          ],
+          "answer": "B",
+          "focus": "remote-first is inherently more efficient",
+          "explain": "지문의 'remote-first is inherently more efficient' 부분 참조 → 편의성이 임상적 필요를 앞서는 잘못된 가정 → B"
+        },
+        {
+          "id": 8,
+          "stem": "The writer's overall argument is that telemedicine should be",
+          "options": [
+            {"key": "A", "text": "embedded selectively where clinical evidence supports it, not applied as a convenience-driven default"},
+            {"key": "B", "text": "gradually reduced towards pre-pandemic levels until its clinical risks have been more fully quantified"},
+            {"key": "C", "text": "expanded further with sustained investment in digital infrastructure and patient-literacy support programmes"},
+            {"key": "D", "text": "validated through prospective outcome studies before being accepted as equivalent to in-person care"}
+          ],
+          "answer": "A",
+          "focus": "deliberate tool",
+          "explain": "지문의 'deliberate tool' 부분 참조 → 임상 근거가 지지하는 경우에만 선택적으로 활용해야 함 → A"
+        }
+      ]
+    }
+  ],
+  "gist": [
+    "AMR = a commons problem; individual stewardship is necessary but not sufficient—global binding agreements are the only mechanism that works at scale.",
+    "Telemedicine: keep what genuinely improves access and outcomes; question what persisted by convenience rather than clinical evidence."
+  ],
+  "vocab": [
+    {
+      "term": "antimicrobial resistance",
+      "gloss": "항균제 내성: 항생제가 세균에 효과를 잃는 현상"
+    },
+    {
+      "term": "stewardship",
+      "gloss": "항생제 적정 사용 관리: 올바른 사용을 감독하는 활동"
+    },
+    {
+      "term": "negative externality",
+      "gloss": "부정적 외부효과: 행위의 비용이 타인에게 전가됨"
+    },
+    {
+      "term": "telemedicine",
+      "gloss": "원격 의료: 화상·전화를 통한 비대면 진료"
+    },
+    {
+      "term": "digital exclusion",
+      "gloss": "디지털 소외: 디지털 기기·플랫폼 접근이 어려운 취약 계층"
+    },
+    {
+      "term": "counterfeit antibiotics",
+      "gloss": "위조 항생제: 성분이 불량하거나 허위로 제조된 항생제"
+    }
+  ]
+}

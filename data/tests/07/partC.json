@@ -1,0 +1,277 @@
+{
+  "id": "C-07",
+  "part": "C",
+  "setNum": 7,
+  "type": "dual-text",
+  "title": "Opioids in chronic pain & nurse staffing",
+  "instruction": "Official-style Part C: two texts, 8 questions each (16 total). Focus phrases are highlighted in the passages.",
+  "texts": [
+    {
+      "label": "Text 1",
+      "title": "Opioids in chronic non-cancer pain: unlearning a decade of habit",
+      "paragraphs": [
+        "Chronic non-cancer pain is one of medicine's most contested territories, and opioids arrived there carrying the confidence of a specialty that had just solved cancer pain. In the 1990s and early 2000s, prescribing rates climbed steeply on the back of short-term trials, an influential letter suggesting that addiction was rare in patients with a legitimate pain indication, and a pharmaceutical industry that marketed newer formulations as inherently safer than their predecessors. The clinical logic was seductive: if morphine was appropriate for cancer, why not for a herniated disc that hurt as much?",
+        "The term 'pseudoaddiction' captured the spirit of the era. If a patient on long-term opioids appeared to seek drugs, the explanation offered was undertreated pain: prescribe more, not less. Dose escalation was reframed as therapeutic rigour, and pain was designated a fifth vital sign. That framing insulated opioids from ordinary scrutiny for a decade, during which time a cohort of patients acquired physical dependence, cognitive slowing, and an endocrine disruption that rarely featured in the original consent conversation.",
+        "The evidence that reversed the tide arrived slowly, then all at once. Long-term opioid therapy for chronic non-cancer pain does not consistently outperform non-opioid strategies for function or quality of life; several large randomised trials now support that conclusion. At doses exceeding ninety milligrams of oral morphine equivalent per day, opioids produce measurable harm with consistency: hyperalgesia, where the drug amplifies the very sensation it was intended to suppress; respiratory depression during sleep; and hormonal dysregulation that erodes bone density and libido quietly over years.",
+        "Reducing opioids in a patient who has taken them for years is not simply writing a lower dose. Abrupt or aggressive tapering triggers severe withdrawal, exacerbates pain, and in documented cases has been associated with self-harm and suicide. This is the uncomfortable arithmetic of a habit that cannot be undone quickly. Patients who were prescribed opioids in good faith, often by conscientious clinicians working to the guidelines of the day, now find themselves caught between medication that is no longer recommended and a discontinuation process that may take years.",
+        "What replaces opioids is not a single drug but a framework. The biopsychosocial model has accumulated enough trial data to be taken seriously as an operational plan for chronic pain management. Interdisciplinary pain programmes combining graded exercise, psychological techniques targeting catastrophising, sleep hygiene, and non-opioid analgesia can produce functional gains that opioids rarely matched even in their promotional heyday. The obstacle is access: such programmes remain concentrated in specialist centres that are geographically remote from the patients who need them most.",
+        "Prescribers have their own adjustment to make. Habitual opioid initiation—the reflex to offer something tangible when non-pharmacological options seem intangible—has been reinforced by short consultation times, undertrained generalists, and a system that measures scripts written rather than function restored. Changing that reflex requires protected time for complex pain reviews, honest shared decision-making conversations about what opioids cannot do, and the institutional courage to disagree with a patient who arrives expecting a prescription.",
+        "The patients who lived through this era deserve more than a revised guideline. Many feel deceived—not by individual doctors, whom they often describe with loyalty and even gratitude, but by a system that treated pain as a biological signal without a social address. People in manual occupations, those with a history of depression, and those from disadvantaged communities were prescribed opioids at higher rates. The word 'epidemic', which is accurate at a population level, lands differently when you are a forty-five-year-old who followed medical advice for a decade and now finds yourself categorised as a risk rather than a patient.",
+        "Unlearning a decade of habit asks clinicians to hold two uncomfortable truths simultaneously: that the prescribing consensus was wrong, and that those who followed it were not villains. The correction is not to treat every long-term opioid patient as a casualty of misguided medicine, but to offer each one an honest review, a realistic taper where appropriate, and access to something genuinely better. Pain is not a problem to be dispensed away. The goal is a system in which 'I can manage without opioids' is a sentence the patient can arrive at, rather than one imposed upon them."
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "stem": "In paragraph one, 'the confidence of a specialty' suggests that opioids were introduced to chronic pain management",
+          "options": [
+            {"key": "A", "text": "cautiously, following rigorous long-term trials that demonstrated consistent benefit for chronic non-cancer pain"},
+            {"key": "B", "text": "with the certainty derived from their established success in treating cancer pain"},
+            {"key": "C", "text": "reluctantly, after earlier non-opioid strategies had been shown to be insufficient"},
+            {"key": "D", "text": "experimentally, with widespread agreement among clinicians that further research would be needed"}
+          ],
+          "answer": "B",
+          "focus": "the confidence of a specialty",
+          "explain": "지문의 'the confidence of a specialty' 부분 참조 → B: 암 통증 치료에서의 성공에서 비롯된 확신"
+        },
+        {
+          "id": 2,
+          "stem": "'That framing' in paragraph two refers to the view that",
+          "options": [
+            {"key": "A", "text": "pain should be designated a fifth vital sign and recorded at every clinical encounter"},
+            {"key": "B", "text": "physical dependence in patients on long-term opioids is medically unavoidable"},
+            {"key": "C", "text": "newer opioid formulations carried fewer risks of addiction than earlier preparations"},
+            {"key": "D", "text": "apparent drug-seeking behaviour in pain patients indicated that their pain was undertreated"}
+          ],
+          "answer": "D",
+          "focus": "That framing",
+          "explain": "지문의 'That framing' 부분 참조 → D: 약물 추구 행동을 치료 부족의 신호로 해석하는 관점"
+        },
+        {
+          "id": 3,
+          "stem": "According to paragraph three, at doses exceeding ninety milligrams of oral morphine equivalent per day, long-term opioids",
+          "options": [
+            {"key": "A", "text": "produce measurable harm with a consistency that large randomised trials now confirm"},
+            {"key": "B", "text": "provide greater pain relief than any non-opioid analgesic for most chronic conditions"},
+            {"key": "C", "text": "cause dependence in a proportion of patients who had no pre-existing history of substance misuse"},
+            {"key": "D", "text": "are no longer prescribed under any current United Kingdom or Australian clinical guideline"}
+          ],
+          "answer": "A",
+          "focus": "ninety milligrams of oral morphine equivalent",
+          "explain": "지문의 'ninety milligrams of oral morphine equivalent' 부분 참조 → A: 일관되게 측정 가능한 피해를 유발함"
+        },
+        {
+          "id": 4,
+          "stem": "In paragraph four, the writer describes patients 'caught between medication that is no longer recommended and a discontinuation process that may take years' in order to",
+          "options": [
+            {"key": "A", "text": "explain why abrupt tapering is clinically associated with a significant risk of self-harm"},
+            {"key": "B", "text": "argue that opioid prescriptions should continue until genuinely safer alternatives become widely accessible"},
+            {"key": "C", "text": "show that the consequences of the past prescribing consensus are borne most directly by patients"},
+            {"key": "D", "text": "suggest that dose reduction should only be attempted within a specialist inpatient pain service"}
+          ],
+          "answer": "C",
+          "focus": "caught between medication",
+          "explain": "지문의 'caught between medication' 부분 참조 → C: 과거 처방 합의의 결과를 환자가 직접 감당함"
+        },
+        {
+          "id": 5,
+          "stem": "The phrase 'in their promotional heyday' in paragraph five refers to the period when",
+          "options": [
+            {"key": "A", "text": "interdisciplinary pain management programmes were first being established in major specialist centres"},
+            {"key": "B", "text": "opioids were being actively marketed and prescribed as effective treatments for chronic non-cancer pain"},
+            {"key": "C", "text": "the biopsychosocial model was still regarded as a philosophical aspiration with little clinical application"},
+            {"key": "D", "text": "prescribing rates in the United Kingdom and Australia first began to show a measurable decline"}
+          ],
+          "answer": "B",
+          "focus": "promotional heyday",
+          "explain": "지문의 'promotional heyday' 부분 참조 → B: 오피오이드가 만성 비암성 통증 치료제로 활발히 홍보되던 시기"
+        },
+        {
+          "id": 6,
+          "stem": "According to paragraph six, habitual opioid initiation by prescribers has been reinforced by",
+          "options": [
+            {"key": "A", "text": "the absence of approved and accessible non-opioid analgesics for chronic non-cancer pain conditions"},
+            {"key": "B", "text": "patient resistance to non-pharmacological interventions that require sustained personal commitment"},
+            {"key": "C", "text": "clinical guidelines that continue to recommend opioids as a first-line treatment for chronic pain"},
+            {"key": "D", "text": "short consultation times alongside a system that measures prescriptions written rather than function restored"}
+          ],
+          "answer": "D",
+          "focus": "short consultation times",
+          "explain": "지문의 'short consultation times' 부분 참조 → D: 짧은 상담 시간과 처방 건수 중심의 성과 측정 구조"
+        },
+        {
+          "id": 7,
+          "stem": "In paragraph seven, the writer implies that the word 'epidemic' is",
+          "options": [
+            {"key": "A", "text": "statistically valid at a population level but experienced as stigmatising by individual patients"},
+            {"key": "B", "text": "inappropriate because most patients received opioids from clinicians acting responsibly"},
+            {"key": "C", "text": "an accurate description of both the scale and the underlying causes of long-term opioid dependence"},
+            {"key": "D", "text": "an exaggeration promoted by campaigners who have not acknowledged recent improvements in prescribing"}
+          ],
+          "answer": "A",
+          "focus": "accurate at a population level",
+          "explain": "지문의 'accurate at a population level' 부분 참조 → A: 집단적으로는 정확하지만 개인에게는 낙인처럼 느껴짐"
+        },
+        {
+          "id": 8,
+          "stem": "The writer's overall position is that correcting the opioid prescribing consensus primarily requires",
+          "options": [
+            {"key": "A", "text": "strict regulatory limits on all opioid prescriptions, without provision for individual clinical exceptions"},
+            {"key": "B", "text": "investment concentrated in specialist centres equipped to manage long-term patient withdrawal"},
+            {"key": "C", "text": "an individualised approach that offers each patient review, a realistic taper, and better alternatives"},
+            {"key": "D", "text": "a formal acknowledgement of responsibility from the pharmaceutical companies that promoted opioids"}
+          ],
+          "answer": "C",
+          "focus": "honest review",
+          "explain": "지문의 'honest review' 부분 참조 → C: 개별 환자에게 검토, 감량, 더 나은 대안을 제공하는 접근"
+        }
+      ]
+    },
+    {
+      "label": "Text 2",
+      "title": "Nurse staffing ratios: what the numbers cannot see",
+      "paragraphs": [
+        "Nurse-to-patient ratios occupy an unusual position in health policy: simultaneously supported by strong evidence, contested by managers facing staffing costs, and sometimes misunderstood by clinicians who assume that more nurses means better care in a simple linear way. The debate intensified in the United Kingdom after a succession of high-profile inquiries concluded that dangerously thin staffing had contributed to patient harm. A ratio of one nurse to eight patients was therefore presented as a line between safe and unsafe—a clarity that the actual complexity of nursing rarely permits.",
+        "The evidence supporting mandatory ratios should not be dismissed. Research across large hospital cohorts demonstrated that each additional patient per nurse was associated with a measurable increase in the odds of patient death within thirty days, after adjustment for case mix. California's 2004 minimum-ratio legislation generated natural experiments showing reductions in both mortality and nurse burnout. The case for a statutory floor is built on something more than intuition, and managers who resist it on cost grounds alone are making a values choice that deserves open scrutiny.",
+        "The difficulty is what ratios do not count. A ratio registers bodies but not brains: a ward with four experienced nurses at a ratio of one to six may be considerably safer than one with eight newly qualified nurses at a ratio of one to three. Skill mix—the proportion of registered nurses to healthcare assistants—is at least as important as the raw number, and continuity of care across shifts has independent effects on the recognition of clinical deterioration. A metric that captures none of this is incomplete, not dishonest.",
+        "The invisible work of nursing is the hardest element to quantify. Nursing surveillance—the continuous, low-level monitoring that leads an experienced nurse to sense that something is about to go wrong before the vital signs have moved—is never recorded as a clinical intervention. A nurse who prevents a cardiac arrest by recognising subtle agitation at two in the morning generates no documented action; the patient record shows only that nothing unusual occurred. Systems optimised for documentation are often optimised for the wrong outcome: visible tasks over vigilant presence, forms completed over clinical patterns observed.",
+        "Context fractures what aggregate numbers can promise. An intensive care nurse covering two ventilated patients is working in a categorically different environment from a ward nurse with the same numerical assignment: one patient is mechanically ventilated whilst another has a fractured neck of femur awaiting theatre. Night shifts carry a lower ratio not because patients are less unwell after midnight, but because tradition and cost dictate it. The assumption that a single figure applies equally to a coronary care unit and an acute assessment ward is sustained on paper and contested every morning by the nurses who work in those places.",
+        "Vacancy rates and temporary staffing complicate the picture further. In many NHS trusts, the funded ratio is nominally met because agency and bank nurses fill gaps the permanent workforce cannot cover. These nurses carry the ratio but not the institutional knowledge: they do not know the patient in the side room who deteriorates silently, or the escalation preferences of the registrar on call that night. Research consistently finds that high agency use is associated with adverse events independently of the ratio formally recorded—the number appears on the rota, but the function it was meant to approximate is absent.",
+        "Technology has introduced a new form of optimism into staffing debates. Electronic patient records and monitoring systems are marketed to hospital executives as force multipliers that allow fewer nurses to achieve more—a reassurance that suits budgets but misrepresents what nursing actually entails. Entering observations into a tablet does not replace the conversational assessment that occurs simultaneously. Clinical nursing cannot be disaggregated into observable task units without losing what makes it effective: the relational, iterative, time-intensive engagement with a patient who is frightened, in pain, and unlikely to articulate their own deterioration accurately.",
+        "None of this argues against ratios. It argues for treating them as a starting point rather than a destination. A ratio is a floor, not a ceiling: it prevents the worst staffing configurations but does not guarantee safe care. Health systems that pursue ratio legislation without simultaneously attending to skill mix, continuity, and the cultural conditions in which nursing surveillance can be practised are purchasing a number rather than safety. The honest metric is not how many nurses were rostered that shift, but whether each patient on that ward had a nurse who knew them well enough to notice."
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "stem": "In paragraph one, the writer's main criticism of ratio thresholds is that they",
+          "options": [
+            {"key": "A", "text": "imply a simplicity that the actual complexity of nursing work cannot support"},
+            {"key": "B", "text": "primarily reflect the financial concerns of hospital managers rather than patient safety"},
+            {"key": "C", "text": "fail to account for differences in patient severity across different types of ward"},
+            {"key": "D", "text": "were introduced into policy without adequate consultation with frontline nursing staff"}
+          ],
+          "answer": "A",
+          "focus": "a line between safe and unsafe",
+          "explain": "지문의 'a line between safe and unsafe' 부분 참조 → A: 간호의 복잡성을 반영할 수 없는 단순함을 내포"
+        },
+        {
+          "id": 2,
+          "stem": "The writer presents research findings and California's legislation in paragraph two in order to",
+          "options": [
+            {"key": "A", "text": "dispute the scientific basis of ratio research before proposing an alternative staffing model"},
+            {"key": "B", "text": "explain the political history of mandatory nurse staffing legislation in Western health systems"},
+            {"key": "C", "text": "acknowledge that the evidence base for ratios is genuine before examining what ratios cannot capture"},
+            {"key": "D", "text": "suggest that financial resistance to ratios reflects a deliberate disregard for patient wellbeing"}
+          ],
+          "answer": "C",
+          "focus": "The case for a statutory floor",
+          "explain": "지문의 'The case for a statutory floor' 부분 참조 → C: 근거를 인정한 후 비율이 포착하지 못하는 것을 논의"
+        },
+        {
+          "id": 3,
+          "stem": "The phrase 'registers bodies but not brains' in paragraph three means that ratios",
+          "options": [
+            {"key": "A", "text": "are an imprecise measure of the total hours of direct care each patient receives each day"},
+            {"key": "B", "text": "count nurses present without reflecting their level of experience or clinical competence"},
+            {"key": "C", "text": "place unfair demands on wards where healthcare assistants perform a majority of clinical tasks"},
+            {"key": "D", "text": "have no statistically meaningful association with patient outcomes in large hospital studies"}
+          ],
+          "answer": "B",
+          "focus": "registers bodies but not brains",
+          "explain": "지문의 'registers bodies but not brains' 부분 참조 → B: 경험이나 역량을 반영하지 않고 단순히 간호사 수만 셈"
+        },
+        {
+          "id": 4,
+          "stem": "According to paragraph four, systems designed primarily for documentation tend to prioritise",
+          "options": [
+            {"key": "A", "text": "prevention of adverse events that might otherwise appear in the mandatory audit record"},
+            {"key": "B", "text": "communication between nursing staff and the on-call medical team during overnight shifts"},
+            {"key": "C", "text": "timely identification of patients who meet criteria for escalation to intensive care"},
+            {"key": "D", "text": "visible tasks over vigilant presence, and forms completed over clinical patterns observed"}
+          ],
+          "answer": "D",
+          "focus": "visible tasks over vigilant presence",
+          "explain": "지문의 'visible tasks over vigilant presence' 부분 참조 → D: 기록 가능한 작업 완료를 세심한 임상 주의보다 우선시"
+        },
+        {
+          "id": 5,
+          "stem": "In paragraph five, the phrase 'what aggregate numbers can promise' refers to the idea that",
+          "options": [
+            {"key": "A", "text": "a single ratio figure can deliver equivalent safety guarantees across all clinical settings"},
+            {"key": "B", "text": "research conducted in intensive care units should not inform staffing on general medical wards"},
+            {"key": "C", "text": "night staffing ratios are inadequate because patient severity does not decrease after midnight"},
+            {"key": "D", "text": "data collected across large hospital systems cannot be applied to any individual institution"}
+          ],
+          "answer": "A",
+          "focus": "what aggregate numbers can promise",
+          "explain": "지문의 'what aggregate numbers can promise' 부분 참조 → A: 단일 비율 수치가 모든 임상 환경에 동등한 안전을 보장할 수 있다는 생각"
+        },
+        {
+          "id": 6,
+          "stem": "According to paragraph six, research into agency staffing shows that high levels of agency nurse use are associated with",
+          "options": [
+            {"key": "A", "text": "lower rates of staff burnout because permanent vacancies are covered and workload is distributed"},
+            {"key": "B", "text": "reduced care continuity because short-term agency nurses tend to avoid follow-up responsibilities"},
+            {"key": "C", "text": "patient harm even when the staffing ratio on the ward is formally maintained"},
+            {"key": "D", "text": "increased documentation errors that subsequently trigger mandatory adverse event reporting processes"}
+          ],
+          "answer": "C",
+          "focus": "adverse events independently",
+          "explain": "지문의 'adverse events independently' 부분 참조 → C: 비율이 공식적으로 충족되더라도 환자 위해와 관련됨"
+        },
+        {
+          "id": 7,
+          "stem": "'A new form of optimism' in paragraph seven refers to",
+          "options": [
+            {"key": "A", "text": "the expectation that advanced monitoring equipment will eventually replace experienced bedside nurses"},
+            {"key": "B", "text": "the belief that technology enables a smaller nursing workforce to deliver care of equivalent quality"},
+            {"key": "C", "text": "the reassurance given to nursing staff by executives that electronic records will reduce their workload"},
+            {"key": "D", "text": "the assumption that digitally recorded observations are more clinically reliable than direct bedside assessment"}
+          ],
+          "answer": "B",
+          "focus": "a new form of optimism",
+          "explain": "지문의 'a new form of optimism' 부분 참조 → B: 기술이 더 적은 간호사로 동등한 질의 간호를 가능하게 한다는 믿음"
+        },
+        {
+          "id": 8,
+          "stem": "In the final paragraph, the writer regards a ratio as",
+          "options": [
+            {"key": "A", "text": "a reliable quality indicator that should be tracked routinely alongside patient outcome measures"},
+            {"key": "B", "text": "a target that responsible health systems should consistently aim to exceed in all settings"},
+            {"key": "C", "text": "an administrative distraction that draws policy attention away from the genuine determinants of care"},
+            {"key": "D", "text": "a minimum safeguard that cannot by itself ensure the most important aspects of safe nursing care"}
+          ],
+          "answer": "D",
+          "focus": "a floor, not a ceiling",
+          "explain": "지문의 'a floor, not a ceiling' 부분 참조 → D: 최악을 막는 최소 보호 장치이지만 안전한 간호를 보장하지는 않음"
+        }
+      ]
+    }
+  ],
+  "gist": [
+    "Both texts argue for nuance beyond received wisdom: opioids in chronic pain and staffing ratios both look simpler than they are.",
+    "In Part C, re-read the targeted paragraph before answering; the focus phrase is your anchor.",
+    "Attitude questions hinge on tone words; inference questions require combining two sentences."
+  ],
+  "vocab": [
+    {
+      "term": "hyperalgesia",
+      "gloss": "통각과민증: 오피오이드 장기 복용으로 통증이 오히려 심해지는 현상"
+    },
+    {
+      "term": "pseudoaddiction",
+      "gloss": "가성 중독: 치료되지 않은 통증으로 인한 약물 추구 행동 (진짜 중독과 구별)"
+    },
+    {
+      "term": "catastrophising",
+      "gloss": "파국화: 통증에 대해 과도하게 부정적으로 생각하는 인지적 경향"
+    },
+    {
+      "term": "skill mix",
+      "gloss": "간호 인력 구성: 등록 간호사와 보조 인력의 비율"
+    },
+    {
+      "term": "endocrine disruption",
+      "gloss": "내분비 교란: 오피오이드 복용으로 인한 호르몬 체계 이상"
+    }
+  ]
+}

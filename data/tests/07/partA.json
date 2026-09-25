@@ -1,0 +1,262 @@
+{
+  "id": "A-07",
+  "part": "A",
+  "setNum": 7,
+  "title": "Hyperkalaemia: recognition and management",
+  "type": "partA-full",
+  "instruction": "Look at Texts A–D. Questions 1–7: which text? Questions 8–15: word/short phrase from the texts. Questions 16–20: complete the sentence. Spelling matters. Target: 15 minutes.",
+  "sharedWhichPrompt": "In which text can you find information about",
+  "texts": [
+    {
+      "label": "A",
+      "heading": "Severity classification and ECG changes",
+      "body": "Severity bands (serum potassium)\n• Mild: 5.5–5.9 mmol/L — often asymptomatic; dietary review and repeat U&E in 24–48 hours\n• Moderate: 6.0–6.4 mmol/L — muscle weakness, nausea, palpitations possible; ECG and telemetry recommended\n• Severe: ≥6.5 mmol/L — immediate treatment required; life-threatening arrhythmias possible\n\nECG changes (in order of severity)\n• Peaked, symmetrical T waves — earliest change; typically appears above 5.5 mmol/L\n• Prolonged PR interval and diminished P waves — appears above 6.0 mmol/L\n• Widened QRS complex (>120 ms) — suggests K⁺ above 7.0 mmol/L; precedes ventricular arrhythmia\n• Sine-wave pattern — K⁺ typically above 8.0 mmol/L; immediately pre-arrest\n\nPseudohyperkalaemia\nRepeat a haemolysed sample before acting if the patient is clinically well and the ECG is normal. A second sample may show a falsely elevated result due to cell lysis in the tube."
+    },
+    {
+      "label": "B",
+      "heading": "Emergency drug treatment",
+      "body": "Emergency treatment — drug sequence\n\nStep 1 — Cardioprotection (first-line if ECG changes or K⁺ ≥6.5 mmol/L)\n• Calcium gluconate 10%: 30 mL IV over 10 minutes; repeat after 5 minutes if ECG changes persist\n• Onset: 1–3 minutes; duration: 30–60 minutes; does not lower serum potassium\n\nStep 2 — Intracellular shift\n• Actrapid (soluble insulin) 10 units IV with 25 g glucose (50 mL of 50% glucose); onset 15–30 minutes; lasts approximately 6 hours\n• Monitor capillary glucose at 15 and 30 minutes after administration\n• Nebulised salbutamol 10–20 mg as adjunct (avoid in ischaemic heart disease); onset approximately 30 minutes\n\nStep 3 — Elimination\n• Furosemide IV promotes kaliuresis when renal function is adequate\n• Patiromer or sodium polystyrene sulphonate (Resonium) orally; potassium-binding resins act over hours\n• Haemodialysis if refractory or renal failure"
+    },
+    {
+      "label": "C",
+      "heading": "Common causes and medication review",
+      "body": "Common causes\nRenal\n• Acute kidney injury (AKI) or chronic kidney disease (CKD): impaired urinary potassium excretion\n• Adrenal insufficiency or hypoaldosteronism: reduced distal tubule K⁺ secretion\n\nDrug-induced (review and withhold acutely)\n• ACE inhibitors and ARBs (e.g. ramipril, losartan): inhibit aldosterone production; commonest iatrogenic cause\n• Potassium-sparing diuretics: spironolactone, amiloride, eplerenone\n• NSAIDs: impair renal prostaglandins and reduce kaliuresis\n• Trimethoprim at high doses: blocks distal K⁺ secretion\n• Heparin and LMWH: suppress aldosterone synthesis\n• Calcineurin inhibitors (tacrolimus, ciclosporin): impair tubular K⁺ excretion\n\nOther causes\n• Metabolic acidosis: transcellular shift moves K⁺ out of cells into plasma\n• Rhabdomyolysis, major haemolysis, or massive blood transfusion: release intracellular K⁺\n• Excess dietary intake in CKD\n\nMedication review\nWithhold the offending drug acutely; restart only once K⁺ is below 5.5 mmol/L and a senior clinician has reviewed the indication."
+    },
+    {
+      "label": "D",
+      "heading": "Monitoring and escalation criteria",
+      "body": "Monitoring frequency\n• Mild (5.5–5.9 mmol/L): repeat U&E in 24–48 hours; telemetry not required unless symptomatic\n• Moderate (6.0–6.4 mmol/L): repeat U&E and ECG at 2 hours; continuous telemetry for at least 4 hours\n• Severe (≥6.5 mmol/L): continuous cardiac monitoring; recheck U&E at 1 hour and 4 hours post-treatment\n\nPost-insulin glucose monitoring\nHypoglycaemia occurs in up to 10% of patients; check blood glucose at 15, 30, and 60 minutes after the insulin–glucose dose and treat any reading below 4.0 mmol/L promptly.\n\nInvolve the renal team if\n• K⁺ remains ≥6.0 mmol/L after two treatment rounds\n• CKD stage 4–5, new AKI not responding to IV fluids, or urine output below 0.5 mL/kg/hour for more than 6 hours\n\nInvolve ICU or HDU if\n• Cardiac arrest, refractory K⁺ ≥7.0 mmol/L, or haemodynamic instability requiring immediate haemodialysis"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "type": "whichText",
+      "stem": "the dose and volume of calcium gluconate for cardioprotection?",
+      "answer": "B",
+      "accept": ["B"],
+      "explain": "Text B — Step 1 dosing box.",
+      "options": [
+        {"key": "A", "text": "Text A"},
+        {"key": "B", "text": "Text B"},
+        {"key": "C", "text": "Text C"},
+        {"key": "D", "text": "Text D"}
+      ]
+    },
+    {
+      "id": 2,
+      "type": "whichText",
+      "stem": "the drug class most commonly responsible for iatrogenic hyperkalaemia?",
+      "answer": "C",
+      "accept": ["C"],
+      "explain": "Text C — ACE inhibitors/ARBs as commonest iatrogenic cause.",
+      "options": [
+        {"key": "A", "text": "Text A"},
+        {"key": "B", "text": "Text B"},
+        {"key": "C", "text": "Text C"},
+        {"key": "D", "text": "Text D"}
+      ]
+    },
+    {
+      "id": 3,
+      "type": "whichText",
+      "stem": "when to escalate care to ICU or HDU?",
+      "answer": "D",
+      "accept": ["D"],
+      "explain": "Text D — escalation criteria.",
+      "options": [
+        {"key": "A", "text": "Text A"},
+        {"key": "B", "text": "Text B"},
+        {"key": "C", "text": "Text C"},
+        {"key": "D", "text": "Text D"}
+      ]
+    },
+    {
+      "id": 4,
+      "type": "whichText",
+      "stem": "the sequence of ECG changes as potassium rises?",
+      "answer": "A",
+      "accept": ["A"],
+      "explain": "Text A — ECG changes in order of severity.",
+      "options": [
+        {"key": "A", "text": "Text A"},
+        {"key": "B", "text": "Text B"},
+        {"key": "C", "text": "Text C"},
+        {"key": "D", "text": "Text D"}
+      ]
+    },
+    {
+      "id": 5,
+      "type": "whichText",
+      "stem": "why metabolic acidosis causes a rise in serum potassium?",
+      "answer": "C",
+      "accept": ["C"],
+      "explain": "Text C — transcellular shift mechanism.",
+      "options": [
+        {"key": "A", "text": "Text A"},
+        {"key": "B", "text": "Text B"},
+        {"key": "C", "text": "Text C"},
+        {"key": "D", "text": "Text D"}
+      ]
+    },
+    {
+      "id": 6,
+      "type": "whichText",
+      "stem": "the nebulised drug used as an adjunct to drive potassium into cells?",
+      "answer": "B",
+      "accept": ["B"],
+      "explain": "Text B — nebulised salbutamol as adjunct.",
+      "options": [
+        {"key": "A", "text": "Text A"},
+        {"key": "B", "text": "Text B"},
+        {"key": "C", "text": "Text C"},
+        {"key": "D", "text": "Text D"}
+      ]
+    },
+    {
+      "id": 7,
+      "type": "whichText",
+      "stem": "how frequently blood glucose should be checked after insulin-glucose therapy?",
+      "answer": "D",
+      "accept": ["D"],
+      "explain": "Text D — post-insulin glucose monitoring schedule.",
+      "options": [
+        {"key": "A", "text": "Text A"},
+        {"key": "B", "text": "Text B"},
+        {"key": "C", "text": "Text C"},
+        {"key": "D", "text": "Text D"}
+      ]
+    },
+    {
+      "id": 8,
+      "type": "shortAnswer",
+      "stem": "What volume of 10% calcium gluconate is given as the initial IV dose?",
+      "answer": "30 mL",
+      "accept": ["30 mL", "30mL", "30"],
+      "explain": "Text B — Step 1 dosing."
+    },
+    {
+      "id": 9,
+      "type": "shortAnswer",
+      "stem": "At what serum potassium level is hyperkalaemia classified as severe?",
+      "answer": "≥6.5 mmol/L",
+      "accept": ["≥6.5 mmol/L", "6.5 mmol/L", "≥6.5", "6.5"],
+      "explain": "Text A — severity bands."
+    },
+    {
+      "id": 10,
+      "type": "shortAnswer",
+      "stem": "How many units of soluble insulin are given with glucose in the standard regimen?",
+      "answer": "10 units",
+      "accept": ["10 units", "10 units IV", "10"],
+      "explain": "Text B — Step 2."
+    },
+    {
+      "id": 11,
+      "type": "shortAnswer",
+      "stem": "Which cardiac condition is listed as a contraindication to nebulised salbutamol?",
+      "answer": "ischaemic heart disease",
+      "accept": ["ischaemic heart disease", "ischemic heart disease", "IHD"],
+      "explain": "Text B — salbutamol caution."
+    },
+    {
+      "id": 12,
+      "type": "shortAnswer",
+      "stem": "Which loop diuretic is named in the treatment protocol as promoting kaliuresis?",
+      "answer": "Furosemide",
+      "accept": ["Furosemide", "furosemide", "furosemide IV"],
+      "explain": "Text B — Step 3."
+    },
+    {
+      "id": 13,
+      "type": "shortAnswer",
+      "stem": "Below what serum potassium level must K⁺ fall before restarting a withheld drug?",
+      "answer": "5.5 mmol/L",
+      "accept": ["5.5 mmol/L", "below 5.5 mmol/L", "5.5", "<5.5 mmol/L"],
+      "explain": "Text C — medication review."
+    },
+    {
+      "id": 14,
+      "type": "shortAnswer",
+      "stem": "After how many rounds of treatment should the renal team be contacted if potassium remains ≥6.0 mmol/L?",
+      "answer": "two",
+      "accept": ["two", "2", "two rounds", "2 rounds"],
+      "explain": "Text D — involve renal team."
+    },
+    {
+      "id": 15,
+      "type": "shortAnswer",
+      "stem": "What proportion of patients experience hypoglycaemia following the insulin-glucose regimen?",
+      "answer": "10%",
+      "accept": ["10%", "up to 10%", "10 per cent"],
+      "explain": "Text D — post-insulin glucose monitoring."
+    },
+    {
+      "id": 16,
+      "type": "gapFill",
+      "stem": "In severe hyperkalaemia, the cardioprotective effect of calcium gluconate lasts approximately …………………………………….",
+      "answer": "30–60 minutes",
+      "accept": ["30–60 minutes", "30-60 minutes", "30 to 60 minutes", "30–60"],
+      "explain": "Text B — duration stated in Step 1 box."
+    },
+    {
+      "id": 17,
+      "type": "gapFill",
+      "stem": "The earliest ECG change in hyperkalaemia consists of ……………………………………. T waves.",
+      "answer": "Peaked, symmetrical",
+      "accept": ["Peaked, symmetrical", "peaked, symmetrical", "peaked symmetrical", "peaked"],
+      "explain": "Text A — first bullet under ECG changes."
+    },
+    {
+      "id": 18,
+      "type": "gapFill",
+      "stem": "The potassium-sparing diuretics listed as potential causes include spironolactone, amiloride, and …………………………………….",
+      "answer": "eplerenone",
+      "accept": ["eplerenone"],
+      "explain": "Text C — drug-induced causes list."
+    },
+    {
+      "id": 19,
+      "type": "gapFill",
+      "stem": "Renal team involvement is recommended if urine output falls below 0.5 mL/kg/hour for more than …………………………………… hours.",
+      "answer": "6",
+      "accept": ["6", "six", "6 hours"],
+      "explain": "Text D — renal escalation criteria."
+    },
+    {
+      "id": 20,
+      "type": "gapFill",
+      "stem": "Calcium gluconate does not lower serum ……………………………………, so a potassium-shifting agent must follow in Step 2.",
+      "answer": "potassium",
+      "accept": ["potassium"],
+      "explain": "Text B — limitation of calcium gluconate stated in Step 1."
+    }
+  ],
+  "gist": [
+    "Q1–7 = which text (scan headings + unique markers).",
+    "Q8–15 = lift exact words/numbers from the texts.",
+    "Q16–20 = gap-fill with short phrases from the texts."
+  ],
+  "vocab": [
+    {
+      "term": "hyperkalaemia",
+      "gloss": "고칼륨혈증: 혈중 칼륨 농도가 비정상적으로 높은 상태"
+    },
+    {
+      "term": "kaliuresis",
+      "gloss": "칼리우레시스: 소변으로의 칼륨 배출 증가"
+    },
+    {
+      "term": "rhabdomyolysis",
+      "gloss": "횡문근융해증: 근육 세포 파괴로 인한 전해질 방출"
+    },
+    {
+      "term": "aldosterone",
+      "gloss": "알도스테론: 신장의 K⁺ 배출을 조절하는 부신피질 호르몬"
+    },
+    {
+      "term": "patiromer",
+      "gloss": "파티로머: 장내에서 칼륨을 결합하는 경구 수지"
+    }
+  ]
+}

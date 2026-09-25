@@ -1,0 +1,189 @@
+{
+  "id": "B-07",
+  "part": "B",
+  "setNum": 7,
+  "type": "workplace",
+  "title": "Pharmacy, controlled drugs & prescribing extracts",
+  "instruction": "Six workplace extracts. Choose A, B or C. Focus phrases highlighted.",
+  "items": [
+    {
+      "id": 1,
+      "extract": "Memo from the pharmacy lead to all ward managers:\n\nAll controlled drug (CD) registers must have the running balance verified at every entry. The nurse who administers the drug signs in column A; the second signatory — who must physically witness the dose being drawn up and administered — signs in column B. The running balance is not a paperwork formality: it is the primary method by which stock discrepancies are detected without delay. If the calculated balance does not match what is held in the cupboard at any point, this must be reported immediately to the pharmacy lead and the site manager. Do not hold the report until the next routine ward check. Common sources of discrepancy include transcription errors and incorrect ampoule strength recorded. All discrepancies require an incident form regardless of whether diversion is suspected. Destruction of excess stock requires two authorised witnesses, at least one of whom must be a registered professional.",
+      "stem": "The memo mainly tells ward managers to",
+      "options": [
+        {
+          "key": "A",
+          "text": "ensure two registered nurses witness every controlled drug administration and countersign the drug destruction record."
+        },
+        {
+          "key": "B",
+          "text": "submit the controlled drug register to pharmacy for monthly audit, noting any running balance errors found."
+        },
+        {
+          "key": "C",
+          "text": "verify the running balance at each register entry and report any discrepancy to the pharmacy lead immediately."
+        }
+      ],
+      "answer": "C",
+      "explain": "핵심: verify the running balance at each register entry and report any discrepancy to the pharmacy lead immediately.",
+      "focusPhrases": [
+        "running balance",
+        "verified at every entry",
+        "reported immediately"
+      ]
+    },
+    {
+      "id": 2,
+      "extract": "Extract from the Trust opioid conversion guideline (section 4):\n\nWhen converting a patient from one strong opioid to another, calculate the equianalgesic dose using the Trust conversion table and then reduce the result by 25–30% to allow for incomplete cross-tolerance. This reduction is mandatory unless the patient's pain is inadequately controlled, in which case the reason for using a full equianalgesic dose must be clearly documented. For patients being converted from oral morphine to a transdermal preparation, the conversion must be undertaken by a prescriber with the appropriate competency, or in consultation with the pain or palliative care team. Do not use internet-based dose calculators as the sole reference for conversion ratios. Document the full calculation, the doses chosen, any rationale for deviating from the standard reduction, and a review date no later than 48 hours after commencement. If the patient is opioid-naïve, these conversion tables do not apply.",
+      "stem": "The guideline states that when switching opioids, prescribers must",
+      "options": [
+        {
+          "key": "A",
+          "text": "reduce the equianalgesic dose by 25–30% to allow for incomplete cross-tolerance, unless a documented reason exists."
+        },
+        {
+          "key": "B",
+          "text": "use the full equianalgesic dose when converting between opioids, except when transitioning to a transdermal preparation."
+        },
+        {
+          "key": "C",
+          "text": "refer every opioid conversion to the palliative care team and document their recommendation before prescribing commences."
+        }
+      ],
+      "answer": "A",
+      "explain": "핵심: reduce the equianalgesic dose by 25–30% to allow for incomplete cross-tolerance.",
+      "focusPhrases": [
+        "equianalgesic dose",
+        "25–30%",
+        "incomplete cross-tolerance"
+      ]
+    },
+    {
+      "id": 3,
+      "extract": "Notice to all prescribers from the antimicrobial pharmacist:\n\nAll patients receiving intravenous (IV) antibiotics must have a documented 72-hour review assessing suitability for IV-to-oral switch. Criteria for switch include: patient tolerating oral intake, temperature below 37.5°C for more than 24 hours, clinically improving, and an appropriate oral agent available with adequate tissue penetration. If a patient does not yet meet these criteria, the reason for continuing IV therapy must be recorded clearly on the electronic drug chart. Continuing IV antibiotics without a documented review is not acceptable under the Trust antimicrobial stewardship policy. The 72-hour clock starts from the time of the first IV dose, not from the time of admission. Monthly audits are conducted and omissions will be escalated to the prescribing consultant. For advice on suitable oral alternatives, contact the antimicrobial pharmacist on bleep 4471 or via the stewardship inbox.",
+      "stem": "The notice requires prescribers to",
+      "options": [
+        {
+          "key": "A",
+          "text": "switch all patients from IV to oral antibiotics within 72 hours of the first dose, regardless of whether clinical criteria are met."
+        },
+        {
+          "key": "B",
+          "text": "review IV antibiotics at 72 hours against clinical criteria and document the reason if IV therapy is to continue."
+        },
+        {
+          "key": "C",
+          "text": "contact the antimicrobial pharmacist for approval before prescribing any IV antibiotic course expected to run beyond 48 hours."
+        }
+      ],
+      "answer": "B",
+      "explain": "핵심: review IV antibiotics at 72 hours against clinical criteria and document the reason if IV therapy continues.",
+      "focusPhrases": [
+        "72-hour review",
+        "IV-to-oral switch",
+        "documented"
+      ]
+    },
+    {
+      "id": 4,
+      "extract": "Extract from the Trust insulin prescribing standard operating procedure:\n\nPrescribers must write the word 'units' in full when prescribing any insulin preparation. Never use the abbreviation 'U', 'IU', or any other shorthand, as these have been misread as zeros, resulting in tenfold dosing errors and serious patient harm. Similarly, write the full approved product name; do not abbreviate the formulation type or use informal product names. Insulin doses must be written as a numeral followed by the word 'units' with a clear space — for example, 12 units and not 12U. Before administration, a second trained member of staff must independently verify the prescription, the vial label, the graduated syringe markings, and the patient's identity. This two-person check is required for all routes of insulin administration, including subcutaneous, intramuscular, and intravenous. Do not pre-draw insulin into a syringe for administration at a later time. Any ambiguous prescription must be rewritten before it leaves the team.",
+      "stem": "The SOP mainly instructs prescribers to",
+      "options": [
+        {
+          "key": "A",
+          "text": "require a second trained staff member to countersign every insulin prescription before it is sent to pharmacy for dispensing."
+        },
+        {
+          "key": "B",
+          "text": "avoid prescribing insulin preparations with a concentration above 100 units/mL unless specialist approval has been obtained."
+        },
+        {
+          "key": "C",
+          "text": "write 'units' in full on all insulin prescriptions and never use the shorthand 'U' or 'IU' in place of units."
+        }
+      ],
+      "answer": "C",
+      "explain": "핵심: write 'units' in full on all insulin prescriptions and never use shorthand abbreviations such as 'U' or 'IU'.",
+      "focusPhrases": [
+        "units",
+        "Never use the abbreviation",
+        "tenfold dosing errors"
+      ]
+    },
+    {
+      "id": 5,
+      "extract": "Extract from the drug allergy and adverse drug reaction (ADR) documentation policy:\n\nWhen a patient reports or experiences a possible reaction to a drug, the nature and severity of that reaction must be documented in detail. Writing only the word 'allergy' in the allergy field is insufficient: future prescribers need to know whether the reaction was anaphylaxis, urticaria, a gastrointestinal intolerance, or another recognised adverse effect, as this determines whether related compounds can safely be considered. The clinician who first identifies the reaction bears responsibility for documentation, even if the patient is subsequently transferred. Entries must be completed in the electronic prescribing record within two hours. Do not rely on a verbal account at handover; make the entry yourself. Reactions classified as 'intolerance' must include a description of the specific symptom experienced. Where the exact reaction is unknown, record what information is available and flag the entry for a structured allergy review at the next clinical opportunity.",
+      "stem": "The policy requires clinicians to",
+      "options": [
+        {
+          "key": "A",
+          "text": "withhold all drugs from the same class as a reported allergen until formal allergy testing has been arranged."
+        },
+        {
+          "key": "B",
+          "text": "document the exact nature and severity of each drug reaction rather than recording only the word 'allergy' in the field."
+        },
+        {
+          "key": "C",
+          "text": "refer every patient who reports a drug reaction to the specialist allergy clinic within two weeks of the event."
+        }
+      ],
+      "answer": "B",
+      "explain": "핵심: document the exact nature and severity of each drug reaction rather than recording only the word 'allergy'.",
+      "focusPhrases": [
+        "nature and severity",
+        "Writing only the word 'allergy'",
+        "insufficient"
+      ]
+    },
+    {
+      "id": 6,
+      "extract": "Out-of-hours pharmacy handover note (Thursday 20:45):\n\nThe urgent clozapine supply for ward 9B — 14-day stock, 100 mg tablets, pre-labelled — is currently in the dispensary fridge on shelf C. The night pharmacist must collect this before the main dispensary building is locked at 22:00; the porter cannot access the fridge once the shutters are secured. Lorazepam for ITU (four ampoules, signed out on CD requisition 447A) is already in the CD cabinet at the on-call desk. The ward pharmacist's bleep is now held by Dr Patel (bleep 2201) for clinical queries until 08:00. Unsigned insulin prescriptions for ward 6 are sitting on the printer and require a pharmacist signature before reaching the ward. A renal dose query is logged for Mr Hassan in bed 7: check the latest eGFR before advising the team. Near-expiry returns should go into the yellow returns tray on the dispensary counter, not into the fridge.",
+      "stem": "The handover note indicates that the night pharmacist must",
+      "options": [
+        {
+          "key": "A",
+          "text": "retrieve the pre-labelled clozapine supply from the dispensary fridge before the building is locked at 22:00."
+        },
+        {
+          "key": "B",
+          "text": "contact Dr Patel on bleep 2201 to authorise the clozapine supply before collecting it from the dispensary fridge."
+        },
+        {
+          "key": "C",
+          "text": "place near-expiry ward returns in the dispensary fridge for the morning pharmacist to assess and process."
+        }
+      ],
+      "answer": "A",
+      "explain": "핵심: retrieve the pre-labelled clozapine supply from the dispensary fridge before the building is locked at 22:00.",
+      "focusPhrases": [
+        "pre-labelled",
+        "dispensary fridge",
+        "locked at 22:00"
+      ]
+    }
+  ],
+  "gist": [
+    "Part B = identify the main purpose or single key instruction; watch for must / never / unless / before.",
+    "In pharmacy texts, distractors often assign the right action to the wrong person or the wrong deadline.",
+    "Focus phrases are verbatim clues — find them first, then re-read the surrounding sentence carefully."
+  ],
+  "vocab": [
+    {
+      "term": "equianalgesic",
+      "gloss": "등가진통제의: 다른 약물과 동일한 진통 효과를 내는 용량을 나타내는 형용사"
+    },
+    {
+      "term": "cross-tolerance",
+      "gloss": "교차 내성: 한 오피오이드에 내성이 생기면 유사 약물에도 부분적으로 내성이 발생하는 현상"
+    },
+    {
+      "term": "antimicrobial stewardship",
+      "gloss": "항생제 관리 프로그램: 항생제의 적절한 선택·용량·투여 기간을 최적화하는 체계적 활동"
+    },
+    {
+      "term": "controlled drug",
+      "gloss": "규제 마약류: 오남용 위험이 높아 엄격히 관리되는 의약품 (예: 모르핀, 미다졸람, 클로자핀)"
+    }
+  ]
+}

@@ -463,6 +463,75 @@ details[open] > summary.q-group::before {
   color: var(--ink);
   border: 1px solid var(--line);
 }
+.btn.danger {
+  color: #b91c1c;
+  border-color: #fecaca;
+  background: #fff5f5;
+}
+
+/* review: 3 small buttons in a row + full-width primary, on an opaque tray */
+.review-actions {
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 8px;
+  padding: 8px;
+  margin-left: -8px;
+  margin-right: -8px;
+  background: rgba(247, 244, 236, 0.96);
+  border-radius: 18px;
+  box-shadow: 0 -4px 16px rgba(0, 0, 0, 0.06);
+  backdrop-filter: blur(6px);
+}
+.review-actions .secondary {
+  padding: 12px 6px;
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+.review-actions .primary {
+  grid-column: 1 / -1;
+}
+
+.home-tools {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+.home-tools .btn {
+  width: auto;
+  padding: 10px 16px;
+}
+.home-meta {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+/* 오답 노트 */
+.wrong-item {
+  padding: 12px 0;
+  border-top: 1px dashed var(--line);
+}
+.wrong-item:first-of-type {
+  border-top: 0;
+}
+.wrong-cmp {
+  display: grid;
+  gap: 4px;
+  margin-top: 6px;
+  font-size: 0.95rem;
+}
+.wrong-cmp .mine {
+  color: #b91c1c;
+}
+.wrong-cmp .key {
+  color: #166534;
+  font-weight: 600;
+}
+.wrong-focus {
+  margin-top: 6px;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
 
 .score {
   font-family: system-ui, -apple-system, sans-serif;

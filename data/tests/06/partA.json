@@ -1,0 +1,318 @@
+{
+  "id": "A-06",
+  "part": "A",
+  "setNum": 6,
+  "title": "Diabetic ketoacidosis in adults",
+  "type": "partA-full",
+  "instruction": "Look at Texts A–D. Questions 1–7: which text? Questions 8–15: word/short phrase from the texts. Questions 16–20: complete the sentence. Spelling matters. Target: 15 minutes.",
+  "sharedWhichPrompt": "In which text can you find information about",
+  "texts": [
+    {
+      "label": "A",
+      "heading": "Diagnostic criteria and severity classification",
+      "body": "Diagnostic triad\nA diagnosis of DKA requires all three of the following:\n• Blood glucose >11 mmol/L (or a confirmed diagnosis of diabetes mellitus)\n• Blood ketones ≥3.0 mmol/L, or urine ketones 2+ or above on dipstick\n• Bicarbonate <15 mmol/L and/or venous pH <7.3\n\nSeverity classification\nMild: venous pH 7.25–7.29; bicarbonate 15–17.9 mmol/L; patient alert and orientated.\nModerate: venous pH 7.0–7.24; bicarbonate <15 mmol/L.\nSevere — any one of the following: venous pH <7.0; bicarbonate <5 mmol/L; Glasgow Coma Scale <12; SpO₂ <92% on air; systolic BP <90 mmHg; heart rate >100 or <60 bpm; anion gap >16 mmol/L.\n\nAnion gap\nCalculated as Na⁺ − (Cl⁻ + HCO₃⁻); normal range 12 ± 2 mmol/L. A raised anion gap alongside ketonaemia confirms a high anion gap metabolic acidosis typical of DKA."
+    },
+    {
+      "label": "B",
+      "heading": "Fixed-rate insulin infusion and fluid regimen",
+      "body": "Fixed-rate insulin infusion (FRII)\nPrescribe 0.1 units/kg/hour of soluble insulin made up in 0.9% sodium chloride. Do not stop or reduce the patient's usual background (basal) insulin while FRII is running.\n\nMonitoring and dose adjustment\nCheck blood ketones and capillary glucose hourly. The target is a blood ketone fall of ≥0.5 mmol/L per hour. If ketones are not falling at this rate, increase the infusion rate by 1 unit/hour. Do not use a variable-rate insulin infusion (sliding scale) in DKA.\n\nGlucose management\nWhen blood glucose falls below 14 mmol/L, add 10% glucose at 125 mL/hour alongside continuing 0.9% sodium chloride. Maintain blood glucose at 14–17 mmol/L until ketones have cleared.\n\nFluid replacement\nGive 1 litre of 0.9% NaCl over the first hour, then reassess haemodynamic status and adjust subsequent bags accordingly."
+    },
+    {
+      "label": "C",
+      "heading": "Potassium replacement guide",
+      "body": "Hypokalaemia is the most dangerous electrolyte complication of DKA treatment. Check serum potassium before starting the fixed-rate insulin infusion and do not commence FRII if K⁺ is below 3.5 mmol/L.\n\nReplacement guide (per litre of IV fluid)\n• K⁺ >5.5 mmol/L: do not add potassium to IV fluids; recheck after 1 hour\n• K⁺ 3.5–5.5 mmol/L: add 40 mmol potassium chloride (KCl) per litre of IV fluid\n• K⁺ <3.5 mmol/L: do not start insulin; seek urgent senior or critical care review; replace potassium more aggressively before proceeding\n\nMonitoring frequency\nIn severe or moderate DKA: check serum potassium every hour for the first 4 hours, then every 2 hours thereafter. In mild DKA: check every 2 hours.\n\nCaution\nNever add more than 40 mmol KCl to a single 1-litre bag without senior authorisation. Hyperkalaemia (K⁺ >5.5 mmol/L) may worsen transiently as acidosis is corrected."
+    },
+    {
+      "label": "D",
+      "heading": "Resolution criteria, subcutaneous insulin transition and precipitant review",
+      "body": "Resolution of DKA — all three criteria must be met\n• Blood ketones <0.3 mmol/L\n• Venous pH >7.3\n• Bicarbonate >18 mmol/L\nBlood glucose level alone is not a reliable marker of DKA resolution and must never be used as the sole criterion for stopping IV insulin.\n\nTransition to subcutaneous insulin\nEnsure the patient is eating and drinking normally before switching. Administer the patient's usual subcutaneous insulin dose, then wait 30–60 minutes before stopping the IV insulin infusion to prevent rebound ketosis. If the patient is newly diagnosed with type 1 diabetes, seek endocrinology advice before prescribing a subcutaneous regimen.\n\nPrecipitant review\nInfection is the most common precipitant; send urine, blood cultures and a chest radiograph. Other precipitants include missed or insufficient insulin, new-onset type 1 diabetes, corticosteroids, antipsychotic drugs, and SGLT2 inhibitors (which can cause euglycaemic DKA even with near-normal glucose). Document the identified precipitant clearly in the discharge summary."
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "type": "whichText",
+      "stem": "the formula for calculating the anion gap and its normal range?",
+      "answer": "A",
+      "accept": ["A"],
+      "explain": "Text A — anion gap section.",
+      "options": [
+        {"key": "A", "text": "Text A"},
+        {"key": "B", "text": "Text B"},
+        {"key": "C", "text": "Text C"},
+        {"key": "D", "text": "Text D"}
+      ]
+    },
+    {
+      "id": 2,
+      "type": "whichText",
+      "stem": "the serum potassium level above which no supplementation should be added to IV fluids?",
+      "answer": "C",
+      "accept": ["C"],
+      "explain": "Text C — potassium replacement guide.",
+      "options": [
+        {"key": "A", "text": "Text A"},
+        {"key": "B", "text": "Text B"},
+        {"key": "C", "text": "Text C"},
+        {"key": "D", "text": "Text D"}
+      ]
+    },
+    {
+      "id": 3,
+      "type": "whichText",
+      "stem": "when to add 10% glucose alongside the saline infusion?",
+      "answer": "B",
+      "accept": ["B"],
+      "explain": "Text B — glucose management section.",
+      "options": [
+        {"key": "A", "text": "Text A"},
+        {"key": "B", "text": "Text B"},
+        {"key": "C", "text": "Text C"},
+        {"key": "D", "text": "Text D"}
+      ]
+    },
+    {
+      "id": 4,
+      "type": "whichText",
+      "stem": "all three laboratory criteria that must be met before DKA is considered resolved?",
+      "answer": "D",
+      "accept": ["D"],
+      "explain": "Text D — resolution criteria.",
+      "options": [
+        {"key": "A", "text": "Text A"},
+        {"key": "B", "text": "Text B"},
+        {"key": "C", "text": "Text C"},
+        {"key": "D", "text": "Text D"}
+      ]
+    },
+    {
+      "id": 5,
+      "type": "whichText",
+      "stem": "the minimum rate at which blood ketones should fall per hour during treatment?",
+      "answer": "B",
+      "accept": ["B"],
+      "explain": "Text B — monitoring and dose adjustment.",
+      "options": [
+        {"key": "A", "text": "Text A"},
+        {"key": "B", "text": "Text B"},
+        {"key": "C", "text": "Text C"},
+        {"key": "D", "text": "Text D"}
+      ]
+    },
+    {
+      "id": 6,
+      "type": "whichText",
+      "stem": "conditions and drugs that can trigger diabetic ketoacidosis?",
+      "answer": "D",
+      "accept": ["D"],
+      "explain": "Text D — precipitant review.",
+      "options": [
+        {"key": "A", "text": "Text A"},
+        {"key": "B", "text": "Text B"},
+        {"key": "C", "text": "Text C"},
+        {"key": "D", "text": "Text D"}
+      ]
+    },
+    {
+      "id": 7,
+      "type": "whichText",
+      "stem": "the blood ketone threshold required to diagnose DKA?",
+      "answer": "A",
+      "accept": ["A"],
+      "explain": "Text A — diagnostic triad.",
+      "options": [
+        {"key": "A", "text": "Text A"},
+        {"key": "B", "text": "Text B"},
+        {"key": "C", "text": "Text C"},
+        {"key": "D", "text": "Text D"}
+      ]
+    },
+    {
+      "id": 8,
+      "type": "shortAnswer",
+      "stem": "At what weight-based rate should the fixed-rate insulin infusion be prescribed in DKA?",
+      "answer": "0.1 units/kg/hour",
+      "accept": [
+        "0.1 units/kg/hour",
+        "0.1 units/kg per hour",
+        "0.1 unit/kg/hour",
+        "0.1 units per kg per hour"
+      ],
+      "explain": "Text B — FRII section."
+    },
+    {
+      "id": 9,
+      "type": "shortAnswer",
+      "stem": "What bicarbonate level indicates severe DKA?",
+      "answer": "<5 mmol/L",
+      "accept": [
+        "<5 mmol/L",
+        "less than 5 mmol/L",
+        "5 mmol/L",
+        "bicarbonate <5 mmol/L"
+      ],
+      "explain": "Text A — severe classification."
+    },
+    {
+      "id": 10,
+      "type": "shortAnswer",
+      "stem": "Below what blood glucose level must 10% glucose be added to the infusion?",
+      "answer": "14 mmol/L",
+      "accept": [
+        "14 mmol/L",
+        "14",
+        "below 14 mmol/L",
+        "<14 mmol/L"
+      ],
+      "explain": "Text B — glucose management."
+    },
+    {
+      "id": 11,
+      "type": "shortAnswer",
+      "stem": "What blood ketone concentration confirms resolution of DKA?",
+      "answer": "<0.3 mmol/L",
+      "accept": [
+        "<0.3 mmol/L",
+        "less than 0.3 mmol/L",
+        "0.3 mmol/L"
+      ],
+      "explain": "Text D — resolution criteria."
+    },
+    {
+      "id": 12,
+      "type": "shortAnswer",
+      "stem": "How much potassium chloride is added per litre of IV fluid when serum potassium is between 3.5 and 5.5 mmol/L?",
+      "answer": "40 mmol",
+      "accept": [
+        "40 mmol",
+        "40 mmol KCl",
+        "40 mmol/L",
+        "40 mmol potassium chloride"
+      ],
+      "explain": "Text C — replacement guide."
+    },
+    {
+      "id": 13,
+      "type": "shortAnswer",
+      "stem": "What is named as the most common precipitant of DKA?",
+      "answer": "Infection",
+      "accept": [
+        "Infection",
+        "infection"
+      ],
+      "explain": "Text D — precipitant review."
+    },
+    {
+      "id": 14,
+      "type": "shortAnswer",
+      "stem": "How long must the clinician wait after giving subcutaneous insulin before stopping the IV infusion?",
+      "answer": "30–60 minutes",
+      "accept": [
+        "30–60 minutes",
+        "30-60 minutes",
+        "30 to 60 minutes",
+        "30–60 mins"
+      ],
+      "explain": "Text D — subcutaneous transition."
+    },
+    {
+      "id": 15,
+      "type": "shortAnswer",
+      "stem": "How often should serum potassium be checked in the first 4 hours of severe or moderate DKA?",
+      "answer": "every hour",
+      "accept": [
+        "every hour",
+        "hourly",
+        "every 1 hour",
+        "1-hourly"
+      ],
+      "explain": "Text C — monitoring frequency."
+    },
+    {
+      "id": 16,
+      "type": "gapFill",
+      "stem": "The target during FRII treatment is a blood ketone fall of …………………………………… per hour; if this is not achieved, the infusion rate must be increased.",
+      "answer": "≥0.5 mmol/L",
+      "accept": [
+        "≥0.5 mmol/L",
+        "0.5 mmol/L",
+        "≥0.5",
+        "0.5"
+      ],
+      "explain": "Text B — monitoring section."
+    },
+    {
+      "id": 17,
+      "type": "gapFill",
+      "stem": "While FRII is running, the patient's usual …………………………………… insulin must not be stopped or reduced.",
+      "answer": "background (basal)",
+      "accept": [
+        "background (basal)",
+        "background",
+        "basal",
+        "background basal"
+      ],
+      "explain": "Text B — FRII instructions."
+    },
+    {
+      "id": 18,
+      "type": "gapFill",
+      "stem": "If serum potassium exceeds …………………………………… mmol/L, no potassium should be added to IV fluids.",
+      "answer": "5.5",
+      "accept": [
+        "5.5",
+        "5.5 mmol/L"
+      ],
+      "explain": "Text C — replacement guide (K⁺ >5.5 mmol/L)."
+    },
+    {
+      "id": 19,
+      "type": "gapFill",
+      "stem": "Blood glucose level alone is not a reliable …………………………………… of DKA resolution and must never be used as the sole criterion.",
+      "answer": "marker",
+      "accept": [
+        "marker",
+        "reliable marker"
+      ],
+      "explain": "Text D — resolution section."
+    },
+    {
+      "id": 20,
+      "type": "gapFill",
+      "stem": "SGLT2 inhibitors can cause …………………………………… DKA even when blood glucose is near normal.",
+      "answer": "euglycaemic",
+      "accept": [
+        "euglycaemic",
+        "euglycemic"
+      ],
+      "explain": "Text D — precipitant review."
+    }
+  ],
+  "gist": [
+    "Q1–7 = scan headings and bullet points to identify which text contains each clinical fact.",
+    "Q8–15 = copy exact words or numbers from the texts; include units as written.",
+    "Q16–20 = gap-fill using the text's precise wording; near-synonyms may not be accepted."
+  ],
+  "vocab": [
+    {
+      "term": "ketoacidosis",
+      "gloss": "케톤산증: 케톤 과잉 생성으로 인한 대사성 산증"
+    },
+    {
+      "term": "ketonaemia",
+      "gloss": "혈중 케톤증: 혈액 내 케톤체 농도 상승"
+    },
+    {
+      "term": "bicarbonate",
+      "gloss": "중탄산염: 혈액의 산염기 균형을 나타내는 지표"
+    },
+    {
+      "term": "euglycaemic",
+      "gloss": "정상혈당성: 혈당이 정상 범위에 있는 상태"
+    },
+    {
+      "term": "precipitant",
+      "gloss": "유발 인자: 질환이나 증상을 일으키는 원인"
+    }
+  ]
+}

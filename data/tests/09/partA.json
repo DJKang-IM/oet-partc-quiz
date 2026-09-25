@@ -1,0 +1,277 @@
+{
+  "id": "A-09",
+  "part": "A",
+  "setNum": 9,
+  "title": "Anaphylaxis: recognition and management",
+  "type": "partA-full",
+  "instruction": "Look at Texts A–D. Questions 1–7: which text? Questions 8–15: word/short phrase from the texts. Questions 16–20: complete the sentence. Spelling matters. Target: 15 minutes.",
+  "texts": [
+    {
+      "label": "A",
+      "heading": "Recognition criteria and differential diagnosis",
+      "body": "Anaphylaxis is a severe, life-threatening generalised hypersensitivity reaction. The UK Resuscitation Council criteria require all three of the following: sudden onset with rapid progression of symptoms; life-threatening airway, breathing, or circulation problems; and skin or mucosal changes (urticaria, flushing, angioedema) — though skin signs may be absent in up to 20% of cases.\n\nSystem-specific features\n• Airway: stridor, hoarseness, tongue or throat swelling\n• Breathing: acute bronchospasm, wheeze, tachypnoea, SpO₂ <94%\n• Circulation: hypotension (SBP <90 mmHg or >30% fall from baseline), tachycardia, pallor, syncope\n\nDifferential diagnoses\n• Vasovagal syncope: brief loss of consciousness, bradycardia, no urticaria\n• Asthma exacerbation: bronchospasm without systemic features\n• Hereditary angioedema (HAE): swelling without urticaria; does not respond to adrenaline\n• Carcinoid syndrome: episodic flushing without allergen trigger\n\nRisk is higher with parenteral allergen exposure (IV drugs, insect stings) than with oral ingestion."
+    },
+    {
+      "label": "B",
+      "heading": "Adrenaline dosing: route, dose and repeat interval",
+      "body": "Adrenaline 1:1,000 (1 mg/mL) by intramuscular injection into the anterolateral thigh is the first-line treatment for anaphylaxis.\n\nIM doses\n• Adult and child >12 years: 500 micrograms (0.5 mL)\n• Child 6–12 years: 300 micrograms (0.3 mL)\n• Child 6 months–6 years: 150 micrograms (0.15 mL)\n• Child <6 months: 100–150 micrograms (0.1–0.15 mL)\n\nRepeat dose: if no improvement after 5 minutes, administer a further IM dose at the same volume.\n\nAuto-injectors\nThe standard adult auto-injector (EpiPen 0.3 mg, Jext 300 micrograms, Emerade 300 micrograms) delivers 300 micrograms; the junior auto-injector (EpiPen Jr 0.15 mg, Jext 150 micrograms) delivers 150 micrograms. Check the expiry date before prescribing.\n\nIV route: use only in a specialist setting with continuous cardiac monitoring; adult bolus dose is 50 micrograms (0.5 mL of 1:10,000 solution), titrated cautiously."
+    },
+    {
+      "label": "C",
+      "heading": "Refractory anaphylaxis: IV infusion and adjunct therapy",
+      "body": "Refractory anaphylaxis is defined as failure to respond after two or more doses of IM adrenaline. Immediate escalation to IV adrenaline infusion with ICU involvement is required.\n\nIV adrenaline infusion preparation\nDilute 1 mg adrenaline in 100 mL sodium chloride 0.9% to give a concentration of 10 micrograms/mL. Start at 0.05 micrograms/kg/minute and titrate to clinical response.\n\nFluid resuscitation\nAnaphylaxis causes massive vasodilation and capillary leak. Give 500 mL–1 L crystalloid IV over 5–10 minutes; repeat boluses as required. Colloids are not recommended over crystalloids.\n\nSecond-line adjuncts (after adrenaline)\n• Chlorphenamine 10 mg IV — H1 antihistamine; reduces urticaria but does not reverse hypotension\n• Hydrocortisone 200 mg IV — slow onset; may attenuate biphasic reactions\n• Glucagon 1–2 mg IV — for patients on beta-blockers unresponsive to adrenaline\n\nRefractory bronchospasm: nebulised salbutamol 5 mg; consider IV magnesium sulphate 1.2–2 g over 20 minutes."
+    },
+    {
+      "label": "D",
+      "heading": "Observation periods, mast cell tryptase and discharge",
+      "body": "Observation periods\n• All patients: minimum 4 hours after symptom onset before any discharge decision\n• Severe reaction (respiratory compromise, hypotension, or loss of consciousness) or known biphasic risk factors: 12–24 hours inpatient observation\n\nMast cell tryptase sampling\n• Sample 1: as soon as possible (ideally within 1 hour of onset)\n• Sample 2: at 1–2 hours after onset (peak level)\n• Sample 3 (baseline): at ≥24 hours after the reaction or on recovery\nA result exceeding 1.2× baseline + 2 ng/mL supports the diagnosis of anaphylaxis.\n\nDischarge requirements — ALL must be met\n• Prescribe and demonstrate two adrenaline auto-injectors; confirm patient and carer competence\n• Provide a written anaphylaxis action plan\n• Advise patient to wear medical alert identification\n• Arrange allergy referral within 1 week and specialist clinic follow-up within 4–6 weeks\n• Document the identified trigger in the discharge letter"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "type": "whichText",
+      "stem": "the minimum observation time before any discharge decision can be made?",
+      "answer": "D",
+      "accept": ["D"],
+      "explain": "Text D — observation periods section.",
+      "options": [
+        {"key": "A", "text": "Text A"},
+        {"key": "B", "text": "Text B"},
+        {"key": "C", "text": "Text C"},
+        {"key": "D", "text": "Text D"}
+      ]
+    },
+    {
+      "id": 2,
+      "type": "whichText",
+      "stem": "the correct IM adrenaline dose for adults and children over 12 years?",
+      "answer": "B",
+      "accept": ["B"],
+      "explain": "Text B — IM doses section.",
+      "options": [
+        {"key": "A", "text": "Text A"},
+        {"key": "B", "text": "Text B"},
+        {"key": "C", "text": "Text C"},
+        {"key": "D", "text": "Text D"}
+      ]
+    },
+    {
+      "id": 3,
+      "type": "whichText",
+      "stem": "conditions that may be confused with anaphylaxis, including hereditary angioedema?",
+      "answer": "A",
+      "accept": ["A"],
+      "explain": "Text A — differential diagnoses.",
+      "options": [
+        {"key": "A", "text": "Text A"},
+        {"key": "B", "text": "Text B"},
+        {"key": "C", "text": "Text C"},
+        {"key": "D", "text": "Text D"}
+      ]
+    },
+    {
+      "id": 4,
+      "type": "whichText",
+      "stem": "how to prepare an IV adrenaline infusion for a patient not responding to intramuscular doses?",
+      "answer": "C",
+      "accept": ["C"],
+      "explain": "Text C — IV adrenaline infusion preparation.",
+      "options": [
+        {"key": "A", "text": "Text A"},
+        {"key": "B", "text": "Text B"},
+        {"key": "C", "text": "Text C"},
+        {"key": "D", "text": "Text D"}
+      ]
+    },
+    {
+      "id": 5,
+      "type": "whichText",
+      "stem": "the required follow-up timeline with a specialist allergy clinic after discharge?",
+      "answer": "D",
+      "accept": ["D"],
+      "explain": "Text D — discharge requirements.",
+      "options": [
+        {"key": "A", "text": "Text A"},
+        {"key": "B", "text": "Text B"},
+        {"key": "C", "text": "Text C"},
+        {"key": "D", "text": "Text D"}
+      ]
+    },
+    {
+      "id": 6,
+      "type": "whichText",
+      "stem": "which second-line drug to consider for patients who take beta-blockers?",
+      "answer": "C",
+      "accept": ["C"],
+      "explain": "Text C — second-line adjuncts.",
+      "options": [
+        {"key": "A", "text": "Text A"},
+        {"key": "B", "text": "Text B"},
+        {"key": "C", "text": "Text C"},
+        {"key": "D", "text": "Text D"}
+      ]
+    },
+    {
+      "id": 7,
+      "type": "whichText",
+      "stem": "how long to wait before repeating a dose of intramuscular adrenaline?",
+      "answer": "B",
+      "accept": ["B"],
+      "explain": "Text B — repeat dose instruction.",
+      "options": [
+        {"key": "A", "text": "Text A"},
+        {"key": "B", "text": "Text B"},
+        {"key": "C", "text": "Text C"},
+        {"key": "D", "text": "Text D"}
+      ]
+    },
+    {
+      "id": 8,
+      "type": "shortAnswer",
+      "stem": "What SpO₂ level is listed as a sign of a significant breathing problem in anaphylaxis?",
+      "answer": "SpO₂ <94%",
+      "accept": ["SpO₂ <94%", "<94%", "less than 94%", "94%"],
+      "explain": "Text A — breathing features."
+    },
+    {
+      "id": 9,
+      "type": "shortAnswer",
+      "stem": "What systolic blood pressure value is given as a threshold for hypotension in anaphylaxis?",
+      "answer": "SBP <90 mmHg",
+      "accept": ["SBP <90 mmHg", "<90 mmHg", "90 mmHg"],
+      "explain": "Text A — circulation features."
+    },
+    {
+      "id": 10,
+      "type": "shortAnswer",
+      "stem": "What volume of 1:1,000 adrenaline is drawn up for an adult intramuscular dose?",
+      "answer": "0.5 mL",
+      "accept": ["0.5 mL", "0.5mL", "500 micrograms"],
+      "explain": "Text B — IM doses."
+    },
+    {
+      "id": 11,
+      "type": "shortAnswer",
+      "stem": "After how many minutes should a second IM adrenaline dose be given if there is no improvement?",
+      "answer": "5 minutes",
+      "accept": ["5 minutes", "5 mins", "5"],
+      "explain": "Text B — repeat dose."
+    },
+    {
+      "id": 12,
+      "type": "shortAnswer",
+      "stem": "What concentration results when 1 mg of adrenaline is diluted in 100 mL sodium chloride 0.9%?",
+      "answer": "10 micrograms/mL",
+      "accept": ["10 micrograms/mL", "10 mcg/mL", "10 micrograms per mL"],
+      "explain": "Text C — IV infusion preparation."
+    },
+    {
+      "id": 13,
+      "type": "shortAnswer",
+      "stem": "What dose of IV hydrocortisone is recommended as a second-line adjunct in anaphylaxis?",
+      "answer": "200 mg",
+      "accept": ["200 mg", "200mg"],
+      "explain": "Text C — second-line adjuncts."
+    },
+    {
+      "id": 14,
+      "type": "shortAnswer",
+      "stem": "How long after the reaction should the baseline mast cell tryptase sample (Sample 3) be taken?",
+      "answer": "≥24 hours",
+      "accept": ["≥24 hours", "at ≥24 hours", "24 hours"],
+      "explain": "Text D — tryptase sampling: 'at ≥24 hours after the reaction or on recovery'."
+    },
+    {
+      "id": 15,
+      "type": "shortAnswer",
+      "stem": "Within what timeframe should an allergy referral be arranged after discharge?",
+      "answer": "1 week",
+      "accept": ["1 week", "within 1 week", "one week"],
+      "explain": "Text D — discharge requirements."
+    },
+    {
+      "id": 16,
+      "type": "gapFill",
+      "stem": "Hereditary angioedema causes swelling without urticaria and does not respond to …………………………………….",
+      "answer": "adrenaline",
+      "accept": ["adrenaline", "epinephrine"],
+      "explain": "Text A — differential diagnoses: HAE does not respond to adrenaline."
+    },
+    {
+      "id": 17,
+      "type": "gapFill",
+      "stem": "The junior auto-injector (EpiPen Jr 0.15 mg) delivers ……………………………………. micrograms of adrenaline.",
+      "answer": "150",
+      "accept": ["150", "150 micrograms"],
+      "explain": "Text B — auto-injectors section."
+    },
+    {
+      "id": 18,
+      "type": "gapFill",
+      "stem": "For an IV adrenaline infusion in refractory anaphylaxis, the starting rate is ……………………………………. micrograms/kg/minute.",
+      "answer": "0.05",
+      "accept": ["0.05", "0.05 micrograms/kg/minute"],
+      "explain": "Text C — IV infusion preparation."
+    },
+    {
+      "id": 19,
+      "type": "gapFill",
+      "stem": "Chlorphenamine 10 mg IV is described as an ……………………………………. antihistamine that reduces urticaria but does not reverse hypotension.",
+      "answer": "H1",
+      "accept": ["H1"],
+      "explain": "Text C — second-line adjuncts."
+    },
+    {
+      "id": 20,
+      "type": "gapFill",
+      "stem": "All patients must be observed for a minimum of ……………………………………. after symptom onset before any discharge decision.",
+      "answer": "4 hours",
+      "accept": ["4 hours", "4 hrs"],
+      "explain": "Text D — observation periods."
+    }
+  ],
+  "focusPhrases": [
+    "SpO₂ <94%",
+    "SBP <90 mmHg",
+    "0.5 mL",
+    "5 minutes",
+    "10 micrograms/mL",
+    "200 mg",
+    "≥24 hours after the reaction",
+    "1 week",
+    "adrenaline",
+    "150",
+    "0.05",
+    "H1",
+    "4 hours"
+  ],
+  "gist": [
+    "Q1–7 = which text (scan headings and unique clinical markers such as drug names and thresholds).",
+    "Q8–15 = lift exact words or numbers from the texts.",
+    "Q16–20 = gap-fill with short phrases copied directly from the texts."
+  ],
+  "vocab": [
+    {
+      "term": "anaphylaxis",
+      "gloss": "아나필락시스: 심각한 전신 과민반응"
+    },
+    {
+      "term": "angioedema",
+      "gloss": "혈관부종: 피부 깊은 층과 점막의 부종"
+    },
+    {
+      "term": "refractory",
+      "gloss": "불응성: 표준 치료에 반응하지 않는"
+    },
+    {
+      "term": "tryptase",
+      "gloss": "트립타제: 비만세포 활성화 시 분비되는 효소"
+    },
+    {
+      "term": "biphasic",
+      "gloss": "이중상: 초기 회복 후 수 시간 내 재발하는 반응"
+    }
+  ],
+  "sharedWhichPrompt": "In which text can you find information about"
+}

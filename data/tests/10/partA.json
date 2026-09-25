@@ -1,0 +1,328 @@
+{
+  "id": "A-10",
+  "part": "A",
+  "setNum": 10,
+  "title": "Acute kidney injury in hospital inpatients",
+  "type": "partA-full",
+  "instruction": "Look at Texts A–D. Questions 1–7: which text? Questions 8–15: word/short phrase from the texts. Questions 16–20: complete the sentence. Spelling matters. Target: 15 minutes.",
+  "sharedWhichPrompt": "In which text can you find information about",
+  "texts": [
+    {
+      "label": "A",
+      "heading": "AKI definition and KDIGO staging criteria",
+      "body": "Acute kidney injury (AKI) is defined as any of:\n• Rise in serum creatinine ≥26.5 µmol/L within 48 hours\n• Rise in serum creatinine to ≥1.5× baseline within 7 days\n• Urine output <0.5 mL/kg/h for ≥6 consecutive hours\n\nKDIGO staging\n• Stage 1: creatinine 1.5–1.9× baseline OR rise ≥26.5 µmol/L; urine output <0.5 mL/kg/h for 6–12 hours\n• Stage 2: creatinine 2.0–2.9× baseline; urine output <0.5 mL/kg/h for ≥12 hours\n• Stage 3: creatinine ≥3× baseline OR ≥353.6 µmol/L with acute rise ≥26.5 µmol/L; urine output <0.3 mL/kg/h for ≥24 hours OR anuria for ≥12 hours; or initiation of renal replacement therapy\n\nAKI staging guides escalation of monitoring and therapy intensity. Document baseline creatinine using the lowest value within the preceding 3 months."
+    },
+    {
+      "label": "B",
+      "heading": "Common causes and risk factors for AKI",
+      "body": "Pre-renal (reduced perfusion)\n• Hypovolaemia: diarrhoea, vomiting, haemorrhage, inadequate fluid intake\n• Sepsis and distributive shock\n• Cardiac failure with low output state\n• Hepatorenal syndrome\n\nIntrinsic renal\n• Acute tubular necrosis (ATN): most common; caused by ischaemia or nephrotoxins (aminoglycosides, contrast media, NSAIDs, vancomycin)\n• Acute interstitial nephritis: often drug-induced (penicillins, NSAIDs, PPIs) or immune-mediated\n• Glomerulonephritis: proteinuria and haematuria on urinalysis raises suspicion\n\nPost-renal (obstruction)\n• Bladder outlet obstruction (enlarged prostate, neurogenic bladder)\n• Bilateral ureteric obstruction (pelvic malignancy, retroperitoneal fibrosis)\n\nHigh-risk groups\n• Age ≥65 years\n• Chronic kidney disease (CKD): baseline eGFR <60 mL/min/1.73 m²\n• Diabetes, heart failure, liver disease\n• Recent nephrotoxin exposure (contrast, aminoglycosides, NSAIDs)"
+    },
+    {
+      "label": "C",
+      "heading": "Immediate AKI management bundle",
+      "body": "Assess and act within 6 hours of AKI recognition.\n\nFluid resuscitation\n• Give 500 mL crystalloid bolus (e.g. Hartmann's solution or 0.9% sodium chloride) if hypovolaemic; reassess after each bolus\n• Avoid aggressive fluid loading in AKI secondary to cardiac failure; seek senior advice\n\nStop nephrotoxins\n• Withhold NSAIDs, ACE inhibitors, angiotensin receptor blockers (ARBs), and diuretics when AKI is confirmed unless specifically indicated\n• Withhold aminoglycosides; if aminoglycosides essential, use once-daily dosing with serum level monitoring\n\nMonitoring\n• Urinalysis: dipstick for blood, protein, leucocytes, nitrites; send urine for microscopy and culture\n• Strict fluid balance with hourly urine output monitoring; insert catheter if output uncertain\n• Renal ultrasound within 24 hours to exclude obstruction if cause unclear\n\nEscalation\n• Serum creatinine, electrolytes, and bicarbonate every 6–12 hours in Stage 2–3 AKI"
+    },
+    {
+      "label": "D",
+      "heading": "Renal referral, dialysis indications, and drug dosing",
+      "body": "Indications for urgent renal team review\n• Suspected glomerulonephritis, vasculitis, or interstitial nephritis\n• AKI with no identifiable cause following initial assessment\n• Stage 3 AKI or AKI on CKD with eGFR <30 mL/min/1.73 m²\n• Refractory hyperkalaemia: K⁺ >6.5 mmol/L despite medical treatment\n• Severe metabolic acidosis: bicarbonate <15 mmol/L\n• Fluid overload refractory to diuretics\n\nRenal replacement therapy (RRT) triggers\nRRT is considered when any of: hyperkalaemia unresponsive to treatment, uraemic encephalopathy, pericarditis, or severe pulmonary oedema not responsive to diuretics.\n\nDrug dosing in AKI\n• Low-molecular-weight heparin: reduce dose or switch to unfractionated heparin when eGFR <30 mL/min/1.73 m²\n• Metformin: withhold in all stages of AKI\n• Renally cleared antibiotics (e.g. trimethoprim, nitrofurantoin): withhold or adjust; seek pharmacy advice"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "type": "whichText",
+      "stem": "the urine output threshold that defines AKI?",
+      "answer": "A",
+      "accept": ["A"],
+      "explain": "Text A — AKI definition includes urine output <0.5 mL/kg/h for ≥6 consecutive hours.",
+      "options": [
+        {"key": "A", "text": "Text A"},
+        {"key": "B", "text": "Text B"},
+        {"key": "C", "text": "Text C"},
+        {"key": "D", "text": "Text D"}
+      ]
+    },
+    {
+      "id": 2,
+      "type": "whichText",
+      "stem": "which drug classes must be withheld when AKI is confirmed?",
+      "answer": "C",
+      "accept": ["C"],
+      "explain": "Text C — stop nephrotoxins section lists NSAIDs, ACE inhibitors, ARBs, diuretics, aminoglycosides.",
+      "options": [
+        {"key": "A", "text": "Text A"},
+        {"key": "B", "text": "Text B"},
+        {"key": "C", "text": "Text C"},
+        {"key": "D", "text": "Text D"}
+      ]
+    },
+    {
+      "id": 3,
+      "type": "whichText",
+      "stem": "the eGFR cut-off below which low-molecular-weight heparin dose should be reduced?",
+      "answer": "D",
+      "accept": ["D"],
+      "explain": "Text D — drug dosing box: LMWH reduce dose when eGFR <30 mL/min/1.73 m².",
+      "options": [
+        {"key": "A", "text": "Text A"},
+        {"key": "B", "text": "Text B"},
+        {"key": "C", "text": "Text C"},
+        {"key": "D", "text": "Text D"}
+      ]
+    },
+    {
+      "id": 4,
+      "type": "whichText",
+      "stem": "the most common form of intrinsic renal injury and its causes?",
+      "answer": "B",
+      "accept": ["B"],
+      "explain": "Text B — ATN: most common; caused by ischaemia or nephrotoxins.",
+      "options": [
+        {"key": "A", "text": "Text A"},
+        {"key": "B", "text": "Text B"},
+        {"key": "C", "text": "Text C"},
+        {"key": "D", "text": "Text D"}
+      ]
+    },
+    {
+      "id": 5,
+      "type": "whichText",
+      "stem": "when a renal ultrasound should be performed?",
+      "answer": "C",
+      "accept": ["C"],
+      "explain": "Text C — renal ultrasound within 24 hours if cause unclear.",
+      "options": [
+        {"key": "A", "text": "Text A"},
+        {"key": "B", "text": "Text B"},
+        {"key": "C", "text": "Text C"},
+        {"key": "D", "text": "Text D"}
+      ]
+    },
+    {
+      "id": 6,
+      "type": "whichText",
+      "stem": "the serum creatinine level that defines KDIGO Stage 3?",
+      "answer": "A",
+      "accept": ["A"],
+      "explain": "Text A — Stage 3: creatinine ≥3× baseline OR ≥353.6 µmol/L.",
+      "options": [
+        {"key": "A", "text": "Text A"},
+        {"key": "B", "text": "Text B"},
+        {"key": "C", "text": "Text C"},
+        {"key": "D", "text": "Text D"}
+      ]
+    },
+    {
+      "id": 7,
+      "type": "whichText",
+      "stem": "triggers for starting renal replacement therapy?",
+      "answer": "D",
+      "accept": ["D"],
+      "explain": "Text D — RRT triggers section.",
+      "options": [
+        {"key": "A", "text": "Text A"},
+        {"key": "B", "text": "Text B"},
+        {"key": "C", "text": "Text C"},
+        {"key": "D", "text": "Text D"}
+      ]
+    },
+    {
+      "id": 8,
+      "type": "shortAnswer",
+      "stem": "What serum creatinine rise within 48 hours meets the AKI definition?",
+      "answer": "≥26.5 µmol/L",
+      "accept": [
+        "≥26.5 µmol/L",
+        "26.5 µmol/L",
+        "≥26.5",
+        "26.5"
+      ],
+      "explain": "Text A — definition bullet: rise ≥26.5 µmol/L within 48 hours."
+    },
+    {
+      "id": 9,
+      "type": "shortAnswer",
+      "stem": "For how many consecutive hours must urine output remain below 0.5 mL/kg/h to meet the AKI definition?",
+      "answer": "6 consecutive hours",
+      "accept": [
+        "6 consecutive hours",
+        "≥6 consecutive hours",
+        "6 hours",
+        "≥6 hours"
+      ],
+      "explain": "Text A — urine output <0.5 mL/kg/h for ≥6 consecutive hours."
+    },
+    {
+      "id": 10,
+      "type": "shortAnswer",
+      "stem": "Which aminoglycoside dosing regimen is recommended if aminoglycosides are essential in AKI?",
+      "answer": "once-daily dosing",
+      "accept": [
+        "once-daily dosing",
+        "once daily dosing",
+        "once-daily"
+      ],
+      "explain": "Text C — stop nephrotoxins: use once-daily dosing with serum level monitoring."
+    },
+    {
+      "id": 11,
+      "type": "shortAnswer",
+      "stem": "What volume of crystalloid bolus is recommended for the hypovolaemic AKI patient?",
+      "answer": "500 mL",
+      "accept": [
+        "500 mL",
+        "500ml",
+        "500"
+      ],
+      "explain": "Text C — fluid resuscitation: Give 500 mL crystalloid bolus."
+    },
+    {
+      "id": 12,
+      "type": "shortAnswer",
+      "stem": "Which oral antidiabetic drug must be withheld in all stages of AKI?",
+      "answer": "Metformin",
+      "accept": [
+        "Metformin",
+        "metformin"
+      ],
+      "explain": "Text D — drug dosing: Metformin: withhold in all stages of AKI."
+    },
+    {
+      "id": 13,
+      "type": "shortAnswer",
+      "stem": "What potassium level defines refractory hyperkalaemia requiring urgent renal review?",
+      "answer": "K⁺ >6.5 mmol/L",
+      "accept": [
+        "K⁺ >6.5 mmol/L",
+        ">6.5 mmol/L",
+        "6.5 mmol/L",
+        ">6.5"
+      ],
+      "explain": "Text D — refractory hyperkalaemia: K⁺ >6.5 mmol/L despite medical treatment."
+    },
+    {
+      "id": 14,
+      "type": "shortAnswer",
+      "stem": "Within what timeframe should a renal ultrasound be performed when the cause of AKI is unclear?",
+      "answer": "24 hours",
+      "accept": [
+        "24 hours",
+        "within 24 hours",
+        "24 hrs",
+        "24h"
+      ],
+      "explain": "Text C — renal ultrasound within 24 hours to exclude obstruction."
+    },
+    {
+      "id": 15,
+      "type": "shortAnswer",
+      "stem": "What baseline eGFR threshold defines the high-risk CKD group for developing AKI?",
+      "answer": "<60 mL/min/1.73 m²",
+      "accept": [
+        "<60 mL/min/1.73 m²",
+        "60 mL/min/1.73 m²",
+        "<60",
+        "eGFR <60"
+      ],
+      "explain": "Text B — high-risk groups: CKD baseline eGFR <60 mL/min/1.73 m²."
+    },
+    {
+      "id": 16,
+      "type": "gapFill",
+      "stem": "Baseline creatinine should be documented using the lowest value within the preceding …………………………………… months.",
+      "answer": "3",
+      "accept": [
+        "3",
+        "three"
+      ],
+      "explain": "Text A — lowest value within the preceding 3 months."
+    },
+    {
+      "id": 17,
+      "type": "gapFill",
+      "stem": "Urine dipstick in AKI should check for blood, protein, leucocytes, and …………………………………….",
+      "answer": "nitrites",
+      "accept": [
+        "nitrites"
+      ],
+      "explain": "Text C — urinalysis: dipstick for blood, protein, leucocytes, nitrites."
+    },
+    {
+      "id": 18,
+      "type": "gapFill",
+      "stem": "In KDIGO Stage 3, anuria for …………………………………… hours or more also meets the staging criterion.",
+      "answer": "12",
+      "accept": [
+        "12",
+        "twelve",
+        "≥12"
+      ],
+      "explain": "Text A — Stage 3: anuria for ≥12 hours."
+    },
+    {
+      "id": 19,
+      "type": "gapFill",
+      "stem": "Metformin must be withheld in …………………………………… stages of AKI.",
+      "answer": "all",
+      "accept": [
+        "all"
+      ],
+      "explain": "Text D — Metformin: withhold in all stages of AKI."
+    },
+    {
+      "id": 20,
+      "type": "gapFill",
+      "stem": "Bilateral ureteric obstruction may result from pelvic malignancy or …………………………………….",
+      "answer": "retroperitoneal fibrosis",
+      "accept": [
+        "retroperitoneal fibrosis"
+      ],
+      "explain": "Text B — post-renal: bilateral ureteric obstruction (pelvic malignancy, retroperitoneal fibrosis)."
+    }
+  ],
+  "focusPhrases": [
+    "≥26.5 µmol/L",
+    "6 consecutive hours",
+    "once-daily dosing",
+    "500 mL",
+    "Metformin",
+    "K⁺ >6.5 mmol/L",
+    "24 hours",
+    "<60 mL/min/1.73 m²",
+    "3",
+    "nitrites",
+    "12",
+    "all",
+    "retroperitoneal fibrosis",
+    "353.6 µmol/L",
+    "<30 mL/min/1.73 m²"
+  ],
+  "gist": [
+    "Q1–7 = which text (scan headings and unique numbers/thresholds).",
+    "Q8–15 = lift exact words, numbers, or drug names directly from the texts.",
+    "Q16–20 = gap-fill with short words or phrases copied from the texts."
+  ],
+  "vocab": [
+    {
+      "term": "nephrotoxin",
+      "gloss": "신독성 물질: 신장 손상을 유발하는 약물 또는 물질"
+    },
+    {
+      "term": "hyperkalaemia",
+      "gloss": "고칼륨혈증: 혈중 칼륨 수치 과다 상승"
+    },
+    {
+      "term": "uraemic encephalopathy",
+      "gloss": "요독성 뇌증: 신부전으로 인한 독소 축적에 의한 뇌기능 장애"
+    },
+    {
+      "term": "retroperitoneal fibrosis",
+      "gloss": "후복막 섬유증: 복막 뒤쪽에 생기는 섬유화로 요관 폐색 유발"
+    },
+    {
+      "term": "anuria",
+      "gloss": "무뇨: 소변 생성이 완전히 정지된 상태 (보통 <100 mL/일)"
+    }
+  ]
+}

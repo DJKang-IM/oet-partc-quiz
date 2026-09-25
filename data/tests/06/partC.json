@@ -1,0 +1,469 @@
+{
+  "id": "C-06",
+  "part": "C",
+  "setNum": 6,
+  "type": "dual-text",
+  "title": "Disclosing error & overdiagnosis",
+  "instruction": "Official-style Part C: two texts, 8 questions each (16 total). Focus phrases are highlighted in the passages.",
+  "texts": [
+    {
+      "label": "Text 1",
+      "title": "Disclosing medical error: why candour is harder than the policy suggests",
+      "paragraphs": [
+        "Every week in NHS hospitals, something goes wrong that should not have. A medication reaches the wrong patient, a monitoring abnormality is overlooked, a surgical count is incorrect. Most patients never learn the truth. Policy has tried to change this. Since 2014, the statutory Duty of Candour in England has required healthcare providers to inform patients or their relatives when something has gone wrong and caused harm. Wales, Scotland and Northern Ireland have equivalent obligations. Yet surveys consistently find that disclosure conversations are held late, incompletely, or not at all.",
+        "The gap between policy and practice is not, for the most part, a gap of malice. Clinicians who stay silent do not usually wish patients ill; they are frightened. They fear that acknowledgement of error will be taken as an admission of negligence, leading to legal action that damages a career. This fear is partly irrational — in most jurisdictions an apology is explicitly protected from use as evidence of liability — and partly not: social media can convert a hospital's internal disclosure into a public event before any formal process has concluded.",
+        "Beneath the legal anxiety lies something more personal: a threat to professional identity. Medicine trains its practitioners to believe that competence is binary — you either know what to do, or you should not be there. Error therefore does not feel like a system failure; it feels like self-exposure. Clinicians describe the moment they realised something had gone wrong as a 'crack in the floor', a sudden drop into uncertainty that disclosure can only widen. That framing, however psychologically understandable, is also clinically dangerous, because it casts honesty as risk rather than as obligation.",
+        "Evidence from structured disclosure programmes challenges the assumption that honesty invites lawsuits. Where hospitals have adopted 'communicate and resolve' models — offering explanation, apology, and where appropriate compensation before litigation is initiated — overall litigation rates have fallen and average compensation costs have decreased. Patients and relatives consistently report that what they want first is not money, but an honest explanation and an assurance that others will not be harmed in the same way. Silence, it turns out, frequently drives litigation rather than preventing it.",
+        "Institutional factors compound individual ones. In hierarchically ordered medical teams, admitting error to a patient is implicitly an admission before colleagues, and the senior clinician who speaks first models either safety or shame. Where organisations do not review near-misses without blame, staff learn that the environment cannot hold difficult truths. A disclosure programme needs more than a written policy leaflet; it requires protected time for preparation, access to a colleague trained in communication, and a clear pathway from the bedside to formal incident reporting.",
+        "What patients actually need from a disclosure conversation is often simpler than clinicians expect. Families do not primarily need legal terminology or risk statistics; they need the answer to the question 'did the care fall short?' delivered in plain language, followed by what will be done differently. Research consistently shows that a sincere expression of regret — not a qualified statement hedged in the passive voice — satisfies a fundamental human need to be seen as worth explaining to. Anything less is experienced as evasion.",
+        "Training helps, but the scenario design matters. Role-play exercises that end with simulated anger and tears shape trainees to expect hostility; those in which a trained actor plays a family member who accepts the explanation with evident relief more accurately represent the likely outcome. Rehearsing good disclosure conversations normalises the activity. Departments that practise this routinely find that junior doctors stop regarding candour as a career-ending event and begin treating it as a professional skill alongside history-taking and procedural consent.",
+        "Regulatory frameworks have moved faster than culture. Inspectors can tick the candour box if a hospital has a written policy; they cannot easily measure whether the conversation happened with the warmth and clarity the policy intends. This enforcement gap will persist until institutions reward honest disclosure as visibly as they reward clean audit data. A unit that publicly commends a team for disclosing an error well sends a signal that inspections, however thorough, cannot replicate.",
+        "Open disclosure is, at its core, a promise: that the relationship between clinician and patient survives the moment when care fell short. Programmes can scaffold the conversation; supervisors can model it; policies can mandate it. But none of these supports will work if the underlying conviction is absent — the belief that a patient who was harmed is owed not silence but truth. Candour is not a compliance exercise. It is the debt that honest medicine always carries forward."
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "stem": "In paragraph one, the writer's main claim about disclosure conversations is that they",
+          "options": [
+            {
+              "key": "A",
+              "text": "are legally required under statute but apply only to the most serious adverse events."
+            },
+            {
+              "key": "B",
+              "text": "are regularly contested by patients who would rather seek financial compensation."
+            },
+            {
+              "key": "C",
+              "text": "are understood by most clinical staff but avoided because of legal complexity."
+            },
+            {
+              "key": "D",
+              "text": "are commonly delayed, incomplete, or omitted altogether."
+            }
+          ],
+          "answer": "D",
+          "focus": "held late, incompletely, or not at all",
+          "explain": "지문의 'held late, incompletely, or not at all' 부분 참조 → are commonly delayed, incomplete, or omitted altogether."
+        },
+        {
+          "id": 2,
+          "stem": "'That framing' in paragraph three refers to viewing error as",
+          "options": [
+            {
+              "key": "A",
+              "text": "a deficit in systemic safeguards that requires escalation to senior regulators."
+            },
+            {
+              "key": "B",
+              "text": "a personal failing that threatens the clinician's professional identity."
+            },
+            {
+              "key": "C",
+              "text": "an opportunity for individual reflection and improved communication with families."
+            },
+            {
+              "key": "D",
+              "text": "a legal liability that must be managed through institutional support structures."
+            }
+          ],
+          "answer": "B",
+          "focus": "That framing",
+          "explain": "지문의 'That framing' 부분 참조 → a personal failing that threatens the clinician's professional identity."
+        },
+        {
+          "id": 3,
+          "stem": "In paragraph four, 'communicate and resolve' models are cited as evidence that",
+          "options": [
+            {
+              "key": "A",
+              "text": "open disclosure tends to reduce, rather than increase, litigation rates."
+            },
+            {
+              "key": "B",
+              "text": "patients who receive explanations are less likely to seek further escalation."
+            },
+            {
+              "key": "C",
+              "text": "financial compensation is what most families primarily want from disclosure."
+            },
+            {
+              "key": "D",
+              "text": "risk managers are better placed than clinicians to lead disclosure conversations."
+            }
+          ],
+          "answer": "A",
+          "focus": "communicate and resolve",
+          "explain": "지문의 'communicate and resolve' 부분 참조 → open disclosure tends to reduce, rather than increase, litigation rates."
+        },
+        {
+          "id": 4,
+          "stem": "The writer uses the phrase 'crack in the floor' in paragraph three to",
+          "options": [
+            {
+              "key": "A",
+              "text": "illustrate the legal risk that honest disclosure is thought to create."
+            },
+            {
+              "key": "B",
+              "text": "suggest that disclosure frameworks are structurally fragile without senior support."
+            },
+            {
+              "key": "C",
+              "text": "convey how clinicians experience error as a sudden rupture in professional certainty."
+            },
+            {
+              "key": "D",
+              "text": "describe the moment a family first learns that care has fallen short."
+            }
+          ],
+          "answer": "C",
+          "focus": "crack in the floor",
+          "explain": "지문의 'crack in the floor' 부분 참조 → convey how clinicians experience error as a sudden rupture in professional certainty."
+        },
+        {
+          "id": 5,
+          "stem": "According to paragraph six, what patients primarily need from a disclosure conversation is",
+          "options": [
+            {
+              "key": "A",
+              "text": "a detailed medical account of how the adverse event occurred."
+            },
+            {
+              "key": "B",
+              "text": "a genuine apology rather than a carefully qualified statement."
+            },
+            {
+              "key": "C",
+              "text": "a guarantee that the responsible clinician has faced formal consequences."
+            },
+            {
+              "key": "D",
+              "text": "statistical reassurance about how rarely such events occur nationally."
+            }
+          ],
+          "answer": "B",
+          "focus": "sincere expression of regret",
+          "explain": "지문의 'sincere expression of regret' 부분 참조 → a genuine apology rather than a carefully qualified statement."
+        },
+        {
+          "id": 6,
+          "stem": "In paragraph seven, the writer argues that rehearsing good disclosure conversations",
+          "options": [
+            {
+              "key": "A",
+              "text": "reveals that bereaved family members are more often hostile than experience suggests."
+            },
+            {
+              "key": "B",
+              "text": "is only effective when a communication specialist leads the training session."
+            },
+            {
+              "key": "C",
+              "text": "helps trainees anticipate the legal questions that families are likely to raise."
+            },
+            {
+              "key": "D",
+              "text": "enables junior doctors to regard candour as an ordinary clinical competency."
+            }
+          ],
+          "answer": "D",
+          "focus": "a professional skill",
+          "explain": "지문의 'a professional skill' 부분 참조 → enables junior doctors to regard candour as an ordinary clinical competency."
+        },
+        {
+          "id": 7,
+          "stem": "In paragraph eight, the writer suggests that inspectors currently cannot assess whether",
+          "options": [
+            {
+              "key": "A",
+              "text": "hospitals have both written and implemented a formal candour policy document."
+            },
+            {
+              "key": "B",
+              "text": "error rates have decreased following the introduction of disclosure training programmes."
+            },
+            {
+              "key": "C",
+              "text": "disclosure conversations are conducted with the quality the policy intends."
+            },
+            {
+              "key": "D",
+              "text": "clinical staff have attended mandatory training in communication and candour skills."
+            }
+          ],
+          "answer": "C",
+          "focus": "warmth and clarity",
+          "explain": "지문의 'warmth and clarity' 부분 참조 → disclosure conversations are conducted with the quality the policy intends."
+        },
+        {
+          "id": 8,
+          "stem": "In the final paragraph, the writer's view is that effective open disclosure requires",
+          "options": [
+            {
+              "key": "A",
+              "text": "an authentic belief that harmed patients are owed honesty, not silence."
+            },
+            {
+              "key": "B",
+              "text": "inspection frameworks capable of measuring the quality of each disclosure exchange."
+            },
+            {
+              "key": "C",
+              "text": "mandatory communication training before any clinician discusses an adverse outcome."
+            },
+            {
+              "key": "D",
+              "text": "financial incentives to encourage timely and transparent error reporting by hospitals."
+            }
+          ],
+          "answer": "A",
+          "focus": "Candour is not a compliance exercise",
+          "explain": "지문의 'Candour is not a compliance exercise' 부분 참조 → an authentic belief that harmed patients are owed honesty, not silence."
+        }
+      ]
+    },
+    {
+      "label": "Text 2",
+      "title": "Overdiagnosis: when screening finds what would never have mattered",
+      "paragraphs": [
+        "Screening programmes carry a premise so appealing it rarely needs stating: finding disease early saves lives. That premise is true for some conditions and partly true for others. But it conceals a third possibility, one that population medicine has been slow to name openly: that the disease found by a screening test would never, in the absence of the test, have caused symptoms, disability, or death. This phenomenon — overdiagnosis — is not a diagnostic error. The test has performed accurately. The problem is that accuracy and clinical relevance are not the same thing.",
+        "The clearest illustration comes from autopsy studies. Post-mortem examinations of people who died from entirely unrelated causes find collections of cells meeting every histological criterion for malignancy — in thyroids, prostate glands, and breast tissue — at rates far exceeding the clinical incidence of those cancers in life. In some series, more than half of men over seventy harbour foci of prostate cancer that remained clinically silent throughout their lives. The screening test simply performed an introduction that had no clinical consequence: it named something that nature had already decided to leave alone.",
+        "Lead-time bias adds a statistical distortion that compounds the confusion. When a cancer is detected eighteen months earlier than it would otherwise have presented, survival calculated from diagnosis appears to improve, even if the patient dies on precisely the same day as they would have done without the test. The numbers look better; nothing has changed clinically. Researchers have described early diagnosis as 'a rumour with a timestamp': the detection creates a record, the record generates statistics, and the statistics are then recruited to justify the programme that generated them.",
+        "South Korea offers a compelling natural experiment. Following the introduction of ultrasound thyroid screening in the 1990s, the incidence of thyroid cancer rose approximately fifteen-fold over two decades. Mortality from thyroid cancer barely moved. The overwhelming majority of new cases were papillary microcarcinomas, a form that is largely indolent in autopsy series. After a national analysis highlighted the discrepancy, some clinicians began recommending surveillance rather than thyroidectomy; incidence declined as screening intensity fell. The population had not become sicker. It was simply looked at more closely.",
+        "The harms of overdiagnosis are real and varied. A patient who receives a cancer label faces anxiety that may persist long after treatment ends, reduced insurability in some healthcare systems, and exposure to surgery, radiotherapy, or hormonal therapy with its own morbidity. There is also what might be called the permanent reorganisation of identity: the individual comes to understand themselves as a cancer survivor for a disease that, had it gone undetected, would have caused no suffering whatsoever. The clinical profession has tended to treat these harms as a tolerable cost of finding the cases that genuinely matter.",
+        "Communicating this uncertainty is the practical challenge. Telling a patient that a nodule found on imaging 'probably would never have harmed you' can sound like a retrospective defence of incomplete treatment. Patients have been socialised to believe that finding cancer early is always good, and that anything short of treatment is recklessness. Clinicians who recommend active surveillance for low-risk lesions find themselves accounting for every subsequent imaging interval against the unvoiced suspicion that they are 'watching someone die'. The vocabulary of reassurance is genuinely inadequate for this task, and no communication guide has yet fixed that.",
+        "Reform requires honesty about what screening programmes were designed to achieve and what they actually deliver. Randomised trials in mammography screening demonstrate a modest reduction in breast cancer mortality, but also a rate of overdiagnosis that ranges from ten to over thirty percent depending on the methodology. Presenting both figures to the public — lives saved alongside diagnoses that would better have been avoided — is the kind of transparency that health communication has historically found difficult to sustain without appearing to undermine the very programme it is defending.",
+        "Overdiagnosis does not mean screening is wrong. It means screening is a trade with two columns, and that both must be counted and disclosed honestly. The patients who benefit deserve gratitude; those subjected to unnecessary treatment deserve acknowledgement and, where appropriate, an apology. Until clinical and public conversation can hold that tension without resolving it prematurely in favour of the test, screening programmes will continue to perform some of their benefit visibly and some of their harm invisibly. The test result is certain; the meaning is not."
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "stem": "In paragraph one, the writer argues that overdiagnosis is distinguished from diagnostic error because",
+          "options": [
+            {
+              "key": "A",
+              "text": "the pathological features identified do not meet standard malignancy criteria."
+            },
+            {
+              "key": "B",
+              "text": "the test was applied to a population with a very low baseline clinical risk."
+            },
+            {
+              "key": "C",
+              "text": "the condition found is genuinely present but poses no clinical threat."
+            },
+            {
+              "key": "D",
+              "text": "the clinician who reported the finding lacked adequate specialist training."
+            }
+          ],
+          "answer": "C",
+          "focus": "not a diagnostic error",
+          "explain": "지문의 'not a diagnostic error' 부분 참조 → the condition found is genuinely present but poses no clinical threat."
+        },
+        {
+          "id": 2,
+          "stem": "In paragraph two, the phrase 'an introduction that had no clinical consequence' refers to",
+          "options": [
+            {
+              "key": "A",
+              "text": "the detection by screening of cells that would never have caused illness."
+            },
+            {
+              "key": "B",
+              "text": "a clinical consultation in which a doctor failed to explain a result's implications."
+            },
+            {
+              "key": "C",
+              "text": "an incidental imaging finding that was investigated and later proved benign."
+            },
+            {
+              "key": "D",
+              "text": "a biopsy procedure that identified a malignancy subsequently requiring treatment."
+            }
+          ],
+          "answer": "A",
+          "focus": "introduction that had no clinical consequence",
+          "explain": "지문의 'introduction that had no clinical consequence' 부분 참조 → the detection by screening of cells that would never have caused illness."
+        },
+        {
+          "id": 3,
+          "stem": "'A rumour with a timestamp' in paragraph three describes a situation in which",
+          "options": [
+            {
+              "key": "A",
+              "text": "a diagnosis is communicated to a patient before the clinical implications are understood."
+            },
+            {
+              "key": "B",
+              "text": "a statistical result is used to justify the very programme that produced it."
+            },
+            {
+              "key": "C",
+              "text": "a test result is circulated informally among teams without formal governance review."
+            },
+            {
+              "key": "D",
+              "text": "an early diagnosis creates an illusion of longer survival without any real clinical gain."
+            }
+          ],
+          "answer": "D",
+          "focus": "a rumour with a timestamp",
+          "explain": "지문의 'a rumour with a timestamp' 부분 참조 → an early diagnosis creates an illusion of longer survival without any real clinical gain."
+        },
+        {
+          "id": 4,
+          "stem": "The writer uses the example of South Korea in paragraph four in order to",
+          "options": [
+            {
+              "key": "A",
+              "text": "demonstrate that ultrasound overestimates the malignant potential of thyroid nodules."
+            },
+            {
+              "key": "B",
+              "text": "show that more testing can raise apparent incidence without changing mortality rates."
+            },
+            {
+              "key": "C",
+              "text": "argue that thyroid cancer management should shift entirely to active surveillance worldwide."
+            },
+            {
+              "key": "D",
+              "text": "illustrate how national cancer registries can conceal important regional epidemiological differences."
+            }
+          ],
+          "answer": "B",
+          "focus": "simply looked at more closely",
+          "explain": "지문의 'simply looked at more closely' 부분 참조 → show that more testing can raise apparent incidence without changing mortality rates."
+        },
+        {
+          "id": 5,
+          "stem": "According to paragraph five, one harm of overdiagnosis is that patients may",
+          "options": [
+            {
+              "key": "A",
+              "text": "receive treatments whose side-effects exceed those of the underlying condition itself."
+            },
+            {
+              "key": "B",
+              "text": "develop lasting anxiety about recurrence that continues long after treatment concludes."
+            },
+            {
+              "key": "C",
+              "text": "come to define themselves by a condition that would never have harmed them."
+            },
+            {
+              "key": "D",
+              "text": "face difficulty obtaining insurance because of a diagnosis that posed no clinical risk."
+            }
+          ],
+          "answer": "C",
+          "focus": "permanent reorganisation of identity",
+          "explain": "지문의 'permanent reorganisation of identity' 부분 참조 → come to define themselves by a condition that would never have harmed them."
+        },
+        {
+          "id": 6,
+          "stem": "In paragraph six, the phrase 'vocabulary of reassurance' suggests that",
+          "options": [
+            {
+              "key": "A",
+              "text": "existing clinical language cannot adequately express the concept of a harmless cancer."
+            },
+            {
+              "key": "B",
+              "text": "clinicians who choose surveillance routinely fail to explain their reasoning to patients."
+            },
+            {
+              "key": "C",
+              "text": "reassurance about a low-risk lesion is typically perceived as a sign of inadequate care."
+            },
+            {
+              "key": "D",
+              "text": "public health guidelines have not been updated to account for overdiagnosis evidence."
+            }
+          ],
+          "answer": "A",
+          "focus": "vocabulary of reassurance",
+          "explain": "지문의 'vocabulary of reassurance' 부분 참조 → existing clinical language cannot adequately express the concept of a harmless cancer."
+        },
+        {
+          "id": 7,
+          "stem": "According to paragraph seven, estimates of overdiagnosis in mammography trials vary because",
+          "options": [
+            {
+              "key": "A",
+              "text": "different countries define cancer using different histological and clinical thresholds."
+            },
+            {
+              "key": "B",
+              "text": "trials were conducted in different age groups and over different follow-up periods."
+            },
+            {
+              "key": "C",
+              "text": "radiologists' interpretations of screening images differ systematically by training level."
+            },
+            {
+              "key": "D",
+              "text": "the figures depend on which analytical method is used to calculate them."
+            }
+          ],
+          "answer": "D",
+          "focus": "depending on the methodology",
+          "explain": "지문의 'depending on the methodology' 부분 참조 → the figures depend on which analytical method is used to calculate them."
+        },
+        {
+          "id": 8,
+          "stem": "In the final paragraph, the writer regards screening programmes as",
+          "options": [
+            {
+              "key": "A",
+              "text": "a flawed strategy that should be fundamentally redesigned to minimise overdiagnosis risk."
+            },
+            {
+              "key": "B",
+              "text": "a balance of genuine benefits and real harms that both deserve honest acknowledgement."
+            },
+            {
+              "key": "C",
+              "text": "an essential component of cancer prevention despite the harms that occasionally result."
+            },
+            {
+              "key": "D",
+              "text": "a source of statistical illusion that ultimately damages public trust in preventive medicine."
+            }
+          ],
+          "answer": "B",
+          "focus": "a trade with two columns",
+          "explain": "지문의 'a trade with two columns' 부분 참조 → a balance of genuine benefits and real harms that both deserve honest acknowledgement."
+        }
+      ]
+    }
+  ],
+  "gist": [
+    "Candour in practice: policy mandates disclosure but culture must support it.",
+    "Overdiagnosis: screening finds real cells whose label, not their biology, causes the harm."
+  ],
+  "vocab": [
+    {
+      "term": "candour",
+      "gloss": "솔직함·의무 공개: 의료 오류를 환자에게 투명하게 알리는 것"
+    },
+    {
+      "term": "overdiagnosis",
+      "gloss": "과잉진단: 치료하지 않아도 해가 되지 않았을 질환을 진단하는 것"
+    },
+    {
+      "term": "indolent",
+      "gloss": "무증상 진행성: 임상증상 없이 천천히 자라는 (종양)"
+    },
+    {
+      "term": "lead-time bias",
+      "gloss": "선행 시간 편향: 조기 진단으로 생존 기간이 늘어난 것처럼 보이는 통계 오류"
+    },
+    {
+      "term": "morbidity",
+      "gloss": "이환율·합병증 부담: 치료나 질환으로 인한 건강 피해"
+    }
+  ]
+}

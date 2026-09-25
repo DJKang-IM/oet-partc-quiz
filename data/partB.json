@@ -385,6 +385,1594 @@
           "gloss": "호흡기 마스크 밀착 검사"
         }
       ]
+    },
+    {
+      "id": "B-03",
+      "part": "B",
+      "setNum": 3,
+      "type": "workplace",
+      "title": "Emergency department & radiology extracts",
+      "instruction": "Six workplace extracts. Choose A, B or C. Focus phrases highlighted.",
+      "items": [
+        {
+          "id": 1,
+          "extract": "Extract from the radiology department contrast media allergy policy:\n\nAll patients must be screened for prior adverse reactions to iodinated contrast media at the time of referral. Patients who have experienced a prior moderate or severe reaction — defined as bronchospasm, laryngeal oedema, or any reaction requiring emergency treatment — must receive a corticosteroid pre-medication protocol (methylprednisolone 32 mg orally at 12 hours and 2 hours before contrast administration) and must not proceed without an anaesthetist informed and available. A low-osmolality, non-ionic agent must be used in all cases of prior reaction, regardless of severity. Patients with mild prior reactions such as urticaria, flushing, or limited pruritus may proceed after a risk–benefit discussion documented by the reporting radiologist. Renal function must be checked within 72 hours of any contrast-enhanced CT in patients prescribed metformin or with an estimated GFR below 45 mL/min/1.73 m². Record all decisions in the radiology information system before the patient enters the scan room.",
+          "stem": "According to the policy, patients who have experienced a prior moderate or severe contrast reaction must",
+          "options": [
+            {
+              "key": "A",
+              "text": "use a low-osmolality, non-ionic agent and arrange a documented risk–benefit discussion with the reporting radiologist before the scan."
+            },
+            {
+              "key": "B",
+              "text": "have renal function checked within 72 hours and be reviewed by an anaesthetist to confirm they are safe to receive contrast."
+            },
+            {
+              "key": "C",
+              "text": "receive the corticosteroid pre-medication protocol and not proceed until an anaesthetist has been informed and is available."
+            }
+          ],
+          "answer": "C",
+          "explain": "핵심: prior moderate or severe reaction → pre-medication protocol AND anaesthetist informed and available before proceeding.",
+          "focusPhrases": [
+            "prior moderate or severe reaction",
+            "pre-medication protocol",
+            "anaesthetist informed and available"
+          ],
+          "wordCount": 158
+        },
+        {
+          "id": 2,
+          "extract": "Memo from the ED clinical lead to all triage nursing staff:\n\nIt has come to my attention that triage timestamps are not always being entered at the actual moment of patient assessment. Entering the time retrospectively — even by a few minutes — distorts our four-hour performance data and, more seriously, masks real delays in identifying high-acuity patients. From Monday, all nurses must log the triage timestamp at the point of face-to-face assessment, not on return from a cubicle or at end of shift. If the electronic system is temporarily unavailable, record the time on the paper triage card immediately and transfer it to the system as soon as access is restored, noting any discrepancy. Persistent retrospective entry will be treated as a documentation breach and managed through the Trust's conduct procedure. Please discuss any system-access difficulties with your shift coordinator rather than working around them.",
+          "stem": "The memo mainly tells triage nurses to",
+          "options": [
+            {
+              "key": "A",
+              "text": "record the triage time at the point of face-to-face assessment and not enter it retrospectively."
+            },
+            {
+              "key": "B",
+              "text": "report any patient waiting more than four hours directly to the clinical lead before the end of their shift."
+            },
+            {
+              "key": "C",
+              "text": "contact the shift coordinator whenever they encounter difficulties accessing the electronic triage system."
+            }
+          ],
+          "answer": "A",
+          "explain": "핵심: log the triage timestamp at the point of face-to-face assessment — not retrospectively.",
+          "focusPhrases": [
+            "log the triage timestamp",
+            "point of face-to-face assessment",
+            "retrospective entry"
+          ],
+          "wordCount": 146
+        },
+        {
+          "id": 3,
+          "extract": "Notice from the Radiation Protection Supervisor — mandatory reading for all emergency department staff:\n\nAll clinical staff working in areas where ionising radiation is used must hold a current radiation awareness certificate. This certificate must be renewed every three years. Certificates obtained through external providers are acceptable only if the course content has been pre-approved by the Trust Radiation Protection Adviser. Staff without a valid certificate may not enter a controlled radiation area while a procedure is in progress, even if accompanied by a certificated colleague. Temporary or locum staff must provide evidence of a valid certificate before commencing duties in the department. Line managers are responsible for confirming compliance before a new member of staff begins work in a radiation area. Do not assume that completing the Trust induction covers this requirement — the radiation awareness certificate is a separate, mandatory qualification with its own renewal cycle.",
+          "stem": "The purpose of this notice is to",
+          "options": [
+            {
+              "key": "A",
+              "text": "inform staff that they may enter controlled radiation areas freely provided they are accompanied by a colleague who holds a current certificate."
+            },
+            {
+              "key": "B",
+              "text": "remind staff that a valid radiation awareness certificate must be held, renewed every three years, and is a requirement separate from Trust induction."
+            },
+            {
+              "key": "C",
+              "text": "require line managers to obtain radiation awareness certificates on behalf of any new staff member before those staff are permitted to start."
+            }
+          ],
+          "answer": "B",
+          "explain": "핵심: current radiation awareness certificate — renewed every three years — separate, mandatory qualification distinct from Trust induction.",
+          "focusPhrases": [
+            "current radiation awareness certificate",
+            "renewed every three years",
+            "separate, mandatory qualification"
+          ],
+          "wordCount": 148
+        },
+        {
+          "id": 4,
+          "extract": "Extract from the emergency department CT head referral guideline (adapted from NICE Head Injury guidance):\n\nA CT scan of the head is indicated within one hour of the decision to scan if the patient has any of the following: GCS below 13 at any point since injury; GCS 13 or 14 at two hours post-injury; suspected open or depressed skull fracture; signs of basal skull fracture (haemotympanum, periorbital bruising, cerebrospinal fluid from ear or nose, or Battle's sign); post-traumatic seizure with no prior seizure history; focal neurological deficit; or more than one episode of vomiting. In patients aged 65 or older, amnesia for events more than 30 minutes before impact is sufficient to trigger immediate scanning. Anticoagulant therapy is an additional independent indication for immediate CT regardless of GCS. Do not use plain skull X-ray as a substitute for CT in any patient meeting these criteria. Document the time of scan request in the medical record.",
+          "stem": "The guideline states that",
+          "options": [
+            {
+              "key": "A",
+              "text": "patients aged 65 and over require CT only when their GCS has fallen below 13, not merely because of post-traumatic amnesia of any duration."
+            },
+            {
+              "key": "B",
+              "text": "a plain skull X-ray may be used as an interim investigation before CT in patients whose GCS has remained 14 or above and who have no other high-risk features."
+            },
+            {
+              "key": "C",
+              "text": "anticoagulant therapy alone is an independent indication for immediate CT scanning regardless of the patient's conscious level."
+            }
+          ],
+          "answer": "C",
+          "explain": "핵심: Anticoagulant therapy → immediate CT regardless of GCS; skull X-ray must not be used as a substitute.",
+          "focusPhrases": [
+            "Anticoagulant therapy",
+            "immediate CT regardless of GCS",
+            "skull X-ray as a substitute"
+          ],
+          "wordCount": 156
+        },
+        {
+          "id": 5,
+          "extract": "ED to radiology handover note — Mr Okafor, cubicle 7:\n\nMr Okafor is a 71-year-old gentleman referred for urgent CT pulmonary angiography to exclude pulmonary embolism. Wells score 6 (high probability); D-dimer 4.1 µg/mL. He is prescribed apixaban 5 mg twice daily; last dose taken this morning. Observations: blood pressure 94/60 mmHg, heart rate 116 bpm, SpO₂ 86% on 6 L oxygen via face mask. He has a documented iodinated contrast allergy (urticaria in 2019); oral pre-medication was not given due to clinical urgency, and the ED registrar has accepted responsibility with written documentation in the notes. IV access is secured in the right antecubital fossa. Please ensure the radiologist is aware of the contrast allergy before proceeding and that the anaesthetic team is on standby. Results and images are required in the emergency department immediately.",
+          "stem": "The note indicates that",
+          "options": [
+            {
+              "key": "A",
+              "text": "pre-medication was omitted due to clinical urgency, so the radiologist must be warned of the contrast allergy before scanning proceeds."
+            },
+            {
+              "key": "B",
+              "text": "the anaesthetic team administered the pre-medication protocol before transfer and will supervise the procedure at the scanner to manage any adverse reaction."
+            },
+            {
+              "key": "C",
+              "text": "the ED registrar will personally accompany Mr Okafor to the scanner and accept clinical responsibility for the contrast decision on site."
+            }
+          ],
+          "answer": "A",
+          "explain": "핵심: pre-medication was not given due to clinical urgency — contrast allergy must be communicated — anaesthetic team on standby.",
+          "focusPhrases": [
+            "pre-medication was not given due to clinical urgency",
+            "contrast allergy",
+            "anaesthetic team is on standby"
+          ],
+          "wordCount": 136
+        },
+        {
+          "id": 6,
+          "extract": "Extract from the emergency department sepsis screening standard operating procedure:\n\nAll patients presenting to the emergency department must be screened for sepsis using the National Early Warning Score 2 at the point of triage. Where NEWS2 is 5 or above, or where the triage nurse suspects an infective source, the sepsis screening tool must be completed within 15 minutes and a senior clinician notified without delay. Do not wait for laboratory results before commencing the sepsis bundle. The first dose of antibiotics must be administered within one hour of the sepsis alert being raised, irrespective of whether all blood cultures have been collected. Where a blood culture cannot be taken without causing undue delay to antibiotic administration, give antibiotics first and document the reason clearly in the medical record. Antibiotic choice must follow the Trust empirical therapy guide for the suspected source, available at each workstation and on the intranet.",
+          "stem": "The SOP states that",
+          "options": [
+            {
+              "key": "A",
+              "text": "blood cultures must always be obtained before any antibiotic is given, even in patients for whom taking cultures would cause undue delay."
+            },
+            {
+              "key": "B",
+              "text": "antibiotics must be given within one hour of the sepsis alert being raised, irrespective of whether blood cultures have been taken."
+            },
+            {
+              "key": "C",
+              "text": "the senior clinician must complete the sepsis screening tool before the triage nurse raises the alert or notifies anyone."
+            }
+          ],
+          "answer": "B",
+          "explain": "핵심: antibiotics within one hour of the sepsis alert — irrespective of whether all blood cultures collected — give antibiotics first if cultures would delay.",
+          "focusPhrases": [
+            "within one hour of the sepsis alert",
+            "irrespective of whether all blood cultures",
+            "give antibiotics first"
+          ],
+          "wordCount": 150
+        }
+      ],
+      "gist": [
+        "Part B = purpose or main point of a short workplace text; watch must / do not / unless / irrespective.",
+        "Distractors often reverse a key condition (e.g. 'cultures before antibiotics') or misattribute a rule to the wrong staff group.",
+        "Focus phrases carry the answer — locate them in the text first, then read the surrounding sentence carefully."
+      ],
+      "vocab": [
+        {
+          "term": "bronchospasm",
+          "gloss": "기관지경련: 기도 평활근 수축으로 인한 호흡곤란"
+        },
+        {
+          "term": "haemotympanum",
+          "gloss": "고실혈액: 두개저 골절 징후로 고막 뒤에 혈액이 고임"
+        },
+        {
+          "term": "Battle's sign",
+          "gloss": "배틀 징후: 유양돌기 부위 반상출혈, 두개저 골절 시 관찰됨"
+        },
+        {
+          "term": "empirical therapy",
+          "gloss": "경험적 치료: 병원체 확인 전 임상 판단에 따른 항생제 투여"
+        },
+        {
+          "term": "Wells score",
+          "gloss": "웰스 점수: 폐색전증 임상 확률 평가 도구"
+        }
+      ]
+    },
+    {
+      "id": "B-04",
+      "part": "B",
+      "setNum": 4,
+      "type": "workplace",
+      "title": "Paediatric ward & safeguarding extracts",
+      "instruction": "Six workplace extracts. Choose A, B or C. Focus phrases highlighted.",
+      "items": [
+        {
+          "id": 1,
+          "extract": "Memo from the paediatric pharmacy team to all prescribers:\n\nAll paediatric prescriptions must use an actual body weight recorded on the day of prescribing, not an estimated, age-based, or previously documented weight. Estimated weights derived from formulae (e.g. (age + 4) × 2) are acceptable only during emergency resuscitation when weighing is not possible, and this must be documented clearly with the reason. Once the child is stable, the prescription must be reviewed against the measured weight and adjusted if necessary. For children weighing more than 50 kg, adult doses apply for most drugs; consult the BNFc or ward pharmacist if uncertain. Always calculate the dose in mg/kg, write the total dose in milligrams, and verify it against the maximum adult dose. High-risk medicines — including morphine, gentamicin, and anticonvulsants — require an independent double-check by a second prescriber before administration. Record the weight in kilograms on the drug chart at the time of prescribing.",
+          "stem": "The memo mainly tells staff to",
+          "options": [
+            {
+              "key": "A",
+              "text": "use an age-based formula to estimate weight whenever the child is too unwell to be weighed accurately."
+            },
+            {
+              "key": "B",
+              "text": "ask pharmacy to prescribe all high-alert drugs independently rather than calculating doses on the ward."
+            },
+            {
+              "key": "C",
+              "text": "base all prescriptions on the actual measured weight and check each dose against the maximum adult dose."
+            }
+          ],
+          "answer": "C",
+          "explain": "핵심: base all prescriptions on the actual measured weight and check each dose against the maximum adult dose.",
+          "focusPhrases": [
+            "actual body weight",
+            "recorded on the day",
+            "maximum adult dose"
+          ],
+          "wordCount": 155
+        },
+        {
+          "id": 2,
+          "extract": "Extract from the Trust safeguarding children policy:\n\nAny member of staff who is concerned that a child may be at risk of significant harm must make a referral to Children's Social Care, or discuss the concern with the named nurse for safeguarding, on the same working day. Do not delay a referral because a parent or carer has withheld consent; parental consent is not required when the referral is made on child protection grounds. Record all concerns in the clinical notes contemporaneously, including the name of the professional consulted and the outcome of that discussion. If a referral is made by telephone, follow it up in writing to Children's Social Care within 48 hours. Concerns about fabricated or induced illness, unexplained bruising in pre-mobile children, or repeated presentations with injuries inconsistent with the history must always be escalated directly to the named consultant for safeguarding, not managed in professional isolation. All conversations with families about referral intentions must be documented.",
+          "stem": "According to the policy, staff who have concerns about a child's safety must",
+          "options": [
+            {
+              "key": "A",
+              "text": "refer to Children's Social Care or consult the named nurse on the same day, even without parental consent."
+            },
+            {
+              "key": "B",
+              "text": "obtain a senior clinician's written agreement before contacting Children's Social Care about any safeguarding concern."
+            },
+            {
+              "key": "C",
+              "text": "delay the referral until a parent or carer has had the opportunity to provide a full explanation."
+            }
+          ],
+          "answer": "A",
+          "explain": "핵심: refer to Children's Social Care or consult the named nurse on the same day, even without parental consent.",
+          "focusPhrases": [
+            "same working day",
+            "parental consent is not required",
+            "child protection grounds"
+          ],
+          "wordCount": 160
+        },
+        {
+          "id": 3,
+          "extract": "Notice to all nursing and medical staff — paediatric unit:\n\nParents and carers are welcome to remain with their child during all clinical procedures, including venepuncture, cannulation, and lumbar puncture, unless their presence is judged by the clinical team to pose a direct risk to the safe conduct of the procedure. Offering parental presence is now a Trust standard, not an optional courtesy. Staff must offer the option before any procedure begins and document whether the parent or carer chose to stay or leave. Where a parent becomes distressed or physically interferes with the procedure, they may be asked to step outside briefly; this must be explained calmly and the parent invited to return as soon as possible. Children who have attained Fraser competence may make their own decision about whether a parent is present. Compelling a child to accept parental presence against their clearly expressed wishes is a violation of their autonomy and must never occur.",
+          "stem": "The purpose of this notice is to",
+          "options": [
+            {
+              "key": "A",
+              "text": "remind staff that parents must withdraw from the room during all invasive procedures to prevent procedural distress."
+            },
+            {
+              "key": "B",
+              "text": "inform staff that offering parental presence during procedures is a Trust standard rather than a discretionary favour."
+            },
+            {
+              "key": "C",
+              "text": "explain that parents who become upset during a procedure may be permanently excluded from the clinical area."
+            }
+          ],
+          "answer": "B",
+          "explain": "핵심: offering parental presence during procedures is a Trust standard rather than a discretionary favour.",
+          "focusPhrases": [
+            "parental presence",
+            "Trust standard",
+            "not an optional courtesy"
+          ],
+          "wordCount": 157
+        },
+        {
+          "id": 4,
+          "extract": "Extract from the paediatric intravenous fluid prescribing guideline:\n\nFor maintenance fluid prescribing in children over 28 days and under 18 years, use a 0.9% sodium chloride with 5% glucose preparation unless a specific electrolyte abnormality requires an alternative. Calculate the daily maintenance volume using the Holliday-Segar formula: 100 mL/kg for the first 10 kg, 50 mL/kg for the next 10 kg, and 20 mL/kg for each kilogram thereafter. Do not prescribe hypotonic fluids (sodium concentration below 131 mmol/L) as routine maintenance in hospital, as these carry a recognised risk of iatrogenic hyponatraemia. Reassess fluid balance at least every 12 hours and adjust the rate for clinical changes such as pyrexia, vomiting, or ongoing surgical losses. Any child receiving intravenous fluids for more than 48 hours requires serum electrolytes checked at least twice daily. Fluid boluses for resuscitation are prescribed separately and must not be included in maintenance volume calculations.",
+          "stem": "The guideline states that",
+          "options": [
+            {
+              "key": "A",
+              "text": "hypotonic fluids should be prescribed whenever a child has a documented sodium abnormality on admission."
+            },
+            {
+              "key": "B",
+              "text": "serum electrolytes must be checked daily for all children who are receiving any form of intravenous fluid."
+            },
+            {
+              "key": "C",
+              "text": "maintenance fluids must be isotonic and fluid balance must be formally reassessed at least every 12 hours."
+            }
+          ],
+          "answer": "C",
+          "explain": "핵심: maintenance fluids must be isotonic and fluid balance must be formally reassessed at least every 12 hours.",
+          "focusPhrases": [
+            "hypotonic fluids",
+            "iatrogenic hyponatraemia",
+            "every 12 hours"
+          ],
+          "wordCount": 149
+        },
+        {
+          "id": 5,
+          "extract": "Standard operating procedure — referral to the hospital play specialist service:\n\nAll children admitted for a planned procedure or with an anticipated inpatient stay of more than 48 hours should be referred to the play specialist service within 24 hours of admission. Referrals must be submitted via the electronic patient record using the 'Therapies Referral' form; verbal-only referrals will not be actioned. Indicate the primary concern on the form — procedural anxiety, needle phobia, developmental regression, or preparation for surgery — as this determines the triage priority of the response. Play specialists provide preparation for anaesthesia, distraction during clinical procedures, and environmental normalisation for long-stay children. Do not wait until the day before a procedure to submit a referral; adequate preparation requires at least two dedicated sessions for most children. The service does not cover unplanned emergency admissions as routine, but out-of-hours support may be requested by the nurse in charge where the child's distress is compromising safe care.",
+          "stem": "The SOP mainly requires staff to",
+          "options": [
+            {
+              "key": "A",
+              "text": "arrange play specialist input verbally through the nurse in charge for all children undergoing planned procedures."
+            },
+            {
+              "key": "B",
+              "text": "refer eligible children via the electronic form within 24 hours of admission, stating the reason for referral."
+            },
+            {
+              "key": "C",
+              "text": "restrict referrals to children with needle phobia who are scheduled for procedures requiring general anaesthesia."
+            }
+          ],
+          "answer": "B",
+          "explain": "핵심: refer eligible children via the electronic form within 24 hours of admission, stating the reason for referral.",
+          "focusPhrases": [
+            "within 24 hours",
+            "electronic patient record",
+            "triage priority"
+          ],
+          "wordCount": 159
+        },
+        {
+          "id": 6,
+          "extract": "Nursing handover note — paediatric ward, morning shift:\n\nJoshua, 4 years, was admitted overnight with suspected non-accidental injury. The safeguarding team was notified at 22:00; the named nurse and consultant review is scheduled for 09:30 this morning. Joshua is currently comfortable, tolerating oral fluids and breakfast. His mother is present and has been informed that a social worker will attend today; his father has not visited. Do not permit any visitors other than Joshua's named mother unless the nurse in charge has approved the visit in writing following discussion with the safeguarding nurse. The police have been informed of the admission. A multidisciplinary X-ray review meeting is scheduled at 11:00 — both the ward registrar and named safeguarding consultant must attend. Clinical photographs of the injuries have been taken in accordance with the Trust safeguarding photography protocol and uploaded to the medical records system.",
+          "stem": "The note indicates that",
+          "options": [
+            {
+              "key": "A",
+              "text": "visiting access to this child has been restricted and only his named mother is currently permitted."
+            },
+            {
+              "key": "B",
+              "text": "the social worker has already spoken to Joshua's father and agreed a safeguarding plan overnight."
+            },
+            {
+              "key": "C",
+              "text": "the safeguarding team was first contacted this morning following a ward round assessment of the injuries."
+            }
+          ],
+          "answer": "A",
+          "explain": "핵심: visiting access to this child has been restricted and only his named mother is currently permitted.",
+          "focusPhrases": [
+            "Do not permit any visitors",
+            "named mother",
+            "approved the visit in writing"
+          ],
+          "wordCount": 144
+        }
+      ],
+      "gist": [
+        "Part B = main point or required action of a short workplace text; watch for must / do not / unless / only."
+      ],
+      "vocab": [
+        {
+          "term": "Holliday-Segar formula",
+          "gloss": "소아 유지 수액량 계산법 (체중 기반)"
+        },
+        {
+          "term": "iatrogenic hyponatraemia",
+          "gloss": "의인성 저나트륨혈증: 의료 행위로 인해 발생한 저나트륨혈증"
+        },
+        {
+          "term": "Fraser competence",
+          "gloss": "프레이저 능력: 미성년자가 스스로 의료 동의를 내릴 수 있는 능력"
+        },
+        {
+          "term": "non-accidental injury",
+          "gloss": "비우발적 손상: 아동 학대에 의한 손상"
+        },
+        {
+          "term": "fabricated or induced illness",
+          "gloss": "꾸며내거나 유발된 질병 (대리인에 의한 뮌하우젠 증후군)"
+        }
+      ]
+    },
+    {
+      "id": "B-05",
+      "part": "B",
+      "setNum": 5,
+      "type": "workplace",
+      "title": "Maternity & neonatal unit extracts",
+      "instruction": "Six workplace extracts. Choose A, B or C. Focus phrases highlighted.",
+      "items": [
+        {
+          "id": 1,
+          "extract": "Extract from the maternity CTG escalation policy:\n\nAll midwives must document a fresh CTG assessment at the start of every shift and whenever there is a clinical concern. A CTG classified as pathological under the current NICE criteria requires immediate medical review by the registrar or above; do not wait until the end of the current hour block. If the registrar is not immediately available, the bleep must be escalated to the consultant within five minutes. Failure to escalate a pathological CTG is a never event under local policy. Maternal repositioning, IV fluid bolus, and cessation of oxytocin should be initiated simultaneously whilst awaiting the doctor. Document the time of every escalation attempt in the maternity records and on the CTG paper. A suspicious CTG warrants an earlier review than the routine one-hour interval; use clinical judgement to determine the safe monitoring interval, which must be recorded.",
+          "stem": "The policy mainly requires midwives to",
+          "options": [
+            {
+              "key": "A",
+              "text": "escalate a pathological CTG to a registrar without delay and document every step taken."
+            },
+            {
+              "key": "B",
+              "text": "reclassify a suspicious CTG as pathological before requesting any medical review."
+            },
+            {
+              "key": "C",
+              "text": "withhold oxytocin infusions whenever a CTG is classified as suspicious or pathological."
+            }
+          ],
+          "answer": "A",
+          "explain": "핵심: pathological CTG requires immediate medical review; document every escalation attempt.",
+          "focusPhrases": [
+            "pathological",
+            "immediate medical review",
+            "never event"
+          ],
+          "wordCount": 147
+        },
+        {
+          "id": 2,
+          "extract": "Memo from the labour ward coordinator to all midwifery staff:\n\nFollowing last month's postpartum haemorrhage (PPH) drill, several gaps were identified in the team's preparation. From this week, the PPH emergency box will be checked and signed off at the beginning of every early and late shift. The box must contain: two large-bore IV cannulae, one litre bags of 0.9% saline, cross-match bottles, the PPH drug tray including oxytocin 10 IU IM and ergometrine, and a laminated PPH algorithm. Any items found missing must be replaced before the shift handover is complete. The maternity support worker may restock consumables but a registered midwife must countersign the checklist. Drills will be repeated quarterly; attendance is mandatory for all band 5–7 staff. Please direct questions to the lead midwife, not to the labour ward coordinator.",
+          "stem": "The memo tells staff that",
+          "options": [
+            {
+              "key": "A",
+              "text": "PPH drills replace the need for a signed equipment check at the start of each shift."
+            },
+            {
+              "key": "B",
+              "text": "the emergency box must be checked and signed by a registered midwife at every shift start."
+            },
+            {
+              "key": "C",
+              "text": "a maternity support worker may countersign the checklist if the registered midwife is unavailable."
+            }
+          ],
+          "answer": "B",
+          "explain": "핵심: PPH box must be checked and countersigned by a registered midwife at every shift start.",
+          "focusPhrases": [
+            "checked and signed off",
+            "beginning of every",
+            "registered midwife must countersign"
+          ],
+          "wordCount": 133
+        },
+        {
+          "id": 3,
+          "extract": "Extract from the neonatal unit hypoglycaemia guideline:\n\nNeonates at risk of hypoglycaemia (infants of diabetic mothers, those born before 37 weeks, birth weight below 2.5 kg or above 4.5 kg, and those with clinical signs) should have a blood glucose checked within 2–4 hours of birth and before feeds thereafter. A blood glucose below 2.0 mmol/L in any neonate requires immediate intervention: feed the infant if able and recheck within 30 minutes. If the repeat value remains below 2.0 mmol/L, or if the infant cannot feed, commence IV dextrose 10% at 60 mL/kg/day and notify the neonatal registrar immediately. Do not delay IV access to attempt a further feed. A value of 2.0–2.5 mmol/L is borderline; increase feeding frequency and recheck within one hour. Values consistently above 2.6 mmol/L in a well term neonate without risk factors do not require further screening.",
+          "stem": "According to the guideline, when a neonate's blood glucose is below 2.0 mmol/L,",
+          "options": [
+            {
+              "key": "A",
+              "text": "staff should attempt two further feeds before starting IV dextrose and contacting the registrar."
+            },
+            {
+              "key": "B",
+              "text": "IV dextrose 10% must be commenced without delay, and oral feeding is contraindicated at that threshold."
+            },
+            {
+              "key": "C",
+              "text": "a feed should be offered and a recheck performed; IV dextrose is started only if the level remains low or feeding is not possible."
+            }
+          ],
+          "answer": "C",
+          "explain": "핵심: feed if able and recheck within 30 minutes; IV dextrose only if repeat remains low or infant cannot feed.",
+          "focusPhrases": [
+            "below 2.0 mmol/L",
+            "feed the infant if able",
+            "recheck within 30 minutes"
+          ],
+          "wordCount": 142
+        },
+        {
+          "id": 4,
+          "extract": "Notice on the postnatal ward breastfeeding support board:\n\nThe infant feeding team is available Monday to Friday 08:00–18:00 and can be contacted via the ward bleep. Outside these hours, the duty midwife is the first point of contact for breastfeeding concerns. Do not refer mothers directly to the community lactation consultant during the inpatient stay; referrals must go through the infant feeding lead. Mothers who are experiencing nipple pain, poor latch, or concerns about milk supply should be seen before their next scheduled feed, not at the following day's ward round. Skin-to-skin contact and rooming-in are encouraged for all mother-infant pairs unless there is a clinical reason documented in the notes. Supplementary formula in the first 72 hours should only be given after a documented informed-consent discussion and must be recorded in the feeding chart. Partners and support persons are welcome to attend feeding assessments.",
+          "stem": "The notice indicates that",
+          "options": [
+            {
+              "key": "A",
+              "text": "mothers with breastfeeding difficulties should be reviewed before their next feed, not at the ward round."
+            },
+            {
+              "key": "B",
+              "text": "supplementary formula may be given at the mother's request within the first 72 hours without further discussion."
+            },
+            {
+              "key": "C",
+              "text": "mothers may contact the community lactation consultant directly during their inpatient stay."
+            }
+          ],
+          "answer": "A",
+          "explain": "핵심: mothers with concerns should be seen before their next scheduled feed, not at the following day's ward round.",
+          "focusPhrases": [
+            "before their next scheduled feed",
+            "not at the following day's ward round"
+          ],
+          "wordCount": 145
+        },
+        {
+          "id": 5,
+          "extract": "Extract from the maternity VTE prophylaxis standard operating procedure:\n\nAll women admitted to the maternity unit must have a VTE risk assessment completed within four hours of admission using the approved Trust tool. The assessment must be reviewed and updated following delivery, at 24 hours post-delivery, and at any change in clinical condition. Women with a score of 2 or above are eligible for pharmacological prophylaxis; prescribe low-molecular-weight heparin (LMWH) unless contraindicated. LMWH must not be prescribed within 12 hours of regional anaesthesia insertion or removal. Women who decline prophylaxis must have the risks explained and a declined consent form completed and filed in the maternity records. Antiembolic stockings should be offered to all women where pharmacological prophylaxis is contraindicated or declined. The prescribing midwife must alert the obstetrician if a score of 4 or above is calculated, as individual risk-benefit review is required.",
+          "stem": "The SOP states that",
+          "options": [
+            {
+              "key": "A",
+              "text": "LMWH may be given at any time after a regional anaesthetic block, provided the risk score is 2 or above."
+            },
+            {
+              "key": "B",
+              "text": "a VTE risk score of 4 or above requires the prescribing midwife to alert an obstetrician for further review."
+            },
+            {
+              "key": "C",
+              "text": "antiembolic stockings should be offered as a first-line alternative before pharmacological prophylaxis is considered."
+            }
+          ],
+          "answer": "B",
+          "explain": "핵심: a score of 4 or above requires individual obstetrician risk-benefit review.",
+          "focusPhrases": [
+            "score of 4 or above",
+            "alert the obstetrician",
+            "individual risk-benefit review"
+          ],
+          "wordCount": 144
+        },
+        {
+          "id": 6,
+          "extract": "Midwifery shift handover note (night to early):\n\nBay 3, Bed 2 — Ms Okonkwo, G2P1, day 1 post lower segment caesarean section. Estimated blood loss at operation 650 mL; two units packed red cells transfused intraoperatively. Haemoglobin at 06:00 this morning is 87 g/L; consultant notified, no further transfusion ordered at present — repeat FBC at 12:00. Wound dressing intact, no ooze, no erythema noted on morning check. Urinary catheter draining clear urine, output 45 mL/h overnight. Patient reports pain score 5/10 on movement; paracetamol and ibuprofen prescribed regularly but she has not received her 06:00 ibuprofen — please ensure this is given. LMWH due at 18:00 tonight; ensure stock is prescribed and available. Baby is with the mother in the room; latching observed at 04:00 feed and appeared adequate. Family visiting this afternoon; partner has been updated by night staff.",
+          "stem": "The handover note requires the early shift to",
+          "options": [
+            {
+              "key": "A",
+              "text": "request an urgent review of the haemoglobin result and arrange further transfusion before the ward round."
+            },
+            {
+              "key": "B",
+              "text": "remove the urinary catheter and arrange a lactation referral for the mother's next feed."
+            },
+            {
+              "key": "C",
+              "text": "administer the overdue ibuprofen dose and ensure the evening LMWH is prescribed and available."
+            }
+          ],
+          "answer": "C",
+          "explain": "핵심: administer overdue ibuprofen; ensure LMWH is prescribed and ready for 18:00.",
+          "focusPhrases": [
+            "has not received her 06:00 ibuprofen",
+            "ensure this is given",
+            "LMWH due at 18:00"
+          ],
+          "wordCount": 141
+        }
+      ],
+      "gist": [
+        "Part B = purpose of each extract; focus on verbs must/do not/ensure.",
+        "For CTG items, know that 'pathological' requires immediate escalation.",
+        "Check whether options reverse a must/must not or misquote a threshold."
+      ],
+      "vocab": [
+        {
+          "term": "CTG (cardiotocograph)",
+          "gloss": "태아심박수 감시기록"
+        },
+        {
+          "term": "postpartum haemorrhage",
+          "gloss": "산후 출혈"
+        },
+        {
+          "term": "hypoglycaemia",
+          "gloss": "저혈당"
+        },
+        {
+          "term": "LMWH (low-molecular-weight heparin)",
+          "gloss": "저분자량 헤파린: 혈전 예방 주사"
+        },
+        {
+          "term": "VTE (venous thromboembolism)",
+          "gloss": "정맥혈전색전증"
+        }
+      ]
+    },
+    {
+      "id": "B-06",
+      "part": "B",
+      "setNum": 6,
+      "type": "workplace",
+      "title": "Mental health, capacity & consent extracts",
+      "instruction": "Six workplace extracts. Choose A, B or C. Focus phrases highlighted.",
+      "items": [
+        {
+          "id": 1,
+          "extract": "Memo from the ward consultant to all clinical staff:\n\nCapacity is decision-specific and time-specific. Before you assume that a patient lacks capacity, apply the two-stage statutory test set out in the Mental Capacity Act 2005. First, establish whether there is an impairment or disturbance in the functioning of the mind or brain. Second, assess whether that impairment renders the patient unable to understand, retain, weigh up, or communicate the decision in question. Do not collapse these two stages into a general impression of 'confusion'. Each assessment must relate to the specific decision at hand — consent to a procedure is not the same assessment as capacity to refuse a medication. Document your findings the same day, including the decision in question, the evidence considered, and the conclusion reached. If you are uncertain, do not proceed on a best-interests basis without first consulting the senior medical or mental health team and, where appropriate, an independent mental capacity advocate. A blanket 'lacks capacity' notation on the admission clerking does not satisfy the legal requirement.",
+          "stem": "The memo mainly tells staff to",
+          "options": [
+            {
+              "key": "A",
+              "text": "complete a single capacity assessment at admission that covers all subsequent clinical decisions for that patient."
+            },
+            {
+              "key": "B",
+              "text": "refer every capacity assessment to an independent mental capacity advocate before any best-interests decision is made."
+            },
+            {
+              "key": "C",
+              "text": "apply the two-stage statutory test to each specific decision and record the findings on the day of assessment."
+            }
+          ],
+          "answer": "C",
+          "explain": "핵심: apply the two-stage statutory test to each specific decision and record the findings on the day of assessment.",
+          "focusPhrases": [
+            "decision-specific",
+            "two-stage statutory test",
+            "same day"
+          ],
+          "wordCount": 172
+        },
+        {
+          "id": 2,
+          "extract": "Notice posted in the clinical area — acute psychiatric inpatient unit:\n\nAny potential ligature point identified during a room search, patient observation, or routine inspection must be reported to the nurse in charge immediately and action taken to reduce or remove the risk before the shift ends. Do not defer removal to maintenance unless the point is structural and cannot be safely addressed at ward level. In that case, move the patient to a low-risk room while the referral is logged as urgent. Staff must not assume that a previously audited room remains safe; ligature risks can appear from everyday items including bedding, cords, and clothing. Document all identified risks on the environmental risk log and inform the on-call manager if a structural risk cannot be mitigated within the shift. The next shift team must be briefed at handover about any outstanding environmental risks that were not fully resolved.",
+          "stem": "The purpose of this notice is to",
+          "options": [
+            {
+              "key": "A",
+              "text": "remind staff that identified ligature points must be reported and mitigated before the shift ends, not deferred to the next day."
+            },
+            {
+              "key": "B",
+              "text": "instruct staff to request a maintenance inspection at the start of every shift before any patient is admitted to a room."
+            },
+            {
+              "key": "C",
+              "text": "inform nursing staff that all ligature-point audits and removals are the sole responsibility of the maintenance team."
+            }
+          ],
+          "answer": "A",
+          "explain": "핵심: identified ligature points must be reported and mitigated before the shift ends, not deferred to the next day.",
+          "focusPhrases": [
+            "ligature point",
+            "before the shift ends",
+            "environmental risk log"
+          ],
+          "wordCount": 149
+        },
+        {
+          "id": 3,
+          "extract": "Extract from the Trust rapid tranquillisation guideline (Section 4 — post-administration monitoring):\n\nFollowing any administration of medication for rapid tranquillisation, the patient's pulse, blood pressure, respiratory rate, and oxygen saturation must be recorded every 15 minutes for the first hour, then every 30 minutes for the second hour, or more frequently if the clinical situation demands. Resuscitation equipment, including bag-valve-mask and emergency oxygen, must be immediately accessible in the clinical area throughout this period. If the patient becomes unresponsive, has an oxygen saturation below 90%, or the respiratory rate falls below 10 breaths per minute, call the resuscitation team immediately and do not administer further medication. Lorazepam and haloperidol should not routinely be combined without explicit senior medical authorisation, as the combination carries a heightened risk of respiratory and cardiovascular depression. Staff must document the clinical justification for rapid tranquillisation, the drug and dose given, and all monitoring observations in the patient's record.",
+          "stem": "The guideline states that",
+          "options": [
+            {
+              "key": "A",
+              "text": "combined lorazepam and haloperidol is the preferred first-line regimen whenever a patient is acutely agitated and cannot be de-escalated."
+            },
+            {
+              "key": "B",
+              "text": "observations must be recorded at regular intervals after medication is given and resuscitation equipment must be immediately available throughout."
+            },
+            {
+              "key": "C",
+              "text": "rapid tranquillisation may be administered by nursing staff acting alone whenever a senior doctor cannot be reached promptly on the ward."
+            }
+          ],
+          "answer": "B",
+          "explain": "핵심: observations must be recorded at regular intervals after medication is given and resuscitation equipment must be immediately available throughout.",
+          "focusPhrases": [
+            "every 15 minutes",
+            "Resuscitation equipment",
+            "immediately accessible"
+          ],
+          "wordCount": 153
+        },
+        {
+          "id": 4,
+          "extract": "Standard operating procedure — Section 5(2) of the Mental Health Act 1983:\n\nSection 5(2) allows the registered medical practitioner or approved clinician currently responsible for an informal (voluntary) inpatient's treatment to detain that patient for up to 72 hours when they consider that an application for compulsory admission ought to be made. The power may only be invoked by the responsible clinician or their nominated deputy — it cannot be delegated to nursing staff. On completion of the relevant form (Form H1), the hospital managers' office must be notified within one hour and the Mental Health Act administrator informed. The 72-hour period begins at the time the form is signed, not from the time the patient was stopped from leaving. If, at the end of the 72-hour period, a full section has not been applied for and the patient wishes to leave, they must be allowed to do so unless alternative lawful authority exists. The patient must be informed of their rights under the holding power as soon as practicable after its invocation.",
+          "stem": "According to the SOP, Section 5(2)",
+          "options": [
+            {
+              "key": "A",
+              "text": "may be invoked by any registered nurse on the ward if a voluntary patient attempts to leave without medical staff being present."
+            },
+            {
+              "key": "B",
+              "text": "detains the patient for a maximum of 24 hours while a formal Mental Health Act assessment is arranged by the clinical team."
+            },
+            {
+              "key": "C",
+              "text": "may only be invoked by the responsible clinician or their deputy and provides a detention period of up to 72 hours."
+            }
+          ],
+          "answer": "C",
+          "explain": "핵심: may only be invoked by the responsible clinician or their deputy and provides a detention period of up to 72 hours.",
+          "focusPhrases": [
+            "registered medical practitioner",
+            "up to 72 hours",
+            "cannot be delegated to nursing staff"
+          ],
+          "wordCount": 173
+        },
+        {
+          "id": 5,
+          "extract": "Extract from the observation and engagement policy — mental health inpatient services:\n\nObservation level must be reviewed whenever there is a change in a patient's presentation, risk, or circumstances — including following any incident, significant disclosure, or change in leave status. The nurse in charge, in consultation with the responsible clinician where possible, must determine whether a higher or lower level is appropriate and document the rationale and time of change in the nursing record. A new observation level does not require a medical prescription but must be clinically justified and recorded at the time of change, not retrospectively. Continuous observation (one-to-one) may be initiated by a registered nurse in response to immediate risk, and the responsible clinician must be informed within one hour. Reductions in observation level should be agreed with the multidisciplinary team and are not solely at the discretion of the nurse in charge. Observation is a therapeutic engagement opportunity, not a purely supervisory task.",
+          "stem": "The policy mainly requires staff to",
+          "options": [
+            {
+              "key": "A",
+              "text": "review and adjust the observation level whenever a patient's risk or presentation changes, documenting the rationale at the time of change."
+            },
+            {
+              "key": "B",
+              "text": "place every newly admitted patient on continuous one-to-one observation for a minimum of twenty-four hours before considering any reduction."
+            },
+            {
+              "key": "C",
+              "text": "obtain written consultant approval before either increasing or decreasing the observation level of any inpatient on a section."
+            }
+          ],
+          "answer": "A",
+          "explain": "핵심: review and adjust the observation level whenever a patient's risk or presentation changes, documenting the rationale at the time of change.",
+          "focusPhrases": [
+            "change in a patient's presentation",
+            "document the rationale",
+            "at the time of change"
+          ],
+          "wordCount": 158
+        },
+        {
+          "id": 6,
+          "extract": "Triage handover to liaison psychiatry — Emergency Department:\n\nThis is a 26-year-old woman who presented at 22:40 following a mixed overdose of paracetamol and diazepam, quantities unknown. Paracetamol level has been taken; result is still pending. She is medically stable at present but has not yet been assessed by the liaison psychiatry team. She has a known history of emotionally unstable personality disorder and two prior self-harm presentations in the last six months. She is distressed and intermittently refusing to engage with staff. She has explicitly stated she does not want her family contacted, and this wish must be respected unless the liaison team judges her to lack capacity or there is an immediate safety reason to override it. The treating physician has documented that a full mental state examination and risk assessment from liaison psychiatry are required before any decision regarding admission or discharge can be made. Please review within the hour.",
+          "stem": "The note indicates that",
+          "options": [
+            {
+              "key": "A",
+              "text": "the patient has already been assessed by the duty psychiatrist and is now waiting for a psychiatric inpatient bed to be allocated."
+            },
+            {
+              "key": "B",
+              "text": "a full mental state examination and risk assessment from liaison psychiatry must be completed before any admission or discharge decision is made."
+            },
+            {
+              "key": "C",
+              "text": "the patient has consented to information sharing with her family and the treating physician has documented this agreement in her notes."
+            }
+          ],
+          "answer": "B",
+          "explain": "핵심: a full mental state examination and risk assessment from liaison psychiatry must be completed before any admission or discharge decision is made.",
+          "focusPhrases": [
+            "full mental state examination",
+            "risk assessment",
+            "before any decision"
+          ],
+          "wordCount": 153
+        }
+      ],
+      "gist": [
+        "Part B = the main obligation or purpose of each extract; ignore incidental details.",
+        "Distractors often reverse a condition (unless / only / before) or misattribute a duty to the wrong person.",
+        "Watch for qualifying words such as 'immediately', 'at the time of change', and 'cannot be delegated' — they carry the correct answer."
+      ],
+      "vocab": [
+        {
+          "term": "ligature point",
+          "gloss": "결박점: 자해·목맴에 이용될 수 있는 물리적 고정점"
+        },
+        {
+          "term": "rapid tranquillisation",
+          "gloss": "신속 진정요법: 급성 흥분 상태에서 약물로 빠르게 진정시키는 처치"
+        },
+        {
+          "term": "approved clinician",
+          "gloss": "승인 임상가: 정신건강법상 자격을 인정받은 의료 전문가"
+        },
+        {
+          "term": "mental capacity",
+          "gloss": "정신적 판단능력: 특정 결정을 이해·숙고·전달할 수 있는 능력"
+        },
+        {
+          "term": "emotionally unstable personality disorder",
+          "gloss": "감정 불안정 성격장애 (경계선형 성격장애)"
+        }
+      ]
+    },
+    {
+      "id": "B-07",
+      "part": "B",
+      "setNum": 7,
+      "type": "workplace",
+      "title": "Pharmacy, controlled drugs & prescribing extracts",
+      "instruction": "Six workplace extracts. Choose A, B or C. Focus phrases highlighted.",
+      "items": [
+        {
+          "id": 1,
+          "extract": "Memo from the pharmacy lead to all ward managers:\n\nAll controlled drug (CD) registers must have the running balance verified at every entry. The nurse who administers the drug signs in column A; the second signatory — who must physically witness the dose being drawn up and administered — signs in column B. The running balance is not a paperwork formality: it is the primary method by which stock discrepancies are detected without delay. If the calculated balance does not match what is held in the cupboard at any point, this must be reported immediately to the pharmacy lead and the site manager. Do not hold the report until the next routine ward check. Common sources of discrepancy include transcription errors and incorrect ampoule strength recorded. All discrepancies require an incident form regardless of whether diversion is suspected. Destruction of excess stock requires two authorised witnesses, at least one of whom must be a registered professional.",
+          "stem": "The memo mainly tells ward managers to",
+          "options": [
+            {
+              "key": "A",
+              "text": "ensure two registered nurses witness every controlled drug administration and countersign the drug destruction record."
+            },
+            {
+              "key": "B",
+              "text": "submit the controlled drug register to pharmacy for monthly audit, noting any running balance errors found."
+            },
+            {
+              "key": "C",
+              "text": "verify the running balance at each register entry and report any discrepancy to the pharmacy lead immediately."
+            }
+          ],
+          "answer": "C",
+          "explain": "핵심: verify the running balance at each register entry and report any discrepancy to the pharmacy lead immediately.",
+          "focusPhrases": [
+            "running balance",
+            "verified at every entry",
+            "reported immediately"
+          ],
+          "wordCount": 156
+        },
+        {
+          "id": 2,
+          "extract": "Extract from the Trust opioid conversion guideline (section 4):\n\nWhen converting a patient from one strong opioid to another, calculate the equianalgesic dose using the Trust conversion table and then reduce the result by 25–30% to allow for incomplete cross-tolerance. This reduction is mandatory unless the patient's pain is inadequately controlled, in which case the reason for using a full equianalgesic dose must be clearly documented. For patients being converted from oral morphine to a transdermal preparation, the conversion must be undertaken by a prescriber with the appropriate competency, or in consultation with the pain or palliative care team. Do not use internet-based dose calculators as the sole reference for conversion ratios. Document the full calculation, the doses chosen, any rationale for deviating from the standard reduction, and a review date no later than 48 hours after commencement. If the patient is opioid-naïve, these conversion tables do not apply.",
+          "stem": "The guideline states that when switching opioids, prescribers must",
+          "options": [
+            {
+              "key": "A",
+              "text": "reduce the equianalgesic dose by 25–30% to allow for incomplete cross-tolerance, unless a documented reason exists."
+            },
+            {
+              "key": "B",
+              "text": "use the full equianalgesic dose when converting between opioids, except when transitioning to a transdermal preparation."
+            },
+            {
+              "key": "C",
+              "text": "refer every opioid conversion to the palliative care team and document their recommendation before prescribing commences."
+            }
+          ],
+          "answer": "A",
+          "explain": "핵심: reduce the equianalgesic dose by 25–30% to allow for incomplete cross-tolerance.",
+          "focusPhrases": [
+            "equianalgesic dose",
+            "25–30%",
+            "incomplete cross-tolerance"
+          ],
+          "wordCount": 149
+        },
+        {
+          "id": 3,
+          "extract": "Notice to all prescribers from the antimicrobial pharmacist:\n\nAll patients receiving intravenous (IV) antibiotics must have a documented 72-hour review assessing suitability for IV-to-oral switch. Criteria for switch include: patient tolerating oral intake, temperature below 37.5°C for more than 24 hours, clinically improving, and an appropriate oral agent available with adequate tissue penetration. If a patient does not yet meet these criteria, the reason for continuing IV therapy must be recorded clearly on the electronic drug chart. Continuing IV antibiotics without a documented review is not acceptable under the Trust antimicrobial stewardship policy. The 72-hour clock starts from the time of the first IV dose, not from the time of admission. Monthly audits are conducted and omissions will be escalated to the prescribing consultant. For advice on suitable oral alternatives, contact the antimicrobial pharmacist on bleep 4471 or via the stewardship inbox.",
+          "stem": "The notice requires prescribers to",
+          "options": [
+            {
+              "key": "A",
+              "text": "switch all patients from IV to oral antibiotics within 72 hours of the first dose, regardless of whether clinical criteria are met."
+            },
+            {
+              "key": "B",
+              "text": "review IV antibiotics at 72 hours against clinical criteria and document the reason if IV therapy is to continue."
+            },
+            {
+              "key": "C",
+              "text": "contact the antimicrobial pharmacist for approval before prescribing any IV antibiotic course expected to run beyond 48 hours."
+            }
+          ],
+          "answer": "B",
+          "explain": "핵심: review IV antibiotics at 72 hours against clinical criteria and document the reason if IV therapy continues.",
+          "focusPhrases": [
+            "72-hour review",
+            "IV-to-oral switch",
+            "documented"
+          ],
+          "wordCount": 142
+        },
+        {
+          "id": 4,
+          "extract": "Extract from the Trust insulin prescribing standard operating procedure:\n\nPrescribers must write the word 'units' in full when prescribing any insulin preparation. Never use the abbreviation 'U', 'IU', or any other shorthand, as these have been misread as zeros, resulting in tenfold dosing errors and serious patient harm. Similarly, write the full approved product name; do not abbreviate the formulation type or use informal product names. Insulin doses must be written as a numeral followed by the word 'units' with a clear space — for example, 12 units and not 12U. Before administration, a second trained member of staff must independently verify the prescription, the vial label, the graduated syringe markings, and the patient's identity. This two-person check is required for all routes of insulin administration, including subcutaneous, intramuscular, and intravenous. Do not pre-draw insulin into a syringe for administration at a later time. Any ambiguous prescription must be rewritten before it leaves the team.",
+          "stem": "The SOP mainly instructs prescribers to",
+          "options": [
+            {
+              "key": "A",
+              "text": "require a second trained staff member to countersign every insulin prescription before it is sent to pharmacy for dispensing."
+            },
+            {
+              "key": "B",
+              "text": "avoid prescribing insulin preparations with a concentration above 100 units/mL unless specialist approval has been obtained."
+            },
+            {
+              "key": "C",
+              "text": "write 'units' in full on all insulin prescriptions and never use the shorthand 'U' or 'IU' in place of units."
+            }
+          ],
+          "answer": "C",
+          "explain": "핵심: write 'units' in full on all insulin prescriptions and never use shorthand abbreviations such as 'U' or 'IU'.",
+          "focusPhrases": [
+            "units",
+            "Never use the abbreviation",
+            "tenfold dosing errors"
+          ],
+          "wordCount": 155
+        },
+        {
+          "id": 5,
+          "extract": "Extract from the drug allergy and adverse drug reaction (ADR) documentation policy:\n\nWhen a patient reports or experiences a possible reaction to a drug, the nature and severity of that reaction must be documented in detail. Writing only the word 'allergy' in the allergy field is insufficient: future prescribers need to know whether the reaction was anaphylaxis, urticaria, a gastrointestinal intolerance, or another recognised adverse effect, as this determines whether related compounds can safely be considered. The clinician who first identifies the reaction bears responsibility for documentation, even if the patient is subsequently transferred. Entries must be completed in the electronic prescribing record within two hours. Do not rely on a verbal account at handover; make the entry yourself. Reactions classified as 'intolerance' must include a description of the specific symptom experienced. Where the exact reaction is unknown, record what information is available and flag the entry for a structured allergy review at the next clinical opportunity.",
+          "stem": "The policy requires clinicians to",
+          "options": [
+            {
+              "key": "A",
+              "text": "withhold all drugs from the same class as a reported allergen until formal allergy testing has been arranged."
+            },
+            {
+              "key": "B",
+              "text": "document the exact nature and severity of each drug reaction rather than recording only the word 'allergy' in the field."
+            },
+            {
+              "key": "C",
+              "text": "refer every patient who reports a drug reaction to the specialist allergy clinic within two weeks of the event."
+            }
+          ],
+          "answer": "B",
+          "explain": "핵심: document the exact nature and severity of each drug reaction rather than recording only the word 'allergy'.",
+          "focusPhrases": [
+            "nature and severity",
+            "Writing only the word 'allergy'",
+            "insufficient"
+          ],
+          "wordCount": 157
+        },
+        {
+          "id": 6,
+          "extract": "Out-of-hours pharmacy handover note (Thursday 20:45):\n\nThe urgent clozapine supply for ward 9B — 14-day stock, 100 mg tablets, pre-labelled — is currently in the dispensary fridge on shelf C. The night pharmacist must collect this before the main dispensary building is locked at 22:00; the porter cannot access the fridge once the shutters are secured. Lorazepam for ITU (four ampoules, signed out on CD requisition 447A) is already in the CD cabinet at the on-call desk. The ward pharmacist's bleep is now held by Dr Patel (bleep 2201) for clinical queries until 08:00. Unsigned insulin prescriptions for ward 6 are sitting on the printer and require a pharmacist signature before reaching the ward. A renal dose query is logged for Mr Hassan in bed 7: check the latest eGFR before advising the team. Near-expiry returns should go into the yellow returns tray on the dispensary counter, not into the fridge.",
+          "stem": "The handover note indicates that the night pharmacist must",
+          "options": [
+            {
+              "key": "A",
+              "text": "retrieve the pre-labelled clozapine supply from the dispensary fridge before the building is locked at 22:00."
+            },
+            {
+              "key": "B",
+              "text": "contact Dr Patel on bleep 2201 to authorise the clozapine supply before collecting it from the dispensary fridge."
+            },
+            {
+              "key": "C",
+              "text": "place near-expiry ward returns in the dispensary fridge for the morning pharmacist to assess and process."
+            }
+          ],
+          "answer": "A",
+          "explain": "핵심: retrieve the pre-labelled clozapine supply from the dispensary fridge before the building is locked at 22:00.",
+          "focusPhrases": [
+            "pre-labelled",
+            "dispensary fridge",
+            "locked at 22:00"
+          ],
+          "wordCount": 151
+        }
+      ],
+      "gist": [
+        "Part B = identify the main purpose or single key instruction; watch for must / never / unless / before.",
+        "In pharmacy texts, distractors often assign the right action to the wrong person or the wrong deadline.",
+        "Focus phrases are verbatim clues — find them first, then re-read the surrounding sentence carefully."
+      ],
+      "vocab": [
+        {
+          "term": "equianalgesic",
+          "gloss": "등가진통제의: 다른 약물과 동일한 진통 효과를 내는 용량을 나타내는 형용사"
+        },
+        {
+          "term": "cross-tolerance",
+          "gloss": "교차 내성: 한 오피오이드에 내성이 생기면 유사 약물에도 부분적으로 내성이 발생하는 현상"
+        },
+        {
+          "term": "antimicrobial stewardship",
+          "gloss": "항생제 관리 프로그램: 항생제의 적절한 선택·용량·투여 기간을 최적화하는 체계적 활동"
+        },
+        {
+          "term": "controlled drug",
+          "gloss": "규제 마약류: 오남용 위험이 높아 엄격히 관리되는 의약품 (예: 모르핀, 미다졸람, 클로자핀)"
+        }
+      ]
+    },
+    {
+      "id": "B-08",
+      "part": "B",
+      "setNum": 8,
+      "type": "workplace",
+      "title": "Infection prevention & outbreak management extracts",
+      "instruction": "Six workplace extracts. Choose A, B or C. Focus phrases highlighted.",
+      "items": [
+        {
+          "id": 1,
+          "extract": "Memo from the Infection Prevention and Control team to all ward managers:\n\nTwo or more linked cases of acute vomiting and diarrhoea on the same bay constitute a suspected norovirus outbreak. Close affected bays to new admissions immediately; do not move patients between bays to fill gaps, as this will extend the outbreak. Cohort symptomatic patients and their contacts at bay level. All staff entering a closed area must wear a disposable apron and gloves; hand washing with soap and water is mandatory — alcohol gel alone is insufficient against norovirus. Enhanced cleaning with a chlorine-based solution (1,000 ppm available chlorine) is required at least twice daily and after every episode of vomiting or diarrhoea. Do not close the whole ward unless all bays are affected; partial closures allow unaffected areas to continue receiving patients. Notify IPC within one hour of declaring an outbreak. Only the IPC team can authorise reopening of a closed bay.",
+          "stem": "The memo mainly tells staff to",
+          "options": [
+            {
+              "key": "A",
+              "text": "close the entire ward immediately whenever two or more patients develop acute gastrointestinal symptoms."
+            },
+            {
+              "key": "B",
+              "text": "transfer symptomatic patients to single rooms on another ward until stool specimens confirm norovirus."
+            },
+            {
+              "key": "C",
+              "text": "close affected bays to new admissions and follow enhanced cleaning and contact precaution protocols."
+            }
+          ],
+          "answer": "C",
+          "explain": "핵심: Close affected bays to new admissions; enhanced cleaning and PPE (contact precautions) are required. Closing the whole ward is only if all bays are affected (rules out A); transfer to another ward is not mentioned (rules out B).",
+          "focusPhrases": [
+            "Close affected bays",
+            "new admissions",
+            "Enhanced cleaning"
+          ],
+          "wordCount": 155
+        },
+        {
+          "id": 2,
+          "extract": "Notice from the IPC nurse to all clinical staff, posted at ward entrances:\n\nMonthly unannounced hand hygiene compliance audits are now under way. Observers will assess all clinical staff against the WHO five moments for hand hygiene: before touching a patient, before a clean or aseptic procedure, after body-fluid exposure risk, after touching a patient, and after touching a patient's surroundings. Compliance below 80% will trigger an immediate debrief and mandatory re-training within five working days. Personal audit results are shared with line managers. Foam hand rub is available at every bed space and the ward entrance; however, when hands are visibly soiled or after contact with a patient with Clostridioides difficile or norovirus, soap and water must be used instead. Do not assume that wearing gloves removes the need for hand hygiene — gloves are not a substitute for the five moments protocol. All bank and agency staff are subject to the same requirements.",
+          "stem": "The notice mainly tells staff to",
+          "options": [
+            {
+              "key": "A",
+              "text": "follow the WHO five moments for hand hygiene or face mandatory re-training if compliance falls below 80%."
+            },
+            {
+              "key": "B",
+              "text": "complete an online hand hygiene refresher module and pass an assessment before the next scheduled audit."
+            },
+            {
+              "key": "C",
+              "text": "use soap and water exclusively for all patient contacts rather than the foam hand rub at the ward entrance."
+            }
+          ],
+          "answer": "A",
+          "explain": "핵심: five moments for hand hygiene; below 80% triggers mandatory re-training. No online module is mentioned (rules out B); soap and water is required only in specific situations, not for all contacts (rules out C).",
+          "focusPhrases": [
+            "five moments for hand hygiene",
+            "below 80%",
+            "mandatory re-training"
+          ],
+          "wordCount": 155
+        },
+        {
+          "id": 3,
+          "extract": "Extract from the Trust MRSA admission screening policy (version 4):\n\nAll elective surgical patients must be screened for MRSA at the pre-assessment appointment, ideally 10–14 days before admission. A positive swab result requires decolonisation with mupirocin nasal ointment and chlorhexidine body wash for five days; elective surgery should be deferred until a clearance swab is negative. Emergency admissions are screened on arrival at the admitting ward; results are generally available within 24 hours. Patients with a previous MRSA-positive result are not automatically re-screened on every subsequent attendance; refer to IPC for an individual risk assessment if the interval since the last negative screen exceeds 12 months. Ward transfer documentation must record current MRSA status. Known MRSA-positive patients should be placed in a side room wherever possible; if no side room is available, notify IPC to agree a cohort arrangement before the patient is moved.",
+          "stem": "According to the policy,",
+          "options": [
+            {
+              "key": "A",
+              "text": "all patients, including emergency admissions, must be screened for MRSA at least ten days before any procedure."
+            },
+            {
+              "key": "B",
+              "text": "elective surgery must be deferred until decolonisation is complete and a negative clearance swab has been obtained."
+            },
+            {
+              "key": "C",
+              "text": "previously MRSA-positive patients must be placed in a side room and re-screened on every hospital attendance."
+            }
+          ],
+          "answer": "B",
+          "explain": "핵심: elective surgery should be deferred until a clearance swab is negative after decolonisation. The 10–14 days applies only to elective pre-assessment, not emergency admissions (rules out A); automatic re-screening on every attendance is explicitly not required (rules out C).",
+          "focusPhrases": [
+            "elective surgery should be deferred",
+            "clearance swab",
+            "mupirocin"
+          ],
+          "wordCount": 144
+        },
+        {
+          "id": 4,
+          "extract": "Extract from the Trust needlestick and sharps injury standard operating procedure:\n\nIn the event of a needlestick or sharps injury: immediately encourage the wound to bleed freely by squeezing gently; do not suck the wound. Wash thoroughly under running water with soap for at least 60 seconds; do not scrub with a brush or apply neat bleach to the skin. Cover with a waterproof dressing. Report to Occupational Health (during working hours) or the Emergency Department (outside working hours) without delay; HIV post-exposure prophylaxis must be started within one hour of a high-risk exposure to be most effective and cannot be given beyond 72 hours from exposure. Complete a Datix incident report the same working day. Preserve the source device in a secure sharps container if it is safe to do so; do not resheathe the needle under any circumstances. Inform your line manager. Most sharps injuries do not result in transmission of a bloodborne virus.",
+          "stem": "The procedure requires staff to",
+          "options": [
+            {
+              "key": "A",
+              "text": "complete a Datix incident report within 48 hours and arrange an Occupational Health appointment at the next available slot."
+            },
+            {
+              "key": "B",
+              "text": "apply firm pressure and suck the wound to remove contaminated blood before washing it thoroughly under running water."
+            },
+            {
+              "key": "C",
+              "text": "make the wound bleed, wash it under running water, and seek Occupational Health or Emergency Department review without delay."
+            }
+          ],
+          "answer": "C",
+          "explain": "핵심: encourage the wound to bleed, wash under running water, report without delay. Datix must be filed the same day (not within 48 hours) and OH should be attended immediately (rules out A); sucking the wound is explicitly prohibited (rules out B).",
+          "focusPhrases": [
+            "encourage the wound to bleed",
+            "without delay",
+            "HIV post-exposure prophylaxis"
+          ],
+          "wordCount": 156
+        },
+        {
+          "id": 5,
+          "extract": "Extract from the Trust isolation priority guideline (Appendix 2):\n\nWhen single-room availability is limited, the decision about which patient to isolate must be based on a risk assessment comparing transmission risk to others (the 'source' risk) against the patient's own vulnerability to infection (the 'sink' risk). A patient with suspected norovirus gastroenteritis and access to shared toilet facilities generally takes priority over an immunocompromised patient unless that patient is neutropenic and there is an active environmental mould risk. Patients with confirmed or suspected Clostridioides difficile, open pulmonary tuberculosis, or carbapenem-resistant organisms must always be escalated to IPC for same-day advice. Where no single room is available, cohorting patients with the same confirmed organism is the preferred alternative; mixing patients with different suspected pathogens in a single cohort bay is not acceptable. Staff must document the risk assessment outcome whenever appropriate isolation cannot be achieved. IPC helpline contact details are inside the back cover of every ward folder.",
+          "stem": "The guideline states that",
+          "options": [
+            {
+              "key": "A",
+              "text": "neutropenic patients must always be given priority over patients with diarrhoea whenever only one room is available."
+            },
+            {
+              "key": "B",
+              "text": "single-room allocation must be guided by a risk assessment of which patient poses the greater transmission risk."
+            },
+            {
+              "key": "C",
+              "text": "IPC must be contacted before any isolation decision is made, regardless of how urgent the clinical situation."
+            }
+          ],
+          "answer": "B",
+          "explain": "핵심: risk assessment comparing transmission risk to others determines priority. Neutropenic patients do not automatically take priority (rules out A); only specific high-risk organisms require same-day IPC escalation, not every decision (rules out C).",
+          "focusPhrases": [
+            "transmission risk to others",
+            "risk assessment",
+            "cohorting"
+          ],
+          "wordCount": 157
+        },
+        {
+          "id": 6,
+          "extract": "IPC handover note — C. difficile case, Bay 3, Bed 6:\n\nMr Okonkwo (62M) was confirmed CDI-positive this morning following three consecutive type 6–7 Bristol Stool Chart samples and a positive GDH/toxin assay. He has been moved to the single side room at the end of the bay. Oral vancomycin has been started; do not switch to metronidazole unless this has been discussed with microbiology. Side-room isolation must continue until the patient has been diarrhoea-free for at least 48 hours — do not discontinue isolation based on a negative repeat stool specimen alone. Soap and water only for hand hygiene in this room: alcohol gel does not eliminate C. difficile spores. Any ward transfers must be pre-notified to the receiving ward's IPC link nurse. A clinical review is due at 18:00 to reassess stool frequency and fluid balance. The Datix report has been opened; please add any updated clinical information before the night handover.",
+          "stem": "The note indicates that",
+          "options": [
+            {
+              "key": "A",
+              "text": "the patient must stay isolated with soap-and-water hand hygiene until he is diarrhoea-free for at least 48 hours."
+            },
+            {
+              "key": "B",
+              "text": "the antibiotic should be switched from vancomycin to metronidazole once the first 24 hours of treatment have passed."
+            },
+            {
+              "key": "C",
+              "text": "isolation can be discontinued as soon as a repeat stool specimen returns negative for C. difficile toxin."
+            }
+          ],
+          "answer": "A",
+          "explain": "핵심: diarrhoea-free for at least 48 hours before ending isolation; soap and water only. Switching to metronidazole is explicitly prohibited without microbiology discussion (rules out B); ending isolation on a negative specimen alone is explicitly prohibited (rules out C).",
+          "focusPhrases": [
+            "diarrhoea-free for at least 48 hours",
+            "Soap and water only",
+            "alcohol gel does not eliminate"
+          ],
+          "wordCount": 154
+        }
+      ],
+      "gist": [
+        "Part B = purpose or main requirement of a workplace extract; watch must / do not / unless / until."
+      ],
+      "vocab": [
+        {
+          "term": "decolonisation",
+          "gloss": "탈집락화: 피부·비강의 MRSA 등을 항균제로 제거하는 처치"
+        },
+        {
+          "term": "cohorting",
+          "gloss": "코호팅: 같은 병원체 감염 환자를 한 구역에 모아 격리"
+        },
+        {
+          "term": "post-exposure prophylaxis",
+          "gloss": "노출 후 예방 요법 (PEP): 혈액 노출 후 HIV 등 감염 예방을 위한 약물 투여"
+        },
+        {
+          "term": "carbapenem-resistant organisms",
+          "gloss": "카바페넴 내성 균주 (CRO): 최후 항생제에 내성을 보이는 세균"
+        },
+        {
+          "term": "GDH/toxin assay",
+          "gloss": "C. difficile 글루타메이트 탈수소효소·독소 검사: CDI 확진에 사용"
+        }
+      ]
+    },
+    {
+      "id": "B-09",
+      "part": "B",
+      "setNum": 9,
+      "type": "workplace",
+      "title": "Theatre, consent & surgical safety extracts",
+      "instruction": "Six workplace extracts. Choose A, B or C. Focus phrases highlighted.",
+      "items": [
+        {
+          "id": 1,
+          "extract": "Memo from the Theatre Safety Lead to all perioperative staff:\n\nThe WHO Surgical Safety Checklist is a mandatory patient safety requirement for every surgical procedure performed in this department, regardless of urgency or procedure length. The checklist has three stages: Sign In (before anaesthetic induction), Time Out (before surgical incision), and Sign Out (before the patient leaves the operating room). All three stages must be completed and recorded on the theatre documentation for every case. A completed checklist form must be filed in the patient's notes. No stage may be omitted or deferred because of time pressure or a surgeon's preference. If any stage is skipped, the senior scrub practitioner must document the omission and notify the theatre coordinator immediately. Completion of all three stages is the shared responsibility of the entire operating team, not solely the nursing staff.",
+          "stem": "The memo mainly requires all perioperative staff to",
+          "options": [
+            {
+              "key": "A",
+              "text": "complete only the stages that the operating surgeon considers necessary, omitting Sign Out when theatre time is limited."
+            },
+            {
+              "key": "B",
+              "text": "delegate responsibility for completing all checklist stages to the senior scrub practitioner as the nominated team leader."
+            },
+            {
+              "key": "C",
+              "text": "ensure all three checklist stages are completed and documented in the patient's notes for every surgical case."
+            }
+          ],
+          "answer": "C",
+          "explain": "핵심: 'All three stages must be completed and recorded … for every case' — 전체 세 단계를 빠짐없이 완료하고 기록해야 한다.",
+          "focusPhrases": [
+            "Sign In",
+            "Time Out",
+            "Sign Out"
+          ],
+          "wordCount": 139
+        },
+        {
+          "id": 2,
+          "extract": "Extract from the Trust consent policy — patients who lack capacity:\n\nWhen a patient aged 16 or over lacks capacity to consent to a procedure, clinical staff must follow the Mental Capacity Act 2005. Capacity should be assessed in relation to the specific decision and at the time the decision needs to be made; it is decision-specific and time-specific. If capacity is lacking, the team must identify who holds a valid Lasting Power of Attorney for health and welfare. Where no valid LPA exists, the clinical team must act in the patient's best interests, consulting family members or carers to understand previously expressed wishes. All decisions must be documented in full, including the views of those consulted and the reasons for the course of action chosen. Emergency procedures may proceed without delay under the principle of necessity, provided the intervention is the least restrictive option available.",
+          "stem": "According to the policy, when a patient lacks capacity,",
+          "options": [
+            {
+              "key": "A",
+              "text": "the clinical team must act in the patient's best interests, consulting relatives and fully documenting the decision."
+            },
+            {
+              "key": "B",
+              "text": "the nearest family member holds legal authority to give or withhold consent on the patient's behalf."
+            },
+            {
+              "key": "C",
+              "text": "the procedure must be postponed until an independent mental capacity advocate has provided a formal recommendation."
+            }
+          ],
+          "answer": "A",
+          "explain": "핵심: 'act in the patient's best interests, consulting family members' and 'all decisions must be documented in full' — 모든 결정은 최선의 이익 원칙에 따라 내리고 완전히 기록해야 한다.",
+          "focusPhrases": [
+            "best interests",
+            "Mental Capacity Act 2005",
+            "Lasting Power of Attorney"
+          ],
+          "wordCount": 146
+        },
+        {
+          "id": 3,
+          "extract": "Standard Operating Procedure — swab and instrument counts (operating theatres):\n\nSwab and instrument counts must be conducted jointly by the scrub practitioner and the circulating nurse, using a read-aloud verbal confirmation technique. A baseline count must be performed before the procedure begins. A further count is mandatory before wound closure and again after wound closure is complete. If any discrepancy is found, the surgeon must be informed immediately and the wound must not be closed until the discrepancy is resolved, regardless of time pressure. Intraoperative imaging may assist in locating missing items but does not substitute for a full physical recount. The final count must be confirmed as correct by both practitioners, documented on the theatre record, and signed. Unresolved discrepancies must be escalated to the theatre coordinator and recorded as a clinical incident.",
+          "stem": "The SOP requires that",
+          "options": [
+            {
+              "key": "A",
+              "text": "the scrub practitioner conducts all counts independently and reports any discrepancy to the theatre coordinator after wound closure."
+            },
+            {
+              "key": "B",
+              "text": "both the scrub practitioner and the circulating nurse must confirm counts jointly before and after wound closure."
+            },
+            {
+              "key": "C",
+              "text": "a discrepancy in the swab count may be resolved by intraoperative imaging alone if the surgeon confirms the finding."
+            }
+          ],
+          "answer": "B",
+          "explain": "핵심: 'conducted jointly by the scrub practitioner and the circulating nurse' and 'before wound closure and again after wound closure' — 두 팀원이 공동으로 봉합 전후 계수를 확인해야 한다.",
+          "focusPhrases": [
+            "scrub practitioner",
+            "circulating nurse",
+            "before wound closure",
+            "after wound closure"
+          ],
+          "wordCount": 134
+        },
+        {
+          "id": 4,
+          "extract": "Notice to all surgical teams — site marking requirements:\n\nSurgical site marking is mandatory for all procedures involving laterality, multiple levels, or multiple structures, and for any procedure where there is a realistic risk of wrong-site or wrong-patient surgery. Marking must be performed by the operating surgeon using a permanent skin marker before the patient is transferred to the theatre table. The mark must be placed directly over or adjacent to the intended incision site and must remain visible after skin preparation. Site marking must be completed in the anaesthetic room, before any sedation or general anaesthetic is administered, so that the patient can actively confirm the correct site. Marking by a trainee is acceptable only under the direct supervision of the responsible consultant. Do not use adhesive labels or any ink that may wash off during skin preparation.",
+          "stem": "The notice states that surgical site marking",
+          "options": [
+            {
+              "key": "A",
+              "text": "is required only for procedures with a laterality distinction and may be delegated to the surgical registrar in advance."
+            },
+            {
+              "key": "B",
+              "text": "should be completed on the ward during the pre-operative nursing assessment and confirmed by the anaesthetist on arrival."
+            },
+            {
+              "key": "C",
+              "text": "must be carried out by the operating surgeon in the anaesthetic room, before sedation or general anaesthesia is administered."
+            }
+          ],
+          "answer": "C",
+          "explain": "핵심: 'Marking must be performed by the operating surgeon' and 'completed in the anaesthetic room, before any sedation or general anaesthetic is administered' — 마킹은 집도의가 마취 전처치실에서 직접 시행해야 한다.",
+          "focusPhrases": [
+            "operating surgeon",
+            "anaesthetic room",
+            "before any sedation or general anaesthetic"
+          ],
+          "wordCount": 139
+        },
+        {
+          "id": 5,
+          "extract": "Day Surgery Unit discharge criteria — guideline for nursing staff:\n\nA patient may be discharged from the Day Surgery Unit only when all of the following clinical criteria are met: the patient is alert and orientated; vital signs have been stable for at least one hour; pain is controlled to a score of 3 or less on a 0–10 numerical scale using oral analgesia; nausea and vomiting are absent or mild; the wound site is clean and dry with no active bleeding; and the patient has passed urine. In addition, a responsible adult must be present to accompany the patient home and remain with them overnight. Discharge may not occur if the patient intends to travel alone or by public transport. The discharging nurse must complete and sign the discharge checklist and provide the patient with written post-operative instructions and emergency contact details.",
+          "stem": "The guideline states that patients may be discharged from the Day Surgery Unit only when",
+          "options": [
+            {
+              "key": "A",
+              "text": "all clinical criteria are met and a responsible adult is present to accompany them home and remain overnight."
+            },
+            {
+              "key": "B",
+              "text": "the consultant surgeon has personally reviewed them and countersigned the discharge checklist before the patient leaves the unit."
+            },
+            {
+              "key": "C",
+              "text": "pain has fully resolved and the patient has tolerated oral fluids without nausea for at least two hours."
+            }
+          ],
+          "answer": "A",
+          "explain": "핵심: 'all of the following clinical criteria are met' and 'a responsible adult must be present to accompany the patient home' — 임상 기준 모두 충족 및 보호자 동반이 함께 요구된다.",
+          "focusPhrases": [
+            "clinical criteria",
+            "responsible adult",
+            "accompany the patient home"
+          ],
+          "wordCount": 143
+        },
+        {
+          "id": 6,
+          "extract": "Post-anaesthetic recovery handover note — Theatre 3, 14:35:\n\nMr Choi, 58 years, ASA II, underwent laparoscopic cholecystectomy under general anaesthesia (propofol/remifentanil/rocuronium, reversed with sugammadex). Procedure time 55 minutes; estimated blood loss <50 mL; no intraoperative complications. Currently in recovery bay 2 since 14:20. SpO₂ 97% on 2 L/min nasal oxygen; HR 78 bpm; BP 126/74 mmHg; temperature 36.6 °C. Pain score 6/10 despite 10 mg morphine IV intraoperatively and 1 g paracetamol IV. Ondansetron 4 mg given for postoperative nausea; no further episodes since 14:28. Anaesthetist Dr Patel contacted at 14:32 regarding ongoing pain management; awaiting review. Physiotherapy referral not indicated. His wife is present in the waiting area. Please do not transfer to the ward until Dr Patel has reviewed and analgesia is satisfactory.",
+          "stem": "The handover note indicates that",
+          "options": [
+            {
+              "key": "A",
+              "text": "the patient's vital signs are unstable and the anaesthetist has already been called to attend as an emergency."
+            },
+            {
+              "key": "B",
+              "text": "the patient's pain is not yet adequately controlled and the anaesthetist has been asked to review him."
+            },
+            {
+              "key": "C",
+              "text": "the anaesthetist has reviewed the patient and updated the analgesia plan, and he is ready for ward transfer."
+            }
+          ],
+          "answer": "B",
+          "explain": "핵심: 'Pain score 6/10 despite … morphine' and 'Anaesthetist Dr Patel contacted … awaiting review' — 통증 조절이 아직 불충분하며 마취과 의사의 검토를 기다리고 있다.",
+          "focusPhrases": [
+            "Pain score 6/10",
+            "Anaesthetist Dr Patel contacted",
+            "awaiting review"
+          ],
+          "wordCount": 125
+        }
+      ],
+      "gist": [
+        "Part B = what the extract mainly tells staff to do; focus on verbs must / do not / only when.",
+        "Theatre extracts often hinge on who is responsible and under what conditions an exception is permitted.",
+        "In consent questions, note that relatives do not hold automatic authority — the team must act in the patient's best interests."
+      ],
+      "vocab": [
+        {
+          "term": "anaesthetic induction",
+          "gloss": "마취 유도: 전신마취를 시작하는 단계"
+        },
+        {
+          "term": "Lasting Power of Attorney",
+          "gloss": "지속적 위임장: 의사결정 능력 상실에 대비해 대리인을 법적으로 지정하는 문서"
+        },
+        {
+          "term": "scrub practitioner",
+          "gloss": "스크럽 간호사(실무자): 수술 중 무균 상태로 기구를 직접 다루는 수술팀원"
+        },
+        {
+          "term": "laterality",
+          "gloss": "측성: 수술 부위의 좌우 구분"
+        },
+        {
+          "term": "sugammadex",
+          "gloss": "스가마덱스: 로쿠로늄 등 신경근 차단제를 신속히 역전하는 약물"
+        }
+      ]
+    },
+    {
+      "id": "B-10",
+      "part": "B",
+      "setNum": 10,
+      "type": "workplace",
+      "title": "Rehabilitation, discharge planning & community care extracts",
+      "instruction": "Six workplace extracts. Choose A, B or C. Focus phrases highlighted.",
+      "items": [
+        {
+          "id": 1,
+          "extract": "Memo from the physiotherapy lead to all ward physiotherapists:\n\nFollowing the review of post-operative falls on Wards 6 and 7, we are updating the weight-bearing status documentation process with immediate effect. All weight-bearing orders must be transcribed onto the mobility board at the bedside within one hour of receipt. 'Partial weight-bearing' is not an acceptable entry; specify the permitted load in kilograms or as a percentage of body weight (e.g. 20 kg or 30%). Where the surgeon has not specified load, contact the operating team the same day rather than defaulting to non-weight-bearing. Patients must not be assisted to mobilise until the status is confirmed and documented. Physiotherapists handing over at shift change must verbally confirm the current order to the oncoming colleague; do not assume the board is always up to date. Any discrepancy must be escalated to the ward manager immediately.",
+          "stem": "The memo mainly tells physiotherapists to",
+          "options": [
+            {
+              "key": "A",
+              "text": "document a specific weight-bearing load and confirm the order verbally at handover."
+            },
+            {
+              "key": "B",
+              "text": "contact the ward manager before mobilising any post-operative patient on Wards 6 and 7."
+            },
+            {
+              "key": "C",
+              "text": "default to non-weight-bearing status whenever the surgeon has not provided written instructions."
+            }
+          ],
+          "answer": "A",
+          "explain": "핵심: specify load in kg or %; confirm verbally at handover. B overstates scope; C directly contradicts the instruction.",
+          "focusPhrases": [
+            "specify the permitted load",
+            "verbally confirm",
+            "not an acceptable entry"
+          ],
+          "wordCount": 143
+        },
+        {
+          "id": 2,
+          "extract": "Extract from the community home oxygen assessment policy:\n\nA home oxygen order form (HOOF) must be completed by a clinician with prescribing authority before any oxygen concentrator is installed in the patient's home. Ambulatory oxygen should be assessed separately from long-term oxygen therapy (LTOT); do not assume a patient assessed for LTOT automatically qualifies for ambulatory use. Qualifying criteria for LTOT require resting SaO₂ ≤ 92% on air on two occasions at least three weeks apart, when the patient is clinically stable. The fire safety checklist must be completed by the referring clinician, not delegated to the oxygen supplier. Smoking status must be documented; oxygen must not be commenced if there is an active smoker in the household unless a written safety plan is in place and the patient and all household members have been counselled. Home visits by the oxygen supplier do not replace the clinician's assessment.",
+          "stem": "According to the policy, the fire safety checklist",
+          "options": [
+            {
+              "key": "A",
+              "text": "may be delegated to the oxygen supplier to complete during the initial home installation visit."
+            },
+            {
+              "key": "B",
+              "text": "must be completed by the clinician who is making the referral, not by the supplier."
+            },
+            {
+              "key": "C",
+              "text": "is only required when there is an active smoker or unsupervised child living in the household."
+            }
+          ],
+          "answer": "B",
+          "explain": "핵심: fire safety checklist must be completed by the referring clinician, not delegated to the oxygen supplier.",
+          "focusPhrases": [
+            "fire safety checklist",
+            "not delegated to the oxygen supplier",
+            "referring clinician"
+          ],
+          "wordCount": 148
+        },
+        {
+          "id": 3,
+          "extract": "Pressure ulcer prevention notice — all clinical areas:\n\nWith immediate effect, all patients assessed as medium or high risk on the Waterlow scale must have a documented repositioning plan in place within four hours of admission. The plan must state the frequency of repositioning (minimum two-hourly for high-risk patients) and the equipment prescribed (e.g. alternating pressure mattress, heel protectors). Do not wait for a tissue viability nurse referral before starting basic preventive care. Referral to the tissue viability team is required for all patients who arrive with a pre-existing pressure ulcer of any grade or who develop a category 2 or above during their stay. Photographic documentation of existing skin damage must be taken at admission and repeated at 72-hour intervals. Staff must not reposition patients over, rather than off, bony prominences. Any new category 2 or above must be reported via Datix within 24 hours.",
+          "stem": "The purpose of this notice is to",
+          "options": [
+            {
+              "key": "A",
+              "text": "remind staff to await a tissue viability nurse referral before initiating any repositioning or equipment plan."
+            },
+            {
+              "key": "B",
+              "text": "instruct staff to start preventive measures promptly and report new ulcers through the incident system."
+            },
+            {
+              "key": "C",
+              "text": "require photographic documentation of all patients' skin on admission regardless of their Waterlow score."
+            }
+          ],
+          "answer": "B",
+          "explain": "핵심: start preventive care promptly (don't wait for TVN); report via Datix within 24 hours. A reverses the instruction; C overstates the photography requirement.",
+          "focusPhrases": [
+            "Do not wait",
+            "basic preventive care",
+            "reported via Datix"
+          ],
+          "wordCount": 146
+        },
+        {
+          "id": 4,
+          "extract": "Community nursing referral SOP — district nursing team:\n\nReferrals to the district nursing service must be submitted via the electronic referral system (ERS) and must include: diagnosis, current medications, wound care requirements if applicable, mobility status, next of kin contact details, and whether the patient has a keysafe or other access arrangement. Verbal referrals are not accepted except in genuine clinical emergencies, in which case a written ERS entry must follow within two hours. Discharge referrals must be received no later than 10:00 on the day of discharge to allow scheduling; referrals received after this time may result in a gap in care. The referring ward nurse is responsible for confirming that the patient has been informed a community nurse will visit. Do not give patients a specific appointment time; the team will contact them directly to arrange a suitable window. Ensure the GP has been notified of the referral at the point of submission.",
+          "stem": "The SOP states that verbal referrals",
+          "options": [
+            {
+              "key": "A",
+              "text": "are acceptable for all discharge referrals as long as a written ERS entry is completed before the patient leaves the ward."
+            },
+            {
+              "key": "B",
+              "text": "are never acceptable under any circumstances and must in all cases be replaced immediately by an electronic ERS submission."
+            },
+            {
+              "key": "C",
+              "text": "are only permitted in genuine clinical emergencies and must be followed by a written ERS entry within two hours."
+            }
+          ],
+          "answer": "C",
+          "explain": "핵심: verbal referrals accepted only in genuine emergencies; written ERS entry must follow within two hours.",
+          "focusPhrases": [
+            "genuine clinical emergencies",
+            "written ERS entry must follow within two hours",
+            "Verbal referrals are not accepted"
+          ],
+          "wordCount": 155
+        },
+        {
+          "id": 5,
+          "extract": "Extract from the care home discharge guideline:\n\nPatients being discharged to a care home must not leave the ward until the receiving home has explicitly confirmed it can accept the patient on that date. Acceptance by phone alone is insufficient; written confirmation (email or secure message) must be on file before transport is arranged. The ward must supply the care home with a copy of the hospital discharge summary, current medication administration record (MAR), wound care plan, and the most recent nutritional assessment. Where the patient requires regular nursing procedures (e.g. PEG feeding, catheter care, syringe driver management), the ward nurse must contact the care home lead nurse directly to confirm staff competence. If competence cannot be confirmed, the discharge must be paused and the multidisciplinary team (MDT) notified. Do not document 'MDT agreed' on the discharge paperwork unless a formal MDT meeting or case conference has taken place.",
+          "stem": "The guideline states that written confirmation from the care home",
+          "options": [
+            {
+              "key": "A",
+              "text": "is only required when the patient needs regular nursing procedures such as PEG feeding or catheter care."
+            },
+            {
+              "key": "B",
+              "text": "must be obtained and filed before transport to the care home is arranged."
+            },
+            {
+              "key": "C",
+              "text": "replaces the need for the ward nurse to contact the care home lead nurse directly."
+            }
+          ],
+          "answer": "B",
+          "explain": "핵심: written confirmation must be on file before transport is arranged. A confuses confirmation with competence check; C contradicts the direct contact requirement.",
+          "focusPhrases": [
+            "written confirmation",
+            "must be on file",
+            "before transport is arranged"
+          ],
+          "wordCount": 149
+        },
+        {
+          "id": 6,
+          "extract": "Occupational therapy handover note — rehabilitation unit:\n\nMr Okonkwo (Bed 14) was reviewed today for home assessment planning. He is currently independent in transfers with a wheeled Zimmer frame on level surfaces but requires standby assistance on stairs. His home has seven steps to the front door with no handrail on the right-hand side; installation of a grab rail has been requested via the housing adaptation service, with estimated lead time of four to six weeks. Until adaptations are in place, ground-floor living arrangements have been discussed with the family and provisionally agreed. The patient has declined a stair lift assessment at this stage. He will need a commode and a perching stool; equipment has been ordered and delivery is expected within five working days. Discharge should not proceed until equipment is confirmed as delivered and the grab rail installation date is known. Please discuss the estimated discharge date with the consultant at tomorrow's ward round.",
+          "stem": "The note indicates that Mr Okonkwo's discharge",
+          "options": [
+            {
+              "key": "A",
+              "text": "should be deferred until the grab rail installation date is known and all ordered equipment has been delivered."
+            },
+            {
+              "key": "B",
+              "text": "can proceed as soon as the family has confirmed the ground-floor living arrangement is suitable and agreed."
+            },
+            {
+              "key": "C",
+              "text": "depends on the patient consenting to a formal stair lift assessment before he can leave the rehabilitation unit."
+            }
+          ],
+          "answer": "A",
+          "explain": "핵심: discharge should not proceed until equipment delivered and grab rail installation date is known.",
+          "focusPhrases": [
+            "Discharge should not proceed",
+            "equipment is confirmed as delivered",
+            "grab rail installation date is known"
+          ],
+          "wordCount": 156
+        }
+      ],
+      "gist": [
+        "Part B = identify the main instruction or purpose of each workplace extract.",
+        "Watch for negatives (must not, not accepted, do not wait) — distractors often reverse these.",
+        "Focus phrases are the key clause that directly answers the question."
+      ],
+      "vocab": [
+        {
+          "term": "weight-bearing",
+          "gloss": "체중 부하: 수술 후 허용되는 하중"
+        },
+        {
+          "term": "LTOT",
+          "gloss": "장기 산소 요법 (Long-Term Oxygen Therapy)"
+        },
+        {
+          "term": "Waterlow scale",
+          "gloss": "욕창 위험도 평가 도구"
+        },
+        {
+          "term": "keysafe",
+          "gloss": "열쇠 보관함: 방문 간호사용 자물쇠 상자"
+        },
+        {
+          "term": "MAR",
+          "gloss": "약물 투여 기록지 (Medication Administration Record)"
+        },
+        {
+          "term": "perching stool",
+          "gloss": "반좌위 보조 의자: 서있기 불편한 환자용 높은 의자"
+        }
+      ]
     }
   ]
 }

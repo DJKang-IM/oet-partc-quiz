@@ -1,0 +1,276 @@
+{
+  "id": "C-09",
+  "part": "C",
+  "setNum": 9,
+  "type": "dual-text",
+  "title": "Clinician fatigue & health literacy",
+  "instruction": "Official-style Part C: two texts, 8 questions each (16 total). Focus phrases are highlighted in the passages.",
+  "texts": [
+    {
+      "label": "Text 1",
+      "title": "Fatigue and shift work: the impairment we agree not to see",
+      "paragraphs": [
+        "Consider what we already know about impaired driving: a blood alcohol concentration of 0.05 per cent is illegal in most European countries, and an employer who knowingly sent an intoxicated employee to operate heavy machinery would face serious consequences. Now consider that seventeen hours without sleep produces a performance decrement equivalent to that blood alcohol level. Clinicians regularly begin shifts having slept fewer hours than that recommendation, and almost no hospital has a protocol that treats this as a safety incident. We have agreed, collectively, not to see it.",
+        "The science is not disputed. Seminal research by Dawson and Reid in the 1990s demonstrated the sleep-deprivation–alcohol equivalence, and subsequent studies have replicated it across domains of attention, working memory, and procedural skill. After a night shift, a doctor's reaction time, diagnostic accuracy, and capacity to notice a patient's deteriorating trajectory are all measurably reduced. If that same doctor were breathalysed at the nurses' station, the ethical obligation would be clear. Yet the equivalent measurement—a standardised fatigue score before a twelve-hour overnight shift—remains an abstraction in most hospitals, not a precondition for taking on a ward.",
+        "Part of the explanation is cultural. In many specialties, enduring fatigue without complaint has functioned as a badge of the committed—evidence that you take your responsibilities seriously, that you prioritise patients over comfort. Night shifts survived with minimal sleep are described in job references and at interviews as a mark of resilience. This framing is not deliberately cynical. It emerged from a pre-scientific era when hours were assumed to build capability. What it produces now is a training culture in which acknowledging fatigue feels professionally dangerous, and in which a clinician who asks for rest may be labelled fragile before they are heard.",
+        "The standard defence is that systems protect patients from fatigued individuals: handovers, checklists, double-checks, and the collective intelligence of a team should catch what a tired clinician misses. This comfort has merit, but it rests on a crucial fallacy. Handovers depend on clear verbal communication, checklists require careful reading, and recognising a deteriorating patient requires sustained attention—precisely the cognitive functions most vulnerable to sleep loss. Safeguards designed to catch human error cannot fully compensate when every member of the team has been awake for twelve to fifteen hours and each safeguard requires the same impaired cognition to operate it.",
+        "Quantitative evidence is plentiful. Studies from emergency medicine, surgery, and paediatrics consistently find higher rates of medication errors, procedural complications, and near-misses during overnight shifts and in the second half of prolonged rotas. One surgical trainee study found that participants made roughly twice the number of laparoscopic errors after a night without sleep compared with rested controls. Needle-stick injuries cluster in the small hours. None of this surprises anyone who has worked nights. What is surprising is how rarely accumulated sleep debt appears in incident reports, root-cause analyses, or mortality-and-morbidity meetings as a contributing factor, let alone a primary cause.",
+        "Institutional silence around fatigue runs deep. In most trusts, there is no recognised mechanism for calling in fatigued, analogous to calling in sick. An individual who arrives having slept three hours after a bereavement, an anxious child, or a night of insomnia has no formal route to report their state without risking their professional standing or their roster. The consequence is predictable: fatigue is concealed. And because it is concealed, neither managers nor colleagues can compensate, and the impairment operates unannounced throughout the shift. What cannot be named cannot be managed.",
+        "The training years are where the pattern is set. Junior doctors who rotate through rota systems covering nights, weekends, and bank holidays are learning a clinical curriculum alongside an implicit one: that sleep deprivation is a normal cost of care, that complaining about it is unprofessional, and that seniority means surviving what others did not. This is an apprenticeship in endurance rather than an education in sustainable practice. By the time a clinician reaches a level of seniority at which they might change the culture, they have internalised it too deeply to see it as a choice.",
+        "Healthcare regulation is thorough about fitness to practise in almost every respect. Alcohol, substance misuse, health conditions, performance concerns, and behavioural fitness are all subject to review. Fatigue—systematic, shift-induced, and evidence-based in its impairment—is not. Until it is, the system will continue to produce harm that is recorded as individual error rather than structural failure. Acknowledging fatigue as an impairment is not a counsel of defeat; it is the first act of honesty a safety culture requires. The monitor alarms in the small hours are not louder because clinicians are alert—they are louder because nobody admits they are not."
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "stem": "In paragraph one, 'performance decrement' refers to",
+          "options": [
+            {"key": "A", "text": "the measurable reduction in clinical ability that results from prolonged sleep deprivation"},
+            {"key": "B", "text": "the decline in patient safety observed on wards where handover practices are consistently poor"},
+            {"key": "C", "text": "a drop in alertness that occurs whenever clinicians work extended hours in understaffed units"},
+            {"key": "D", "text": "the gradual erosion of clinical skill that follows when regular training updates are missed"}
+          ],
+          "answer": "A",
+          "focus": "performance decrement",
+          "explain": "지문의 'performance decrement' 부분 참조 → the measurable reduction in clinical ability from sleep deprivation"
+        },
+        {
+          "id": 2,
+          "stem": "'Breathalysed at the nurses' station' in paragraph two suggests that",
+          "options": [
+            {"key": "A", "text": "alcohol misuse in hospitals is far more prevalent than official incident data or reports acknowledge"},
+            {"key": "B", "text": "a fatigued clinician poses a measurable risk that demands the same clear response as intoxication"},
+            {"key": "C", "text": "all staff should be required to complete a fitness assessment before taking on overnight clinical duties"},
+            {"key": "D", "text": "managers have been shown to respond less urgently to fatigue-related concerns than to substance-misuse incidents"}
+          ],
+          "answer": "B",
+          "focus": "breathalysed at the nurses' station",
+          "explain": "지문의 'breathalysed at the nurses' station' 부분 참조 → fatigue warrants same unambiguous response as measured intoxication"
+        },
+        {
+          "id": 3,
+          "stem": "According to paragraph three, acknowledging fatigue in many clinical settings",
+          "options": [
+            {"key": "A", "text": "is now actively encouraged by training supervisors who have revised their approach to staff wellbeing"},
+            {"key": "B", "text": "is acceptable in most teams provided it is shared only with trusted senior colleagues"},
+            {"key": "C", "text": "carries professional risk because it may be interpreted as an admission of fragility"},
+            {"key": "D", "text": "has become gradually more accepted since the introduction of European working-hours legislation"}
+          ],
+          "answer": "C",
+          "focus": "badge of the committed",
+          "explain": "지문의 'badge of the committed' 부분 참조 → acknowledging fatigue risks being labelled fragile"
+        },
+        {
+          "id": 4,
+          "stem": "The writer mentions that handovers require clear communication and checklists require careful reading in order to",
+          "options": [
+            {"key": "A", "text": "demonstrate that modern safety systems are robust enough to function reliably on overnight wards"},
+            {"key": "B", "text": "argue that collective team intelligence reliably covers the lapses of any one tired individual"},
+            {"key": "C", "text": "illustrate the benefit of written safety protocols over verbal handover for fatigued clinical staff"},
+            {"key": "D", "text": "expose the flaw in assuming that safety systems can adequately compensate for cognitive fatigue"}
+          ],
+          "answer": "D",
+          "focus": "precisely the cognitive functions most vulnerable",
+          "explain": "지문의 'precisely the cognitive functions most vulnerable' 부분 참조 → safeguards depend on the very cognition fatigue impairs"
+        },
+        {
+          "id": 5,
+          "stem": "In paragraph five, the writer considers it surprising that",
+          "options": [
+            {"key": "A", "text": "trainees showed twice the laparoscopic error rate after a sleepless night in a controlled study"},
+            {"key": "B", "text": "fatigue is rarely cited as a contributory factor in clinical incident reviews and mortality meetings"},
+            {"key": "C", "text": "needle-stick injuries are known to be concentrated in the earliest hours of the overnight shift"},
+            {"key": "D", "text": "emergency medicine records more near-misses per rota than surgical specialties in published literature"}
+          ],
+          "answer": "B",
+          "focus": "accumulated sleep debt",
+          "explain": "지문의 'accumulated sleep debt' 부분 참조 → 'What is surprising' = its absence from incident reports"
+        },
+        {
+          "id": 6,
+          "stem": "According to paragraph six, one consequence of fatigue being concealed is that",
+          "options": [
+            {"key": "A", "text": "neither managers nor colleagues are in a position to compensate for the impairment"},
+            {"key": "B", "text": "incident forms completed by exhausted staff are more likely to contain factual inaccuracies"},
+            {"key": "C", "text": "fatigued clinicians consistently overestimate their own alertness and take on extra responsibilities"},
+            {"key": "D", "text": "trusts face legal exposure when staff records contain no evidence of a reported impairment"}
+          ],
+          "answer": "A",
+          "focus": "calling in fatigued",
+          "explain": "지문의 'calling in fatigued' 부분 참조 → concealment means colleagues cannot compensate"
+        },
+        {
+          "id": 7,
+          "stem": "The phrase 'apprenticeship in endurance' in paragraph seven suggests that junior doctors",
+          "options": [
+            {"key": "A", "text": "develop superior clinical skills through sustained contact with experienced consultants under real pressure"},
+            {"key": "B", "text": "receive dedicated supervision time in which strategies for coping with fatigue are explicitly taught"},
+            {"key": "C", "text": "learn to regard sleep deprivation as a normal and unremarkable feature of clinical training"},
+            {"key": "D", "text": "benefit from rota patterns that progressively lighten as their years of seniority increase"}
+          ],
+          "answer": "C",
+          "focus": "apprenticeship in endurance",
+          "explain": "지문의 'apprenticeship in endurance' 부분 참조 → implicit lesson that sleep deprivation is normal"
+        },
+        {
+          "id": 8,
+          "stem": "The writer's overall argument is that",
+          "options": [
+            {"key": "A", "text": "regulators should extend fitness-to-practise oversight to include the rota systems set by individual trusts"},
+            {"key": "B", "text": "fatigue from shift work should be formally reclassified as an occupational disease in its own right"},
+            {"key": "C", "text": "individual clinicians bear the primary responsibility for managing their own sleep before night shifts"},
+            {"key": "D", "text": "fatigue should be recognised as a measurable impairment rather than dismissed as a personal failing"}
+          ],
+          "answer": "D",
+          "focus": "fitness to practise",
+          "explain": "지문의 'fitness to practise' 부분 참조 → fatigue is not regulated despite being evidence-based impairment"
+        }
+      ]
+    },
+    {
+      "label": "Text 2",
+      "title": "Health literacy: the consultation is a text the patient has to read",
+      "paragraphs": [
+        "Every consultation contains a text. Not a written one—though letters, forms, and leaflets arrive in quantity—but a layered communicative event that patients must decode in real time: clinical jargon embedded in reassurance, implication carried by pauses, severity signalled by the change in a doctor's posture rather than the words spoken. Skilled clinicians navigate this effortlessly because it is their genre. Patients, especially those encountering a new diagnosis or an unfamiliar specialty, are doing something harder: decoding the genre without having learned it, under conditions of anxiety that further impair working memory.",
+        "The scale of difficulty becomes visible when health literacy is measured directly. UK surveys suggest that roughly half of working-age adults have functional health literacy at or below the level needed to manage everyday health tasks independently. This is not a minority problem confined to specific demographics; it cuts across educational attainment in ways that repeatedly surprise clinicians who assume a degree certificate predicts health understanding. The term functional health literacy describes the capacity to read, interpret, and act on health information in real-world conditions—and it is distinct from general literacy or educational achievement, both of which tend to be overestimated as proxies.",
+        "It is important to resist the implication that low health literacy signals low intelligence. The consultation is a specialised genre with its own conventions, presuppositions, and social rituals. An experienced solicitor navigating a medical disclosure may struggle as much as a factory worker without formal qualifications, because the challenge is domain-specific fluency rather than general reasoning. Clinicians who assume they can judge a patient's understanding by the confidence of their nodding are repeatedly misled. The nod is a social gesture, not an epistemic confirmation: it signals that the patient wishes to appear cooperative, not that they have comprehended the information given.",
+        "Some argue that the responsibility lies with patients to prepare more carefully: reading up on their condition, arriving with written questions, consulting reputable websites before attending. There is something to this—engaged patients often do better overall. But this view cannot substitute for clinical communication skills, because engagement itself requires a baseline of health literacy to initiate. Patients who have never been told which questions are worth asking, and who fear appearing ignorant or wasting the doctor's time, do not arrive with a list. They arrive hoping to be told what they need to know, and they leave trusting that they were.",
+        "The cost of misreading a consultation accumulates in ways that outpatient data do not fully capture. Patients who leave with an incomplete understanding of their diagnosis are more likely to take medicines irregularly, less likely to recognise warning signs that warrant early return, and more likely to present in crisis to emergency departments where the opportunity for careful explanation has been narrowed. Research from primary care finds that more than a third of patients cannot accurately recall their diagnosis twenty-four hours after a consultation in which they reported feeling satisfied. Satisfaction and comprehension are not the same thing—and the conflation of the two is a persistent measurement failure in clinical audit.",
+        "Practical responses exist and many are straightforward. Plain language—shorter sentences, common words, avoidance of acronyms—reduces misunderstanding without diminishing clinical precision. The teach-back method, in which a clinician invites a patient to restate their understanding in their own words, is the most reliably evidence-supported intervention for improving comprehension, and it costs nothing beyond two extra minutes. Yet surveys of outpatient consultations find it used in fewer than one in ten encounters. Implementation is rarely the barrier; what prevents uptake is a clinical culture in which asking 'does that make sense?' passes as an adequate check of comprehension.",
+        "The problem scales up wherever written health communication is involved. Consent forms were designed by legal teams to protect institutions from litigation rather than to inform patients about risk. Discharge summaries are written in the language of clinical handover, not in the language of self-care. Referral letters acknowledge the patient's presence but rarely address them directly. Each of these is a text the patient is expected to read and act upon, yet each is produced for an audience of clinicians. The result is not carelessness—it is administrative compliance rather than understanding, achieved at the patient's expense.",
+        "The consultation is a text the patient has to read, and medicine has never quite decided whether it has an obligation to teach them how. Communication skills appear in undergraduate curricula, but they are assessed through simulated encounters and tend to retreat under the pressure of real clinical workload. If health systems genuinely wish to reduce avoidable harm through better adherence, earlier presentations, and more realistic consent, the route runs through literacy, not technology. The next diagnostic breakthrough may not arrive from a scanner or a genome sequence—it may come in the form of a letter the patient can actually understand."
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "stem": "In the opening paragraph, 'decoding the genre' refers to",
+          "options": [
+            {"key": "A", "text": "reading written medical materials such as discharge letters and leaflets provided after an appointment"},
+            {"key": "B", "text": "learning to use clinical language accurately when communicating with healthcare professionals"},
+            {"key": "C", "text": "interpreting the unspoken conventions of a consultation without prior experience of its form"},
+            {"key": "D", "text": "acquiring the medical vocabulary needed to access information about a newly diagnosed condition"}
+          ],
+          "answer": "C",
+          "focus": "decoding the genre",
+          "explain": "지문의 'decoding the genre' 부분 참조 → understanding consultation conventions without prior experience"
+        },
+        {
+          "id": 2,
+          "stem": "In paragraph two, 'functional health literacy' is described as",
+          "options": [
+            {"key": "A", "text": "the capacity to read, interpret, and act on health information in real-world conditions"},
+            {"key": "B", "text": "the educational standard required to understand and follow written clinical correspondence"},
+            {"key": "C", "text": "the ability to research a health condition accurately and critically using reliable online sources"},
+            {"key": "D", "text": "a measure of how confidently a patient can follow and recall verbal instructions from their doctor"}
+          ],
+          "answer": "A",
+          "focus": "functional health literacy",
+          "explain": "지문의 'functional health literacy' 부분 참조 → the capacity to act on health information in real-world conditions"
+        },
+        {
+          "id": 3,
+          "stem": "The writer mentions the experienced solicitor in paragraph three in order to",
+          "options": [
+            {"key": "A", "text": "suggest that highly educated professionals are more likely to challenge clinical information they receive"},
+            {"key": "B", "text": "argue that legal training provides useful communication strategies that medicine should adopt"},
+            {"key": "C", "text": "illustrate that health literacy varies widely even among people with strong general academic ability"},
+            {"key": "D", "text": "demonstrate that poor health literacy does not imply low general intelligence or reasoning ability"}
+          ],
+          "answer": "D",
+          "focus": "domain-specific fluency",
+          "explain": "지문의 'domain-specific fluency' 부분 참조 → health literacy is domain-specific, not a measure of intelligence"
+        },
+        {
+          "id": 4,
+          "stem": "According to paragraph four, patients who lack health literacy tend to",
+          "options": [
+            {"key": "A", "text": "avoid consulting healthcare professionals altogether out of anxiety about appearing uninformed"},
+            {"key": "B", "text": "leave consultations assuming they were given all the information that mattered"},
+            {"key": "C", "text": "rely on family members to translate clinical explanations into language they can understand"},
+            {"key": "D", "text": "prepare lists of questions before appointments but find themselves unable to ask them"}
+          ],
+          "answer": "B",
+          "focus": "hoping to be told what they need to know",
+          "explain": "지문의 'hoping to be told what they need to know' 부분 참조 → leave trusting they received what was needed"
+        },
+        {
+          "id": 5,
+          "stem": "In paragraph five, the writer regards patient satisfaction scores as",
+          "options": [
+            {"key": "A", "text": "an unreliable indicator of whether patients have genuinely understood their consultation"},
+            {"key": "B", "text": "a practical starting point for identifying where communication improvements are most needed"},
+            {"key": "C", "text": "less informative than objective recall tests administered at follow-up appointments"},
+            {"key": "D", "text": "a measure that consistently overestimates comprehension among those with higher educational attainment"}
+          ],
+          "answer": "A",
+          "focus": "Satisfaction and comprehension are not the same",
+          "explain": "지문의 'Satisfaction and comprehension are not the same' 부분 참조 → satisfaction ≠ comprehension"
+        },
+        {
+          "id": 6,
+          "stem": "According to paragraph six, the main barrier to using the teach-back method is",
+          "options": [
+            {"key": "A", "text": "the reluctance of patients to repeat information that might expose their lack of understanding"},
+            {"key": "B", "text": "the time constraints of outpatient clinics, which typically allow fewer than ten minutes per patient"},
+            {"key": "C", "text": "a clinical culture that treats a brief closing question as sufficient evidence of comprehension"},
+            {"key": "D", "text": "a shortage of formal communication skills training available to junior clinical staff at ward level"}
+          ],
+          "answer": "C",
+          "focus": "teach-back",
+          "explain": "지문의 'teach-back' 부분 참조 → 'does that make sense?' accepted as adequate check"
+        },
+        {
+          "id": 7,
+          "stem": "'Administrative compliance rather than understanding' in paragraph seven refers to",
+          "options": [
+            {"key": "A", "text": "a culture in which clerical staff prioritise correct form completion over clear patient communication"},
+            {"key": "B", "text": "the tendency of patients to sign consent forms without reading their full content carefully"},
+            {"key": "C", "text": "a managerial style that emphasises legal risk reduction rather than individual patient dignity"},
+            {"key": "D", "text": "written documents that satisfy institutional requirements without genuinely informing the patient"}
+          ],
+          "answer": "D",
+          "focus": "administrative compliance rather than understanding",
+          "explain": "지문의 'administrative compliance rather than understanding' 부분 참조 → documents produced for institutions, not patients"
+        },
+        {
+          "id": 8,
+          "stem": "Overall, the writer's position is that improving health outcomes requires",
+          "options": [
+            {"key": "A", "text": "redesigning health literacy assessments so that they measure comprehension rather than satisfaction"},
+            {"key": "B", "text": "treating patients as readers of a specialised text and teaching clinical communication accordingly"},
+            {"key": "C", "text": "replacing written consent forms with brief verbal explanations delivered by trained nursing staff"},
+            {"key": "D", "text": "extending undergraduate programmes to include two full years of communication training in real clinical settings"}
+          ],
+          "answer": "B",
+          "focus": "The consultation is a text the patient has to read",
+          "explain": "지문의 'The consultation is a text the patient has to read' 부분 참조 → medicine must teach patients how to navigate it"
+        }
+      ]
+    }
+  ],
+  "gist": [
+    "Text 1: fatigue is a regulated impairment in every domain except clinical shift work.",
+    "Text 2: low health literacy is a genre problem, not an intelligence deficit."
+  ],
+  "vocab": [
+    {
+      "term": "performance decrement",
+      "gloss": "수행 저하: 피로나 알코올 등으로 인해 수행 능력이 떨어지는 현상"
+    },
+    {
+      "term": "health literacy",
+      "gloss": "건강 이해력: 의료 정보를 읽고 해석하여 행동으로 옮기는 능력"
+    },
+    {
+      "term": "teach-back",
+      "gloss": "티치백: 환자에게 설명을 되풀이하게 해서 이해를 확인하는 방법"
+    },
+    {
+      "term": "internalised",
+      "gloss": "내면화된: 가치나 태도가 무의식적으로 자신의 것이 된"
+    },
+    {
+      "term": "epistemic",
+      "gloss": "인식론적: 지식이나 이해에 관한"
+    }
+  ]
+}

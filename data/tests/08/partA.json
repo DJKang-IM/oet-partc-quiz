@@ -1,0 +1,277 @@
+{
+  "id": "A-08",
+  "part": "A",
+  "setNum": 8,
+  "title": "Acute severe asthma in adults",
+  "type": "partA-full",
+  "instruction": "Look at Texts A–D. Questions 1–7: which text? Questions 8–15: word/short phrase from the texts. Questions 16–20: complete the sentence. Spelling matters. Target: 15 minutes.",
+  "sharedWhichPrompt": "In which text can you find information about",
+  "texts": [
+    {
+      "label": "A",
+      "heading": "Severity classification",
+      "body": "Acute asthma severity is graded into four categories using clinical signs and physiological measurements.\n\nModerate acute asthma\n• PEF 50–75% of personal best or predicted\n• No features listed below; sentences completed without distress\n\nSevere acute asthma — any ONE of:\n• PEF 33–50% of best or predicted\n• Respiratory rate ≥ 25 breaths/min\n• Heart rate ≥ 110 beats/min\n• Inability to complete sentences in one breath\n\nLife-threatening asthma — any ONE of:\n• PEF < 33% of best or predicted\n• SpO₂ < 92% on any oxygen\n• PaO₂ < 8 kPa on air or supplemental oxygen\n• Silent chest, cyanosis, or feeble respiratory effort\n• Bradycardia, hypotension, or dysrhythmia\n• Confusion, exhaustion, or depressed consciousness\n\nNear-fatal asthma: raised PaCO₂ (≥ 6 kPa) and/or requirement for mechanical ventilation indicating severe respiratory fatigue."
+    },
+    {
+      "label": "B",
+      "heading": "Initial treatment",
+      "body": "Oxygen\nTarget SpO₂ 94–98% using controlled supplemental oxygen; avoid hyperoxia. In life-threatening presentations, ensure ≥ 94% is maintained continuously.\n\nBronchodilators\n• Salbutamol 5 mg nebulised; repeat every 15–30 minutes or more frequently in the first hour if needed, then guided by clinical response\n• Ipratropium bromide 0.5 mg nebulised every 4–6 hours; add to salbutamol in all severe or life-threatening presentations\n• Back-to-back nebulisers may be administered in the most severe cases\n\nCorticosteroids\n• Prednisolone 40–50 mg orally once daily; continue for at least 5 days or until full recovery\n• If oral route not tolerated: IV hydrocortisone 100 mg four times daily\n\nIV magnesium sulphate\n• Magnesium sulphate 1.2–2 g intravenously over 20 minutes for life-threatening asthma or severe asthma poorly responding to initial bronchodilator therapy\n• Give as a single dose; routine repetition is not recommended"
+    },
+    {
+      "label": "C",
+      "heading": "ICU referral criteria and arterial blood gas indications",
+      "body": "Perform an arterial blood gas (ABG) in any patient with:\n• SpO₂ < 92% on initial assessment\n• Life-threatening features present at any point\n• Failure to improve within 15–30 minutes of initial treatment\n• PEF remaining below 50% after one hour of treatment\n\nInterpreting results\n• Normal or rising PaCO₂ in a breathless, distressed patient is an ominous sign; escalate without delay\n• PaO₂ < 8 kPa despite supplemental oxygen indicates severe hypoxaemia\n• pH < 7.35 or falling pH suggests respiratory fatigue and impending failure\n\nCriteria for immediate ICU or HDU referral\n• Requirement for non-invasive ventilation or endotracheal intubation\n• PaCO₂ rising despite maximal medical therapy\n• Deteriorating consciousness or progressive exhaustion\n• Cardiorespiratory arrest or peri-arrest situation\n\nInvolve the ICU team early; a senior review must not be deferred until the patient is moribund."
+    },
+    {
+      "label": "D",
+      "heading": "Discharge criteria, follow-up, and inhaler technique",
+      "body": "Before discharge, ALL of the following criteria must be satisfied:\n• PEF ≥ 75% of personal best or predicted, sustained for at least 1 hour\n• Diurnal PEF variability < 25%\n• SpO₂ ≥ 94% on air\n• Symptoms well controlled on the proposed discharge regimen\n• No nocturnal waking or wheeze the night before discharge\n\nInhaler technique\nAssess and document inhaler technique at every discharge. A spacer device must be issued whenever a pressurised metered-dose inhaler is prescribed, as it significantly improves lower airway deposition. Correct sequence: shake canister, exhale fully, seal lips around mouthpiece, depress canister, inhale slowly and deeply, then hold breath for 10 seconds.\n\nFollow-up\n• Primary care or asthma nurse review within 2 working days of discharge\n• Respiratory outpatient appointment within 4 weeks\n• Provide a written self-management plan at discharge, including escalation criteria and when to call emergency services"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "type": "whichText",
+      "stem": "the indications for performing an arterial blood gas?",
+      "answer": "C",
+      "accept": ["C"],
+      "explain": "Text C lists ABG indications.",
+      "options": [
+        {"key": "A", "text": "Text A"},
+        {"key": "B", "text": "Text B"},
+        {"key": "C", "text": "Text C"},
+        {"key": "D", "text": "Text D"}
+      ]
+    },
+    {
+      "id": 2,
+      "type": "whichText",
+      "stem": "the recommended infusion time for intravenous magnesium sulphate?",
+      "answer": "B",
+      "accept": ["B"],
+      "explain": "Text B: 'Magnesium sulphate 1.2–2 g intravenously over 20 minutes'.",
+      "options": [
+        {"key": "A", "text": "Text A"},
+        {"key": "B", "text": "Text B"},
+        {"key": "C", "text": "Text C"},
+        {"key": "D", "text": "Text D"}
+      ]
+    },
+    {
+      "id": 3,
+      "type": "whichText",
+      "stem": "the physiological signs that define life-threatening severity?",
+      "answer": "A",
+      "accept": ["A"],
+      "explain": "Text A: life-threatening category bullet list.",
+      "options": [
+        {"key": "A", "text": "Text A"},
+        {"key": "B", "text": "Text B"},
+        {"key": "C", "text": "Text C"},
+        {"key": "D", "text": "Text D"}
+      ]
+    },
+    {
+      "id": 4,
+      "type": "whichText",
+      "stem": "the minimum peak expiratory flow percentage required before discharge?",
+      "answer": "D",
+      "accept": ["D"],
+      "explain": "Text D: discharge criteria, PEF ≥ 75%.",
+      "options": [
+        {"key": "A", "text": "Text A"},
+        {"key": "B", "text": "Text B"},
+        {"key": "C", "text": "Text C"},
+        {"key": "D", "text": "Text D"}
+      ]
+    },
+    {
+      "id": 5,
+      "type": "whichText",
+      "stem": "how often ipratropium bromide nebulisers should be repeated?",
+      "answer": "B",
+      "accept": ["B"],
+      "explain": "Text B: 'ipratropium bromide 0.5 mg nebulised every 4–6 hours'.",
+      "options": [
+        {"key": "A", "text": "Text A"},
+        {"key": "B", "text": "Text B"},
+        {"key": "C", "text": "Text C"},
+        {"key": "D", "text": "Text D"}
+      ]
+    },
+    {
+      "id": 6,
+      "type": "whichText",
+      "stem": "the criteria for immediate ICU or HDU referral?",
+      "answer": "C",
+      "accept": ["C"],
+      "explain": "Text C: ICU/HDU referral criteria section.",
+      "options": [
+        {"key": "A", "text": "Text A"},
+        {"key": "B", "text": "Text B"},
+        {"key": "C", "text": "Text C"},
+        {"key": "D", "text": "Text D"}
+      ]
+    },
+    {
+      "id": 7,
+      "type": "whichText",
+      "stem": "what near-fatal asthma involves in terms of blood gases and ventilation?",
+      "answer": "A",
+      "accept": ["A"],
+      "explain": "Text A: near-fatal asthma definition.",
+      "options": [
+        {"key": "A", "text": "Text A"},
+        {"key": "B", "text": "Text B"},
+        {"key": "C", "text": "Text C"},
+        {"key": "D", "text": "Text D"}
+      ]
+    },
+    {
+      "id": 8,
+      "type": "shortAnswer",
+      "stem": "What SpO₂ range should be targeted when giving supplemental oxygen in acute severe asthma?",
+      "answer": "94–98%",
+      "accept": ["94–98%", "94-98%", "94–98", "94-98", "94 to 98%"],
+      "explain": "Text B: 'Target SpO₂ 94–98%'."
+    },
+    {
+      "id": 9,
+      "type": "shortAnswer",
+      "stem": "What heart rate meets the threshold for classifying asthma as severe?",
+      "answer": "110 beats/min",
+      "accept": ["110 beats/min", "≥ 110 beats/min", "110", "≥ 110", "110 bpm"],
+      "explain": "Text A: 'Heart rate ≥ 110 beats/min'."
+    },
+    {
+      "id": 10,
+      "type": "shortAnswer",
+      "stem": "What oral dose of prednisolone is recommended in acute severe asthma?",
+      "answer": "40–50 mg",
+      "accept": ["40–50 mg", "40-50 mg", "40–50mg", "40-50mg"],
+      "explain": "Text B: 'Prednisolone 40–50 mg orally once daily'."
+    },
+    {
+      "id": 11,
+      "type": "shortAnswer",
+      "stem": "For how long at minimum should systemic corticosteroid treatment be continued?",
+      "answer": "5 days",
+      "accept": ["5 days", "at least 5 days", "five days"],
+      "explain": "Text B: 'continue for at least 5 days'."
+    },
+    {
+      "id": 12,
+      "type": "shortAnswer",
+      "stem": "Over how many minutes should intravenous magnesium sulphate be infused?",
+      "answer": "20 minutes",
+      "accept": ["20 minutes", "20 mins", "20 min", "20"],
+      "explain": "Text B: 'intravenously over 20 minutes'."
+    },
+    {
+      "id": 13,
+      "type": "shortAnswer",
+      "stem": "Below what PaO₂ level is life-threatening asthma indicated on air or supplemental oxygen?",
+      "answer": "8 kPa",
+      "accept": ["8 kPa", "< 8 kPa", "less than 8 kPa"],
+      "explain": "Text A: 'PaO₂ < 8 kPa on air or supplemental oxygen'."
+    },
+    {
+      "id": 14,
+      "type": "shortAnswer",
+      "stem": "Within how many working days of discharge should a primary care or asthma nurse review be arranged?",
+      "answer": "2 working days",
+      "accept": ["2 working days", "two working days", "2 days"],
+      "explain": "Text D: 'within 2 working days of discharge'."
+    },
+    {
+      "id": 15,
+      "type": "shortAnswer",
+      "stem": "Within how many weeks must a respiratory outpatient appointment be arranged after discharge?",
+      "answer": "4 weeks",
+      "accept": ["4 weeks", "four weeks"],
+      "explain": "Text D: 'Respiratory outpatient appointment within 4 weeks'."
+    },
+    {
+      "id": 16,
+      "type": "gapFill",
+      "stem": "Asthma is classified as life-threatening when peak expiratory flow falls below …………………………………… % of best or predicted.",
+      "answer": "33",
+      "accept": ["33", "33%"],
+      "explain": "Text A: 'PEF < 33% of best or predicted'."
+    },
+    {
+      "id": 17,
+      "type": "gapFill",
+      "stem": "Ipratropium bromide …………………………………… mg is nebulised every 4–6 hours in severe or life-threatening presentations.",
+      "answer": "0.5",
+      "accept": ["0.5", "0.5 mg"],
+      "explain": "Text B: 'Ipratropium bromide 0.5 mg nebulised every 4–6 hours'."
+    },
+    {
+      "id": 18,
+      "type": "gapFill",
+      "stem": "Life-threatening asthma may be indicated by SpO₂ below …………………………………… % on any oxygen.",
+      "answer": "92",
+      "accept": ["92", "92%"],
+      "explain": "Text A: 'SpO₂ < 92% on any oxygen'."
+    },
+    {
+      "id": 19,
+      "type": "gapFill",
+      "stem": "Patients must receive a written …………………………………… plan at discharge, including escalation criteria and emergency contacts.",
+      "answer": "self-management",
+      "accept": ["self-management", "self management"],
+      "explain": "Text D: 'written self-management plan at discharge'."
+    },
+    {
+      "id": 20,
+      "type": "gapFill",
+      "stem": "Diurnal PEF variability must be below …………………………………… % before discharge can be considered safe.",
+      "answer": "25",
+      "accept": ["25", "25%"],
+      "explain": "Text D: 'Diurnal PEF variability < 25%'."
+    }
+  ],
+  "focusPhrases": [
+    "94–98%",
+    "110 beats/min",
+    "40–50 mg",
+    "5 days",
+    "20 minutes",
+    "8 kPa",
+    "2 working days",
+    "4 weeks",
+    "PEF < 33%",
+    "SpO₂ < 92%",
+    "over 20 minutes",
+    "self-management",
+    "Diurnal PEF variability"
+  ],
+  "gist": [
+    "Q1–7 = scan headings for severity categories, drug protocols, ABG indications, and discharge thresholds.",
+    "Q8–15 = lift exact numbers or short phrases: SpO₂ targets, drug doses, thresholds, and follow-up timings.",
+    "Q16–20 = fill the gap with a number or short phrase found directly in the relevant text."
+  ],
+  "vocab": [
+    {
+      "term": "ipratropium bromide",
+      "gloss": "이프라트로피움 브로마이드: 항콜린성 기관지확장제"
+    },
+    {
+      "term": "peak expiratory flow (PEF)",
+      "gloss": "최대호기유량: 폐에서 공기를 최대 속도로 내쉬는 능력의 지표"
+    },
+    {
+      "term": "arterial blood gas (ABG)",
+      "gloss": "동맥혈가스분석: 혈중 산소·이산화탄소 분압 및 산염기 상태 측정"
+    },
+    {
+      "term": "nebulised",
+      "gloss": "분무 흡입식: 약물을 미세 입자(에어로졸)로 변환해 흡입"
+    },
+    {
+      "term": "salbutamol",
+      "gloss": "살부타몰: 속효성 β₂ 항진제로 기관지를 빠르게 확장시킴"
+    }
+  ]
+}

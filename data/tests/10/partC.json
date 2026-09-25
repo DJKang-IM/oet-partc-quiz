@@ -1,0 +1,282 @@
+{
+  "id": "C-10",
+  "part": "C",
+  "setNum": 10,
+  "type": "dual-text",
+  "title": "Placebo in prescribing & rural workforce",
+  "instruction": "Official-style Part C: two texts, 8 questions each (16 total). Focus phrases are highlighted in the passages.",
+  "texts": [
+    {
+      "label": "Text 1",
+      "title": "The placebo problem in everyday prescribing",
+      "paragraphs": [
+        "The word 'placebo' conjures images of sugar pills dispensed in randomised trials, not the ordinary consultation. Yet there is mounting evidence that the effects we attribute to active drugs are partly composed of something far older: the therapeutic relationship itself, and the expectations it produces. When a confident clinician explains why a medicine will work, the patient's cortical and limbic responses shift measurably—in ways that differ from passive administration of the same compound. Separating the pharmacological from the contextual has stopped being merely an academic exercise; it has become a question with direct consequences for prescribing practice.",
+        "The classical model imagines drug action as a one-way flow: molecule meets receptor; receptor responds. But placebo research has demonstrated that expectation modulates receptor-level processes. Endogenous opioid release, dopaminergic signalling, and immune parameters all change when the patient believes that an effective agent is being given. These are not imagined effects; they are measurable in blood, urine, and brain imaging. 'Pure' pharmacology is therefore a simplification. Every prescribed drug acts on a patient who is already primed by the meaning attached to the prescription.",
+        "The immediate ethical reflex is to equate all placebo use with deception, and deception with a breach of consent. That framing has a distinguished history in bioethics, but it is increasingly strained by studies of 'open-label' placebos—inert pills given honestly, with the patient informed that they contain no active ingredient. Across irritable bowel syndrome, cancer-related fatigue, and chronic low back pain, these preparations produce clinically meaningful improvements. The implication is unsettling: the ritual of prescribing and the patient's knowledge of being cared for are themselves therapeutic ingredients, independent of what the tablet contains.",
+        "If context produces pharmacological changes, then the way a clinician delivers a prescription becomes pharmacologically active in its own right. Tone, confidence, time taken to explain, and attentiveness to expressed worries all modify the final response to treatment. Research by Ted Kaptchuk's group in Boston showed that enhancing a clinical interaction—warmth, engagement, optimism calibrated to honest evidence—added measurably to the benefit of sham acupuncture and real medicine alike. This is not mysticism; it is the recognition that communication style is an unstated ingredient in every therapeutic regimen.",
+        "The reverse applies with equal force. Nocebo effects—deterioration driven by negative expectations—are produced by the same mechanism. When a prescriber lists every rare side effect in a rapid, liability-covering recitation, the patient's probability of experiencing those effects rises. Studies in migraine, surgery, and chemotherapy all document this pattern. Informed consent, rightly understood, requires not just the delivery of information but the manner of its delivery. A candid conversation that addresses a patient's specific fears and builds a shared monitoring plan produces better adherence and fewer nocebo-driven withdrawals than a form-signing exercise.",
+        "The practical question is how prescribers should change their behaviour without becoming dishonest or paternalistic. Several principles emerge from the evidence. Framing a prescription around the mechanism of action, rather than a catalogue of risks, focuses the patient's expectation constructively. Acknowledging uncertainty openly—'this helps most people with your kind of pain, though responses vary'—is both accurate and associated with better outcomes than either false certainty or undifferentiated pessimism. Perhaps most importantly, following up explicitly on the patient's experience of a medicine makes that follow-up itself part of the treatment.",
+        "None of this sits comfortably with the current structure of prescribing consultations. Seven minutes is not long enough for the nuanced exchange that optimises context effects, and longer appointments require resourcing choices that health systems rarely prioritise. Equally, medical education devotes intensive training to pharmacokinetics and far less to the rhetoric of the consultation. The result is clinicians who can quote a molecule's half-life accurately but who have received no feedback on whether their manner of prescribing is helping or harming the patients in front of them.",
+        "The placebo problem in everyday prescribing is not that clinicians should start using inert pills. It is that the boundary between pharmacological and contextual effects is far more porous than the profession has cared to admit. A tablet is an event that takes place inside a relationship, and the relationship is not merely a backdrop—it is a co-treatment. Medicines regulation evaluates the molecule; nobody evaluates the prescriber's style. That asymmetry leaves a large and modifiable portion of therapeutic outcome unexamined. If we are serious about prescribing well, the consultation itself must be treated as a prescription."
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "stem": "In paragraph one, the writer suggests that placebo research has become",
+          "options": [
+            {"key": "A", "text": "a method used mainly to measure patient expectations during randomised controlled drug trials."},
+            {"key": "B", "text": "a challenge that primarily concerns pharmacologists investigating the mechanisms of individual compounds."},
+            {"key": "C", "text": "a source of ongoing disagreement between clinical ethicists and researchers in academic medicine settings."},
+            {"key": "D", "text": "a matter with practical consequences for how medicines are given in everyday clinical practice."}
+          ],
+          "answer": "D",
+          "focus": "direct consequences for prescribing practice",
+          "explain": "지문의 'direct consequences for prescribing practice' 부분 참조 → D: 일상 임상에서 의약품을 투여하는 방식에 실질적 결과가 있는 문제"
+        },
+        {
+          "id": 2,
+          "stem": "The phrase 'primed by the meaning attached to the prescription' in paragraph two suggests that",
+          "options": [
+            {"key": "A", "text": "patients' expectations shape their physiological response to a drug at the receptor level."},
+            {"key": "B", "text": "prescribers should explain the significance of each diagnosis before recommending any treatment."},
+            {"key": "C", "text": "the biochemical properties of a compound matter less than the frequency of its dosage."},
+            {"key": "D", "text": "patients with stronger medical literacy tend to respond more predictably to prescribed medicines."}
+          ],
+          "answer": "A",
+          "focus": "primed by the meaning attached to the prescription",
+          "explain": "지문의 'primed by the meaning attached to the prescription' 부분 참조 → A: 환자의 기대가 수용체 수준의 생리적 반응을 형성함"
+        },
+        {
+          "id": 3,
+          "stem": "'That framing' in paragraph three refers to the view that",
+          "options": [
+            {"key": "A", "text": "open-label placebos carry unacceptable clinical risks for use outside carefully monitored trials."},
+            {"key": "B", "text": "the therapeutic relationship is inherently more important than any active pharmaceutical compound."},
+            {"key": "C", "text": "all forms of placebo use involve deception and therefore breach the principle of informed consent."},
+            {"key": "D", "text": "patients with chronic conditions respond to inert preparations differently from healthy trial volunteers."}
+          ],
+          "answer": "C",
+          "focus": "That framing",
+          "explain": "지문의 'That framing' 부분 참조 → C: 모든 위약 사용은 속임을 포함하며 동의 원칙을 위반한다는 견해"
+        },
+        {
+          "id": 4,
+          "stem": "In paragraph four, the writer's main point is that",
+          "options": [
+            {"key": "A", "text": "communication training should be allocated more curriculum time than pharmacology in medical schools."},
+            {"key": "B", "text": "the manner in which a clinician delivers a prescription modifies the treatment's therapeutic effect."},
+            {"key": "C", "text": "findings from the Boston research group have not been reliably reproduced in other healthcare systems."},
+            {"key": "D", "text": "warmth and clinical engagement improve outcomes in sham procedures but not in conventional medicine."}
+          ],
+          "answer": "B",
+          "focus": "communication style is an unstated ingredient",
+          "explain": "지문의 'communication style is an unstated ingredient' 부분 참조 → B: 처방을 전달하는 방식이 치료 효과를 수정함"
+        },
+        {
+          "id": 5,
+          "stem": "According to paragraph five, listing side effects in a rapid recitation during consent",
+          "options": [
+            {"key": "A", "text": "increases the probability that patients will actually experience those effects."},
+            {"key": "B", "text": "is a fixed regulatory requirement that cannot be modified without breaching consent law."},
+            {"key": "C", "text": "produces better long-term adherence because patients feel thoroughly informed before starting therapy."},
+            {"key": "D", "text": "is a documented problem confined mainly to chemotherapy rather than other fields of medicine."}
+          ],
+          "answer": "A",
+          "focus": "nocebo-driven withdrawals",
+          "explain": "지문의 'nocebo-driven withdrawals' 부분 참조 → A: 빠른 부작용 나열은 실제로 그 부작용을 경험할 확률을 높임"
+        },
+        {
+          "id": 6,
+          "stem": "In paragraph six, 'framing a prescription around the mechanism of action' is presented as",
+          "options": [
+            {"key": "A", "text": "the only reliable approach to avoid misleading patients about treatments with uncertain outcomes."},
+            {"key": "B", "text": "a standard technique recommended by national prescribing guidelines for all high-risk medicines."},
+            {"key": "C", "text": "a way of directing patient expectation that is associated with improved therapeutic response."},
+            {"key": "D", "text": "an acceptable alternative to formal informed consent for patients in routine outpatient settings."}
+          ],
+          "answer": "C",
+          "focus": "focuses the patient's expectation constructively",
+          "explain": "지문의 'focuses the patient's expectation constructively' 부분 참조 → C: 작용 기전 중심의 처방 설명이 향상된 치료 반응과 연관됨"
+        },
+        {
+          "id": 7,
+          "stem": "In paragraph seven, the writer implies that medical education",
+          "options": [
+            {"key": "A", "text": "should be substantially extended to include mandatory training in advanced communication techniques."},
+            {"key": "B", "text": "prioritises theoretical pharmacokinetics over the clinical reasoning skills that complex cases demand."},
+            {"key": "C", "text": "has recently begun to address the longstanding neglect of consultation technique in response to data."},
+            {"key": "D", "text": "leaves clinicians inadequately prepared for the relational dimensions of the prescribing encounter."}
+          ],
+          "answer": "D",
+          "focus": "rhetoric of the consultation",
+          "explain": "지문의 'rhetoric of the consultation' 부분 참조 → D: 의학 교육이 처방 만남의 관계적 측면에 대해 준비가 미흡함"
+        },
+        {
+          "id": 8,
+          "stem": "In the final paragraph, the writer's overall position is that",
+          "options": [
+            {"key": "A", "text": "medicines regulation needs to be extended to formally assess the communication style of prescribers."},
+            {"key": "B", "text": "prescribing well requires understanding the consultation itself as an active component of treatment."},
+            {"key": "C", "text": "clinicians should begin prescribing inert preparations as a recognised therapeutic option in primary care."},
+            {"key": "D", "text": "contextual effects of treatment are more therapeutically powerful than the pharmacological actions of drugs."}
+          ],
+          "answer": "B",
+          "focus": "the consultation itself must be treated as a prescription",
+          "explain": "지문의 'the consultation itself must be treated as a prescription' 부분 참조 → B: 처방을 잘 하려면 진료 자체를 치료의 활성 요소로 이해해야 함"
+        }
+      ],
+      "focusPhrases": [
+        "direct consequences for prescribing practice",
+        "primed by the meaning attached to the prescription",
+        "That framing",
+        "communication style is an unstated ingredient",
+        "nocebo-driven withdrawals",
+        "focuses the patient's expectation constructively",
+        "rhetoric of the consultation",
+        "the consultation itself must be treated as a prescription"
+      ]
+    },
+    {
+      "label": "Text 2",
+      "title": "Recruiting clinicians to rural practice: incentives are not the answer they seem",
+      "paragraphs": [
+        "Every few years, a health minister announces a rural incentive package and expects workforce planners to cheer. The offers vary—bonuses on signing, rural loadings, university debt relief, subsidised housing—but the political logic is consistent: rural practice is a hardship posting, and hardships can be compensated with money. That assumption is rarely interrogated and almost never backed by evidence that bonuses reliably produce the long-term retention rural communities actually need. Recruiting a doctor to a remote area for three contractual years and then watching them leave for the city is not a workforce solution; it is a workforce audit that cost extra.",
+        "The evidence on financial incentives is more equivocal than policy documents admit. Systematic reviews consistently find that bonuses and loadings attract applications, particularly from candidates with high debt; they do not, however, predict who stays. Rural background, prior rural exposure during training, and something harder to quantify—a professional identity that includes country practice as desirable rather than remedial—are more powerful predictors of five-year retention than any dollar figure on a contract. The clinician who was persuaded by money alone arrives planning to leave; the clinician who chose to come carries a different relationship to the community.",
+        "Infrastructure tells the real story. Rural clinicians consistently report that what drives departure is not salary but professional isolation, poor locum cover forcing excessive on-call, limited access to specialist support, ageing equipment, and the persistent sense of being at the edge of a system designed for cities. A loading can delay a decision to resign; it cannot undo the evening when a doctor realises that the nearest colleague to call at 2 a.m. is a hundred kilometres away. 'Stickability' is not purchased; it is grown in an environment that makes practice genuinely sustainable.",
+        "The evidence on educational pipelines is striking. Countries that have deliberately embedded significant rural clinical experience in their undergraduate and postgraduate training programmes show measurably better rural recruitment and retention outcomes than those that treat rural placement as an optional elective or a punitive rotation for underperformers. Students who spend time in rural communities during formative training years develop what researchers have called 'rural clinical identity'—an internalised sense that country practice is professionally rich, not professionally limited. Once that identity forms, no bonus is needed to recruit; it has already done its work.",
+        "The specialist access problem is one that no recruitment bonus addresses. A rural generalist who cannot reach a cardiologist, a psychiatrist, or a paediatric surgeon within a reasonable timeframe faces decisions that would not be made unilaterally in a city hospital. That burden is compounding: as workload grows more complex, the safest response is to restrict scope rather than expand it, and narrowed scope eventually conflicts with the reason most rural clinicians chose the role. Telehealth has helped at the margins, but it does not replace the clinical relationship or the capacity to respond quickly when a patient's condition deteriorates without warning.",
+        "Workforce planners rarely acknowledge the political dynamics that make incentive schemes so persistent as a policy response. Bonuses are visible, costed, announced at a press conference, and attributable to a named minister. Reforming an undergraduate curriculum to weight rural placements requires cooperation between governments, universities, and health authorities over many years; the outcomes appear in workforce data a decade later, well after any politician's career interest in taking credit has expired. This temporal mismatch between structural reform and political reward has kept the policy conversation anchored to money far longer than the evidence supports.",
+        "Community infrastructure matters in ways that the health workforce debate tends to overlook. Clinicians are not interchangeable contract workers; they are people with partners, children in schools, and a need for culture, sport, and professional society. Rural areas that have invested in broadband, arts funding, educational facilities, and transport links recruit more successfully than those relying on clinical salary alone. Co-location of services—a general practice, a pharmacy, an allied health hub—reduces the sense of professional solitude that is the most commonly cited reason for rural attrition in qualitative workforce studies.",
+        "Rural practice is not a hardship posting to be compensated; it is a professional identity to be cultivated. The evidence points persistently to pipelines, communities, and infrastructure rather than annual supplements. That evidence has been available for two decades, and the gap between what research recommends and what governments fund says something unflattering about the relationship between evidence and policy in health workforce planning. Until systems are rewarded for outcomes measured in years rather than in announcements, the rural workforce will continue to absorb well-funded campaigns and to lose the people those campaigns attracted. The incentive problem is ultimately a governance problem in disguise."
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "stem": "In paragraph one, the writer's main criticism of rural incentive schemes is that they",
+          "options": [
+            {"key": "A", "text": "rest on the untested assumption that financial compensation can solve a long-term retention problem."},
+            {"key": "B", "text": "are designed primarily to attract experienced senior clinicians rather than new graduates with debt."},
+            {"key": "C", "text": "produce short-term recruitment gains that are difficult to attribute to any single government policy."},
+            {"key": "D", "text": "are consistently abandoned before their effects on long-term retention can be adequately assessed."}
+          ],
+          "answer": "A",
+          "focus": "hardship posting",
+          "explain": "지문의 'hardship posting' 부분 참조 → A: 금전 보상이 장기 유지 문제를 해결할 수 있다는 검증되지 않은 가정에 기반함"
+        },
+        {
+          "id": 2,
+          "stem": "The statement 'the clinician who was persuaded by money alone arrives planning to leave' in paragraph two suggests that",
+          "options": [
+            {"key": "A", "text": "candidates carrying significant student debt are fundamentally unsuited to the demands of rural posts."},
+            {"key": "B", "text": "offering large bonuses actively discourages applicants who have a genuine interest in rural medicine."},
+            {"key": "C", "text": "rural background is a considerably more powerful retention predictor than any other single variable."},
+            {"key": "D", "text": "financial motivation alone does not generate the community attachment that sustains long-term rural commitment."}
+          ],
+          "answer": "D",
+          "focus": "persuaded by money alone",
+          "explain": "지문의 'persuaded by money alone' 부분 참조 → D: 금전적 동기만으로는 장기 헌신을 지속시키는 지역 사회 애착이 생기지 않음"
+        },
+        {
+          "id": 3,
+          "stem": "In paragraph three, 'Stickability' most nearly means",
+          "options": [
+            {"key": "A", "text": "the ability to manage a wide clinical scope without regular access to specialist colleagues."},
+            {"key": "B", "text": "the capacity to remain committed to a post and community over an extended period of time."},
+            {"key": "C", "text": "the willingness to advocate persistently for better resources within a rural health system."},
+            {"key": "D", "text": "the personal resilience that enables a clinician to cope with isolation during overnight on-call."}
+          ],
+          "answer": "B",
+          "focus": "Stickability",
+          "explain": "지문의 'Stickability' 부분 참조 → B: 장기간 자리를 지키는 능력"
+        },
+        {
+          "id": 4,
+          "stem": "According to paragraph four, 'rural clinical identity' refers to",
+          "options": [
+            {"key": "A", "text": "an internalised belief that country practice is professionally rich rather than professionally limiting."},
+            {"key": "B", "text": "a formal credential obtained after completing an accredited rural postgraduate training programme."},
+            {"key": "C", "text": "the sense of obligation that students from rural backgrounds feel towards their home communities."},
+            {"key": "D", "text": "a professional designation awarded to generalists who sustain a broad scope in remote settings."}
+          ],
+          "answer": "A",
+          "focus": "rural clinical identity",
+          "explain": "지문의 'rural clinical identity' 부분 참조 → A: 농촌 진료가 직업적으로 풍요롭다는 내면화된 믿음"
+        },
+        {
+          "id": 5,
+          "stem": "In paragraph five, the writer argues that as rural workloads grow more complex, clinicians",
+          "options": [
+            {"key": "A", "text": "increasingly rely on telehealth to manage cases that would previously have required urgent referral."},
+            {"key": "B", "text": "advocate for salary supplements rather than additional specialist outreach to their communities."},
+            {"key": "C", "text": "tend to restrict their clinical scope in ways that eventually undermine the appeal of the role."},
+            {"key": "D", "text": "develop greater diagnostic competence through repeated exposure to complex undifferentiated presentations."}
+          ],
+          "answer": "C",
+          "focus": "narrowed scope eventually conflicts",
+          "explain": "지문의 'narrowed scope eventually conflicts' 부분 참조 → C: 임상 범위 제한이 결국 역할의 본래 매력을 약화시킴"
+        },
+        {
+          "id": 6,
+          "stem": "In paragraph six, the writer suggests that incentive schemes persist as a policy response mainly because",
+          "options": [
+            {"key": "A", "text": "professional bodies have consistently blocked curriculum reforms that would increase rural clinical placements."},
+            {"key": "B", "text": "they produce outcomes that are politically visible within a timeframe suited to elected officials' interests."},
+            {"key": "C", "text": "workforce data from educational reform is too difficult to collect within a meaningful policy cycle."},
+            {"key": "D", "text": "ministers are advised by consultants whose continued contracts depend on continued incentive programme spending."}
+          ],
+          "answer": "B",
+          "focus": "temporal mismatch",
+          "explain": "지문의 'temporal mismatch' 부분 참조 → B: 선출 공무원에게 적합한 시간대 내에 정치적으로 가시적인 결과를 냄"
+        },
+        {
+          "id": 7,
+          "stem": "According to paragraph seven, rural areas that invest in community infrastructure",
+          "options": [
+            {"key": "A", "text": "attract mainly single clinicians because family housing in these areas remains prohibitively expensive."},
+            {"key": "B", "text": "rely less on co-located clinical services once transport improvements reduce the sense of isolation."},
+            {"key": "C", "text": "have already substantially closed the retention gap between rural and metropolitan health services."},
+            {"key": "D", "text": "recruit more successfully because clinicians also need social and professional opportunities beyond their clinical work."}
+          ],
+          "answer": "D",
+          "focus": "professional solitude",
+          "explain": "지문의 'professional solitude' 부분 참조 → D: 임상의들도 임상 업무 이외의 사회적·직업적 기회가 필요하기 때문에 채용에 더 성공적"
+        },
+        {
+          "id": 8,
+          "stem": "In the final paragraph, the writer regards the rural workforce problem as ultimately",
+          "options": [
+            {"key": "A", "text": "a failure in the relationship between evidence and the political decisions that shape health funding."},
+            {"key": "B", "text": "a challenge that can only be resolved through meaningful involvement of the private healthcare sector."},
+            {"key": "C", "text": "likely to improve once rural salaries reach genuine parity with those available in metropolitan centres."},
+            {"key": "D", "text": "evidence that health ministries lack sufficient technical expertise to design retention-focused workforce policies."}
+          ],
+          "answer": "A",
+          "focus": "a governance problem in disguise",
+          "explain": "지문의 'a governance problem in disguise' 부분 참조 → A: 증거와 건강 재정을 형성하는 정치적 결정 사이의 관계 실패"
+        }
+      ],
+      "focusPhrases": [
+        "hardship posting",
+        "persuaded by money alone",
+        "Stickability",
+        "rural clinical identity",
+        "narrowed scope eventually conflicts",
+        "temporal mismatch",
+        "professional solitude",
+        "a governance problem in disguise"
+      ]
+    }
+  ],
+  "gist": [
+    "Part C tests inference, attitude, and meaning — not just surface facts.",
+    "Focus highlights show exactly which phrase each question targets in the passage.",
+    "Both texts argue that a simple, visible intervention (placebo ritual / rural bonus) conceals a deeper structural truth."
+  ],
+  "vocab": [
+    {"term": "nocebo", "gloss": "노시보: 부정적 기대에 의해 유발되는 실제 부작용"},
+    {"term": "equivocal", "gloss": "불분명한·다의적인: 명확하지 않아 해석이 엇갈리는"},
+    {"term": "attrition", "gloss": "이탈·감소: 특히 의료 인력의 꾸준한 자연 감소"},
+    {"term": "open-label placebo", "gloss": "공개 위약: 활성 성분 없음을 알리고 투여하는 위약"},
+    {"term": "rural generalist", "gloss": "농촌 일반의: 농촌에서 광범위한 임상을 담당하는 의사"}
+  ]
+}

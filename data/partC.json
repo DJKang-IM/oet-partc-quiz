@@ -1953,6 +1953,2953 @@
           "gloss": "흡입기 추진제"
         }
       ]
+    },
+    {
+      "id": "C-05",
+      "part": "C",
+      "setNum": 5,
+      "type": "dual-text",
+      "title": "Antimicrobial resistance & telemedicine",
+      "instruction": "Official-style Part C: two texts, 8 questions each (16 total). Focus phrases are highlighted in the passages.",
+      "texts": [
+        {
+          "label": "Text 1",
+          "title": "Antimicrobial resistance as a shared-commons problem",
+          "paragraphs": [
+            "When Garrett Hardin described the tragedy of the commons in 1968, he was writing about grazing land, not penicillin. Yet the logic transfers with uncomfortable precision. Antibiotic efficacy is a finite shared resource: every course of treatment, whether necessary or not, exerts selective pressure on the microbial world and accelerates the emergence of resistance. Unlike a grazed meadow, which can be fenced and divided, antimicrobial efficacy cannot be privatised or stockpiled. Once it is consumed, the loss belongs to everyone. Framing resistance as a commons problem is not merely academic—it shapes every serious policy response, because no individual clinician, country, or industry sector can preserve it alone.",
+            "The microbiological mechanics are well understood, even if their collective implications are not. When a patient receives an antibiotic, the drug kills susceptible organisms and leaves resistant ones to propagate—not only in that patient but in their household contacts, healthcare workers, and local environment. Resistant strains then circulate, rendering future treatments less reliable. The individual prescription may be entirely justified; the individual prescriber may be exemplary. Yet the aggregate of individually justified decisions can still produce a collective failure. Epidemiologists describe this as a negative externality: the prescriber bears none of the downstream cost borne by the next patient who needs that drug and finds it wanting.",
+            "That gap between individual incentive and collective harm explains why stewardship alone cannot solve the problem. Antimicrobial stewardship programmes have achieved genuine reductions in prescribing within individual hospitals; some have extended their reach into primary care with measurable effect. But stewardship operates within institutions and within national borders. Resistant organisms do not. A well-governed hospital in one country cannot insulate its patients from a gene cassette that has already spread through agricultural supply chains across three continents. Local virtue is necessary but not sufficient. Saying otherwise flatters the steward and reassures no one outside the ward.",
+            "The agricultural dimension is both the largest and the least discussed. Approximately two thirds of global antibiotic consumption occurs outside human medicine, primarily in industrial livestock farming, where drugs are applied in sub-therapeutic doses to promote growth and prevent infection in overcrowded conditions. The organisms and resistance genes that emerge in those settings move rapidly through the food chain, through waterways, and through the hands of agricultural workers into clinical ecosystems. Regulatory progress has been made in some high-income countries, where growth promotion uses have been restricted or banned. Globally, however, the trend lines for agricultural antibiotic consumption remain upward.",
+            "Global inequality complicates the picture in two directions simultaneously. In low- and middle-income countries, under-treatment remains as dangerous as over-treatment: children die from infections that could be cured if the right drug were available and affordable. In those same settings, weak regulation, informal drug markets, and counterfeit antibiotics drive selection pressure far beyond what any stewardship programme can offset. The countries that contribute least to resistance research and carry the least industrial farming are often those bearing the greatest clinical burden of resistant infections. An equity lens is therefore not optional in AMR policy; it is required.",
+            "The pharmaceutical pipeline compounds the problem. Drug development is economically unattractive when the product, once approved, must be used as little as possible and priced to reflect scarcity of use rather than volume of sales. Standard return-on-investment logic does not apply to antibiotics, and the result is a thinning pipeline at the precise moment when clinical need is intensifying. A handful of novel agents have reached the market in recent years, almost all supported by public funding or academic partnerships—'pull' incentives, grants, and market-entry rewards substituting for the profit motive that drives innovation elsewhere. The lesson is that antibiotics cannot be treated as ordinary commodities.",
+            "Meaningful progress requires what national stewardship and hospital committees cannot provide: binding international agreements with enforceable commitments on agricultural use, surveillance, and access. The World Health Organization's Global Action Plan on AMR has existed since 2015; its national action plans vary enormously in ambition and implementation. A shared commons problem demands shared governance—not a rumour with a timestamp but a legal framework with teeth. Countries that have ratified climate agreements know how difficult that is. They also know it is the only mechanism that has ever worked at scale.",
+            "For clinicians, the immediate task is to hold two ideas at once: that the patient in front of them deserves the best available treatment, and that 'the best' is a diminishing asset if it is spent carelessly. Prescribing an antibiotic because the request feels easier than the conversation is a small betrayal of patients not yet born. Teaching that framing is harder than teaching a spectrum chart, but it belongs in every prescribing course, every grand round, and every stewardship presentation. What we call prudent prescribing is, at root, a form of intergenerational justice—and the word 'steward' itself should remind us that we hold these drugs in trust, not in ownership."
+          ],
+          "questions": [
+            {
+              "id": 1,
+              "stem": "In paragraph two, 'negative externality' most nearly means",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "the worsening side-effects that broad-spectrum drugs inflict on already compromised patients"
+                },
+                {
+                  "key": "B",
+                  "text": "resistant mutations that accumulate in a patient after repeated courses of the same antibiotic"
+                },
+                {
+                  "key": "C",
+                  "text": "damage to clinical environments caused by the improper disposal of unused antibiotic supplies"
+                },
+                {
+                  "key": "D",
+                  "text": "a cost of one person's prescribing borne by future patients who later find that drug ineffective"
+                }
+              ],
+              "answer": "D",
+              "focus": "negative externality",
+              "explain": "지문의 'negative externality' 부분 참조 → 처방 비용이 미래 환자에게 전가됨 → D"
+            },
+            {
+              "id": 2,
+              "stem": "'That gap' in paragraph three most nearly refers to the distance between",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "what helps the individual patient and what preserves antimicrobial efficacy for future patients"
+                },
+                {
+                  "key": "B",
+                  "text": "prescribing rates inside hospitals and the volume of antibiotics dispensed in the community"
+                },
+                {
+                  "key": "C",
+                  "text": "national AMR action plans as stated to international bodies and their actual implementation"
+                },
+                {
+                  "key": "D",
+                  "text": "countries of origin for resistant organisms and the countries where they cause the most harm"
+                }
+              ],
+              "answer": "A",
+              "focus": "That gap between individual incentive and collective harm",
+              "explain": "지문의 'That gap between individual incentive and collective harm' 부분 참조 → 개인 이익과 집단적 피해 사이의 간극 → A"
+            },
+            {
+              "id": 3,
+              "stem": "The writer cites 'approximately two thirds' in paragraph four to demonstrate that",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "human medicine has significantly reduced its antibiotic use while farming has expanded"
+                },
+                {
+                  "key": "B",
+                  "text": "the majority of antibiotic use worldwide takes place outside clinical medicine"
+                },
+                {
+                  "key": "C",
+                  "text": "high-income countries have already banned the use of antibiotics for growth promotion"
+                },
+                {
+                  "key": "D",
+                  "text": "resistant organisms reach clinical settings primarily via agricultural workers and the food chain"
+                }
+              ],
+              "answer": "B",
+              "focus": "approximately two thirds of global antibiotic consumption",
+              "explain": "지문의 'approximately two thirds of global antibiotic consumption' 부분 참조 → 전 세계 항생제 사용의 대부분이 비임상 분야에서 발생 → B"
+            },
+            {
+              "id": 4,
+              "stem": "According to paragraph five, the countries bearing the greatest burden of resistant infections tend to be those that",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "have the highest rates of antibiotic prescribing in both community and hospital settings"
+                },
+                {
+                  "key": "B",
+                  "text": "have invested least in developing new pharmaceutical agents and vaccination programmes"
+                },
+                {
+                  "key": "C",
+                  "text": "contribute least to resistance research and have the smallest industrial farming sectors"
+                },
+                {
+                  "key": "D",
+                  "text": "have the weakest hospital infection-control systems and the fewest trained stewardship pharmacists"
+                }
+              ],
+              "answer": "C",
+              "focus": "greatest clinical burden of resistant infections",
+              "explain": "지문의 'greatest clinical burden of resistant infections' 부분 참조 → 내성 연구에 가장 적게 기여하는 나라들 → C"
+            },
+            {
+              "id": 5,
+              "stem": "In paragraph six, 'antibiotics cannot be treated as ordinary commodities' means that they",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "are more expensive to manufacture than other prescription medicines due to complex synthesis requirements"
+                },
+                {
+                  "key": "B",
+                  "text": "should be dispensed only in hospitals rather than through community pharmacies or online services"
+                },
+                {
+                  "key": "C",
+                  "text": "require more rigorous clinical testing than other drug classes before regulatory approval is granted"
+                },
+                {
+                  "key": "D",
+                  "text": "need economic models that reward restricted use rather than high sales volumes"
+                }
+              ],
+              "answer": "D",
+              "focus": "antibiotics cannot be treated as ordinary commodities",
+              "explain": "지문의 'antibiotics cannot be treated as ordinary commodities' 부분 참조 → 제한적 사용에 보상하는 경제 모델 필요 → D"
+            },
+            {
+              "id": 6,
+              "stem": "'A rumour with a timestamp' in paragraph seven refers to",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "a published plan that is acknowledged but carries no mechanism for enforcement"
+                },
+                {
+                  "key": "B",
+                  "text": "resistance data circulated between governments before independent laboratory verification is complete"
+                },
+                {
+                  "key": "C",
+                  "text": "political pledges made at international health summits that are routinely abandoned within months"
+                },
+                {
+                  "key": "D",
+                  "text": "misinformation about antibiotic safety that persists on social media despite updated clinical guidance"
+                }
+              ],
+              "answer": "A",
+              "focus": "a rumour with a timestamp",
+              "explain": "지문의 'a rumour with a timestamp' 부분 참조 → 시행 메커니즘 없이 인정만 되는 계획 → A"
+            },
+            {
+              "id": 7,
+              "stem": "In the final paragraph, 'a small betrayal of patients not yet born' implies that prescribing an antibiotic for convenience",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "breaches the duty of care that a prescriber owes to the patient requesting treatment"
+                },
+                {
+                  "key": "B",
+                  "text": "depletes a shared resource upon which patients in the future will depend"
+                },
+                {
+                  "key": "C",
+                  "text": "exposes the prescriber to legal liability if resistance develops and the patient is later harmed"
+                },
+                {
+                  "key": "D",
+                  "text": "reflects inadequate consultation skills that training programmes should address more explicitly"
+                }
+              ],
+              "answer": "B",
+              "focus": "a small betrayal of patients not yet born",
+              "explain": "지문의 'a small betrayal of patients not yet born' 부분 참조 → 미래 환자들이 의존할 공유 자원 고갈 → B"
+            },
+            {
+              "id": 8,
+              "stem": "The writer's overall position is that tackling AMR effectively requires",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "expanding hospital and community stewardship globally to reach prescribers in agricultural and clinical settings"
+                },
+                {
+                  "key": "B",
+                  "text": "compelling pharmaceutical companies by law to invest in antibiotic research as a public duty"
+                },
+                {
+                  "key": "C",
+                  "text": "binding international agreements, because individual prescribers and nations acting alone are insufficient"
+                },
+                {
+                  "key": "D",
+                  "text": "restricting agricultural antibiotic use urgently as the single measure with the greatest impact on resistance"
+                }
+              ],
+              "answer": "C",
+              "focus": "shared governance",
+              "explain": "지문의 'shared governance' 부분 참조 → 구속력 있는 국제 협약만이 AMR에 효과적으로 대응 가능 → C"
+            }
+          ],
+          "wordCount": 812,
+          "focusPhrases": [
+            "negative externality",
+            "That gap between individual incentive and collective harm",
+            "approximately two thirds of global antibiotic consumption",
+            "greatest clinical burden of resistant infections",
+            "antibiotics cannot be treated as ordinary commodities",
+            "a rumour with a timestamp",
+            "a small betrayal of patients not yet born",
+            "shared governance"
+          ]
+        },
+        {
+          "label": "Text 2",
+          "title": "Telemedicine after the pandemic: what stayed and what should not have",
+          "paragraphs": [
+            "When health systems across the world suspended face-to-face consultations in early 2020, telemedicine moved from the margin to the mainstream in a matter of weeks. The shift was not entirely voluntary; it was, rather, a forced experiment conducted on the world's patients without their full informed consent. Some results of that experiment have been genuinely encouraging. Others have persisted beyond their emergency justification and now need to be examined with the same rigour that any clinical intervention would demand. The fact that telemedicine expanded rapidly does not, by itself, make that expansion wise—and the fact that patients and clinicians found it convenient does not settle the question of whether it is safe.",
+            "The scale of the change was striking. In the United Kingdom, the proportion of general practice consultations conducted by telephone or video rose from roughly eleven per cent before March 2020 to over seventy per cent at the height of restrictions. Outpatient departments that had barely trialled video clinics found themselves running hundreds each week. Mental health services, palliative care, and some surgical follow-up adapted with relative ease. What the numbers did not capture was the clinical quality of those consultations or whether the patients who needed a physical examination were correctly identified and redirected.",
+            "Some of what expanded deserves to stay. Patients with well-controlled chronic conditions—diabetes, asthma, hypertension—who have an established relationship with their team can be reviewed meaningfully by video or telephone. The convenience is substantial: no travel, no time off work, no waiting-room anxiety. Rural and geographically remote populations who previously faced multi-hour journeys to specialist outpatients have gained access to consultations they would otherwise have declined. Psychiatric and psychological therapies that rely on verbal interaction have adapted successfully, with some evidence of comparable outcomes to face-to-face care when patients are appropriately selected. These are genuine gains and should be protected.",
+            "The problem begins when convenience becomes the default rather than a deliberate choice. A video screen cannot auscultate a murmur, palpate an abdomen, or detect the pallor of anaemia. A telephone line cannot observe a gait, a tremor, or the subtle thinning of temporal wasting. Physical signs that experienced clinicians read almost automatically in a room can vanish from a pixelated image. The missed finding does not appear in the consultation record as an absence—it simply is not there. Diagnostic errors that arise from remote consultations are correspondingly difficult to attribute, because the decision that no examination was needed was itself never explicitly documented.",
+            "Digital exclusion is the equity problem that enthusiasm for telemedicine tends to obscure. Older patients, those in poverty, those whose first language is not the language of the consultation, and those with sensory or cognitive impairment are systematically disadvantaged by a remote-first model. Broadband provision in deprived urban and rural areas is still uneven. Smartphones are not universal. Video literacy—the ability to navigate a consultation platform, position oneself in frame, and troubleshoot a dropped connection—is unevenly distributed. A health system that defaults to telemedicine without actively supporting patients who cannot access it is not expanding care; it is redirecting it towards those who were already advantaged.",
+            "Regulatory standards were loosened in the emergency in ways that were reasonable at the time and have proved harder to tighten afterwards. Prescribing via telemedicine without a prior physical examination was permitted for categories of drug where such a step would previously have been unthinkable. Some private providers exploited those relaxations to establish models that prioritise throughput over safety—a consultation measurable in minutes, a prescription measurable in seconds, and a clinical relationship that never existed. The pandemic created the opening; commercial logic filled it. Reinstating the relevant standards requires regulators to acknowledge that the initial emergency permission was time-limited, not a policy endorsement.",
+            "What should stay is a set of evidence-based decisions rather than a blanket technology preference. Remote consultations are appropriate for initial triage where the outcome is referral or self-management, for routine review of stable chronic conditions with clear parameters, for results conversations where the finding is unambiguous and the patient has no new symptoms, and for psychological therapies adapted for remote delivery. A framework like that places the clinical question before the medium. What should not have stayed is the assumption that any consultation that can be delivered remotely should be—that remote-first is inherently more efficient, more patient-centred, or safer than examined care.",
+            "The pandemic showed that medicine's logistics are more flexible than its culture imagined. That is a valuable discovery. What it did not show is that the physical consultation is an anachronism—a ritual that persists only because no one had thought to question it. The patients who were harmed by delayed diagnoses during remote-first years are less visible than those who were grateful for a video call, but they are real. Building telemedicine into practice as a deliberate tool, rather than a permanent shortcut, means being willing to name what it cannot do. A camera can follow a face. It cannot follow a hand."
+          ],
+          "questions": [
+            {
+              "id": 1,
+              "stem": "In paragraph one, 'a forced experiment' suggests that telemedicine expanded because",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "health systems faced an emergency and had little choice despite limited supporting evidence"
+                },
+                {
+                  "key": "B",
+                  "text": "clinicians were recruited into government-approved telemedicine trials with patients' informed consent obtained remotely"
+                },
+                {
+                  "key": "C",
+                  "text": "staff who preferred face-to-face practice were mandated by hospital leadership to adopt video appointments"
+                },
+                {
+                  "key": "D",
+                  "text": "regulators classified remote prescribing as a permanent policy shift rather than a crisis response"
+                }
+              ],
+              "answer": "A",
+              "focus": "forced experiment",
+              "explain": "지문의 'forced experiment' 부분 참조 → 근거보다 긴급 상황이 원격 의료 확대를 이끔 → A"
+            },
+            {
+              "id": 2,
+              "stem": "The figures cited in paragraph two are intended to illustrate",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "that general practice consultation quality improved substantially once video platforms were routinely available"
+                },
+                {
+                  "key": "B",
+                  "text": "that mental health services and palliative care adopted video clinics ahead of all other departments"
+                },
+                {
+                  "key": "C",
+                  "text": "that only a small minority of patients still required face-to-face appointments during restrictions"
+                },
+                {
+                  "key": "D",
+                  "text": "how rapidly and extensively remote consultations displaced face-to-face care across the health system"
+                }
+              ],
+              "answer": "D",
+              "focus": "over seventy per cent",
+              "explain": "지문의 'over seventy per cent' 부분 참조 → 원격 진료가 얼마나 빠르고 광범위하게 확산되었는지 → D"
+            },
+            {
+              "id": 3,
+              "stem": "The writer mentions 'multi-hour journeys to specialist outpatients' in paragraph three in order to",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "argue that telemedicine benefits specialist services more than general practice in most contexts"
+                },
+                {
+                  "key": "B",
+                  "text": "illustrate that telemedicine can bring genuine access improvements for patients in remote locations"
+                },
+                {
+                  "key": "C",
+                  "text": "contrast the advantages of telemedicine for people outside cities with its particular risks for urban patients"
+                },
+                {
+                  "key": "D",
+                  "text": "show that video appointments are most effective when an established clinical relationship already exists"
+                }
+              ],
+              "answer": "B",
+              "focus": "multi-hour journeys to specialist outpatients",
+              "explain": "지문의 'multi-hour journeys to specialist outpatients' 부분 참조 → 원격 진료가 접근성을 실질적으로 향상시킬 수 있음 → B"
+            },
+            {
+              "id": 4,
+              "stem": "In paragraph four, the writer uses 'the pallor of anaemia' to show that",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "some physical findings that clinicians routinely detect in person are invisible through remote media"
+                },
+                {
+                  "key": "B",
+                  "text": "haematological conditions are the category of diagnosis most commonly missed in video consultations"
+                },
+                {
+                  "key": "C",
+                  "text": "patient history contributes more to diagnosis than physical examination in the majority of clinical cases"
+                },
+                {
+                  "key": "D",
+                  "text": "remote consultations are adequate for chronic disease follow-up but not for undifferentiated new presentations"
+                }
+              ],
+              "answer": "A",
+              "focus": "pallor of anaemia",
+              "explain": "지문의 'pallor of anaemia' 부분 참조 → 직접 대면 시 감지되는 신체 소견이 원격에서는 보이지 않을 수 있음 → A"
+            },
+            {
+              "id": 5,
+              "stem": "According to paragraph five, patients most disadvantaged by a remote-first model are those who are",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "living in rural areas that still lack reliable broadband and cannot attend the surgery in person"
+                },
+                {
+                  "key": "B",
+                  "text": "managing multiple long-term conditions who rely on continuity of care with a regular clinical team"
+                },
+                {
+                  "key": "C",
+                  "text": "older, less affluent, or less capable of navigating remote consultation platforms unaided"
+                },
+                {
+                  "key": "D",
+                  "text": "reluctant to share sensitive personal health information through video appointments for reasons of privacy"
+                }
+              ],
+              "answer": "C",
+              "focus": "Digital exclusion",
+              "explain": "지문의 'Digital exclusion' 부분 참조 → 노인, 빈곤층, 플랫폼 이용이 어려운 환자들이 가장 불리 → C"
+            },
+            {
+              "id": 6,
+              "stem": "'Those relaxations' in paragraph six refers to",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "rules limiting which professional groups were permitted to conduct remote consultations"
+                },
+                {
+                  "key": "B",
+                  "text": "requirements for patients to complete and submit a health questionnaire before their remote appointment"
+                },
+                {
+                  "key": "C",
+                  "text": "caps placed on the total number of telemedicine appointments each practice could offer each week"
+                },
+                {
+                  "key": "D",
+                  "text": "permissions to prescribe remotely without conducting a prior face-to-face clinical examination"
+                }
+              ],
+              "answer": "D",
+              "focus": "prescribing via telemedicine without a prior physical examination",
+              "explain": "지문의 'prescribing via telemedicine without a prior physical examination' 부분 참조 → 대면 진찰 없이 원격 처방을 허용한 규정 완화 → D"
+            },
+            {
+              "id": 7,
+              "stem": "In paragraph seven, the writer treats 'remote-first' as a flawed assumption because it",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "has been adopted by commercial providers to justify reducing individual consultation times"
+                },
+                {
+                  "key": "B",
+                  "text": "places convenience above clinical need in deciding which medium a consultation uses"
+                },
+                {
+                  "key": "C",
+                  "text": "is appropriate for routine chronic disease review but inappropriate for surgical or complex cases"
+                },
+                {
+                  "key": "D",
+                  "text": "remains unsupported by randomised evidence across the majority of clinical specialties and contexts"
+                }
+              ],
+              "answer": "B",
+              "focus": "remote-first is inherently more efficient",
+              "explain": "지문의 'remote-first is inherently more efficient' 부분 참조 → 편의성이 임상적 필요를 앞서는 잘못된 가정 → B"
+            },
+            {
+              "id": 8,
+              "stem": "The writer's overall argument is that telemedicine should be",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "embedded selectively where clinical evidence supports it, not applied as a convenience-driven default"
+                },
+                {
+                  "key": "B",
+                  "text": "gradually reduced towards pre-pandemic levels until its clinical risks have been more fully quantified"
+                },
+                {
+                  "key": "C",
+                  "text": "expanded further with sustained investment in digital infrastructure and patient-literacy support programmes"
+                },
+                {
+                  "key": "D",
+                  "text": "validated through prospective outcome studies before being accepted as equivalent to in-person care"
+                }
+              ],
+              "answer": "A",
+              "focus": "deliberate tool",
+              "explain": "지문의 'deliberate tool' 부분 참조 → 임상 근거가 지지하는 경우에만 선택적으로 활용해야 함 → A"
+            }
+          ],
+          "wordCount": 825,
+          "focusPhrases": [
+            "forced experiment",
+            "over seventy per cent",
+            "multi-hour journeys to specialist outpatients",
+            "pallor of anaemia",
+            "Digital exclusion",
+            "prescribing via telemedicine without a prior physical examination",
+            "remote-first is inherently more efficient",
+            "deliberate tool"
+          ]
+        }
+      ],
+      "gist": [
+        "AMR = a commons problem; individual stewardship is necessary but not sufficient—global binding agreements are the only mechanism that works at scale.",
+        "Telemedicine: keep what genuinely improves access and outcomes; question what persisted by convenience rather than clinical evidence."
+      ],
+      "vocab": [
+        {
+          "term": "antimicrobial resistance",
+          "gloss": "항균제 내성: 항생제가 세균에 효과를 잃는 현상"
+        },
+        {
+          "term": "stewardship",
+          "gloss": "항생제 적정 사용 관리: 올바른 사용을 감독하는 활동"
+        },
+        {
+          "term": "negative externality",
+          "gloss": "부정적 외부효과: 행위의 비용이 타인에게 전가됨"
+        },
+        {
+          "term": "telemedicine",
+          "gloss": "원격 의료: 화상·전화를 통한 비대면 진료"
+        },
+        {
+          "term": "digital exclusion",
+          "gloss": "디지털 소외: 디지털 기기·플랫폼 접근이 어려운 취약 계층"
+        },
+        {
+          "term": "counterfeit antibiotics",
+          "gloss": "위조 항생제: 성분이 불량하거나 허위로 제조된 항생제"
+        }
+      ]
+    },
+    {
+      "id": "C-06",
+      "part": "C",
+      "setNum": 6,
+      "type": "dual-text",
+      "title": "Disclosing error & overdiagnosis",
+      "instruction": "Official-style Part C: two texts, 8 questions each (16 total). Focus phrases are highlighted in the passages.",
+      "texts": [
+        {
+          "label": "Text 1",
+          "title": "Disclosing medical error: why candour is harder than the policy suggests",
+          "paragraphs": [
+            "Every week in NHS hospitals, something goes wrong that should not have. A medication reaches the wrong patient, a monitoring abnormality is overlooked, a surgical count is incorrect. Most patients never learn the truth. Policy has tried to change this. Since 2014, the statutory Duty of Candour in England has required healthcare providers to inform patients or their relatives when something has gone wrong and caused harm. Wales, Scotland and Northern Ireland have equivalent obligations. Yet surveys consistently find that disclosure conversations are held late, incompletely, or not at all.",
+            "The gap between policy and practice is not, for the most part, a gap of malice. Clinicians who stay silent do not usually wish patients ill; they are frightened. They fear that acknowledgement of error will be taken as an admission of negligence, leading to legal action that damages a career. This fear is partly irrational — in most jurisdictions an apology is explicitly protected from use as evidence of liability — and partly not: social media can convert a hospital's internal disclosure into a public event before any formal process has concluded.",
+            "Beneath the legal anxiety lies something more personal: a threat to professional identity. Medicine trains its practitioners to believe that competence is binary — you either know what to do, or you should not be there. Error therefore does not feel like a system failure; it feels like self-exposure. Clinicians describe the moment they realised something had gone wrong as a 'crack in the floor', a sudden drop into uncertainty that disclosure can only widen. That framing, however psychologically understandable, is also clinically dangerous, because it casts honesty as risk rather than as obligation.",
+            "Evidence from structured disclosure programmes challenges the assumption that honesty invites lawsuits. Where hospitals have adopted 'communicate and resolve' models — offering explanation, apology, and where appropriate compensation before litigation is initiated — overall litigation rates have fallen and average compensation costs have decreased. Patients and relatives consistently report that what they want first is not money, but an honest explanation and an assurance that others will not be harmed in the same way. Silence, it turns out, frequently drives litigation rather than preventing it.",
+            "Institutional factors compound individual ones. In hierarchically ordered medical teams, admitting error to a patient is implicitly an admission before colleagues, and the senior clinician who speaks first models either safety or shame. Where organisations do not review near-misses without blame, staff learn that the environment cannot hold difficult truths. A disclosure programme needs more than a written policy leaflet; it requires protected time for preparation, access to a colleague trained in communication, and a clear pathway from the bedside to formal incident reporting.",
+            "What patients actually need from a disclosure conversation is often simpler than clinicians expect. Families do not primarily need legal terminology or risk statistics; they need the answer to the question 'did the care fall short?' delivered in plain language, followed by what will be done differently. Research consistently shows that a sincere expression of regret — not a qualified statement hedged in the passive voice — satisfies a fundamental human need to be seen as worth explaining to. Anything less is experienced as evasion.",
+            "Training helps, but the scenario design matters. Role-play exercises that end with simulated anger and tears shape trainees to expect hostility; those in which a trained actor plays a family member who accepts the explanation with evident relief more accurately represent the likely outcome. Rehearsing good disclosure conversations normalises the activity. Departments that practise this routinely find that junior doctors stop regarding candour as a career-ending event and begin treating it as a professional skill alongside history-taking and procedural consent.",
+            "Regulatory frameworks have moved faster than culture. Inspectors can tick the candour box if a hospital has a written policy; they cannot easily measure whether the conversation happened with the warmth and clarity the policy intends. This enforcement gap will persist until institutions reward honest disclosure as visibly as they reward clean audit data. A unit that publicly commends a team for disclosing an error well sends a signal that inspections, however thorough, cannot replicate.",
+            "Open disclosure is, at its core, a promise: that the relationship between clinician and patient survives the moment when care fell short. Programmes can scaffold the conversation; supervisors can model it; policies can mandate it. But none of these supports will work if the underlying conviction is absent — the belief that a patient who was harmed is owed not silence but truth. Candour is not a compliance exercise. It is the debt that honest medicine always carries forward."
+          ],
+          "questions": [
+            {
+              "id": 1,
+              "stem": "In paragraph one, the writer's main claim about disclosure conversations is that they",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "are legally required under statute but apply only to the most serious adverse events."
+                },
+                {
+                  "key": "B",
+                  "text": "are regularly contested by patients who would rather seek financial compensation."
+                },
+                {
+                  "key": "C",
+                  "text": "are understood by most clinical staff but avoided because of legal complexity."
+                },
+                {
+                  "key": "D",
+                  "text": "are commonly delayed, incomplete, or omitted altogether."
+                }
+              ],
+              "answer": "D",
+              "focus": "held late, incompletely, or not at all",
+              "explain": "지문의 'held late, incompletely, or not at all' 부분 참조 → are commonly delayed, incomplete, or omitted altogether."
+            },
+            {
+              "id": 2,
+              "stem": "'That framing' in paragraph three refers to viewing error as",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "a deficit in systemic safeguards that requires escalation to senior regulators."
+                },
+                {
+                  "key": "B",
+                  "text": "a personal failing that threatens the clinician's professional identity."
+                },
+                {
+                  "key": "C",
+                  "text": "an opportunity for individual reflection and improved communication with families."
+                },
+                {
+                  "key": "D",
+                  "text": "a legal liability that must be managed through institutional support structures."
+                }
+              ],
+              "answer": "B",
+              "focus": "That framing",
+              "explain": "지문의 'That framing' 부분 참조 → a personal failing that threatens the clinician's professional identity."
+            },
+            {
+              "id": 3,
+              "stem": "In paragraph four, 'communicate and resolve' models are cited as evidence that",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "open disclosure tends to reduce, rather than increase, litigation rates."
+                },
+                {
+                  "key": "B",
+                  "text": "patients who receive explanations are less likely to seek further escalation."
+                },
+                {
+                  "key": "C",
+                  "text": "financial compensation is what most families primarily want from disclosure."
+                },
+                {
+                  "key": "D",
+                  "text": "risk managers are better placed than clinicians to lead disclosure conversations."
+                }
+              ],
+              "answer": "A",
+              "focus": "communicate and resolve",
+              "explain": "지문의 'communicate and resolve' 부분 참조 → open disclosure tends to reduce, rather than increase, litigation rates."
+            },
+            {
+              "id": 4,
+              "stem": "The writer uses the phrase 'crack in the floor' in paragraph three to",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "illustrate the legal risk that honest disclosure is thought to create."
+                },
+                {
+                  "key": "B",
+                  "text": "suggest that disclosure frameworks are structurally fragile without senior support."
+                },
+                {
+                  "key": "C",
+                  "text": "convey how clinicians experience error as a sudden rupture in professional certainty."
+                },
+                {
+                  "key": "D",
+                  "text": "describe the moment a family first learns that care has fallen short."
+                }
+              ],
+              "answer": "C",
+              "focus": "crack in the floor",
+              "explain": "지문의 'crack in the floor' 부분 참조 → convey how clinicians experience error as a sudden rupture in professional certainty."
+            },
+            {
+              "id": 5,
+              "stem": "According to paragraph six, what patients primarily need from a disclosure conversation is",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "a detailed medical account of how the adverse event occurred."
+                },
+                {
+                  "key": "B",
+                  "text": "a genuine apology rather than a carefully qualified statement."
+                },
+                {
+                  "key": "C",
+                  "text": "a guarantee that the responsible clinician has faced formal consequences."
+                },
+                {
+                  "key": "D",
+                  "text": "statistical reassurance about how rarely such events occur nationally."
+                }
+              ],
+              "answer": "B",
+              "focus": "sincere expression of regret",
+              "explain": "지문의 'sincere expression of regret' 부분 참조 → a genuine apology rather than a carefully qualified statement."
+            },
+            {
+              "id": 6,
+              "stem": "In paragraph seven, the writer argues that rehearsing good disclosure conversations",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "reveals that bereaved family members are more often hostile than experience suggests."
+                },
+                {
+                  "key": "B",
+                  "text": "is only effective when a communication specialist leads the training session."
+                },
+                {
+                  "key": "C",
+                  "text": "helps trainees anticipate the legal questions that families are likely to raise."
+                },
+                {
+                  "key": "D",
+                  "text": "enables junior doctors to regard candour as an ordinary clinical competency."
+                }
+              ],
+              "answer": "D",
+              "focus": "a professional skill",
+              "explain": "지문의 'a professional skill' 부분 참조 → enables junior doctors to regard candour as an ordinary clinical competency."
+            },
+            {
+              "id": 7,
+              "stem": "In paragraph eight, the writer suggests that inspectors currently cannot assess whether",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "hospitals have both written and implemented a formal candour policy document."
+                },
+                {
+                  "key": "B",
+                  "text": "error rates have decreased following the introduction of disclosure training programmes."
+                },
+                {
+                  "key": "C",
+                  "text": "disclosure conversations are conducted with the quality the policy intends."
+                },
+                {
+                  "key": "D",
+                  "text": "clinical staff have attended mandatory training in communication and candour skills."
+                }
+              ],
+              "answer": "C",
+              "focus": "warmth and clarity",
+              "explain": "지문의 'warmth and clarity' 부분 참조 → disclosure conversations are conducted with the quality the policy intends."
+            },
+            {
+              "id": 8,
+              "stem": "In the final paragraph, the writer's view is that effective open disclosure requires",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "an authentic belief that harmed patients are owed honesty, not silence."
+                },
+                {
+                  "key": "B",
+                  "text": "inspection frameworks capable of measuring the quality of each disclosure exchange."
+                },
+                {
+                  "key": "C",
+                  "text": "mandatory communication training before any clinician discusses an adverse outcome."
+                },
+                {
+                  "key": "D",
+                  "text": "financial incentives to encourage timely and transparent error reporting by hospitals."
+                }
+              ],
+              "answer": "A",
+              "focus": "Candour is not a compliance exercise",
+              "explain": "지문의 'Candour is not a compliance exercise' 부분 참조 → an authentic belief that harmed patients are owed honesty, not silence."
+            }
+          ],
+          "wordCount": 765,
+          "focusPhrases": [
+            "held late, incompletely, or not at all",
+            "That framing",
+            "communicate and resolve",
+            "crack in the floor",
+            "sincere expression of regret",
+            "a professional skill",
+            "warmth and clarity",
+            "Candour is not a compliance exercise"
+          ]
+        },
+        {
+          "label": "Text 2",
+          "title": "Overdiagnosis: when screening finds what would never have mattered",
+          "paragraphs": [
+            "Screening programmes carry a premise so appealing it rarely needs stating: finding disease early saves lives. That premise is true for some conditions and partly true for others. But it conceals a third possibility, one that population medicine has been slow to name openly: that the disease found by a screening test would never, in the absence of the test, have caused symptoms, disability, or death. This phenomenon — overdiagnosis — is not a diagnostic error. The test has performed accurately. The problem is that accuracy and clinical relevance are not the same thing.",
+            "The clearest illustration comes from autopsy studies. Post-mortem examinations of people who died from entirely unrelated causes find collections of cells meeting every histological criterion for malignancy — in thyroids, prostate glands, and breast tissue — at rates far exceeding the clinical incidence of those cancers in life. In some series, more than half of men over seventy harbour foci of prostate cancer that remained clinically silent throughout their lives. The screening test simply performed an introduction that had no clinical consequence: it named something that nature had already decided to leave alone.",
+            "Lead-time bias adds a statistical distortion that compounds the confusion. When a cancer is detected eighteen months earlier than it would otherwise have presented, survival calculated from diagnosis appears to improve, even if the patient dies on precisely the same day as they would have done without the test. The numbers look better; nothing has changed clinically. Researchers have described early diagnosis as 'a rumour with a timestamp': the detection creates a record, the record generates statistics, and the statistics are then recruited to justify the programme that generated them.",
+            "South Korea offers a compelling natural experiment. Following the introduction of ultrasound thyroid screening in the 1990s, the incidence of thyroid cancer rose approximately fifteen-fold over two decades. Mortality from thyroid cancer barely moved. The overwhelming majority of new cases were papillary microcarcinomas, a form that is largely indolent in autopsy series. After a national analysis highlighted the discrepancy, some clinicians began recommending surveillance rather than thyroidectomy; incidence declined as screening intensity fell. The population had not become sicker. It was simply looked at more closely.",
+            "The harms of overdiagnosis are real and varied. A patient who receives a cancer label faces anxiety that may persist long after treatment ends, reduced insurability in some healthcare systems, and exposure to surgery, radiotherapy, or hormonal therapy with its own morbidity. There is also what might be called the permanent reorganisation of identity: the individual comes to understand themselves as a cancer survivor for a disease that, had it gone undetected, would have caused no suffering whatsoever. The clinical profession has tended to treat these harms as a tolerable cost of finding the cases that genuinely matter.",
+            "Communicating this uncertainty is the practical challenge. Telling a patient that a nodule found on imaging 'probably would never have harmed you' can sound like a retrospective defence of incomplete treatment. Patients have been socialised to believe that finding cancer early is always good, and that anything short of treatment is recklessness. Clinicians who recommend active surveillance for low-risk lesions find themselves accounting for every subsequent imaging interval against the unvoiced suspicion that they are 'watching someone die'. The vocabulary of reassurance is genuinely inadequate for this task, and no communication guide has yet fixed that.",
+            "Reform requires honesty about what screening programmes were designed to achieve and what they actually deliver. Randomised trials in mammography screening demonstrate a modest reduction in breast cancer mortality, but also a rate of overdiagnosis that ranges from ten to over thirty percent depending on the methodology. Presenting both figures to the public — lives saved alongside diagnoses that would better have been avoided — is the kind of transparency that health communication has historically found difficult to sustain without appearing to undermine the very programme it is defending.",
+            "Overdiagnosis does not mean screening is wrong. It means screening is a trade with two columns, and that both must be counted and disclosed honestly. The patients who benefit deserve gratitude; those subjected to unnecessary treatment deserve acknowledgement and, where appropriate, an apology. Until clinical and public conversation can hold that tension without resolving it prematurely in favour of the test, screening programmes will continue to perform some of their benefit visibly and some of their harm invisibly. The test result is certain; the meaning is not."
+          ],
+          "questions": [
+            {
+              "id": 1,
+              "stem": "In paragraph one, the writer argues that overdiagnosis is distinguished from diagnostic error because",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "the pathological features identified do not meet standard malignancy criteria."
+                },
+                {
+                  "key": "B",
+                  "text": "the test was applied to a population with a very low baseline clinical risk."
+                },
+                {
+                  "key": "C",
+                  "text": "the condition found is genuinely present but poses no clinical threat."
+                },
+                {
+                  "key": "D",
+                  "text": "the clinician who reported the finding lacked adequate specialist training."
+                }
+              ],
+              "answer": "C",
+              "focus": "not a diagnostic error",
+              "explain": "지문의 'not a diagnostic error' 부분 참조 → the condition found is genuinely present but poses no clinical threat."
+            },
+            {
+              "id": 2,
+              "stem": "In paragraph two, the phrase 'an introduction that had no clinical consequence' refers to",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "the detection by screening of cells that would never have caused illness."
+                },
+                {
+                  "key": "B",
+                  "text": "a clinical consultation in which a doctor failed to explain a result's implications."
+                },
+                {
+                  "key": "C",
+                  "text": "an incidental imaging finding that was investigated and later proved benign."
+                },
+                {
+                  "key": "D",
+                  "text": "a biopsy procedure that identified a malignancy subsequently requiring treatment."
+                }
+              ],
+              "answer": "A",
+              "focus": "introduction that had no clinical consequence",
+              "explain": "지문의 'introduction that had no clinical consequence' 부분 참조 → the detection by screening of cells that would never have caused illness."
+            },
+            {
+              "id": 3,
+              "stem": "'A rumour with a timestamp' in paragraph three describes a situation in which",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "a diagnosis is communicated to a patient before the clinical implications are understood."
+                },
+                {
+                  "key": "B",
+                  "text": "a statistical result is used to justify the very programme that produced it."
+                },
+                {
+                  "key": "C",
+                  "text": "a test result is circulated informally among teams without formal governance review."
+                },
+                {
+                  "key": "D",
+                  "text": "an early diagnosis creates an illusion of longer survival without any real clinical gain."
+                }
+              ],
+              "answer": "D",
+              "focus": "a rumour with a timestamp",
+              "explain": "지문의 'a rumour with a timestamp' 부분 참조 → an early diagnosis creates an illusion of longer survival without any real clinical gain."
+            },
+            {
+              "id": 4,
+              "stem": "The writer uses the example of South Korea in paragraph four in order to",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "demonstrate that ultrasound overestimates the malignant potential of thyroid nodules."
+                },
+                {
+                  "key": "B",
+                  "text": "show that more testing can raise apparent incidence without changing mortality rates."
+                },
+                {
+                  "key": "C",
+                  "text": "argue that thyroid cancer management should shift entirely to active surveillance worldwide."
+                },
+                {
+                  "key": "D",
+                  "text": "illustrate how national cancer registries can conceal important regional epidemiological differences."
+                }
+              ],
+              "answer": "B",
+              "focus": "simply looked at more closely",
+              "explain": "지문의 'simply looked at more closely' 부분 참조 → show that more testing can raise apparent incidence without changing mortality rates."
+            },
+            {
+              "id": 5,
+              "stem": "According to paragraph five, one harm of overdiagnosis is that patients may",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "receive treatments whose side-effects exceed those of the underlying condition itself."
+                },
+                {
+                  "key": "B",
+                  "text": "develop lasting anxiety about recurrence that continues long after treatment concludes."
+                },
+                {
+                  "key": "C",
+                  "text": "come to define themselves by a condition that would never have harmed them."
+                },
+                {
+                  "key": "D",
+                  "text": "face difficulty obtaining insurance because of a diagnosis that posed no clinical risk."
+                }
+              ],
+              "answer": "C",
+              "focus": "permanent reorganisation of identity",
+              "explain": "지문의 'permanent reorganisation of identity' 부분 참조 → come to define themselves by a condition that would never have harmed them."
+            },
+            {
+              "id": 6,
+              "stem": "In paragraph six, the phrase 'vocabulary of reassurance' suggests that",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "existing clinical language cannot adequately express the concept of a harmless cancer."
+                },
+                {
+                  "key": "B",
+                  "text": "clinicians who choose surveillance routinely fail to explain their reasoning to patients."
+                },
+                {
+                  "key": "C",
+                  "text": "reassurance about a low-risk lesion is typically perceived as a sign of inadequate care."
+                },
+                {
+                  "key": "D",
+                  "text": "public health guidelines have not been updated to account for overdiagnosis evidence."
+                }
+              ],
+              "answer": "A",
+              "focus": "vocabulary of reassurance",
+              "explain": "지문의 'vocabulary of reassurance' 부분 참조 → existing clinical language cannot adequately express the concept of a harmless cancer."
+            },
+            {
+              "id": 7,
+              "stem": "According to paragraph seven, estimates of overdiagnosis in mammography trials vary because",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "different countries define cancer using different histological and clinical thresholds."
+                },
+                {
+                  "key": "B",
+                  "text": "trials were conducted in different age groups and over different follow-up periods."
+                },
+                {
+                  "key": "C",
+                  "text": "radiologists' interpretations of screening images differ systematically by training level."
+                },
+                {
+                  "key": "D",
+                  "text": "the figures depend on which analytical method is used to calculate them."
+                }
+              ],
+              "answer": "D",
+              "focus": "depending on the methodology",
+              "explain": "지문의 'depending on the methodology' 부분 참조 → the figures depend on which analytical method is used to calculate them."
+            },
+            {
+              "id": 8,
+              "stem": "In the final paragraph, the writer regards screening programmes as",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "a flawed strategy that should be fundamentally redesigned to minimise overdiagnosis risk."
+                },
+                {
+                  "key": "B",
+                  "text": "a balance of genuine benefits and real harms that both deserve honest acknowledgement."
+                },
+                {
+                  "key": "C",
+                  "text": "an essential component of cancer prevention despite the harms that occasionally result."
+                },
+                {
+                  "key": "D",
+                  "text": "a source of statistical illusion that ultimately damages public trust in preventive medicine."
+                }
+              ],
+              "answer": "B",
+              "focus": "a trade with two columns",
+              "explain": "지문의 'a trade with two columns' 부분 참조 → a balance of genuine benefits and real harms that both deserve honest acknowledgement."
+            }
+          ],
+          "wordCount": 733,
+          "focusPhrases": [
+            "not a diagnostic error",
+            "introduction that had no clinical consequence",
+            "a rumour with a timestamp",
+            "simply looked at more closely",
+            "permanent reorganisation of identity",
+            "vocabulary of reassurance",
+            "depending on the methodology",
+            "a trade with two columns"
+          ]
+        }
+      ],
+      "gist": [
+        "Candour in practice: policy mandates disclosure but culture must support it.",
+        "Overdiagnosis: screening finds real cells whose label, not their biology, causes the harm."
+      ],
+      "vocab": [
+        {
+          "term": "candour",
+          "gloss": "솔직함·의무 공개: 의료 오류를 환자에게 투명하게 알리는 것"
+        },
+        {
+          "term": "overdiagnosis",
+          "gloss": "과잉진단: 치료하지 않아도 해가 되지 않았을 질환을 진단하는 것"
+        },
+        {
+          "term": "indolent",
+          "gloss": "무증상 진행성: 임상증상 없이 천천히 자라는 (종양)"
+        },
+        {
+          "term": "lead-time bias",
+          "gloss": "선행 시간 편향: 조기 진단으로 생존 기간이 늘어난 것처럼 보이는 통계 오류"
+        },
+        {
+          "term": "morbidity",
+          "gloss": "이환율·합병증 부담: 치료나 질환으로 인한 건강 피해"
+        }
+      ]
+    },
+    {
+      "id": "C-07",
+      "part": "C",
+      "setNum": 7,
+      "type": "dual-text",
+      "title": "Opioids in chronic pain & nurse staffing",
+      "instruction": "Official-style Part C: two texts, 8 questions each (16 total). Focus phrases are highlighted in the passages.",
+      "texts": [
+        {
+          "label": "Text 1",
+          "title": "Opioids in chronic non-cancer pain: unlearning a decade of habit",
+          "paragraphs": [
+            "Chronic non-cancer pain is one of medicine's most contested territories, and opioids arrived there carrying the confidence of a specialty that had just solved cancer pain. In the 1990s and early 2000s, prescribing rates climbed steeply on the back of short-term trials, an influential letter suggesting that addiction was rare in patients with a legitimate pain indication, and a pharmaceutical industry that marketed newer formulations as inherently safer than their predecessors. The clinical logic was seductive: if morphine was appropriate for cancer, why not for a herniated disc that hurt as much?",
+            "The term 'pseudoaddiction' captured the spirit of the era. If a patient on long-term opioids appeared to seek drugs, the explanation offered was undertreated pain: prescribe more, not less. Dose escalation was reframed as therapeutic rigour, and pain was designated a fifth vital sign. That framing insulated opioids from ordinary scrutiny for a decade, during which time a cohort of patients acquired physical dependence, cognitive slowing, and an endocrine disruption that rarely featured in the original consent conversation.",
+            "The evidence that reversed the tide arrived slowly, then all at once. Long-term opioid therapy for chronic non-cancer pain does not consistently outperform non-opioid strategies for function or quality of life; several large randomised trials now support that conclusion. At doses exceeding ninety milligrams of oral morphine equivalent per day, opioids produce measurable harm with consistency: hyperalgesia, where the drug amplifies the very sensation it was intended to suppress; respiratory depression during sleep; and hormonal dysregulation that erodes bone density and libido quietly over years.",
+            "Reducing opioids in a patient who has taken them for years is not simply writing a lower dose. Abrupt or aggressive tapering triggers severe withdrawal, exacerbates pain, and in documented cases has been associated with self-harm and suicide. This is the uncomfortable arithmetic of a habit that cannot be undone quickly. Patients who were prescribed opioids in good faith, often by conscientious clinicians working to the guidelines of the day, now find themselves caught between medication that is no longer recommended and a discontinuation process that may take years.",
+            "What replaces opioids is not a single drug but a framework. The biopsychosocial model has accumulated enough trial data to be taken seriously as an operational plan for chronic pain management. Interdisciplinary pain programmes combining graded exercise, psychological techniques targeting catastrophising, sleep hygiene, and non-opioid analgesia can produce functional gains that opioids rarely matched even in their promotional heyday. The obstacle is access: such programmes remain concentrated in specialist centres that are geographically remote from the patients who need them most.",
+            "Prescribers have their own adjustment to make. Habitual opioid initiation—the reflex to offer something tangible when non-pharmacological options seem intangible—has been reinforced by short consultation times, undertrained generalists, and a system that measures scripts written rather than function restored. Changing that reflex requires protected time for complex pain reviews, honest shared decision-making conversations about what opioids cannot do, and the institutional courage to disagree with a patient who arrives expecting a prescription.",
+            "The patients who lived through this era deserve more than a revised guideline. Many feel deceived—not by individual doctors, whom they often describe with loyalty and even gratitude, but by a system that treated pain as a biological signal without a social address. People in manual occupations, those with a history of depression, and those from disadvantaged communities were prescribed opioids at higher rates. The word 'epidemic', which is accurate at a population level, lands differently when you are a forty-five-year-old who followed medical advice for a decade and now finds yourself categorised as a risk rather than a patient.",
+            "Unlearning a decade of habit asks clinicians to hold two uncomfortable truths simultaneously: that the prescribing consensus was wrong, and that those who followed it were not villains. The correction is not to treat every long-term opioid patient as a casualty of misguided medicine, but to offer each one an honest review, a realistic taper where appropriate, and access to something genuinely better. Pain is not a problem to be dispensed away. The goal is a system in which 'I can manage without opioids' is a sentence the patient can arrive at, rather than one imposed upon them."
+          ],
+          "questions": [
+            {
+              "id": 1,
+              "stem": "In paragraph one, 'the confidence of a specialty' suggests that opioids were introduced to chronic pain management",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "cautiously, following rigorous long-term trials that demonstrated consistent benefit for chronic non-cancer pain"
+                },
+                {
+                  "key": "B",
+                  "text": "with the certainty derived from their established success in treating cancer pain"
+                },
+                {
+                  "key": "C",
+                  "text": "reluctantly, after earlier non-opioid strategies had been shown to be insufficient"
+                },
+                {
+                  "key": "D",
+                  "text": "experimentally, with widespread agreement among clinicians that further research would be needed"
+                }
+              ],
+              "answer": "B",
+              "focus": "the confidence of a specialty",
+              "explain": "지문의 'the confidence of a specialty' 부분 참조 → B: 암 통증 치료에서의 성공에서 비롯된 확신"
+            },
+            {
+              "id": 2,
+              "stem": "'That framing' in paragraph two refers to the view that",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "pain should be designated a fifth vital sign and recorded at every clinical encounter"
+                },
+                {
+                  "key": "B",
+                  "text": "physical dependence in patients on long-term opioids is medically unavoidable"
+                },
+                {
+                  "key": "C",
+                  "text": "newer opioid formulations carried fewer risks of addiction than earlier preparations"
+                },
+                {
+                  "key": "D",
+                  "text": "apparent drug-seeking behaviour in pain patients indicated that their pain was undertreated"
+                }
+              ],
+              "answer": "D",
+              "focus": "That framing",
+              "explain": "지문의 'That framing' 부분 참조 → D: 약물 추구 행동을 치료 부족의 신호로 해석하는 관점"
+            },
+            {
+              "id": 3,
+              "stem": "According to paragraph three, at doses exceeding ninety milligrams of oral morphine equivalent per day, long-term opioids",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "produce measurable harm with a consistency that large randomised trials now confirm"
+                },
+                {
+                  "key": "B",
+                  "text": "provide greater pain relief than any non-opioid analgesic for most chronic conditions"
+                },
+                {
+                  "key": "C",
+                  "text": "cause dependence in a proportion of patients who had no pre-existing history of substance misuse"
+                },
+                {
+                  "key": "D",
+                  "text": "are no longer prescribed under any current United Kingdom or Australian clinical guideline"
+                }
+              ],
+              "answer": "A",
+              "focus": "ninety milligrams of oral morphine equivalent",
+              "explain": "지문의 'ninety milligrams of oral morphine equivalent' 부분 참조 → A: 일관되게 측정 가능한 피해를 유발함"
+            },
+            {
+              "id": 4,
+              "stem": "In paragraph four, the writer describes patients 'caught between medication that is no longer recommended and a discontinuation process that may take years' in order to",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "explain why abrupt tapering is clinically associated with a significant risk of self-harm"
+                },
+                {
+                  "key": "B",
+                  "text": "argue that opioid prescriptions should continue until genuinely safer alternatives become widely accessible"
+                },
+                {
+                  "key": "C",
+                  "text": "show that the consequences of the past prescribing consensus are borne most directly by patients"
+                },
+                {
+                  "key": "D",
+                  "text": "suggest that dose reduction should only be attempted within a specialist inpatient pain service"
+                }
+              ],
+              "answer": "C",
+              "focus": "caught between medication",
+              "explain": "지문의 'caught between medication' 부분 참조 → C: 과거 처방 합의의 결과를 환자가 직접 감당함"
+            },
+            {
+              "id": 5,
+              "stem": "The phrase 'in their promotional heyday' in paragraph five refers to the period when",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "interdisciplinary pain management programmes were first being established in major specialist centres"
+                },
+                {
+                  "key": "B",
+                  "text": "opioids were being actively marketed and prescribed as effective treatments for chronic non-cancer pain"
+                },
+                {
+                  "key": "C",
+                  "text": "the biopsychosocial model was still regarded as a philosophical aspiration with little clinical application"
+                },
+                {
+                  "key": "D",
+                  "text": "prescribing rates in the United Kingdom and Australia first began to show a measurable decline"
+                }
+              ],
+              "answer": "B",
+              "focus": "promotional heyday",
+              "explain": "지문의 'promotional heyday' 부분 참조 → B: 오피오이드가 만성 비암성 통증 치료제로 활발히 홍보되던 시기"
+            },
+            {
+              "id": 6,
+              "stem": "According to paragraph six, habitual opioid initiation by prescribers has been reinforced by",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "the absence of approved and accessible non-opioid analgesics for chronic non-cancer pain conditions"
+                },
+                {
+                  "key": "B",
+                  "text": "patient resistance to non-pharmacological interventions that require sustained personal commitment"
+                },
+                {
+                  "key": "C",
+                  "text": "clinical guidelines that continue to recommend opioids as a first-line treatment for chronic pain"
+                },
+                {
+                  "key": "D",
+                  "text": "short consultation times alongside a system that measures prescriptions written rather than function restored"
+                }
+              ],
+              "answer": "D",
+              "focus": "short consultation times",
+              "explain": "지문의 'short consultation times' 부분 참조 → D: 짧은 상담 시간과 처방 건수 중심의 성과 측정 구조"
+            },
+            {
+              "id": 7,
+              "stem": "In paragraph seven, the writer implies that the word 'epidemic' is",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "statistically valid at a population level but experienced as stigmatising by individual patients"
+                },
+                {
+                  "key": "B",
+                  "text": "inappropriate because most patients received opioids from clinicians acting responsibly"
+                },
+                {
+                  "key": "C",
+                  "text": "an accurate description of both the scale and the underlying causes of long-term opioid dependence"
+                },
+                {
+                  "key": "D",
+                  "text": "an exaggeration promoted by campaigners who have not acknowledged recent improvements in prescribing"
+                }
+              ],
+              "answer": "A",
+              "focus": "accurate at a population level",
+              "explain": "지문의 'accurate at a population level' 부분 참조 → A: 집단적으로는 정확하지만 개인에게는 낙인처럼 느껴짐"
+            },
+            {
+              "id": 8,
+              "stem": "The writer's overall position is that correcting the opioid prescribing consensus primarily requires",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "strict regulatory limits on all opioid prescriptions, without provision for individual clinical exceptions"
+                },
+                {
+                  "key": "B",
+                  "text": "investment concentrated in specialist centres equipped to manage long-term patient withdrawal"
+                },
+                {
+                  "key": "C",
+                  "text": "an individualised approach that offers each patient review, a realistic taper, and better alternatives"
+                },
+                {
+                  "key": "D",
+                  "text": "a formal acknowledgement of responsibility from the pharmaceutical companies that promoted opioids"
+                }
+              ],
+              "answer": "C",
+              "focus": "honest review",
+              "explain": "지문의 'honest review' 부분 참조 → C: 개별 환자에게 검토, 감량, 더 나은 대안을 제공하는 접근"
+            }
+          ],
+          "wordCount": 695,
+          "focusPhrases": [
+            "the confidence of a specialty",
+            "That framing",
+            "ninety milligrams of oral morphine equivalent",
+            "caught between medication",
+            "promotional heyday",
+            "short consultation times",
+            "accurate at a population level",
+            "honest review"
+          ]
+        },
+        {
+          "label": "Text 2",
+          "title": "Nurse staffing ratios: what the numbers cannot see",
+          "paragraphs": [
+            "Nurse-to-patient ratios occupy an unusual position in health policy: simultaneously supported by strong evidence, contested by managers facing staffing costs, and sometimes misunderstood by clinicians who assume that more nurses means better care in a simple linear way. The debate intensified in the United Kingdom after a succession of high-profile inquiries concluded that dangerously thin staffing had contributed to patient harm. A ratio of one nurse to eight patients was therefore presented as a line between safe and unsafe—a clarity that the actual complexity of nursing rarely permits.",
+            "The evidence supporting mandatory ratios should not be dismissed. Research across large hospital cohorts demonstrated that each additional patient per nurse was associated with a measurable increase in the odds of patient death within thirty days, after adjustment for case mix. California's 2004 minimum-ratio legislation generated natural experiments showing reductions in both mortality and nurse burnout. The case for a statutory floor is built on something more than intuition, and managers who resist it on cost grounds alone are making a values choice that deserves open scrutiny.",
+            "The difficulty is what ratios do not count. A ratio registers bodies but not brains: a ward with four experienced nurses at a ratio of one to six may be considerably safer than one with eight newly qualified nurses at a ratio of one to three. Skill mix—the proportion of registered nurses to healthcare assistants—is at least as important as the raw number, and continuity of care across shifts has independent effects on the recognition of clinical deterioration. A metric that captures none of this is incomplete, not dishonest.",
+            "The invisible work of nursing is the hardest element to quantify. Nursing surveillance—the continuous, low-level monitoring that leads an experienced nurse to sense that something is about to go wrong before the vital signs have moved—is never recorded as a clinical intervention. A nurse who prevents a cardiac arrest by recognising subtle agitation at two in the morning generates no documented action; the patient record shows only that nothing unusual occurred. Systems optimised for documentation are often optimised for the wrong outcome: visible tasks over vigilant presence, forms completed over clinical patterns observed.",
+            "Context fractures what aggregate numbers can promise. An intensive care nurse covering two ventilated patients is working in a categorically different environment from a ward nurse with the same numerical assignment: one patient is mechanically ventilated whilst another has a fractured neck of femur awaiting theatre. Night shifts carry a lower ratio not because patients are less unwell after midnight, but because tradition and cost dictate it. The assumption that a single figure applies equally to a coronary care unit and an acute assessment ward is sustained on paper and contested every morning by the nurses who work in those places.",
+            "Vacancy rates and temporary staffing complicate the picture further. In many NHS trusts, the funded ratio is nominally met because agency and bank nurses fill gaps the permanent workforce cannot cover. These nurses carry the ratio but not the institutional knowledge: they do not know the patient in the side room who deteriorates silently, or the escalation preferences of the registrar on call that night. Research consistently finds that high agency use is associated with adverse events independently of the ratio formally recorded—the number appears on the rota, but the function it was meant to approximate is absent.",
+            "Technology has introduced a new form of optimism into staffing debates. Electronic patient records and monitoring systems are marketed to hospital executives as force multipliers that allow fewer nurses to achieve more—a reassurance that suits budgets but misrepresents what nursing actually entails. Entering observations into a tablet does not replace the conversational assessment that occurs simultaneously. Clinical nursing cannot be disaggregated into observable task units without losing what makes it effective: the relational, iterative, time-intensive engagement with a patient who is frightened, in pain, and unlikely to articulate their own deterioration accurately.",
+            "None of this argues against ratios. It argues for treating them as a starting point rather than a destination. A ratio is a floor, not a ceiling: it prevents the worst staffing configurations but does not guarantee safe care. Health systems that pursue ratio legislation without simultaneously attending to skill mix, continuity, and the cultural conditions in which nursing surveillance can be practised are purchasing a number rather than safety. The honest metric is not how many nurses were rostered that shift, but whether each patient on that ward had a nurse who knew them well enough to notice."
+          ],
+          "questions": [
+            {
+              "id": 1,
+              "stem": "In paragraph one, the writer's main criticism of ratio thresholds is that they",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "imply a simplicity that the actual complexity of nursing work cannot support"
+                },
+                {
+                  "key": "B",
+                  "text": "primarily reflect the financial concerns of hospital managers rather than patient safety"
+                },
+                {
+                  "key": "C",
+                  "text": "fail to account for differences in patient severity across different types of ward"
+                },
+                {
+                  "key": "D",
+                  "text": "were introduced into policy without adequate consultation with frontline nursing staff"
+                }
+              ],
+              "answer": "A",
+              "focus": "a line between safe and unsafe",
+              "explain": "지문의 'a line between safe and unsafe' 부분 참조 → A: 간호의 복잡성을 반영할 수 없는 단순함을 내포"
+            },
+            {
+              "id": 2,
+              "stem": "The writer presents research findings and California's legislation in paragraph two in order to",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "dispute the scientific basis of ratio research before proposing an alternative staffing model"
+                },
+                {
+                  "key": "B",
+                  "text": "explain the political history of mandatory nurse staffing legislation in Western health systems"
+                },
+                {
+                  "key": "C",
+                  "text": "acknowledge that the evidence base for ratios is genuine before examining what ratios cannot capture"
+                },
+                {
+                  "key": "D",
+                  "text": "suggest that financial resistance to ratios reflects a deliberate disregard for patient wellbeing"
+                }
+              ],
+              "answer": "C",
+              "focus": "The case for a statutory floor",
+              "explain": "지문의 'The case for a statutory floor' 부분 참조 → C: 근거를 인정한 후 비율이 포착하지 못하는 것을 논의"
+            },
+            {
+              "id": 3,
+              "stem": "The phrase 'registers bodies but not brains' in paragraph three means that ratios",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "are an imprecise measure of the total hours of direct care each patient receives each day"
+                },
+                {
+                  "key": "B",
+                  "text": "count nurses present without reflecting their level of experience or clinical competence"
+                },
+                {
+                  "key": "C",
+                  "text": "place unfair demands on wards where healthcare assistants perform a majority of clinical tasks"
+                },
+                {
+                  "key": "D",
+                  "text": "have no statistically meaningful association with patient outcomes in large hospital studies"
+                }
+              ],
+              "answer": "B",
+              "focus": "registers bodies but not brains",
+              "explain": "지문의 'registers bodies but not brains' 부분 참조 → B: 경험이나 역량을 반영하지 않고 단순히 간호사 수만 셈"
+            },
+            {
+              "id": 4,
+              "stem": "According to paragraph four, systems designed primarily for documentation tend to prioritise",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "prevention of adverse events that might otherwise appear in the mandatory audit record"
+                },
+                {
+                  "key": "B",
+                  "text": "communication between nursing staff and the on-call medical team during overnight shifts"
+                },
+                {
+                  "key": "C",
+                  "text": "timely identification of patients who meet criteria for escalation to intensive care"
+                },
+                {
+                  "key": "D",
+                  "text": "visible tasks over vigilant presence, and forms completed over clinical patterns observed"
+                }
+              ],
+              "answer": "D",
+              "focus": "visible tasks over vigilant presence",
+              "explain": "지문의 'visible tasks over vigilant presence' 부분 참조 → D: 기록 가능한 작업 완료를 세심한 임상 주의보다 우선시"
+            },
+            {
+              "id": 5,
+              "stem": "In paragraph five, the phrase 'what aggregate numbers can promise' refers to the idea that",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "a single ratio figure can deliver equivalent safety guarantees across all clinical settings"
+                },
+                {
+                  "key": "B",
+                  "text": "research conducted in intensive care units should not inform staffing on general medical wards"
+                },
+                {
+                  "key": "C",
+                  "text": "night staffing ratios are inadequate because patient severity does not decrease after midnight"
+                },
+                {
+                  "key": "D",
+                  "text": "data collected across large hospital systems cannot be applied to any individual institution"
+                }
+              ],
+              "answer": "A",
+              "focus": "what aggregate numbers can promise",
+              "explain": "지문의 'what aggregate numbers can promise' 부분 참조 → A: 단일 비율 수치가 모든 임상 환경에 동등한 안전을 보장할 수 있다는 생각"
+            },
+            {
+              "id": 6,
+              "stem": "According to paragraph six, research into agency staffing shows that high levels of agency nurse use are associated with",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "lower rates of staff burnout because permanent vacancies are covered and workload is distributed"
+                },
+                {
+                  "key": "B",
+                  "text": "reduced care continuity because short-term agency nurses tend to avoid follow-up responsibilities"
+                },
+                {
+                  "key": "C",
+                  "text": "patient harm even when the staffing ratio on the ward is formally maintained"
+                },
+                {
+                  "key": "D",
+                  "text": "increased documentation errors that subsequently trigger mandatory adverse event reporting processes"
+                }
+              ],
+              "answer": "C",
+              "focus": "adverse events independently",
+              "explain": "지문의 'adverse events independently' 부분 참조 → C: 비율이 공식적으로 충족되더라도 환자 위해와 관련됨"
+            },
+            {
+              "id": 7,
+              "stem": "'A new form of optimism' in paragraph seven refers to",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "the expectation that advanced monitoring equipment will eventually replace experienced bedside nurses"
+                },
+                {
+                  "key": "B",
+                  "text": "the belief that technology enables a smaller nursing workforce to deliver care of equivalent quality"
+                },
+                {
+                  "key": "C",
+                  "text": "the reassurance given to nursing staff by executives that electronic records will reduce their workload"
+                },
+                {
+                  "key": "D",
+                  "text": "the assumption that digitally recorded observations are more clinically reliable than direct bedside assessment"
+                }
+              ],
+              "answer": "B",
+              "focus": "a new form of optimism",
+              "explain": "지문의 'a new form of optimism' 부분 참조 → B: 기술이 더 적은 간호사로 동등한 질의 간호를 가능하게 한다는 믿음"
+            },
+            {
+              "id": 8,
+              "stem": "In the final paragraph, the writer regards a ratio as",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "a reliable quality indicator that should be tracked routinely alongside patient outcome measures"
+                },
+                {
+                  "key": "B",
+                  "text": "a target that responsible health systems should consistently aim to exceed in all settings"
+                },
+                {
+                  "key": "C",
+                  "text": "an administrative distraction that draws policy attention away from the genuine determinants of care"
+                },
+                {
+                  "key": "D",
+                  "text": "a minimum safeguard that cannot by itself ensure the most important aspects of safe nursing care"
+                }
+              ],
+              "answer": "D",
+              "focus": "a floor, not a ceiling",
+              "explain": "지문의 'a floor, not a ceiling' 부분 참조 → D: 최악을 막는 최소 보호 장치이지만 안전한 간호를 보장하지는 않음"
+            }
+          ],
+          "wordCount": 747,
+          "focusPhrases": [
+            "a line between safe and unsafe",
+            "The case for a statutory floor",
+            "registers bodies but not brains",
+            "visible tasks over vigilant presence",
+            "what aggregate numbers can promise",
+            "adverse events independently",
+            "a new form of optimism",
+            "a floor, not a ceiling"
+          ]
+        }
+      ],
+      "gist": [
+        "Both texts argue for nuance beyond received wisdom: opioids in chronic pain and staffing ratios both look simpler than they are.",
+        "In Part C, re-read the targeted paragraph before answering; the focus phrase is your anchor.",
+        "Attitude questions hinge on tone words; inference questions require combining two sentences."
+      ],
+      "vocab": [
+        {
+          "term": "hyperalgesia",
+          "gloss": "통각과민증: 오피오이드 장기 복용으로 통증이 오히려 심해지는 현상"
+        },
+        {
+          "term": "pseudoaddiction",
+          "gloss": "가성 중독: 치료되지 않은 통증으로 인한 약물 추구 행동 (진짜 중독과 구별)"
+        },
+        {
+          "term": "catastrophising",
+          "gloss": "파국화: 통증에 대해 과도하게 부정적으로 생각하는 인지적 경향"
+        },
+        {
+          "term": "skill mix",
+          "gloss": "간호 인력 구성: 등록 간호사와 보조 인력의 비율"
+        },
+        {
+          "term": "endocrine disruption",
+          "gloss": "내분비 교란: 오피오이드 복용으로 인한 호르몬 체계 이상"
+        }
+      ]
+    },
+    {
+      "id": "C-08",
+      "part": "C",
+      "setNum": 8,
+      "type": "dual-text",
+      "title": "AI in imaging & end-of-life conversations",
+      "instruction": "Official-style Part C: two texts, 8 questions each (16 total). Focus phrases are highlighted in the passages.",
+      "texts": [
+        {
+          "label": "Text 1",
+          "title": "Artificial intelligence in diagnostic imaging: the second reader that never tires",
+          "paragraphs": [
+            "Radiology departments around the world are facing a quiet paradox. Medical imaging volumes have grown by roughly five per cent each year for the past decade, while the number of consultant radiologists has expanded far more slowly. The gap between demand and supply is filled by longer lists, faster reads, and an ever-shrinking margin for the kind of deliberate attention that catches the subtle finding—the 4 mm pulmonary nodule, the hairline vertebral fracture, the shadow that did not quite fit the clinical story. Artificial intelligence has arrived at precisely this moment, promising a tireless second pair of eyes.",
+            "Most current clinical AI tools in imaging rely on convolutional neural networks trained on hundreds of thousands of annotated scans. They learn to associate pixel patterns with diagnostic labels, achieving sensitivity for specific findings—chest radiograph abnormalities, diabetic retinopathy, mammographic microcalcifications—that in controlled trials approaches or occasionally exceeds average radiologist performance. That phrase matters: it names a distribution, not a ceiling. Some expert subspecialists outperform the algorithm on the most difficult cases; others, working at the edge of a neighbouring subspecialty, may not. The algorithm is indifferent to that professional hierarchy.",
+            "The most persuasive case for AI in clinical imaging is not replacement but augmentation. When a chest radiograph algorithm flags a finding for priority review, the radiologist receives an alert, not a verdict. Studies of dual reading—where human and algorithm independently review a scan before results are reconciled—consistently demonstrate higher sensitivity for interval cancers in breast screening programmes. The benefit is not that machines are better; it is that they are consistent. A radiologist who has reviewed four hundred chest films by mid-afternoon will miss something the same clinician would have caught at film fifty, and no algorithm inherits that fatigue.",
+            "Critics argue, with justification, that deployment has outpaced evaluation. Many AI products enter clinical workflows via a regulatory category designed for low-risk devices, a route that requires no randomised controlled trial. The evidence base supporting integration is therefore considerably thinner than the marketing materials suggest. Algorithms trained predominantly on data from North American or European centres may perform less well in populations where disease prevalence, imaging protocols, and scanner generations differ substantially. A product that achieved ninety-two per cent sensitivity on its training set may struggle when it encounters an unfamiliar acquisition protocol. Generalisability remains the uncomfortable question that vendors prefer not to answer in public.",
+            "There is also a subtler hazard: automation bias. When an algorithm returns a negative result, clinicians may scrutinise the film less carefully than they would without algorithmic input. Several simulation studies have demonstrated that radiologists who receive algorithmic reassurance before reading a scan show measurably lower detection rates for findings the algorithm itself missed. The AI's silence becomes louder than the radiologist's gaze. These findings are not grounds for discarding the technology; they are grounds for teaching users about its failure modes as carefully as they are taught about the known limitations of the imaging device itself. Literacy, not merely adoption, is the appropriate goal.",
+            "Workflow integration presents its own practical challenges. Radiologists working with AI-assisted platforms regularly describe alert fatigue when false-positive rates are high, and a creeping paralysis when a sizeable proportion of every worklist is flagged as requiring urgent review. Calibrating threshold values matters: a tool optimised for maximum sensitivity in a cancer-screening programme should not apply the same trigger in a general emergency department, where the prevalence of critical findings differs markedly and the cost of unnecessary escalation is measured in bed pressures and patient anxiety. Threshold tuning belongs to local clinical teams rather than to the algorithm's original developers.",
+            "Governance structures have struggled to keep pace. When an AI algorithm misses a diagnosis, the question of liability is unresolved in most jurisdictions. Does responsibility rest with the clinician who trusted the output, the hospital that procured the platform, or the manufacturer who set its sensitivity threshold? In practice, the clinician bears the residual risk—even when the algorithm was a mandatory component of the reporting workflow. Technology that distributes benefit without distributing accountability is not yet a mature clinical partner, and that structural asymmetry deserves a sharper regulatory response than it has so far received.",
+            "None of this argues for delay. The burden of unread imaging studies, the shortage of radiologists in lower-income settings, and the demonstrated capacity of AI to detect conditions at an earlier and more treatable stage represent a genuine clinical opportunity. The obligation is to pursue that opportunity with the same evidential rigour applied to any other diagnostic test. An algorithm that has never been formally audited is a rumour with a timestamp. Departments that treat AI as they would any new investigation—with governance, prospective audit, and transparent communication about uncertainty—will lead this transition rather than simply be carried by it."
+          ],
+          "questions": [
+            {
+              "id": 1,
+              "stem": "In paragraph one, the writer uses 'a tireless second pair of eyes' in order to",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "illustrate how AI and radiologists collaborate on the same scan simultaneously."
+                },
+                {
+                  "key": "B",
+                  "text": "suggest that AI will eventually replace the human radiologist in routine reporting."
+                },
+                {
+                  "key": "C",
+                  "text": "convey the appeal of AI to departments overwhelmed by rising imaging volumes."
+                },
+                {
+                  "key": "D",
+                  "text": "explain why AI performs better when trained on data from multiple imaging centres."
+                }
+              ],
+              "answer": "C",
+              "focus": "a tireless second pair of eyes",
+              "explain": "지문의 'a tireless second pair of eyes' 부분 참조 → convey the appeal of AI to departments overwhelmed by rising imaging volumes."
+            },
+            {
+              "id": 2,
+              "stem": "In paragraph two, the writer describes 'average radiologist performance' as a distribution in order to suggest that AI",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "consistently outperforms even experienced subspecialists on the most challenging diagnostic cases."
+                },
+                {
+                  "key": "B",
+                  "text": "must be trained using data gathered from radiologists across a wide range of skill levels."
+                },
+                {
+                  "key": "C",
+                  "text": "achieves a benchmark that is not a fixed standard but varies across individual clinicians."
+                },
+                {
+                  "key": "D",
+                  "text": "will raise overall departmental performance above the current population mean over time."
+                }
+              ],
+              "answer": "C",
+              "focus": "average radiologist performance",
+              "explain": "지문의 'average radiologist performance' 부분 참조 → achieves a benchmark that is not a fixed standard but varies across individual clinicians."
+            },
+            {
+              "id": 3,
+              "stem": "According to paragraph three, the main advantage of dual reading is that",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "consistent algorithmic attention compensates for the decline in human performance caused by fatigue."
+                },
+                {
+                  "key": "B",
+                  "text": "the algorithm reviews scans faster than a second human reader could in a clinical setting."
+                },
+                {
+                  "key": "C",
+                  "text": "legal responsibility for missed findings is distributed more evenly between clinician and machine."
+                },
+                {
+                  "key": "D",
+                  "text": "radiologists perform better on difficult cases when they have already seen an algorithmic result."
+                }
+              ],
+              "answer": "A",
+              "focus": "they are consistent",
+              "explain": "지문의 'they are consistent' 부분 참조 → consistent algorithmic attention compensates for the decline in human performance caused by fatigue."
+            },
+            {
+              "id": 4,
+              "stem": "In paragraph four, the critics' primary concern is that",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "AI manufacturers have not developed separate products for use in lower-income healthcare systems."
+                },
+                {
+                  "key": "B",
+                  "text": "clinical AI has been introduced without adequate evidence of real-world generalisability and performance."
+                },
+                {
+                  "key": "C",
+                  "text": "the existing regulatory pathway for imaging AI sets unnecessarily high barriers to product approval."
+                },
+                {
+                  "key": "D",
+                  "text": "radiologists have been largely excluded from influencing the commercial development of algorithms."
+                }
+              ],
+              "answer": "B",
+              "focus": "deployment has outpaced evaluation",
+              "explain": "지문의 'deployment has outpaced evaluation' 부분 참조 → clinical AI has been introduced without adequate evidence of real-world generalisability and performance."
+            },
+            {
+              "id": 5,
+              "stem": "'Automation bias' in paragraph five refers to",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "the tendency to accept a negative algorithmic result without independent visual scrutiny."
+                },
+                {
+                  "key": "B",
+                  "text": "a preference among radiologists for one AI platform over others available on the market."
+                },
+                {
+                  "key": "C",
+                  "text": "the inclination to report more confidently when no algorithmic input has been provided."
+                },
+                {
+                  "key": "D",
+                  "text": "the way algorithms improve detection rates when errors are fed back to their developers."
+                }
+              ],
+              "answer": "A",
+              "focus": "automation bias",
+              "explain": "지문의 'automation bias' 부분 참조 → the tendency to accept a negative algorithmic result without independent visual scrutiny."
+            },
+            {
+              "id": 6,
+              "stem": "According to paragraph six, 'alert fatigue' occurs when",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "radiologists have not received sufficient training on AI-assisted reporting platforms."
+                },
+                {
+                  "key": "B",
+                  "text": "the AI system produces a high volume of false-positive findings requiring review."
+                },
+                {
+                  "key": "C",
+                  "text": "the escalation threshold is set too conservatively for emergency department contexts."
+                },
+                {
+                  "key": "D",
+                  "text": "the AI system flags every scan from a particular high-risk patient demographic."
+                }
+              ],
+              "answer": "B",
+              "focus": "alert fatigue",
+              "explain": "지문의 'alert fatigue' 부분 참조 → the AI system produces a high volume of false-positive findings requiring review."
+            },
+            {
+              "id": 7,
+              "stem": "In paragraph seven, the writer argues that technology that 'distributes benefit without distributing accountability'",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "reflects a well-calibrated system that fairly shares responsibility across all parties involved."
+                },
+                {
+                  "key": "B",
+                  "text": "requires hospitals to carry greater liability than manufacturers when AI errors cause patient harm."
+                },
+                {
+                  "key": "C",
+                  "text": "can be trusted in clinical practice once manufacturers have agreed to set appropriate thresholds."
+                },
+                {
+                  "key": "D",
+                  "text": "has not yet reached the standard required of a mature tool used in clinical care."
+                }
+              ],
+              "answer": "D",
+              "focus": "distributes benefit without distributing accountability",
+              "explain": "지문의 'distributes benefit without distributing accountability' 부분 참조 → has not yet reached the standard required of a mature tool used in clinical care."
+            },
+            {
+              "id": 8,
+              "stem": "In the final paragraph, the writer compares an unaudited algorithm to 'a rumour with a timestamp' in order to",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "suggest that AI development should pause until a randomised trial has been completed."
+                },
+                {
+                  "key": "B",
+                  "text": "warn that outdated algorithms may produce results that are no longer reliable over time."
+                },
+                {
+                  "key": "C",
+                  "text": "emphasise that an unevaluated algorithm lacks the rigour expected of any diagnostic test."
+                },
+                {
+                  "key": "D",
+                  "text": "argue that vendors should be required to disclose the dates on which their models were trained."
+                }
+              ],
+              "answer": "C",
+              "focus": "a rumour with a timestamp",
+              "explain": "지문의 'a rumour with a timestamp' 부분 참조 → emphasise that an unevaluated algorithm lacks the rigour expected of any diagnostic test."
+            }
+          ],
+          "focusPhrases": [
+            "a tireless second pair of eyes",
+            "average radiologist performance",
+            "they are consistent",
+            "deployment has outpaced evaluation",
+            "automation bias",
+            "alert fatigue",
+            "distributes benefit without distributing accountability",
+            "a rumour with a timestamp"
+          ],
+          "wordCount": 794
+        },
+        {
+          "label": "Text 2",
+          "title": "Conversations at the end of life: why we start them too late",
+          "paragraphs": [
+            "Every year, thousands of people in the United Kingdom die following interventions they would not have chosen had anyone asked them in time. The evidence is consistent: population surveys show that most adults prefer to die at home rather than in hospital, yet fewer than one in four achieve that. The gap between stated preference and actual outcome is not primarily a failure of individual clinicians. It is a failure of timing. By the moment a conversation about values and priorities might genuinely alter the care plan, many patients no longer have the capacity to take part.",
+            "Advance care planning exists to bridge that gap. When patients discuss and document their wishes while still able to do so—what constitutes an acceptable quality of life, which interventions they would welcome, which they would refuse—those expressed preferences can guide decisions long after the patient can no longer speak for themselves. Yet these conversations are persistently deferred. Clinicians cite time pressure, diagnostic uncertainty, and concern that raising end-of-life topics will damage a patient's hope. Patients, for their part, often wait for the clinician to open the door, and the door stays closed.",
+            "The belief that discussing dying undermines hope is widespread but poorly evidenced. A landmark randomised trial in patients with metastatic non-small-cell lung cancer found that those who received early integrated palliative care reported better quality of life and improved mood compared with standard-care controls—and survived a median of two months longer. The paradox is striking: patients who spoke more openly about dying lived longer. The most plausible explanation is that earlier conversations enabled earlier alignment of treatment with what patients actually valued, reducing burdensome interventions without reducing attentive care. Hope and honest speech are not opposites.",
+            "Part of the difficulty is structural. End-of-life conversations attract no procedure code, no imaging report, and no prescription. In fee-for-service health systems, the absence of a billable output makes the conversation a cost rather than a product. Even in salaried NHS settings, the problem takes a different form: no dedicated appointment slot means the conversation is displaced by the investigation that happens to fill the scheduled time. A system optimises for what it can measure, and the quality of dying is stubbornly resistant to measurement. The invisible work of listening and planning leaves nothing in the procedural record.",
+            "Training represents an equally large gap. Junior doctors in most programmes spend years learning to interpret imaging and prescribe safely; they spend far fewer hours learning to sit still, listen without offering reassurance, and tolerate the discomfort of a patient who asks plainly how long they have. The required skill is not empathy alone—unstructured empathy can produce distressed clinicians who still cannot run a productive goals-of-care meeting. What is needed is structured communication competency: the ability to ask the right question, to hear what is actually said, and to build a care plan around that answer.",
+            "Cultural resistance is real and should not be dismissed. In many communities, naming death is considered to invite it, and even the most thoughtfully framed enquiry can cause offence to a patient or their family. Professional interpreters may struggle to render the vocabulary of palliative care into languages for which there is no established tradition of such conversation. That barrier is not insurmountable, but crossing it requires time, cultural brokering, and genuine curiosity about the patient's frame of reference rather than adherence to a prepared script. Cultural competence in end-of-life care is not an add-on; it is the consultation itself.",
+            "Practical tools can help clinicians identify where to begin. The Surprise Question—'Would I be surprised if this patient died within the next twelve months?'—has been widely used as a prompt for recognising patients whose needs have gone unmet. A 'no' answer does not prescribe the content of the discussion; it signals that one is overdue. Electronic record alerts linked to diagnostic codes for advanced malignancy, end-stage renal disease, and severe heart failure can prevent these conversations from being silently omitted from routine reviews. The limitation is that a prompt without a skilled and unhurried clinician to act on it becomes simply another unread notification.",
+            "The conversations we postpone do not disappear; they happen later, in worse conditions, with a patient who cannot participate and a family that had no warning. A death that was well prepared for is no easier to endure, but it is far less likely to be a death that multiplies damage—that leaves a family haunted by decisions they were never given the chance to influence, a clinical team unsatisfied by the care it provided, and a health system that deployed its resources along a trajectory nobody had thought to review. Every meaningful conversation started early is a modest act of clinical courage. Making that courage ordinary is the system's most important task."
+          ],
+          "questions": [
+            {
+              "id": 1,
+              "stem": "In paragraph one, 'a failure of timing' refers to",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "leaving end-of-life discussions until patients are no longer able to take part in them."
+                },
+                {
+                  "key": "B",
+                  "text": "the inability of hospitals to refer patients to palliative care services promptly enough."
+                },
+                {
+                  "key": "C",
+                  "text": "a delay in identifying when a patient has lost the capacity to make their own decisions."
+                },
+                {
+                  "key": "D",
+                  "text": "the failure to document patient preferences before discharge from an acute hospital admission."
+                }
+              ],
+              "answer": "A",
+              "focus": "a failure of timing",
+              "explain": "지문의 'a failure of timing' 부분 참조 → leaving end-of-life discussions until patients are no longer able to take part in them."
+            },
+            {
+              "id": 2,
+              "stem": "According to paragraph two, advance care planning conversations are most often deferred because",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "patients tend to refuse to discuss preferences until they are approaching the end of their life."
+                },
+                {
+                  "key": "B",
+                  "text": "clinicians are concerned about time pressure, prognosis uncertainty, and the risk of damaging hope."
+                },
+                {
+                  "key": "C",
+                  "text": "legal uncertainty exists about the enforceability of advance decisions in most clinical settings."
+                },
+                {
+                  "key": "D",
+                  "text": "specialist palliative care staff are unavailable to support clinicians during outpatient consultations."
+                }
+              ],
+              "answer": "B",
+              "focus": "Clinicians cite time pressure",
+              "explain": "지문의 'Clinicians cite time pressure' 부분 참조 → clinicians are concerned about time pressure, prognosis uncertainty, and the risk of damaging hope."
+            },
+            {
+              "id": 3,
+              "stem": "'The paradox is striking' in paragraph three because patients who discussed dying openly",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "reported higher levels of anxiety during treatment than those who received standard care."
+                },
+                {
+                  "key": "B",
+                  "text": "were more likely to withdraw consent for further active treatment at an early stage."
+                },
+                {
+                  "key": "C",
+                  "text": "survived longer and reported better quality of life than standard-care controls."
+                },
+                {
+                  "key": "D",
+                  "text": "placed greater demands on palliative care teams than those who avoided the conversation."
+                }
+              ],
+              "answer": "C",
+              "focus": "The paradox is striking",
+              "explain": "지문의 'The paradox is striking' 부분 참조 → survived longer and reported better quality of life than standard-care controls."
+            },
+            {
+              "id": 4,
+              "stem": "In paragraph four, the writer argues that end-of-life conversations are consistently displaced because",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "junior doctors lack the training needed to hold productive goals-of-care discussions."
+                },
+                {
+                  "key": "B",
+                  "text": "health systems prioritise measurable outputs and create no dedicated space for conversations."
+                },
+                {
+                  "key": "C",
+                  "text": "outpatient clinics are designed for patients too unwell to engage in advance planning discussions."
+                },
+                {
+                  "key": "D",
+                  "text": "clinicians are reluctant to document a poor prognosis in the patient's formal medical record."
+                }
+              ],
+              "answer": "B",
+              "focus": "no procedure code",
+              "explain": "지문의 'no procedure code' 부분 참조 → health systems prioritise measurable outputs and create no dedicated space for conversations."
+            },
+            {
+              "id": 5,
+              "stem": "In paragraph five, the writer implies that effective end-of-life communication requires",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "an innate personal empathy that no formal medical training programme is able to adequately teach."
+                },
+                {
+                  "key": "B",
+                  "text": "years of unsupported bedside exposure to dying patients across a variety of clinical settings."
+                },
+                {
+                  "key": "C",
+                  "text": "structured competency in asking, hearing, and building a care plan around the patient's answer."
+                },
+                {
+                  "key": "D",
+                  "text": "close specialist palliative care team involvement in every complex end-of-life discussion held."
+                }
+              ],
+              "answer": "C",
+              "focus": "sit still, listen without offering reassurance",
+              "explain": "지문의 'sit still, listen without offering reassurance' 부분 참조 → structured competency in asking, hearing, and building a care plan around the patient's answer."
+            },
+            {
+              "id": 6,
+              "stem": "The phrase 'Cultural competence in end-of-life care is not an add-on' implies that",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "cultural factors are less significant than communication skills for most clinical encounters."
+                },
+                {
+                  "key": "B",
+                  "text": "cultural training should form a discrete module within standard medical school curricula."
+                },
+                {
+                  "key": "C",
+                  "text": "cultural considerations are secondary to reaching a shared palliative care plan with the patient."
+                },
+                {
+                  "key": "D",
+                  "text": "understanding the patient's cultural frame of reference is inseparable from the consultation itself."
+                }
+              ],
+              "answer": "D",
+              "focus": "Cultural competence in end-of-life care is not an add-on",
+              "explain": "지문의 'Cultural competence in end-of-life care is not an add-on' 부분 참조 → understanding the patient's cultural frame of reference is inseparable from the consultation itself."
+            },
+            {
+              "id": 7,
+              "stem": "In paragraph seven, the Surprise Question is presented as",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "a validated prognostic instrument for predicting twelve-month mortality in patients with chronic disease."
+                },
+                {
+                  "key": "B",
+                  "text": "a simple prompt that identifies patients for whom a planning conversation is overdue."
+                },
+                {
+                  "key": "C",
+                  "text": "a validated tool that replaces the need for specialist palliative care referral in routine practice."
+                },
+                {
+                  "key": "D",
+                  "text": "a structured interview framework for guiding the precise content of any end-of-life discussion."
+                }
+              ],
+              "answer": "B",
+              "focus": "Would I be surprised",
+              "explain": "지문의 'Would I be surprised' 부분 참조 → a simple prompt that identifies patients for whom a planning conversation is overdue."
+            },
+            {
+              "id": 8,
+              "stem": "In the final paragraph, the writer argues that early conversations prevent a death that",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "occurs before the patient has had the chance to reconcile relationships with their family."
+                },
+                {
+                  "key": "B",
+                  "text": "imposes unreasonable financial and emotional demands on the healthcare system and its staff."
+                },
+                {
+                  "key": "C",
+                  "text": "leaves the clinical team with no way to explain the decisions made during the final admission."
+                },
+                {
+                  "key": "D",
+                  "text": "compounds harm across the patient, their family, the clinical team, and the health system."
+                }
+              ],
+              "answer": "D",
+              "focus": "multiplies damage",
+              "explain": "지문의 'multiplies damage' 부분 참조 → compounds harm across the patient, their family, the clinical team, and the health system."
+            }
+          ],
+          "focusPhrases": [
+            "a failure of timing",
+            "Clinicians cite time pressure",
+            "The paradox is striking",
+            "no procedure code",
+            "sit still, listen without offering reassurance",
+            "Cultural competence in end-of-life care is not an add-on",
+            "Would I be surprised",
+            "multiplies damage"
+          ],
+          "wordCount": 795
+        }
+      ],
+      "gist": [
+        "AI's promise is real but demands the same evidential scrutiny as any diagnostic test.",
+        "End-of-life conversations are most effective—and most often absent—when started early."
+      ],
+      "vocab": [
+        {
+          "term": "convolutional neural network",
+          "gloss": "합성곱 신경망: 이미지 인식에 사용되는 딥러닝 구조"
+        },
+        {
+          "term": "automation bias",
+          "gloss": "자동화 편향: 알고리즘 결과를 과신해 독립적 판단을 소홀히 하는 경향"
+        },
+        {
+          "term": "advance care planning",
+          "gloss": "사전 돌봄 계획: 판단 능력이 있을 때 향후 의료 처치를 미리 결정하는 과정"
+        },
+        {
+          "term": "palliative",
+          "gloss": "완화적: 완치가 아닌 증상 완화 및 삶의 질 향상을 목적으로 하는"
+        },
+        {
+          "term": "generalisability",
+          "gloss": "일반화 가능성: 연구 결과가 다른 집단이나 환경에도 적용될 수 있는 정도"
+        }
+      ]
+    },
+    {
+      "id": "C-09",
+      "part": "C",
+      "setNum": 9,
+      "type": "dual-text",
+      "title": "Clinician fatigue & health literacy",
+      "instruction": "Official-style Part C: two texts, 8 questions each (16 total). Focus phrases are highlighted in the passages.",
+      "texts": [
+        {
+          "label": "Text 1",
+          "title": "Fatigue and shift work: the impairment we agree not to see",
+          "paragraphs": [
+            "Consider what we already know about impaired driving: a blood alcohol concentration of 0.05 per cent is illegal in most European countries, and an employer who knowingly sent an intoxicated employee to operate heavy machinery would face serious consequences. Now consider that seventeen hours without sleep produces a performance decrement equivalent to that blood alcohol level. Clinicians regularly begin shifts having slept fewer hours than that recommendation, and almost no hospital has a protocol that treats this as a safety incident. We have agreed, collectively, not to see it.",
+            "The science is not disputed. Seminal research by Dawson and Reid in the 1990s demonstrated the sleep-deprivation–alcohol equivalence, and subsequent studies have replicated it across domains of attention, working memory, and procedural skill. After a night shift, a doctor's reaction time, diagnostic accuracy, and capacity to notice a patient's deteriorating trajectory are all measurably reduced. If that same doctor were breathalysed at the nurses' station, the ethical obligation would be clear. Yet the equivalent measurement—a standardised fatigue score before a twelve-hour overnight shift—remains an abstraction in most hospitals, not a precondition for taking on a ward.",
+            "Part of the explanation is cultural. In many specialties, enduring fatigue without complaint has functioned as a badge of the committed—evidence that you take your responsibilities seriously, that you prioritise patients over comfort. Night shifts survived with minimal sleep are described in job references and at interviews as a mark of resilience. This framing is not deliberately cynical. It emerged from a pre-scientific era when hours were assumed to build capability. What it produces now is a training culture in which acknowledging fatigue feels professionally dangerous, and in which a clinician who asks for rest may be labelled fragile before they are heard.",
+            "The standard defence is that systems protect patients from fatigued individuals: handovers, checklists, double-checks, and the collective intelligence of a team should catch what a tired clinician misses. This comfort has merit, but it rests on a crucial fallacy. Handovers depend on clear verbal communication, checklists require careful reading, and recognising a deteriorating patient requires sustained attention—precisely the cognitive functions most vulnerable to sleep loss. Safeguards designed to catch human error cannot fully compensate when every member of the team has been awake for twelve to fifteen hours and each safeguard requires the same impaired cognition to operate it.",
+            "Quantitative evidence is plentiful. Studies from emergency medicine, surgery, and paediatrics consistently find higher rates of medication errors, procedural complications, and near-misses during overnight shifts and in the second half of prolonged rotas. One surgical trainee study found that participants made roughly twice the number of laparoscopic errors after a night without sleep compared with rested controls. Needle-stick injuries cluster in the small hours. None of this surprises anyone who has worked nights. What is surprising is how rarely accumulated sleep debt appears in incident reports, root-cause analyses, or mortality-and-morbidity meetings as a contributing factor, let alone a primary cause.",
+            "Institutional silence around fatigue runs deep. In most trusts, there is no recognised mechanism for calling in fatigued, analogous to calling in sick. An individual who arrives having slept three hours after a bereavement, an anxious child, or a night of insomnia has no formal route to report their state without risking their professional standing or their roster. The consequence is predictable: fatigue is concealed. And because it is concealed, neither managers nor colleagues can compensate, and the impairment operates unannounced throughout the shift. What cannot be named cannot be managed.",
+            "The training years are where the pattern is set. Junior doctors who rotate through rota systems covering nights, weekends, and bank holidays are learning a clinical curriculum alongside an implicit one: that sleep deprivation is a normal cost of care, that complaining about it is unprofessional, and that seniority means surviving what others did not. This is an apprenticeship in endurance rather than an education in sustainable practice. By the time a clinician reaches a level of seniority at which they might change the culture, they have internalised it too deeply to see it as a choice.",
+            "Healthcare regulation is thorough about fitness to practise in almost every respect. Alcohol, substance misuse, health conditions, performance concerns, and behavioural fitness are all subject to review. Fatigue—systematic, shift-induced, and evidence-based in its impairment—is not. Until it is, the system will continue to produce harm that is recorded as individual error rather than structural failure. Acknowledging fatigue as an impairment is not a counsel of defeat; it is the first act of honesty a safety culture requires. The monitor alarms in the small hours are not louder because clinicians are alert—they are louder because nobody admits they are not."
+          ],
+          "questions": [
+            {
+              "id": 1,
+              "stem": "In paragraph one, 'performance decrement' refers to",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "the measurable reduction in clinical ability that results from prolonged sleep deprivation"
+                },
+                {
+                  "key": "B",
+                  "text": "the decline in patient safety observed on wards where handover practices are consistently poor"
+                },
+                {
+                  "key": "C",
+                  "text": "a drop in alertness that occurs whenever clinicians work extended hours in understaffed units"
+                },
+                {
+                  "key": "D",
+                  "text": "the gradual erosion of clinical skill that follows when regular training updates are missed"
+                }
+              ],
+              "answer": "A",
+              "focus": "performance decrement",
+              "explain": "지문의 'performance decrement' 부분 참조 → the measurable reduction in clinical ability from sleep deprivation"
+            },
+            {
+              "id": 2,
+              "stem": "'Breathalysed at the nurses' station' in paragraph two suggests that",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "alcohol misuse in hospitals is far more prevalent than official incident data or reports acknowledge"
+                },
+                {
+                  "key": "B",
+                  "text": "a fatigued clinician poses a measurable risk that demands the same clear response as intoxication"
+                },
+                {
+                  "key": "C",
+                  "text": "all staff should be required to complete a fitness assessment before taking on overnight clinical duties"
+                },
+                {
+                  "key": "D",
+                  "text": "managers have been shown to respond less urgently to fatigue-related concerns than to substance-misuse incidents"
+                }
+              ],
+              "answer": "B",
+              "focus": "breathalysed at the nurses' station",
+              "explain": "지문의 'breathalysed at the nurses' station' 부분 참조 → fatigue warrants same unambiguous response as measured intoxication"
+            },
+            {
+              "id": 3,
+              "stem": "According to paragraph three, acknowledging fatigue in many clinical settings",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "is now actively encouraged by training supervisors who have revised their approach to staff wellbeing"
+                },
+                {
+                  "key": "B",
+                  "text": "is acceptable in most teams provided it is shared only with trusted senior colleagues"
+                },
+                {
+                  "key": "C",
+                  "text": "carries professional risk because it may be interpreted as an admission of fragility"
+                },
+                {
+                  "key": "D",
+                  "text": "has become gradually more accepted since the introduction of European working-hours legislation"
+                }
+              ],
+              "answer": "C",
+              "focus": "badge of the committed",
+              "explain": "지문의 'badge of the committed' 부분 참조 → acknowledging fatigue risks being labelled fragile"
+            },
+            {
+              "id": 4,
+              "stem": "The writer mentions that handovers require clear communication and checklists require careful reading in order to",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "demonstrate that modern safety systems are robust enough to function reliably on overnight wards"
+                },
+                {
+                  "key": "B",
+                  "text": "argue that collective team intelligence reliably covers the lapses of any one tired individual"
+                },
+                {
+                  "key": "C",
+                  "text": "illustrate the benefit of written safety protocols over verbal handover for fatigued clinical staff"
+                },
+                {
+                  "key": "D",
+                  "text": "expose the flaw in assuming that safety systems can adequately compensate for cognitive fatigue"
+                }
+              ],
+              "answer": "D",
+              "focus": "precisely the cognitive functions most vulnerable",
+              "explain": "지문의 'precisely the cognitive functions most vulnerable' 부분 참조 → safeguards depend on the very cognition fatigue impairs"
+            },
+            {
+              "id": 5,
+              "stem": "In paragraph five, the writer considers it surprising that",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "trainees showed twice the laparoscopic error rate after a sleepless night in a controlled study"
+                },
+                {
+                  "key": "B",
+                  "text": "fatigue is rarely cited as a contributory factor in clinical incident reviews and mortality meetings"
+                },
+                {
+                  "key": "C",
+                  "text": "needle-stick injuries are known to be concentrated in the earliest hours of the overnight shift"
+                },
+                {
+                  "key": "D",
+                  "text": "emergency medicine records more near-misses per rota than surgical specialties in published literature"
+                }
+              ],
+              "answer": "B",
+              "focus": "accumulated sleep debt",
+              "explain": "지문의 'accumulated sleep debt' 부분 참조 → 'What is surprising' = its absence from incident reports"
+            },
+            {
+              "id": 6,
+              "stem": "According to paragraph six, one consequence of fatigue being concealed is that",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "neither managers nor colleagues are in a position to compensate for the impairment"
+                },
+                {
+                  "key": "B",
+                  "text": "incident forms completed by exhausted staff are more likely to contain factual inaccuracies"
+                },
+                {
+                  "key": "C",
+                  "text": "fatigued clinicians consistently overestimate their own alertness and take on extra responsibilities"
+                },
+                {
+                  "key": "D",
+                  "text": "trusts face legal exposure when staff records contain no evidence of a reported impairment"
+                }
+              ],
+              "answer": "A",
+              "focus": "calling in fatigued",
+              "explain": "지문의 'calling in fatigued' 부분 참조 → concealment means colleagues cannot compensate"
+            },
+            {
+              "id": 7,
+              "stem": "The phrase 'apprenticeship in endurance' in paragraph seven suggests that junior doctors",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "develop superior clinical skills through sustained contact with experienced consultants under real pressure"
+                },
+                {
+                  "key": "B",
+                  "text": "receive dedicated supervision time in which strategies for coping with fatigue are explicitly taught"
+                },
+                {
+                  "key": "C",
+                  "text": "learn to regard sleep deprivation as a normal and unremarkable feature of clinical training"
+                },
+                {
+                  "key": "D",
+                  "text": "benefit from rota patterns that progressively lighten as their years of seniority increase"
+                }
+              ],
+              "answer": "C",
+              "focus": "apprenticeship in endurance",
+              "explain": "지문의 'apprenticeship in endurance' 부분 참조 → implicit lesson that sleep deprivation is normal"
+            },
+            {
+              "id": 8,
+              "stem": "The writer's overall argument is that",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "regulators should extend fitness-to-practise oversight to include the rota systems set by individual trusts"
+                },
+                {
+                  "key": "B",
+                  "text": "fatigue from shift work should be formally reclassified as an occupational disease in its own right"
+                },
+                {
+                  "key": "C",
+                  "text": "individual clinicians bear the primary responsibility for managing their own sleep before night shifts"
+                },
+                {
+                  "key": "D",
+                  "text": "fatigue should be recognised as a measurable impairment rather than dismissed as a personal failing"
+                }
+              ],
+              "answer": "D",
+              "focus": "fitness to practise",
+              "explain": "지문의 'fitness to practise' 부분 참조 → fatigue is not regulated despite being evidence-based impairment"
+            }
+          ],
+          "wordCount": 774,
+          "focusPhrases": [
+            "performance decrement",
+            "breathalysed at the nurses' station",
+            "badge of the committed",
+            "precisely the cognitive functions most vulnerable",
+            "accumulated sleep debt",
+            "calling in fatigued",
+            "apprenticeship in endurance",
+            "fitness to practise"
+          ]
+        },
+        {
+          "label": "Text 2",
+          "title": "Health literacy: the consultation is a text the patient has to read",
+          "paragraphs": [
+            "Every consultation contains a text. Not a written one—though letters, forms, and leaflets arrive in quantity—but a layered communicative event that patients must decode in real time: clinical jargon embedded in reassurance, implication carried by pauses, severity signalled by the change in a doctor's posture rather than the words spoken. Skilled clinicians navigate this effortlessly because it is their genre. Patients, especially those encountering a new diagnosis or an unfamiliar specialty, are doing something harder: decoding the genre without having learned it, under conditions of anxiety that further impair working memory.",
+            "The scale of difficulty becomes visible when health literacy is measured directly. UK surveys suggest that roughly half of working-age adults have functional health literacy at or below the level needed to manage everyday health tasks independently. This is not a minority problem confined to specific demographics; it cuts across educational attainment in ways that repeatedly surprise clinicians who assume a degree certificate predicts health understanding. The term functional health literacy describes the capacity to read, interpret, and act on health information in real-world conditions—and it is distinct from general literacy or educational achievement, both of which tend to be overestimated as proxies.",
+            "It is important to resist the implication that low health literacy signals low intelligence. The consultation is a specialised genre with its own conventions, presuppositions, and social rituals. An experienced solicitor navigating a medical disclosure may struggle as much as a factory worker without formal qualifications, because the challenge is domain-specific fluency rather than general reasoning. Clinicians who assume they can judge a patient's understanding by the confidence of their nodding are repeatedly misled. The nod is a social gesture, not an epistemic confirmation: it signals that the patient wishes to appear cooperative, not that they have comprehended the information given.",
+            "Some argue that the responsibility lies with patients to prepare more carefully: reading up on their condition, arriving with written questions, consulting reputable websites before attending. There is something to this—engaged patients often do better overall. But this view cannot substitute for clinical communication skills, because engagement itself requires a baseline of health literacy to initiate. Patients who have never been told which questions are worth asking, and who fear appearing ignorant or wasting the doctor's time, do not arrive with a list. They arrive hoping to be told what they need to know, and they leave trusting that they were.",
+            "The cost of misreading a consultation accumulates in ways that outpatient data do not fully capture. Patients who leave with an incomplete understanding of their diagnosis are more likely to take medicines irregularly, less likely to recognise warning signs that warrant early return, and more likely to present in crisis to emergency departments where the opportunity for careful explanation has been narrowed. Research from primary care finds that more than a third of patients cannot accurately recall their diagnosis twenty-four hours after a consultation in which they reported feeling satisfied. Satisfaction and comprehension are not the same thing—and the conflation of the two is a persistent measurement failure in clinical audit.",
+            "Practical responses exist and many are straightforward. Plain language—shorter sentences, common words, avoidance of acronyms—reduces misunderstanding without diminishing clinical precision. The teach-back method, in which a clinician invites a patient to restate their understanding in their own words, is the most reliably evidence-supported intervention for improving comprehension, and it costs nothing beyond two extra minutes. Yet surveys of outpatient consultations find it used in fewer than one in ten encounters. Implementation is rarely the barrier; what prevents uptake is a clinical culture in which asking 'does that make sense?' passes as an adequate check of comprehension.",
+            "The problem scales up wherever written health communication is involved. Consent forms were designed by legal teams to protect institutions from litigation rather than to inform patients about risk. Discharge summaries are written in the language of clinical handover, not in the language of self-care. Referral letters acknowledge the patient's presence but rarely address them directly. Each of these is a text the patient is expected to read and act upon, yet each is produced for an audience of clinicians. The result is not carelessness—it is administrative compliance rather than understanding, achieved at the patient's expense.",
+            "The consultation is a text the patient has to read, and medicine has never quite decided whether it has an obligation to teach them how. Communication skills appear in undergraduate curricula, but they are assessed through simulated encounters and tend to retreat under the pressure of real clinical workload. If health systems genuinely wish to reduce avoidable harm through better adherence, earlier presentations, and more realistic consent, the route runs through literacy, not technology. The next diagnostic breakthrough may not arrive from a scanner or a genome sequence—it may come in the form of a letter the patient can actually understand."
+          ],
+          "questions": [
+            {
+              "id": 1,
+              "stem": "In the opening paragraph, 'decoding the genre' refers to",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "reading written medical materials such as discharge letters and leaflets provided after an appointment"
+                },
+                {
+                  "key": "B",
+                  "text": "learning to use clinical language accurately when communicating with healthcare professionals"
+                },
+                {
+                  "key": "C",
+                  "text": "interpreting the unspoken conventions of a consultation without prior experience of its form"
+                },
+                {
+                  "key": "D",
+                  "text": "acquiring the medical vocabulary needed to access information about a newly diagnosed condition"
+                }
+              ],
+              "answer": "C",
+              "focus": "decoding the genre",
+              "explain": "지문의 'decoding the genre' 부분 참조 → understanding consultation conventions without prior experience"
+            },
+            {
+              "id": 2,
+              "stem": "In paragraph two, 'functional health literacy' is described as",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "the capacity to read, interpret, and act on health information in real-world conditions"
+                },
+                {
+                  "key": "B",
+                  "text": "the educational standard required to understand and follow written clinical correspondence"
+                },
+                {
+                  "key": "C",
+                  "text": "the ability to research a health condition accurately and critically using reliable online sources"
+                },
+                {
+                  "key": "D",
+                  "text": "a measure of how confidently a patient can follow and recall verbal instructions from their doctor"
+                }
+              ],
+              "answer": "A",
+              "focus": "functional health literacy",
+              "explain": "지문의 'functional health literacy' 부분 참조 → the capacity to act on health information in real-world conditions"
+            },
+            {
+              "id": 3,
+              "stem": "The writer mentions the experienced solicitor in paragraph three in order to",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "suggest that highly educated professionals are more likely to challenge clinical information they receive"
+                },
+                {
+                  "key": "B",
+                  "text": "argue that legal training provides useful communication strategies that medicine should adopt"
+                },
+                {
+                  "key": "C",
+                  "text": "illustrate that health literacy varies widely even among people with strong general academic ability"
+                },
+                {
+                  "key": "D",
+                  "text": "demonstrate that poor health literacy does not imply low general intelligence or reasoning ability"
+                }
+              ],
+              "answer": "D",
+              "focus": "domain-specific fluency",
+              "explain": "지문의 'domain-specific fluency' 부분 참조 → health literacy is domain-specific, not a measure of intelligence"
+            },
+            {
+              "id": 4,
+              "stem": "According to paragraph four, patients who lack health literacy tend to",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "avoid consulting healthcare professionals altogether out of anxiety about appearing uninformed"
+                },
+                {
+                  "key": "B",
+                  "text": "leave consultations assuming they were given all the information that mattered"
+                },
+                {
+                  "key": "C",
+                  "text": "rely on family members to translate clinical explanations into language they can understand"
+                },
+                {
+                  "key": "D",
+                  "text": "prepare lists of questions before appointments but find themselves unable to ask them"
+                }
+              ],
+              "answer": "B",
+              "focus": "hoping to be told what they need to know",
+              "explain": "지문의 'hoping to be told what they need to know' 부분 참조 → leave trusting they received what was needed"
+            },
+            {
+              "id": 5,
+              "stem": "In paragraph five, the writer regards patient satisfaction scores as",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "an unreliable indicator of whether patients have genuinely understood their consultation"
+                },
+                {
+                  "key": "B",
+                  "text": "a practical starting point for identifying where communication improvements are most needed"
+                },
+                {
+                  "key": "C",
+                  "text": "less informative than objective recall tests administered at follow-up appointments"
+                },
+                {
+                  "key": "D",
+                  "text": "a measure that consistently overestimates comprehension among those with higher educational attainment"
+                }
+              ],
+              "answer": "A",
+              "focus": "Satisfaction and comprehension are not the same",
+              "explain": "지문의 'Satisfaction and comprehension are not the same' 부분 참조 → satisfaction ≠ comprehension"
+            },
+            {
+              "id": 6,
+              "stem": "According to paragraph six, the main barrier to using the teach-back method is",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "the reluctance of patients to repeat information that might expose their lack of understanding"
+                },
+                {
+                  "key": "B",
+                  "text": "the time constraints of outpatient clinics, which typically allow fewer than ten minutes per patient"
+                },
+                {
+                  "key": "C",
+                  "text": "a clinical culture that treats a brief closing question as sufficient evidence of comprehension"
+                },
+                {
+                  "key": "D",
+                  "text": "a shortage of formal communication skills training available to junior clinical staff at ward level"
+                }
+              ],
+              "answer": "C",
+              "focus": "teach-back",
+              "explain": "지문의 'teach-back' 부분 참조 → 'does that make sense?' accepted as adequate check"
+            },
+            {
+              "id": 7,
+              "stem": "'Administrative compliance rather than understanding' in paragraph seven refers to",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "a culture in which clerical staff prioritise correct form completion over clear patient communication"
+                },
+                {
+                  "key": "B",
+                  "text": "the tendency of patients to sign consent forms without reading their full content carefully"
+                },
+                {
+                  "key": "C",
+                  "text": "a managerial style that emphasises legal risk reduction rather than individual patient dignity"
+                },
+                {
+                  "key": "D",
+                  "text": "written documents that satisfy institutional requirements without genuinely informing the patient"
+                }
+              ],
+              "answer": "D",
+              "focus": "administrative compliance rather than understanding",
+              "explain": "지문의 'administrative compliance rather than understanding' 부분 참조 → documents produced for institutions, not patients"
+            },
+            {
+              "id": 8,
+              "stem": "Overall, the writer's position is that improving health outcomes requires",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "redesigning health literacy assessments so that they measure comprehension rather than satisfaction"
+                },
+                {
+                  "key": "B",
+                  "text": "treating patients as readers of a specialised text and teaching clinical communication accordingly"
+                },
+                {
+                  "key": "C",
+                  "text": "replacing written consent forms with brief verbal explanations delivered by trained nursing staff"
+                },
+                {
+                  "key": "D",
+                  "text": "extending undergraduate programmes to include two full years of communication training in real clinical settings"
+                }
+              ],
+              "answer": "B",
+              "focus": "The consultation is a text the patient has to read",
+              "explain": "지문의 'The consultation is a text the patient has to read' 부분 참조 → medicine must teach patients how to navigate it"
+            }
+          ],
+          "wordCount": 800,
+          "focusPhrases": [
+            "decoding the genre",
+            "functional health literacy",
+            "domain-specific fluency",
+            "hoping to be told what they need to know",
+            "Satisfaction and comprehension are not the same",
+            "teach-back",
+            "administrative compliance rather than understanding",
+            "The consultation is a text the patient has to read"
+          ]
+        }
+      ],
+      "gist": [
+        "Text 1: fatigue is a regulated impairment in every domain except clinical shift work.",
+        "Text 2: low health literacy is a genre problem, not an intelligence deficit."
+      ],
+      "vocab": [
+        {
+          "term": "performance decrement",
+          "gloss": "수행 저하: 피로나 알코올 등으로 인해 수행 능력이 떨어지는 현상"
+        },
+        {
+          "term": "health literacy",
+          "gloss": "건강 이해력: 의료 정보를 읽고 해석하여 행동으로 옮기는 능력"
+        },
+        {
+          "term": "teach-back",
+          "gloss": "티치백: 환자에게 설명을 되풀이하게 해서 이해를 확인하는 방법"
+        },
+        {
+          "term": "internalised",
+          "gloss": "내면화된: 가치나 태도가 무의식적으로 자신의 것이 된"
+        },
+        {
+          "term": "epistemic",
+          "gloss": "인식론적: 지식이나 이해에 관한"
+        }
+      ]
+    },
+    {
+      "id": "C-10",
+      "part": "C",
+      "setNum": 10,
+      "type": "dual-text",
+      "title": "Placebo in prescribing & rural workforce",
+      "instruction": "Official-style Part C: two texts, 8 questions each (16 total). Focus phrases are highlighted in the passages.",
+      "texts": [
+        {
+          "label": "Text 1",
+          "title": "The placebo problem in everyday prescribing",
+          "paragraphs": [
+            "The word 'placebo' conjures images of sugar pills dispensed in randomised trials, not the ordinary consultation. Yet there is mounting evidence that the effects we attribute to active drugs are partly composed of something far older: the therapeutic relationship itself, and the expectations it produces. When a confident clinician explains why a medicine will work, the patient's cortical and limbic responses shift measurably—in ways that differ from passive administration of the same compound. Separating the pharmacological from the contextual has stopped being merely an academic exercise; it has become a question with direct consequences for prescribing practice.",
+            "The classical model imagines drug action as a one-way flow: molecule meets receptor; receptor responds. But placebo research has demonstrated that expectation modulates receptor-level processes. Endogenous opioid release, dopaminergic signalling, and immune parameters all change when the patient believes that an effective agent is being given. These are not imagined effects; they are measurable in blood, urine, and brain imaging. 'Pure' pharmacology is therefore a simplification. Every prescribed drug acts on a patient who is already primed by the meaning attached to the prescription.",
+            "The immediate ethical reflex is to equate all placebo use with deception, and deception with a breach of consent. That framing has a distinguished history in bioethics, but it is increasingly strained by studies of 'open-label' placebos—inert pills given honestly, with the patient informed that they contain no active ingredient. Across irritable bowel syndrome, cancer-related fatigue, and chronic low back pain, these preparations produce clinically meaningful improvements. The implication is unsettling: the ritual of prescribing and the patient's knowledge of being cared for are themselves therapeutic ingredients, independent of what the tablet contains.",
+            "If context produces pharmacological changes, then the way a clinician delivers a prescription becomes pharmacologically active in its own right. Tone, confidence, time taken to explain, and attentiveness to expressed worries all modify the final response to treatment. Research by Ted Kaptchuk's group in Boston showed that enhancing a clinical interaction—warmth, engagement, optimism calibrated to honest evidence—added measurably to the benefit of sham acupuncture and real medicine alike. This is not mysticism; it is the recognition that communication style is an unstated ingredient in every therapeutic regimen.",
+            "The reverse applies with equal force. Nocebo effects—deterioration driven by negative expectations—are produced by the same mechanism. When a prescriber lists every rare side effect in a rapid, liability-covering recitation, the patient's probability of experiencing those effects rises. Studies in migraine, surgery, and chemotherapy all document this pattern. Informed consent, rightly understood, requires not just the delivery of information but the manner of its delivery. A candid conversation that addresses a patient's specific fears and builds a shared monitoring plan produces better adherence and fewer nocebo-driven withdrawals than a form-signing exercise.",
+            "The practical question is how prescribers should change their behaviour without becoming dishonest or paternalistic. Several principles emerge from the evidence. Framing a prescription around the mechanism of action, rather than a catalogue of risks, focuses the patient's expectation constructively. Acknowledging uncertainty openly—'this helps most people with your kind of pain, though responses vary'—is both accurate and associated with better outcomes than either false certainty or undifferentiated pessimism. Perhaps most importantly, following up explicitly on the patient's experience of a medicine makes that follow-up itself part of the treatment.",
+            "None of this sits comfortably with the current structure of prescribing consultations. Seven minutes is not long enough for the nuanced exchange that optimises context effects, and longer appointments require resourcing choices that health systems rarely prioritise. Equally, medical education devotes intensive training to pharmacokinetics and far less to the rhetoric of the consultation. The result is clinicians who can quote a molecule's half-life accurately but who have received no feedback on whether their manner of prescribing is helping or harming the patients in front of them.",
+            "The placebo problem in everyday prescribing is not that clinicians should start using inert pills. It is that the boundary between pharmacological and contextual effects is far more porous than the profession has cared to admit. A tablet is an event that takes place inside a relationship, and the relationship is not merely a backdrop—it is a co-treatment. Medicines regulation evaluates the molecule; nobody evaluates the prescriber's style. That asymmetry leaves a large and modifiable portion of therapeutic outcome unexamined. If we are serious about prescribing well, the consultation itself must be treated as a prescription."
+          ],
+          "questions": [
+            {
+              "id": 1,
+              "stem": "In paragraph one, the writer suggests that placebo research has become",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "a method used mainly to measure patient expectations during randomised controlled drug trials."
+                },
+                {
+                  "key": "B",
+                  "text": "a challenge that primarily concerns pharmacologists investigating the mechanisms of individual compounds."
+                },
+                {
+                  "key": "C",
+                  "text": "a source of ongoing disagreement between clinical ethicists and researchers in academic medicine settings."
+                },
+                {
+                  "key": "D",
+                  "text": "a matter with practical consequences for how medicines are given in everyday clinical practice."
+                }
+              ],
+              "answer": "D",
+              "focus": "direct consequences for prescribing practice",
+              "explain": "지문의 'direct consequences for prescribing practice' 부분 참조 → D: 일상 임상에서 의약품을 투여하는 방식에 실질적 결과가 있는 문제"
+            },
+            {
+              "id": 2,
+              "stem": "The phrase 'primed by the meaning attached to the prescription' in paragraph two suggests that",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "patients' expectations shape their physiological response to a drug at the receptor level."
+                },
+                {
+                  "key": "B",
+                  "text": "prescribers should explain the significance of each diagnosis before recommending any treatment."
+                },
+                {
+                  "key": "C",
+                  "text": "the biochemical properties of a compound matter less than the frequency of its dosage."
+                },
+                {
+                  "key": "D",
+                  "text": "patients with stronger medical literacy tend to respond more predictably to prescribed medicines."
+                }
+              ],
+              "answer": "A",
+              "focus": "primed by the meaning attached to the prescription",
+              "explain": "지문의 'primed by the meaning attached to the prescription' 부분 참조 → A: 환자의 기대가 수용체 수준의 생리적 반응을 형성함"
+            },
+            {
+              "id": 3,
+              "stem": "'That framing' in paragraph three refers to the view that",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "open-label placebos carry unacceptable clinical risks for use outside carefully monitored trials."
+                },
+                {
+                  "key": "B",
+                  "text": "the therapeutic relationship is inherently more important than any active pharmaceutical compound."
+                },
+                {
+                  "key": "C",
+                  "text": "all forms of placebo use involve deception and therefore breach the principle of informed consent."
+                },
+                {
+                  "key": "D",
+                  "text": "patients with chronic conditions respond to inert preparations differently from healthy trial volunteers."
+                }
+              ],
+              "answer": "C",
+              "focus": "That framing",
+              "explain": "지문의 'That framing' 부분 참조 → C: 모든 위약 사용은 속임을 포함하며 동의 원칙을 위반한다는 견해"
+            },
+            {
+              "id": 4,
+              "stem": "In paragraph four, the writer's main point is that",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "communication training should be allocated more curriculum time than pharmacology in medical schools."
+                },
+                {
+                  "key": "B",
+                  "text": "the manner in which a clinician delivers a prescription modifies the treatment's therapeutic effect."
+                },
+                {
+                  "key": "C",
+                  "text": "findings from the Boston research group have not been reliably reproduced in other healthcare systems."
+                },
+                {
+                  "key": "D",
+                  "text": "warmth and clinical engagement improve outcomes in sham procedures but not in conventional medicine."
+                }
+              ],
+              "answer": "B",
+              "focus": "communication style is an unstated ingredient",
+              "explain": "지문의 'communication style is an unstated ingredient' 부분 참조 → B: 처방을 전달하는 방식이 치료 효과를 수정함"
+            },
+            {
+              "id": 5,
+              "stem": "According to paragraph five, listing side effects in a rapid recitation during consent",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "increases the probability that patients will actually experience those effects."
+                },
+                {
+                  "key": "B",
+                  "text": "is a fixed regulatory requirement that cannot be modified without breaching consent law."
+                },
+                {
+                  "key": "C",
+                  "text": "produces better long-term adherence because patients feel thoroughly informed before starting therapy."
+                },
+                {
+                  "key": "D",
+                  "text": "is a documented problem confined mainly to chemotherapy rather than other fields of medicine."
+                }
+              ],
+              "answer": "A",
+              "focus": "nocebo-driven withdrawals",
+              "explain": "지문의 'nocebo-driven withdrawals' 부분 참조 → A: 빠른 부작용 나열은 실제로 그 부작용을 경험할 확률을 높임"
+            },
+            {
+              "id": 6,
+              "stem": "In paragraph six, 'framing a prescription around the mechanism of action' is presented as",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "the only reliable approach to avoid misleading patients about treatments with uncertain outcomes."
+                },
+                {
+                  "key": "B",
+                  "text": "a standard technique recommended by national prescribing guidelines for all high-risk medicines."
+                },
+                {
+                  "key": "C",
+                  "text": "a way of directing patient expectation that is associated with improved therapeutic response."
+                },
+                {
+                  "key": "D",
+                  "text": "an acceptable alternative to formal informed consent for patients in routine outpatient settings."
+                }
+              ],
+              "answer": "C",
+              "focus": "focuses the patient's expectation constructively",
+              "explain": "지문의 'focuses the patient's expectation constructively' 부분 참조 → C: 작용 기전 중심의 처방 설명이 향상된 치료 반응과 연관됨"
+            },
+            {
+              "id": 7,
+              "stem": "In paragraph seven, the writer implies that medical education",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "should be substantially extended to include mandatory training in advanced communication techniques."
+                },
+                {
+                  "key": "B",
+                  "text": "prioritises theoretical pharmacokinetics over the clinical reasoning skills that complex cases demand."
+                },
+                {
+                  "key": "C",
+                  "text": "has recently begun to address the longstanding neglect of consultation technique in response to data."
+                },
+                {
+                  "key": "D",
+                  "text": "leaves clinicians inadequately prepared for the relational dimensions of the prescribing encounter."
+                }
+              ],
+              "answer": "D",
+              "focus": "rhetoric of the consultation",
+              "explain": "지문의 'rhetoric of the consultation' 부분 참조 → D: 의학 교육이 처방 만남의 관계적 측면에 대해 준비가 미흡함"
+            },
+            {
+              "id": 8,
+              "stem": "In the final paragraph, the writer's overall position is that",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "medicines regulation needs to be extended to formally assess the communication style of prescribers."
+                },
+                {
+                  "key": "B",
+                  "text": "prescribing well requires understanding the consultation itself as an active component of treatment."
+                },
+                {
+                  "key": "C",
+                  "text": "clinicians should begin prescribing inert preparations as a recognised therapeutic option in primary care."
+                },
+                {
+                  "key": "D",
+                  "text": "contextual effects of treatment are more therapeutically powerful than the pharmacological actions of drugs."
+                }
+              ],
+              "answer": "B",
+              "focus": "the consultation itself must be treated as a prescription",
+              "explain": "지문의 'the consultation itself must be treated as a prescription' 부분 참조 → B: 처방을 잘 하려면 진료 자체를 치료의 활성 요소로 이해해야 함"
+            }
+          ],
+          "focusPhrases": [
+            "direct consequences for prescribing practice",
+            "primed by the meaning attached to the prescription",
+            "That framing",
+            "communication style is an unstated ingredient",
+            "nocebo-driven withdrawals",
+            "focuses the patient's expectation constructively",
+            "rhetoric of the consultation",
+            "the consultation itself must be treated as a prescription"
+          ],
+          "wordCount": 724
+        },
+        {
+          "label": "Text 2",
+          "title": "Recruiting clinicians to rural practice: incentives are not the answer they seem",
+          "paragraphs": [
+            "Every few years, a health minister announces a rural incentive package and expects workforce planners to cheer. The offers vary—bonuses on signing, rural loadings, university debt relief, subsidised housing—but the political logic is consistent: rural practice is a hardship posting, and hardships can be compensated with money. That assumption is rarely interrogated and almost never backed by evidence that bonuses reliably produce the long-term retention rural communities actually need. Recruiting a doctor to a remote area for three contractual years and then watching them leave for the city is not a workforce solution; it is a workforce audit that cost extra.",
+            "The evidence on financial incentives is more equivocal than policy documents admit. Systematic reviews consistently find that bonuses and loadings attract applications, particularly from candidates with high debt; they do not, however, predict who stays. Rural background, prior rural exposure during training, and something harder to quantify—a professional identity that includes country practice as desirable rather than remedial—are more powerful predictors of five-year retention than any dollar figure on a contract. The clinician who was persuaded by money alone arrives planning to leave; the clinician who chose to come carries a different relationship to the community.",
+            "Infrastructure tells the real story. Rural clinicians consistently report that what drives departure is not salary but professional isolation, poor locum cover forcing excessive on-call, limited access to specialist support, ageing equipment, and the persistent sense of being at the edge of a system designed for cities. A loading can delay a decision to resign; it cannot undo the evening when a doctor realises that the nearest colleague to call at 2 a.m. is a hundred kilometres away. 'Stickability' is not purchased; it is grown in an environment that makes practice genuinely sustainable.",
+            "The evidence on educational pipelines is striking. Countries that have deliberately embedded significant rural clinical experience in their undergraduate and postgraduate training programmes show measurably better rural recruitment and retention outcomes than those that treat rural placement as an optional elective or a punitive rotation for underperformers. Students who spend time in rural communities during formative training years develop what researchers have called 'rural clinical identity'—an internalised sense that country practice is professionally rich, not professionally limited. Once that identity forms, no bonus is needed to recruit; it has already done its work.",
+            "The specialist access problem is one that no recruitment bonus addresses. A rural generalist who cannot reach a cardiologist, a psychiatrist, or a paediatric surgeon within a reasonable timeframe faces decisions that would not be made unilaterally in a city hospital. That burden is compounding: as workload grows more complex, the safest response is to restrict scope rather than expand it, and narrowed scope eventually conflicts with the reason most rural clinicians chose the role. Telehealth has helped at the margins, but it does not replace the clinical relationship or the capacity to respond quickly when a patient's condition deteriorates without warning.",
+            "Workforce planners rarely acknowledge the political dynamics that make incentive schemes so persistent as a policy response. Bonuses are visible, costed, announced at a press conference, and attributable to a named minister. Reforming an undergraduate curriculum to weight rural placements requires cooperation between governments, universities, and health authorities over many years; the outcomes appear in workforce data a decade later, well after any politician's career interest in taking credit has expired. This temporal mismatch between structural reform and political reward has kept the policy conversation anchored to money far longer than the evidence supports.",
+            "Community infrastructure matters in ways that the health workforce debate tends to overlook. Clinicians are not interchangeable contract workers; they are people with partners, children in schools, and a need for culture, sport, and professional society. Rural areas that have invested in broadband, arts funding, educational facilities, and transport links recruit more successfully than those relying on clinical salary alone. Co-location of services—a general practice, a pharmacy, an allied health hub—reduces the sense of professional solitude that is the most commonly cited reason for rural attrition in qualitative workforce studies.",
+            "Rural practice is not a hardship posting to be compensated; it is a professional identity to be cultivated. The evidence points persistently to pipelines, communities, and infrastructure rather than annual supplements. That evidence has been available for two decades, and the gap between what research recommends and what governments fund says something unflattering about the relationship between evidence and policy in health workforce planning. Until systems are rewarded for outcomes measured in years rather than in announcements, the rural workforce will continue to absorb well-funded campaigns and to lose the people those campaigns attracted. The incentive problem is ultimately a governance problem in disguise."
+          ],
+          "questions": [
+            {
+              "id": 1,
+              "stem": "In paragraph one, the writer's main criticism of rural incentive schemes is that they",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "rest on the untested assumption that financial compensation can solve a long-term retention problem."
+                },
+                {
+                  "key": "B",
+                  "text": "are designed primarily to attract experienced senior clinicians rather than new graduates with debt."
+                },
+                {
+                  "key": "C",
+                  "text": "produce short-term recruitment gains that are difficult to attribute to any single government policy."
+                },
+                {
+                  "key": "D",
+                  "text": "are consistently abandoned before their effects on long-term retention can be adequately assessed."
+                }
+              ],
+              "answer": "A",
+              "focus": "hardship posting",
+              "explain": "지문의 'hardship posting' 부분 참조 → A: 금전 보상이 장기 유지 문제를 해결할 수 있다는 검증되지 않은 가정에 기반함"
+            },
+            {
+              "id": 2,
+              "stem": "The statement 'the clinician who was persuaded by money alone arrives planning to leave' in paragraph two suggests that",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "candidates carrying significant student debt are fundamentally unsuited to the demands of rural posts."
+                },
+                {
+                  "key": "B",
+                  "text": "offering large bonuses actively discourages applicants who have a genuine interest in rural medicine."
+                },
+                {
+                  "key": "C",
+                  "text": "rural background is a considerably more powerful retention predictor than any other single variable."
+                },
+                {
+                  "key": "D",
+                  "text": "financial motivation alone does not generate the community attachment that sustains long-term rural commitment."
+                }
+              ],
+              "answer": "D",
+              "focus": "persuaded by money alone",
+              "explain": "지문의 'persuaded by money alone' 부분 참조 → D: 금전적 동기만으로는 장기 헌신을 지속시키는 지역 사회 애착이 생기지 않음"
+            },
+            {
+              "id": 3,
+              "stem": "In paragraph three, 'Stickability' most nearly means",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "the ability to manage a wide clinical scope without regular access to specialist colleagues."
+                },
+                {
+                  "key": "B",
+                  "text": "the capacity to remain committed to a post and community over an extended period of time."
+                },
+                {
+                  "key": "C",
+                  "text": "the willingness to advocate persistently for better resources within a rural health system."
+                },
+                {
+                  "key": "D",
+                  "text": "the personal resilience that enables a clinician to cope with isolation during overnight on-call."
+                }
+              ],
+              "answer": "B",
+              "focus": "Stickability",
+              "explain": "지문의 'Stickability' 부분 참조 → B: 장기간 자리를 지키는 능력"
+            },
+            {
+              "id": 4,
+              "stem": "According to paragraph four, 'rural clinical identity' refers to",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "an internalised belief that country practice is professionally rich rather than professionally limiting."
+                },
+                {
+                  "key": "B",
+                  "text": "a formal credential obtained after completing an accredited rural postgraduate training programme."
+                },
+                {
+                  "key": "C",
+                  "text": "the sense of obligation that students from rural backgrounds feel towards their home communities."
+                },
+                {
+                  "key": "D",
+                  "text": "a professional designation awarded to generalists who sustain a broad scope in remote settings."
+                }
+              ],
+              "answer": "A",
+              "focus": "rural clinical identity",
+              "explain": "지문의 'rural clinical identity' 부분 참조 → A: 농촌 진료가 직업적으로 풍요롭다는 내면화된 믿음"
+            },
+            {
+              "id": 5,
+              "stem": "In paragraph five, the writer argues that as rural workloads grow more complex, clinicians",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "increasingly rely on telehealth to manage cases that would previously have required urgent referral."
+                },
+                {
+                  "key": "B",
+                  "text": "advocate for salary supplements rather than additional specialist outreach to their communities."
+                },
+                {
+                  "key": "C",
+                  "text": "tend to restrict their clinical scope in ways that eventually undermine the appeal of the role."
+                },
+                {
+                  "key": "D",
+                  "text": "develop greater diagnostic competence through repeated exposure to complex undifferentiated presentations."
+                }
+              ],
+              "answer": "C",
+              "focus": "narrowed scope eventually conflicts",
+              "explain": "지문의 'narrowed scope eventually conflicts' 부분 참조 → C: 임상 범위 제한이 결국 역할의 본래 매력을 약화시킴"
+            },
+            {
+              "id": 6,
+              "stem": "In paragraph six, the writer suggests that incentive schemes persist as a policy response mainly because",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "professional bodies have consistently blocked curriculum reforms that would increase rural clinical placements."
+                },
+                {
+                  "key": "B",
+                  "text": "they produce outcomes that are politically visible within a timeframe suited to elected officials' interests."
+                },
+                {
+                  "key": "C",
+                  "text": "workforce data from educational reform is too difficult to collect within a meaningful policy cycle."
+                },
+                {
+                  "key": "D",
+                  "text": "ministers are advised by consultants whose continued contracts depend on continued incentive programme spending."
+                }
+              ],
+              "answer": "B",
+              "focus": "temporal mismatch",
+              "explain": "지문의 'temporal mismatch' 부분 참조 → B: 선출 공무원에게 적합한 시간대 내에 정치적으로 가시적인 결과를 냄"
+            },
+            {
+              "id": 7,
+              "stem": "According to paragraph seven, rural areas that invest in community infrastructure",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "attract mainly single clinicians because family housing in these areas remains prohibitively expensive."
+                },
+                {
+                  "key": "B",
+                  "text": "rely less on co-located clinical services once transport improvements reduce the sense of isolation."
+                },
+                {
+                  "key": "C",
+                  "text": "have already substantially closed the retention gap between rural and metropolitan health services."
+                },
+                {
+                  "key": "D",
+                  "text": "recruit more successfully because clinicians also need social and professional opportunities beyond their clinical work."
+                }
+              ],
+              "answer": "D",
+              "focus": "professional solitude",
+              "explain": "지문의 'professional solitude' 부분 참조 → D: 임상의들도 임상 업무 이외의 사회적·직업적 기회가 필요하기 때문에 채용에 더 성공적"
+            },
+            {
+              "id": 8,
+              "stem": "In the final paragraph, the writer regards the rural workforce problem as ultimately",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "a failure in the relationship between evidence and the political decisions that shape health funding."
+                },
+                {
+                  "key": "B",
+                  "text": "a challenge that can only be resolved through meaningful involvement of the private healthcare sector."
+                },
+                {
+                  "key": "C",
+                  "text": "likely to improve once rural salaries reach genuine parity with those available in metropolitan centres."
+                },
+                {
+                  "key": "D",
+                  "text": "evidence that health ministries lack sufficient technical expertise to design retention-focused workforce policies."
+                }
+              ],
+              "answer": "A",
+              "focus": "a governance problem in disguise",
+              "explain": "지문의 'a governance problem in disguise' 부분 참조 → A: 증거와 건강 재정을 형성하는 정치적 결정 사이의 관계 실패"
+            }
+          ],
+          "focusPhrases": [
+            "hardship posting",
+            "persuaded by money alone",
+            "Stickability",
+            "rural clinical identity",
+            "narrowed scope eventually conflicts",
+            "temporal mismatch",
+            "professional solitude",
+            "a governance problem in disguise"
+          ],
+          "wordCount": 773
+        }
+      ],
+      "gist": [
+        "Part C tests inference, attitude, and meaning — not just surface facts.",
+        "Focus highlights show exactly which phrase each question targets in the passage.",
+        "Both texts argue that a simple, visible intervention (placebo ritual / rural bonus) conceals a deeper structural truth."
+      ],
+      "vocab": [
+        {
+          "term": "nocebo",
+          "gloss": "노시보: 부정적 기대에 의해 유발되는 실제 부작용"
+        },
+        {
+          "term": "equivocal",
+          "gloss": "불분명한·다의적인: 명확하지 않아 해석이 엇갈리는"
+        },
+        {
+          "term": "attrition",
+          "gloss": "이탈·감소: 특히 의료 인력의 꾸준한 자연 감소"
+        },
+        {
+          "term": "open-label placebo",
+          "gloss": "공개 위약: 활성 성분 없음을 알리고 투여하는 위약"
+        },
+        {
+          "term": "rural generalist",
+          "gloss": "농촌 일반의: 농촌에서 광범위한 임상을 담당하는 의사"
+        }
+      ]
     }
   ]
 }

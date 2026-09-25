@@ -7,6 +7,7 @@ const STATE = {
   answers: {},
   graded: false,
   result: null,
+  wrongOnly: false, // review filter: show only wrong / unanswered
 };
 
 const VOCAB_KEY = "oet-partc-vocab-v1";
@@ -52,15 +53,39 @@ function saveProgress(map) {
   localStorage.setItem(PROGRESS_KEY, JSON.stringify(map));
 }
 
-function markSetComplete(setId, score, total) {
+function markSetComplete(setId, score, total, answers) {
   const map = loadProgress();
   map[setId] = {
     done: true,
     score,
     total,
     at: new Date().toISOString(),
+    answers: answers || {}, // kept so the set reopens in review mode
   };
   saveProgress(map);
+}
+
+function resetSetProgress(setId) {
+  const map = loadProgress();
+  delete map[setId];
+  saveProgress(map);
+}
+
+// Was this question answered correctly with the current STATE.answers?
+function isQuestionCorrect(q) {
+  const chosen = STATE.answers[q.id] ?? "";
+  const type = q.type || (q.options ? "mcq" : "shortAnswer");
+  if (type === "shortAnswer" || type === "gapFill") return isAnswerCorrect(q, chosen);
+  return chosen === q.answer;
+}
+
+// Wrong/unanswered questions for a set, evaluated against a saved answer map.
+function wrongQuestionsFor(s, answers) {
+  const saved = STATE.answers;
+  STATE.answers = answers || {};
+  const out = questionList(s).filter((q) => !isQuestionCorrect(q));
+  STATE.answers = saved;
+  return out;
 }
 
 function setProgress(setId) {
@@ -110,6 +135,14 @@ function getFocusPhrases(set, extra = []) {
   for (const q of set.questions || []) {
     stems.push(q.stem);
     if (q.focus) fromQ.push(q.focus);
+    // Part A: short answers / gap fills are verbatim lifts from the texts
+    if (
+      (q.type === "shortAnswer" || q.type === "gapFill") &&
+      typeof q.answer === "string" &&
+      q.answer.length >= 2
+    ) {
+      fromQ.push(q.answer);
+    }
   }
   for (const t of set.texts || []) {
     for (const q of t.questions || []) {
@@ -208,6 +241,10 @@ function render() {
     setTitle("단어장");
     main.innerHTML = renderVocab();
     bindVocab();
+  } else if (STATE.view === "wrong") {
+    setTitle("오답 노트");
+    main.innerHTML = renderWrongNote();
+    bindHome(); // reuses [data-set] → openSet
   } else if (STATE.view === "set") {
     const s = currentSet();
     setTitle(
@@ -228,10 +265,20 @@ function renderHome() {
     { id: "B", label: "Part B", blurb: "발췌 6개 · 각 3지선다 (발췌+문제 한 화면)" },
     { id: "C", label: "Part C", blurb: "긴 지문 2개 · 8문항씩 (Q7–14 / Q15–22)" },
   ];
+  const allProgress = loadProgress();
+  const totalWrong = STATE.data.sets.reduce((n, s) => {
+    const p = allProgress[s.id];
+    return p?.done && p.answers ? n + wrongQuestionsFor(s, p.answers).length : n;
+  }, 0);
+  const doneSets = STATE.data.sets.filter((s) => allProgress[s.id]?.done).length;
   let html = `
     <div class="card">
       <h1>OET Reading Practice</h1>
       <p class="lead">${STATE.data.note}<br/>문제에서 묻는 표현은 지문에 <strong class="focus"><u>굵게+밑줄</u></strong>로 표시됩니다. 모르는 단어는 선택 후 하이라이트 저장 → 단어장.</p>
+      <div class="home-tools">
+        <button type="button" class="btn secondary" id="wrongNoteBtn">오답 노트 (${totalWrong})</button>
+        <span class="home-meta">${doneSets}/${STATE.data.sets.length} 세트 완료</span>
+      </div>
     </div>
     <div class="part-tabs">
       ${parts
@@ -272,8 +319,11 @@ function renderHome() {
           .join(" + ")}`
       : "";
     const prog = progress[s.id];
+    const wrongN = prog?.done && prog.answers ? wrongQuestionsFor(s, prog.answers).length : 0;
     const status = prog?.done
-      ? `<span class="status done">완료 ${prog.score}/${prog.total}</span>`
+      ? `<span class="status done">완료 ${prog.score}/${prog.total}${
+          wrongN ? ` · 오답 ${wrongN}` : ""
+        }</span>`
       : `<span class="status todo">미완료</span>`;
     html += `
       <button class="set-btn ${prog?.done ? "is-done" : ""}" data-set="${s.id}">
@@ -288,7 +338,67 @@ function renderHome() {
         <span>${nQ} questions${wcHint}</span>
       </button>`;
   }
+  if (doneCount) {
+    html += `<div class="actions" style="position:static;margin-top:14px">
+      <button class="btn secondary danger" id="resetAllBtn">Part ${STATE.part} 기록 전체 초기화</button>
+    </div>`;
+  }
   return html;
+}
+
+// ---------- 오답 노트: every wrong/unanswered question across completed sets ----------
+function optionText(q, key) {
+  const o = (q.options || []).find((x) => x.key === key);
+  return o ? `${key}. ${o.text}` : key || "";
+}
+
+function renderWrongNote() {
+  const progress = loadProgress();
+  const blocks = [];
+  let total = 0;
+  for (const s of STATE.data.sets) {
+    const p = progress[s.id];
+    if (!p?.done || !p.answers) continue;
+    const wrong = wrongQuestionsFor(s, p.answers);
+    if (!wrong.length) continue;
+    total += wrong.length;
+    // Part B items carry stem/explain on the item, not on questionList entries
+    const items = s.part === "B" ? Object.fromEntries((s.items || []).map((it) => [it.id, it])) : {};
+    blocks.push(`
+      <div class="card">
+        <div class="set-btn-top">
+          <span class="pack-label">Test ${String(s.setNum).padStart(2, "0")} · Part ${s.part}</span>
+          <span class="status done">${p.score}/${p.total} · 오답 ${wrong.length}</span>
+        </div>
+        <strong>${escapeHtml(s.title)}</strong>
+        ${wrong
+          .map((q0) => {
+            const q = s.part === "B" ? { ...q0, stem: items[q0.id]?.stem, explain: items[q0.id]?.explain } : q0;
+            const mine = p.answers[q.id] ?? "";
+            const type = q.type || (q.options ? "mcq" : "shortAnswer");
+            const isText = type === "shortAnswer" || type === "gapFill";
+            const label = q.textIdx !== undefined ? `Text ${q.textIdx + 1} · ` : "";
+            return `
+            <div class="wrong-item">
+              <div class="q-stem">${label}${q.id}. ${escapeHtml(q.stem || "")}</div>
+              <div class="wrong-cmp">
+                <div class="mine">내 답: ${mine ? escapeHtml(isText ? mine : optionText(q, mine)) : "<em>미응답</em>"}</div>
+                <div class="key">정답: ${escapeHtml(isText ? q.answer : optionText(q, q.answer))}</div>
+              </div>
+              ${q.focus ? `<div class="wrong-focus">지문 단서: <mark class="focus"><strong><u>${escapeHtml(q.focus)}</u></strong></mark></div>` : ""}
+              ${q.explain ? `<div class="explain">${escapeHtml(q.explain)}</div>` : ""}
+            </div>`;
+          })
+          .join("")}
+        <div class="actions" style="position:static;margin-top:10px">
+          <button class="btn secondary" data-set="${s.id}">세트 열기 (해설)</button>
+        </div>
+      </div>`);
+  }
+  if (!blocks.length) {
+    return `<div class="card"><p class="empty">아직 오답이 없습니다.<br/>세트를 풀고 채점하면 틀린 문항이 여기에 모입니다.</p></div>`;
+  }
+  return `<div class="card"><p class="lead">틀렸거나 비워 둔 문항 ${total}개. 내 답과 정답을 비교하고 지문 단서·해설을 확인하세요. 세트를 다시 풀어 채점하면 이 목록도 갱신됩니다.</p></div>${blocks.join("")}`;
 }
 
 function passageLabel(s) {
@@ -423,7 +533,12 @@ function renderDualReview(s) {
         <h2 class="q-group">${escapeHtml(p.t.label)}: Questions ${p.qs[0]?.id}–${
           p.qs[p.qs.length - 1]?.id
         } · ${p.ok}/${p.total}</h2>
-        ${p.qs.map((q) => renderQuestion(q, true)).join("")}
+        ${(() => {
+          const shown = reviewFilter(p.qs);
+          return shown.length
+            ? shown.map((q) => renderQuestion(q, true)).join("")
+            : emptyWrongNote();
+        })()}
       </div>`;
   }
   if (s.gist?.length || s.vocab?.length) {
@@ -445,11 +560,7 @@ function renderDualReview(s) {
     }
     html += `</div>`;
   }
-  html += `
-    <div class="actions">
-      <button class="btn secondary" id="retryBtn">다시 풀기</button>
-      <button class="btn primary" id="homeBtn">목록으로</button>
-    </div>`;
+  html += reviewActions();
   return html;
 }
 
@@ -547,8 +658,15 @@ function renderQuestionsView(s, showResult) {
       <div class="section-hint"><strong>Text 2</strong> Questions 9–16</div>`;
   }
   let qsHtml = "";
+  const filt = showResult ? reviewFilter : (qs) => qs;
   if (s.part === "B") {
-    qsHtml = (s.items || [])
+    const items = (s.items || []).filter((it) =>
+      showResult && STATE.wrongOnly
+        ? !isQuestionCorrect({ id: it.id, answer: it.answer, options: it.options })
+        : true
+    );
+    if (!items.length) qsHtml = emptyWrongNote();
+    qsHtml += items
       .map((it) => {
         const ph = getFocusPhrases(s, it.focusPhrases || []);
         const q = {
@@ -571,21 +689,27 @@ function renderQuestionsView(s, showResult) {
   } else if (s.part === "A") {
     // Group 1-7 / 8-15 / 16-20 like the paper (must run before texts?.length —
     // Part A also has texts A–D, but questions live on the set, not inside each text)
-    const qs = s.questions || [];
+    const qs = filt(s.questions || []);
     const g1 = qs.filter((q) => q.id >= 1 && q.id <= 7);
     const g2 = qs.filter((q) => q.id >= 8 && q.id <= 15);
     const g3 = qs.filter((q) => q.id >= 16 && q.id <= 20);
-    qsHtml = `
+    if (!qs.length) qsHtml = emptyWrongNote();
+    if (g1.length) {
+      qsHtml += `
       <h2 class="q-group">Questions 1–7</h2>
       <p class="which-prompt">${escapeHtml(
-        s.sharedWhichPrompt ||
-          "In which text can you find information about"
+        s.sharedWhichPrompt || "In which text can you find information about"
       )}</p>
-      ${g1.map((q) => renderQuestion(q, showResult, { shortWhich: true })).join("")}
-      <h2 class="q-group">Questions 8–15</h2>
-      ${g2.map((q) => renderQuestion(q, showResult)).join("")}
-      <h2 class="q-group">Questions 16–20</h2>
+      ${g1.map((q) => renderQuestion(q, showResult, { shortWhich: true })).join("")}`;
+    }
+    if (g2.length) {
+      qsHtml += `<h2 class="q-group">Questions 8–15</h2>
+      ${g2.map((q) => renderQuestion(q, showResult)).join("")}`;
+    }
+    if (g3.length) {
+      qsHtml += `<h2 class="q-group">Questions 16–20</h2>
       ${g3.map((q) => renderQuestion(q, showResult)).join("")}`;
+    }
   } else if (s.part === "C" && s.texts?.length) {
     qsHtml = s.texts
       .map((t, idx) => {
@@ -606,9 +730,10 @@ function renderQuestionsView(s, showResult) {
       })
       .join("");
   } else {
-    qsHtml = (s.questions || [])
-      .map((q) => renderQuestion(q, showResult))
-      .join("");
+    const qs = filt(s.questions || []);
+    qsHtml = qs.length
+      ? qs.map((q) => renderQuestion(q, showResult)).join("")
+      : emptyWrongNote();
   }
 
   let extras = "";
@@ -634,15 +759,34 @@ function renderQuestionsView(s, showResult) {
   }
 
   const actions = showResult
-    ? `<div class="actions">
-        <button class="btn secondary" id="retryBtn">다시 풀기</button>
-        <button class="btn primary" id="homeBtn">목록으로</button>
-      </div>`
+    ? reviewActions()
     : `<div class="actions">
         <button class="btn primary" id="submitBtn">제출 · 채점</button>
       </div>`;
 
   return `<div class="card">${extras}${sectionHints}${qsHtml}</div>${actions}`;
+}
+
+// Review-mode helpers -------------------------------------------------------
+function reviewFilter(qs) {
+  return STATE.wrongOnly ? qs.filter((q) => !isQuestionCorrect(q)) : qs;
+}
+
+function reviewActions() {
+  const wrongN = questionList(currentSet()).filter((q) => !isQuestionCorrect(q)).length;
+  return `
+    <div class="actions review-actions">
+      <button class="btn secondary" id="wrongToggle">${
+        STATE.wrongOnly ? "전체 보기" : `오답만 보기 (${wrongN})`
+      }</button>
+      <button class="btn secondary" id="retryBtn">다시 풀기</button>
+      <button class="btn secondary danger" id="resetBtn">초기화</button>
+      <button class="btn primary" id="homeBtn">목록으로</button>
+    </div>`;
+}
+
+function emptyWrongNote() {
+  return `<p class="empty">오답이 없습니다 — 전부 정답!</p>`;
 }
 
 function normalizeAnswer(s) {
@@ -789,16 +933,42 @@ function bindHome() {
       render();
       return;
     }
+    if (e.target.id === "wrongNoteBtn") {
+      STATE.view = "wrong";
+      render();
+      return;
+    }
+    if (e.target.id === "resetAllBtn") {
+      if (confirm(`Part ${STATE.part}의 모든 세트 기록(점수·내 답)을 지울까요?`)) {
+        const map = loadProgress();
+        for (const s of setsForPart(STATE.part)) delete map[s.id];
+        saveProgress(map);
+        render();
+        toast("초기화했습니다");
+      }
+      return;
+    }
     const btn = e.target.closest("[data-set]");
     if (!btn) return;
     openSet(btn.dataset.set);
   };
 }
 
-function openSet(id) {
+function openSet(id, opts = {}) {
   STATE.setId = id;
   STATE.view = "set";
+  STATE.wrongOnly = false;
   const s = currentSet();
+  const prog = loadProgress()[id];
+  if (!opts.fresh && prog?.done && prog.answers) {
+    // completed before → reopen straight into review with my answers marked
+    STATE.answers = { ...prog.answers };
+    STATE.graded = true;
+    STATE.result = { score: prog.score, total: prog.total };
+    STATE.tab = "review";
+    render();
+    return;
+  }
   STATE.tab = s && isDual(s) ? "text0" : s?.part === "B" ? "questions" : "passage";
   STATE.answers = {};
   STATE.graded = false;
@@ -865,9 +1035,23 @@ function bindSet() {
       return;
     }
     if (e.target.id === "retryBtn") {
-      openSet(STATE.setId);
+      // fresh attempt; the saved record is replaced when you submit again
+      openSet(STATE.setId, { fresh: true });
       const s = currentSet();
       STATE.tab = s && isDual(s) ? "text0" : "questions";
+      render();
+      return;
+    }
+    if (e.target.id === "resetBtn") {
+      if (confirm("이 세트의 기록(점수·내 답)을 지우고 처음부터 다시 풀까요?")) {
+        resetSetProgress(STATE.setId);
+        openSet(STATE.setId, { fresh: true });
+        toast("기록을 초기화했습니다");
+      }
+      return;
+    }
+    if (e.target.id === "wrongToggle") {
+      STATE.wrongOnly = !STATE.wrongOnly;
       render();
       return;
     }
@@ -921,7 +1105,7 @@ function grade() {
   }
   STATE.graded = true;
   STATE.result = { score, total: qs.length };
-  markSetComplete(s.id, score, qs.length);
+  markSetComplete(s.id, score, qs.length, STATE.answers);
   STATE.tab = "review";
   STATE.view = "set";
   render();
@@ -1073,7 +1257,7 @@ async function lookupWord(term, setId) {
 
 async function init() {
   $("btnBack").onclick = () => {
-    if (STATE.view === "set" || STATE.view === "vocab") {
+    if (STATE.view !== "home") {
       STATE.view = "home";
       render();
     }
@@ -1083,7 +1267,7 @@ async function init() {
     render();
   };
 
-  const DATA_V = "202609252012"; // bump when data/*.json changes (Safari caches aggressively)
+  const DATA_V = "202609252036"; // bump when data/*.json changes (Safari caches aggressively)
   const [cRes, aRes, bRes] = await Promise.all([
     fetch(`data/partC.json?v=${DATA_V}`, { cache: "no-cache" }),
     fetch(`data/partA.json?v=${DATA_V}`, { cache: "no-cache" }),

@@ -1,0 +1,193 @@
+{
+  "id": "B-03",
+  "part": "B",
+  "setNum": 3,
+  "type": "workplace",
+  "title": "Emergency department & radiology extracts",
+  "instruction": "Six workplace extracts. Choose A, B or C. Focus phrases highlighted.",
+  "items": [
+    {
+      "id": 1,
+      "extract": "Extract from the radiology department contrast media allergy policy:\n\nAll patients must be screened for prior adverse reactions to iodinated contrast media at the time of referral. Patients who have experienced a prior moderate or severe reaction — defined as bronchospasm, laryngeal oedema, or any reaction requiring emergency treatment — must receive a corticosteroid pre-medication protocol (methylprednisolone 32 mg orally at 12 hours and 2 hours before contrast administration) and must not proceed without an anaesthetist informed and available. A low-osmolality, non-ionic agent must be used in all cases of prior reaction, regardless of severity. Patients with mild prior reactions such as urticaria, flushing, or limited pruritus may proceed after a risk–benefit discussion documented by the reporting radiologist. Renal function must be checked within 72 hours of any contrast-enhanced CT in patients prescribed metformin or with an estimated GFR below 45 mL/min/1.73 m². Record all decisions in the radiology information system before the patient enters the scan room.",
+      "stem": "According to the policy, patients who have experienced a prior moderate or severe contrast reaction must",
+      "options": [
+        {
+          "key": "A",
+          "text": "use a low-osmolality, non-ionic agent and arrange a documented risk–benefit discussion with the reporting radiologist before the scan."
+        },
+        {
+          "key": "B",
+          "text": "have renal function checked within 72 hours and be reviewed by an anaesthetist to confirm they are safe to receive contrast."
+        },
+        {
+          "key": "C",
+          "text": "receive the corticosteroid pre-medication protocol and not proceed until an anaesthetist has been informed and is available."
+        }
+      ],
+      "answer": "C",
+      "explain": "핵심: prior moderate or severe reaction → pre-medication protocol AND anaesthetist informed and available before proceeding.",
+      "focusPhrases": [
+        "prior moderate or severe reaction",
+        "pre-medication protocol",
+        "anaesthetist informed and available"
+      ]
+    },
+    {
+      "id": 2,
+      "extract": "Memo from the ED clinical lead to all triage nursing staff:\n\nIt has come to my attention that triage timestamps are not always being entered at the actual moment of patient assessment. Entering the time retrospectively — even by a few minutes — distorts our four-hour performance data and, more seriously, masks real delays in identifying high-acuity patients. From Monday, all nurses must log the triage timestamp at the point of face-to-face assessment, not on return from a cubicle or at end of shift. If the electronic system is temporarily unavailable, record the time on the paper triage card immediately and transfer it to the system as soon as access is restored, noting any discrepancy. Persistent retrospective entry will be treated as a documentation breach and managed through the Trust's conduct procedure. Please discuss any system-access difficulties with your shift coordinator rather than working around them.",
+      "stem": "The memo mainly tells triage nurses to",
+      "options": [
+        {
+          "key": "A",
+          "text": "record the triage time at the point of face-to-face assessment and not enter it retrospectively."
+        },
+        {
+          "key": "B",
+          "text": "report any patient waiting more than four hours directly to the clinical lead before the end of their shift."
+        },
+        {
+          "key": "C",
+          "text": "contact the shift coordinator whenever they encounter difficulties accessing the electronic triage system."
+        }
+      ],
+      "answer": "A",
+      "explain": "핵심: log the triage timestamp at the point of face-to-face assessment — not retrospectively.",
+      "focusPhrases": [
+        "log the triage timestamp",
+        "point of face-to-face assessment",
+        "retrospective entry"
+      ]
+    },
+    {
+      "id": 3,
+      "extract": "Notice from the Radiation Protection Supervisor — mandatory reading for all emergency department staff:\n\nAll clinical staff working in areas where ionising radiation is used must hold a current radiation awareness certificate. This certificate must be renewed every three years. Certificates obtained through external providers are acceptable only if the course content has been pre-approved by the Trust Radiation Protection Adviser. Staff without a valid certificate may not enter a controlled radiation area while a procedure is in progress, even if accompanied by a certificated colleague. Temporary or locum staff must provide evidence of a valid certificate before commencing duties in the department. Line managers are responsible for confirming compliance before a new member of staff begins work in a radiation area. Do not assume that completing the Trust induction covers this requirement — the radiation awareness certificate is a separate, mandatory qualification with its own renewal cycle.",
+      "stem": "The purpose of this notice is to",
+      "options": [
+        {
+          "key": "A",
+          "text": "inform staff that they may enter controlled radiation areas freely provided they are accompanied by a colleague who holds a current certificate."
+        },
+        {
+          "key": "B",
+          "text": "remind staff that a valid radiation awareness certificate must be held, renewed every three years, and is a requirement separate from Trust induction."
+        },
+        {
+          "key": "C",
+          "text": "require line managers to obtain radiation awareness certificates on behalf of any new staff member before those staff are permitted to start."
+        }
+      ],
+      "answer": "B",
+      "explain": "핵심: current radiation awareness certificate — renewed every three years — separate, mandatory qualification distinct from Trust induction.",
+      "focusPhrases": [
+        "current radiation awareness certificate",
+        "renewed every three years",
+        "separate, mandatory qualification"
+      ]
+    },
+    {
+      "id": 4,
+      "extract": "Extract from the emergency department CT head referral guideline (adapted from NICE Head Injury guidance):\n\nA CT scan of the head is indicated within one hour of the decision to scan if the patient has any of the following: GCS below 13 at any point since injury; GCS 13 or 14 at two hours post-injury; suspected open or depressed skull fracture; signs of basal skull fracture (haemotympanum, periorbital bruising, cerebrospinal fluid from ear or nose, or Battle's sign); post-traumatic seizure with no prior seizure history; focal neurological deficit; or more than one episode of vomiting. In patients aged 65 or older, amnesia for events more than 30 minutes before impact is sufficient to trigger immediate scanning. Anticoagulant therapy is an additional independent indication for immediate CT regardless of GCS. Do not use plain skull X-ray as a substitute for CT in any patient meeting these criteria. Document the time of scan request in the medical record.",
+      "stem": "The guideline states that",
+      "options": [
+        {
+          "key": "A",
+          "text": "patients aged 65 and over require CT only when their GCS has fallen below 13, not merely because of post-traumatic amnesia of any duration."
+        },
+        {
+          "key": "B",
+          "text": "a plain skull X-ray may be used as an interim investigation before CT in patients whose GCS has remained 14 or above and who have no other high-risk features."
+        },
+        {
+          "key": "C",
+          "text": "anticoagulant therapy alone is an independent indication for immediate CT scanning regardless of the patient's conscious level."
+        }
+      ],
+      "answer": "C",
+      "explain": "핵심: Anticoagulant therapy → immediate CT regardless of GCS; skull X-ray must not be used as a substitute.",
+      "focusPhrases": [
+        "Anticoagulant therapy",
+        "immediate CT regardless of GCS",
+        "skull X-ray as a substitute"
+      ]
+    },
+    {
+      "id": 5,
+      "extract": "ED to radiology handover note — Mr Okafor, cubicle 7:\n\nMr Okafor is a 71-year-old gentleman referred for urgent CT pulmonary angiography to exclude pulmonary embolism. Wells score 6 (high probability); D-dimer 4.1 µg/mL. He is prescribed apixaban 5 mg twice daily; last dose taken this morning. Observations: blood pressure 94/60 mmHg, heart rate 116 bpm, SpO₂ 86% on 6 L oxygen via face mask. He has a documented iodinated contrast allergy (urticaria in 2019); oral pre-medication was not given due to clinical urgency, and the ED registrar has accepted responsibility with written documentation in the notes. IV access is secured in the right antecubital fossa. Please ensure the radiologist is aware of the contrast allergy before proceeding and that the anaesthetic team is on standby. Results and images are required in the emergency department immediately.",
+      "stem": "The note indicates that",
+      "options": [
+        {
+          "key": "A",
+          "text": "pre-medication was omitted due to clinical urgency, so the radiologist must be warned of the contrast allergy before scanning proceeds."
+        },
+        {
+          "key": "B",
+          "text": "the anaesthetic team administered the pre-medication protocol before transfer and will supervise the procedure at the scanner to manage any adverse reaction."
+        },
+        {
+          "key": "C",
+          "text": "the ED registrar will personally accompany Mr Okafor to the scanner and accept clinical responsibility for the contrast decision on site."
+        }
+      ],
+      "answer": "A",
+      "explain": "핵심: pre-medication was not given due to clinical urgency — contrast allergy must be communicated — anaesthetic team on standby.",
+      "focusPhrases": [
+        "pre-medication was not given due to clinical urgency",
+        "contrast allergy",
+        "anaesthetic team is on standby"
+      ]
+    },
+    {
+      "id": 6,
+      "extract": "Extract from the emergency department sepsis screening standard operating procedure:\n\nAll patients presenting to the emergency department must be screened for sepsis using the National Early Warning Score 2 at the point of triage. Where NEWS2 is 5 or above, or where the triage nurse suspects an infective source, the sepsis screening tool must be completed within 15 minutes and a senior clinician notified without delay. Do not wait for laboratory results before commencing the sepsis bundle. The first dose of antibiotics must be administered within one hour of the sepsis alert being raised, irrespective of whether all blood cultures have been collected. Where a blood culture cannot be taken without causing undue delay to antibiotic administration, give antibiotics first and document the reason clearly in the medical record. Antibiotic choice must follow the Trust empirical therapy guide for the suspected source, available at each workstation and on the intranet.",
+      "stem": "The SOP states that",
+      "options": [
+        {
+          "key": "A",
+          "text": "blood cultures must always be obtained before any antibiotic is given, even in patients for whom taking cultures would cause undue delay."
+        },
+        {
+          "key": "B",
+          "text": "antibiotics must be given within one hour of the sepsis alert being raised, irrespective of whether blood cultures have been taken."
+        },
+        {
+          "key": "C",
+          "text": "the senior clinician must complete the sepsis screening tool before the triage nurse raises the alert or notifies anyone."
+        }
+      ],
+      "answer": "B",
+      "explain": "핵심: antibiotics within one hour of the sepsis alert — irrespective of whether all blood cultures collected — give antibiotics first if cultures would delay.",
+      "focusPhrases": [
+        "within one hour of the sepsis alert",
+        "irrespective of whether all blood cultures",
+        "give antibiotics first"
+      ]
+    }
+  ],
+  "gist": [
+    "Part B = purpose or main point of a short workplace text; watch must / do not / unless / irrespective.",
+    "Distractors often reverse a key condition (e.g. 'cultures before antibiotics') or misattribute a rule to the wrong staff group.",
+    "Focus phrases carry the answer — locate them in the text first, then read the surrounding sentence carefully."
+  ],
+  "vocab": [
+    {
+      "term": "bronchospasm",
+      "gloss": "기관지경련: 기도 평활근 수축으로 인한 호흡곤란"
+    },
+    {
+      "term": "haemotympanum",
+      "gloss": "고실혈액: 두개저 골절 징후로 고막 뒤에 혈액이 고임"
+    },
+    {
+      "term": "Battle's sign",
+      "gloss": "배틀 징후: 유양돌기 부위 반상출혈, 두개저 골절 시 관찰됨"
+    },
+    {
+      "term": "empirical therapy",
+      "gloss": "경험적 치료: 병원체 확인 전 임상 판단에 따른 항생제 투여"
+    },
+    {
+      "term": "Wells score",
+      "gloss": "웰스 점수: 폐색전증 임상 확률 평가 도구"
+    }
+  ]
+}

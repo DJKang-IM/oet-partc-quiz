@@ -1,0 +1,197 @@
+{
+  "id": "B-10",
+  "part": "B",
+  "setNum": 10,
+  "type": "workplace",
+  "title": "Rehabilitation, discharge planning & community care extracts",
+  "instruction": "Six workplace extracts. Choose A, B or C. Focus phrases highlighted.",
+  "items": [
+    {
+      "id": 1,
+      "extract": "Memo from the physiotherapy lead to all ward physiotherapists:\n\nFollowing the review of post-operative falls on Wards 6 and 7, we are updating the weight-bearing status documentation process with immediate effect. All weight-bearing orders must be transcribed onto the mobility board at the bedside within one hour of receipt. 'Partial weight-bearing' is not an acceptable entry; specify the permitted load in kilograms or as a percentage of body weight (e.g. 20 kg or 30%). Where the surgeon has not specified load, contact the operating team the same day rather than defaulting to non-weight-bearing. Patients must not be assisted to mobilise until the status is confirmed and documented. Physiotherapists handing over at shift change must verbally confirm the current order to the oncoming colleague; do not assume the board is always up to date. Any discrepancy must be escalated to the ward manager immediately.",
+      "stem": "The memo mainly tells physiotherapists to",
+      "options": [
+        {
+          "key": "A",
+          "text": "document a specific weight-bearing load and confirm the order verbally at handover."
+        },
+        {
+          "key": "B",
+          "text": "contact the ward manager before mobilising any post-operative patient on Wards 6 and 7."
+        },
+        {
+          "key": "C",
+          "text": "default to non-weight-bearing status whenever the surgeon has not provided written instructions."
+        }
+      ],
+      "answer": "A",
+      "explain": "핵심: specify load in kg or %; confirm verbally at handover. B overstates scope; C directly contradicts the instruction.",
+      "focusPhrases": [
+        "specify the permitted load",
+        "verbally confirm",
+        "not an acceptable entry"
+      ]
+    },
+    {
+      "id": 2,
+      "extract": "Extract from the community home oxygen assessment policy:\n\nA home oxygen order form (HOOF) must be completed by a clinician with prescribing authority before any oxygen concentrator is installed in the patient's home. Ambulatory oxygen should be assessed separately from long-term oxygen therapy (LTOT); do not assume a patient assessed for LTOT automatically qualifies for ambulatory use. Qualifying criteria for LTOT require resting SaO₂ ≤ 92% on air on two occasions at least three weeks apart, when the patient is clinically stable. The fire safety checklist must be completed by the referring clinician, not delegated to the oxygen supplier. Smoking status must be documented; oxygen must not be commenced if there is an active smoker in the household unless a written safety plan is in place and the patient and all household members have been counselled. Home visits by the oxygen supplier do not replace the clinician's assessment.",
+      "stem": "According to the policy, the fire safety checklist",
+      "options": [
+        {
+          "key": "A",
+          "text": "may be delegated to the oxygen supplier to complete during the initial home installation visit."
+        },
+        {
+          "key": "B",
+          "text": "must be completed by the clinician who is making the referral, not by the supplier."
+        },
+        {
+          "key": "C",
+          "text": "is only required when there is an active smoker or unsupervised child living in the household."
+        }
+      ],
+      "answer": "B",
+      "explain": "핵심: fire safety checklist must be completed by the referring clinician, not delegated to the oxygen supplier.",
+      "focusPhrases": [
+        "fire safety checklist",
+        "not delegated to the oxygen supplier",
+        "referring clinician"
+      ]
+    },
+    {
+      "id": 3,
+      "extract": "Pressure ulcer prevention notice — all clinical areas:\n\nWith immediate effect, all patients assessed as medium or high risk on the Waterlow scale must have a documented repositioning plan in place within four hours of admission. The plan must state the frequency of repositioning (minimum two-hourly for high-risk patients) and the equipment prescribed (e.g. alternating pressure mattress, heel protectors). Do not wait for a tissue viability nurse referral before starting basic preventive care. Referral to the tissue viability team is required for all patients who arrive with a pre-existing pressure ulcer of any grade or who develop a category 2 or above during their stay. Photographic documentation of existing skin damage must be taken at admission and repeated at 72-hour intervals. Staff must not reposition patients over, rather than off, bony prominences. Any new category 2 or above must be reported via Datix within 24 hours.",
+      "stem": "The purpose of this notice is to",
+      "options": [
+        {
+          "key": "A",
+          "text": "remind staff to await a tissue viability nurse referral before initiating any repositioning or equipment plan."
+        },
+        {
+          "key": "B",
+          "text": "instruct staff to start preventive measures promptly and report new ulcers through the incident system."
+        },
+        {
+          "key": "C",
+          "text": "require photographic documentation of all patients' skin on admission regardless of their Waterlow score."
+        }
+      ],
+      "answer": "B",
+      "explain": "핵심: start preventive care promptly (don't wait for TVN); report via Datix within 24 hours. A reverses the instruction; C overstates the photography requirement.",
+      "focusPhrases": [
+        "Do not wait",
+        "basic preventive care",
+        "reported via Datix"
+      ]
+    },
+    {
+      "id": 4,
+      "extract": "Community nursing referral SOP — district nursing team:\n\nReferrals to the district nursing service must be submitted via the electronic referral system (ERS) and must include: diagnosis, current medications, wound care requirements if applicable, mobility status, next of kin contact details, and whether the patient has a keysafe or other access arrangement. Verbal referrals are not accepted except in genuine clinical emergencies, in which case a written ERS entry must follow within two hours. Discharge referrals must be received no later than 10:00 on the day of discharge to allow scheduling; referrals received after this time may result in a gap in care. The referring ward nurse is responsible for confirming that the patient has been informed a community nurse will visit. Do not give patients a specific appointment time; the team will contact them directly to arrange a suitable window. Ensure the GP has been notified of the referral at the point of submission.",
+      "stem": "The SOP states that verbal referrals",
+      "options": [
+        {
+          "key": "A",
+          "text": "are acceptable for all discharge referrals as long as a written ERS entry is completed before the patient leaves the ward."
+        },
+        {
+          "key": "B",
+          "text": "are never acceptable under any circumstances and must in all cases be replaced immediately by an electronic ERS submission."
+        },
+        {
+          "key": "C",
+          "text": "are only permitted in genuine clinical emergencies and must be followed by a written ERS entry within two hours."
+        }
+      ],
+      "answer": "C",
+      "explain": "핵심: verbal referrals accepted only in genuine emergencies; written ERS entry must follow within two hours.",
+      "focusPhrases": [
+        "genuine clinical emergencies",
+        "written ERS entry must follow within two hours",
+        "Verbal referrals are not accepted"
+      ]
+    },
+    {
+      "id": 5,
+      "extract": "Extract from the care home discharge guideline:\n\nPatients being discharged to a care home must not leave the ward until the receiving home has explicitly confirmed it can accept the patient on that date. Acceptance by phone alone is insufficient; written confirmation (email or secure message) must be on file before transport is arranged. The ward must supply the care home with a copy of the hospital discharge summary, current medication administration record (MAR), wound care plan, and the most recent nutritional assessment. Where the patient requires regular nursing procedures (e.g. PEG feeding, catheter care, syringe driver management), the ward nurse must contact the care home lead nurse directly to confirm staff competence. If competence cannot be confirmed, the discharge must be paused and the multidisciplinary team (MDT) notified. Do not document 'MDT agreed' on the discharge paperwork unless a formal MDT meeting or case conference has taken place.",
+      "stem": "The guideline states that written confirmation from the care home",
+      "options": [
+        {
+          "key": "A",
+          "text": "is only required when the patient needs regular nursing procedures such as PEG feeding or catheter care."
+        },
+        {
+          "key": "B",
+          "text": "must be obtained and filed before transport to the care home is arranged."
+        },
+        {
+          "key": "C",
+          "text": "replaces the need for the ward nurse to contact the care home lead nurse directly."
+        }
+      ],
+      "answer": "B",
+      "explain": "핵심: written confirmation must be on file before transport is arranged. A confuses confirmation with competence check; C contradicts the direct contact requirement.",
+      "focusPhrases": [
+        "written confirmation",
+        "must be on file",
+        "before transport is arranged"
+      ]
+    },
+    {
+      "id": 6,
+      "extract": "Occupational therapy handover note — rehabilitation unit:\n\nMr Okonkwo (Bed 14) was reviewed today for home assessment planning. He is currently independent in transfers with a wheeled Zimmer frame on level surfaces but requires standby assistance on stairs. His home has seven steps to the front door with no handrail on the right-hand side; installation of a grab rail has been requested via the housing adaptation service, with estimated lead time of four to six weeks. Until adaptations are in place, ground-floor living arrangements have been discussed with the family and provisionally agreed. The patient has declined a stair lift assessment at this stage. He will need a commode and a perching stool; equipment has been ordered and delivery is expected within five working days. Discharge should not proceed until equipment is confirmed as delivered and the grab rail installation date is known. Please discuss the estimated discharge date with the consultant at tomorrow's ward round.",
+      "stem": "The note indicates that Mr Okonkwo's discharge",
+      "options": [
+        {
+          "key": "A",
+          "text": "should be deferred until the grab rail installation date is known and all ordered equipment has been delivered."
+        },
+        {
+          "key": "B",
+          "text": "can proceed as soon as the family has confirmed the ground-floor living arrangement is suitable and agreed."
+        },
+        {
+          "key": "C",
+          "text": "depends on the patient consenting to a formal stair lift assessment before he can leave the rehabilitation unit."
+        }
+      ],
+      "answer": "A",
+      "explain": "핵심: discharge should not proceed until equipment delivered and grab rail installation date is known.",
+      "focusPhrases": [
+        "Discharge should not proceed",
+        "equipment is confirmed as delivered",
+        "grab rail installation date is known"
+      ]
+    }
+  ],
+  "gist": [
+    "Part B = identify the main instruction or purpose of each workplace extract.",
+    "Watch for negatives (must not, not accepted, do not wait) — distractors often reverse these.",
+    "Focus phrases are the key clause that directly answers the question."
+  ],
+  "vocab": [
+    {
+      "term": "weight-bearing",
+      "gloss": "체중 부하: 수술 후 허용되는 하중"
+    },
+    {
+      "term": "LTOT",
+      "gloss": "장기 산소 요법 (Long-Term Oxygen Therapy)"
+    },
+    {
+      "term": "Waterlow scale",
+      "gloss": "욕창 위험도 평가 도구"
+    },
+    {
+      "term": "keysafe",
+      "gloss": "열쇠 보관함: 방문 간호사용 자물쇠 상자"
+    },
+    {
+      "term": "MAR",
+      "gloss": "약물 투여 기록지 (Medication Administration Record)"
+    },
+    {
+      "term": "perching stool",
+      "gloss": "반좌위 보조 의자: 서있기 불편한 환자용 높은 의자"
+    }
+  ]
+}

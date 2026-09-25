@@ -48,7 +48,7 @@ def skel_B(n):
             for i in range(1, 7)
         ],
         "gist": ["Part B = purpose/main point of a short workplace text; watch must / do not / unless."],
-        "vocab": [{"term": "TODO", "gloss": "TODO 한국어 뜻"} for _ in range(3)],
+        "vocab": [{"term": "TODO", "gloss": "TODO 한국어 뜻"} for _ in range(4)],
     }
 
 

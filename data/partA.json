@@ -1287,6 +1287,2934 @@
         }
       ],
       "sharedWhichPrompt": "In which text can you find information about"
+    },
+    {
+      "id": "A-04",
+      "part": "A",
+      "setNum": 4,
+      "title": "Community-acquired pneumonia in adults",
+      "type": "partA-full",
+      "instruction": "Look at Texts A–D. Questions 1–7: which text? Questions 8–15: word/short phrase from the texts. Questions 16–20: complete the sentence. Spelling matters. Target: 15 minutes.",
+      "sharedWhichPrompt": "In which text can you find information about",
+      "texts": [
+        {
+          "label": "A",
+          "heading": "CURB-65 severity assessment",
+          "body": "One point is assigned for each of the following criteria:\n• Confusion (new onset; Abbreviated Mental Test Score ≤8, or new disorientation in person, place, or time)\n• Urea >7 mmol/L\n• Respiratory rate ≥30 breaths/min\n• Blood pressure: systolic <90 mmHg or diastolic ≤60 mmHg\n• Age ≥65 years\n\nScore interpretation\n• 0–1: low severity — consider home treatment with oral antibiotics if social circumstances are safe\n• 2: moderate severity — consider hospital admission for supervised assessment and treatment\n• 3–5: high severity — urgent hospital admission required; consider ICU assessment if score 4–5\n\nCURB-65 guides but does not replace clinical judgement. A score of 0 or 1 does not preclude admission if the patient is hypoxic, unable to take oral medication, or lacks adequate home support. Reassess all patients within 24 hours if there is any clinical deterioration."
+        },
+        {
+          "label": "B",
+          "heading": "Empirical antibiotic therapy",
+          "body": "Low severity (CURB-65 0–1)\n• First choice: amoxicillin 500 mg orally three times daily for 5 days\n• Penicillin allergy: clarithromycin 500 mg orally twice daily for 5 days\n\nModerate severity (CURB-65 2)\n• First choice: amoxicillin 500 mg three times daily plus clarithromycin 500 mg twice daily (both oral) for 5 days\n• Penicillin allergy: doxycycline 200 mg loading dose then 100 mg once daily for 5 days\n\nHigh severity (CURB-65 3–5)\n• First choice: co-amoxiclav 1.2 g IV three times daily plus clarithromycin 500 mg IV twice daily\n• Penicillin allergy: levofloxacin 500 mg IV twice daily; seek microbiology advice if atypical organism suspected\n• Switch to oral therapy when apyrexial for ≥24 hours, tolerating diet, and clinically improving; total course 7–10 days\n\nAlways send blood cultures before starting IV antibiotics. Review culture results at 48–72 hours and de-escalate to narrower-spectrum agents where culture and sensitivity permit."
+        },
+        {
+          "label": "C",
+          "heading": "Investigations and oxygen targets",
+          "body": "All patients\n• Chest X-ray to confirm the diagnosis and document the extent of consolidation\n• Full blood count, C-reactive protein, urea and electrolytes, liver function tests, blood glucose\n• Pulse oximetry on arrival; repeat at least every 4 hours until readings are stable\n\nModerate or severe CAP (CURB-65 ≥2)\n• Two sets of blood cultures before antibiotics are given\n• Sputum Gram stain and culture if purulent sputum is produced\n• Urinary pneumococcal antigen test (send regardless of prior antibiotic exposure)\n• Urinary Legionella antigen if cluster, recent travel, or CURB-65 ≥3\n• Arterial blood gas if SpO₂ <94% or clinical respiratory failure is suspected\n\nOxygen therapy targets\nAim for SpO₂ 94–98% in most patients. Use a lower target of 88–92% in patients known or suspected to be at risk of hypercapnic respiratory failure (e.g. COPD or neuromuscular disease). Document the target on the oxygen prescription and reassess every 30 minutes until the patient is stable."
+        },
+        {
+          "label": "D",
+          "heading": "Discharge criteria and follow-up",
+          "body": "Criteria for discharge — all must be met\n• Temperature <37.8°C on two consecutive observations ≥6 hours apart\n• Heart rate <100 beats/min and respiratory rate <24 breaths/min\n• Systolic blood pressure ≥90 mmHg\n• SpO₂ ≥94% breathing air (or at the patient's documented home baseline)\n• Able to take oral medication and tolerating diet and fluids\n• Adequate community support and follow-up arrangements confirmed\n\nSafety-net advice\nAdvise patients to return urgently if breathlessness worsens, temperature rises again, chest pain develops, or haemoptysis occurs. Provide written information on warning signs.\n\nFollow-up\nArrange a follow-up chest X-ray at 6 weeks for patients who smoke, are aged ≥50 years, or have persisting symptoms, to exclude an underlying malignancy. Send a discharge summary to the GP documenting the organism identified (if any), the antibiotic course given, and allergy information recorded during the admission."
+        }
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "whichText",
+          "stem": "the conditions that must all be met before a patient can be discharged?",
+          "answer": "D",
+          "accept": [
+            "D"
+          ],
+          "explain": "Text D — discharge criteria list.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "type": "whichText",
+          "stem": "which antibiotic to prescribe for a patient with penicillin allergy and high-severity CAP?",
+          "answer": "B",
+          "accept": [
+            "B"
+          ],
+          "explain": "Text B — high-severity penicillin-allergy row.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "type": "whichText",
+          "stem": "the criteria scored in the CURB-65 severity assessment?",
+          "answer": "A",
+          "accept": [
+            "A"
+          ],
+          "explain": "Text A — CURB-65 criteria list.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "type": "whichText",
+          "stem": "which urine test to request in patients with moderate or severe pneumonia?",
+          "answer": "C",
+          "accept": [
+            "C"
+          ],
+          "explain": "Text C — urinary pneumococcal antigen.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "type": "whichText",
+          "stem": "the recommended antibiotic course length for low-severity pneumonia?",
+          "answer": "B",
+          "accept": [
+            "B"
+          ],
+          "explain": "Text B — 5 days for low severity.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "type": "whichText",
+          "stem": "when to arrange a follow-up chest X-ray after discharge and what condition it aims to exclude?",
+          "answer": "D",
+          "accept": [
+            "D"
+          ],
+          "explain": "Text D — follow-up CXR at 6 weeks to exclude malignancy.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "type": "whichText",
+          "stem": "the oxygen saturation target for patients at risk of hypercapnic respiratory failure?",
+          "answer": "C",
+          "accept": [
+            "C"
+          ],
+          "explain": "Text C — oxygen targets section.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "type": "shortAnswer",
+          "stem": "What blood urea threshold defines the 'U' criterion in CURB-65?",
+          "answer": ">7 mmol/L",
+          "accept": [
+            ">7 mmol/L",
+            ">7mmol/L",
+            "7 mmol/L",
+            "urea >7 mmol/L"
+          ],
+          "explain": "Text A — Urea criterion: 'Urea >7 mmol/L'."
+        },
+        {
+          "id": 9,
+          "type": "shortAnswer",
+          "stem": "At what CURB-65 score range should consideration of ICU assessment begin?",
+          "answer": "4–5",
+          "accept": [
+            "4–5",
+            "4-5",
+            "score 4–5",
+            "4 or 5"
+          ],
+          "explain": "Text A — 'consider ICU assessment if score 4–5'."
+        },
+        {
+          "id": 10,
+          "type": "shortAnswer",
+          "stem": "Which oral antibiotic is listed as the first choice for low-severity CAP?",
+          "answer": "amoxicillin",
+          "accept": [
+            "amoxicillin",
+            "amoxicillin 500 mg"
+          ],
+          "explain": "Text B — low-severity first-choice row."
+        },
+        {
+          "id": 11,
+          "type": "shortAnswer",
+          "stem": "What total antibiotic course duration is recommended for high-severity community-acquired pneumonia?",
+          "answer": "7–10 days",
+          "accept": [
+            "7–10 days",
+            "7-10 days",
+            "7 to 10 days",
+            "7–10"
+          ],
+          "explain": "Text B — 'total course 7–10 days'."
+        },
+        {
+          "id": 12,
+          "type": "shortAnswer",
+          "stem": "Which IV antibiotic is recommended for high-severity CAP in patients with penicillin allergy?",
+          "answer": "levofloxacin",
+          "accept": [
+            "levofloxacin",
+            "levofloxacin 500 mg"
+          ],
+          "explain": "Text B — penicillin-allergy high-severity row."
+        },
+        {
+          "id": 13,
+          "type": "shortAnswer",
+          "stem": "What oxygen saturation target is recommended for most patients with community-acquired pneumonia?",
+          "answer": "94–98%",
+          "accept": [
+            "94–98%",
+            "94-98%",
+            "SpO₂ 94–98%",
+            "94 to 98%"
+          ],
+          "explain": "Text C — oxygen therapy targets: 'Aim for SpO₂ 94–98%'."
+        },
+        {
+          "id": 14,
+          "type": "shortAnswer",
+          "stem": "Which urine test should be sent for all patients with moderate or severe CAP?",
+          "answer": "urinary pneumococcal antigen",
+          "accept": [
+            "urinary pneumococcal antigen",
+            "pneumococcal antigen",
+            "pneumococcal antigen test"
+          ],
+          "explain": "Text C — 'Urinary pneumococcal antigen test'."
+        },
+        {
+          "id": 15,
+          "type": "shortAnswer",
+          "stem": "After how many weeks should a follow-up chest X-ray be arranged for at-risk patients discharged after CAP?",
+          "answer": "6 weeks",
+          "accept": [
+            "6 weeks",
+            "6",
+            "six weeks"
+          ],
+          "explain": "Text D — 'at 6 weeks for patients who smoke'."
+        },
+        {
+          "id": 16,
+          "type": "gapFill",
+          "stem": "Patients with a CURB-65 score of 0 or 1 can be considered for …………………………………… treatment with oral antibiotics if social circumstances are safe.",
+          "answer": "home",
+          "accept": [
+            "home",
+            "home treatment"
+          ],
+          "explain": "Text A — 'consider home treatment with oral antibiotics if social circumstances are safe'."
+        },
+        {
+          "id": 17,
+          "type": "gapFill",
+          "stem": "For moderate-severity CAP with penicillin allergy, …………………………………… 200 mg is given as a loading dose, followed by 100 mg once daily for 5 days.",
+          "answer": "doxycycline",
+          "accept": [
+            "doxycycline"
+          ],
+          "explain": "Text B — moderate severity penicillin-allergy row: 'doxycycline 200 mg loading dose'."
+        },
+        {
+          "id": 18,
+          "type": "gapFill",
+          "stem": "Patients known or suspected to be at risk of hypercapnic respiratory failure should have a lower oxygen saturation target of ……………………………………",
+          "answer": "88–92%",
+          "accept": [
+            "88–92%",
+            "88-92%",
+            "88 to 92%"
+          ],
+          "explain": "Text C — 'lower target of 88–92%'."
+        },
+        {
+          "id": 19,
+          "type": "gapFill",
+          "stem": "Patients should be told to return urgently if …………………………………… worsens, temperature rises again, or chest pain develops.",
+          "answer": "breathlessness",
+          "accept": [
+            "breathlessness"
+          ],
+          "explain": "Text D — safety-net advice: 'if breathlessness worsens'."
+        },
+        {
+          "id": 20,
+          "type": "gapFill",
+          "stem": "A follow-up chest X-ray is arranged to exclude an underlying …………………………………… in patients who smoke, are aged ≥50 years, or have persisting symptoms.",
+          "answer": "malignancy",
+          "accept": [
+            "malignancy",
+            "cancer",
+            "underlying malignancy"
+          ],
+          "explain": "Text D — follow-up section: 'to exclude an underlying malignancy'."
+        }
+      ],
+      "gist": [
+        "Q1–7 = which text (scan headings and unique clinical markers).",
+        "Q8–15 = copy exact words or numbers from the relevant text.",
+        "Q16–20 = gap-fill: identify the precise term or value from the texts."
+      ],
+      "vocab": [
+        {
+          "term": "consolidation",
+          "gloss": "경화: 폐포에 액체나 염증세포가 차서 단단해진 방사선학적 소견"
+        },
+        {
+          "term": "hypercapnia",
+          "gloss": "고탄산혈증: 혈중 이산화탄소 농도가 비정상적으로 높은 상태"
+        },
+        {
+          "term": "haemoptysis",
+          "gloss": "객혈: 기침 시 혈액이 나오는 증상"
+        },
+        {
+          "term": "apyrexial",
+          "gloss": "무발열 상태: 열이 없는, 체온이 정상 범위인"
+        },
+        {
+          "term": "atypical",
+          "gloss": "비정형: 마이코플라스마 등 일반적인 폐렴구균이 아닌 원인균에 의한 폐렴"
+        }
+      ]
+    },
+    {
+      "id": "A-05",
+      "part": "A",
+      "setNum": 5,
+      "title": "Acute ischaemic stroke: hyperacute pathway",
+      "type": "partA-full",
+      "instruction": "Look at Texts A–D. Questions 1–7: which text? Questions 8–15: word/short phrase from the texts. Questions 16–20: complete the sentence. Spelling matters. Target: 15 minutes.",
+      "texts": [
+        {
+          "label": "A",
+          "heading": "Stroke recognition & time windows",
+          "body": "Community stroke recognition — FAST and ROSIER\n\nFAST alert\n• Face drooping (asymmetric smile or ptosis)\n• Arm weakness (unable to raise one or both arms)\n• Speech difficulties (slurred or absent)\n• Time: call 999 immediately\n\nROSIER score (Recognition of Stroke in the Emergency Room)\nAssign one point each for: asymmetric facial weakness; asymmetric arm weakness; asymmetric leg weakness; speech disturbance; visual field defect. Deduct one point for seizure at onset or loss of consciousness. A score of ≥1 predicts probable stroke.\n\nTime windows\n• Thrombolysis is eligible if onset is ≤4.5 hours ago (or last-known-well time is used if exact onset is unknown)\n• Door-to-needle target: 60 minutes from hospital arrival\n• Non-contrast CT head within 15 minutes of arrival for all hyperacute presentations\n• Approximately 1.9 million neurones are lost per minute during proximal large vessel occlusion — time is brain."
+        },
+        {
+          "label": "B",
+          "heading": "Thrombolysis eligibility & contraindications",
+          "body": "Thrombolysis eligibility — inclusion and exclusion\n\nInclusion criteria\n• Confirmed ischaemic stroke with measurable neurological deficit\n• Symptom onset ≤4.5 hours (or wake-up stroke with DWI–FLAIR mismatch on MRI)\n• Age ≥18; no upper age limit in the absence of severe comorbidity\n\nAbsolute contraindications\n• Prior intracranial haemorrhage at any time\n• Stroke or significant head trauma within the preceding 3 months\n• Major surgery or serious trauma within 14 days\n• Platelet count <100×10⁹/L or INR >1.7\n• DOAC taken within 48 hours unless levels confirmed as sub-therapeutic\n• Uncontrolled hypertension: systolic BP >185 mmHg or diastolic >110 mmHg despite IV antihypertensive\n\nBlood pressure eligibility\nSystolic BP must be ≤185 mmHg and diastolic ≤110 mmHg before treatment commences. If targets cannot be achieved within 30 minutes, thrombolysis should be deferred.\n\nRelative contraindications include pregnancy, recent lumbar puncture, and minor or rapidly improving neurological deficit."
+        },
+        {
+          "label": "C",
+          "heading": "Alteplase & tenecteplase dosing",
+          "body": "Intravenous thrombolysis — drug dosing and monitoring\n\nAlteplase\n• Dose: 0.9 mg/kg IV, maximum total dose 90 mg\n• Administration: give 10% of total dose as IV bolus over 1 minute, then infuse remainder over 60 minutes\n• Do not exceed 90 mg regardless of body weight\n\nTenecteplase\n• Dose: 0.25 mg/kg IV (maximum 25 mg) as a single intravenous bolus\n• Preferred in centres with direct thrombectomy access; avoids prolonged infusion\n\nBlood pressure targets\n• Target BP <180/105 mmHg for 24 hours after alteplase; treat excursions promptly with IV labetalol 10 mg or GTN infusion\n• Check BP every 15 minutes for the first hour, then every 30 minutes for 23 hours\n\nAntiplatelet and anticoagulant hold\nAvoid antiplatelet and anticoagulant therapy for 24 hours post-thrombolysis unless clinically indicated; restart only after review of 24-hour imaging.\n\nContinuous cardiac monitoring and close neurological observation are required for 24 hours after treatment."
+        },
+        {
+          "label": "D",
+          "heading": "Mechanical thrombectomy & post-procedure care",
+          "body": "Mechanical thrombectomy — eligibility and post-procedure care\n\nEligibility criteria\n• Proximal large vessel occlusion (internal carotid artery, M1 segment of MCA, or basilar artery) confirmed on CT angiography\n• NIHSS score ≥6\n• ASPECTS score ≥6 on non-contrast CT, indicating adequate salvageable brain tissue\n• Treatment feasible within 6 hours of onset; extended to 24 hours for patients with favourable perfusion mismatch on CT or MR perfusion imaging\n\nPost-procedure monitoring\n• NIHSS assessment every 30 minutes for the first 2 hours, then hourly until the patient is stable\n• Blood pressure target: <160/90 mmHg after successful reperfusion\n• 24-hour CT or MRI to assess reperfusion and exclude haemorrhagic transformation\n\nRehabilitation and nursing\n• Dysphagia screening and early physiotherapy within 4 hours of admission\n• Aspirin 300 mg once daily from day two unless thrombolysis was administered\n• Nursing staff must document any new neurological deterioration immediately and escalate to the stroke team."
+        }
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "whichText",
+          "stem": "the blood pressure threshold required before thrombolysis can be started?",
+          "answer": "B",
+          "accept": [
+            "B"
+          ],
+          "explain": "Text B, blood pressure eligibility section.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "type": "whichText",
+          "stem": "an acronym used in the community to recognise acute stroke?",
+          "answer": "A",
+          "accept": [
+            "A"
+          ],
+          "explain": "Text A, FAST alert.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "type": "whichText",
+          "stem": "the maximum permitted alteplase dose in milligrams?",
+          "answer": "C",
+          "accept": [
+            "C"
+          ],
+          "explain": "Text C, alteplase dosing box.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "type": "whichText",
+          "stem": "the ASPECTS score threshold needed for thrombectomy eligibility?",
+          "answer": "D",
+          "accept": [
+            "D"
+          ],
+          "explain": "Text D, eligibility criteria.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "type": "whichText",
+          "stem": "the ROSIER score and when it predicts probable stroke?",
+          "answer": "A",
+          "accept": [
+            "A"
+          ],
+          "explain": "Text A, ROSIER score section.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "type": "whichText",
+          "stem": "a DOAC criterion that excludes a patient from receiving thrombolysis?",
+          "answer": "B",
+          "accept": [
+            "B"
+          ],
+          "explain": "Text B, absolute contraindications.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "type": "whichText",
+          "stem": "how frequently to assess NIHSS in the hours after thrombectomy?",
+          "answer": "D",
+          "accept": [
+            "D"
+          ],
+          "explain": "Text D, post-procedure monitoring.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "type": "shortAnswer",
+          "stem": "What is the ROSIER score threshold above which probable stroke is predicted?",
+          "answer": "≥1",
+          "accept": [
+            "≥1",
+            "1",
+            "≥ 1",
+            "one",
+            "one or above"
+          ],
+          "explain": "Text A, ROSIER score section."
+        },
+        {
+          "id": 9,
+          "type": "shortAnswer",
+          "stem": "Within how many minutes of arrival should a non-contrast CT head be performed in hyperacute stroke presentations?",
+          "answer": "15 minutes",
+          "accept": [
+            "15 minutes",
+            "15 mins",
+            "15",
+            "within 15 minutes"
+          ],
+          "explain": "Text A, time windows."
+        },
+        {
+          "id": 10,
+          "type": "shortAnswer",
+          "stem": "What is the maximum interval after major surgery within which thrombolysis is absolutely contraindicated?",
+          "answer": "14 days",
+          "accept": [
+            "14 days",
+            "14",
+            "14 d",
+            "within 14 days"
+          ],
+          "explain": "Text B, absolute contraindications."
+        },
+        {
+          "id": 11,
+          "type": "shortAnswer",
+          "stem": "What is the maximum systolic blood pressure permitted before thrombolysis treatment commences?",
+          "answer": "185 mmHg",
+          "accept": [
+            "185 mmHg",
+            "185",
+            "≤185 mmHg",
+            "185 mmHg or less"
+          ],
+          "explain": "Text B, blood pressure eligibility."
+        },
+        {
+          "id": 12,
+          "type": "shortAnswer",
+          "stem": "What weight-based intravenous dose of alteplase is used in acute ischaemic stroke?",
+          "answer": "0.9 mg/kg",
+          "accept": [
+            "0.9 mg/kg",
+            "0.9mg/kg"
+          ],
+          "explain": "Text C, alteplase dosing."
+        },
+        {
+          "id": 13,
+          "type": "shortAnswer",
+          "stem": "What proportion of the total alteplase dose is given as an initial intravenous bolus?",
+          "answer": "10%",
+          "accept": [
+            "10%",
+            "10 percent",
+            "ten percent"
+          ],
+          "explain": "Text C, alteplase administration."
+        },
+        {
+          "id": 14,
+          "type": "shortAnswer",
+          "stem": "What is the minimum NIHSS score required for a patient to be considered for mechanical thrombectomy?",
+          "answer": "6",
+          "accept": [
+            "6",
+            "≥6",
+            "NIHSS ≥6",
+            "six"
+          ],
+          "explain": "Text D, eligibility criteria."
+        },
+        {
+          "id": 15,
+          "type": "shortAnswer",
+          "stem": "Within how many hours of admission should dysphagia screening and early physiotherapy be initiated?",
+          "answer": "4 hours",
+          "accept": [
+            "4 hours",
+            "4 hrs",
+            "4",
+            "within 4 hours"
+          ],
+          "explain": "Text D, rehabilitation and nursing."
+        },
+        {
+          "id": 16,
+          "type": "gapFill",
+          "stem": "The door-to-needle target for thrombolysis is …………………………………… from hospital arrival.",
+          "answer": "60 minutes",
+          "accept": [
+            "60 minutes",
+            "60 mins",
+            "sixty minutes"
+          ],
+          "explain": "Text A, time windows."
+        },
+        {
+          "id": 17,
+          "type": "gapFill",
+          "stem": "Antiplatelet and anticoagulant therapy must be avoided for …………………………………… post-thrombolysis unless clinically indicated.",
+          "answer": "24 hours",
+          "accept": [
+            "24 hours",
+            "24 hrs",
+            "twenty-four hours"
+          ],
+          "explain": "Text C, antiplatelet and anticoagulant hold."
+        },
+        {
+          "id": 18,
+          "type": "gapFill",
+          "stem": "Tenecteplase is given as a single intravenous bolus at a dose of ……………………………………, with a maximum of 25 mg.",
+          "answer": "0.25 mg/kg",
+          "accept": [
+            "0.25 mg/kg",
+            "0.25mg/kg"
+          ],
+          "explain": "Text C, tenecteplase dosing."
+        },
+        {
+          "id": 19,
+          "type": "gapFill",
+          "stem": "The ASPECTS score must be …………………………………… or above on non-contrast CT for a patient to be considered for mechanical thrombectomy.",
+          "answer": "6",
+          "accept": [
+            "6",
+            "≥6",
+            "six"
+          ],
+          "explain": "Text D, eligibility criteria."
+        },
+        {
+          "id": 20,
+          "type": "gapFill",
+          "stem": "After thrombectomy, a CT or MRI at 24 hours is used to assess reperfusion and exclude …………………………………….",
+          "answer": "haemorrhagic transformation",
+          "accept": [
+            "haemorrhagic transformation",
+            "hemorrhagic transformation"
+          ],
+          "explain": "Text D, post-procedure monitoring."
+        }
+      ],
+      "gist": [
+        "Q1–7 = scan headings and unique clinical markers to identify which text.",
+        "Q8–15 = copy exact words, numbers, and units directly from the texts.",
+        "Q16–20 = complete sentences using short phrases lifted verbatim from the texts."
+      ],
+      "vocab": [
+        {
+          "term": "ROSIER",
+          "gloss": "응급실 뇌졸중 인식 도구 (Recognition of Stroke in the Emergency Room)"
+        },
+        {
+          "term": "haemorrhagic transformation",
+          "gloss": "출혈성 변환: 뇌경색 후 이차 출혈 합병증"
+        },
+        {
+          "term": "ASPECTS",
+          "gloss": "Alberta Stroke Programme Early CT Score: CT상 뇌경색 범위 평가 점수"
+        },
+        {
+          "term": "penumbra",
+          "gloss": "허혈 반음영: 치료 시 회복 가능한 위험 뇌조직"
+        },
+        {
+          "term": "dysphagia",
+          "gloss": "연하장애: 삼킴 곤란"
+        }
+      ],
+      "sharedWhichPrompt": "In which text can you find information about"
+    },
+    {
+      "id": "A-06",
+      "part": "A",
+      "setNum": 6,
+      "title": "Diabetic ketoacidosis in adults",
+      "type": "partA-full",
+      "instruction": "Look at Texts A–D. Questions 1–7: which text? Questions 8–15: word/short phrase from the texts. Questions 16–20: complete the sentence. Spelling matters. Target: 15 minutes.",
+      "sharedWhichPrompt": "In which text can you find information about",
+      "texts": [
+        {
+          "label": "A",
+          "heading": "Diagnostic criteria and severity classification",
+          "body": "Diagnostic triad\nA diagnosis of DKA requires all three of the following:\n• Blood glucose >11 mmol/L (or a confirmed diagnosis of diabetes mellitus)\n• Blood ketones ≥3.0 mmol/L, or urine ketones 2+ or above on dipstick\n• Bicarbonate <15 mmol/L and/or venous pH <7.3\n\nSeverity classification\nMild: venous pH 7.25–7.29; bicarbonate 15–17.9 mmol/L; patient alert and orientated.\nModerate: venous pH 7.0–7.24; bicarbonate <15 mmol/L.\nSevere — any one of the following: venous pH <7.0; bicarbonate <5 mmol/L; Glasgow Coma Scale <12; SpO₂ <92% on air; systolic BP <90 mmHg; heart rate >100 or <60 bpm; anion gap >16 mmol/L.\n\nAnion gap\nCalculated as Na⁺ − (Cl⁻ + HCO₃⁻); normal range 12 ± 2 mmol/L. A raised anion gap alongside ketonaemia confirms a high anion gap metabolic acidosis typical of DKA."
+        },
+        {
+          "label": "B",
+          "heading": "Fixed-rate insulin infusion and fluid regimen",
+          "body": "Fixed-rate insulin infusion (FRII)\nPrescribe 0.1 units/kg/hour of soluble insulin made up in 0.9% sodium chloride. Do not stop or reduce the patient's usual background (basal) insulin while FRII is running.\n\nMonitoring and dose adjustment\nCheck blood ketones and capillary glucose hourly. The target is a blood ketone fall of ≥0.5 mmol/L per hour. If ketones are not falling at this rate, increase the infusion rate by 1 unit/hour. Do not use a variable-rate insulin infusion (sliding scale) in DKA.\n\nGlucose management\nWhen blood glucose falls below 14 mmol/L, add 10% glucose at 125 mL/hour alongside continuing 0.9% sodium chloride. Maintain blood glucose at 14–17 mmol/L until ketones have cleared.\n\nFluid replacement\nGive 1 litre of 0.9% NaCl over the first hour, then reassess haemodynamic status and adjust subsequent bags accordingly."
+        },
+        {
+          "label": "C",
+          "heading": "Potassium replacement guide",
+          "body": "Hypokalaemia is the most dangerous electrolyte complication of DKA treatment. Check serum potassium before starting the fixed-rate insulin infusion and do not commence FRII if K⁺ is below 3.5 mmol/L.\n\nReplacement guide (per litre of IV fluid)\n• K⁺ >5.5 mmol/L: do not add potassium to IV fluids; recheck after 1 hour\n• K⁺ 3.5–5.5 mmol/L: add 40 mmol potassium chloride (KCl) per litre of IV fluid\n• K⁺ <3.5 mmol/L: do not start insulin; seek urgent senior or critical care review; replace potassium more aggressively before proceeding\n\nMonitoring frequency\nIn severe or moderate DKA: check serum potassium every hour for the first 4 hours, then every 2 hours thereafter. In mild DKA: check every 2 hours.\n\nCaution\nNever add more than 40 mmol KCl to a single 1-litre bag without senior authorisation. Hyperkalaemia (K⁺ >5.5 mmol/L) may worsen transiently as acidosis is corrected."
+        },
+        {
+          "label": "D",
+          "heading": "Resolution criteria, subcutaneous insulin transition and precipitant review",
+          "body": "Resolution of DKA — all three criteria must be met\n• Blood ketones <0.3 mmol/L\n• Venous pH >7.3\n• Bicarbonate >18 mmol/L\nBlood glucose level alone is not a reliable marker of DKA resolution and must never be used as the sole criterion for stopping IV insulin.\n\nTransition to subcutaneous insulin\nEnsure the patient is eating and drinking normally before switching. Administer the patient's usual subcutaneous insulin dose, then wait 30–60 minutes before stopping the IV insulin infusion to prevent rebound ketosis. If the patient is newly diagnosed with type 1 diabetes, seek endocrinology advice before prescribing a subcutaneous regimen.\n\nPrecipitant review\nInfection is the most common precipitant; send urine, blood cultures and a chest radiograph. Other precipitants include missed or insufficient insulin, new-onset type 1 diabetes, corticosteroids, antipsychotic drugs, and SGLT2 inhibitors (which can cause euglycaemic DKA even with near-normal glucose). Document the identified precipitant clearly in the discharge summary."
+        }
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "whichText",
+          "stem": "the formula for calculating the anion gap and its normal range?",
+          "answer": "A",
+          "accept": [
+            "A"
+          ],
+          "explain": "Text A — anion gap section.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "type": "whichText",
+          "stem": "the serum potassium level above which no supplementation should be added to IV fluids?",
+          "answer": "C",
+          "accept": [
+            "C"
+          ],
+          "explain": "Text C — potassium replacement guide.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "type": "whichText",
+          "stem": "when to add 10% glucose alongside the saline infusion?",
+          "answer": "B",
+          "accept": [
+            "B"
+          ],
+          "explain": "Text B — glucose management section.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "type": "whichText",
+          "stem": "all three laboratory criteria that must be met before DKA is considered resolved?",
+          "answer": "D",
+          "accept": [
+            "D"
+          ],
+          "explain": "Text D — resolution criteria.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "type": "whichText",
+          "stem": "the minimum rate at which blood ketones should fall per hour during treatment?",
+          "answer": "B",
+          "accept": [
+            "B"
+          ],
+          "explain": "Text B — monitoring and dose adjustment.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "type": "whichText",
+          "stem": "conditions and drugs that can trigger diabetic ketoacidosis?",
+          "answer": "D",
+          "accept": [
+            "D"
+          ],
+          "explain": "Text D — precipitant review.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "type": "whichText",
+          "stem": "the blood ketone threshold required to diagnose DKA?",
+          "answer": "A",
+          "accept": [
+            "A"
+          ],
+          "explain": "Text A — diagnostic triad.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "type": "shortAnswer",
+          "stem": "At what weight-based rate should the fixed-rate insulin infusion be prescribed in DKA?",
+          "answer": "0.1 units/kg/hour",
+          "accept": [
+            "0.1 units/kg/hour",
+            "0.1 units/kg per hour",
+            "0.1 unit/kg/hour",
+            "0.1 units per kg per hour"
+          ],
+          "explain": "Text B — FRII section."
+        },
+        {
+          "id": 9,
+          "type": "shortAnswer",
+          "stem": "What bicarbonate level indicates severe DKA?",
+          "answer": "<5 mmol/L",
+          "accept": [
+            "<5 mmol/L",
+            "less than 5 mmol/L",
+            "5 mmol/L",
+            "bicarbonate <5 mmol/L"
+          ],
+          "explain": "Text A — severe classification."
+        },
+        {
+          "id": 10,
+          "type": "shortAnswer",
+          "stem": "Below what blood glucose level must 10% glucose be added to the infusion?",
+          "answer": "14 mmol/L",
+          "accept": [
+            "14 mmol/L",
+            "14",
+            "below 14 mmol/L",
+            "<14 mmol/L"
+          ],
+          "explain": "Text B — glucose management."
+        },
+        {
+          "id": 11,
+          "type": "shortAnswer",
+          "stem": "What blood ketone concentration confirms resolution of DKA?",
+          "answer": "<0.3 mmol/L",
+          "accept": [
+            "<0.3 mmol/L",
+            "less than 0.3 mmol/L",
+            "0.3 mmol/L"
+          ],
+          "explain": "Text D — resolution criteria."
+        },
+        {
+          "id": 12,
+          "type": "shortAnswer",
+          "stem": "How much potassium chloride is added per litre of IV fluid when serum potassium is between 3.5 and 5.5 mmol/L?",
+          "answer": "40 mmol",
+          "accept": [
+            "40 mmol",
+            "40 mmol KCl",
+            "40 mmol/L",
+            "40 mmol potassium chloride"
+          ],
+          "explain": "Text C — replacement guide."
+        },
+        {
+          "id": 13,
+          "type": "shortAnswer",
+          "stem": "What is named as the most common precipitant of DKA?",
+          "answer": "Infection",
+          "accept": [
+            "Infection",
+            "infection"
+          ],
+          "explain": "Text D — precipitant review."
+        },
+        {
+          "id": 14,
+          "type": "shortAnswer",
+          "stem": "How long must the clinician wait after giving subcutaneous insulin before stopping the IV infusion?",
+          "answer": "30–60 minutes",
+          "accept": [
+            "30–60 minutes",
+            "30-60 minutes",
+            "30 to 60 minutes",
+            "30–60 mins"
+          ],
+          "explain": "Text D — subcutaneous transition."
+        },
+        {
+          "id": 15,
+          "type": "shortAnswer",
+          "stem": "How often should serum potassium be checked in the first 4 hours of severe or moderate DKA?",
+          "answer": "every hour",
+          "accept": [
+            "every hour",
+            "hourly",
+            "every 1 hour",
+            "1-hourly"
+          ],
+          "explain": "Text C — monitoring frequency."
+        },
+        {
+          "id": 16,
+          "type": "gapFill",
+          "stem": "The target during FRII treatment is a blood ketone fall of …………………………………… per hour; if this is not achieved, the infusion rate must be increased.",
+          "answer": "≥0.5 mmol/L",
+          "accept": [
+            "≥0.5 mmol/L",
+            "0.5 mmol/L",
+            "≥0.5",
+            "0.5"
+          ],
+          "explain": "Text B — monitoring section."
+        },
+        {
+          "id": 17,
+          "type": "gapFill",
+          "stem": "While FRII is running, the patient's usual …………………………………… insulin must not be stopped or reduced.",
+          "answer": "background (basal)",
+          "accept": [
+            "background (basal)",
+            "background",
+            "basal",
+            "background basal"
+          ],
+          "explain": "Text B — FRII instructions."
+        },
+        {
+          "id": 18,
+          "type": "gapFill",
+          "stem": "If serum potassium exceeds …………………………………… mmol/L, no potassium should be added to IV fluids.",
+          "answer": "5.5",
+          "accept": [
+            "5.5",
+            "5.5 mmol/L"
+          ],
+          "explain": "Text C — replacement guide (K⁺ >5.5 mmol/L)."
+        },
+        {
+          "id": 19,
+          "type": "gapFill",
+          "stem": "Blood glucose level alone is not a reliable …………………………………… of DKA resolution and must never be used as the sole criterion.",
+          "answer": "marker",
+          "accept": [
+            "marker",
+            "reliable marker"
+          ],
+          "explain": "Text D — resolution section."
+        },
+        {
+          "id": 20,
+          "type": "gapFill",
+          "stem": "SGLT2 inhibitors can cause …………………………………… DKA even when blood glucose is near normal.",
+          "answer": "euglycaemic",
+          "accept": [
+            "euglycaemic",
+            "euglycemic"
+          ],
+          "explain": "Text D — precipitant review."
+        }
+      ],
+      "gist": [
+        "Q1–7 = scan headings and bullet points to identify which text contains each clinical fact.",
+        "Q8–15 = copy exact words or numbers from the texts; include units as written.",
+        "Q16–20 = gap-fill using the text's precise wording; near-synonyms may not be accepted."
+      ],
+      "vocab": [
+        {
+          "term": "ketoacidosis",
+          "gloss": "케톤산증: 케톤 과잉 생성으로 인한 대사성 산증"
+        },
+        {
+          "term": "ketonaemia",
+          "gloss": "혈중 케톤증: 혈액 내 케톤체 농도 상승"
+        },
+        {
+          "term": "bicarbonate",
+          "gloss": "중탄산염: 혈액의 산염기 균형을 나타내는 지표"
+        },
+        {
+          "term": "euglycaemic",
+          "gloss": "정상혈당성: 혈당이 정상 범위에 있는 상태"
+        },
+        {
+          "term": "precipitant",
+          "gloss": "유발 인자: 질환이나 증상을 일으키는 원인"
+        }
+      ]
+    },
+    {
+      "id": "A-07",
+      "part": "A",
+      "setNum": 7,
+      "title": "Hyperkalaemia: recognition and management",
+      "type": "partA-full",
+      "instruction": "Look at Texts A–D. Questions 1–7: which text? Questions 8–15: word/short phrase from the texts. Questions 16–20: complete the sentence. Spelling matters. Target: 15 minutes.",
+      "sharedWhichPrompt": "In which text can you find information about",
+      "texts": [
+        {
+          "label": "A",
+          "heading": "Severity classification and ECG changes",
+          "body": "Severity bands (serum potassium)\n• Mild: 5.5–5.9 mmol/L — often asymptomatic; dietary review and repeat U&E in 24–48 hours\n• Moderate: 6.0–6.4 mmol/L — muscle weakness, nausea, palpitations possible; ECG and telemetry recommended\n• Severe: ≥6.5 mmol/L — immediate treatment required; life-threatening arrhythmias possible\n\nECG changes (in order of severity)\n• Peaked, symmetrical T waves — earliest change; typically appears above 5.5 mmol/L\n• Prolonged PR interval and diminished P waves — appears above 6.0 mmol/L\n• Widened QRS complex (>120 ms) — suggests K⁺ above 7.0 mmol/L; precedes ventricular arrhythmia\n• Sine-wave pattern — K⁺ typically above 8.0 mmol/L; immediately pre-arrest\n\nPseudohyperkalaemia\nRepeat a haemolysed sample before acting if the patient is clinically well and the ECG is normal. A second sample may show a falsely elevated result due to cell lysis in the tube."
+        },
+        {
+          "label": "B",
+          "heading": "Emergency drug treatment",
+          "body": "Emergency treatment — drug sequence\n\nStep 1 — Cardioprotection (first-line if ECG changes or K⁺ ≥6.5 mmol/L)\n• Calcium gluconate 10%: 30 mL IV over 10 minutes; repeat after 5 minutes if ECG changes persist\n• Onset: 1–3 minutes; duration: 30–60 minutes; does not lower serum potassium\n\nStep 2 — Intracellular shift\n• Actrapid (soluble insulin) 10 units IV with 25 g glucose (50 mL of 50% glucose); onset 15–30 minutes; lasts approximately 6 hours\n• Monitor capillary glucose at 15 and 30 minutes after administration\n• Nebulised salbutamol 10–20 mg as adjunct (avoid in ischaemic heart disease); onset approximately 30 minutes\n\nStep 3 — Elimination\n• Furosemide IV promotes kaliuresis when renal function is adequate\n• Patiromer or sodium polystyrene sulphonate (Resonium) orally; potassium-binding resins act over hours\n• Haemodialysis if refractory or renal failure"
+        },
+        {
+          "label": "C",
+          "heading": "Common causes and medication review",
+          "body": "Common causes\nRenal\n• Acute kidney injury (AKI) or chronic kidney disease (CKD): impaired urinary potassium excretion\n• Adrenal insufficiency or hypoaldosteronism: reduced distal tubule K⁺ secretion\n\nDrug-induced (review and withhold acutely)\n• ACE inhibitors and ARBs (e.g. ramipril, losartan): inhibit aldosterone production; commonest iatrogenic cause\n• Potassium-sparing diuretics: spironolactone, amiloride, eplerenone\n• NSAIDs: impair renal prostaglandins and reduce kaliuresis\n• Trimethoprim at high doses: blocks distal K⁺ secretion\n• Heparin and LMWH: suppress aldosterone synthesis\n• Calcineurin inhibitors (tacrolimus, ciclosporin): impair tubular K⁺ excretion\n\nOther causes\n• Metabolic acidosis: transcellular shift moves K⁺ out of cells into plasma\n• Rhabdomyolysis, major haemolysis, or massive blood transfusion: release intracellular K⁺\n• Excess dietary intake in CKD\n\nMedication review\nWithhold the offending drug acutely; restart only once K⁺ is below 5.5 mmol/L and a senior clinician has reviewed the indication."
+        },
+        {
+          "label": "D",
+          "heading": "Monitoring and escalation criteria",
+          "body": "Monitoring frequency\n• Mild (5.5–5.9 mmol/L): repeat U&E in 24–48 hours; telemetry not required unless symptomatic\n• Moderate (6.0–6.4 mmol/L): repeat U&E and ECG at 2 hours; continuous telemetry for at least 4 hours\n• Severe (≥6.5 mmol/L): continuous cardiac monitoring; recheck U&E at 1 hour and 4 hours post-treatment\n\nPost-insulin glucose monitoring\nHypoglycaemia occurs in up to 10% of patients; check blood glucose at 15, 30, and 60 minutes after the insulin–glucose dose and treat any reading below 4.0 mmol/L promptly.\n\nInvolve the renal team if\n• K⁺ remains ≥6.0 mmol/L after two treatment rounds\n• CKD stage 4–5, new AKI not responding to IV fluids, or urine output below 0.5 mL/kg/hour for more than 6 hours\n\nInvolve ICU or HDU if\n• Cardiac arrest, refractory K⁺ ≥7.0 mmol/L, or haemodynamic instability requiring immediate haemodialysis"
+        }
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "whichText",
+          "stem": "the dose and volume of calcium gluconate for cardioprotection?",
+          "answer": "B",
+          "accept": [
+            "B"
+          ],
+          "explain": "Text B — Step 1 dosing box.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "type": "whichText",
+          "stem": "the drug class most commonly responsible for iatrogenic hyperkalaemia?",
+          "answer": "C",
+          "accept": [
+            "C"
+          ],
+          "explain": "Text C — ACE inhibitors/ARBs as commonest iatrogenic cause.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "type": "whichText",
+          "stem": "when to escalate care to ICU or HDU?",
+          "answer": "D",
+          "accept": [
+            "D"
+          ],
+          "explain": "Text D — escalation criteria.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "type": "whichText",
+          "stem": "the sequence of ECG changes as potassium rises?",
+          "answer": "A",
+          "accept": [
+            "A"
+          ],
+          "explain": "Text A — ECG changes in order of severity.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "type": "whichText",
+          "stem": "why metabolic acidosis causes a rise in serum potassium?",
+          "answer": "C",
+          "accept": [
+            "C"
+          ],
+          "explain": "Text C — transcellular shift mechanism.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "type": "whichText",
+          "stem": "the nebulised drug used as an adjunct to drive potassium into cells?",
+          "answer": "B",
+          "accept": [
+            "B"
+          ],
+          "explain": "Text B — nebulised salbutamol as adjunct.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "type": "whichText",
+          "stem": "how frequently blood glucose should be checked after insulin-glucose therapy?",
+          "answer": "D",
+          "accept": [
+            "D"
+          ],
+          "explain": "Text D — post-insulin glucose monitoring schedule.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "type": "shortAnswer",
+          "stem": "What volume of 10% calcium gluconate is given as the initial IV dose?",
+          "answer": "30 mL",
+          "accept": [
+            "30 mL",
+            "30mL",
+            "30"
+          ],
+          "explain": "Text B — Step 1 dosing."
+        },
+        {
+          "id": 9,
+          "type": "shortAnswer",
+          "stem": "At what serum potassium level is hyperkalaemia classified as severe?",
+          "answer": "≥6.5 mmol/L",
+          "accept": [
+            "≥6.5 mmol/L",
+            "6.5 mmol/L",
+            "≥6.5",
+            "6.5"
+          ],
+          "explain": "Text A — severity bands."
+        },
+        {
+          "id": 10,
+          "type": "shortAnswer",
+          "stem": "How many units of soluble insulin are given with glucose in the standard regimen?",
+          "answer": "10 units",
+          "accept": [
+            "10 units",
+            "10 units IV",
+            "10"
+          ],
+          "explain": "Text B — Step 2."
+        },
+        {
+          "id": 11,
+          "type": "shortAnswer",
+          "stem": "Which cardiac condition is listed as a contraindication to nebulised salbutamol?",
+          "answer": "ischaemic heart disease",
+          "accept": [
+            "ischaemic heart disease",
+            "ischemic heart disease",
+            "IHD"
+          ],
+          "explain": "Text B — salbutamol caution."
+        },
+        {
+          "id": 12,
+          "type": "shortAnswer",
+          "stem": "Which loop diuretic is named in the treatment protocol as promoting kaliuresis?",
+          "answer": "Furosemide",
+          "accept": [
+            "Furosemide",
+            "furosemide",
+            "furosemide IV"
+          ],
+          "explain": "Text B — Step 3."
+        },
+        {
+          "id": 13,
+          "type": "shortAnswer",
+          "stem": "Below what serum potassium level must K⁺ fall before restarting a withheld drug?",
+          "answer": "5.5 mmol/L",
+          "accept": [
+            "5.5 mmol/L",
+            "below 5.5 mmol/L",
+            "5.5",
+            "<5.5 mmol/L"
+          ],
+          "explain": "Text C — medication review."
+        },
+        {
+          "id": 14,
+          "type": "shortAnswer",
+          "stem": "After how many rounds of treatment should the renal team be contacted if potassium remains ≥6.0 mmol/L?",
+          "answer": "two",
+          "accept": [
+            "two",
+            "2",
+            "two rounds",
+            "2 rounds"
+          ],
+          "explain": "Text D — involve renal team."
+        },
+        {
+          "id": 15,
+          "type": "shortAnswer",
+          "stem": "What proportion of patients experience hypoglycaemia following the insulin-glucose regimen?",
+          "answer": "10%",
+          "accept": [
+            "10%",
+            "up to 10%",
+            "10 per cent"
+          ],
+          "explain": "Text D — post-insulin glucose monitoring."
+        },
+        {
+          "id": 16,
+          "type": "gapFill",
+          "stem": "In severe hyperkalaemia, the cardioprotective effect of calcium gluconate lasts approximately …………………………………….",
+          "answer": "30–60 minutes",
+          "accept": [
+            "30–60 minutes",
+            "30-60 minutes",
+            "30 to 60 minutes",
+            "30–60"
+          ],
+          "explain": "Text B — duration stated in Step 1 box."
+        },
+        {
+          "id": 17,
+          "type": "gapFill",
+          "stem": "The earliest ECG change in hyperkalaemia consists of ……………………………………. T waves.",
+          "answer": "Peaked, symmetrical",
+          "accept": [
+            "Peaked, symmetrical",
+            "peaked, symmetrical",
+            "peaked symmetrical",
+            "peaked"
+          ],
+          "explain": "Text A — first bullet under ECG changes."
+        },
+        {
+          "id": 18,
+          "type": "gapFill",
+          "stem": "The potassium-sparing diuretics listed as potential causes include spironolactone, amiloride, and …………………………………….",
+          "answer": "eplerenone",
+          "accept": [
+            "eplerenone"
+          ],
+          "explain": "Text C — drug-induced causes list."
+        },
+        {
+          "id": 19,
+          "type": "gapFill",
+          "stem": "Renal team involvement is recommended if urine output falls below 0.5 mL/kg/hour for more than …………………………………… hours.",
+          "answer": "6",
+          "accept": [
+            "6",
+            "six",
+            "6 hours"
+          ],
+          "explain": "Text D — renal escalation criteria."
+        },
+        {
+          "id": 20,
+          "type": "gapFill",
+          "stem": "Calcium gluconate does not lower serum ……………………………………, so a potassium-shifting agent must follow in Step 2.",
+          "answer": "potassium",
+          "accept": [
+            "potassium"
+          ],
+          "explain": "Text B — limitation of calcium gluconate stated in Step 1."
+        }
+      ],
+      "gist": [
+        "Q1–7 = which text (scan headings + unique markers).",
+        "Q8–15 = lift exact words/numbers from the texts.",
+        "Q16–20 = gap-fill with short phrases from the texts."
+      ],
+      "vocab": [
+        {
+          "term": "hyperkalaemia",
+          "gloss": "고칼륨혈증: 혈중 칼륨 농도가 비정상적으로 높은 상태"
+        },
+        {
+          "term": "kaliuresis",
+          "gloss": "칼리우레시스: 소변으로의 칼륨 배출 증가"
+        },
+        {
+          "term": "rhabdomyolysis",
+          "gloss": "횡문근융해증: 근육 세포 파괴로 인한 전해질 방출"
+        },
+        {
+          "term": "aldosterone",
+          "gloss": "알도스테론: 신장의 K⁺ 배출을 조절하는 부신피질 호르몬"
+        },
+        {
+          "term": "patiromer",
+          "gloss": "파티로머: 장내에서 칼륨을 결합하는 경구 수지"
+        }
+      ]
+    },
+    {
+      "id": "A-08",
+      "part": "A",
+      "setNum": 8,
+      "title": "Acute severe asthma in adults",
+      "type": "partA-full",
+      "instruction": "Look at Texts A–D. Questions 1–7: which text? Questions 8–15: word/short phrase from the texts. Questions 16–20: complete the sentence. Spelling matters. Target: 15 minutes.",
+      "sharedWhichPrompt": "In which text can you find information about",
+      "texts": [
+        {
+          "label": "A",
+          "heading": "Severity classification",
+          "body": "Acute asthma severity is graded into four categories using clinical signs and physiological measurements.\n\nModerate acute asthma\n• PEF 50–75% of personal best or predicted\n• No features listed below; sentences completed without distress\n\nSevere acute asthma — any ONE of:\n• PEF 33–50% of best or predicted\n• Respiratory rate ≥ 25 breaths/min\n• Heart rate ≥ 110 beats/min\n• Inability to complete sentences in one breath\n\nLife-threatening asthma — any ONE of:\n• PEF < 33% of best or predicted\n• SpO₂ < 92% on any oxygen\n• PaO₂ < 8 kPa on air or supplemental oxygen\n• Silent chest, cyanosis, or feeble respiratory effort\n• Bradycardia, hypotension, or dysrhythmia\n• Confusion, exhaustion, or depressed consciousness\n\nNear-fatal asthma: raised PaCO₂ (≥ 6 kPa) and/or requirement for mechanical ventilation indicating severe respiratory fatigue."
+        },
+        {
+          "label": "B",
+          "heading": "Initial treatment",
+          "body": "Oxygen\nTarget SpO₂ 94–98% using controlled supplemental oxygen; avoid hyperoxia. In life-threatening presentations, ensure ≥ 94% is maintained continuously.\n\nBronchodilators\n• Salbutamol 5 mg nebulised; repeat every 15–30 minutes or more frequently in the first hour if needed, then guided by clinical response\n• Ipratropium bromide 0.5 mg nebulised every 4–6 hours; add to salbutamol in all severe or life-threatening presentations\n• Back-to-back nebulisers may be administered in the most severe cases\n\nCorticosteroids\n• Prednisolone 40–50 mg orally once daily; continue for at least 5 days or until full recovery\n• If oral route not tolerated: IV hydrocortisone 100 mg four times daily\n\nIV magnesium sulphate\n• Magnesium sulphate 1.2–2 g intravenously over 20 minutes for life-threatening asthma or severe asthma poorly responding to initial bronchodilator therapy\n• Give as a single dose; routine repetition is not recommended"
+        },
+        {
+          "label": "C",
+          "heading": "ICU referral criteria and arterial blood gas indications",
+          "body": "Perform an arterial blood gas (ABG) in any patient with:\n• SpO₂ < 92% on initial assessment\n• Life-threatening features present at any point\n• Failure to improve within 15–30 minutes of initial treatment\n• PEF remaining below 50% after one hour of treatment\n\nInterpreting results\n• Normal or rising PaCO₂ in a breathless, distressed patient is an ominous sign; escalate without delay\n• PaO₂ < 8 kPa despite supplemental oxygen indicates severe hypoxaemia\n• pH < 7.35 or falling pH suggests respiratory fatigue and impending failure\n\nCriteria for immediate ICU or HDU referral\n• Requirement for non-invasive ventilation or endotracheal intubation\n• PaCO₂ rising despite maximal medical therapy\n• Deteriorating consciousness or progressive exhaustion\n• Cardiorespiratory arrest or peri-arrest situation\n\nInvolve the ICU team early; a senior review must not be deferred until the patient is moribund."
+        },
+        {
+          "label": "D",
+          "heading": "Discharge criteria, follow-up, and inhaler technique",
+          "body": "Before discharge, ALL of the following criteria must be satisfied:\n• PEF ≥ 75% of personal best or predicted, sustained for at least 1 hour\n• Diurnal PEF variability < 25%\n• SpO₂ ≥ 94% on air\n• Symptoms well controlled on the proposed discharge regimen\n• No nocturnal waking or wheeze the night before discharge\n\nInhaler technique\nAssess and document inhaler technique at every discharge. A spacer device must be issued whenever a pressurised metered-dose inhaler is prescribed, as it significantly improves lower airway deposition. Correct sequence: shake canister, exhale fully, seal lips around mouthpiece, depress canister, inhale slowly and deeply, then hold breath for 10 seconds.\n\nFollow-up\n• Primary care or asthma nurse review within 2 working days of discharge\n• Respiratory outpatient appointment within 4 weeks\n• Provide a written self-management plan at discharge, including escalation criteria and when to call emergency services"
+        }
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "whichText",
+          "stem": "the indications for performing an arterial blood gas?",
+          "answer": "C",
+          "accept": [
+            "C"
+          ],
+          "explain": "Text C lists ABG indications.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "type": "whichText",
+          "stem": "the recommended infusion time for intravenous magnesium sulphate?",
+          "answer": "B",
+          "accept": [
+            "B"
+          ],
+          "explain": "Text B: 'Magnesium sulphate 1.2–2 g intravenously over 20 minutes'.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "type": "whichText",
+          "stem": "the physiological signs that define life-threatening severity?",
+          "answer": "A",
+          "accept": [
+            "A"
+          ],
+          "explain": "Text A: life-threatening category bullet list.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "type": "whichText",
+          "stem": "the minimum peak expiratory flow percentage required before discharge?",
+          "answer": "D",
+          "accept": [
+            "D"
+          ],
+          "explain": "Text D: discharge criteria, PEF ≥ 75%.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "type": "whichText",
+          "stem": "how often ipratropium bromide nebulisers should be repeated?",
+          "answer": "B",
+          "accept": [
+            "B"
+          ],
+          "explain": "Text B: 'ipratropium bromide 0.5 mg nebulised every 4–6 hours'.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "type": "whichText",
+          "stem": "the criteria for immediate ICU or HDU referral?",
+          "answer": "C",
+          "accept": [
+            "C"
+          ],
+          "explain": "Text C: ICU/HDU referral criteria section.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "type": "whichText",
+          "stem": "what near-fatal asthma involves in terms of blood gases and ventilation?",
+          "answer": "A",
+          "accept": [
+            "A"
+          ],
+          "explain": "Text A: near-fatal asthma definition.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "type": "shortAnswer",
+          "stem": "What SpO₂ range should be targeted when giving supplemental oxygen in acute severe asthma?",
+          "answer": "94–98%",
+          "accept": [
+            "94–98%",
+            "94-98%",
+            "94–98",
+            "94-98",
+            "94 to 98%"
+          ],
+          "explain": "Text B: 'Target SpO₂ 94–98%'."
+        },
+        {
+          "id": 9,
+          "type": "shortAnswer",
+          "stem": "What heart rate meets the threshold for classifying asthma as severe?",
+          "answer": "110 beats/min",
+          "accept": [
+            "110 beats/min",
+            "≥ 110 beats/min",
+            "110",
+            "≥ 110",
+            "110 bpm"
+          ],
+          "explain": "Text A: 'Heart rate ≥ 110 beats/min'."
+        },
+        {
+          "id": 10,
+          "type": "shortAnswer",
+          "stem": "What oral dose of prednisolone is recommended in acute severe asthma?",
+          "answer": "40–50 mg",
+          "accept": [
+            "40–50 mg",
+            "40-50 mg",
+            "40–50mg",
+            "40-50mg"
+          ],
+          "explain": "Text B: 'Prednisolone 40–50 mg orally once daily'."
+        },
+        {
+          "id": 11,
+          "type": "shortAnswer",
+          "stem": "For how long at minimum should systemic corticosteroid treatment be continued?",
+          "answer": "5 days",
+          "accept": [
+            "5 days",
+            "at least 5 days",
+            "five days"
+          ],
+          "explain": "Text B: 'continue for at least 5 days'."
+        },
+        {
+          "id": 12,
+          "type": "shortAnswer",
+          "stem": "Over how many minutes should intravenous magnesium sulphate be infused?",
+          "answer": "20 minutes",
+          "accept": [
+            "20 minutes",
+            "20 mins",
+            "20 min",
+            "20"
+          ],
+          "explain": "Text B: 'intravenously over 20 minutes'."
+        },
+        {
+          "id": 13,
+          "type": "shortAnswer",
+          "stem": "Below what PaO₂ level is life-threatening asthma indicated on air or supplemental oxygen?",
+          "answer": "8 kPa",
+          "accept": [
+            "8 kPa",
+            "< 8 kPa",
+            "less than 8 kPa"
+          ],
+          "explain": "Text A: 'PaO₂ < 8 kPa on air or supplemental oxygen'."
+        },
+        {
+          "id": 14,
+          "type": "shortAnswer",
+          "stem": "Within how many working days of discharge should a primary care or asthma nurse review be arranged?",
+          "answer": "2 working days",
+          "accept": [
+            "2 working days",
+            "two working days",
+            "2 days"
+          ],
+          "explain": "Text D: 'within 2 working days of discharge'."
+        },
+        {
+          "id": 15,
+          "type": "shortAnswer",
+          "stem": "Within how many weeks must a respiratory outpatient appointment be arranged after discharge?",
+          "answer": "4 weeks",
+          "accept": [
+            "4 weeks",
+            "four weeks"
+          ],
+          "explain": "Text D: 'Respiratory outpatient appointment within 4 weeks'."
+        },
+        {
+          "id": 16,
+          "type": "gapFill",
+          "stem": "Asthma is classified as life-threatening when peak expiratory flow falls below …………………………………… % of best or predicted.",
+          "answer": "33",
+          "accept": [
+            "33",
+            "33%"
+          ],
+          "explain": "Text A: 'PEF < 33% of best or predicted'."
+        },
+        {
+          "id": 17,
+          "type": "gapFill",
+          "stem": "Ipratropium bromide …………………………………… mg is nebulised every 4–6 hours in severe or life-threatening presentations.",
+          "answer": "0.5",
+          "accept": [
+            "0.5",
+            "0.5 mg"
+          ],
+          "explain": "Text B: 'Ipratropium bromide 0.5 mg nebulised every 4–6 hours'."
+        },
+        {
+          "id": 18,
+          "type": "gapFill",
+          "stem": "Life-threatening asthma may be indicated by SpO₂ below …………………………………… % on any oxygen.",
+          "answer": "92",
+          "accept": [
+            "92",
+            "92%"
+          ],
+          "explain": "Text A: 'SpO₂ < 92% on any oxygen'."
+        },
+        {
+          "id": 19,
+          "type": "gapFill",
+          "stem": "Patients must receive a written …………………………………… plan at discharge, including escalation criteria and emergency contacts.",
+          "answer": "self-management",
+          "accept": [
+            "self-management",
+            "self management"
+          ],
+          "explain": "Text D: 'written self-management plan at discharge'."
+        },
+        {
+          "id": 20,
+          "type": "gapFill",
+          "stem": "Diurnal PEF variability must be below …………………………………… % before discharge can be considered safe.",
+          "answer": "25",
+          "accept": [
+            "25",
+            "25%"
+          ],
+          "explain": "Text D: 'Diurnal PEF variability < 25%'."
+        }
+      ],
+      "focusPhrases": [
+        "94–98%",
+        "110 beats/min",
+        "40–50 mg",
+        "5 days",
+        "20 minutes",
+        "8 kPa",
+        "2 working days",
+        "4 weeks",
+        "PEF < 33%",
+        "SpO₂ < 92%",
+        "over 20 minutes",
+        "self-management",
+        "Diurnal PEF variability"
+      ],
+      "gist": [
+        "Q1–7 = scan headings for severity categories, drug protocols, ABG indications, and discharge thresholds.",
+        "Q8–15 = lift exact numbers or short phrases: SpO₂ targets, drug doses, thresholds, and follow-up timings.",
+        "Q16–20 = fill the gap with a number or short phrase found directly in the relevant text."
+      ],
+      "vocab": [
+        {
+          "term": "ipratropium bromide",
+          "gloss": "이프라트로피움 브로마이드: 항콜린성 기관지확장제"
+        },
+        {
+          "term": "peak expiratory flow (PEF)",
+          "gloss": "최대호기유량: 폐에서 공기를 최대 속도로 내쉬는 능력의 지표"
+        },
+        {
+          "term": "arterial blood gas (ABG)",
+          "gloss": "동맥혈가스분석: 혈중 산소·이산화탄소 분압 및 산염기 상태 측정"
+        },
+        {
+          "term": "nebulised",
+          "gloss": "분무 흡입식: 약물을 미세 입자(에어로졸)로 변환해 흡입"
+        },
+        {
+          "term": "salbutamol",
+          "gloss": "살부타몰: 속효성 β₂ 항진제로 기관지를 빠르게 확장시킴"
+        }
+      ]
+    },
+    {
+      "id": "A-09",
+      "part": "A",
+      "setNum": 9,
+      "title": "Anaphylaxis: recognition and management",
+      "type": "partA-full",
+      "instruction": "Look at Texts A–D. Questions 1–7: which text? Questions 8–15: word/short phrase from the texts. Questions 16–20: complete the sentence. Spelling matters. Target: 15 minutes.",
+      "texts": [
+        {
+          "label": "A",
+          "heading": "Recognition criteria and differential diagnosis",
+          "body": "Anaphylaxis is a severe, life-threatening generalised hypersensitivity reaction. The UK Resuscitation Council criteria require all three of the following: sudden onset with rapid progression of symptoms; life-threatening airway, breathing, or circulation problems; and skin or mucosal changes (urticaria, flushing, angioedema) — though skin signs may be absent in up to 20% of cases.\n\nSystem-specific features\n• Airway: stridor, hoarseness, tongue or throat swelling\n• Breathing: acute bronchospasm, wheeze, tachypnoea, SpO₂ <94%\n• Circulation: hypotension (SBP <90 mmHg or >30% fall from baseline), tachycardia, pallor, syncope\n\nDifferential diagnoses\n• Vasovagal syncope: brief loss of consciousness, bradycardia, no urticaria\n• Asthma exacerbation: bronchospasm without systemic features\n• Hereditary angioedema (HAE): swelling without urticaria; does not respond to adrenaline\n• Carcinoid syndrome: episodic flushing without allergen trigger\n\nRisk is higher with parenteral allergen exposure (IV drugs, insect stings) than with oral ingestion."
+        },
+        {
+          "label": "B",
+          "heading": "Adrenaline dosing: route, dose and repeat interval",
+          "body": "Adrenaline 1:1,000 (1 mg/mL) by intramuscular injection into the anterolateral thigh is the first-line treatment for anaphylaxis.\n\nIM doses\n• Adult and child >12 years: 500 micrograms (0.5 mL)\n• Child 6–12 years: 300 micrograms (0.3 mL)\n• Child 6 months–6 years: 150 micrograms (0.15 mL)\n• Child <6 months: 100–150 micrograms (0.1–0.15 mL)\n\nRepeat dose: if no improvement after 5 minutes, administer a further IM dose at the same volume.\n\nAuto-injectors\nThe standard adult auto-injector (EpiPen 0.3 mg, Jext 300 micrograms, Emerade 300 micrograms) delivers 300 micrograms; the junior auto-injector (EpiPen Jr 0.15 mg, Jext 150 micrograms) delivers 150 micrograms. Check the expiry date before prescribing.\n\nIV route: use only in a specialist setting with continuous cardiac monitoring; adult bolus dose is 50 micrograms (0.5 mL of 1:10,000 solution), titrated cautiously."
+        },
+        {
+          "label": "C",
+          "heading": "Refractory anaphylaxis: IV infusion and adjunct therapy",
+          "body": "Refractory anaphylaxis is defined as failure to respond after two or more doses of IM adrenaline. Immediate escalation to IV adrenaline infusion with ICU involvement is required.\n\nIV adrenaline infusion preparation\nDilute 1 mg adrenaline in 100 mL sodium chloride 0.9% to give a concentration of 10 micrograms/mL. Start at 0.05 micrograms/kg/minute and titrate to clinical response.\n\nFluid resuscitation\nAnaphylaxis causes massive vasodilation and capillary leak. Give 500 mL–1 L crystalloid IV over 5–10 minutes; repeat boluses as required. Colloids are not recommended over crystalloids.\n\nSecond-line adjuncts (after adrenaline)\n• Chlorphenamine 10 mg IV — H1 antihistamine; reduces urticaria but does not reverse hypotension\n• Hydrocortisone 200 mg IV — slow onset; may attenuate biphasic reactions\n• Glucagon 1–2 mg IV — for patients on beta-blockers unresponsive to adrenaline\n\nRefractory bronchospasm: nebulised salbutamol 5 mg; consider IV magnesium sulphate 1.2–2 g over 20 minutes."
+        },
+        {
+          "label": "D",
+          "heading": "Observation periods, mast cell tryptase and discharge",
+          "body": "Observation periods\n• All patients: minimum 4 hours after symptom onset before any discharge decision\n• Severe reaction (respiratory compromise, hypotension, or loss of consciousness) or known biphasic risk factors: 12–24 hours inpatient observation\n\nMast cell tryptase sampling\n• Sample 1: as soon as possible (ideally within 1 hour of onset)\n• Sample 2: at 1–2 hours after onset (peak level)\n• Sample 3 (baseline): at ≥24 hours after the reaction or on recovery\nA result exceeding 1.2× baseline + 2 ng/mL supports the diagnosis of anaphylaxis.\n\nDischarge requirements — ALL must be met\n• Prescribe and demonstrate two adrenaline auto-injectors; confirm patient and carer competence\n• Provide a written anaphylaxis action plan\n• Advise patient to wear medical alert identification\n• Arrange allergy referral within 1 week and specialist clinic follow-up within 4–6 weeks\n• Document the identified trigger in the discharge letter"
+        }
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "whichText",
+          "stem": "the minimum observation time before any discharge decision can be made?",
+          "answer": "D",
+          "accept": [
+            "D"
+          ],
+          "explain": "Text D — observation periods section.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "type": "whichText",
+          "stem": "the correct IM adrenaline dose for adults and children over 12 years?",
+          "answer": "B",
+          "accept": [
+            "B"
+          ],
+          "explain": "Text B — IM doses section.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "type": "whichText",
+          "stem": "conditions that may be confused with anaphylaxis, including hereditary angioedema?",
+          "answer": "A",
+          "accept": [
+            "A"
+          ],
+          "explain": "Text A — differential diagnoses.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "type": "whichText",
+          "stem": "how to prepare an IV adrenaline infusion for a patient not responding to intramuscular doses?",
+          "answer": "C",
+          "accept": [
+            "C"
+          ],
+          "explain": "Text C — IV adrenaline infusion preparation.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "type": "whichText",
+          "stem": "the required follow-up timeline with a specialist allergy clinic after discharge?",
+          "answer": "D",
+          "accept": [
+            "D"
+          ],
+          "explain": "Text D — discharge requirements.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "type": "whichText",
+          "stem": "which second-line drug to consider for patients who take beta-blockers?",
+          "answer": "C",
+          "accept": [
+            "C"
+          ],
+          "explain": "Text C — second-line adjuncts.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "type": "whichText",
+          "stem": "how long to wait before repeating a dose of intramuscular adrenaline?",
+          "answer": "B",
+          "accept": [
+            "B"
+          ],
+          "explain": "Text B — repeat dose instruction.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "type": "shortAnswer",
+          "stem": "What SpO₂ level is listed as a sign of a significant breathing problem in anaphylaxis?",
+          "answer": "SpO₂ <94%",
+          "accept": [
+            "SpO₂ <94%",
+            "<94%",
+            "less than 94%",
+            "94%"
+          ],
+          "explain": "Text A — breathing features."
+        },
+        {
+          "id": 9,
+          "type": "shortAnswer",
+          "stem": "What systolic blood pressure value is given as a threshold for hypotension in anaphylaxis?",
+          "answer": "SBP <90 mmHg",
+          "accept": [
+            "SBP <90 mmHg",
+            "<90 mmHg",
+            "90 mmHg"
+          ],
+          "explain": "Text A — circulation features."
+        },
+        {
+          "id": 10,
+          "type": "shortAnswer",
+          "stem": "What volume of 1:1,000 adrenaline is drawn up for an adult intramuscular dose?",
+          "answer": "0.5 mL",
+          "accept": [
+            "0.5 mL",
+            "0.5mL",
+            "500 micrograms"
+          ],
+          "explain": "Text B — IM doses."
+        },
+        {
+          "id": 11,
+          "type": "shortAnswer",
+          "stem": "After how many minutes should a second IM adrenaline dose be given if there is no improvement?",
+          "answer": "5 minutes",
+          "accept": [
+            "5 minutes",
+            "5 mins",
+            "5"
+          ],
+          "explain": "Text B — repeat dose."
+        },
+        {
+          "id": 12,
+          "type": "shortAnswer",
+          "stem": "What concentration results when 1 mg of adrenaline is diluted in 100 mL sodium chloride 0.9%?",
+          "answer": "10 micrograms/mL",
+          "accept": [
+            "10 micrograms/mL",
+            "10 mcg/mL",
+            "10 micrograms per mL"
+          ],
+          "explain": "Text C — IV infusion preparation."
+        },
+        {
+          "id": 13,
+          "type": "shortAnswer",
+          "stem": "What dose of IV hydrocortisone is recommended as a second-line adjunct in anaphylaxis?",
+          "answer": "200 mg",
+          "accept": [
+            "200 mg",
+            "200mg"
+          ],
+          "explain": "Text C — second-line adjuncts."
+        },
+        {
+          "id": 14,
+          "type": "shortAnswer",
+          "stem": "How long after the reaction should the baseline mast cell tryptase sample (Sample 3) be taken?",
+          "answer": "≥24 hours",
+          "accept": [
+            "≥24 hours",
+            "at ≥24 hours",
+            "24 hours"
+          ],
+          "explain": "Text D — tryptase sampling: 'at ≥24 hours after the reaction or on recovery'."
+        },
+        {
+          "id": 15,
+          "type": "shortAnswer",
+          "stem": "Within what timeframe should an allergy referral be arranged after discharge?",
+          "answer": "1 week",
+          "accept": [
+            "1 week",
+            "within 1 week",
+            "one week"
+          ],
+          "explain": "Text D — discharge requirements."
+        },
+        {
+          "id": 16,
+          "type": "gapFill",
+          "stem": "Hereditary angioedema causes swelling without urticaria and does not respond to …………………………………….",
+          "answer": "adrenaline",
+          "accept": [
+            "adrenaline",
+            "epinephrine"
+          ],
+          "explain": "Text A — differential diagnoses: HAE does not respond to adrenaline."
+        },
+        {
+          "id": 17,
+          "type": "gapFill",
+          "stem": "The junior auto-injector (EpiPen Jr 0.15 mg) delivers ……………………………………. micrograms of adrenaline.",
+          "answer": "150",
+          "accept": [
+            "150",
+            "150 micrograms"
+          ],
+          "explain": "Text B — auto-injectors section."
+        },
+        {
+          "id": 18,
+          "type": "gapFill",
+          "stem": "For an IV adrenaline infusion in refractory anaphylaxis, the starting rate is ……………………………………. micrograms/kg/minute.",
+          "answer": "0.05",
+          "accept": [
+            "0.05",
+            "0.05 micrograms/kg/minute"
+          ],
+          "explain": "Text C — IV infusion preparation."
+        },
+        {
+          "id": 19,
+          "type": "gapFill",
+          "stem": "Chlorphenamine 10 mg IV is described as an ……………………………………. antihistamine that reduces urticaria but does not reverse hypotension.",
+          "answer": "H1",
+          "accept": [
+            "H1"
+          ],
+          "explain": "Text C — second-line adjuncts."
+        },
+        {
+          "id": 20,
+          "type": "gapFill",
+          "stem": "All patients must be observed for a minimum of ……………………………………. after symptom onset before any discharge decision.",
+          "answer": "4 hours",
+          "accept": [
+            "4 hours",
+            "4 hrs"
+          ],
+          "explain": "Text D — observation periods."
+        }
+      ],
+      "focusPhrases": [
+        "SpO₂ <94%",
+        "SBP <90 mmHg",
+        "0.5 mL",
+        "5 minutes",
+        "10 micrograms/mL",
+        "200 mg",
+        "≥24 hours after the reaction",
+        "1 week",
+        "adrenaline",
+        "150",
+        "0.05",
+        "H1",
+        "4 hours"
+      ],
+      "gist": [
+        "Q1–7 = which text (scan headings and unique clinical markers such as drug names and thresholds).",
+        "Q8–15 = lift exact words or numbers from the texts.",
+        "Q16–20 = gap-fill with short phrases copied directly from the texts."
+      ],
+      "vocab": [
+        {
+          "term": "anaphylaxis",
+          "gloss": "아나필락시스: 심각한 전신 과민반응"
+        },
+        {
+          "term": "angioedema",
+          "gloss": "혈관부종: 피부 깊은 층과 점막의 부종"
+        },
+        {
+          "term": "refractory",
+          "gloss": "불응성: 표준 치료에 반응하지 않는"
+        },
+        {
+          "term": "tryptase",
+          "gloss": "트립타제: 비만세포 활성화 시 분비되는 효소"
+        },
+        {
+          "term": "biphasic",
+          "gloss": "이중상: 초기 회복 후 수 시간 내 재발하는 반응"
+        }
+      ],
+      "sharedWhichPrompt": "In which text can you find information about"
+    },
+    {
+      "id": "A-10",
+      "part": "A",
+      "setNum": 10,
+      "title": "Acute kidney injury in hospital inpatients",
+      "type": "partA-full",
+      "instruction": "Look at Texts A–D. Questions 1–7: which text? Questions 8–15: word/short phrase from the texts. Questions 16–20: complete the sentence. Spelling matters. Target: 15 minutes.",
+      "sharedWhichPrompt": "In which text can you find information about",
+      "texts": [
+        {
+          "label": "A",
+          "heading": "AKI definition and KDIGO staging criteria",
+          "body": "Acute kidney injury (AKI) is defined as any of:\n• Rise in serum creatinine ≥26.5 µmol/L within 48 hours\n• Rise in serum creatinine to ≥1.5× baseline within 7 days\n• Urine output <0.5 mL/kg/h for ≥6 consecutive hours\n\nKDIGO staging\n• Stage 1: creatinine 1.5–1.9× baseline OR rise ≥26.5 µmol/L; urine output <0.5 mL/kg/h for 6–12 hours\n• Stage 2: creatinine 2.0–2.9× baseline; urine output <0.5 mL/kg/h for ≥12 hours\n• Stage 3: creatinine ≥3× baseline OR ≥353.6 µmol/L with acute rise ≥26.5 µmol/L; urine output <0.3 mL/kg/h for ≥24 hours OR anuria for ≥12 hours; or initiation of renal replacement therapy\n\nAKI staging guides escalation of monitoring and therapy intensity. Document baseline creatinine using the lowest value within the preceding 3 months."
+        },
+        {
+          "label": "B",
+          "heading": "Common causes and risk factors for AKI",
+          "body": "Pre-renal (reduced perfusion)\n• Hypovolaemia: diarrhoea, vomiting, haemorrhage, inadequate fluid intake\n• Sepsis and distributive shock\n• Cardiac failure with low output state\n• Hepatorenal syndrome\n\nIntrinsic renal\n• Acute tubular necrosis (ATN): most common; caused by ischaemia or nephrotoxins (aminoglycosides, contrast media, NSAIDs, vancomycin)\n• Acute interstitial nephritis: often drug-induced (penicillins, NSAIDs, PPIs) or immune-mediated\n• Glomerulonephritis: proteinuria and haematuria on urinalysis raises suspicion\n\nPost-renal (obstruction)\n• Bladder outlet obstruction (enlarged prostate, neurogenic bladder)\n• Bilateral ureteric obstruction (pelvic malignancy, retroperitoneal fibrosis)\n\nHigh-risk groups\n• Age ≥65 years\n• Chronic kidney disease (CKD): baseline eGFR <60 mL/min/1.73 m²\n• Diabetes, heart failure, liver disease\n• Recent nephrotoxin exposure (contrast, aminoglycosides, NSAIDs)"
+        },
+        {
+          "label": "C",
+          "heading": "Immediate AKI management bundle",
+          "body": "Assess and act within 6 hours of AKI recognition.\n\nFluid resuscitation\n• Give 500 mL crystalloid bolus (e.g. Hartmann's solution or 0.9% sodium chloride) if hypovolaemic; reassess after each bolus\n• Avoid aggressive fluid loading in AKI secondary to cardiac failure; seek senior advice\n\nStop nephrotoxins\n• Withhold NSAIDs, ACE inhibitors, angiotensin receptor blockers (ARBs), and diuretics when AKI is confirmed unless specifically indicated\n• Withhold aminoglycosides; if aminoglycosides essential, use once-daily dosing with serum level monitoring\n\nMonitoring\n• Urinalysis: dipstick for blood, protein, leucocytes, nitrites; send urine for microscopy and culture\n• Strict fluid balance with hourly urine output monitoring; insert catheter if output uncertain\n• Renal ultrasound within 24 hours to exclude obstruction if cause unclear\n\nEscalation\n• Serum creatinine, electrolytes, and bicarbonate every 6–12 hours in Stage 2–3 AKI"
+        },
+        {
+          "label": "D",
+          "heading": "Renal referral, dialysis indications, and drug dosing",
+          "body": "Indications for urgent renal team review\n• Suspected glomerulonephritis, vasculitis, or interstitial nephritis\n• AKI with no identifiable cause following initial assessment\n• Stage 3 AKI or AKI on CKD with eGFR <30 mL/min/1.73 m²\n• Refractory hyperkalaemia: K⁺ >6.5 mmol/L despite medical treatment\n• Severe metabolic acidosis: bicarbonate <15 mmol/L\n• Fluid overload refractory to diuretics\n\nRenal replacement therapy (RRT) triggers\nRRT is considered when any of: hyperkalaemia unresponsive to treatment, uraemic encephalopathy, pericarditis, or severe pulmonary oedema not responsive to diuretics.\n\nDrug dosing in AKI\n• Low-molecular-weight heparin: reduce dose or switch to unfractionated heparin when eGFR <30 mL/min/1.73 m²\n• Metformin: withhold in all stages of AKI\n• Renally cleared antibiotics (e.g. trimethoprim, nitrofurantoin): withhold or adjust; seek pharmacy advice"
+        }
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "whichText",
+          "stem": "the urine output threshold that defines AKI?",
+          "answer": "A",
+          "accept": [
+            "A"
+          ],
+          "explain": "Text A — AKI definition includes urine output <0.5 mL/kg/h for ≥6 consecutive hours.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "type": "whichText",
+          "stem": "which drug classes must be withheld when AKI is confirmed?",
+          "answer": "C",
+          "accept": [
+            "C"
+          ],
+          "explain": "Text C — stop nephrotoxins section lists NSAIDs, ACE inhibitors, ARBs, diuretics, aminoglycosides.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "type": "whichText",
+          "stem": "the eGFR cut-off below which low-molecular-weight heparin dose should be reduced?",
+          "answer": "D",
+          "accept": [
+            "D"
+          ],
+          "explain": "Text D — drug dosing box: LMWH reduce dose when eGFR <30 mL/min/1.73 m².",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "type": "whichText",
+          "stem": "the most common form of intrinsic renal injury and its causes?",
+          "answer": "B",
+          "accept": [
+            "B"
+          ],
+          "explain": "Text B — ATN: most common; caused by ischaemia or nephrotoxins.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "type": "whichText",
+          "stem": "when a renal ultrasound should be performed?",
+          "answer": "C",
+          "accept": [
+            "C"
+          ],
+          "explain": "Text C — renal ultrasound within 24 hours if cause unclear.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "type": "whichText",
+          "stem": "the serum creatinine level that defines KDIGO Stage 3?",
+          "answer": "A",
+          "accept": [
+            "A"
+          ],
+          "explain": "Text A — Stage 3: creatinine ≥3× baseline OR ≥353.6 µmol/L.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "type": "whichText",
+          "stem": "triggers for starting renal replacement therapy?",
+          "answer": "D",
+          "accept": [
+            "D"
+          ],
+          "explain": "Text D — RRT triggers section.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Text A"
+            },
+            {
+              "key": "B",
+              "text": "Text B"
+            },
+            {
+              "key": "C",
+              "text": "Text C"
+            },
+            {
+              "key": "D",
+              "text": "Text D"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "type": "shortAnswer",
+          "stem": "What serum creatinine rise within 48 hours meets the AKI definition?",
+          "answer": "≥26.5 µmol/L",
+          "accept": [
+            "≥26.5 µmol/L",
+            "26.5 µmol/L",
+            "≥26.5",
+            "26.5"
+          ],
+          "explain": "Text A — definition bullet: rise ≥26.5 µmol/L within 48 hours."
+        },
+        {
+          "id": 9,
+          "type": "shortAnswer",
+          "stem": "For how many consecutive hours must urine output remain below 0.5 mL/kg/h to meet the AKI definition?",
+          "answer": "6 consecutive hours",
+          "accept": [
+            "6 consecutive hours",
+            "≥6 consecutive hours",
+            "6 hours",
+            "≥6 hours"
+          ],
+          "explain": "Text A — urine output <0.5 mL/kg/h for ≥6 consecutive hours."
+        },
+        {
+          "id": 10,
+          "type": "shortAnswer",
+          "stem": "Which aminoglycoside dosing regimen is recommended if aminoglycosides are essential in AKI?",
+          "answer": "once-daily dosing",
+          "accept": [
+            "once-daily dosing",
+            "once daily dosing",
+            "once-daily"
+          ],
+          "explain": "Text C — stop nephrotoxins: use once-daily dosing with serum level monitoring."
+        },
+        {
+          "id": 11,
+          "type": "shortAnswer",
+          "stem": "What volume of crystalloid bolus is recommended for the hypovolaemic AKI patient?",
+          "answer": "500 mL",
+          "accept": [
+            "500 mL",
+            "500ml",
+            "500"
+          ],
+          "explain": "Text C — fluid resuscitation: Give 500 mL crystalloid bolus."
+        },
+        {
+          "id": 12,
+          "type": "shortAnswer",
+          "stem": "Which oral antidiabetic drug must be withheld in all stages of AKI?",
+          "answer": "Metformin",
+          "accept": [
+            "Metformin",
+            "metformin"
+          ],
+          "explain": "Text D — drug dosing: Metformin: withhold in all stages of AKI."
+        },
+        {
+          "id": 13,
+          "type": "shortAnswer",
+          "stem": "What potassium level defines refractory hyperkalaemia requiring urgent renal review?",
+          "answer": "K⁺ >6.5 mmol/L",
+          "accept": [
+            "K⁺ >6.5 mmol/L",
+            ">6.5 mmol/L",
+            "6.5 mmol/L",
+            ">6.5"
+          ],
+          "explain": "Text D — refractory hyperkalaemia: K⁺ >6.5 mmol/L despite medical treatment."
+        },
+        {
+          "id": 14,
+          "type": "shortAnswer",
+          "stem": "Within what timeframe should a renal ultrasound be performed when the cause of AKI is unclear?",
+          "answer": "24 hours",
+          "accept": [
+            "24 hours",
+            "within 24 hours",
+            "24 hrs",
+            "24h"
+          ],
+          "explain": "Text C — renal ultrasound within 24 hours to exclude obstruction."
+        },
+        {
+          "id": 15,
+          "type": "shortAnswer",
+          "stem": "What baseline eGFR threshold defines the high-risk CKD group for developing AKI?",
+          "answer": "<60 mL/min/1.73 m²",
+          "accept": [
+            "<60 mL/min/1.73 m²",
+            "60 mL/min/1.73 m²",
+            "<60",
+            "eGFR <60"
+          ],
+          "explain": "Text B — high-risk groups: CKD baseline eGFR <60 mL/min/1.73 m²."
+        },
+        {
+          "id": 16,
+          "type": "gapFill",
+          "stem": "Baseline creatinine should be documented using the lowest value within the preceding …………………………………… months.",
+          "answer": "3",
+          "accept": [
+            "3",
+            "three"
+          ],
+          "explain": "Text A — lowest value within the preceding 3 months."
+        },
+        {
+          "id": 17,
+          "type": "gapFill",
+          "stem": "Urine dipstick in AKI should check for blood, protein, leucocytes, and …………………………………….",
+          "answer": "nitrites",
+          "accept": [
+            "nitrites"
+          ],
+          "explain": "Text C — urinalysis: dipstick for blood, protein, leucocytes, nitrites."
+        },
+        {
+          "id": 18,
+          "type": "gapFill",
+          "stem": "In KDIGO Stage 3, anuria for …………………………………… hours or more also meets the staging criterion.",
+          "answer": "12",
+          "accept": [
+            "12",
+            "twelve",
+            "≥12"
+          ],
+          "explain": "Text A — Stage 3: anuria for ≥12 hours."
+        },
+        {
+          "id": 19,
+          "type": "gapFill",
+          "stem": "Metformin must be withheld in …………………………………… stages of AKI.",
+          "answer": "all",
+          "accept": [
+            "all"
+          ],
+          "explain": "Text D — Metformin: withhold in all stages of AKI."
+        },
+        {
+          "id": 20,
+          "type": "gapFill",
+          "stem": "Bilateral ureteric obstruction may result from pelvic malignancy or …………………………………….",
+          "answer": "retroperitoneal fibrosis",
+          "accept": [
+            "retroperitoneal fibrosis"
+          ],
+          "explain": "Text B — post-renal: bilateral ureteric obstruction (pelvic malignancy, retroperitoneal fibrosis)."
+        }
+      ],
+      "focusPhrases": [
+        "≥26.5 µmol/L",
+        "6 consecutive hours",
+        "once-daily dosing",
+        "500 mL",
+        "Metformin",
+        "K⁺ >6.5 mmol/L",
+        "24 hours",
+        "<60 mL/min/1.73 m²",
+        "3",
+        "nitrites",
+        "12",
+        "all",
+        "retroperitoneal fibrosis",
+        "353.6 µmol/L",
+        "<30 mL/min/1.73 m²"
+      ],
+      "gist": [
+        "Q1–7 = which text (scan headings and unique numbers/thresholds).",
+        "Q8–15 = lift exact words, numbers, or drug names directly from the texts.",
+        "Q16–20 = gap-fill with short words or phrases copied from the texts."
+      ],
+      "vocab": [
+        {
+          "term": "nephrotoxin",
+          "gloss": "신독성 물질: 신장 손상을 유발하는 약물 또는 물질"
+        },
+        {
+          "term": "hyperkalaemia",
+          "gloss": "고칼륨혈증: 혈중 칼륨 수치 과다 상승"
+        },
+        {
+          "term": "uraemic encephalopathy",
+          "gloss": "요독성 뇌증: 신부전으로 인한 독소 축적에 의한 뇌기능 장애"
+        },
+        {
+          "term": "retroperitoneal fibrosis",
+          "gloss": "후복막 섬유증: 복막 뒤쪽에 생기는 섬유화로 요관 폐색 유발"
+        },
+        {
+          "term": "anuria",
+          "gloss": "무뇨: 소변 생성이 완전히 정지된 상태 (보통 <100 mL/일)"
+        }
+      ]
     }
   ]
 }

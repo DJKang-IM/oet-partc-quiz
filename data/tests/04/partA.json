@@ -1,0 +1,262 @@
+{
+  "id": "A-04",
+  "part": "A",
+  "setNum": 4,
+  "title": "Community-acquired pneumonia in adults",
+  "type": "partA-full",
+  "instruction": "Look at Texts A–D. Questions 1–7: which text? Questions 8–15: word/short phrase from the texts. Questions 16–20: complete the sentence. Spelling matters. Target: 15 minutes.",
+  "sharedWhichPrompt": "In which text can you find information about",
+  "texts": [
+    {
+      "label": "A",
+      "heading": "CURB-65 severity assessment",
+      "body": "One point is assigned for each of the following criteria:\n• Confusion (new onset; Abbreviated Mental Test Score ≤8, or new disorientation in person, place, or time)\n• Urea >7 mmol/L\n• Respiratory rate ≥30 breaths/min\n• Blood pressure: systolic <90 mmHg or diastolic ≤60 mmHg\n• Age ≥65 years\n\nScore interpretation\n• 0–1: low severity — consider home treatment with oral antibiotics if social circumstances are safe\n• 2: moderate severity — consider hospital admission for supervised assessment and treatment\n• 3–5: high severity — urgent hospital admission required; consider ICU assessment if score 4–5\n\nCURB-65 guides but does not replace clinical judgement. A score of 0 or 1 does not preclude admission if the patient is hypoxic, unable to take oral medication, or lacks adequate home support. Reassess all patients within 24 hours if there is any clinical deterioration."
+    },
+    {
+      "label": "B",
+      "heading": "Empirical antibiotic therapy",
+      "body": "Low severity (CURB-65 0–1)\n• First choice: amoxicillin 500 mg orally three times daily for 5 days\n• Penicillin allergy: clarithromycin 500 mg orally twice daily for 5 days\n\nModerate severity (CURB-65 2)\n• First choice: amoxicillin 500 mg three times daily plus clarithromycin 500 mg twice daily (both oral) for 5 days\n• Penicillin allergy: doxycycline 200 mg loading dose then 100 mg once daily for 5 days\n\nHigh severity (CURB-65 3–5)\n• First choice: co-amoxiclav 1.2 g IV three times daily plus clarithromycin 500 mg IV twice daily\n• Penicillin allergy: levofloxacin 500 mg IV twice daily; seek microbiology advice if atypical organism suspected\n• Switch to oral therapy when apyrexial for ≥24 hours, tolerating diet, and clinically improving; total course 7–10 days\n\nAlways send blood cultures before starting IV antibiotics. Review culture results at 48–72 hours and de-escalate to narrower-spectrum agents where culture and sensitivity permit."
+    },
+    {
+      "label": "C",
+      "heading": "Investigations and oxygen targets",
+      "body": "All patients\n• Chest X-ray to confirm the diagnosis and document the extent of consolidation\n• Full blood count, C-reactive protein, urea and electrolytes, liver function tests, blood glucose\n• Pulse oximetry on arrival; repeat at least every 4 hours until readings are stable\n\nModerate or severe CAP (CURB-65 ≥2)\n• Two sets of blood cultures before antibiotics are given\n• Sputum Gram stain and culture if purulent sputum is produced\n• Urinary pneumococcal antigen test (send regardless of prior antibiotic exposure)\n• Urinary Legionella antigen if cluster, recent travel, or CURB-65 ≥3\n• Arterial blood gas if SpO₂ <94% or clinical respiratory failure is suspected\n\nOxygen therapy targets\nAim for SpO₂ 94–98% in most patients. Use a lower target of 88–92% in patients known or suspected to be at risk of hypercapnic respiratory failure (e.g. COPD or neuromuscular disease). Document the target on the oxygen prescription and reassess every 30 minutes until the patient is stable."
+    },
+    {
+      "label": "D",
+      "heading": "Discharge criteria and follow-up",
+      "body": "Criteria for discharge — all must be met\n• Temperature <37.8°C on two consecutive observations ≥6 hours apart\n• Heart rate <100 beats/min and respiratory rate <24 breaths/min\n• Systolic blood pressure ≥90 mmHg\n• SpO₂ ≥94% breathing air (or at the patient's documented home baseline)\n• Able to take oral medication and tolerating diet and fluids\n• Adequate community support and follow-up arrangements confirmed\n\nSafety-net advice\nAdvise patients to return urgently if breathlessness worsens, temperature rises again, chest pain develops, or haemoptysis occurs. Provide written information on warning signs.\n\nFollow-up\nArrange a follow-up chest X-ray at 6 weeks for patients who smoke, are aged ≥50 years, or have persisting symptoms, to exclude an underlying malignancy. Send a discharge summary to the GP documenting the organism identified (if any), the antibiotic course given, and allergy information recorded during the admission."
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "type": "whichText",
+      "stem": "the conditions that must all be met before a patient can be discharged?",
+      "answer": "D",
+      "accept": ["D"],
+      "explain": "Text D — discharge criteria list.",
+      "options": [
+        {"key": "A", "text": "Text A"},
+        {"key": "B", "text": "Text B"},
+        {"key": "C", "text": "Text C"},
+        {"key": "D", "text": "Text D"}
+      ]
+    },
+    {
+      "id": 2,
+      "type": "whichText",
+      "stem": "which antibiotic to prescribe for a patient with penicillin allergy and high-severity CAP?",
+      "answer": "B",
+      "accept": ["B"],
+      "explain": "Text B — high-severity penicillin-allergy row.",
+      "options": [
+        {"key": "A", "text": "Text A"},
+        {"key": "B", "text": "Text B"},
+        {"key": "C", "text": "Text C"},
+        {"key": "D", "text": "Text D"}
+      ]
+    },
+    {
+      "id": 3,
+      "type": "whichText",
+      "stem": "the criteria scored in the CURB-65 severity assessment?",
+      "answer": "A",
+      "accept": ["A"],
+      "explain": "Text A — CURB-65 criteria list.",
+      "options": [
+        {"key": "A", "text": "Text A"},
+        {"key": "B", "text": "Text B"},
+        {"key": "C", "text": "Text C"},
+        {"key": "D", "text": "Text D"}
+      ]
+    },
+    {
+      "id": 4,
+      "type": "whichText",
+      "stem": "which urine test to request in patients with moderate or severe pneumonia?",
+      "answer": "C",
+      "accept": ["C"],
+      "explain": "Text C — urinary pneumococcal antigen.",
+      "options": [
+        {"key": "A", "text": "Text A"},
+        {"key": "B", "text": "Text B"},
+        {"key": "C", "text": "Text C"},
+        {"key": "D", "text": "Text D"}
+      ]
+    },
+    {
+      "id": 5,
+      "type": "whichText",
+      "stem": "the recommended antibiotic course length for low-severity pneumonia?",
+      "answer": "B",
+      "accept": ["B"],
+      "explain": "Text B — 5 days for low severity.",
+      "options": [
+        {"key": "A", "text": "Text A"},
+        {"key": "B", "text": "Text B"},
+        {"key": "C", "text": "Text C"},
+        {"key": "D", "text": "Text D"}
+      ]
+    },
+    {
+      "id": 6,
+      "type": "whichText",
+      "stem": "when to arrange a follow-up chest X-ray after discharge and what condition it aims to exclude?",
+      "answer": "D",
+      "accept": ["D"],
+      "explain": "Text D — follow-up CXR at 6 weeks to exclude malignancy.",
+      "options": [
+        {"key": "A", "text": "Text A"},
+        {"key": "B", "text": "Text B"},
+        {"key": "C", "text": "Text C"},
+        {"key": "D", "text": "Text D"}
+      ]
+    },
+    {
+      "id": 7,
+      "type": "whichText",
+      "stem": "the oxygen saturation target for patients at risk of hypercapnic respiratory failure?",
+      "answer": "C",
+      "accept": ["C"],
+      "explain": "Text C — oxygen targets section.",
+      "options": [
+        {"key": "A", "text": "Text A"},
+        {"key": "B", "text": "Text B"},
+        {"key": "C", "text": "Text C"},
+        {"key": "D", "text": "Text D"}
+      ]
+    },
+    {
+      "id": 8,
+      "type": "shortAnswer",
+      "stem": "What blood urea threshold defines the 'U' criterion in CURB-65?",
+      "answer": ">7 mmol/L",
+      "accept": [">7 mmol/L", ">7mmol/L", "7 mmol/L", "urea >7 mmol/L"],
+      "explain": "Text A — Urea criterion: 'Urea >7 mmol/L'."
+    },
+    {
+      "id": 9,
+      "type": "shortAnswer",
+      "stem": "At what CURB-65 score range should consideration of ICU assessment begin?",
+      "answer": "4–5",
+      "accept": ["4–5", "4-5", "score 4–5", "4 or 5"],
+      "explain": "Text A — 'consider ICU assessment if score 4–5'."
+    },
+    {
+      "id": 10,
+      "type": "shortAnswer",
+      "stem": "Which oral antibiotic is listed as the first choice for low-severity CAP?",
+      "answer": "amoxicillin",
+      "accept": ["amoxicillin", "amoxicillin 500 mg"],
+      "explain": "Text B — low-severity first-choice row."
+    },
+    {
+      "id": 11,
+      "type": "shortAnswer",
+      "stem": "What total antibiotic course duration is recommended for high-severity community-acquired pneumonia?",
+      "answer": "7–10 days",
+      "accept": ["7–10 days", "7-10 days", "7 to 10 days", "7–10"],
+      "explain": "Text B — 'total course 7–10 days'."
+    },
+    {
+      "id": 12,
+      "type": "shortAnswer",
+      "stem": "Which IV antibiotic is recommended for high-severity CAP in patients with penicillin allergy?",
+      "answer": "levofloxacin",
+      "accept": ["levofloxacin", "levofloxacin 500 mg"],
+      "explain": "Text B — penicillin-allergy high-severity row."
+    },
+    {
+      "id": 13,
+      "type": "shortAnswer",
+      "stem": "What oxygen saturation target is recommended for most patients with community-acquired pneumonia?",
+      "answer": "94–98%",
+      "accept": ["94–98%", "94-98%", "SpO₂ 94–98%", "94 to 98%"],
+      "explain": "Text C — oxygen therapy targets: 'Aim for SpO₂ 94–98%'."
+    },
+    {
+      "id": 14,
+      "type": "shortAnswer",
+      "stem": "Which urine test should be sent for all patients with moderate or severe CAP?",
+      "answer": "urinary pneumococcal antigen",
+      "accept": ["urinary pneumococcal antigen", "pneumococcal antigen", "pneumococcal antigen test"],
+      "explain": "Text C — 'Urinary pneumococcal antigen test'."
+    },
+    {
+      "id": 15,
+      "type": "shortAnswer",
+      "stem": "After how many weeks should a follow-up chest X-ray be arranged for at-risk patients discharged after CAP?",
+      "answer": "6 weeks",
+      "accept": ["6 weeks", "6", "six weeks"],
+      "explain": "Text D — 'at 6 weeks for patients who smoke'."
+    },
+    {
+      "id": 16,
+      "type": "gapFill",
+      "stem": "Patients with a CURB-65 score of 0 or 1 can be considered for …………………………………… treatment with oral antibiotics if social circumstances are safe.",
+      "answer": "home",
+      "accept": ["home", "home treatment"],
+      "explain": "Text A — 'consider home treatment with oral antibiotics if social circumstances are safe'."
+    },
+    {
+      "id": 17,
+      "type": "gapFill",
+      "stem": "For moderate-severity CAP with penicillin allergy, …………………………………… 200 mg is given as a loading dose, followed by 100 mg once daily for 5 days.",
+      "answer": "doxycycline",
+      "accept": ["doxycycline"],
+      "explain": "Text B — moderate severity penicillin-allergy row: 'doxycycline 200 mg loading dose'."
+    },
+    {
+      "id": 18,
+      "type": "gapFill",
+      "stem": "Patients known or suspected to be at risk of hypercapnic respiratory failure should have a lower oxygen saturation target of ……………………………………",
+      "answer": "88–92%",
+      "accept": ["88–92%", "88-92%", "88 to 92%"],
+      "explain": "Text C — 'lower target of 88–92%'."
+    },
+    {
+      "id": 19,
+      "type": "gapFill",
+      "stem": "Patients should be told to return urgently if …………………………………… worsens, temperature rises again, or chest pain develops.",
+      "answer": "breathlessness",
+      "accept": ["breathlessness"],
+      "explain": "Text D — safety-net advice: 'if breathlessness worsens'."
+    },
+    {
+      "id": 20,
+      "type": "gapFill",
+      "stem": "A follow-up chest X-ray is arranged to exclude an underlying …………………………………… in patients who smoke, are aged ≥50 years, or have persisting symptoms.",
+      "answer": "malignancy",
+      "accept": ["malignancy", "cancer", "underlying malignancy"],
+      "explain": "Text D — follow-up section: 'to exclude an underlying malignancy'."
+    }
+  ],
+  "gist": [
+    "Q1–7 = which text (scan headings and unique clinical markers).",
+    "Q8–15 = copy exact words or numbers from the relevant text.",
+    "Q16–20 = gap-fill: identify the precise term or value from the texts."
+  ],
+  "vocab": [
+    {
+      "term": "consolidation",
+      "gloss": "경화: 폐포에 액체나 염증세포가 차서 단단해진 방사선학적 소견"
+    },
+    {
+      "term": "hypercapnia",
+      "gloss": "고탄산혈증: 혈중 이산화탄소 농도가 비정상적으로 높은 상태"
+    },
+    {
+      "term": "haemoptysis",
+      "gloss": "객혈: 기침 시 혈액이 나오는 증상"
+    },
+    {
+      "term": "apyrexial",
+      "gloss": "무발열 상태: 열이 없는, 체온이 정상 범위인"
+    },
+    {
+      "term": "atypical",
+      "gloss": "비정형: 마이코플라스마 등 일반적인 폐렴구균이 아닌 원인균에 의한 폐렴"
+    }
+  ]
+}

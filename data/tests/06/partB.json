@@ -1,0 +1,193 @@
+{
+  "id": "B-06",
+  "part": "B",
+  "setNum": 6,
+  "type": "workplace",
+  "title": "Mental health, capacity & consent extracts",
+  "instruction": "Six workplace extracts. Choose A, B or C. Focus phrases highlighted.",
+  "items": [
+    {
+      "id": 1,
+      "extract": "Memo from the ward consultant to all clinical staff:\n\nCapacity is decision-specific and time-specific. Before you assume that a patient lacks capacity, apply the two-stage statutory test set out in the Mental Capacity Act 2005. First, establish whether there is an impairment or disturbance in the functioning of the mind or brain. Second, assess whether that impairment renders the patient unable to understand, retain, weigh up, or communicate the decision in question. Do not collapse these two stages into a general impression of 'confusion'. Each assessment must relate to the specific decision at hand — consent to a procedure is not the same assessment as capacity to refuse a medication. Document your findings the same day, including the decision in question, the evidence considered, and the conclusion reached. If you are uncertain, do not proceed on a best-interests basis without first consulting the senior medical or mental health team and, where appropriate, an independent mental capacity advocate. A blanket 'lacks capacity' notation on the admission clerking does not satisfy the legal requirement.",
+      "stem": "The memo mainly tells staff to",
+      "options": [
+        {
+          "key": "A",
+          "text": "complete a single capacity assessment at admission that covers all subsequent clinical decisions for that patient."
+        },
+        {
+          "key": "B",
+          "text": "refer every capacity assessment to an independent mental capacity advocate before any best-interests decision is made."
+        },
+        {
+          "key": "C",
+          "text": "apply the two-stage statutory test to each specific decision and record the findings on the day of assessment."
+        }
+      ],
+      "answer": "C",
+      "explain": "핵심: apply the two-stage statutory test to each specific decision and record the findings on the day of assessment.",
+      "focusPhrases": [
+        "decision-specific",
+        "two-stage statutory test",
+        "same day"
+      ]
+    },
+    {
+      "id": 2,
+      "extract": "Notice posted in the clinical area — acute psychiatric inpatient unit:\n\nAny potential ligature point identified during a room search, patient observation, or routine inspection must be reported to the nurse in charge immediately and action taken to reduce or remove the risk before the shift ends. Do not defer removal to maintenance unless the point is structural and cannot be safely addressed at ward level. In that case, move the patient to a low-risk room while the referral is logged as urgent. Staff must not assume that a previously audited room remains safe; ligature risks can appear from everyday items including bedding, cords, and clothing. Document all identified risks on the environmental risk log and inform the on-call manager if a structural risk cannot be mitigated within the shift. The next shift team must be briefed at handover about any outstanding environmental risks that were not fully resolved.",
+      "stem": "The purpose of this notice is to",
+      "options": [
+        {
+          "key": "A",
+          "text": "remind staff that identified ligature points must be reported and mitigated before the shift ends, not deferred to the next day."
+        },
+        {
+          "key": "B",
+          "text": "instruct staff to request a maintenance inspection at the start of every shift before any patient is admitted to a room."
+        },
+        {
+          "key": "C",
+          "text": "inform nursing staff that all ligature-point audits and removals are the sole responsibility of the maintenance team."
+        }
+      ],
+      "answer": "A",
+      "explain": "핵심: identified ligature points must be reported and mitigated before the shift ends, not deferred to the next day.",
+      "focusPhrases": [
+        "ligature point",
+        "before the shift ends",
+        "environmental risk log"
+      ]
+    },
+    {
+      "id": 3,
+      "extract": "Extract from the Trust rapid tranquillisation guideline (Section 4 — post-administration monitoring):\n\nFollowing any administration of medication for rapid tranquillisation, the patient's pulse, blood pressure, respiratory rate, and oxygen saturation must be recorded every 15 minutes for the first hour, then every 30 minutes for the second hour, or more frequently if the clinical situation demands. Resuscitation equipment, including bag-valve-mask and emergency oxygen, must be immediately accessible in the clinical area throughout this period. If the patient becomes unresponsive, has an oxygen saturation below 90%, or the respiratory rate falls below 10 breaths per minute, call the resuscitation team immediately and do not administer further medication. Lorazepam and haloperidol should not routinely be combined without explicit senior medical authorisation, as the combination carries a heightened risk of respiratory and cardiovascular depression. Staff must document the clinical justification for rapid tranquillisation, the drug and dose given, and all monitoring observations in the patient's record.",
+      "stem": "The guideline states that",
+      "options": [
+        {
+          "key": "A",
+          "text": "combined lorazepam and haloperidol is the preferred first-line regimen whenever a patient is acutely agitated and cannot be de-escalated."
+        },
+        {
+          "key": "B",
+          "text": "observations must be recorded at regular intervals after medication is given and resuscitation equipment must be immediately available throughout."
+        },
+        {
+          "key": "C",
+          "text": "rapid tranquillisation may be administered by nursing staff acting alone whenever a senior doctor cannot be reached promptly on the ward."
+        }
+      ],
+      "answer": "B",
+      "explain": "핵심: observations must be recorded at regular intervals after medication is given and resuscitation equipment must be immediately available throughout.",
+      "focusPhrases": [
+        "every 15 minutes",
+        "Resuscitation equipment",
+        "immediately accessible"
+      ]
+    },
+    {
+      "id": 4,
+      "extract": "Standard operating procedure — Section 5(2) of the Mental Health Act 1983:\n\nSection 5(2) allows the registered medical practitioner or approved clinician currently responsible for an informal (voluntary) inpatient's treatment to detain that patient for up to 72 hours when they consider that an application for compulsory admission ought to be made. The power may only be invoked by the responsible clinician or their nominated deputy — it cannot be delegated to nursing staff. On completion of the relevant form (Form H1), the hospital managers' office must be notified within one hour and the Mental Health Act administrator informed. The 72-hour period begins at the time the form is signed, not from the time the patient was stopped from leaving. If, at the end of the 72-hour period, a full section has not been applied for and the patient wishes to leave, they must be allowed to do so unless alternative lawful authority exists. The patient must be informed of their rights under the holding power as soon as practicable after its invocation.",
+      "stem": "According to the SOP, Section 5(2)",
+      "options": [
+        {
+          "key": "A",
+          "text": "may be invoked by any registered nurse on the ward if a voluntary patient attempts to leave without medical staff being present."
+        },
+        {
+          "key": "B",
+          "text": "detains the patient for a maximum of 24 hours while a formal Mental Health Act assessment is arranged by the clinical team."
+        },
+        {
+          "key": "C",
+          "text": "may only be invoked by the responsible clinician or their deputy and provides a detention period of up to 72 hours."
+        }
+      ],
+      "answer": "C",
+      "explain": "핵심: may only be invoked by the responsible clinician or their deputy and provides a detention period of up to 72 hours.",
+      "focusPhrases": [
+        "registered medical practitioner",
+        "up to 72 hours",
+        "cannot be delegated to nursing staff"
+      ]
+    },
+    {
+      "id": 5,
+      "extract": "Extract from the observation and engagement policy — mental health inpatient services:\n\nObservation level must be reviewed whenever there is a change in a patient's presentation, risk, or circumstances — including following any incident, significant disclosure, or change in leave status. The nurse in charge, in consultation with the responsible clinician where possible, must determine whether a higher or lower level is appropriate and document the rationale and time of change in the nursing record. A new observation level does not require a medical prescription but must be clinically justified and recorded at the time of change, not retrospectively. Continuous observation (one-to-one) may be initiated by a registered nurse in response to immediate risk, and the responsible clinician must be informed within one hour. Reductions in observation level should be agreed with the multidisciplinary team and are not solely at the discretion of the nurse in charge. Observation is a therapeutic engagement opportunity, not a purely supervisory task.",
+      "stem": "The policy mainly requires staff to",
+      "options": [
+        {
+          "key": "A",
+          "text": "review and adjust the observation level whenever a patient's risk or presentation changes, documenting the rationale at the time of change."
+        },
+        {
+          "key": "B",
+          "text": "place every newly admitted patient on continuous one-to-one observation for a minimum of twenty-four hours before considering any reduction."
+        },
+        {
+          "key": "C",
+          "text": "obtain written consultant approval before either increasing or decreasing the observation level of any inpatient on a section."
+        }
+      ],
+      "answer": "A",
+      "explain": "핵심: review and adjust the observation level whenever a patient's risk or presentation changes, documenting the rationale at the time of change.",
+      "focusPhrases": [
+        "change in a patient's presentation",
+        "document the rationale",
+        "at the time of change"
+      ]
+    },
+    {
+      "id": 6,
+      "extract": "Triage handover to liaison psychiatry — Emergency Department:\n\nThis is a 26-year-old woman who presented at 22:40 following a mixed overdose of paracetamol and diazepam, quantities unknown. Paracetamol level has been taken; result is still pending. She is medically stable at present but has not yet been assessed by the liaison psychiatry team. She has a known history of emotionally unstable personality disorder and two prior self-harm presentations in the last six months. She is distressed and intermittently refusing to engage with staff. She has explicitly stated she does not want her family contacted, and this wish must be respected unless the liaison team judges her to lack capacity or there is an immediate safety reason to override it. The treating physician has documented that a full mental state examination and risk assessment from liaison psychiatry are required before any decision regarding admission or discharge can be made. Please review within the hour.",
+      "stem": "The note indicates that",
+      "options": [
+        {
+          "key": "A",
+          "text": "the patient has already been assessed by the duty psychiatrist and is now waiting for a psychiatric inpatient bed to be allocated."
+        },
+        {
+          "key": "B",
+          "text": "a full mental state examination and risk assessment from liaison psychiatry must be completed before any admission or discharge decision is made."
+        },
+        {
+          "key": "C",
+          "text": "the patient has consented to information sharing with her family and the treating physician has documented this agreement in her notes."
+        }
+      ],
+      "answer": "B",
+      "explain": "핵심: a full mental state examination and risk assessment from liaison psychiatry must be completed before any admission or discharge decision is made.",
+      "focusPhrases": [
+        "full mental state examination",
+        "risk assessment",
+        "before any decision"
+      ]
+    }
+  ],
+  "gist": [
+    "Part B = the main obligation or purpose of each extract; ignore incidental details.",
+    "Distractors often reverse a condition (unless / only / before) or misattribute a duty to the wrong person.",
+    "Watch for qualifying words such as 'immediately', 'at the time of change', and 'cannot be delegated' — they carry the correct answer."
+  ],
+  "vocab": [
+    {
+      "term": "ligature point",
+      "gloss": "결박점: 자해·목맴에 이용될 수 있는 물리적 고정점"
+    },
+    {
+      "term": "rapid tranquillisation",
+      "gloss": "신속 진정요법: 급성 흥분 상태에서 약물로 빠르게 진정시키는 처치"
+    },
+    {
+      "term": "approved clinician",
+      "gloss": "승인 임상가: 정신건강법상 자격을 인정받은 의료 전문가"
+    },
+    {
+      "term": "mental capacity",
+      "gloss": "정신적 판단능력: 특정 결정을 이해·숙고·전달할 수 있는 능력"
+    },
+    {
+      "term": "emotionally unstable personality disorder",
+      "gloss": "감정 불안정 성격장애 (경계선형 성격장애)"
+    }
+  ]
+}
