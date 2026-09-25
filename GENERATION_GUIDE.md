@@ -79,7 +79,7 @@ Topics already used: 01 ward & medicines policy · 02 theatre, IPC & governance.
 
 **What it is:** two long opinion/feature articles (**Text 1**, **Text 2**) on different healthcare topics, each followed by 8 four-option questions testing *inference, attitude, reference, and meaning in context*. In the real paper these are numbered **Q7–14 and Q15–22**; in the file you number them **1–8 for each text** and the app renumbers.
 
-**Lengths:** each text **700–850 words**, 7–11 paragraphs of 60–130 words. Structure: hook → problem → nuance/counter-argument → examples/evidence → practical implications → conclusion with a memorable phrase. Use a few quotable phrases (`'a rumour with a timestamp'`, `'NBM is a tool, not an identity'`) — those become question targets.
+**Lengths:** each text **700–850 words**, 7–11 paragraphs of 60–130 words. (Validator-enforced hard limits: 680–880 words, 6–12 paragraphs; the 60–130-word paragraph range is style guidance — only paragraphs under 40 words trigger a warning.) Structure: hook → problem → nuance/counter-argument → examples/evidence → practical implications → conclusion with a memorable phrase. Use a few quotable phrases (`'a rumour with a timestamp'`, `'NBM is a tool, not an identity'`) — those become question targets.
 
 **Questions (8 per text) — mix these types:**
 
