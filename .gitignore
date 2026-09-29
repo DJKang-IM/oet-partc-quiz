@@ -8,3 +8,4 @@ _*.py
 _*.txt
 _*.json
 tools/last_validation.txt
+vocab_notes/

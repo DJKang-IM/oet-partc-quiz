@@ -34,3 +34,7 @@ git add -A && git commit -m "Test 11" && git push
 produce a test that passes `tools/validate.py`; the validator enforces counts,
 lengths, answer spread, longest-option bias, verbatim focus phrases, paragraph
 references and no repeated (filler) sentences.
+
+## Vocab notes (PC)
+
+With sync connected, `python tools/vocab.py pull` downloads the words highlighted on any device (with their context sentence) to `vocab_notes/words.json`. Write glosses to `vocab_notes/glosses.json` (`{"setId|term": {"ko": ..., "note": ...}}`), then `python tools/vocab.py push` sends them back so each word shows its meaning in the app, and writes `vocab_notes/VOCAB.md`. `vocab_notes/` is git-ignored.

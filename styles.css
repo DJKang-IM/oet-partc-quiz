@@ -531,6 +531,18 @@ details[open] > summary.q-group::before {
   font-size: 0.9rem;
 }
 
+.vocab-ctx {
+  font-size: 0.88rem;
+  color: var(--muted);
+  font-style: italic;
+  margin: 4px 0 6px;
+  padding-left: 8px;
+  border-left: 3px solid #ddd6fe;
+}
+.vocab-def {
+  white-space: pre-line;
+}
+
 /* 동기화 */
 .sync-card {
   display: grid;

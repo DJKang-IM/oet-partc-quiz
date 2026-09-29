@@ -1050,6 +1050,7 @@ function renderVocab() {
           <div class="vocab-meta">${escapeHtml(vocabWhere(v))} · ${escapeHtml(
             v.addedAt || ""
           )}</div>
+          ${v.context ? `<div class="vocab-ctx">${highlightFocus(v.context, [v.term])}</div>` : ""}
           <div class="vocab-def" data-def>${
             v.def
               ? escapeHtml(v.def)
@@ -1297,7 +1298,8 @@ function setupPassageHighlight() {
     }
     fab.style.display = "block";
     fab.onclick = () => {
-      addHighlight(term);
+      const block = sel.anchorNode?.parentElement?.closest("p, .text-body, .extract-mini");
+      addHighlight(term, sentenceAround(block?.textContent || "", term));
       sel.removeAllRanges();
       hideFab();
     };
@@ -1316,7 +1318,20 @@ function setupPassageHighlight() {
   });
 }
 
-function addHighlight(term) {
+// the sentence (or bullet line) that contains the term, for the vocab list
+function sentenceAround(text, term) {
+  const flat = String(text).replace(/\s+/g, " ").trim();
+  const i = flat.toLowerCase().indexOf(term.toLowerCase());
+  if (i < 0) return "";
+  const before = flat.slice(0, i);
+  const start = Math.max(before.search(/[^.!?•]*$/), 0);
+  const tail = flat.slice(i + term.length);
+  const m = /[.!?](\s|$)|•/.exec(tail);
+  const end = m ? i + term.length + m.index + 1 : flat.length;
+  return flat.slice(start, end).replace(/•$/, "").trim().slice(0, 300);
+}
+
+function addHighlight(term, context = "") {
   const s = currentSet();
   const list = loadVocab();
   const key = term.toLowerCase();
@@ -1341,6 +1356,7 @@ function addHighlight(term) {
     part: s.part,
     setNum: s.setNum,
     tab: STATE.tab, // where it was found: passage | text0 | text1 | questions(B)
+    context,
     def,
     addedAt: new Date().toLocaleString(),
     at: new Date().toISOString(),
@@ -1708,7 +1724,7 @@ async function init() {
     render();
   };
 
-  const DATA_V = "202609291142"; // bump when data/*.json changes (Safari caches aggressively)
+  const DATA_V = "202609291144"; // bump when data/*.json changes (Safari caches aggressively)
   const [cRes, aRes, bRes] = await Promise.all([
     fetch(`data/partC.json?v=${DATA_V}`, { cache: "no-cache" }),
     fetch(`data/partA.json?v=${DATA_V}`, { cache: "no-cache" }),
