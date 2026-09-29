@@ -531,6 +531,32 @@ details[open] > summary.q-group::before {
   font-size: 0.9rem;
 }
 
+/* 동기화 */
+.sync-card {
+  display: grid;
+  gap: 10px;
+}
+.sync-steps {
+  margin: 0;
+  padding-left: 20px;
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+.sync-link {
+  text-align: center;
+  text-decoration: none;
+}
+.sync-err {
+  color: #b91c1c;
+  font-weight: 600;
+}
+.sync-linkbox {
+  width: 100%;
+  min-height: 70px;
+  font-size: 0.8rem;
+  word-break: break-all;
+}
+
 /* 오답 노트 */
 .wrong-item {
   padding: 12px 0;

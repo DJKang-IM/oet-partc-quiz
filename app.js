@@ -27,6 +27,26 @@ function loadVocab() {
 
 function saveVocab(list) {
   localStorage.setItem(VOCAB_KEY, JSON.stringify(list));
+  schedulePush();
+}
+
+// Deleted vocab entries are remembered (key → time) so a sync doesn't bring them back.
+const VOCAB_DEL_KEY = "oet-vocab-deleted-v1";
+function vocabKey(v) {
+  return `${v.setId}|${String(v.term || "").toLowerCase()}`;
+}
+function loadVocabDel() {
+  try {
+    return JSON.parse(localStorage.getItem(VOCAB_DEL_KEY) || "{}");
+  } catch {
+    return {};
+  }
+}
+function markVocabDeleted(entries) {
+  const del = loadVocabDel();
+  const now = new Date().toISOString();
+  for (const v of entries) del[vocabKey(v)] = now;
+  localStorage.setItem(VOCAB_DEL_KEY, JSON.stringify(del));
 }
 
 function loadProgress() {
@@ -51,6 +71,12 @@ function loadProgress() {
 
 function saveProgress(map) {
   localStorage.setItem(PROGRESS_KEY, JSON.stringify(map));
+  schedulePush();
+}
+
+// A reset keeps a dated "not done" entry instead of deleting, so the reset syncs too.
+function progressTombstone() {
+  return { done: false, at: new Date().toISOString() };
 }
 
 function markSetComplete(setId, score, total, answers) {
@@ -67,7 +93,7 @@ function markSetComplete(setId, score, total, answers) {
 
 function resetSetProgress(setId) {
   const map = loadProgress();
-  delete map[setId];
+  map[setId] = progressTombstone();
   saveProgress(map);
 }
 
@@ -241,6 +267,10 @@ function render() {
     setTitle("단어장");
     main.innerHTML = renderVocab();
     bindVocab();
+  } else if (STATE.view === "sync") {
+    setTitle("동기화");
+    main.innerHTML = renderSync();
+    bindSync();
   } else if (STATE.view === "wrong") {
     setTitle("오답 노트");
     main.innerHTML = renderWrongNote();
@@ -373,6 +403,9 @@ function renderHome() {
       <p class="lead">${STATE.data.note}<br/>문제에서 묻는 표현은 지문에 <strong class="focus"><u>굵게+밑줄</u></strong>로 표시됩니다. 모르는 단어는 선택 후 하이라이트 저장 → 단어장.</p>
       <div class="home-tools">
         <button type="button" class="btn secondary" id="wrongNoteBtn">오답 노트 (${totalWrong})</button>
+        <button type="button" class="btn secondary" id="syncBtn">${
+          syncCfg().token ? (SYNC.error ? "동기화 ⚠ 오류" : "동기화 ✓ 켜짐") : "기기 간 동기화 켜기"
+        }</button>
         <span class="home-meta">${doneSets}/${STATE.data.sets.length} 세트 완료</span>
       </div>
     </div>
@@ -1049,10 +1082,15 @@ function bindHome() {
       render();
       return;
     }
+    if (e.target.id === "syncBtn") {
+      STATE.view = "sync";
+      render();
+      return;
+    }
     if (e.target.id === "resetAllBtn") {
       if (confirm(`Part ${STATE.part}의 모든 세트 기록(점수·내 답)을 지울까요?`)) {
         const map = loadProgress();
-        for (const s of setsForPart(STATE.part)) delete map[s.id];
+        for (const s of setsForPart(STATE.part)) if (map[s.id]) map[s.id] = progressTombstone();
         saveProgress(map);
         render();
         toast("초기화했습니다");
@@ -1305,6 +1343,7 @@ function addHighlight(term) {
     tab: STATE.tab, // where it was found: passage | text0 | text1 | questions(B)
     def,
     addedAt: new Date().toLocaleString(),
+    at: new Date().toISOString(),
   });
   saveVocab(list);
   toast(def ? "저장됨 (세트 뜻 있음)" : "저장됨");
@@ -1314,6 +1353,7 @@ function bindVocab() {
   $("main").onclick = async (e) => {
     if (e.target.id === "clearVocab") {
       if (confirm("단어장을 모두 지울까요?")) {
+        markVocabDeleted(loadVocab());
         saveVocab([]);
         render();
       }
@@ -1324,6 +1364,7 @@ function bindVocab() {
     const list = loadVocab();
     const idx = Number(item.dataset.idx);
     if (e.target.matches("[data-remove]")) {
+      markVocabDeleted([list[idx]]);
       list.splice(idx, 1);
       saveVocab(list);
       render();
@@ -1337,6 +1378,7 @@ function bindVocab() {
       e.target.textContent = "찾는 중…";
       const def = await lookupWord(list[idx].term, list[idx].setId);
       list[idx].def = def || "뜻을 찾지 못했습니다.";
+      list[idx].at = new Date().toISOString();
       saveVocab(list);
       render();
     }
@@ -1375,7 +1417,286 @@ async function lookupWord(term, setId) {
   }
 }
 
+// ---------- cross-device sync via a secret GitHub Gist ----------
+// The token needs only the "gist" scope; it stays in this browser's localStorage.
+const SYNC_KEY = "oet-sync-v1";
+const GIST_FILE = "oet-reading-sync.json";
+const TOKEN_URL =
+  "https://github.com/settings/tokens/new?scopes=gist&description=OET%20Reading%20sync";
+const SYNC = { busy: false, again: false, timer: null, status: "", error: "" };
+
+function syncCfg() {
+  try {
+    return JSON.parse(localStorage.getItem(SYNC_KEY) || "{}");
+  } catch {
+    return {};
+  }
+}
+function saveSyncCfg(cfg) {
+  localStorage.setItem(SYNC_KEY, JSON.stringify(cfg));
+}
+
+function schedulePush() {
+  if (!syncCfg().token) return;
+  clearTimeout(SYNC.timer);
+  SYNC.timer = setTimeout(() => syncNow(), 1500);
+}
+
+function localSnapshot() {
+  return {
+    v: 1,
+    progress: loadProgress(),
+    vocab: loadVocab(),
+    vocabDel: loadVocabDel(),
+  };
+}
+
+function ts(x) {
+  const t = Date.parse(x || "");
+  return Number.isFinite(t) ? t : 0;
+}
+
+function mergeSnapshots(a, b) {
+  const progress = { ...(a.progress || {}) };
+  for (const [k, v] of Object.entries(b.progress || {})) {
+    if (!progress[k] || ts(v?.at) > ts(progress[k]?.at)) progress[k] = v;
+  }
+  const vocabDel = { ...(a.vocabDel || {}) };
+  for (const [k, t] of Object.entries(b.vocabDel || {})) {
+    if (ts(t) > ts(vocabDel[k])) vocabDel[k] = t;
+  }
+  const byKey = new Map();
+  for (const v of [...(a.vocab || []), ...(b.vocab || [])]) {
+    const k = vocabKey(v);
+    const cur = byKey.get(k);
+    if (!cur) byKey.set(k, v);
+    else if (ts(v.at) > ts(cur.at) || (!cur.def && v.def)) byKey.set(k, v);
+  }
+  const vocab = [...byKey.values()]
+    .filter((v) => !(vocabDel[vocabKey(v)] && ts(vocabDel[vocabKey(v)]) >= ts(v.at)))
+    .sort((x, y) => ts(x.at) - ts(y.at));
+  return { v: 1, progress, vocab, vocabDel };
+}
+
+// order-independent fingerprint, so an unchanged state doesn't trigger an upload
+function canonSnapshot(snap) {
+  const sortObj = (o) => Object.keys(o || {}).sort().map((k) => [k, o[k]]);
+  const vocab = (snap.vocab || []).map((v) => [vocabKey(v), v]).sort((a, b) => (a[0] < b[0] ? -1 : 1));
+  return JSON.stringify([sortObj(snap.progress), vocab, sortObj(snap.vocabDel)]);
+}
+
+async function gh(path, token, opts = {}) {
+  const res = await fetch(`https://api.github.com${path}`, {
+    ...opts,
+    cache: "no-store",
+    headers: {
+      Authorization: `Bearer ${token}`,
+      Accept: "application/vnd.github+json",
+      ...(opts.body ? { "Content-Type": "application/json" } : {}),
+    },
+  });
+  if (!res.ok) {
+    const err = new Error(`GitHub ${res.status}`);
+    err.status = res.status;
+    throw err;
+  }
+  return res.json();
+}
+
+async function readGist(cfg) {
+  const g = await gh(`/gists/${cfg.gistId}`, cfg.token);
+  const f = g.files?.[GIST_FILE];
+  if (!f) return {};
+  const text = f.truncated ? await (await fetch(f.raw_url, { cache: "no-store" })).text() : f.content;
+  return JSON.parse(text || "{}");
+}
+
+async function ensureGist(cfg) {
+  if (cfg.gistId) return cfg;
+  const list = await gh(`/gists?per_page=100`, cfg.token);
+  const found = list.find((g) => g.files && g.files[GIST_FILE]);
+  if (found) {
+    cfg.gistId = found.id;
+  } else {
+    const created = await gh(`/gists`, cfg.token, {
+      method: "POST",
+      body: JSON.stringify({
+        description: "OET Reading practice — progress & vocab sync",
+        public: false,
+        files: { [GIST_FILE]: { content: JSON.stringify(localSnapshot()) } },
+      }),
+    });
+    cfg.gistId = created.id;
+  }
+  saveSyncCfg(cfg);
+  return cfg;
+}
+
+// Pull → merge → write local → push if remote differs. Returns true if local data changed.
+async function syncNow() {
+  let cfg = syncCfg();
+  if (!cfg.token) return false;
+  if (SYNC.busy) {
+    SYNC.again = true;
+    return false;
+  }
+  SYNC.busy = true;
+  SYNC.status = "동기화 중…";
+  let changed = false;
+  try {
+    cfg = await ensureGist(cfg);
+    const remote = await readGist(cfg);
+    // snapshot + write with no await in between, so no local edit can be lost
+    const before = localSnapshot();
+    const merged = mergeSnapshots(before, remote);
+    changed = JSON.stringify(merged.progress) !== JSON.stringify(before.progress) ||
+      JSON.stringify(merged.vocab) !== JSON.stringify(before.vocab);
+    localStorage.setItem(PROGRESS_KEY, JSON.stringify(merged.progress));
+    localStorage.setItem(VOCAB_KEY, JSON.stringify(merged.vocab));
+    localStorage.setItem(VOCAB_DEL_KEY, JSON.stringify(merged.vocabDel));
+    if (canonSnapshot(merged) !== canonSnapshot(remote)) {
+      await gh(`/gists/${cfg.gistId}`, cfg.token, {
+        method: "PATCH",
+        keepalive: document.visibilityState === "hidden",
+        body: JSON.stringify({ files: { [GIST_FILE]: { content: JSON.stringify(merged) } } }),
+      });
+    }
+    cfg.lastSync = new Date().toISOString();
+    saveSyncCfg(cfg);
+    SYNC.error = "";
+    SYNC.status = "동기화됨";
+  } catch (err) {
+    if (err.status === 404) {
+      // gist was deleted on GitHub → recreate on next attempt
+      delete cfg.gistId;
+      saveSyncCfg(cfg);
+    }
+    SYNC.error =
+      err.status === 401
+        ? "토큰이 유효하지 않거나 만료되었습니다."
+        : err.status === 403 || err.status === 404
+          ? "토큰에 gist 권한이 없거나 Gist를 찾을 수 없습니다."
+          : `동기화 실패 (${err.message || err}) — 인터넷 연결을 확인하세요.`;
+    SYNC.status = "오류";
+  } finally {
+    SYNC.busy = false;
+  }
+  if (SYNC.again) {
+    SYNC.again = false;
+    return (await syncNow()) || changed;
+  }
+  return changed;
+}
+
+// Re-render after a background pull only where it can't disturb an attempt in progress.
+async function syncAndRefresh() {
+  const changed = await syncNow();
+  if (STATE.data && (changed || STATE.view === "sync")) {
+    if (["home", "vocab", "wrong", "sync"].includes(STATE.view)) render();
+  }
+}
+
+function syncLink() {
+  const cfg = syncCfg();
+  return `${location.origin}${location.pathname}#sync=${encodeURIComponent(cfg.token || "")}`;
+}
+
+function renderSync() {
+  const cfg = syncCfg();
+  if (!cfg.token) {
+    return `
+    <div class="card sync-card">
+      <h2>기기 간 동기화</h2>
+      <p class="lead">푼 기록(점수·내 답)과 단어장을 GitHub 계정의 <strong>비공개 Gist</strong>에 저장해서, 아이패드·아이폰·PC 어디서 열어도 같은 상태로 보이게 합니다.</p>
+      <ol class="sync-steps">
+        <li>아래 버튼으로 GitHub 토큰 만들기 (로그인 필요). <strong>gist</strong> 권한만 체크된 상태 그대로, Expiration은 원하는 기간(예: No expiration) 선택 → <em>Generate token</em>.</li>
+        <li>생성된 <code>ghp_…</code> 토큰을 복사해서 아래 칸에 붙여넣고 <em>연결</em>.</li>
+        <li>다른 기기는 연결 후 나오는 <em>연결 링크</em>를 카톡으로 보내 열기만 하면 됩니다.</li>
+      </ol>
+      <a class="btn secondary sync-link" href="${TOKEN_URL}" target="_blank" rel="noopener">① GitHub 토큰 만들기 ↗</a>
+      <input id="syncToken" class="sa-input" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="ghp_xxxxxxxxxxxxxxxx" />
+      <button class="btn primary" id="syncConnect">② 연결</button>
+      ${SYNC.error ? `<p class="sync-err">${escapeHtml(SYNC.error)}</p>` : ""}
+      <p class="hint">이 기기에 이미 있는 기록은 사라지지 않고 서버 기록과 합쳐집니다.</p>
+    </div>`;
+  }
+  const last = cfg.lastSync ? new Date(cfg.lastSync).toLocaleString() : "아직 없음";
+  return `
+    <div class="card sync-card">
+      <h2>기기 간 동기화 · 켜짐</h2>
+      <p class="lead">문제를 채점하거나 단어를 저장하면 자동으로 올라가고, 앱을 열거나 다시 돌아올 때 다른 기기의 기록을 받아옵니다.</p>
+      <p>상태: <strong>${escapeHtml(SYNC.busy ? "동기화 중…" : SYNC.status || "대기")}</strong><br/>마지막 동기화: ${escapeHtml(last)}</p>
+      ${SYNC.error ? `<p class="sync-err">${escapeHtml(SYNC.error)}</p>` : ""}
+      <button class="btn primary" id="syncNowBtn">지금 동기화</button>
+      <h3 style="margin-top:18px">다른 기기 연결</h3>
+      <p class="hint">이 링크를 다른 기기에서 열면 바로 연결됩니다. 링크에 토큰이 들어 있으니 본인에게만 보내세요 (카톡 나와의 채팅 등).</p>
+      <button class="btn secondary" id="syncCopy">연결 링크 복사</button>
+      <textarea id="syncLinkBox" class="sync-linkbox" readonly hidden>${escapeHtml(syncLink())}</textarea>
+      <button class="btn secondary danger" id="syncOff" style="margin-top:18px">이 기기 연결 해제</button>
+    </div>`;
+}
+
+function bindSync() {
+  $("main").onclick = async (e) => {
+    if (e.target.id === "syncConnect") {
+      const token = ($("syncToken").value || "").trim();
+      if (!/^(ghp_|github_pat_)\w+/.test(token)) {
+        toast("ghp_ 로 시작하는 토큰을 붙여넣으세요");
+        return;
+      }
+      saveSyncCfg({ token });
+      e.target.textContent = "연결 중…";
+      await syncNow();
+      if (SYNC.error) saveSyncCfg({});
+      else toast("동기화 연결됨");
+      render();
+      return;
+    }
+    if (e.target.id === "syncNowBtn") {
+      e.target.textContent = "동기화 중…";
+      await syncNow();
+      render();
+      toast(SYNC.error ? "동기화 실패" : "동기화 완료");
+      return;
+    }
+    if (e.target.id === "syncCopy") {
+      const link = syncLink();
+      try {
+        await navigator.clipboard.writeText(link);
+        toast("연결 링크를 복사했습니다");
+      } catch {
+        const box = $("syncLinkBox");
+        box.hidden = false;
+        box.select();
+        toast("링크를 길게 눌러 복사하세요");
+      }
+      return;
+    }
+    if (e.target.id === "syncOff") {
+      if (confirm("이 기기에서 동기화를 끌까요? (기록은 이 기기와 Gist에 그대로 남습니다)")) {
+        saveSyncCfg({});
+        SYNC.status = "";
+        SYNC.error = "";
+        render();
+      }
+    }
+  };
+}
+
+// "…/#sync=TOKEN" link from another device → connect this one
+function consumeSyncLink() {
+  const m = /[#&]sync=([^&]+)/.exec(location.hash || "");
+  if (!m) return false;
+  const token = decodeURIComponent(m[1]);
+  history.replaceState(null, "", location.pathname + location.search);
+  if (!/^(ghp_|github_pat_)\w+/.test(token)) return false;
+  const cfg = syncCfg();
+  if (cfg.token !== token) saveSyncCfg({ token });
+  return true;
+}
+
 async function init() {
+  const fromLink = consumeSyncLink();
   $("btnBack").onclick = () => {
     if (STATE.view !== "home") {
       STATE.view = "home";
@@ -1387,7 +1708,7 @@ async function init() {
     render();
   };
 
-  const DATA_V = "202609252050"; // bump when data/*.json changes (Safari caches aggressively)
+  const DATA_V = "202609291142"; // bump when data/*.json changes (Safari caches aggressively)
   const [cRes, aRes, bRes] = await Promise.all([
     fetch(`data/partC.json?v=${DATA_V}`, { cache: "no-cache" }),
     fetch(`data/partA.json?v=${DATA_V}`, { cache: "no-cache" }),
@@ -1407,6 +1728,21 @@ async function init() {
     sets,
   };
   render();
+
+  if (syncCfg().token) {
+    await syncAndRefresh();
+    if (fromLink) toast(SYNC.error ? "동기화 연결 실패 — 동기화 화면을 확인하세요" : "이 기기도 동기화 연결됨");
+  }
+  document.addEventListener("visibilitychange", () => {
+    if (!syncCfg().token) return;
+    if (document.visibilityState === "visible") syncAndRefresh();
+    else if (SYNC.timer) {
+      // leaving the app: flush a pending upload now
+      clearTimeout(SYNC.timer);
+      SYNC.timer = null;
+      syncNow();
+    }
+  });
 }
 
 init().catch((err) => {
